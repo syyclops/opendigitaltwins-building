@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingExpansionTank;1",
+  "@id": "dtmi:com:syyclops:PlumbingExpansionTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Expansion Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingTank;1"
+    "dtmi:com:syyclops:PlumbingTank;1"
   ],
   "contents": [
     {

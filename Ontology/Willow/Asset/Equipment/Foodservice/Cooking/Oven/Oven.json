@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Oven;1",
+  "@id": "dtmi:com:syyclops:Oven;1",
   "@type": "Interface",
   "displayName": {
     "en": "Oven"
   },
   "extends" : [
-    "dtmi:com:willowinc:CookingEquipment;1"
+    "dtmi:com:syyclops:CookingEquipment;1"
   ],
   "contents": [
   ],

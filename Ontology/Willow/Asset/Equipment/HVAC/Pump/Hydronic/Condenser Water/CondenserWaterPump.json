@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CondenserWaterPump;1",
+  "@id": "dtmi:com:syyclops:CondenserWaterPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Water Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:HydronicPump;1"
+    "dtmi:com:syyclops:HydronicPump;1"
   ],
   "contents": [
   ],

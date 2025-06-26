@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighLoadCurrentAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighLoadCurrentAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Load Current Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high load (output) electrical current alarm"},
   "extends" : [
-    "dtmi:com:willowinc:HighCurrentAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighCurrentAlarmSetpoint;1"
   ],
   "contents": [
 

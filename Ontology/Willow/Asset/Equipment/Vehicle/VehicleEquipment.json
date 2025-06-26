@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:VehicleEquipment;1",
+  "@id": "dtmi:com:syyclops:VehicleEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vehicle Equipment"
@@ -8,7 +8,7 @@
     "en": "Equipment used to aid in the movement and operations of vehicles such as access control, parking, and dock loading."
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

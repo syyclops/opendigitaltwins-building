@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Actuator;1",
+  "@id": "dtmi:com:syyclops:Actuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Actuator"
@@ -8,7 +8,7 @@
     "en": "An actuator takes some control input and executes some real-world action based on this input. Examples include setting dampers/valves in heating/cooling systems at certain configurations, opening or closing a smart lock, turning on or off an electric radiator, etc. REC does not provide semantics for every type of actuator you might find in a building; rather we here provide classes and properties that allows users to define their own actuator models, based on the systems they have, adhering to REC."
   },
   "extends" : [
-    "dtmi:com:willowinc:Capability;1"
+    "dtmi:com:syyclops:Capability;1"
   ],
   "contents": [
     {
@@ -20,7 +20,7 @@
         "en": "observed by"
       },
       "name": "observedBy",
-      "target": "dtmi:com:willowinc:Sensor;1"
+      "target": "dtmi:com:syyclops:Sensor;1"
     }
   ],
   "@context": [

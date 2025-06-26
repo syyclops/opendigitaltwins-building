@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PortableAirConditioner;1",
+  "@id": "dtmi:com:syyclops:PortableAirConditioner;1",
   "@type": "Interface",
   "displayName": {
     "en": "Portable Air Conditioner"
@@ -8,7 +8,7 @@
     "en": "A packaged air conditioner which has wheels for rolling between locations to spot cool a space (a.k.a. Spot Cooler)."
   },
   "extends" : [
-    "dtmi:com:willowinc:PackagedAirConditioner;1"
+    "dtmi:com:syyclops:PackagedAirConditioner;1"
   ],
   "contents": [
 

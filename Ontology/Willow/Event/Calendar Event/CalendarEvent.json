@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CalendarEvent;1",
+  "@id": "dtmi:com:syyclops:CalendarEvent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Calendar Event"
@@ -8,7 +8,7 @@
     "en": "An event that is scheduled on a calendar of a person, a space, or both. This data model closely adheres to an Event in the Microsoft Graph."
   },
   "extends" : [
-    "dtmi:com:willowinc:Event;1"
+    "dtmi:com:syyclops:Event;1"
   ],
   "contents": [
     {
@@ -20,7 +20,7 @@
       "description": {
         "en": "A person or organization which has been invited to or planning to attend a calendar event."
       },
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -31,7 +31,7 @@
       "description": {
         "en": "A person or organization which has organized a calendar event."
       },
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -42,7 +42,7 @@
       "description": {
         "en": "A space where a calendar event is taking place."
       },
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Property",
@@ -60,7 +60,7 @@
         "en": "Recurrence"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:PatternedRecurrence;1"
+      "schema": "dtmi:com:syyclops:PatternedRecurrence;1"
   },
     {
       "@type": "Property",
@@ -109,7 +109,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:PatternedRecurrence;1",
+      "@id": "dtmi:com:syyclops:PatternedRecurrence;1",
       "@type": "Object",
       "fields": [
         {
@@ -118,7 +118,7 @@
             "en": "Pattern"
           },
           "schema": {
-            "@id": "dtmi:com:willowinc:RecurrencePattern;1",
+            "@id": "dtmi:com:syyclops:RecurrencePattern;1",
             "@type": "Object",
             "fields": [
               {
@@ -178,7 +178,7 @@
                 },
                 "schema": {
                   "@type": "Array",
-                  "elementSchema": "dtmi:com:willowinc:CalendarEventDayOfWeek;1"
+                  "elementSchema": "dtmi:com:syyclops:CalendarEventDayOfWeek;1"
                 }
               },
               {
@@ -186,7 +186,7 @@
                 "displayName": {
                   "en": "First Day of Week"
                 },
-                "schema": "dtmi:com:willowinc:CalendarEventDayOfWeek;1"
+                "schema": "dtmi:com:syyclops:CalendarEventDayOfWeek;1"
               },
               {
                 "name": "interval",
@@ -204,7 +204,7 @@
             "en": "Range"
           },
           "schema": {
-            "@id": "dtmi:com:willowinc:RecurrenceRange;1",
+            "@id": "dtmi:com:syyclops:RecurrenceRange;1",
             "@type": "Object",
             "fields": [
               {
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:CalendarEventDayOfWeek;1",
+      "@id": "dtmi:com:syyclops:CalendarEventDayOfWeek;1",
       "@type": "Enum",
       "enumValues": [
         {

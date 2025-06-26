@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighCondensateLevelAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighCondensateLevelAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Condensate Level Alarm State"
   },
   "description": {"en": "The Boolean state of the high condensate level which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighWaterLevelAlarmState;1"
+    "dtmi:com:syyclops:HighWaterLevelAlarmState;1"
   ],
   "contents": [
   ],

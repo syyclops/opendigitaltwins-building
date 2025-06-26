@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Chiller;1",
+  "@id": "dtmi:com:syyclops:Chiller;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chiller"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -14,7 +14,7 @@
         "en": "Evaporator"
       },
       "name": "evaporator",
-      "schema": "dtmi:com:willowinc:Evaporator;1"
+      "schema": "dtmi:com:syyclops:Evaporator;1"
     },
     {
       "@type": "Component",
@@ -22,7 +22,7 @@
         "en": "Compressor"
       },
       "name": "compressor",
-      "schema": "dtmi:com:willowinc:Compressor;1"
+      "schema": "dtmi:com:syyclops:Compressor;1"
     },
     {
       "@type": "Property",

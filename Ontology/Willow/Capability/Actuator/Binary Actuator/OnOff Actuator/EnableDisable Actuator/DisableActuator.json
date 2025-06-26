@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:DisableActuator;1",
+  "@id": "dtmi:com:syyclops:DisableActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Disable Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the equipment to 'disable' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:EnableDisableActuator;1",
-    "dtmi:com:willowinc:OffActuator;1"
+    "dtmi:com:syyclops:EnableDisableActuator;1",
+    "dtmi:com:syyclops:OffActuator;1"
   ],
   "contents": [
   ],

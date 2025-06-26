@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringPeopleCountSensor;1",
+  "@id": "dtmi:com:syyclops:EnteringPeopleCountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering People Count Sensor"
@@ -8,7 +8,7 @@
     "en": "A totalized count of the number of people entering a space over a defined period of time. Assumed to be the total, or nonunique, count of people."
   },
   "extends" : [
-    "dtmi:com:willowinc:PeopleCountSensor;1"
+    "dtmi:com:syyclops:PeopleCountSensor;1"
   ],
   "contents": [
     

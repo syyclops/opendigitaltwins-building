@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AssetComponent;1",
+  "@id": "dtmi:com:syyclops:AssetComponent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Asset Component"
@@ -8,7 +8,7 @@
     "en": "A constituent part of a complete asset."
   },
   "extends" : [
-    "dtmi:com:willowinc:Component;1"
+    "dtmi:com:syyclops:Component;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:StateSetpoint;1",
+  "@id": "dtmi:com:syyclops:StateSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "State Setpoint"
   },
   "description": {"en": "The desired state for equipment"},
   "extends" : [
-    "dtmi:com:willowinc:Setpoint;1"
+    "dtmi:com:syyclops:Setpoint;1"
   ],
   "contents": [
 

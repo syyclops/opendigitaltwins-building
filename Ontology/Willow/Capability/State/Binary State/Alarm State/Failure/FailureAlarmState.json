@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FailureAlarmState;1",
+  "@id": "dtmi:com:syyclops:FailureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Failure Alarm State"
   },
   "description": {"en": "The Boolean state of the failure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmState;1"
+    "dtmi:com:syyclops:AlarmState;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HotDeckDischargeAirFlowSensor;1",
+  "@id": "dtmi:com:syyclops:HotDeckDischargeAirFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Deck Discharge Air Flow Sensor"
   },
   "description": {"en": "The flow feedback from a sensor associated with discharge air to a terminal unit from the hot deck of an air handling unit"},
   "extends" : [
-    "dtmi:com:willowinc:DischargeAirFlowSensor;1"
+    "dtmi:com:syyclops:DischargeAirFlowSensor;1"
   ],
   "contents": [
   ],

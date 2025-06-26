@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LinearSpeedSetpoint;1",
+  "@id": "dtmi:com:syyclops:LinearSpeedSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Linear Speed Setpoint"
   },
   "description": {"en": "The desired value associated with linear speed"},
   "extends" : [
-    "dtmi:com:willowinc:SpeedSetpoint;1"
+    "dtmi:com:syyclops:SpeedSetpoint;1"
   ],
   "contents": [
 

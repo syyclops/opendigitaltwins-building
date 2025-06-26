@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ModbusController;1",
+  "@id": "dtmi:com:syyclops:ModbusController;1",
   "@type": "Interface",
   "displayName": {
     "en": "Modbus Controller"
   },
   "extends" : [
-    "dtmi:com:willowinc:Controller;1"
+    "dtmi:com:syyclops:Controller;1"
   ],
   "contents": [
 

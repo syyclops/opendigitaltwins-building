@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerantTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:RefrigerantTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigerant Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with refrigerant"},
   "extends" : [
-    "dtmi:com:willowinc:TemperatureSensor;1"
+    "dtmi:com:syyclops:TemperatureSensor;1"
   ],
   "contents": [
   ],

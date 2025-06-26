@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PhotovoltaicPanel;1",
+  "@id": "dtmi:com:syyclops:PhotovoltaicPanel;1",
   "@type": "Interface",
   "displayName": {
     "en": "PV Panel"
@@ -8,7 +8,7 @@
     "en": "An integrated assembly of interconnected photovoltaic (PV) cells designed to deliver a selected level of working voltage and current at its output terminals packaged for protection against environment degradation and suited for incorporation in photovoltaic power systems. (Brick Schema)"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalGenerationStorageEquipment;1"
+    "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1"
   ],
   "contents": [
     {
@@ -62,7 +62,7 @@
         "en": "Electrical characteristics under the Standard Test Conditions (STC) as defined in IEC 61215"
       },
       "name": "electricalPropertiesSTC",
-      "schema": "dtmi:com:willowinc:PVPanelElectricalProperties;1",
+      "schema": "dtmi:com:syyclops:PVPanelElectricalProperties;1",
       "writable": true
     },
     {
@@ -74,7 +74,7 @@
         "en": "Electrical characteristics under the Nominal Module Operating Temperature (NMOT) as defined in IEC 61215"
       },
       "name": "electricalPropertiesNMOT",
-      "schema": "dtmi:com:willowinc:PVPanelElectricalProperties;1",
+      "schema": "dtmi:com:syyclops:PVPanelElectricalProperties;1",
       "writable": true
     },
     {
@@ -89,7 +89,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:PVPanelElectricalProperties;1",
+      "@id": "dtmi:com:syyclops:PVPanelElectricalProperties;1",
       "@type": "Object",
       "fields": [
         {

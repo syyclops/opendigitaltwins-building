@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DesiccantDehumidifier;1",
+  "@id": "dtmi:com:syyclops:DesiccantDehumidifier;1",
   "@type": "Interface",
   "displayName": {
     "en": "Desiccant Dehumidifier"
   },
   "extends" : [
-    "dtmi:com:willowinc:Dehumidifier;1"
+    "dtmi:com:syyclops:Dehumidifier;1"
   ],
   "contents": [
     

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:MakeupAirUnit;1",
+  "@id": "dtmi:com:syyclops:MakeupAirUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Makeup Air Unit"
@@ -8,7 +8,7 @@
     "en": "A device designed to condition ventilation air introduced into a space or to replace air exhausted from a process or general area exhaust. The device may be used to prevent negative pressure within buildings or to reduce airborne contaminants in a space."
   },
   "extends" : [
-    "dtmi:com:willowinc:AirHandlingUnit;1"
+    "dtmi:com:syyclops:AirHandlingUnit;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ActiveChilledBeam;1",
+  "@id": "dtmi:com:syyclops:ActiveChilledBeam;1",
   "@type": "Interface",
   "displayName": {
     "en": "Active Chilled Beam"
   },
   "extends" : [
-    "dtmi:com:willowinc:ChilledBeam;1"
+    "dtmi:com:syyclops:ChilledBeam;1"
   ],
   "contents": [
     {
@@ -77,7 +77,7 @@
         "en": "heating method"
       },
       "name": "heatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

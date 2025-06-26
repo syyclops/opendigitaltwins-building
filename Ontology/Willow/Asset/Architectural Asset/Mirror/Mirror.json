@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Mirror;1",
+  "@id": "dtmi:com:syyclops:Mirror;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mirror"
   },
   "extends" : [
-    "dtmi:com:willowinc:ArchitecturalAsset;1"
+    "dtmi:com:syyclops:ArchitecturalAsset;1"
   ],
   "contents": [
     {

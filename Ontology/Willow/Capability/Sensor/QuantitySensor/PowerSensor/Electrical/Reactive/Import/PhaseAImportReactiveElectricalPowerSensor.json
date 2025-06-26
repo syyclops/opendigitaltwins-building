@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseAImportReactiveElectricalPowerSensor;1",
+  "@id": "dtmi:com:syyclops:PhaseAImportReactiveElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase A Import Reactive Electrical Power Sensor"
   },
   "description": {"en": "The reactive electrical power feedback from a sensor associated with phase a import"},
   "extends" : [
-    "dtmi:com:willowinc:PhaseAReactiveElectricalPowerSensor;1"
+    "dtmi:com:syyclops:PhaseAReactiveElectricalPowerSensor;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SecuritySystem;1",
+  "@id": "dtmi:com:syyclops:SecuritySystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Security System"
   },
   "extends" : [
-    "dtmi:com:willowinc:System;1"
+    "dtmi:com:syyclops:System;1"
   ],
   "contents": [
   ],

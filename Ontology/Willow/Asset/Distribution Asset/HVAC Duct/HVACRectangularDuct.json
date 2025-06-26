@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:HVACRectangularDuct;1",
+  "@id": "dtmi:com:syyclops:HVACRectangularDuct;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Rectangular Duct"
   },
-  "extends": "dtmi:com:willowinc:HVACDuct;1",
+  "extends": "dtmi:com:syyclops:HVACDuct;1",
   "contents": [
     {
       "@type": ["Property", "Length"],

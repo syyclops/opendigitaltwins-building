@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AsBuiltDrawing;1",
+  "@id": "dtmi:com:syyclops:AsBuiltDrawing;1",
   "@type": "Interface",
   "displayName": {
     "en": "As-Built Drawing"
   },
   "extends" : [
-    "dtmi:com:willowinc:Drawing;1"
+    "dtmi:com:syyclops:Drawing;1"
   ],
   "contents": [
   ],

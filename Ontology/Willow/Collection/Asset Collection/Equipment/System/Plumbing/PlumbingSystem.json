@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingSystem;1",
+  "@id": "dtmi:com:syyclops:PlumbingSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Plumbing System"
   },
   "extends" : [
-    "dtmi:com:willowinc:System;1"
+    "dtmi:com:syyclops:System;1"
   ],
   "contents": [
   ],

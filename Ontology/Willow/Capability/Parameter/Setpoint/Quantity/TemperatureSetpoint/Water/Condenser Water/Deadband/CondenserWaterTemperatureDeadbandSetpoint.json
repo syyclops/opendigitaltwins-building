@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:CondenserWaterTemperatureDeadbandSetpoint;1",
+  "@id": "dtmi:com:syyclops:CondenserWaterTemperatureDeadbandSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Water Temperature Deadband Setpoint"
   },
   "description": {"en": "The deadband around the condenser water temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterTemperatureSetpoint;1",
-    "dtmi:com:willowinc:DeadbandSetpoint;1"
+    "dtmi:com:syyclops:CondenserWaterTemperatureSetpoint;1",
+    "dtmi:com:syyclops:DeadbandSetpoint;1"
   ],
   "contents": [
 

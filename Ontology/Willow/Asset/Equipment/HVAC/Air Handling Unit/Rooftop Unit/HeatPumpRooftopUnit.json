@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HeatPumpRooftopUnit;1",
+  "@id": "dtmi:com:syyclops:HeatPumpRooftopUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Pump Rooftop Unit"
@@ -8,7 +8,7 @@
     "en": "A rooftop unit which uses a heat pump to provide cooling and heating."
   },
   "extends" : [
-    "dtmi:com:willowinc:RooftopUnit;1"
+    "dtmi:com:syyclops:RooftopUnit;1"
   ],
   "contents": [
   ],

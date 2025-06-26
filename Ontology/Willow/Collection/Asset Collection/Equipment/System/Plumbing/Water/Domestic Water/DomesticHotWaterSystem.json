@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DomesticHotWaterSystem;1",
+  "@id": "dtmi:com:syyclops:DomesticHotWaterSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Domestic Hot Water System"
   },
   "extends" : [
-    "dtmi:com:willowinc:DomesticWaterSystem;1"
+    "dtmi:com:syyclops:DomesticWaterSystem;1"
   ],
   "contents": [
   ],

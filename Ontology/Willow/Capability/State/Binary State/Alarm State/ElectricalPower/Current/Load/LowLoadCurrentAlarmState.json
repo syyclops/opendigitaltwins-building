@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowLoadCurrentAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowLoadCurrentAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Load Current Alarm State"
   },
   "description": {"en": "The Boolean state of the low load (output) electrical current alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowCurrentAlarmState;1"
+    "dtmi:com:syyclops:LowCurrentAlarmState;1"
   ],
   "contents": [
 

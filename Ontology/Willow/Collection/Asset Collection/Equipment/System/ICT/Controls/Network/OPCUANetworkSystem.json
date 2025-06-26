@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:OPCUANetworkSystem;1",
+  "@id": "dtmi:com:syyclops:OPCUANetworkSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "OPC UA Network System"
   },
   "extends" : [
-    "dtmi:com:willowinc:ControlsSystem;1"
+    "dtmi:com:syyclops:ControlsSystem;1"
   ],
   "contents": [
   ],

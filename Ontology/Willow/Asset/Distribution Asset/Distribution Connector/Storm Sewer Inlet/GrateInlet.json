@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:GrateInlet;1",
+  "@id": "dtmi:com:syyclops:GrateInlet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Grate Inlet"
   },
-  "extends": "dtmi:com:willowinc:StormSewerInlet;1",
+  "extends": "dtmi:com:syyclops:StormSewerInlet;1",
   "contents": [
 
   ],

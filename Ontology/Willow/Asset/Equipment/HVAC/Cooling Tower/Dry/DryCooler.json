@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:DryCooler;1",
+  "@id": "dtmi:com:syyclops:DryCooler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dry Cooler"
@@ -8,7 +8,7 @@
     "en": "A closed-circuit cooler which leverages sensible heat rejection using a heat exchanger that separates the process fluid from the ambient air (a.ka. Dry Cooling Tower)."
   },
   "extends" : [
-    "dtmi:com:willowinc:CoolingTower;1"
+    "dtmi:com:syyclops:CoolingTower;1"
   ],
   "contents": [
 

@@ -11,7 +11,7 @@ interface DTDLInterface {
   "@type": string;
   displayName?: string;
   description?: string;
-  extends?: string[];
+  extends?: string | string[];
   contents?: DTDLContent[];
 }
 
@@ -49,13 +49,13 @@ class DTDLToSQL {
     this.classMap = new Map();
     this.propertyTypeMap = new Map();
     this.enumDefMap = new Map();
-    this.ontologyId = "dtmi:syyclops:Syyclops;1"; // Using DTMI format for ontology ID
+    this.ontologyId = "dtmi:com:syyclops:Syyclops;1"; // Updated ontology ID
     this.timestamp = new Date().toISOString();
   }
 
   async loadDTDL(ontologyPath?: string): Promise<void> {
     try {
-      // Default to the Ontology/Syyclops directory relative to the project root
+      // Default to the Ontology/Willow directory relative to the project root
       const defaultPath = path.join(
         __dirname,
         "..",
@@ -194,9 +194,23 @@ VALUES (
       const description = this.getStringOrObjectValue(model.description) || "";
 
       // Get parent interfaces
-      const extendsList = model.extends || [];
-      const parentId = extendsList.length > 0 ? extendsList[0] : null; // Take first parent
-      const isRoot = extendsList.length === 0;
+      const extendsValue = model.extends;
+      let parentId: string | null = null;
+      let isRoot = true;
+
+      if (extendsValue) {
+        if (Array.isArray(extendsValue)) {
+          // Handle array format
+          if (extendsValue.length > 0) {
+            parentId = extendsValue[0];
+            isRoot = false;
+          }
+        } else {
+          // Handle string format
+          parentId = extendsValue;
+          isRoot = false;
+        }
+      }
 
       sql.push(`
 INSERT INTO syyclops.ontology_classes (id, name, slug, ontology_id, is_root, parent_id, created_at)
@@ -304,11 +318,15 @@ VALUES (
                 const enumDefId = this.generateUUID();
                 this.enumDefMap.set(propId, enumDefId);
 
+                // Create unique enum definition name by including class DTMI
+                const classShortName = this.extractNameFromDTMI(model["@id"]);
+                const uniqueEnumName = `${classShortName}_${propName}_enum`;
+
                 sql.push(`
 INSERT INTO syyclops.ontology_enum_definitions (id, name, created_at)
 VALUES (
     '${enumDefId}',
-    '${propName}_enum',
+    '${uniqueEnumName}',
     '${this.timestamp}'
 );`);
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TotalExportReactiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:TotalExportReactiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Export Reactive Electrical Energy Sensor"
   },
   "description": {"en": "The reactive electrical energy feedback from a sensor associated with total export"},
   "extends" : [
-    "dtmi:com:willowinc:TotalReactiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:TotalReactiveElectricalEnergySensor;1"
   ],
   "contents": [
 

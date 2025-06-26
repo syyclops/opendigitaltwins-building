@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CurrentImbalanceSensor;1",
+  "@id": "dtmi:com:syyclops:CurrentImbalanceSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Current Imbalance Sensor"
   },
   "description": {"en": "The current imbalance feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:CurrentSensor;1"
+    "dtmi:com:syyclops:CurrentSensor;1"
   ],
   "contents": [
 

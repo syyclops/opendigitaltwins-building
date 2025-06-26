@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FirePump;1",
+  "@id": "dtmi:com:syyclops:FirePump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerEquipment;1",
-    "dtmi:com:willowinc:Pump;1"
+    "dtmi:com:syyclops:SprinklerEquipment;1",
+    "dtmi:com:syyclops:Pump;1"
   ],
   "contents": [
     

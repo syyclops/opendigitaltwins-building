@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EjectorPump;1",
+  "@id": "dtmi:com:syyclops:EjectorPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ejector Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingPump;1"
+    "dtmi:com:syyclops:PlumbingPump;1"
   ],
   "contents": [
   ],

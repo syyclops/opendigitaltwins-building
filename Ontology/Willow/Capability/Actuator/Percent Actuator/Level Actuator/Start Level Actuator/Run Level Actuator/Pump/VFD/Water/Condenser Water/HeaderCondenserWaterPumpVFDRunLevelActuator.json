@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderCondenserWaterPumpVFDRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:HeaderCondenserWaterPumpVFDRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Condenser Water Pump VFD Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the condenser water header pump vfd"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterPumpVFDRunLevelActuator;1",
-    "dtmi:com:willowinc:HeaderCondenserWaterPumpRunLevelActuator;1"
+    "dtmi:com:syyclops:CondenserWaterPumpVFDRunLevelActuator;1",
+    "dtmi:com:syyclops:HeaderCondenserWaterPumpRunLevelActuator;1"
   ],
   "contents": [
 

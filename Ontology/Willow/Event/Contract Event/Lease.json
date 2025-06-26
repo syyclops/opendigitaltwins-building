@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Lease;1",
+  "@id": "dtmi:com:syyclops:Lease;1",
   "@type": "Interface",
   "displayName": {
     "en": "Lease"
   },
   "extends" : [
-    "dtmi:com:willowinc:ContractEvent;1"
+    "dtmi:com:syyclops:ContractEvent;1"
   ],
   "contents": [
     {
@@ -41,7 +41,7 @@
         "en": "regulated by"
       },
       "name": "regulatedBy",
-      "target": "dtmi:com:willowinc:LeaseContract;1"
+      "target": "dtmi:com:syyclops:LeaseContract;1"
     },
     {
       "@type": "Relationship",
@@ -52,7 +52,7 @@
         "en": "leasor"
       },
       "name": "leasor",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -63,7 +63,7 @@
         "en": "leasee"
       },
       "name": "leasee",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",

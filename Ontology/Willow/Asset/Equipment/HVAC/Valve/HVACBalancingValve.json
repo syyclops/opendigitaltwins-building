@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACBalancingValve;1",
+  "@id": "dtmi:com:syyclops:HVACBalancingValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Balancing Valve (HVAC)"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACValve;1"
+    "dtmi:com:syyclops:HVACValve;1"
   ],
   "contents": [
 

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PaintRetailEquipment;1",
+  "@id": "dtmi:com:syyclops:PaintRetailEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Paint Retail Equipment"
@@ -8,7 +8,7 @@
     "en": "Retail equipment used to identify, dispense, and shake paint"
   },
   "extends" : [
-    "dtmi:com:willowinc:RetailEquipment;1"
+    "dtmi:com:syyclops:RetailEquipment;1"
   ],
   "contents": [
   ],

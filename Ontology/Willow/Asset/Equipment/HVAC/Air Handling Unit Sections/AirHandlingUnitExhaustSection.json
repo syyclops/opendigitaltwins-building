@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirHandlingUnitExhaustSection;1",
+  "@id": "dtmi:com:syyclops:AirHandlingUnitExhaustSection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Handling Unit Exhaust Section"
@@ -8,7 +8,7 @@
     "en": "An exhaust section of an air handling unit."
   },
   "extends": [
-    "dtmi:com:willowinc:AirHandlingUnitSection;1"
+    "dtmi:com:syyclops:AirHandlingUnitSection;1"
   ],
   "contents": [
   ],

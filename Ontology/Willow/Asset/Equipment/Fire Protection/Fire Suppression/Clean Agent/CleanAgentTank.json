@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CleanAgentTank;1",
+  "@id": "dtmi:com:syyclops:CleanAgentTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Clean Agent Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:CleanAgentEquipment;1"
+    "dtmi:com:syyclops:CleanAgentEquipment;1"
   ],
   "contents": [
 

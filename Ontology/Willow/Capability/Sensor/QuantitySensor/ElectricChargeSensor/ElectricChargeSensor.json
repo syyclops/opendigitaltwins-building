@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricChargeSensor;1",
+  "@id": "dtmi:com:syyclops:ElectricChargeSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Charge Sensor"
   },
   "description": {"en": "The electric charge feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

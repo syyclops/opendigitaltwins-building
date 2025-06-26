@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingHighLimit;1",
+  "@id": "dtmi:com:syyclops:HeatingHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating High Limit"
   },
   "description": {"en": "The upper limit on the equipment in heating mode"},
   "extends" : [
-    "dtmi:com:willowinc:HighLimit;1"
+    "dtmi:com:syyclops:HighLimit;1"
   ],
   "contents": [
   ],

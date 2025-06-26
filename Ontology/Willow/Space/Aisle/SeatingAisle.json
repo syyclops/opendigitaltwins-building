@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:SeatingAisle;1",
+  "@id": "dtmi:com:syyclops:SeatingAisle;1",
   "@type": "Interface",
   "displayName": {
     "en": "Seating Aisle"
@@ -8,7 +8,7 @@
     "en": "An aisle that separates sections of seats such as in a theater or stadium."
   },
   "extends" : [
-    "dtmi:com:willowinc:Aisle;1"
+    "dtmi:com:syyclops:Aisle;1"
   ],
   "contents": [
 

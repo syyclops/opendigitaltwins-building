@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighHeaderHotWaterTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighHeaderHotWaterTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Header Hot Water Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with high hot water header temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HighHotWaterTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighHotWaterTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

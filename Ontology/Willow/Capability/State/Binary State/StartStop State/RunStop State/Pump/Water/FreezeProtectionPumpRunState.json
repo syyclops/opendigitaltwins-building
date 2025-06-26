@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FreezeProtectionPumpRunState;1",
+  "@id": "dtmi:com:syyclops:FreezeProtectionPumpRunState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Freeze Protection Pump Run State"
   },
   "description": {"en": "The Boolean state of the freeze protection pump which is 'run' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:WaterPumpRunState;1"
+    "dtmi:com:syyclops:WaterPumpRunState;1"
   ],
   "contents": [
 

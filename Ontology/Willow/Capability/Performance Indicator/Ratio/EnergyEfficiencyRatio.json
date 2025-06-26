@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:EnergyEfficiencyRatio;1",
+  "@id": "dtmi:com:syyclops:EnergyEfficiencyRatio;1",
   "@type": "Interface",
   "displayName": {
     "en": "Energy Efficiency Ratio (EER)"
@@ -8,7 +8,7 @@
     "en": "A performance indicator for equipment with a refrigeration or cooling function which is the ratio of the thermal power output (BTU/hr) to its electrical energy input (W)."
   },
   "extends" : [
-    "dtmi:com:willowinc:RatioPerformanceIndicator;1"
+    "dtmi:com:syyclops:RatioPerformanceIndicator;1"
   ],
   "contents": [
 

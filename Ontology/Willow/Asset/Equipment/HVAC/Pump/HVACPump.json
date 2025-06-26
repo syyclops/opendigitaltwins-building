@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HVACPump;1",
+  "@id": "dtmi:com:syyclops:HVACPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1",
-    "dtmi:com:willowinc:Pump;1"
+    "dtmi:com:syyclops:HVACEquipment;1",
+    "dtmi:com:syyclops:Pump;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SupplyAirGrille;1",
+  "@id": "dtmi:com:syyclops:SupplyAirGrille;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply Air Grille"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirGrille;1"
+    "dtmi:com:syyclops:AirGrille;1"
   ],
   "contents": [
 

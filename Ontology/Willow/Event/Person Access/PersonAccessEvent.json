@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PersonAccessEvent;1",
+  "@id": "dtmi:com:syyclops:PersonAccessEvent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Person Access Event"
   },
   "extends" : [
-    "dtmi:com:willowinc:Event;1"
+    "dtmi:com:syyclops:Event;1"
   ],
   "contents": [
     {
@@ -25,7 +25,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:AccessEventType;1",
+        "@id": "dtmi:com:syyclops:AccessEventType;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [

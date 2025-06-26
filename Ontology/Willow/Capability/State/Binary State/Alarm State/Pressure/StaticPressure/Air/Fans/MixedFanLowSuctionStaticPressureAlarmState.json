@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MixedFanLowSuctionStaticPressureAlarmState;1",
+  "@id": "dtmi:com:syyclops:MixedFanLowSuctionStaticPressureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Fan Low Suction Static Pressure Alarm State"
   },
   "description": {"en": "The Boolean state of the mixed fan low suction static pressure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:FanLowSuctionStaticPressureAlarmState;1"
+    "dtmi:com:syyclops:FanLowSuctionStaticPressureAlarmState;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamOneThirdValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:SteamOneThirdValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam One-Third Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the steam one-third valve"},
   "extends" : [
-    "dtmi:com:willowinc:SteamValvePositionActuator;1"
+    "dtmi:com:syyclops:SteamValvePositionActuator;1"
   ],
   "contents": [
   ],

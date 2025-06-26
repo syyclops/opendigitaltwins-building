@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CondenserLeavingRefrigerantTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:CondenserLeavingRefrigerantTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Leaving Refrigerant Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with refrigerant leaving the condenser"},
   "extends" : [
-    "dtmi:com:willowinc:RefrigerantTemperatureSensor;1"
+    "dtmi:com:syyclops:RefrigerantTemperatureSensor;1"
   ],
   "contents": [
   ],

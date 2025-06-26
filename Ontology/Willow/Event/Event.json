@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Event;1",
+  "@id": "dtmi:com:syyclops:Event;1",
   "@type": "Interface",
   "displayName": {
     "en": "Event"
@@ -19,7 +19,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -123,7 +123,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:EventMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:EventMappedIdObject;1"
       }
     },
     {
@@ -217,14 +217,14 @@
             "displayName": {
               "en": "Project Haystack"
             },
-            "schema": "dtmi:com:willowinc:EventAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:EventAlternateClassificationObject;1"
           },
           {
             "name": "brickSchema",
             "displayName": {
               "en": "Brick Schema"
             },
-            "schema": "dtmi:com:willowinc:EventAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:EventAlternateClassificationObject;1"
           }
         ]
       }
@@ -269,7 +269,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:EventAlternateClassificationObject;1",
+      "@id": "dtmi:com:syyclops:EventAlternateClassificationObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:EventMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:EventMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."

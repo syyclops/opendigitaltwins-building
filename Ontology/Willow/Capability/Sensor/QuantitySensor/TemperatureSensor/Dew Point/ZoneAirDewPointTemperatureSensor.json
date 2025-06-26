@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ZoneAirDewPointTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:ZoneAirDewPointTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Zone Air Dew Point Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with zone air dew point"},
   "extends" : [
-    "dtmi:com:willowinc:DewPointTemperatureSensor;1"
+    "dtmi:com:syyclops:DewPointTemperatureSensor;1"
   ],
   "contents": [
   ],

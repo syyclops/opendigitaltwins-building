@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Company;1",
+  "@id": "dtmi:com:syyclops:Company;1",
   "@type": "Interface",
   "displayName": {
     "en": "Company"
@@ -8,7 +8,7 @@
     "en": "An organization of persons operating a business."
   },
   "extends" : [
-    "dtmi:com:willowinc:Organization;1"
+    "dtmi:com:syyclops:Organization;1"
   ],
   "contents": [
 

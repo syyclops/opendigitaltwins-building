@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WarmupDischargeAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:WarmupDischargeAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Warmup Discharge Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with discharge (supply) air temperature during warmup"},
   "extends" : [
-    "dtmi:com:willowinc:DischargeAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:DischargeAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TemperatureSetpointDeviation;1",
+  "@id": "dtmi:com:syyclops:TemperatureSetpointDeviation;1",
   "@type": "Interface",
   "displayName": {
     "en": "Temperature Setpoint Deviation"
@@ -8,7 +8,7 @@
     "en": "The difference between the temperature sensor and setpoint of a space or entity."
   },
   "extends" : [
-    "dtmi:com:willowinc:TemperaturePerformanceIndicator;1"
+    "dtmi:com:syyclops:TemperaturePerformanceIndicator;1"
   ],
   "contents": [
 

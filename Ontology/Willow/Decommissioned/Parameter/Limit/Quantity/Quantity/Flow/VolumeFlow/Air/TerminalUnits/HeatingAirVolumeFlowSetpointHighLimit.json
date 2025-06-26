@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingAirVolumeFlowSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:HeatingAirVolumeFlowSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Air Volume Flow Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with heating air volume flow setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:AirVolumeFlowSetpointHighLimit;1"
+    "dtmi:com:syyclops:AirVolumeFlowSetpointHighLimit;1"
   ],
   "contents": [
     

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirStaticPressureSensor;1",
+  "@id": "dtmi:com:syyclops:ReturnAirStaticPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Static Pressure Sensor"
   },
   "description": {"en": "The static pressure feedback from a sensor associated with return air"},
   "extends" : [
-    "dtmi:com:willowinc:AirStaticPressureSensor;1"
+    "dtmi:com:syyclops:AirStaticPressureSensor;1"
   ],
   "contents": [
     

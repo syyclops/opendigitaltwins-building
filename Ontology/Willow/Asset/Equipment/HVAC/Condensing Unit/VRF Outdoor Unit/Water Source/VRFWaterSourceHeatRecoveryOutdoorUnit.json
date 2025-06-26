@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:VRFWaterSourceHeatRecoveryOutdoorUnit;1",
+  "@id": "dtmi:com:syyclops:VRFWaterSourceHeatRecoveryOutdoorUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "VRF Water Source Heat Recovery Outdoor Unit"
@@ -8,8 +8,8 @@
     "en": "A VRF outdoor unit which provides cooling by transferring heat to a water loop and also uses heat recovered from the cooling process to provide heating."
   },
   "extends" : [
-    "dtmi:com:willowinc:VRFHeatRecoveryOutdoorUnit;1",
-    "dtmi:com:willowinc:WaterSourceCondensingUnit;1"
+    "dtmi:com:syyclops:VRFHeatRecoveryOutdoorUnit;1",
+    "dtmi:com:syyclops:WaterSourceCondensingUnit;1"
   ],
   "contents": [
 

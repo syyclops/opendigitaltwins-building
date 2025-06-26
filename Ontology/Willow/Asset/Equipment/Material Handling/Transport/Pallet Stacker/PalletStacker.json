@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PalletStacker;1",
+  "@id": "dtmi:com:syyclops:PalletStacker;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pallet Stacker"
@@ -8,7 +8,7 @@
     "en": "A machine used to lift, move, and place pallets on a high rack for storage."
   },
   "extends" : [
-    "dtmi:com:willowinc:TransportEquipment;1"
+    "dtmi:com:syyclops:TransportEquipment;1"
   ],
   "contents": [
   ],

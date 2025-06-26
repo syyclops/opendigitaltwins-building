@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DataRateSensor;1",
+  "@id": "dtmi:com:syyclops:DataRateSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Data Rate Sensor"
   },
   "description": {"en": "The data rate feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

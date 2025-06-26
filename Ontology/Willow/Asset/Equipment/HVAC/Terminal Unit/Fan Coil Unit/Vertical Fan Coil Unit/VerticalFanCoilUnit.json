@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VerticalFanCoilUnit;1",
+  "@id": "dtmi:com:syyclops:VerticalFanCoilUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vertical Fan Coil Unit"
   },
   "extends" : [
-    "dtmi:com:willowinc:FanCoilUnit;1"
+    "dtmi:com:syyclops:FanCoilUnit;1"
   ],
   "contents": [
 

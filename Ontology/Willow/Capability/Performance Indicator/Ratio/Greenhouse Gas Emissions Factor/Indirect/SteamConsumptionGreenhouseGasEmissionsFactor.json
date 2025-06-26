@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:SteamConsumptionGreenhouseGasEmissionsFactor;1",
+  "@id": "dtmi:com:syyclops:SteamConsumptionGreenhouseGasEmissionsFactor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Consumption Greenhouse Gas Emissions Factor"
@@ -8,7 +8,7 @@
     "en": "An greenhouse gas emissions factor used to calculate indirect emissions (in CO2e) related to the purchase and consumption of steam from a utility."
   },
   "extends" : [
-    "dtmi:com:willowinc:IndirectGreenhouseGasEmissionsFactor;1"
+    "dtmi:com:syyclops:IndirectGreenhouseGasEmissionsFactor;1"
   ],
   "contents": [
 

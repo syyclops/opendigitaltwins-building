@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirTemperatureSetpointLowLimit;1",
+  "@id": "dtmi:com:syyclops:ReturnAirTemperatureSetpointLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Temperature Setpoint Low Limit"
   },
   "description": {"en": "The low limit associated with return air temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpointLowLimit;1"
+    "dtmi:com:syyclops:AirTemperatureSetpointLowLimit;1"
   ],
   "contents": [
   ],

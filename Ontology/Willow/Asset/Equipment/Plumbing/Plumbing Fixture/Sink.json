@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Sink;1",
+  "@id": "dtmi:com:syyclops:Sink;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sink"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
   ],

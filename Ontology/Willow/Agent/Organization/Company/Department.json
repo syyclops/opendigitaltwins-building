@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Department;1",
+  "@id": "dtmi:com:syyclops:Department;1",
   "@type": "Interface",
   "displayName": {
     "en": "Department"
@@ -8,7 +8,7 @@
     "en": "An division or part of a large organization."
   },
   "extends" : [
-    "dtmi:com:willowinc:Organization;1"
+    "dtmi:com:syyclops:Organization;1"
   ],
   "contents": [
   ],

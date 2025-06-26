@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:Door;1",
+  "@id": "dtmi:com:syyclops:Door;1",
   "@type": "Interface",
   "displayName": {
     "en": "Door"
   },
   "extends" : [
-    "dtmi:com:willowinc:BarrierAsset;1",
-    "dtmi:com:willowinc:PhysicalSpaceOpening;1"
+    "dtmi:com:syyclops:BarrierAsset;1",
+    "dtmi:com:syyclops:PhysicalSpaceOpening;1"
   ],
   "contents": [
     

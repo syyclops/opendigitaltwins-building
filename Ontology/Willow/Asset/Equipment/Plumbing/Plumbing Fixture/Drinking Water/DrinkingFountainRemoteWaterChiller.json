@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DrinkingFountainRemoteWaterChiller;1",
+  "@id": "dtmi:com:syyclops:DrinkingFountainRemoteWaterChiller;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drinking Fountain Remote Water Chiller"
   },
   "extends" : [
-    "dtmi:com:willowinc:DrinkingWaterFixture;1"
+    "dtmi:com:syyclops:DrinkingWaterFixture;1"
   ],
   "contents": [
 

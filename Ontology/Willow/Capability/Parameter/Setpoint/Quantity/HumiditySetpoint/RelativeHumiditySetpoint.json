@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RelativeHumiditySetpoint;1",
+  "@id": "dtmi:com:syyclops:RelativeHumiditySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relative Humidity Setpoint"
   },
   "description": {"en": "The desired value associated with relative humidity"},
   "extends" : [
-    "dtmi:com:willowinc:HumiditySetpoint;1"
+    "dtmi:com:syyclops:HumiditySetpoint;1"
   ],
   "contents": [
 

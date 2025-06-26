@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DaylightSensorEquipment;1",
+  "@id": "dtmi:com:syyclops:DaylightSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Daylight Sensor Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

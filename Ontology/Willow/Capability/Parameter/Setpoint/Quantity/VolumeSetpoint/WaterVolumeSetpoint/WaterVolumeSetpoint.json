@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WaterVolumeSetpoint;1",
+  "@id": "dtmi:com:syyclops:WaterVolumeSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Volume Setpoint"
   },
   "description": {"en": "The desired value associated with water volume"},
   "extends" : [
-    "dtmi:com:willowinc:VolumeSetpoint;1"
+    "dtmi:com:syyclops:VolumeSetpoint;1"
   ],
   "contents": [
 

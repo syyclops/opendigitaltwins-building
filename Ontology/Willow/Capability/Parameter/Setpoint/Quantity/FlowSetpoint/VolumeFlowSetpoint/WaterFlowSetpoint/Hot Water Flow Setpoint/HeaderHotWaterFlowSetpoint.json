@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderHotWaterFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:HeaderHotWaterFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Hot Water Flow Setpoint"
   },
   "description": {"en": "The desired value associated with hot water header flow"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterFlowSetpoint;1"
+    "dtmi:com:syyclops:HotWaterFlowSetpoint;1"
   ],
   "contents": [
   ],

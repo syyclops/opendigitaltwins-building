@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:RoofingMembrane;1",
+  "@id": "dtmi:com:syyclops:RoofingMembrane;1",
   "@type": "Interface",
   "displayName": {
     "en": "RoofingMembrane"
   },
   "extends" : [
-    "dtmi:com:willowinc:ArchitecturalBuildingComponent;1"
+    "dtmi:com:syyclops:ArchitecturalBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"

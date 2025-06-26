@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Inverter;1",
+  "@id": "dtmi:com:syyclops:Inverter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Inverter"
@@ -8,7 +8,7 @@
     "en": "A power electronic device that changes direct current (DC) to alternating current (AC)."
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalGenerationStorageEquipment;1"
+    "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1"
   ],
   "contents": [
 

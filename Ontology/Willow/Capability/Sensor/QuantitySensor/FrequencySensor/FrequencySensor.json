@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FrequencySensor;1",
+  "@id": "dtmi:com:syyclops:FrequencySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Frequency Sensor"
   },
   "description": {"en": "The frequency feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

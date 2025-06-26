@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ThermalOverloadAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:ThermalOverloadAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Thermal Overload Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the thermal overload alarm"},
   "extends" : [
-    "dtmi:com:willowinc:OverloadAlarmSetpoint;1"
+    "dtmi:com:syyclops:OverloadAlarmSetpoint;1"
   ],
   "contents": [
 

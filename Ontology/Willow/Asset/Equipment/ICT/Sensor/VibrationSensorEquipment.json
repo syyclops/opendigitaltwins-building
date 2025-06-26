@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VibrationSensorEquipment;1",
+  "@id": "dtmi:com:syyclops:VibrationSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vibration Sensor Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

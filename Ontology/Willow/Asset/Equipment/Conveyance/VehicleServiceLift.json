@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VehicleServiceLift;1",
+  "@id": "dtmi:com:syyclops:VehicleServiceLift;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vehicle Service Lift"
   },
   "extends" : [
-    "dtmi:com:willowinc:ConveyanceEquipment;1",
-    "dtmi:com:willowinc:VehicleEquipment;1"
+    "dtmi:com:syyclops:ConveyanceEquipment;1",
+    "dtmi:com:syyclops:VehicleEquipment;1"
   ],
   "contents": [
   ],

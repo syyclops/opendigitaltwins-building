@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Software;1",
+  "@id": "dtmi:com:syyclops:Software;1",
   "@type": "Interface",
   "displayName": {
     "en": "Software"
@@ -30,7 +30,7 @@
         "en": "The physical hardware or device that the software is installed on."
       },
       "name": "hardwareInstalledOn",
-      "target": "dtmi:com:willowinc:Asset;1"
+      "target": "dtmi:com:syyclops:Asset;1"
     },
     {
       "@type": "Relationship",
@@ -38,7 +38,7 @@
         "en": "installed by"
       },
       "name": "installedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -46,7 +46,7 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -54,7 +54,7 @@
       "displayName": {
         "en": "has document"
       },
-      "target": "dtmi:com:willowinc:Document;1"
+      "target": "dtmi:com:syyclops:Document;1"
     },
     {
       "@type": "Relationship",
@@ -65,7 +65,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -76,7 +76,7 @@
         "en": "owned by"
       },
       "name": "ownedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Property",
@@ -141,7 +141,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:SoftwareMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:SoftwareMappedIdObject;1"
       }
     },
     {
@@ -187,42 +187,42 @@
             "displayName": {
               "en": "MasterFormat"
             },
-            "schema": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1"
           },
           {
             "name": "omniClass",
             "displayName": {
               "en": "OmniClass"
             },
-            "schema": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1"
           },
           {
             "name": "uniFormat",
             "displayName": {
               "en": "UniFormat"
             },
-            "schema": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1"
           },
           {
             "name": "uniclass",
             "displayName": {
               "en": "Uniclass"
             },
-            "schema": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1"
           },
           {
             "name": "projectHaystack",
             "displayName": {
               "en": "Project Haystack"
             },
-            "schema": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1"
           },
           {
             "name": "brickSchema",
             "displayName": {
               "en": "Brick Schema"
             },
-            "schema": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1"
           }
         ]
       }
@@ -269,7 +269,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:SoftwareAlternateClassificationObject;1",
+      "@id": "dtmi:com:syyclops:SoftwareAlternateClassificationObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:SoftwareMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:SoftwareMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."

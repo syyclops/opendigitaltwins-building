@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirCompressorDryer;1",
+  "@id": "dtmi:com:syyclops:AirCompressorDryer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Compressor Dryer"
   },
   "extends" : [
-    "dtmi:com:willowinc:CompressedAirEquipment;1"
+    "dtmi:com:syyclops:CompressedAirEquipment;1"
   ],
   "contents": [
     {

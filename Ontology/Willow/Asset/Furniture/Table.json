@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Table;1",
+  "@id": "dtmi:com:syyclops:Table;1",
   "@type": "Interface",
   "displayName": {
     "en": "Table"
   },
   "extends" : [
-    "dtmi:com:willowinc:Furniture;1"
+    "dtmi:com:syyclops:Furniture;1"
   ],
   "contents": [
     {

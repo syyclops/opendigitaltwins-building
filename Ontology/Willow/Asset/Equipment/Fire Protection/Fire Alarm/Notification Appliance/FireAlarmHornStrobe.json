@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FireAlarmHornStrobe;1",
+  "@id": "dtmi:com:syyclops:FireAlarmHornStrobe;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Horn Strobe"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireAlarmHorn;1",
-    "dtmi:com:willowinc:FireAlarmStrobe;1"
+    "dtmi:com:syyclops:FireAlarmHorn;1",
+    "dtmi:com:syyclops:FireAlarmStrobe;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BeverageServiceCart;1",
+  "@id": "dtmi:com:syyclops:BeverageServiceCart;1",
   "@type": "Interface",
   "displayName": {
     "en": "Beverage Service Cart"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodserviceCart;1"
+    "dtmi:com:syyclops:FoodserviceCart;1"
   ],
   "contents": [
   ],

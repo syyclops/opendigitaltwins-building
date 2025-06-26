@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReactiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:ReactiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reactive Electrical Energy Sensor"
   },
   "description": {"en": "The reactive electrical energy feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:ElectricalEnergySensor;1"
+    "dtmi:com:syyclops:ElectricalEnergySensor;1"
   ],
   "contents": [
     

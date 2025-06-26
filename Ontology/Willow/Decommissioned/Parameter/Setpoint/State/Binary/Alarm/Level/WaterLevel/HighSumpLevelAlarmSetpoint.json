@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighSumpLevelAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighSumpLevelAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Sump Level Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high sump level"},
   "extends" : [
-    "dtmi:com:willowinc:HighWaterLevelAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighWaterLevelAlarmSetpoint;1"
   ],
   "contents": [
   ],

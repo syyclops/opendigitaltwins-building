@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WaterSourcePackagedHeatPump;1",
+  "@id": "dtmi:com:syyclops:WaterSourcePackagedHeatPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water-Source Packaged Heat Pump"
@@ -8,7 +8,7 @@
     "en": "A packaged heat pump in which water is used for heat exchange."
   },
   "extends" : [
-    "dtmi:com:willowinc:PackagedHeatPump;1"
+    "dtmi:com:syyclops:PackagedHeatPump;1"
   ],
   "contents": [
 

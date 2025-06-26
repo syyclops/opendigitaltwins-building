@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ChilledWaterValveOpenActuator;1",
+  "@id": "dtmi:com:syyclops:ChilledWaterValveOpenActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Valve Open Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the chilled water valve to 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:WaterValveOpenActuator;1"
+    "dtmi:com:syyclops:WaterValveOpenActuator;1"
   ],
   "contents": [
 

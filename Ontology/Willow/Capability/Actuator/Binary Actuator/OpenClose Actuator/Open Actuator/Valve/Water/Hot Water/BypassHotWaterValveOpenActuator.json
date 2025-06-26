@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassHotWaterValveOpenActuator;1",
+  "@id": "dtmi:com:syyclops:BypassHotWaterValveOpenActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Hot Water Valve Open Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the bypass hot water valve to 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterValveOpenActuator;1"
+    "dtmi:com:syyclops:HotWaterValveOpenActuator;1"
   ],
   "contents": [
 

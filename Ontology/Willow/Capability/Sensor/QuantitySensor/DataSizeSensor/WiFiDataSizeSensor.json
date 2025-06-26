@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WiFiDataSizeSensor;1",
+  "@id": "dtmi:com:syyclops:WiFiDataSizeSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "WiFi Data Size Sensor"
   },
   "description": {"en": "The data size feedback from a sensor associated with wifi"},
   "extends" : [
-    "dtmi:com:willowinc:DataSizeSensor;1"
+    "dtmi:com:syyclops:DataSizeSensor;1"
   ],
   "contents": [
   ],

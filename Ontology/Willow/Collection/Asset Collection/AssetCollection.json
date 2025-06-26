@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AssetCollection;1",
+  "@id": "dtmi:com:syyclops:AssetCollection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Asset Collection"
   },
   "extends" : [
-    "dtmi:com:willowinc:Collection;1"
+    "dtmi:com:syyclops:Collection;1"
   ],
   "contents": [
     {
@@ -22,14 +22,14 @@
             "en": "Substance"
           },
           "writable": true,
-          "schema": "dtmi:com:willowinc:AssetCollectionIsFedBySubstances;1"
+          "schema": "dtmi:com:syyclops:AssetCollectionIsFedBySubstances;1"
         }
       ]
     }
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:AssetCollectionIsFedBySubstances;1",
+      "@id": "dtmi:com:syyclops:AssetCollectionIsFedBySubstances;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PeopleCountSensorEquipment;1",
+  "@id": "dtmi:com:syyclops:PeopleCountSensorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "People Count Sensor Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

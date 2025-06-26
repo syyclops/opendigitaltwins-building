@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:EnergyRecoveryVentilator;1",
+  "@id": "dtmi:com:syyclops:EnergyRecoveryVentilator;1",
   "@type": "Interface",
   "displayName": {
     "en": "EnergyRecoveryVentilator"
@@ -8,8 +8,8 @@
     "en": "A standalone asset that transfers energy between two different streams of air, one of which is ventilation air."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1",
-    "dtmi:com:willowinc:EnergyRecoveryDevice;1"
+    "dtmi:com:syyclops:HVACEquipment;1",
+    "dtmi:com:syyclops:EnergyRecoveryDevice;1"
   ],
   "contents": [
     

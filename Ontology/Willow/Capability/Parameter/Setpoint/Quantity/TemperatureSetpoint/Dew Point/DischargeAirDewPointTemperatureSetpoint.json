@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeAirDewPointTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:DischargeAirDewPointTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Dew Point Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with discharge (supply) air dew point temperature"},
   "extends" : [
-    "dtmi:com:willowinc:DewPointTemperatureSetpoint;1"
+    "dtmi:com:syyclops:DewPointTemperatureSetpoint;1"
   ],
   "contents": [
   ],

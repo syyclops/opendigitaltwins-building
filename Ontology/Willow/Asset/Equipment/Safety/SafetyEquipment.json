@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SafetyEquipment;1",
+  "@id": "dtmi:com:syyclops:SafetyEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Safety Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

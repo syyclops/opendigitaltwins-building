@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopLeavingChilledWaterValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopLeavingChilledWaterValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Leaving Chilled Water Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the secondary loop leaving chilled water valve"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingChilledWaterValvePositionActuator;1"
+    "dtmi:com:syyclops:LeavingChilledWaterValvePositionActuator;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeAirFlowPerPerson;1",
+  "@id": "dtmi:com:syyclops:DischargeAirFlowPerPerson;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Flow Per Person"
@@ -8,7 +8,7 @@
     "en": "A performance indicator which is the ratio of discharge air flow from an equipment into a space with the number of people in the space (i.e. CFM/person, LPS/person, CMH/person)."
   },
   "extends" : [
-    "dtmi:com:willowinc:AirFlowPerPerson;1"
+    "dtmi:com:syyclops:AirFlowPerPerson;1"
   ],
   "contents": [
 

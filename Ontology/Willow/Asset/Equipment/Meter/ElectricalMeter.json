@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalMeter;1",
+  "@id": "dtmi:com:syyclops:ElectricalMeter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Meter"
   },
   "extends" : [
-    "dtmi:com:willowinc:MeterEquipment;1"
+    "dtmi:com:syyclops:MeterEquipment;1"
   ],
   "contents": [
     {
@@ -76,7 +76,7 @@
         "en": "sub-meter of"
       },
       "name": "subMeterOf",
-      "target": "dtmi:com:willowinc:ElectricalMeter;1"
+      "target": "dtmi:com:syyclops:ElectricalMeter;1"
     }
   ],
   "@context": [

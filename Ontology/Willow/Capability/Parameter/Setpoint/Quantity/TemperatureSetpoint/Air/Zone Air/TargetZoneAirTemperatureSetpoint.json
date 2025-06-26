@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TargetZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:TargetZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Target Zone Air Temperature Setpoint"
   },
   "description": {"en": "The central setpoint from which the other mode-specific setpoints, thresholds, and boundaries are derived."},
   "extends" : [
-    "dtmi:com:willowinc:ZoneAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:ZoneAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

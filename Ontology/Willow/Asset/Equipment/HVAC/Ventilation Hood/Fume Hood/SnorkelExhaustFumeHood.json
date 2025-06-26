@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SnorkelExhaustFumeHood;1",
+  "@id": "dtmi:com:syyclops:SnorkelExhaustFumeHood;1",
   "@type": "Interface",
   "displayName": {
     "en": "Snorkel Exhaust Fume Hood"
   },
   "extends" : [
-    "dtmi:com:willowinc:FumeHood;1"
+    "dtmi:com:syyclops:FumeHood;1"
   ],
   "contents": [
   ],

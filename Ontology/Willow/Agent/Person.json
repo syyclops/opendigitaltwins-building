@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Person;1",
+  "@id": "dtmi:com:syyclops:Person;1",
   "@type": "Interface",
   "displayName": {
     "en": "Person"
@@ -8,7 +8,7 @@
     "en": "A natural person (i.e., an individual human being)."
   },
   "extends" : [
-    "dtmi:com:willowinc:Agent;1"
+    "dtmi:com:syyclops:Agent;1"
   ],
   "contents": [
     {
@@ -92,7 +92,7 @@
         "en": "is member of"
       },
       "name": "isMemberOf",
-      "target": "dtmi:com:willowinc:Organization;1"
+      "target": "dtmi:com:syyclops:Organization;1"
     },
     {
       "@type": "Property",

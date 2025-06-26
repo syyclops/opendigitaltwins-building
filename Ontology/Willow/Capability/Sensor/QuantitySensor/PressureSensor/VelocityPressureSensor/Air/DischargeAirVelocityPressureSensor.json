@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeAirVelocityPressureSensor;1",
+  "@id": "dtmi:com:syyclops:DischargeAirVelocityPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Velocity Pressure Sensor"
   },
   "description": {"en": "The velocity pressure feedback from a sensor associated with discharge (supply) air"},
   "extends" : [
-    "dtmi:com:willowinc:AirVelocityPressureSensor;1"
+    "dtmi:com:syyclops:AirVelocityPressureSensor;1"
   ],
   "contents": [
     

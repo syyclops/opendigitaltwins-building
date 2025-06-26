@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowCurrentAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowCurrentAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Current Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the low electrical current alarm"},
   "extends" : [
-    "dtmi:com:willowinc:CurrentAlarmSetpoint;1"
+    "dtmi:com:syyclops:CurrentAlarmSetpoint;1"
   ],
   "contents": [
 

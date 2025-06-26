@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HorizontalFanCoilUnitReheat;1",
+  "@id": "dtmi:com:syyclops:HorizontalFanCoilUnitReheat;1",
   "@type": "Interface",
   "displayName": {
     "en": "Horizontal Fan Coil Unit with Reheat"
   },
   "extends" : [
-    "dtmi:com:willowinc:HorizontalFanCoilUnit;1"
+    "dtmi:com:syyclops:HorizontalFanCoilUnit;1"
   ],
   "contents": [
 

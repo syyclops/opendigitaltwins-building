@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WaterPressureSetpoint;1",
+  "@id": "dtmi:com:syyclops:WaterPressureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Pressure Setpoint"
   },
   "description": {"en": "The desired value associated with water pressure"},
   "extends" : [
-    "dtmi:com:willowinc:PressureSetpoint;1"
+    "dtmi:com:syyclops:PressureSetpoint;1"
   ],
   "contents": [
     

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SashPositionState;1",
+  "@id": "dtmi:com:syyclops:SashPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sash Position State"
   },
   "description": {"en": "The percent position state of the sash of a fume hood"},
   "extends" : [
-    "dtmi:com:willowinc:PositionState;1"
+    "dtmi:com:syyclops:PositionState;1"
   ],
   "contents": [
   ],

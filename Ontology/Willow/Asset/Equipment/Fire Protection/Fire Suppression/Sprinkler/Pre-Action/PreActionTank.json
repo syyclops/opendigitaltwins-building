@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PreActionTank;1",
+  "@id": "dtmi:com:syyclops:PreActionTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pre-Action Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:PreActionEquipment;1"
+    "dtmi:com:syyclops:PreActionEquipment;1"
   ],
   "contents": [
 

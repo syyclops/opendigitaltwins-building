@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MinOutsideAirDamperPositionSetpoint;1",
+  "@id": "dtmi:com:syyclops:MinOutsideAirDamperPositionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Minimum Outside Air Damper Position Setpoint"
   },
   "description": {"en": "The desired position percentage for control of the minimum outside air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionSetpoint;1"
+    "dtmi:com:syyclops:DamperPositionSetpoint;1"
   ],
   "contents": [
   ],

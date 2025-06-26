@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirCooledChiller;1",
+  "@id": "dtmi:com:syyclops:AirCooledChiller;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air-Cooled Chiller"
   },
   "extends" : [
-    "dtmi:com:willowinc:Chiller;1"
+    "dtmi:com:syyclops:Chiller;1"
   ],
   "contents": [
     {
@@ -14,7 +14,7 @@
         "en": "Condenser"
       },
       "name": "condenser",
-      "schema": "dtmi:com:willowinc:AirCooledCondenser;1"
+      "schema": "dtmi:com:syyclops:AirCooledCondenser;1"
     }
   ],
   "@context": [

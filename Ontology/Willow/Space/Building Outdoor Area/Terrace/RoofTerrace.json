@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RoofTerrace;1",
+  "@id": "dtmi:com:syyclops:RoofTerrace;1",
   "@type": "Interface",
   "displayName": {
     "en": "Roof Terrace"
@@ -8,8 +8,8 @@
     "en": "A terrace that is located on the roof level of a building."
   },
   "extends" : [
-    "dtmi:com:willowinc:BuildingTerrace;1",
-    "dtmi:com:willowinc:RoofArea;1"
+    "dtmi:com:syyclops:BuildingTerrace;1",
+    "dtmi:com:syyclops:RoofArea;1"
   ],
   "contents": [
   ],

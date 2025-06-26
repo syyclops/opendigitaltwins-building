@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowInletAirHumidityAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowInletAirHumidityAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Inlet Air Humidity Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the low inlet air humidity alarm"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirHumidityAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowAirHumidityAlarmSetpoint;1"
   ],
   "contents": [
 

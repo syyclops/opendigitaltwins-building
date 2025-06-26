@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MinimumOutsideAirVolumeFlowSetpointLowLimit;1",
+  "@id": "dtmi:com:syyclops:MinimumOutsideAirVolumeFlowSetpointLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Minimum Outside Air Volume Flow Setpoint Low Limit"
   },
   "description": {"en": "The low limit associated with minimum outside air volume flow setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:AirVolumeFlowSetpointLowLimit;1"
+    "dtmi:com:syyclops:AirVolumeFlowSetpointLowLimit;1"
   ],
   "contents": [
     

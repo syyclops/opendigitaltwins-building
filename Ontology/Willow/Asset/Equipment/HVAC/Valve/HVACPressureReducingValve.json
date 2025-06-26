@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACPressureReducingValve;1",
+  "@id": "dtmi:com:syyclops:HVACPressureReducingValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pressure Reducing Valve (HVAC)"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACValve;1"
+    "dtmi:com:syyclops:HVACValve;1"
   ],
   "contents": [
 

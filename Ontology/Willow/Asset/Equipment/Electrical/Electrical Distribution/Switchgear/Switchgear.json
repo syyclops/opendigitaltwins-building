@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Switchgear;1",
+  "@id": "dtmi:com:syyclops:Switchgear;1",
   "@type": "Interface",
   "displayName": {
     "en": "Switchgear"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalDistributionEquipment;1"
+    "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
   "contents": [
     {
@@ -55,7 +55,7 @@
         "en": "main bus"
       },
       "name": "mainBus",
-      "schema": "dtmi:com:willowinc:ElectricalBus;1"
+      "schema": "dtmi:com:syyclops:ElectricalBus;1"
     }
   ],
   "@context": [

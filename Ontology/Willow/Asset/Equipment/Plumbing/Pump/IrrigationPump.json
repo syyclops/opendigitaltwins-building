@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:IrrigationPump;1",
+  "@id": "dtmi:com:syyclops:IrrigationPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Irrigation Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingPump;1"
+    "dtmi:com:syyclops:PlumbingPump;1"
   ],
   "contents": [
   ],

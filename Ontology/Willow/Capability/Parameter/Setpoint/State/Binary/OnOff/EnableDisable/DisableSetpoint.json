@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DisableSetpoint;1",
+  "@id": "dtmi:com:syyclops:DisableSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Disable Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:EnableDisableSetpoint;1",
-    "dtmi:com:willowinc:OffSetpoint;1"
+    "dtmi:com:syyclops:EnableDisableSetpoint;1",
+    "dtmi:com:syyclops:OffSetpoint;1"
   ],
   "contents": [
   ],

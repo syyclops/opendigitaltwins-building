@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighEvaporatorEnteringRefrigerantTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighEvaporatorEnteringRefrigerantTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High EvaporatorEnteringRefrigerant Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with high refrigerant entering the evaporator temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HighRefrigerantTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighRefrigerantTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

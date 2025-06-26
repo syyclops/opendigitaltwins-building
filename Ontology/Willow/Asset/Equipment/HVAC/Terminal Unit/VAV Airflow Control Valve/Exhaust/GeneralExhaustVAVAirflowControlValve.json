@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:GeneralExhaustVAVAirflowControlValve;1",
+  "@id": "dtmi:com:syyclops:GeneralExhaustVAVAirflowControlValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "General Exhaust VAV Airflow Control Valve"
@@ -8,7 +8,7 @@
     "en": "An VAV airflow control vavle used for general exhaust and specifically not fumes."
   },
   "extends" : [
-    "dtmi:com:willowinc:ExhaustVAVAirflowControlValve;1"
+    "dtmi:com:syyclops:ExhaustVAVAirflowControlValve;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:JockeyPump;1",
+  "@id": "dtmi:com:syyclops:JockeyPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Jockey Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerEquipment;1",
-    "dtmi:com:willowinc:Pump;1"
+    "dtmi:com:syyclops:SprinklerEquipment;1",
+    "dtmi:com:syyclops:Pump;1"
   ],
   "contents": [
     

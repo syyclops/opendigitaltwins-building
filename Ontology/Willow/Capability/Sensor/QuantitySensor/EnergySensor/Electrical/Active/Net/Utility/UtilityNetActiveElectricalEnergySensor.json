@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:UtilityNetActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:UtilityNetActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Utility Net Active Electrical Energy Sensor"
   },
   "description": {"en": "The net active electrical energy being consumed by the site which is the difference between the Net and export."},
   "extends" : [
-    "dtmi:com:willowinc:TotalNetActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:TotalNetActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

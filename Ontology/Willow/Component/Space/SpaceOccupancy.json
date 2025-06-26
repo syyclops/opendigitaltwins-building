@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SpaceOccupancy;1",
+  "@id": "dtmi:com:syyclops:SpaceOccupancy;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Occupancy"
   },
   "extends" : [
-    "dtmi:com:willowinc:SpaceComponent;1"
+    "dtmi:com:syyclops:SpaceComponent;1"
   ],
   "contents": [
     {

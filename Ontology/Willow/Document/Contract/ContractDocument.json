@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ContractDocument;1",
+  "@id": "dtmi:com:syyclops:ContractDocument;1",
   "@type": "Interface",
   "displayName": {
     "en": "Contract Document"
   },
   "extends" : [
-    "dtmi:com:willowinc:Document;1"
+    "dtmi:com:syyclops:Document;1"
   ],
   "contents": [
   ],

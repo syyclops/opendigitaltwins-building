@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireSprinklerHead;1",
+  "@id": "dtmi:com:syyclops:FireSprinklerHead;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Sprinkler Head"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerEquipment;1"
+    "dtmi:com:syyclops:SprinklerEquipment;1"
   ],
   "contents": [
     {

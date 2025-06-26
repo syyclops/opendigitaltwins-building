@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopLeavingChilledWaterTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopLeavingChilledWaterTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Leaving Chilled Water Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with secondary chilled water loop leaving temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingChilledWaterTemperatureSetpoint;1"
+    "dtmi:com:syyclops:LeavingChilledWaterTemperatureSetpoint;1"
   ],
   "contents": [
   ],

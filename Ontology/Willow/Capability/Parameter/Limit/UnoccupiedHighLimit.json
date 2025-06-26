@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:UnoccupiedHighLimit;1",
+  "@id": "dtmi:com:syyclops:UnoccupiedHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Unoccupied High Limit"
   },
   "description": {"en": "The upper limit on the equipment in unooccupied mode"},
   "extends" : [
-    "dtmi:com:willowinc:HighLimit;1"
+    "dtmi:com:syyclops:HighLimit;1"
   ],
   "contents": [
   ],

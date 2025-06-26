@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireAlarmSpeaker;1",
+  "@id": "dtmi:com:syyclops:FireAlarmSpeaker;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Speaker"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireAlarmNotificationAppliance;1"
+    "dtmi:com:syyclops:FireAlarmNotificationAppliance;1"
   ],
   "contents": [
   ],

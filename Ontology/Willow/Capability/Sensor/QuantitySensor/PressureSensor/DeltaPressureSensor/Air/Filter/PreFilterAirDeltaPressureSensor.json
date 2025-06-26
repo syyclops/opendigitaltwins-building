@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PreFilterAirDeltaPressureSensor;1",
+  "@id": "dtmi:com:syyclops:PreFilterAirDeltaPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pre Filter Air Delta Pressure Sensor"
   },
   "description": {"en": "The delta pressure feedback from a sensor associated with air pre filter"},
   "extends" : [
-    "dtmi:com:willowinc:FilterAirDeltaPressureSensor;1"
+    "dtmi:com:syyclops:FilterAirDeltaPressureSensor;1"
   ],
   "contents": [
     

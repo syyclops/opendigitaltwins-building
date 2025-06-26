@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AirTemperatureSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:AirTemperatureSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Temperature Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with air temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:TemperatureSetpointHighLimit;1"
+    "dtmi:com:syyclops:TemperatureSetpointHighLimit;1"
   ],
   "contents": [
   ],

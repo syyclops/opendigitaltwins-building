@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BenchtopFumeHood;1",
+  "@id": "dtmi:com:syyclops:BenchtopFumeHood;1",
   "@type": "Interface",
   "displayName": {
     "en": "Benchtop Fume Hood"
   },
   "extends": [
-    "dtmi:com:willowinc:FumeHood;1"
+    "dtmi:com:syyclops:FumeHood;1"
   ],
   "contents": [
   ],

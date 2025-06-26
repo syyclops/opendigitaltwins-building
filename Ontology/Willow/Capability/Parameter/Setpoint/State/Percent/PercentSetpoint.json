@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PercentSetpoint;1",
+  "@id": "dtmi:com:syyclops:PercentSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Percent Unity Setpoint"
   },
   "description": {"en": "The desired value percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:StateSetpoint;1"
+    "dtmi:com:syyclops:StateSetpoint;1"
   ],
   "contents": [
     {

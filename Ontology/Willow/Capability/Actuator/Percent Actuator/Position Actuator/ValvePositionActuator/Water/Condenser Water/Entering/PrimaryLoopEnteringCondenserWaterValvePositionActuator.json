@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopEnteringCondenserWaterValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopEnteringCondenserWaterValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Entering Condenser Water Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the primary loop entering condenser water valve"},
   "extends" : [
-    "dtmi:com:willowinc:EnteringCondenserWaterValvePositionActuator;1"
+    "dtmi:com:syyclops:EnteringCondenserWaterValvePositionActuator;1"
   ],
   "contents": [
   ],

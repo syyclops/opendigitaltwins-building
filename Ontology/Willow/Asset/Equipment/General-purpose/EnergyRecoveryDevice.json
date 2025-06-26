@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:EnergyRecoveryDevice;1",
+  "@id": "dtmi:com:syyclops:EnergyRecoveryDevice;1",
   "@type": "Interface",
   "displayName": {
     "en": "Energy Recovery Device"
@@ -8,8 +8,8 @@
     "en": "An asset component that transfers energy between two different streams of air."
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetComponent;1",
-    "dtmi:com:willowinc:GeneralPurposeEquipment;1"
+    "dtmi:com:syyclops:AssetComponent;1",
+    "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
     {

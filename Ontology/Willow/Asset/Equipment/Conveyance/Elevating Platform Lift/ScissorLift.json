@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ScissorLift;1",
+  "@id": "dtmi:com:syyclops:ScissorLift;1",
   "@type": "Interface",
   "displayName": {
     "en": "Scissor Lift"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElevatingPlatformLift;1"
+    "dtmi:com:syyclops:ElevatingPlatformLift;1"
   ],
   "contents": [
   ],

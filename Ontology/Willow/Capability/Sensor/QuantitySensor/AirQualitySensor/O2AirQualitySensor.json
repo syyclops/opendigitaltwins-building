@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:O2AirQualitySensor;1",
+  "@id": "dtmi:com:syyclops:O2AirQualitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Oxygen (O2) Air Quality Sensor"
   },
   "description": {"en": "The oxygen (O2) air quality feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:AirQualitySensor;1"
+    "dtmi:com:syyclops:AirQualitySensor;1"
   ],
   "contents": [
 

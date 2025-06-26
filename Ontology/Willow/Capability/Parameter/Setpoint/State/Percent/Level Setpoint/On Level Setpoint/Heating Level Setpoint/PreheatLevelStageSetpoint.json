@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PreheatLevelStageSetpoint;1",
+  "@id": "dtmi:com:syyclops:PreheatLevelStageSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Preheating Level Stage Setpoint"
   },
   "description": {"en": "The preheating level percentage for staging of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:PreheatLevelSetpoint;1"
+    "dtmi:com:syyclops:PreheatLevelSetpoint;1"
   ],
   "contents": [
 

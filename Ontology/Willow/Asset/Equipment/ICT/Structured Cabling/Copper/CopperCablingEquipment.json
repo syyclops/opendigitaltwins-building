@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CopperCablingEquipment;1",
+  "@id": "dtmi:com:syyclops:CopperCablingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Copper Cabling Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:StructuredCablingEquipment;1"
+    "dtmi:com:syyclops:StructuredCablingEquipment;1"
   ],
   "contents": [
     {

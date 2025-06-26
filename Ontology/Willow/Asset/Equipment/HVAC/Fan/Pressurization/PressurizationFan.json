@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PressurizationFan;1",
+  "@id": "dtmi:com:syyclops:PressurizationFan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pressurization Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACFan;1"
+    "dtmi:com:syyclops:HVACFan;1"
   ],
   "contents": [
   ],

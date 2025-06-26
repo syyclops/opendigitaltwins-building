@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AdiabaticCooler;1",
+  "@id": "dtmi:com:syyclops:AdiabaticCooler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Adiabatic Cooler"
@@ -8,7 +8,7 @@
     "en": "A closed-circuit cooler which pre-cools the incoming air entering the heat exchanger using an adiabatic pad."
   },
   "extends" : [
-    "dtmi:com:willowinc:CoolingTower;1"
+    "dtmi:com:syyclops:CoolingTower;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirRegister;1",
+  "@id": "dtmi:com:syyclops:AirRegister;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Register"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirInletsOutlets;1"
+    "dtmi:com:syyclops:AirInletsOutlets;1"
   ],
   "contents": [
 

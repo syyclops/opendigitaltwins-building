@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:ReliefAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Air Damper Position State"
   },
   "description": {"en": "The percent position state of the relief air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

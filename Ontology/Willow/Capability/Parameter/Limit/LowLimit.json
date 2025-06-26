@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowLimit;1",
+  "@id": "dtmi:com:syyclops:LowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Limit"
   },
   "description": {"en": "The lower limit on the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:Limit;1"
+    "dtmi:com:syyclops:Limit;1"
   ],
   "contents": [
   ],

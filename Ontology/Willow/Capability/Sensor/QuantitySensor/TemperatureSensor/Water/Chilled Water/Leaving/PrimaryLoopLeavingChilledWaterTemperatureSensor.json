@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopLeavingChilledWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopLeavingChilledWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Leaving Chilled Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with leaving chilled water primary loop"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingChilledWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:LeavingChilledWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

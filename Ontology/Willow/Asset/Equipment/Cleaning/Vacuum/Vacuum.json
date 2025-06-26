@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Vacuum;1",
+  "@id": "dtmi:com:syyclops:Vacuum;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vacuum"
   },
   "extends" : [
-    "dtmi:com:willowinc:CleaningEquipment;1"
+    "dtmi:com:syyclops:CleaningEquipment;1"
   ],
   "contents": [
   ],

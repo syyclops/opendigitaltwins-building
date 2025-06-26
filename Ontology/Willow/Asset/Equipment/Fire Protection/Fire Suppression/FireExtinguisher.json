@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireExtinguisher;1",
+  "@id": "dtmi:com:syyclops:FireExtinguisher;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Extinguisher"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireSuppressionEquipment;1"
+    "dtmi:com:syyclops:FireSuppressionEquipment;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WaterSourcePackagedAirConditioner;1",
+  "@id": "dtmi:com:syyclops:WaterSourcePackagedAirConditioner;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water-Source Packaged Air Conditioner"
@@ -8,7 +8,7 @@
     "en": "A self-contained air conditioner which contains the condenser, compressor, and evaporator in a single unit, which transfers heat to a water loop"
   },
   "extends" : [
-    "dtmi:com:willowinc:PackagedAirConditioner;1"
+    "dtmi:com:syyclops:PackagedAirConditioner;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SteamQualitySensor;1",
+  "@id": "dtmi:com:syyclops:SteamQualitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Quality Sensor"
   },
   "extends" : [
-    "dtmi:com:willowinc:QualitySensor;1"
+    "dtmi:com:syyclops:QualitySensor;1"
   ],
   "contents": [
 

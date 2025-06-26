@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingSolenoidValve;1",
+  "@id": "dtmi:com:syyclops:PlumbingSolenoidValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Solenoid Valve (Plumbing)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingValve;1"
+    "dtmi:com:syyclops:PlumbingValve;1"
   ],
   "contents": [
 

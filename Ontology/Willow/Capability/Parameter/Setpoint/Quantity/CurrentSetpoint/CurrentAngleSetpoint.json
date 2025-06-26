@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CurrentAngleSetpoint;1",
+  "@id": "dtmi:com:syyclops:CurrentAngleSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Current Angle Setpoint"
   },
   "description": {"en": "The desired value associated with current angle"},
   "extends" : [
-    "dtmi:com:willowinc:CurrentSetpoint;1"
+    "dtmi:com:syyclops:CurrentSetpoint;1"
   ],
   "contents": [
 

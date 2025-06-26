@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AirQualitySensor;1",
+  "@id": "dtmi:com:syyclops:AirQualitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Quality Sensor"
   },
   "description": {"en": "The air quality feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

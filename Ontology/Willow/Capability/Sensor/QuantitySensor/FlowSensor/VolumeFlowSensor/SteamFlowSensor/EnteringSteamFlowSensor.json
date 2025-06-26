@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringSteamFlowSensor;1",
+  "@id": "dtmi:com:syyclops:EnteringSteamFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Steam Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with steam entering"},
   "extends" : [
-    "dtmi:com:willowinc:SteamFlowSensor;1"
+    "dtmi:com:syyclops:SteamFlowSensor;1"
   ],
   "contents": [
   ],

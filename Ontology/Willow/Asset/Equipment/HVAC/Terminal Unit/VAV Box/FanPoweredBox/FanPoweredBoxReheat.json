@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:FanPoweredBoxReheat;1",
+  "@id": "dtmi:com:syyclops:FanPoweredBoxReheat;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fan Powered Box with Reheat"
@@ -8,7 +8,7 @@
     "en": "A type of terminal unit that modulates primary damper position and the speed of a local fan to control airflow at setpoints that reset based on zone conditions and controls a reheat device to provide supplemental heating when appropriate"
   },
   "extends" : [
-    "dtmi:com:willowinc:FanPoweredBox;1"
+    "dtmi:com:syyclops:FanPoweredBox;1"
   ],
   "contents": [
     {
@@ -38,7 +38,7 @@
         "en": "re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

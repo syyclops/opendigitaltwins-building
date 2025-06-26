@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AudioDigitalSignalProcessor;1",
+  "@id": "dtmi:com:syyclops:AudioDigitalSignalProcessor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Audio Digital Signal Processor (DSP)"
   },
   "extends" : [
-    "dtmi:com:willowinc:AudioVisualEquipment;1"
+    "dtmi:com:syyclops:AudioVisualEquipment;1"
   ],
   "contents": [
 

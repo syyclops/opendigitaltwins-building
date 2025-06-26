@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DryBulbTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:DryBulbTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dry Bulb Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with dry bulb temperature"},
   "extends" : [
-    "dtmi:com:willowinc:TemperatureSetpoint;1"
+    "dtmi:com:syyclops:TemperatureSetpoint;1"
   ],
   "contents": [
 

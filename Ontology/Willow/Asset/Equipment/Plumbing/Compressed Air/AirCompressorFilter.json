@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirCompressorFilter;1",
+  "@id": "dtmi:com:syyclops:AirCompressorFilter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Compressor Filter"
@@ -8,7 +8,7 @@
     "en": "A filter that removes contaminants from the compressed air line to delivery clean air to the equipment."
   },
   "extends" : [
-    "dtmi:com:willowinc:CompressedAirEquipment;1"
+    "dtmi:com:syyclops:CompressedAirEquipment;1"
   ],
   "contents": [
     {

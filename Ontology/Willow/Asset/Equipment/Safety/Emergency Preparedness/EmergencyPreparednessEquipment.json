@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EmergencyPreparednessEquipment;1",
+  "@id": "dtmi:com:syyclops:EmergencyPreparednessEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Emergency Preparedness Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:SafetyEquipment;1"
+    "dtmi:com:syyclops:SafetyEquipment;1"
   ],
   "contents": [
   ],

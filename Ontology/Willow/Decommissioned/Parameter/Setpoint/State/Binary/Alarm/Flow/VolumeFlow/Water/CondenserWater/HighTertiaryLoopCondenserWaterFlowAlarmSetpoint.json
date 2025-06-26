@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighTertiaryLoopCondenserWaterFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighTertiaryLoopCondenserWaterFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Tertiary Loop Condenser Water Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high tertiary loop condenser water flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:HighCondenserWaterFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighCondenserWaterFlowAlarmSetpoint;1"
   ],
   "contents": [
 

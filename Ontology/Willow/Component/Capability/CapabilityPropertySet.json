@@ -1,5 +1,5 @@
 ﻿{
-  "@id": "dtmi:com:willowinc:CapabilityPropertySet;1",
+  "@id": "dtmi:com:syyclops:CapabilityPropertySet;1",
   "@type": "Interface",
   "contents": [
     {
@@ -665,7 +665,7 @@
   "displayName": {
     "en": "Capability property set"
   },
-  "extends": "dtmi:com:willowinc:CapabilityComponent;1",
+  "extends": "dtmi:com:syyclops:CapabilityComponent;1",
   "@context": [
     "dtmi:dtdl:context;3"
   ]

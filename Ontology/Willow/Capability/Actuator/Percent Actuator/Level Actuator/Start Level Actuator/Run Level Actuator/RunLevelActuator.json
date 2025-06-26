@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:RunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:StartLevelActuator;1"
+    "dtmi:com:syyclops:StartLevelActuator;1"
   ],
   "contents": [
   ],

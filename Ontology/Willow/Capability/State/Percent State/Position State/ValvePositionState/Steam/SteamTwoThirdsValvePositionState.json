@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamTwoThirdsValvePositionState;1",
+  "@id": "dtmi:com:syyclops:SteamTwoThirdsValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Two-Thirds Valve Position State"
   },
   "description": {"en": "The percent position state of the steam two-thirds valve"},
   "extends" : [
-    "dtmi:com:willowinc:SteamValvePositionState;1"
+    "dtmi:com:syyclops:SteamValvePositionState;1"
   ],
   "contents": [
   ],

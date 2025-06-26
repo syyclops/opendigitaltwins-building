@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ParkingSpot;1",
+  "@id": "dtmi:com:syyclops:ParkingSpot;1",
   "@type": "Interface",
   "displayName": {
     "en": "Parking Spot"
@@ -8,7 +8,7 @@
     "en": "A location that is designated for parking a vehicle, a.k.a. parking space."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
     {

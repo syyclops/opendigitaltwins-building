@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Vehicle;1",
+  "@id": "dtmi:com:syyclops:Vehicle;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vehicle"
@@ -8,7 +8,7 @@
     "en": "A mobile asset that is used to transport people and/or goods."
   },
   "extends" : [
-    "dtmi:com:willowinc:Asset;1"
+    "dtmi:com:syyclops:Asset;1"
   ],
   "contents": [
   ],

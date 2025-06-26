@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderSteamPumpRunLevelState;1",
+  "@id": "dtmi:com:syyclops:HeaderSteamPumpRunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Steam Pump Run Level State"
   },
   "extends" : [
-    "dtmi:com:willowinc:SteamPumpRunLevelState;1"
+    "dtmi:com:syyclops:SteamPumpRunLevelState;1"
   ],
   "contents": [
 

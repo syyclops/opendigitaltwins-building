@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:OffSetpoint;1",
+  "@id": "dtmi:com:syyclops:OffSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Off Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:OnOffSetpoint;1"
+    "dtmi:com:syyclops:OnOffSetpoint;1"
   ],
   "contents": [
   ],

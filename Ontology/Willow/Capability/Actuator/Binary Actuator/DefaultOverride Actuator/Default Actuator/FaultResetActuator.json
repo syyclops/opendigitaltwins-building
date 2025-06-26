@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FaultResetActuator;1",
+  "@id": "dtmi:com:syyclops:FaultResetActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault Reset Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the fault to 'reset' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:ResetActuator;1"
+    "dtmi:com:syyclops:ResetActuator;1"
   ],
   "contents": [
 

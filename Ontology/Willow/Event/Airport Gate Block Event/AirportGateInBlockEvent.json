@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirportGateInBlockEvent;1",
+  "@id": "dtmi:com:syyclops:AirportGateInBlockEvent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Airport Gate In-Block Event"
@@ -8,7 +8,7 @@
     "en": "An event at an airport gate related to a flight arriving at the gate. (ICAO)"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirportGateBlockEvent;1"
+    "dtmi:com:syyclops:AirportGateBlockEvent;1"
   ],
   "contents": [
 

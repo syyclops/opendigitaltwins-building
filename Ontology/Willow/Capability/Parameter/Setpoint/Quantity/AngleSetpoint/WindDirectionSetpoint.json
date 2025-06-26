@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WindDirectionSetpoint;1",
+  "@id": "dtmi:com:syyclops:WindDirectionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Wind Direction Setpoint"
   },
   "description": {"en": "The desired value associated with wind direction"},
   "extends" : [
-    "dtmi:com:willowinc:AngleSetpoint;1"
+    "dtmi:com:syyclops:AngleSetpoint;1"
   ],
   "contents": [
 

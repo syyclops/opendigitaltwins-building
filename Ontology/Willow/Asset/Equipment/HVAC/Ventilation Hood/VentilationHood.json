@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VentilationHood;1",
+  "@id": "dtmi:com:syyclops:VentilationHood;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ventilation Hood"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {

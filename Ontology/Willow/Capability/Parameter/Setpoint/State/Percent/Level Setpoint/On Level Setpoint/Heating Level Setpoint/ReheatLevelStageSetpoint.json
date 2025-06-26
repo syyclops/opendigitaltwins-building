@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReheatLevelStageSetpoint;1",
+  "@id": "dtmi:com:syyclops:ReheatLevelStageSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reheating Level Stage Setpoint"
   },
   "description": {"en": "The reheating level percentage for staging of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:ReheatLevelSetpoint;1"
+    "dtmi:com:syyclops:ReheatLevelSetpoint;1"
   ],
   "contents": [
 

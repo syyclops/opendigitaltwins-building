@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AudioAmplifier;1",
+  "@id": "dtmi:com:syyclops:AudioAmplifier;1",
   "@type": "Interface",
   "displayName": {
     "en": "Audio Amplifier"
   },
   "extends" : [
-    "dtmi:com:willowinc:AudioVisualEquipment;1"
+    "dtmi:com:syyclops:AudioVisualEquipment;1"
   ],
   "contents": [
 

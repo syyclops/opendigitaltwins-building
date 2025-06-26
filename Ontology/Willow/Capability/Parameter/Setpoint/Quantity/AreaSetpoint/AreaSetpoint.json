@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AreaSetpoint;1",
+  "@id": "dtmi:com:syyclops:AreaSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Area Setpoint"
   },
   "description": {"en": "The desired value associated with area"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpoint;1"
+    "dtmi:com:syyclops:QuantitySetpoint;1"
   ],
   "contents": [
 

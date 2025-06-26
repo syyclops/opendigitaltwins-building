@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:DirectEvaporativeCoolingTower;1",
+  "@id": "dtmi:com:syyclops:DirectEvaporativeCoolingTower;1",
   "@type": "Interface",
   "displayName": {
     "en": "Direct Evaporative Cooling Tower"
@@ -8,7 +8,7 @@
     "en": "An evaporative cooling tower where the process fluid is evaporated via direct contact with the ambient air (a.k.a. Open-Circuit Cooling Tower)."
   },
   "extends" : [
-    "dtmi:com:willowinc:EvaporativeCoolingTower;1"
+    "dtmi:com:syyclops:EvaporativeCoolingTower;1"
   ],
   "contents": [
 

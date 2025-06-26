@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringChilledWaterFlowSensor;1",
+  "@id": "dtmi:com:syyclops:EnteringChilledWaterFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Chilled Water Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with entering chilled water"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowSensor;1"
+    "dtmi:com:syyclops:ChilledWaterFlowSensor;1"
   ],
   "contents": [
   ],

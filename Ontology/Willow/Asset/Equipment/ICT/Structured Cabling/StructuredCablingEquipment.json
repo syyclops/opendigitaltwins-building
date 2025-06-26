@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StructuredCablingEquipment;1",
+  "@id": "dtmi:com:syyclops:StructuredCablingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Structured Cabling Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTEquipment;1"
+    "dtmi:com:syyclops:ICTEquipment;1"
   ],
   "contents": [
 

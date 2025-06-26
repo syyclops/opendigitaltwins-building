@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BeverageEquipment;1",
+  "@id": "dtmi:com:syyclops:BeverageEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Beverage Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodserviceEquipment;1"
+    "dtmi:com:syyclops:FoodserviceEquipment;1"
   ],
   "contents": [
   ],

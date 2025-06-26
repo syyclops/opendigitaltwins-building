@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HotDeckInletAirDamperPositionActuator;1",
+  "@id": "dtmi:com:syyclops:HotDeckInletAirDamperPositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Deck Inlet Air Temperature Sensor"
   },
   "description": {"en": "The percent command which sets the position of the inlet air damper to a terminal unit from the hot deck of an air handling unit"},
   "extends" : [
-    "dtmi:com:willowinc:InletAirDamperPositionActuator;1"
+    "dtmi:com:syyclops:InletAirDamperPositionActuator;1"
   ],
   "contents": [
   ],

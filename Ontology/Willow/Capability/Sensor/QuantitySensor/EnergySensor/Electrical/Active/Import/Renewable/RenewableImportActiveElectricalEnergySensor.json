@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RenewableImportActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:RenewableImportActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Renewable Import Active Electrical Energy Sensor"
   },
   "description": {"en": "The active electrical energy feedback from a sensor associated with renewable import"},
   "extends" : [
-    "dtmi:com:willowinc:TotalImportActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:TotalImportActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

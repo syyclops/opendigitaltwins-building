@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirCompressor;1",
+  "@id": "dtmi:com:syyclops:AirCompressor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Compressor"
   },
   "extends" : [
-    "dtmi:com:willowinc:CompressedAirEquipment;1"
+    "dtmi:com:syyclops:CompressedAirEquipment;1"
   ],
   "contents": [
     {

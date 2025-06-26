@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirGrille;1",
+  "@id": "dtmi:com:syyclops:AirGrille;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Grille"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirInletsOutlets;1"
+    "dtmi:com:syyclops:AirInletsOutlets;1"
   ],
   "contents": [
 

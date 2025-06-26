@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingSteamTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:LeavingSteamTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Steam Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with steam leaving temperature"},
   "extends" : [
-    "dtmi:com:willowinc:SteamTemperatureSetpoint;1"
+    "dtmi:com:syyclops:SteamTemperatureSetpoint;1"
   ],
   "contents": [
   ],

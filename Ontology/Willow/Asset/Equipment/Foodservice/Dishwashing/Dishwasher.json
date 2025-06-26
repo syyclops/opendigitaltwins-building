@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Dishwasher;1",
+  "@id": "dtmi:com:syyclops:Dishwasher;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dishwasher"
   },
   "extends" : [
-    "dtmi:com:willowinc:DishwashingEquipment;1"
+    "dtmi:com:syyclops:DishwashingEquipment;1"
   ],
   "contents": [
   ],

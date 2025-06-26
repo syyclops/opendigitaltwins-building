@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustFanRunActuatorCommandStatusMismatchAlarmState;1",
+  "@id": "dtmi:com:syyclops:ExhaustFanRunActuatorCommandStatusMismatchAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Fan Run Actuator Command Status Mismatch Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm for the mismatch between command and status when commanding the exhaust air fan to 'run', which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:FanRunActuatorCommandStatusMismatchAlarmState;1"
+    "dtmi:com:syyclops:FanRunActuatorCommandStatusMismatchAlarmState;1"
   ],
   "contents": [
 

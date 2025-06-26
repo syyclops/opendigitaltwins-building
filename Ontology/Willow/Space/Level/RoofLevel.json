@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RoofLevel;1",
+  "@id": "dtmi:com:syyclops:RoofLevel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Roof Level"
@@ -8,7 +8,7 @@
     "en": "A level of a building which covers the interior space below."
   },
   "extends" : [
-    "dtmi:com:willowinc:Level;1"
+    "dtmi:com:syyclops:Level;1"
   ],
   "contents": [
 

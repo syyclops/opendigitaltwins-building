@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowMixedAirHumidityAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowMixedAirHumidityAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Mixed Air Humidity Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the low mixed air humidity alarm"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirHumidityAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowAirHumidityAlarmSetpoint;1"
   ],
   "contents": [
 

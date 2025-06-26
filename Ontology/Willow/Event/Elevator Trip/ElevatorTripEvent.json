@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElevatorTripEvent;1",
+  "@id": "dtmi:com:syyclops:ElevatorTripEvent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Elevator Trip Event"
   },
   "extends" : [
-    "dtmi:com:willowinc:Event;1"
+    "dtmi:com:syyclops:Event;1"
   ],
   "contents": [
     {
@@ -43,7 +43,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:ElevatorTripDirection;1",
+        "@id": "dtmi:com:syyclops:ElevatorTripDirection;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [

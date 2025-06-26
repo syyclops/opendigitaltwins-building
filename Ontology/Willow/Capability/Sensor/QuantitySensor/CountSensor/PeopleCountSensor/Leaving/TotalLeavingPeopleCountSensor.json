@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TotalLeavingPeopleCountSensor;1",
+  "@id": "dtmi:com:syyclops:TotalLeavingPeopleCountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Leaving People Count Sensor"
@@ -8,7 +8,7 @@
     "en": "A totalized count of the number of people leaving a space over a defined period of time. The value continues to increment if the same individual leaves multiple times."
   },
   "extends" : [
-    "dtmi:com:willowinc:LeavingPeopleCountSensor;1"
+    "dtmi:com:syyclops:LeavingPeopleCountSensor;1"
   ],
   "contents": [
     

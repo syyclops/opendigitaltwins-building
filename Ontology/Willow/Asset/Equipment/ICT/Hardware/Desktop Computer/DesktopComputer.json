@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DesktopComputer;1",
+  "@id": "dtmi:com:syyclops:DesktopComputer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Desktop Computer"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTHardware;1"
+    "dtmi:com:syyclops:ICTHardware;1"
   ],
   "contents": [
 

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:VRFHeatRecoveryOutdoorUnit;1",
+  "@id": "dtmi:com:syyclops:VRFHeatRecoveryOutdoorUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "VRF Heat Recovery Outdoor Unit"
@@ -8,8 +8,8 @@
     "en": "A VRF outdoor unit which provides cooling and also uses heat recovered from the cooling process to provide heating."
   },
   "extends" : [
-    "dtmi:com:willowinc:VRFOutdoorUnit;1",
-    "dtmi:com:willowinc:HeatRecoveryCondensingUnit;1"
+    "dtmi:com:syyclops:VRFOutdoorUnit;1",
+    "dtmi:com:syyclops:HeatRecoveryCondensingUnit;1"
   ],
   "contents": [
 

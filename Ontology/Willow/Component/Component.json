@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Component;1",
+  "@id": "dtmi:com:syyclops:Component;1",
   "@type": "Interface",
   "displayName": {
     "en": "Component"

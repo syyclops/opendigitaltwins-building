@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:UnitLoadFormationEquipment;1",
+  "@id": "dtmi:com:syyclops:UnitLoadFormationEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Unit Load Formation Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:MaterialHandlingEquipment;1"
+    "dtmi:com:syyclops:MaterialHandlingEquipment;1"
   ],
   "contents": [
   ],

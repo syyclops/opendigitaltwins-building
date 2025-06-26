@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirGrille;1",
+  "@id": "dtmi:com:syyclops:ReturnAirGrille;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Grille"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirGrille;1"
+    "dtmi:com:syyclops:AirGrille;1"
   ],
   "contents": [
 

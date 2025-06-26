@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FaultSetpoint;1",
+  "@id": "dtmi:com:syyclops:FaultSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:NormalFaultSetpoint;1"
+    "dtmi:com:syyclops:NormalFaultSetpoint;1"
   ],
   "contents": [
   ],

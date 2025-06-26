@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HVACPositivePressurizationZone;1",
+  "@id": "dtmi:com:syyclops:HVACPositivePressurizationZone;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Positive Pressurization Zone"
@@ -8,7 +8,7 @@
     "en": "An HVAC pressurization zone which controls to maintain positive pressure in the space in order to prevent contaminents from entering the space."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACPressurizationZone;1"
+    "dtmi:com:syyclops:HVACPressurizationZone;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnFan;1",
+  "@id": "dtmi:com:syyclops:ReturnFan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACFan;1"
+    "dtmi:com:syyclops:HVACFan;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WindowHardware;1",
+  "@id": "dtmi:com:syyclops:WindowHardware;1",
   "@type": "Interface",
   "displayName": {
     "en": "Window Hardware"
   },
   "extends" : [
-    "dtmi:com:willowinc:BarrierAssetHardware;1"
+    "dtmi:com:syyclops:BarrierAssetHardware;1"
   ],
   "contents": [
     

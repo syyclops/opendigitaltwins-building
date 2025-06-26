@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PaintShaker;1",
+  "@id": "dtmi:com:syyclops:PaintShaker;1",
   "@type": "Interface",
   "displayName": {
     "en": "Paint Shaker"
   },
   "extends" : [
-    "dtmi:com:willowinc:PaintRetailEquipment;1"
+    "dtmi:com:syyclops:PaintRetailEquipment;1"
   ],
   "contents": [
   ],

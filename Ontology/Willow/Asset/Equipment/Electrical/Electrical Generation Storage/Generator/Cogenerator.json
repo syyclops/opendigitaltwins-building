@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Cogenerator;1",
+  "@id": "dtmi:com:syyclops:Cogenerator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cogenerator"
   },
   "extends" : [
-    "dtmi:com:willowinc:Generator;1"
+    "dtmi:com:syyclops:Generator;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HumidifierOnState;1",
+  "@id": "dtmi:com:syyclops:HumidifierOnState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Humidifier On State"
   },
   "description": {"en": "The Boolean state of an equipment's humidifier function which is 'on' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:OnState;1"
+    "dtmi:com:syyclops:OnState;1"
   ],
   "contents": [
   ],

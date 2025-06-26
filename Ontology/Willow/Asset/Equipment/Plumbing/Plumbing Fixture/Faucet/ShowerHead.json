@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ShowerHead;1",
+  "@id": "dtmi:com:syyclops:ShowerHead;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shower Head"
   },
   "extends" : [
-    "dtmi:com:willowinc:Faucet;1"
+    "dtmi:com:syyclops:Faucet;1"
   ],
   "contents": [
 

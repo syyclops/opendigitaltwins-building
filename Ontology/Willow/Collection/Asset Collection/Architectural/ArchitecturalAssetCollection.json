@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ArchitecturalAssetCollection;1",
+  "@id": "dtmi:com:syyclops:ArchitecturalAssetCollection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Architectural Asset Collection"
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetCollection;1"
+    "dtmi:com:syyclops:AssetCollection;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirHandlingUnit;1",
+  "@id": "dtmi:com:syyclops:AirHandlingUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Handling Unit"
@@ -8,7 +8,7 @@
     "en": "An enclosure with a fan or fans and other necessary components that delivers air to a space via ductwork and performs one or more of the functions of cleaning, heating, cooling, humidifying, dehumidifying, ventilating or circulating the air."
   },
   "extends": [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -420,7 +420,7 @@
         "en": "supply fan"
       },
       "name": "supplyFan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": "Component",
@@ -428,7 +428,7 @@
         "en": "secondary cooling method"
       },
       "name": "secondaryCoolingMethod",
-      "schema": "dtmi:com:willowinc:HVACCoolingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACCoolingMethod;1"
     },
     {
       "@type": "Property",
@@ -461,7 +461,7 @@
         "en": "return fan"
       },
       "name": "returnFan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": "Component",
@@ -469,7 +469,7 @@
         "en": "re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     },
     {
       "@type": "Component",
@@ -477,7 +477,7 @@
         "en": "primary cooling method"
       },
       "name": "primaryCoolingMethod",
-      "schema": "dtmi:com:willowinc:HVACCoolingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACCoolingMethod;1"
     },
     {
       "@type": "Component",
@@ -485,7 +485,7 @@
         "en": "pre-heating method"
       },
       "name": "preHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     },
     {
       "@type": "Component",
@@ -493,7 +493,7 @@
         "en": "mixing box"
       },
       "name": "mixingBox",
-      "schema": "dtmi:com:willowinc:HVACMixingBox;1"
+      "schema": "dtmi:com:syyclops:HVACMixingBox;1"
     },
     {
       "@type": "Component",
@@ -501,7 +501,7 @@
         "en": "exhaust fan"
       },
       "name": "exhaustFan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": "Component",
@@ -509,7 +509,7 @@
         "en": "energy recovery device"
       },
       "name": "energyRecoveryDevice",
-      "schema": "dtmi:com:willowinc:EnergyRecoveryDevice;1"
+      "schema": "dtmi:com:syyclops:EnergyRecoveryDevice;1"
     } 
   ],
   "schemas": [

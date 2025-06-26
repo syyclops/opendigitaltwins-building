@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:MediumTemperatureRefrigerationCompressor;1",
+  "@id": "dtmi:com:syyclops:MediumTemperatureRefrigerationCompressor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Medium-Temperature Refrigeration Compressor"
@@ -8,7 +8,7 @@
     "en": "A compressor which is optimized for medium-temperature refrigeration applications."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationCompressor;1"
+    "dtmi:com:syyclops:RefrigerationCompressor;1"
   ],
   "contents": [
 

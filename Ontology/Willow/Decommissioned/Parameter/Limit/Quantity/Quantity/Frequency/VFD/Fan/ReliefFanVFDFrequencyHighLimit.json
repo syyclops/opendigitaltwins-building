@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefFanVFDFrequencyHighLimit;1",
+  "@id": "dtmi:com:syyclops:ReliefFanVFDFrequencyHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Fan VFD Frequency High Limit"
   },
   "description": {"en": "The high limit associated with relief fan vfd output frequency"},
   "extends" : [
-    "dtmi:com:willowinc:FanVFDFrequencyHighLimit;1"
+    "dtmi:com:syyclops:FanVFDFrequencyHighLimit;1"
   ],
   "contents": [
     

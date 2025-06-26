@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:IrradianceSensor;1",
+  "@id": "dtmi:com:syyclops:IrradianceSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Irradiance Sensor"
   },
   "description": {"en": "The irradiance feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

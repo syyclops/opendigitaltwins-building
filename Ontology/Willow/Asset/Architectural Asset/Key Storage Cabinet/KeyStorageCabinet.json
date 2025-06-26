@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:KeyStorageCabinet;1",
+  "@id": "dtmi:com:syyclops:KeyStorageCabinet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Key Storage Cabinet"
@@ -8,7 +8,7 @@
     "en": "A cabinet used to securely store keys."
   },
   "extends" : [
-    "dtmi:com:willowinc:ArchitecturalAsset;1"
+    "dtmi:com:syyclops:ArchitecturalAsset;1"
   ],
   "contents": [
 

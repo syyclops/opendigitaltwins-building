@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:HVACOvalDuct;1",
+  "@id": "dtmi:com:syyclops:HVACOvalDuct;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Oval Duct"
   },
-  "extends": "dtmi:com:willowinc:HVACDuct;1",
+  "extends": "dtmi:com:syyclops:HVACDuct;1",
   "contents": [
     {
       "@type": ["Property", "Length"],

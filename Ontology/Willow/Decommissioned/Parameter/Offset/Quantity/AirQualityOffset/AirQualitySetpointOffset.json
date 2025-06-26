@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AirQualitySetpointOffset;1",
+  "@id": "dtmi:com:syyclops:AirQualitySetpointOffset;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Quality Setpoint Offset"
   },
   "description": {"en": "The desired offset value associated with air quality"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpointOffset;1"
+    "dtmi:com:syyclops:QuantitySetpointOffset;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeAirHumiditySetpoint;1",
+  "@id": "dtmi:com:syyclops:DischargeAirHumiditySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Humidity Setpoint"
   },
   "description": {"en": "The desired value associated with discharge (supply) air humidity"},
   "extends" : [
-    "dtmi:com:willowinc:AirHumiditySetpoint;1"
+    "dtmi:com:syyclops:AirHumiditySetpoint;1"
   ],
   "contents": [
   ],

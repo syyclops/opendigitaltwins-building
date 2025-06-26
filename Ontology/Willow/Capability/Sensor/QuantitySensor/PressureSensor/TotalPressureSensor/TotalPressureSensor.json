@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TotalPressureSensor;1",
+  "@id": "dtmi:com:syyclops:TotalPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Pressure Sensor"
   },
   "description": {"en": "The total pressure feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:PressureSensor;1"
+    "dtmi:com:syyclops:PressureSensor;1"
   ],
   "contents": [
     

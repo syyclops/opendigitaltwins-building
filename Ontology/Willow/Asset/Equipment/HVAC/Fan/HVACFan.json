@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HVACFan;1",
+  "@id": "dtmi:com:syyclops:HVACFan;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1",
-    "dtmi:com:willowinc:Fan;1"
+    "dtmi:com:syyclops:HVACEquipment;1",
+    "dtmi:com:syyclops:Fan;1"
   ],
   "contents": [
     {
@@ -24,7 +24,7 @@
         "en": "fan"
       },
       "name": "fan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": "Component",
@@ -32,7 +32,7 @@
         "en": "duct inlet"
       },
       "name": "ductInlet",
-      "schema": "dtmi:com:willowinc:DuctConnection;1"
+      "schema": "dtmi:com:syyclops:DuctConnection;1"
     }
   ],
   "@context": [

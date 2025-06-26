@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WaterCooledCondenser;1",
+  "@id": "dtmi:com:syyclops:WaterCooledCondenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water-Cooled Condenser"
@@ -8,7 +8,7 @@
     "en": "A condenser which rejects heat from a working fluid (i.e. refrigerant) into a secondary water fluid."
   },
   "extends" : [
-    "dtmi:com:willowinc:Condenser;1"
+    "dtmi:com:syyclops:Condenser;1"
   ],
   "contents": [
     {

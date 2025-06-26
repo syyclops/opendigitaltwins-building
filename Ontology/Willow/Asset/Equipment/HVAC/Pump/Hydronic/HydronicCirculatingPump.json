@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HydronicCirculatingPump;1",
+  "@id": "dtmi:com:syyclops:HydronicCirculatingPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hydronic Circulating Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:HydronicPump;1"
+    "dtmi:com:syyclops:HydronicPump;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirInletsOutlets;1",
+  "@id": "dtmi:com:syyclops:AirInletsOutlets;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Inlets and Outlets"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighEnteringChilledWaterTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighEnteringChilledWaterTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Entering Chilled Water Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with high entering chilled water temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighChilledWaterTemperatureAlarmState;1"
+    "dtmi:com:syyclops:HighChilledWaterTemperatureAlarmState;1"
   ],
   "contents": [
   ],

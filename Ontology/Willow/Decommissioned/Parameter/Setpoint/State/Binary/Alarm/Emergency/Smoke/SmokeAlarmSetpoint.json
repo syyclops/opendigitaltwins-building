@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SmokeAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:SmokeAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Smoke Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the smoke alarm"},
   "extends" : [
-    "dtmi:com:willowinc:EmergencyAlarmSetpoint;1"
+    "dtmi:com:syyclops:EmergencyAlarmSetpoint;1"
   ],
   "contents": [
 

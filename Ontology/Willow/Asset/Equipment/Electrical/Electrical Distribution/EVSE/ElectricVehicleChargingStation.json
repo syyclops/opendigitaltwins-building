@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricVehicleChargingStation;1",
+  "@id": "dtmi:com:syyclops:ElectricVehicleChargingStation;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Vehicle Charging Station"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalDistributionEquipment;1"
+    "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
   "contents": [
     {
@@ -16,7 +16,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:EVChargingStationLevel;1",
+        "@id": "dtmi:com:syyclops:EVChargingStationLevel;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [

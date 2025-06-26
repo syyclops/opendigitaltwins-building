@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TemperatureSetpointLowLimit;1",
+  "@id": "dtmi:com:syyclops:TemperatureSetpointLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Temperature Setpoint Low Limit"
   },
   "description": {"en": "The low limit associated with temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:LowLimit;1"
+    "dtmi:com:syyclops:LowLimit;1"
   ],
   "contents": [
   ],

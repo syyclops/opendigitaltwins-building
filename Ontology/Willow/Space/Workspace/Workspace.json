@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Workspace;1",
+  "@id": "dtmi:com:syyclops:Workspace;1",
   "@type": "Interface",
   "displayName": {
     "en": "Workspace"
@@ -8,7 +8,7 @@
     "en": "A space which is being used for work and typically contains an asset such as a workstation."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
 

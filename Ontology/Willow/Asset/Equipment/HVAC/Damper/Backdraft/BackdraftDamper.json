@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BackdraftDamper;1",
+  "@id": "dtmi:com:syyclops:BackdraftDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Backdraft Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

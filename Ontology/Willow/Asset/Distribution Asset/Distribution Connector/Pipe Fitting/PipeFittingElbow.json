@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:PipeFittingElbow;1",
+  "@id": "dtmi:com:syyclops:PipeFittingElbow;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pipe Fitting Elbow"
   },
-  "extends": "dtmi:com:willowinc:PipeFitting;1",
+  "extends": "dtmi:com:syyclops:PipeFitting;1",
   "contents": [
 
   ],

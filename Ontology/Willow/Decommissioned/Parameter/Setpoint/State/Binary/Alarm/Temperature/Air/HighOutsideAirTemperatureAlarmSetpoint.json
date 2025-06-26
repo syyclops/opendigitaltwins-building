@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighOutsideAirTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighOutsideAirTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Outside Air Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with high outside air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HighAirTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighAirTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

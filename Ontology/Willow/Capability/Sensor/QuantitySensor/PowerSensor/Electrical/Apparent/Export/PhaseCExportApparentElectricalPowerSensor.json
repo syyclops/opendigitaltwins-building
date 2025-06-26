@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseCExportApparentElectricalPowerSensor;1",
+  "@id": "dtmi:com:syyclops:PhaseCExportApparentElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase C Export Apparent Electrical Power Sensor"
   },
   "description": {"en": "The apparent electrical power feedback from a sensor associated with phase c export"},
   "extends" : [
-    "dtmi:com:willowinc:PhaseCApparentElectricalPowerSensor;1"
+    "dtmi:com:syyclops:PhaseCApparentElectricalPowerSensor;1"
   ],
   "contents": [
 

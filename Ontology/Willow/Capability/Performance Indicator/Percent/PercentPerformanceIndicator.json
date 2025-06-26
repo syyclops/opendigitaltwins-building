@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PercentPerformanceIndicator;1",
+  "@id": "dtmi:com:syyclops:PercentPerformanceIndicator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Percent Performance Indicator"
@@ -8,7 +8,7 @@
     "en": "A performance indicator which has values that are a percent."
   },
   "extends" : [
-    "dtmi:com:willowinc:PerformanceIndicator;1"
+    "dtmi:com:syyclops:PerformanceIndicator;1"
   ],
   "contents": [
 

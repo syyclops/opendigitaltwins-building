@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ConductanceSensor;1",
+  "@id": "dtmi:com:syyclops:ConductanceSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Conductance Sensor"
   },
   "description": {"en": "The conductance feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:ZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:AirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

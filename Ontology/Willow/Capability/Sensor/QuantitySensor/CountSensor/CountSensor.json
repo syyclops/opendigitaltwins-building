@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CountSensor;1",
+  "@id": "dtmi:com:syyclops:CountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Count Sensor"
   },
   "description": {"en": "The count feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

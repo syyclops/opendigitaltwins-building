@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FoodserviceDolly;1",
+  "@id": "dtmi:com:syyclops:FoodserviceDolly;1",
   "@type": "Interface",
   "displayName": {
     "en": "Foodservice Dolly"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodTransportEquipment;1",
-    "dtmi:com:willowinc:Dolly;1"
+    "dtmi:com:syyclops:FoodTransportEquipment;1",
+    "dtmi:com:syyclops:Dolly;1"
   ],
   "contents": [
   ],

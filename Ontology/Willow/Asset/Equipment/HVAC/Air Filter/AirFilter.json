@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirFilter;1",
+  "@id": "dtmi:com:syyclops:AirFilter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Filter"
   },
   "extends": [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -14,7 +14,7 @@
         "en": "fan"
       },
       "name": "fan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": "Property",

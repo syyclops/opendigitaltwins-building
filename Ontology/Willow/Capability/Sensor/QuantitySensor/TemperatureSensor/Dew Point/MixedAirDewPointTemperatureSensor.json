@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MixedAirDewPointTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:MixedAirDewPointTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Air Dew Point Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with mixed air dew point"},
   "extends" : [
-    "dtmi:com:willowinc:DewPointTemperatureSensor;1"
+    "dtmi:com:syyclops:DewPointTemperatureSensor;1"
   ],
   "contents": [
   ],

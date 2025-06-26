@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LevelSetpoint;1",
+  "@id": "dtmi:com:syyclops:LevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level Setpoint"
   },
   "description": {"en": "The desired level percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:PercentSetpoint;1"
+    "dtmi:com:syyclops:PercentSetpoint;1"
   ],
   "contents": [
   ],

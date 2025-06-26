@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FoodWarmingEquipment;1",
+  "@id": "dtmi:com:syyclops:FoodWarmingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Food Warming Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodserviceEquipment;1"
+    "dtmi:com:syyclops:FoodserviceEquipment;1"
   ],
   "contents": [
   ],

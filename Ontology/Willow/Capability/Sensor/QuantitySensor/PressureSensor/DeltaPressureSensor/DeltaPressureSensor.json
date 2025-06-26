@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DeltaPressureSensor;1",
+  "@id": "dtmi:com:syyclops:DeltaPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Delta Pressure Sensor"
   },
   "description": {"en": "The delta pressure feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:PressureSensor;1"
+    "dtmi:com:syyclops:PressureSensor;1"
   ],
   "contents": [
     

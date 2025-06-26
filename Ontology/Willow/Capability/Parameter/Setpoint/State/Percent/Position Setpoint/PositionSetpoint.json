@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PositionSetpoint;1",
+  "@id": "dtmi:com:syyclops:PositionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Position Setpoint"
   },
   "description": {"en": "The desired position percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:PercentSetpoint;1"
+    "dtmi:com:syyclops:PercentSetpoint;1"
   ],
   "contents": [
 

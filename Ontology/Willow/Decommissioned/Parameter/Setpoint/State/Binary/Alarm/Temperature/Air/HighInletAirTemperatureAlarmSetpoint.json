@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighInletAirTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighInletAirTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Inlet Air Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with high inlet air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HighAirTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighAirTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

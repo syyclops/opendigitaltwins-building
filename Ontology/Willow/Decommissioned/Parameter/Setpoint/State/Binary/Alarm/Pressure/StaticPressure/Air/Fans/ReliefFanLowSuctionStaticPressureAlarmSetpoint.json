@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefFanLowSuctionStaticPressureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:ReliefFanLowSuctionStaticPressureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Fan Low Suction Static Pressure Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the relief fan low suction static pressure alarm"},
   "extends" : [
-    "dtmi:com:willowinc:FanLowSuctionStaticPressureAlarmSetpoint;1"
+    "dtmi:com:syyclops:FanLowSuctionStaticPressureAlarmSetpoint;1"
   ],
   "contents": [
 

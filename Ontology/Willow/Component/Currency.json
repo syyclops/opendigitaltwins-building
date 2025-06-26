@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Currency;1",
+  "@id": "dtmi:com:syyclops:Currency;1",
   "@type": "Interface",
   "displayName": {
     "en": "Currency"
@@ -8,7 +8,7 @@
     "en": "The ISO 4217 currency codes and names."
   },
   "extends": [
-    "dtmi:com:willowinc:Component;1"
+    "dtmi:com:syyclops:Component;1"
   ],
   "contents": [
     {

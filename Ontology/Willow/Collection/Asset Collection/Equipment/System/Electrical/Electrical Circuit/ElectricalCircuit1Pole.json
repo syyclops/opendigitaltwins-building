@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalCircuit1Pole;1",
+  "@id": "dtmi:com:syyclops:ElectricalCircuit1Pole;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Circuit 1-Pole"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalCircuit;1"
+    "dtmi:com:syyclops:ElectricalCircuit;1"
   ],
   "contents": [
     {

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowInletAirTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowInletAirTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Inlet Air Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with low inlet air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowAirTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

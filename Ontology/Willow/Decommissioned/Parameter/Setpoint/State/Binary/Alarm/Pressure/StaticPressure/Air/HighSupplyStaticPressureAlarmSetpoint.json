@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighSupplyStaticPressureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighSupplyStaticPressureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Supply Static Pressure Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high supply static pressure alarm"},
   "extends" : [
-    "dtmi:com:willowinc:StaticPressureAlarmSetpoint;1"
+    "dtmi:com:syyclops:StaticPressureAlarmSetpoint;1"
   ],
   "contents": [
 

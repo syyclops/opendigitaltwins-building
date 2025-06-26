@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ForceSetpoint;1",
+  "@id": "dtmi:com:syyclops:ForceSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Force Setpoint"
   },
   "description": {"en": "The desired value associated with force"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpoint;1"
+    "dtmi:com:syyclops:QuantitySetpoint;1"
   ],
   "contents": [
 

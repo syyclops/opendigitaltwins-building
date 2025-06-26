@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WaterSoftener;1",
+  "@id": "dtmi:com:syyclops:WaterSoftener;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Softener"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingWaterTreatment;1"
+    "dtmi:com:syyclops:PlumbingWaterTreatment;1"
   ],
   "contents": [
     {

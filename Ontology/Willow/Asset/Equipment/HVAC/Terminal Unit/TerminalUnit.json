@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TerminalUnit;1",
+  "@id": "dtmi:com:syyclops:TerminalUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Terminal Unit"
@@ -8,7 +8,7 @@
     "en": "A device that modulates airflow and/or the temperature of the controlled medium"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -204,7 +204,7 @@
         "en": "duct inlet"
       },
       "name": "ductInlet",
-      "schema": "dtmi:com:willowinc:DuctConnection;1"
+      "schema": "dtmi:com:syyclops:DuctConnection;1"
     },
     {
       "@type": "Property",

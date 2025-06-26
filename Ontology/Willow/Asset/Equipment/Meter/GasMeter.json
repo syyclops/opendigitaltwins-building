@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:GasMeter;1",
+  "@id": "dtmi:com:syyclops:GasMeter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Gas Meter"
   },
   "extends" : [
-    "dtmi:com:willowinc:MeterEquipment;1"
+    "dtmi:com:syyclops:MeterEquipment;1"
   ],
   "contents": [
     {
@@ -128,7 +128,7 @@
         "en": "sub-meter of"
       },
       "name": "subMeterOf",
-      "target": "dtmi:com:willowinc:GasMeter;1"
+      "target": "dtmi:com:syyclops:GasMeter;1"
     },
     {
       "@type": "Relationship",

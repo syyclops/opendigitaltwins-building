@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingPeopleCountSetpoint;1",
+  "@id": "dtmi:com:syyclops:LeavingPeopleCountSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving People Count Setpoint"
   },
   "description": {"en": "The desired value associated with leaving people count"},
   "extends" : [
-    "dtmi:com:willowinc:PeopleCountSetpoint;1"
+    "dtmi:com:syyclops:PeopleCountSetpoint;1"
   ],
   "contents": [
     

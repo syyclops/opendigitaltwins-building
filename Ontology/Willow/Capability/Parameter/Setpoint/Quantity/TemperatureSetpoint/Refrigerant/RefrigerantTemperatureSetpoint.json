@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerantTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:RefrigerantTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigerant Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with refrigerant temperature"},
   "extends" : [
-    "dtmi:com:willowinc:TemperatureSetpoint;1"
+    "dtmi:com:syyclops:TemperatureSetpoint;1"
   ],
   "contents": [
   ],

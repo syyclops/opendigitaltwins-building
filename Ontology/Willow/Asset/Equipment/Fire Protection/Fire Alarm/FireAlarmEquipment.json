@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireAlarmEquipment;1",
+  "@id": "dtmi:com:syyclops:FireAlarmEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireProtectionEquipment;1"
+    "dtmi:com:syyclops:FireProtectionEquipment;1"
   ],
   "contents": [
   ],

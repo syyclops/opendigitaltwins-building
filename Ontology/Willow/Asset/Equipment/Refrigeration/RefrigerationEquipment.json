@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationEquipment;1",
+  "@id": "dtmi:com:syyclops:RefrigerationEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Equipment"
@@ -8,7 +8,7 @@
     "en": "An asset that is designed to contain and use refrigerant gas to establish or maintain colder than ambient temperatures in a confined space."
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

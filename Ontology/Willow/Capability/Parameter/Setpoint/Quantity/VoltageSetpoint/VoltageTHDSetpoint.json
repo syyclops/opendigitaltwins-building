@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VoltageTHDSetpoint;1",
+  "@id": "dtmi:com:syyclops:VoltageTHDSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Voltage Total Harmonic Distortion (THD) Setpoint"
   },
   "description": {"en": "The desired value associated with voltage THD"},
   "extends" : [
-    "dtmi:com:willowinc:VoltageSetpoint;1"
+    "dtmi:com:syyclops:VoltageSetpoint;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:IntercomEntry;1",
+  "@id": "dtmi:com:syyclops:IntercomEntry;1",
   "@type": "Interface",
   "displayName": {
     "en": "Intercom Entry"
   },
   "extends" : [
-    "dtmi:com:willowinc:AccessControlEquipment;1"
+    "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
   "contents": [
   ],

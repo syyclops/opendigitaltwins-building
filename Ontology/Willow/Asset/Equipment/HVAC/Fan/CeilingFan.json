@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CeilingFan;1",
+  "@id": "dtmi:com:syyclops:CeilingFan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ceiling Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACFan;1"
+    "dtmi:com:syyclops:HVACFan;1"
   ],
   "contents": [
     {

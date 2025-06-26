@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:IndirectGreenhouseGasEmissions;1",
+  "@id": "dtmi:com:syyclops:IndirectGreenhouseGasEmissions;1",
   "@type": "Interface",
   "displayName": {
     "en": "Indirect Greenhouse Gas Emissions"
@@ -8,7 +8,7 @@
     "en": "The indirect quantity of greenhouse gas (GHG) emissions that are associated with the purchase of energy by an entity such as an organization or facility, typically measured in metric tons of CO2 equivalent (CO2e)."
   },
   "extends" : [
-    "dtmi:com:willowinc:GreenhouseGasEmissions;1"
+    "dtmi:com:syyclops:GreenhouseGasEmissions;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:RequestToExitDevice;1",
+  "@id": "dtmi:com:syyclops:RequestToExitDevice;1",
   "@type": "Interface",
   "displayName": {
     "en": "Request to Exit Device"
   },
   "extends" : [
-    "dtmi:com:willowinc:AccessControlEquipment;1"
+    "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
   "contents": [
   ],

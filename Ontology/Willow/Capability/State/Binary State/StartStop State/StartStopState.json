@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StartStopState;1",
+  "@id": "dtmi:com:syyclops:StartStopState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start/Stop State"
   },
   "extends" : [
-    "dtmi:com:willowinc:BinaryState;1"
+    "dtmi:com:syyclops:BinaryState;1"
   ],
   "contents": [
   ],

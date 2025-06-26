@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WarmupEndingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:WarmupEndingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Warmup Ending Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with warmup ending zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:UnoccupiedHeatingZoneAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:UnoccupiedHeatingZoneAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

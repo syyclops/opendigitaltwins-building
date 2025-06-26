@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirDewPointTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:ReturnAirDewPointTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Dew Point Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with return air dew point"},
   "extends" : [
-    "dtmi:com:willowinc:DewPointTemperatureSensor;1"
+    "dtmi:com:syyclops:DewPointTemperatureSensor;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopChilledWaterFlowSensor;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopChilledWaterFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Chilled Water Flow Sensor"
   },
   "description": {"en": "The flow feedback from a sensor associated with chilled water secondary loop"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowSensor;1"
+    "dtmi:com:syyclops:ChilledWaterFlowSensor;1"
   ],
   "contents": [
   ],

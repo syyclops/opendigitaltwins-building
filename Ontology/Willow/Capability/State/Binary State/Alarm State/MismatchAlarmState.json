@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MismatchAlarmState;1",
+  "@id": "dtmi:com:syyclops:MismatchAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mismatch Alarm State"
   },
   "description": {"en": "The Boolean state of the mismatch alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmState;1"
+    "dtmi:com:syyclops:AlarmState;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationTank;1",
+  "@id": "dtmi:com:syyclops:RefrigerationTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipment;1",
-    "dtmi:com:willowinc:Tank;1"
+    "dtmi:com:syyclops:RefrigerationEquipment;1",
+    "dtmi:com:syyclops:Tank;1"
   ],
   "contents": [
 

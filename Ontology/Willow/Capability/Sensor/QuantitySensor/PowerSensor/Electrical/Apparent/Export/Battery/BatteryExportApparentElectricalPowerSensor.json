@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BatteryExportApparentElectricalPowerSensor;1",
+  "@id": "dtmi:com:syyclops:BatteryExportApparentElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Battery Export Apparent Electrical Power Sensor"
   },
   "description": {"en": "The apparent electrical power being discharged by a battery system"},
   "extends" : [
-    "dtmi:com:willowinc:TotalExportApparentElectricalPowerSensor;1"
+    "dtmi:com:syyclops:TotalExportApparentElectricalPowerSensor;1"
   ],
   "contents": [
 

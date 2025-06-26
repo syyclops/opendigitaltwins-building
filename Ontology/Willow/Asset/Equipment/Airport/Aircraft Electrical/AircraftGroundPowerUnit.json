@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:airport:AircraftGroundPowerUnit;1",
+  "@id": "dtmi:com:syyclops:airport:AircraftGroundPowerUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Aircraft Ground Power Unit"
@@ -8,7 +8,7 @@
     "en": "A mobile or stationary device which provides electrical power to an aircraft between flights. (a.k.a. Aircraft GPU)"
   },
   "extends" : [
-    "dtmi:com:willowinc:airport:AircraftElectricalEquipment;1"
+    "dtmi:com:syyclops:airport:AircraftElectricalEquipment;1"
   ],
   "contents": [
   ],

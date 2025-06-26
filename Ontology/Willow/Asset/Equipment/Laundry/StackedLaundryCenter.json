@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:StackedLaundryCenter;1",
+  "@id": "dtmi:com:syyclops:StackedLaundryCenter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stacked Laundry Center"
@@ -8,8 +8,8 @@
     "en": "A one-piece laundry applicance which has separate, stacked machines for the washer and dryer."
   },
   "extends": [
-    "dtmi:com:willowinc:ClothesWasher;1",
-    "dtmi:com:willowinc:ClothesDryer;1"
+    "dtmi:com:syyclops:ClothesWasher;1",
+    "dtmi:com:syyclops:ClothesDryer;1"
   ],
   "contents": [],
   "@context": [

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassSteamMassFlowSensor;1",
+  "@id": "dtmi:com:syyclops:BypassSteamMassFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Steam Mass Flow Sensor"
   },
   "description": {"en": "The mass flow feedback from a sensor associated with steam bypass"},
   "extends" : [
-    "dtmi:com:willowinc:SteamMassFlowSensor;1"
+    "dtmi:com:syyclops:SteamMassFlowSensor;1"
   ],
   "contents": [
   ],

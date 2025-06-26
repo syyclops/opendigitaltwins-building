@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AbsoluteHumiditySetpoint;1",
+  "@id": "dtmi:com:syyclops:AbsoluteHumiditySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Absolute Humidity Setpoint"
   },
   "description": {"en": "The desired value associated with absolute humidity"},
   "extends" : [
-    "dtmi:com:willowinc:HumiditySetpoint;1"
+    "dtmi:com:syyclops:HumiditySetpoint;1"
   ],
   "contents": [
 

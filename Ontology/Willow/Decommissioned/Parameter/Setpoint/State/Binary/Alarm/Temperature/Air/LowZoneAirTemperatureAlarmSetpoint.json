@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowZoneAirTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowZoneAirTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Zone Air Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with low zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowAirTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

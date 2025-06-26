@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeAirTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:DischargeAirTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with discharge (supply) air"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSensor;1"
+    "dtmi:com:syyclops:AirTemperatureSensor;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:StartLevelSetpoint;1",
+  "@id": "dtmi:com:syyclops:StartLevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start Level Setpoint"
   },
   "description": {"en": "The desired start level percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:LevelSetpoint;1"
+    "dtmi:com:syyclops:LevelSetpoint;1"
   ],
   "contents": [
   ],

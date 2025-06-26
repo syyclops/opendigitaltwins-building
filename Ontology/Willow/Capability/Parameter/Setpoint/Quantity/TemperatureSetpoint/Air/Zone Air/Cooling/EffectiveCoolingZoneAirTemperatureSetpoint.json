@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:EffectiveCoolingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:EffectiveCoolingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Effective Cooling Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with effective cooling zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:CoolingZoneAirTemperatureSetpoint;1",
-    "dtmi:com:willowinc:EffectiveZoneAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:CoolingZoneAirTemperatureSetpoint;1",
+    "dtmi:com:syyclops:EffectiveZoneAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

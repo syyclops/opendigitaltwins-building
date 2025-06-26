@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Asset;1",
+  "@id": "dtmi:com:syyclops:Asset;1",
   "@type": "Interface",
   "displayName": {
     "en": "Asset"
@@ -39,7 +39,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:com:willowinc:Asset;1"
+      "target": "dtmi:com:syyclops:Asset;1"
     },
     {
       "@type": "Relationship",
@@ -50,7 +50,7 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:com:willowinc:Collection;1"
+      "target": "dtmi:com:syyclops:Collection;1"
     },
     {
       "@type": "Relationship",
@@ -58,7 +58,7 @@
         "en": "located in"
       },
       "name": "locatedIn",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Relationship",
@@ -66,7 +66,7 @@
         "en": "serviced by"
       },
       "name": "servicedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -74,7 +74,7 @@
         "en": "manufactured by"
       },
       "name": "manufacturedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -82,7 +82,7 @@
         "en": "installed by"
       },
       "name": "installedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -90,7 +90,7 @@
         "en": "commissioned by"
       },
       "name": "commissionedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -98,7 +98,7 @@
       "displayName": {
         "en": "has document"
       },
-      "target": "dtmi:com:willowinc:Document;1"
+      "target": "dtmi:com:syyclops:Document;1"
     },
     {
       "@type": "Relationship",
@@ -109,7 +109,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -117,7 +117,7 @@
       "displayName": {
         "en": "Service Responsibilitly"
       },
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -125,7 +125,7 @@
       "displayName": {
         "en": "owned by"
       },
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Property",
@@ -134,7 +134,7 @@
         "en": "Manufacturer"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:AssetRelationshipRefObject;1"
+      "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1"
     },
     {
       "@type": "Property",
@@ -143,7 +143,7 @@
         "en": "Installer"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:AssetRelationshipRefObject;1"
+      "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1"
     },
     {
       "@type": "Property",
@@ -152,7 +152,7 @@
         "en": "Commissioning Agent"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:AssetRelationshipRefObject;1"
+      "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1"
     },
     {
       "@type": "Property",
@@ -161,7 +161,7 @@
         "en": "Owner"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:AssetRelationshipRefObject;1"
+      "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1"
     },
     {
       "@type": "Property",
@@ -170,7 +170,7 @@
         "en": "Service Provider"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:AssetRelationshipRefObject;1",
+      "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
       "comment": "This property lifts the REC ontology relationship servicedBy"
     },
     {
@@ -180,7 +180,7 @@
         "en": "Service Responsibility"
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:AssetRelationshipRefObject;1"
+      "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1"
     },
     {
       "@type": "Property",
@@ -268,7 +268,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:AssetMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:AssetMappedIdObject;1"
       }
     },
     {
@@ -325,7 +325,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:AssetCoordinates;1",
+        "@id": "dtmi:com:syyclops:AssetCoordinates;1",
         "@type": "Object",
         "fields": [
           {
@@ -575,42 +575,42 @@
             "displayName": {
               "en": "MasterFormat"
             },
-            "schema": "dtmi:com:willowinc:AssetAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:AssetAlternateClassificationObject;1"
           },
           {
             "name": "omniClass",
             "displayName": {
               "en": "OmniClass"
             },
-            "schema": "dtmi:com:willowinc:AssetAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:AssetAlternateClassificationObject;1"
           },
           {
             "name": "uniFormat",
             "displayName": {
               "en": "UniFormat"
             },
-            "schema": "dtmi:com:willowinc:AssetAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:AssetAlternateClassificationObject;1"
           },
           {
             "name": "uniclass",
             "displayName": {
               "en": "Uniclass"
             },
-            "schema": "dtmi:com:willowinc:AssetAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:AssetAlternateClassificationObject;1"
           },
           {
             "name": "projectHaystack",
             "displayName": {
               "en": "Project Haystack"
             },
-            "schema": "dtmi:com:willowinc:AssetAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:AssetAlternateClassificationObject;1"
           },
           {
             "name": "brickSchema",
             "displayName": {
               "en": "Brick Schema"
             },
-            "schema": "dtmi:com:willowinc:AssetAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:AssetAlternateClassificationObject;1"
           }
         ]
       }
@@ -664,7 +664,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:AssetRelationshipRefObject;1",
+      "@id": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -694,7 +694,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:AssetAlternateClassificationObject;1",
+      "@id": "dtmi:com:syyclops:AssetAlternateClassificationObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:AssetMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:AssetMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."

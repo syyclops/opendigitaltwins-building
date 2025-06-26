@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACCoolingTowerGroup;1",
+  "@id": "dtmi:com:syyclops:HVACCoolingTowerGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling Tower Group"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipmentGroup;1"
+    "dtmi:com:syyclops:HVACEquipmentGroup;1"
   ],
   "contents": [
   ],

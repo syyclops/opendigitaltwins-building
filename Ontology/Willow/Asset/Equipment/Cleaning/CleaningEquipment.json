@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CleaningEquipment;1",
+  "@id": "dtmi:com:syyclops:CleaningEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cleaning Equipment"
@@ -8,7 +8,7 @@
     "en": "Equipment used for cleaning a building such as a floor scrubber or vacuum."
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

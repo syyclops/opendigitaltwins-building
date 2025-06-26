@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireDamper;1",
+  "@id": "dtmi:com:syyclops:FireDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
     {

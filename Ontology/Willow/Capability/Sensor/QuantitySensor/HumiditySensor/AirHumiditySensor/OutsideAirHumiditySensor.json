@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OutsideAirHumiditySensor;1",
+  "@id": "dtmi:com:syyclops:OutsideAirHumiditySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Air Humidity Sensor"
   },
   "description": {"en": "The humidity feedback from a sensor associated with outside air"},
   "extends" : [
-    "dtmi:com:willowinc:AirHumiditySensor;1"
+    "dtmi:com:syyclops:AirHumiditySensor;1"
   ],
   "contents": [
   ],

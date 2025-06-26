@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DefrostHeaterCurrentSensor;1",
+  "@id": "dtmi:com:syyclops:DefrostHeaterCurrentSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Defrost Heater Current Sensor"
   },
   "description": {"en": "The current feedback from a sensor associated with an integrated defrost heater for an evaporator of a refrigeration equipment."},
   "extends" : [
-    "dtmi:com:willowinc:CurrentSensor;1"
+    "dtmi:com:syyclops:CurrentSensor;1"
   ],
   "contents": [
     

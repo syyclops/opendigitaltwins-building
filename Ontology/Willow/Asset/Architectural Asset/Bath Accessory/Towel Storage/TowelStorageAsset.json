@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TowelStorageAsset;1",
+  "@id": "dtmi:com:syyclops:TowelStorageAsset;1",
   "@type": "Interface",
   "displayName": {
     "en": "Towel Storage"
@@ -8,7 +8,7 @@
     "en": "An device that holds a towel such as a bar, ring, rack, or shelf."
   },
   "extends" : [
-    "dtmi:com:willowinc:BathAccessory;1"
+    "dtmi:com:syyclops:BathAccessory;1"
   ],
   "contents": [
 

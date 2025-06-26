@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:FanEfficiency;1",
+  "@id": "dtmi:com:syyclops:FanEfficiency;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fan Efficiency Ratio"
@@ -8,7 +8,7 @@
     "en": "A percent performance indicator for a fan which is the ratio of the power imparted to the airstream (airflow x total pressure) to its electrical power input."
   },
   "extends" : [
-    "dtmi:com:willowinc:PercentPerformanceIndicator;1"
+    "dtmi:com:syyclops:PercentPerformanceIndicator;1"
   ],
   "contents": [
 

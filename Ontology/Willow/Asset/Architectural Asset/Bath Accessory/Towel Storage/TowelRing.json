@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TowelRing;1",
+  "@id": "dtmi:com:syyclops:TowelRing;1",
   "@type": "Interface",
   "displayName": {
     "en": "Towel Ring"
@@ -8,7 +8,7 @@
     "en": "A ring-shaped device that holds a hand towel."
   },
   "extends" : [
-    "dtmi:com:willowinc:TowelStorageAsset;1"
+    "dtmi:com:syyclops:TowelStorageAsset;1"
   ],
   "contents": [
 

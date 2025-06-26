@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustAirDamperPositionSetpoint;1",
+  "@id": "dtmi:com:syyclops:ExhaustAirDamperPositionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Air Damper Position Setpoint"
   },
   "description": {"en": "The desired position percentage for control of the exhaust air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionSetpoint;1"
+    "dtmi:com:syyclops:DamperPositionSetpoint;1"
   ],
   "contents": [
   ],

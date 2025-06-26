@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AirDiffuser;1",
+  "@id": "dtmi:com:syyclops:AirDiffuser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Diffuser"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirInletsOutlets;1"
+    "dtmi:com:syyclops:AirInletsOutlets;1"
   ],
   "contents": [
 

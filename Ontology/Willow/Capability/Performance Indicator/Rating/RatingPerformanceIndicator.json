@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RatingPerformanceIndicator;1",
+  "@id": "dtmi:com:syyclops:RatingPerformanceIndicator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Rating Performance Indicator"
@@ -8,7 +8,7 @@
     "en": "A performance indicator which has values that are from a rating system."
   },
   "extends" : [
-    "dtmi:com:willowinc:PerformanceIndicator;1"
+    "dtmi:com:syyclops:PerformanceIndicator;1"
   ],
   "contents": [
 

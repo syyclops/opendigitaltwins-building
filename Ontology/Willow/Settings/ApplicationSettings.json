@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ApplicationSettings;1",
+  "@id": "dtmi:com:syyclops:ApplicationSettings;1",
   "@type": "Interface",
   "displayName": {
     "en": "Application Settings"
@@ -8,7 +8,7 @@
     "en": "Settings or properties used by an application for its functionality."
   },
   "extends" : [
-    "dtmi:com:willowinc:Settings;1"
+    "dtmi:com:syyclops:Settings;1"
   ],
   "contents": [
     {

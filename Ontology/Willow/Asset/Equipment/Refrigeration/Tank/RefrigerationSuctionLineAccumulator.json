@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationSuctionLineAccumulator;1",
+  "@id": "dtmi:com:syyclops:RefrigerationSuctionLineAccumulator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Suction Line Accumulator"
@@ -8,7 +8,7 @@
     "en": "A refrigeratino suction line accumulator used in a refrigeration system prevents damaging overflow of liquid refrigerant and oil from going back to the compressor."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationTank;1"
+    "dtmi:com:syyclops:RefrigerationTank;1"
   ],
   "contents": [
 

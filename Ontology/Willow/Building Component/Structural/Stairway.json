@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Stairway;1",
+  "@id": "dtmi:com:syyclops:Stairway;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stairway"
   },
   "extends" : [
-    "dtmi:com:willowinc:StructuralBuildingComponent;1"
+    "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
   "contents": [
     {
@@ -35,7 +35,7 @@
       "displayName": {
         "en": "Capacity"
       },
-      "schema": "dtmi:com:willowinc:SpaceCapacity;1"
+      "schema": "dtmi:com:syyclops:SpaceCapacity;1"
     },
     {
       "@type": "Component",
@@ -43,7 +43,7 @@
       "displayName": {
         "en": "Occupancy"
       },
-      "schema": "dtmi:com:willowinc:SpaceOccupancy;1"
+      "schema": "dtmi:com:syyclops:SpaceOccupancy;1"
     }
   ],
   "@context": [

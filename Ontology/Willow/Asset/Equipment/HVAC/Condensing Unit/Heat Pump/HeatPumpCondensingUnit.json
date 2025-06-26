@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HeatPumpCondensingUnit;1",
+  "@id": "dtmi:com:syyclops:HeatPumpCondensingUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Pump Condensing Unit"
@@ -8,7 +8,7 @@
     "en": "A type of condensing unit which includes a heat pump which enables the unit to provide cooling and heating."
   },
   "extends" : [
-    "dtmi:com:willowinc:CondensingUnit;1"
+    "dtmi:com:syyclops:CondensingUnit;1"
   ],
   "contents": [
 

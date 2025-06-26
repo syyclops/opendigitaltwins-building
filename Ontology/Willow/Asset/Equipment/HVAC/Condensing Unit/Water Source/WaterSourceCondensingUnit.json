@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WaterSourceCondensingUnit;1",
+  "@id": "dtmi:com:syyclops:WaterSourceCondensingUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Source Condensing Unit"
@@ -8,7 +8,7 @@
     "en": "A type of heat exchanger comprised of a compressor and a condenser whose function is to transfer heat to a water loop in a split system air conditioner"
   },
   "extends" : [
-    "dtmi:com:willowinc:CondensingUnit;1"
+    "dtmi:com:syyclops:CondensingUnit;1"
   ],
   "contents": [
   

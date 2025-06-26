@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:CurbInlet;1",
+  "@id": "dtmi:com:syyclops:CurbInlet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Curb Inlet"
   },
-  "extends": "dtmi:com:willowinc:StormSewerInlet;1",
+  "extends": "dtmi:com:syyclops:StormSewerInlet;1",
   "contents": [
 
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ParkingSpotCollection;1",
+  "@id": "dtmi:com:syyclops:ParkingSpotCollection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Parking Spot Collection"
   },
   "extends" : [
-    "dtmi:com:willowinc:SpaceCollection;1"
+    "dtmi:com:syyclops:SpaceCollection;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:airport:BaggageScreeningEquipment;1",
+  "@id": "dtmi:com:syyclops:airport:BaggageScreeningEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Baggage Screening Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:airport:BaggageHandlingEquipment;1"
+    "dtmi:com:syyclops:airport:BaggageHandlingEquipment;1"
   ],
   "contents": [
 

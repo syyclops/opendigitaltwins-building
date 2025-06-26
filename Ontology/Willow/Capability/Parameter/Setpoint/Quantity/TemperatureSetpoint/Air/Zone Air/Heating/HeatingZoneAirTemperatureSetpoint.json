@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:HeatingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with heating zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:ZoneAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:ZoneAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

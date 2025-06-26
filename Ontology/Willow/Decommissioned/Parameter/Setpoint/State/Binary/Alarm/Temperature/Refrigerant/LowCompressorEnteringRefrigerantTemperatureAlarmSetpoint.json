@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowCompressorEnteringRefrigerantTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowCompressorEnteringRefrigerantTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Compressor Entering Refrigerant Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with low refrigerant entering the compressor (suction) temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LowRefrigerantTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowRefrigerantTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

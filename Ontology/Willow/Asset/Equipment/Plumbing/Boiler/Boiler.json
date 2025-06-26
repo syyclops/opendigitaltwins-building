@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Boiler;1",
+  "@id": "dtmi:com:syyclops:Boiler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Boiler"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
   "contents": [
     {

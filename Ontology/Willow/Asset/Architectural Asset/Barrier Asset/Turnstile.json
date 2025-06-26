@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:Turnstile;1",
+  "@id": "dtmi:com:syyclops:Turnstile;1",
   "@type": "Interface",
   "displayName": {
     "en": "Turnstile"
   },
   "extends" : [
-    "dtmi:com:willowinc:BarrierAsset;1",
-    "dtmi:com:willowinc:PhysicalSpaceOpening;1"
+    "dtmi:com:syyclops:BarrierAsset;1",
+    "dtmi:com:syyclops:PhysicalSpaceOpening;1"
   ],
   "contents": [
     

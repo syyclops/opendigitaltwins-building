@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:StandbyHeatingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:StandbyHeatingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Standby Heating Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with standby heating zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HeatingZoneAirTemperatureSetpoint;1",
-    "dtmi:com:willowinc:StandbyHeatingSetpoint;1"
+    "dtmi:com:syyclops:HeatingZoneAirTemperatureSetpoint;1",
+    "dtmi:com:syyclops:StandbyHeatingSetpoint;1"
   ],
   "contents": [
   ],

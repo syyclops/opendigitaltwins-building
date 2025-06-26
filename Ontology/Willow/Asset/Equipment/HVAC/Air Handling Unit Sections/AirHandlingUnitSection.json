@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirHandlingUnitSection;1",
+  "@id": "dtmi:com:syyclops:AirHandlingUnitSection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Handling Unit Section"
@@ -8,7 +8,7 @@
     "en": "A primary element of an air handling unit."
   },
   "extends": [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
   ],

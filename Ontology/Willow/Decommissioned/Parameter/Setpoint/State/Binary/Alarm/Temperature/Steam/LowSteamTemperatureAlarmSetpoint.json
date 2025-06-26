@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowSteamTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowSteamTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Steam Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with low steam temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LowWaterTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowWaterTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

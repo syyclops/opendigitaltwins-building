@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:StageCountSensor;1",
+  "@id": "dtmi:com:syyclops:StageCountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stage Count Sensor"
   },
   "description": {"en": "The counted number of active stages of components to serve a function within a piece of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:CountSensor;1"
+    "dtmi:com:syyclops:CountSensor;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CondensatePump;1",
+  "@id": "dtmi:com:syyclops:CondensatePump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condensate Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACPump;1"
+    "dtmi:com:syyclops:HVACPump;1"
   ],
   "contents": [
   ],

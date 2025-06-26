@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalReceptacle;1",
+  "@id": "dtmi:com:syyclops:ElectricalReceptacle;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Receptacle"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalWiringDevice;1"
+    "dtmi:com:syyclops:ElectricalWiringDevice;1"
   ],
   "contents": [
     {

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CAVBoxReheat;1",
+  "@id": "dtmi:com:syyclops:CAVBoxReheat;1",
   "@type": "Interface",
   "displayName": {
     "en": "CAV Box with Reheat"
@@ -8,7 +8,7 @@
     "en": "A type of terminal unit that modulates damper position to control airflow at a fixed setpoint and controls a reheat device to provide supplemental heating when appropriate"
   },
   "extends" : [
-    "dtmi:com:willowinc:CAVBox;1"
+    "dtmi:com:syyclops:CAVBox;1"
   ],
   "contents": [
     {
@@ -38,7 +38,7 @@
         "en": "re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

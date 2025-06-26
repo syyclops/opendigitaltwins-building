@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ObjectFlowSensor;1",
+  "@id": "dtmi:com:syyclops:ObjectFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Object Flow Sensor"
   },
   "description": {"en": "The object flow feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:FlowSensor;1"
+    "dtmi:com:syyclops:FlowSensor;1"
   ],
   "contents": [
 

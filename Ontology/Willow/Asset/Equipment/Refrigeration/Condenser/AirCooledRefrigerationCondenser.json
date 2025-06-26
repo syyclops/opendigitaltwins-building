@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirCooledRefrigerationCondenser;1",
+  "@id": "dtmi:com:syyclops:AirCooledRefrigerationCondenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air-Cooled Refrigeration Condenser"
@@ -8,8 +8,8 @@
     "en": "An air-cooled condenser used in a refrigeration system or circuit used in applications such food, beverage, pharmaceutical and chemical storage and ice storage and production."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationCondenser;1",
-    "dtmi:com:willowinc:AirCooledCondenser;1"
+    "dtmi:com:syyclops:RefrigerationCondenser;1",
+    "dtmi:com:syyclops:AirCooledCondenser;1"
   ],
   "contents": [
 

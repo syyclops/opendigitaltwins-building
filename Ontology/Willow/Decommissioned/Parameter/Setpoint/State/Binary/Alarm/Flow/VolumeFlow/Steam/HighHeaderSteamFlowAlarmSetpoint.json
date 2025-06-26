@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighHeaderSteamFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighHeaderSteamFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Header Steam Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high header steam flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:HighSteamFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighSteamFlowAlarmSetpoint;1"
   ],
   "contents": [
 

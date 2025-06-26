@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ApparentElectricalPowerSetpoint;1",
+  "@id": "dtmi:com:syyclops:ApparentElectricalPowerSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Apparent Electrical Power Setpoint"
   },
   "description": {"en": "The desired value associated with apparent electrical power"},
   "extends" : [
-    "dtmi:com:willowinc:ElectricalPowerSetpoint;1"
+    "dtmi:com:syyclops:ElectricalPowerSetpoint;1"
   ],
   "contents": [
     

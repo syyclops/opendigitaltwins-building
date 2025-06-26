@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StructuralShaft;1",
+  "@id": "dtmi:com:syyclops:StructuralShaft;1",
   "@type": "Interface",
   "displayName": {
     "en": "Structural Shaft"
   },
   "extends" : [
-    "dtmi:com:willowinc:StructuralBuildingComponent;1"
+    "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
   "contents": [
   ],

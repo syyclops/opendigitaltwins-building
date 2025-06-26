@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:IlluminanceSetpoint;1",
+  "@id": "dtmi:com:syyclops:IlluminanceSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Illuminance Setpoint"
   },
   "description": {"en": "The desired value associated with illuminance"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpoint;1"
+    "dtmi:com:syyclops:QuantitySetpoint;1"
   ],
   "contents": [
 

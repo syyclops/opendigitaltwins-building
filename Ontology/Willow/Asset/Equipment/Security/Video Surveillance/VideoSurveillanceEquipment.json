@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VideoSurveillanceEquipment;1",
+  "@id": "dtmi:com:syyclops:VideoSurveillanceEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Video Surveillance Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:SecurityEquipment;1"
+    "dtmi:com:syyclops:SecurityEquipment;1"
   ],
   "contents": [
   ],

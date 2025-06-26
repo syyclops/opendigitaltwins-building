@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VolumeFlowSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:VolumeFlowSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Volume Flow Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with volume flow setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:FlowSetpointHighLimit;1"
+    "dtmi:com:syyclops:FlowSetpointHighLimit;1"
   ],
   "contents": [
     

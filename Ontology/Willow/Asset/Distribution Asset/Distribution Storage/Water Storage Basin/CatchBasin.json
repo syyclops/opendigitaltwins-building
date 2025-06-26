@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:CatchBasin;1",
+  "@id": "dtmi:com:syyclops:CatchBasin;1",
   "@type": "Interface",
   "displayName": {
     "en": "Catch Basin"
   },
-  "extends": "dtmi:com:willowinc:WaterStorageBasin;1",
+  "extends": "dtmi:com:syyclops:WaterStorageBasin;1",
   "contents": [
 
   ],

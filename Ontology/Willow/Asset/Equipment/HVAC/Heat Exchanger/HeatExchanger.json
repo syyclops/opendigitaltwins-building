@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HeatExchanger;1",
+  "@id": "dtmi:com:syyclops:HeatExchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Exchanger"
@@ -8,7 +8,7 @@
     "en": "A device which transfers heat between two fluids without the fluids coming in direct contact or mixing together."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {

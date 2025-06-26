@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:UtilityBillEvent;1",
+  "@id": "dtmi:com:syyclops:UtilityBillEvent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Utility Bill"
@@ -8,7 +8,7 @@
     "en": "An event that occurs, typically monthly, when a utility company produces a bill for a utility account such as electric, gas, or water."
   },
   "extends" : [
-    "dtmi:com:willowinc:Event;1"
+    "dtmi:com:syyclops:Event;1"
   ],
   "contents": [
     {
@@ -75,7 +75,7 @@
       },
       "name": "totalCharge",
       "writable": true,
-      "schema": "dtmi:com:willowinc:UtilityBillEventChargest;1"
+      "schema": "dtmi:com:syyclops:UtilityBillEventChargest;1"
     },
     {
       "@type": "Property",
@@ -189,7 +189,7 @@
               "description": {
                 "en": "The amount of usage as measured by the meter"
               },
-              "schema": "dtmi:com:willowinc:UtilityBillEventChargest;1"
+              "schema": "dtmi:com:syyclops:UtilityBillEventChargest;1"
             }
           ]
         }
@@ -198,7 +198,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:UtilityBillEventChargest;1",
+      "@id": "dtmi:com:syyclops:UtilityBillEventChargest;1",
       "@type": "Object",
       "fields": [
         {

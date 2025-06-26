@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACHotWaterSystem;1",
+  "@id": "dtmi:com:syyclops:HVACHotWaterSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Hot Water System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACWaterSystem;1"
+    "dtmi:com:syyclops:HVACWaterSystem;1"
   ],
   "contents": [
   ],

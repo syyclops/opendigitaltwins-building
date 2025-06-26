@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACAirTreatment;1",
+  "@id": "dtmi:com:syyclops:HVACAirTreatment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Treatment (HVAC)"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     

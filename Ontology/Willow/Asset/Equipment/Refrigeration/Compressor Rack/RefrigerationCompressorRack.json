@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationCompressorRack;1",
+  "@id": "dtmi:com:syyclops:RefrigerationCompressorRack;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Compressor Rack"
@@ -8,7 +8,7 @@
     "en": "A compressor rack in which multiple compressors are piped in parallel and share a common refrigerant and oil charge."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipment;1"
+    "dtmi:com:syyclops:RefrigerationEquipment;1"
   ],
   "contents": [
 

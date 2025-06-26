@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VoltageAlarmState;1",
+  "@id": "dtmi:com:syyclops:VoltageAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Voltage Alarm State"
   },
   "description": {"en": "The Boolean state of the voltage alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:ElectricalPowerAlarmState;1"
+    "dtmi:com:syyclops:ElectricalPowerAlarmState;1"
   ],
   "contents": [
 

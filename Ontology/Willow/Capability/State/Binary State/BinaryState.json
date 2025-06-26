@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BinaryState;1",
+  "@id": "dtmi:com:syyclops:BinaryState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Binary State"
   },
   "description": {"en": "The Boolean state of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:State;1"
+    "dtmi:com:syyclops:State;1"
   ],
   "contents": [
     {

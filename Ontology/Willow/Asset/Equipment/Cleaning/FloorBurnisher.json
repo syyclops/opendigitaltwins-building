@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:FloorBurnisher;1",
+  "@id": "dtmi:com:syyclops:FloorBurnisher;1",
   "@type": "Interface",
   "displayName": {
     "en": "Floor Burnisher"
@@ -8,7 +8,7 @@
     "en": "A machine used to make hard floors shiny."
   },
   "extends" : [
-    "dtmi:com:willowinc:CleaningEquipment;1"
+    "dtmi:com:syyclops:CleaningEquipment;1"
   ],
   "contents": [
   ],

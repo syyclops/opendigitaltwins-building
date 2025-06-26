@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AccessReaderKeypad;1",
+  "@id": "dtmi:com:syyclops:AccessReaderKeypad;1",
   "@type": "Interface",
   "displayName": {
     "en": "Access Reader with Keypad"
   },
   "extends" : [
-    "dtmi:com:willowinc:AccessReader;1",
-    "dtmi:com:willowinc:AccessKeypad;1"
+    "dtmi:com:syyclops:AccessReader;1",
+    "dtmi:com:syyclops:AccessKeypad;1"
   ],
   "contents": [
   ],

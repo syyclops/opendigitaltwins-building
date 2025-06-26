@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricUnitHeater;1",
+  "@id": "dtmi:com:syyclops:ElectricUnitHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Unit Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:UnitHeater;1"
+    "dtmi:com:syyclops:UnitHeater;1"
   ],
   "contents": [
     {

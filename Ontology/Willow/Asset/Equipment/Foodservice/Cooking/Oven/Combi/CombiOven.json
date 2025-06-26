@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CombiOven;1",
+  "@id": "dtmi:com:syyclops:CombiOven;1",
   "@type": "Interface",
   "displayName": {
     "en": "Combi Oven"
@@ -8,7 +8,7 @@
     "en": "An oven appliance which uses a combination of convection and steam to cook food."
   },
   "extends" : [
-    "dtmi:com:willowinc:Oven;1"
+    "dtmi:com:syyclops:Oven;1"
   ],
   "contents": [
   ],

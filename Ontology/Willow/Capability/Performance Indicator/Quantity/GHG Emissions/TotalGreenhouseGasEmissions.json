@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TotalGreenhouseGasEmissions;1",
+  "@id": "dtmi:com:syyclops:TotalGreenhouseGasEmissions;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Greenhouse Gas Emissions"
@@ -8,7 +8,7 @@
     "en": "The total quantity of greenhouse gas (GHG) emissions attributed directly and indirectly to an entity such as an organization or facility, typically measured in metric tons of CO2 equivalent (CO2e)."
   },
   "extends" : [
-    "dtmi:com:willowinc:GreenhouseGasEmissions;1"
+    "dtmi:com:syyclops:GreenhouseGasEmissions;1"
   ],
   "contents": [
 

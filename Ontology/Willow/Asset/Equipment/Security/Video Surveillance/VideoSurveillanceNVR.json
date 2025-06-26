@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VideoSurveillanceNVR;1",
+  "@id": "dtmi:com:syyclops:VideoSurveillanceNVR;1",
   "@type": "Interface",
   "displayName": {
     "en": "Network Video Recorder"
   },
   "extends" : [
-    "dtmi:com:willowinc:VideoSurveillanceEquipment;1"
+    "dtmi:com:syyclops:VideoSurveillanceEquipment;1"
   ],
   "contents": [
   ],

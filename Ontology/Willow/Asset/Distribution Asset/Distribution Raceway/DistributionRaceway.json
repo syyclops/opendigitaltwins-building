@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:DistributionRaceway;1",
+  "@id": "dtmi:com:syyclops:DistributionRaceway;1",
   "@type": "Interface",
   "displayName": {
     "en": "Distribution Raceway"
   },
-  "extends": "dtmi:com:willowinc:DistributionAsset;1",
+  "extends": "dtmi:com:syyclops:DistributionAsset;1",
   "contents": [
 
   ],

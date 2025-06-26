@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HydronicAirSeparator;1",
+  "@id": "dtmi:com:syyclops:HydronicAirSeparator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hydronic Air Separator"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {

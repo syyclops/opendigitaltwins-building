@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:MotionSetpoint;1",
+  "@id": "dtmi:com:syyclops:MotionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Motion Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:BinarySetpoint;1"
+    "dtmi:com:syyclops:BinarySetpoint;1"
   ],
   "contents": [
 

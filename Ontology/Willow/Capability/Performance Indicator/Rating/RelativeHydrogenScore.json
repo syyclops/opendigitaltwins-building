@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RelativeHydrogenScore;1",
+  "@id": "dtmi:com:syyclops:RelativeHydrogenScore;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relative Hydrogen (rH) Score"
@@ -8,7 +8,7 @@
     "en": "A score typically ranging from 0-42 which is the oxidation-reduction potential state as calculated from the pH and ORP measurements using the Nernst equation."
   },
   "extends" : [
-    "dtmi:com:willowinc:RatingPerformanceIndicator;1"
+    "dtmi:com:syyclops:RatingPerformanceIndicator;1"
   ],
   "contents": [
 

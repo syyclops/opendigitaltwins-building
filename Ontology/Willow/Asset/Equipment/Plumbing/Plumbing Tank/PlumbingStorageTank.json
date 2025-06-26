@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingStorageTank;1",
+  "@id": "dtmi:com:syyclops:PlumbingStorageTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Plumbing Storage Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingTank;1"
+    "dtmi:com:syyclops:PlumbingTank;1"
   ],
   "contents": [
     {
@@ -60,7 +60,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:PlumbingStorageTankService;1",
+        "@id": "dtmi:com:syyclops:PlumbingStorageTankService;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [

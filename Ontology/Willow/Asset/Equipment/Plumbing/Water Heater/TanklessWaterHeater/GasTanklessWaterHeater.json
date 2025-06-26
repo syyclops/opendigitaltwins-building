@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:GasTanklessWaterHeater;1",
+  "@id": "dtmi:com:syyclops:GasTanklessWaterHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Gas Tankless Water Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:TanklessWaterHeater;1"
+    "dtmi:com:syyclops:TanklessWaterHeater;1"
   ],
   "contents": [
     {

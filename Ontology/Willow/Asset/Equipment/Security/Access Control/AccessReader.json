@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AccessReader;1",
+  "@id": "dtmi:com:syyclops:AccessReader;1",
   "@type": "Interface",
   "displayName": {
     "en": "Access Reader"
   },
   "extends" : [
-    "dtmi:com:willowinc:AccessControlEquipment;1"
+    "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
   "contents": [
   ],

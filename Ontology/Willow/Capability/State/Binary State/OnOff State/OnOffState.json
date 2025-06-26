@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OnOffState;1",
+  "@id": "dtmi:com:syyclops:OnOffState;1",
   "@type": "Interface",
   "displayName": {
     "en": "On/Off State"
   },
   "description": {"en": "The Boolean state of the equipment which is 'on' when 'true' and 'off' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:BinaryState;1"
+    "dtmi:com:syyclops:BinaryState;1"
   ],
   "contents": [
   ],

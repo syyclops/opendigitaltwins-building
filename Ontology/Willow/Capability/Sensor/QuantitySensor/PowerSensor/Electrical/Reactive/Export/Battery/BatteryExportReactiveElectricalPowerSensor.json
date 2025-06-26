@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BatteryExportReactiveElectricalPowerSensor;1",
+  "@id": "dtmi:com:syyclops:BatteryExportReactiveElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Battery Export Reactive Electrical Power Sensor"
   },
   "description": {"en": "The reactive electrical power being discharged by a battery system"},
   "extends" : [
-    "dtmi:com:willowinc:TotalExportReactiveElectricalPowerSensor;1"
+    "dtmi:com:syyclops:TotalExportReactiveElectricalPowerSensor;1"
   ],
   "contents": [
 

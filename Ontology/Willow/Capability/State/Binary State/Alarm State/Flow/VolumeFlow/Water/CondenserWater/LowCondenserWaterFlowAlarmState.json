@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowCondenserWaterFlowAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowCondenserWaterFlowAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Condenser Water Flow Alarm State"
   },
   "description": {"en": "The Boolean state of the low condenser water flow alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterFlowAlarmState;1"
+    "dtmi:com:syyclops:CondenserWaterFlowAlarmState;1"
   ],
   "contents": [
 

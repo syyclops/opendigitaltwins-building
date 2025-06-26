@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LevelState;1",
+  "@id": "dtmi:com:syyclops:LevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level State"
   },
   "extends" : [
-    "dtmi:com:willowinc:PercentState;1"
+    "dtmi:com:syyclops:PercentState;1"
   ],
   "contents": [
   ],

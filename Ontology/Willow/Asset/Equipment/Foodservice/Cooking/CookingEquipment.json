@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CookingEquipment;1",
+  "@id": "dtmi:com:syyclops:CookingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooking Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodserviceEquipment;1"
+    "dtmi:com:syyclops:FoodserviceEquipment;1"
   ],
   "contents": [
   ],

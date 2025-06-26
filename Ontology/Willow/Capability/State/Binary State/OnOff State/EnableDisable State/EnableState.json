@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:EnableState;1",
+  "@id": "dtmi:com:syyclops:EnableState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Enable State"
   },
   "description": {"en": "The Boolean state of the equipment which is 'enable' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:EnableDisableState;1",
-    "dtmi:com:willowinc:OnState;1"
+    "dtmi:com:syyclops:EnableDisableState;1",
+    "dtmi:com:syyclops:OnState;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:SteamTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with steam"},
   "extends" : [
-    "dtmi:com:willowinc:WaterTemperatureSensor;1"
+    "dtmi:com:syyclops:WaterTemperatureSensor;1"
   ],
   "contents": [
   ],

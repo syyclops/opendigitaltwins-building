@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:AirDeltaPressureSetpoint;1",
+  "@id": "dtmi:com:syyclops:AirDeltaPressureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Delta Pressure Setpoint"
   },
   "description": {"en": "The desired value associated with air delta pressure"},
   "extends" : [
-    "dtmi:com:willowinc:AirPressureSetpoint;1",
-    "dtmi:com:willowinc:DeltaPressureSetpoint;1"
+    "dtmi:com:syyclops:AirPressureSetpoint;1",
+    "dtmi:com:syyclops:DeltaPressureSetpoint;1"
   ],
   "contents": [
     

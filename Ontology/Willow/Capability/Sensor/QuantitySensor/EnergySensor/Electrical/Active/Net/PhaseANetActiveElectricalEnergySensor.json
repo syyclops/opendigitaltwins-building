@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseANetActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:PhaseANetActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase A Net Active Electrical Energy Sensor"
   },
   "description": {"en": "The active electrical energy feedback from a sensor associated with phase a net"},
   "extends" : [
-    "dtmi:com:willowinc:PhaseAActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:PhaseAActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:HighCoilLeavingWaterTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighCoilLeavingWaterTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Coil Leaving Water Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with high water leaving the coil which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighWaterTemperatureAlarmState;1",
-    "dtmi:com:willowinc:HighLeavingWaterTemperatureAlarmState;1"
+    "dtmi:com:syyclops:HighWaterTemperatureAlarmState;1",
+    "dtmi:com:syyclops:HighLeavingWaterTemperatureAlarmState;1"
   ],
   "contents": [
   ],

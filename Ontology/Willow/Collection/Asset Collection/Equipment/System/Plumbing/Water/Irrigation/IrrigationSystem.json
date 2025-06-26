@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:IrrigationSystem;1",
+  "@id": "dtmi:com:syyclops:IrrigationSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Irrigation System"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingWaterSystem;1"
+    "dtmi:com:syyclops:PlumbingWaterSystem;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Controller;1",
+  "@id": "dtmi:com:syyclops:Controller;1",
   "@type": "Interface",
   "displayName": {
     "en": "Controller"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTEquipment;1"
+    "dtmi:com:syyclops:ICTEquipment;1"
   ],
   "contents": [
     {

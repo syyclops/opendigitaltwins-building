@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACEquipment;1",
+  "@id": "dtmi:com:syyclops:HVACEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

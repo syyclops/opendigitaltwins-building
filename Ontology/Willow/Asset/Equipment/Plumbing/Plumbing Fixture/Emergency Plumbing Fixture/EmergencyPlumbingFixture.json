@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EmergencyPlumbingFixture;1",
+  "@id": "dtmi:com:syyclops:EmergencyPlumbingFixture;1",
   "@type": "Interface",
   "displayName": {
     "en": "Emergency Plumbing Fixture"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
   ],

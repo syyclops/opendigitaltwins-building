@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:Fan;1",
+  "@id": "dtmi:com:syyclops:Fan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetComponent;1",
-    "dtmi:com:willowinc:GeneralPurposeEquipment;1"
+    "dtmi:com:syyclops:AssetComponent;1",
+    "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
     {

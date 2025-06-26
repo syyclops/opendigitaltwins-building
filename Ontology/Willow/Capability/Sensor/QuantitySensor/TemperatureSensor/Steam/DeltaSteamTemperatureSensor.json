@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DeltaSteamTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:DeltaSteamTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Delta Steam Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with steam delta"},
   "extends" : [
-    "dtmi:com:willowinc:SteamTemperatureSensor;1"
+    "dtmi:com:syyclops:SteamTemperatureSensor;1"
   ],
   "contents": [
   ],

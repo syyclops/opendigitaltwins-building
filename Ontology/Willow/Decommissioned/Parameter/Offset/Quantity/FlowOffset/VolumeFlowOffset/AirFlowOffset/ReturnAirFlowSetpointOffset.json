@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirFlowSetpointOffset;1",
+  "@id": "dtmi:com:syyclops:ReturnAirFlowSetpointOffset;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Flow Setpoint Offset"
   },
   "description": {"en": "The desired offset value between return air flow and discharge air flow"},
   "extends" : [
-    "dtmi:com:willowinc:AirFlowSetpointOffset;1"
+    "dtmi:com:syyclops:AirFlowSetpointOffset;1"
   ],
   "contents": [
   ],

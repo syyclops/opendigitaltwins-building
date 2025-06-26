@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EconomizerCoilCondenserWaterValvePositionState;1",
+  "@id": "dtmi:com:syyclops:EconomizerCoilCondenserWaterValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Economizer Coil Condenser Water Valve Position State"
   },
   "description": {"en": "The percent position state of the economizer coil condenser water valve"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterValvePositionState;1"
+    "dtmi:com:syyclops:CondenserWaterValvePositionState;1"
   ],
   "contents": [
   ],

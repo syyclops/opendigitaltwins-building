@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DeltaCondenserWaterFlowSensor;1",
+  "@id": "dtmi:com:syyclops:DeltaCondenserWaterFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Delta Condenser Water Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with condenser water delta"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterFlowSensor;1"
+    "dtmi:com:syyclops:CondenserWaterFlowSensor;1"
   ],
   "contents": [
   ],

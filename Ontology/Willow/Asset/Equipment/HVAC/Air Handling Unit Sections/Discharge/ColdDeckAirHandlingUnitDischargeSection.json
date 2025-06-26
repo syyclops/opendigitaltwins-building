@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ColdDeckAirHandlingUnitDischargeSection;1",
+  "@id": "dtmi:com:syyclops:ColdDeckAirHandlingUnitDischargeSection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cold Deck Air Handling Unit Discharge Section"
@@ -8,7 +8,7 @@
     "en": "A cold deck discharge section of an air handling unit."
   },
   "extends": [
-    "dtmi:com:willowinc:AirHandlingUnitDischargeSection;1"
+    "dtmi:com:syyclops:AirHandlingUnitDischargeSection;1"
   ],
   "contents": [
   ],

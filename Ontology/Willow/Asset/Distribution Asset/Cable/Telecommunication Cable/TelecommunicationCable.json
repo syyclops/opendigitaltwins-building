@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:TelecommunicationCable;1",
+  "@id": "dtmi:com:syyclops:TelecommunicationCable;1",
   "@type": "Interface",
   "displayName": {
     "en": "Telecommunication Cable"
   },
   "extends" : [
-    "dtmi:com:willowinc:Cable;1"
+    "dtmi:com:syyclops:Cable;1"
   ],
   "contents": [
 

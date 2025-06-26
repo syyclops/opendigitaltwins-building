@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VariableFrequencyDrive;1",
+  "@id": "dtmi:com:syyclops:VariableFrequencyDrive;1",
   "@type": "Interface",
   "displayName": {
     "en": "Variable Frequency Drive"
   },
   "extends" : [
-    "dtmi:com:willowinc:MotorController;1"
+    "dtmi:com:syyclops:MotorController;1"
   ],
   "contents": [
     {

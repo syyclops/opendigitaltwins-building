@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighLimit;1",
+  "@id": "dtmi:com:syyclops:HighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Limit"
   },
   "description": {"en": "The upper limit on the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:Limit;1"
+    "dtmi:com:syyclops:Limit;1"
   ],
   "contents": [
   ],

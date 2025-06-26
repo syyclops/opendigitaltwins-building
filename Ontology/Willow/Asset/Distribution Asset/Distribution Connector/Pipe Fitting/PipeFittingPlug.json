@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:PipeFittingPlug;1",
+  "@id": "dtmi:com:syyclops:PipeFittingPlug;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pipe Fitting Plug"
   },
-  "extends": "dtmi:com:willowinc:PipeFitting;1",
+  "extends": "dtmi:com:syyclops:PipeFitting;1",
   "contents": [
 
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HotWaterMeter;1",
+  "@id": "dtmi:com:syyclops:HotWaterMeter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Water Meter"
   },
   "extends" : [
-    "dtmi:com:willowinc:ThermalMeter;1"
+    "dtmi:com:syyclops:ThermalMeter;1"
   ],
   "contents": [
     

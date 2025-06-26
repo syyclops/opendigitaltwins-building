@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowOutsideAirHumidityAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowOutsideAirHumidityAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Outside Air Humidity Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the low outside air humidity alarm"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirHumidityAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowAirHumidityAlarmSetpoint;1"
   ],
   "contents": [
 

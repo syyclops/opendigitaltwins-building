@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:ExhaustAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Air Damper Position State"
   },
   "description": {"en": "The percent position state of the exhaust air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

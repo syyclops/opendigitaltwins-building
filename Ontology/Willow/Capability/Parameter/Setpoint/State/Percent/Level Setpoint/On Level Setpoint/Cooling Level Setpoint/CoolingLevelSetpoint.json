@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CoolingLevelSetpoint;1",
+  "@id": "dtmi:com:syyclops:CoolingLevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling Level Setpoint"
   },
   "description": {"en": "The desired cooling level percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:OnLevelSetpoint;1"
+    "dtmi:com:syyclops:OnLevelSetpoint;1"
   ],
   "contents": [
 

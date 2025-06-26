@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Aisle;1",
+  "@id": "dtmi:com:syyclops:Aisle;1",
   "@type": "Interface",
   "displayName": {
     "en": "Aisle"
@@ -8,7 +8,7 @@
     "en": "A passage that separates rows of assets such as seat sections in a theater or product displays in a store. Aisles are used when Rooms are too large to provide sufficient location context."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DomesticWaterSystem;1",
+  "@id": "dtmi:com:syyclops:DomesticWaterSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Domestic Water System"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingWaterSystem;1"
+    "dtmi:com:syyclops:PlumbingWaterSystem;1"
   ],
   "contents": [
   ],

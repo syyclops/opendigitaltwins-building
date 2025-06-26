@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingValve;1",
+  "@id": "dtmi:com:syyclops:PlumbingValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Plumbing Valve"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1",
-    "dtmi:com:willowinc:Valve;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1",
+    "dtmi:com:syyclops:Valve;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerPressureReducingValve;1",
+  "@id": "dtmi:com:syyclops:SprinklerPressureReducingValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pressure-reducing Valve (Sprinkler)"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerValve;1"
+    "dtmi:com:syyclops:SprinklerValve;1"
   ],
   "contents": [
 

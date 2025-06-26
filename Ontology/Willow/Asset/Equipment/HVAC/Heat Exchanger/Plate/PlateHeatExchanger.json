@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PlateHeatExchanger;1",
+  "@id": "dtmi:com:syyclops:PlateHeatExchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Plate Heat Exchanger"
@@ -8,7 +8,7 @@
     "en": "A type of heat exchanger which uses a series of thin plates to transfer heat between two fluids."
   },
   "extends" : [
-    "dtmi:com:willowinc:HeatExchanger;1"
+    "dtmi:com:syyclops:HeatExchanger;1"
   ],
   "contents": [
     

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeAirCO2SetpointLowLimit;1",
+  "@id": "dtmi:com:syyclops:DischargeAirCO2SetpointLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Air CO2 Setpoint Low Limit"
   },
   "description": {"en": "The low limit associated with air quality (CO2) setpoint for discharge (supply) air"},
   "extends" : [
-    "dtmi:com:willowinc:CO2AirQualitySetpointLowLimit;1"
+    "dtmi:com:syyclops:CO2AirQualitySetpointLowLimit;1"
   ],
   "contents": [
     

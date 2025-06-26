@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TertiaryLoopEnteringHotWaterValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:TertiaryLoopEnteringHotWaterValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Tertiary Loop Entering Hot Water Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the tertiary loop entering hot water valve"},
   "extends" : [
-    "dtmi:com:willowinc:EnteringHotWaterValvePositionActuator;1"
+    "dtmi:com:syyclops:EnteringHotWaterValvePositionActuator;1"
   ],
   "contents": [
   ],

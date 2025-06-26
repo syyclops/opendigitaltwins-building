@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:DualDuctVAVBox;1",
+  "@id": "dtmi:com:syyclops:DualDuctVAVBox;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dual Duct VAV Box"
@@ -8,7 +8,7 @@
     "en": "A type of terminal unit that modulates the positions of two dampers, one controlling cold air and the other hot air, to control their respective airflow at setpoints that reset based on zone conditions"
   },
   "extends" : [
-    "dtmi:com:willowinc:VAVBox;1"
+    "dtmi:com:syyclops:VAVBox;1"
   ],
   "contents": [
   ],

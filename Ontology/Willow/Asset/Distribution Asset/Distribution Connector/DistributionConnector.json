@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:DistributionConnector;1",
+  "@id": "dtmi:com:syyclops:DistributionConnector;1",
   "@type": "Interface",
   "displayName": {
     "en": "Distribution Connector"
   },
-  "extends": "dtmi:com:willowinc:DistributionAsset;1",
+  "extends": "dtmi:com:syyclops:DistributionAsset;1",
   "contents": [
 
   ],

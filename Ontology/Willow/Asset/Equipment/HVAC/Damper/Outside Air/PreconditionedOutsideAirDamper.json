@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PreconditionedOutsideAirDamper;1",
+  "@id": "dtmi:com:syyclops:PreconditionedOutsideAirDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Preconditioned Outside Air Damper"
@@ -8,7 +8,7 @@
     "en": "A damper that is used to control the flow of outside air that has been preconditioned, typically by a DOAS, prior to entering the inlet of an air handling unit or HVAC system."
   },
   "extends" : [
-    "dtmi:com:willowinc:OutsideAirDamper;1"
+    "dtmi:com:syyclops:OutsideAirDamper;1"
   ],
   "contents": [
   ],

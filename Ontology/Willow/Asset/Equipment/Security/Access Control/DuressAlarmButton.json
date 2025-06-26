@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DuressAlarmButton;1",
+  "@id": "dtmi:com:syyclops:DuressAlarmButton;1",
   "@type": "Interface",
   "displayName": {
     "en": "Duress Alarm Button"
   },
   "extends" : [
-    "dtmi:com:willowinc:AccessControlEquipment;1"
+    "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
   "contents": [
   ],

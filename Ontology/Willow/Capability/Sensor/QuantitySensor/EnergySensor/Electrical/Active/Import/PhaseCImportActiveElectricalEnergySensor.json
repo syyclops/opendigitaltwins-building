@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseCImportActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:PhaseCImportActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase C Import Active Electrical Energy Sensor"
   },
   "description": {"en": "The active electrical energy feedback from a sensor associated with phase c import"},
   "extends" : [
-    "dtmi:com:willowinc:PhaseCActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:PhaseCActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

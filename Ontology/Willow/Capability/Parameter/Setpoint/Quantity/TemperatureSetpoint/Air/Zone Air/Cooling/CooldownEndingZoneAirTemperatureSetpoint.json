@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CooldownEndingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:CooldownEndingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooldown Ending Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with cooldown ending zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:UnoccupiedCoolingZoneAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:UnoccupiedCoolingZoneAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

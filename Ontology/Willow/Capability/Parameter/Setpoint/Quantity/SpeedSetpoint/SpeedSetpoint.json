@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SpeedSetpoint;1",
+  "@id": "dtmi:com:syyclops:SpeedSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Speed Setpoint"
   },
   "description": {"en": "The desired value associated with speed"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpoint;1"
+    "dtmi:com:syyclops:QuantitySetpoint;1"
   ],
   "contents": [
 

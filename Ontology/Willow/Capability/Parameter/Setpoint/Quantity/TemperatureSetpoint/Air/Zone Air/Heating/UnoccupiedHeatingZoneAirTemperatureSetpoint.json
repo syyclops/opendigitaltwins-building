@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:UnoccupiedHeatingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:UnoccupiedHeatingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Unoccupied Heating Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with unoccupied heating zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HeatingZoneAirTemperatureSetpoint;1",
-    "dtmi:com:willowinc:UnoccupiedHeatingSetpoint;1"
+    "dtmi:com:syyclops:HeatingZoneAirTemperatureSetpoint;1",
+    "dtmi:com:syyclops:UnoccupiedHeatingSetpoint;1"
   ],
   "contents": [
   ],

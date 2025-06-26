@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerValve;1",
+  "@id": "dtmi:com:syyclops:SprinklerValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sprinkler Valve"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerEquipment;1",
-    "dtmi:com:willowinc:Valve;1"
+    "dtmi:com:syyclops:SprinklerEquipment;1",
+    "dtmi:com:syyclops:Valve;1"
   ],
   "contents": [
 

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Condenser;1",
+  "@id": "dtmi:com:syyclops:Condenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser"
@@ -8,8 +8,8 @@
     "en": "A heat exhcanging device which rejects heat from a working fluid (i.e. refrigerant) into a secondary fluid or the surrounding air."
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetComponent;1",
-    "dtmi:com:willowinc:GeneralPurposeEquipment;1"
+    "dtmi:com:syyclops:AssetComponent;1",
+    "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
 

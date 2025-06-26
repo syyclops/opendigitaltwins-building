@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingWaterTreatment;1",
+  "@id": "dtmi:com:syyclops:PlumbingWaterTreatment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Treatment (Plumbing)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
   "contents": [
     

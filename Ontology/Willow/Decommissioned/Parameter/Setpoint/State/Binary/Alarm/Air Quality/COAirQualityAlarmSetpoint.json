@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:COAirQualityAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:COAirQualityAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Carbon Monoxide (CO) Air Quality Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the carbon monoxide (CO) air quality alarm"},
   "extends" : [
-    "dtmi:com:willowinc:AirQualityAlarmSetpoint;1"
+    "dtmi:com:syyclops:AirQualityAlarmSetpoint;1"
   ],
   "contents": [
 

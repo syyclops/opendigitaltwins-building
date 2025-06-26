@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HandDryer;1",
+  "@id": "dtmi:com:syyclops:HandDryer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hand Dryer"
@@ -8,7 +8,7 @@
     "en": "An electric device used to dry hands after washing."
   },
   "extends" : [
-    "dtmi:com:willowinc:RestroomAccessory;1"
+    "dtmi:com:syyclops:RestroomAccessory;1"
   ],
   "contents": [
 

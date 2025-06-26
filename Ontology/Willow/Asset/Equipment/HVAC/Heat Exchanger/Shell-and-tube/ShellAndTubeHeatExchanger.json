@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ShellAndTubeHeatExchanger;1",
+  "@id": "dtmi:com:syyclops:ShellAndTubeHeatExchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shell-and-tube Heat Exchanger"
@@ -8,7 +8,7 @@
     "en": "A type of tubular heat exchanger which uses a design consisting of a shell with a bundle of tubes inside."
   },
   "extends" : [
-    "dtmi:com:willowinc:HeatExchanger;1"
+    "dtmi:com:syyclops:HeatExchanger;1"
   ],
   "contents": [
     

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ICTSystem;1",
+  "@id": "dtmi:com:syyclops:ICTSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "ICT System"
   },
   "extends" : [
-    "dtmi:com:willowinc:System;1"
+    "dtmi:com:syyclops:System;1"
   ],
   "contents": [
   ],

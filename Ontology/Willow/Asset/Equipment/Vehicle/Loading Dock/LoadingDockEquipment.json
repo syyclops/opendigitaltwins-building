@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LoadingDockEquipment;1",
+  "@id": "dtmi:com:syyclops:LoadingDockEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Loading Dock Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:VehicleEquipment;1"
+    "dtmi:com:syyclops:VehicleEquipment;1"
   ],
   "contents": [
   ],

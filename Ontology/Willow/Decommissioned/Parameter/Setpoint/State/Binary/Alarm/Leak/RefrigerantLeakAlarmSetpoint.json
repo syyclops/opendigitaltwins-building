@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerantLeakAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:RefrigerantLeakAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigerant Leak Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the refrigerant leak alarm"},
   "extends" : [
-    "dtmi:com:willowinc:LeakAlarmSetpoint;1"
+    "dtmi:com:syyclops:LeakAlarmSetpoint;1"
   ],
   "contents": [
 

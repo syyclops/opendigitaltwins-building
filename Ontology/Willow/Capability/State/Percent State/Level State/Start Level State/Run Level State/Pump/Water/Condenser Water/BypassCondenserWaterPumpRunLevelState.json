@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassCondenserWaterPumpRunLevelState;1",
+  "@id": "dtmi:com:syyclops:BypassCondenserWaterPumpRunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Condenser Water Pump Run Level State"
   },
   "description": {"en": "The percent run level state of the condenser water bypass pump"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterPumpRunLevelState;1"
+    "dtmi:com:syyclops:CondenserWaterPumpRunLevelState;1"
   ],
   "contents": [
 

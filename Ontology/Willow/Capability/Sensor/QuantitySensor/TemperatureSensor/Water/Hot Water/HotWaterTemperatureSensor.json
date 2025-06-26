@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HotWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:HotWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with hot water"},
   "extends" : [
-    "dtmi:com:willowinc:WaterTemperatureSensor;1"
+    "dtmi:com:syyclops:WaterTemperatureSensor;1"
   ],
   "contents": [
   ],

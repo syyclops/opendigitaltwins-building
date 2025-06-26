@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Luminaire;1",
+  "@id": "dtmi:com:syyclops:Luminaire;1",
   "@type": "Interface",
   "displayName": {
     "en": "Luminaire"
   },
   "extends" : [
-    "dtmi:com:willowinc:LightingEquipment;1"
+    "dtmi:com:syyclops:LightingEquipment;1"
   ],
   "contents": [
     {

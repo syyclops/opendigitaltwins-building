@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DepthSensor;1",
+  "@id": "dtmi:com:syyclops:DepthSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Depth Sensor"
   },
   "description": {"en": "The depth feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:LengthSensor;1"
+    "dtmi:com:syyclops:LengthSensor;1"
   ],
   "contents": [
 

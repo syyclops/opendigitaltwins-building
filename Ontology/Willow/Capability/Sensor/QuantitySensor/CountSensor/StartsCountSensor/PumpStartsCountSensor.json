@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PumpStartsCountSensor;1",
+  "@id": "dtmi:com:syyclops:PumpStartsCountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pump Starts Count Sensor"
   },
   "description": {"en": "The counted number of starts of a pump from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:StartsCountSensor;1"
+    "dtmi:com:syyclops:StartsCountSensor;1"
   ],
   "contents": [
 

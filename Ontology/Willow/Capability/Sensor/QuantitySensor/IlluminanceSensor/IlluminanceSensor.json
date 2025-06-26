@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:IlluminanceSensor;1",
+  "@id": "dtmi:com:syyclops:IlluminanceSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Illuminance Sensor"
   },
   "description": {"en": "The illuminance feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

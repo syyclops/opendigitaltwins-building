@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PneumaticTubeSystem;1",
+  "@id": "dtmi:com:syyclops:PneumaticTubeSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pneumatic Tube System"
   },
   "extends" : [
-    "dtmi:com:willowinc:ConveyanceSystem;1"
+    "dtmi:com:syyclops:ConveyanceSystem;1"
   ],
   "contents": [
   ],

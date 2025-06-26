@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Blender;1",
+  "@id": "dtmi:com:syyclops:Blender;1",
   "@type": "Interface",
   "displayName": {
     "en": "Blender"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodPreparationEquipment;1"
+    "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Warranty;1",
+  "@id": "dtmi:com:syyclops:Warranty;1",
   "@type": "Interface",
   "displayName": {
     "en": "Warranty"
   },
   "extends" : [
-    "dtmi:com:willowinc:Document;1"
+    "dtmi:com:syyclops:Document;1"
   ],
   "contents": [
     {
@@ -16,7 +16,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:WarrantyType;1",
+        "@id": "dtmi:com:syyclops:WarrantyType;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [

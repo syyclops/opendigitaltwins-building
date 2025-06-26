@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BarrierAsset;1",
+  "@id": "dtmi:com:syyclops:BarrierAsset;1",
   "@type": "Interface",
   "displayName": {
     "en": "Barrier Asset"
   },
   "extends" : [
-    "dtmi:com:willowinc:ArchitecturalAsset;1"
+    "dtmi:com:syyclops:ArchitecturalAsset;1"
   ],
   "contents": [
     {
@@ -14,7 +14,7 @@
         "en": "to space"
       },
       "name": "toSpace",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Relationship",
@@ -22,7 +22,7 @@
         "en": "from space"
       },
       "name": "fromSpace",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": ["Property", "Length"],

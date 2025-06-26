@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DewPointTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:DewPointTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dew Point Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with dew point temperature"},
   "extends" : [
-    "dtmi:com:willowinc:TemperatureSetpoint;1"
+    "dtmi:com:syyclops:TemperatureSetpoint;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CoolingCoilLeavingAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:CoolingCoilLeavingAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling Coil Leaving Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with the temperature of air leaving the cooling coil"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:AirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

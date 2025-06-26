@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:MaintenanceBypassSwitch;1",
+  "@id": "dtmi:com:syyclops:MaintenanceBypassSwitch;1",
   "@type": "Interface",
   "displayName": {
     "en": "Maintenance Bypass Switch"
   },
   "extends" : [
-    "dtmi:com:willowinc:TransferSwitch;1"
+    "dtmi:com:syyclops:TransferSwitch;1"
   ],
   "contents": [
 

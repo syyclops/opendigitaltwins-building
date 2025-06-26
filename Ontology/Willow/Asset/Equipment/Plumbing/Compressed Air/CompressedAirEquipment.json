@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CompressedAirEquipment;1",
+  "@id": "dtmi:com:syyclops:CompressedAirEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Compressed Air Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
   "contents": [
 

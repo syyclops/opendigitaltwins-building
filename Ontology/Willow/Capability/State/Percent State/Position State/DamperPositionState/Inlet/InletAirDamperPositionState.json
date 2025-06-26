@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:InletAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:InletAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Inlet Air Damper Position State"
   },
   "description": {"en": "The percent position state of the inlet air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

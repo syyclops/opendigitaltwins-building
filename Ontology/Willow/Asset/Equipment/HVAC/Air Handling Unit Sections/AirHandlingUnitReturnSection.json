@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirHandlingUnitReturnSection;1",
+  "@id": "dtmi:com:syyclops:AirHandlingUnitReturnSection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Handling Unit Return Section"
@@ -8,7 +8,7 @@
     "en": "A return section of an air handling unit."
   },
   "extends": [
-    "dtmi:com:willowinc:AirHandlingUnitSection;1"
+    "dtmi:com:syyclops:AirHandlingUnitSection;1"
   ],
   "contents": [
   ],

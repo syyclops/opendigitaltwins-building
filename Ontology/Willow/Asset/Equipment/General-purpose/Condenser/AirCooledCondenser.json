@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirCooledCondenser;1",
+  "@id": "dtmi:com:syyclops:AirCooledCondenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air-Cooled Condenser"
@@ -8,7 +8,7 @@
     "en": "A condenser which rejects heat from a working fluid (i.e. refrigerant) into the ambient air."
   },
   "extends" : [
-    "dtmi:com:willowinc:Condenser;1"
+    "dtmi:com:syyclops:Condenser;1"
   ],
   "contents": [
     {

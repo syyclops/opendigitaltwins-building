@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:OutdoorArea;1",
+  "@id": "dtmi:com:syyclops:OutdoorArea;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outdoor Area"
@@ -8,7 +8,7 @@
     "en": "An area on a land that is outside of a building."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
     {
@@ -17,7 +17,7 @@
         "en": "address"
       },
       "name": "address",
-      "schema": "dtmi:com:willowinc:Address;1"
+      "schema": "dtmi:com:syyclops:Address;1"
     },
     {
       "@type": "Property",
@@ -34,7 +34,7 @@
       "displayName": {
         "en": "Time Zone"
       },
-      "schema": "dtmi:com:willowinc:TimeZone;1"
+      "schema": "dtmi:com:syyclops:TimeZone;1"
     },
     {
       "@type": "Property",
@@ -44,7 +44,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:OutdoorAreaCoordinates;1",
+        "@id": "dtmi:com:syyclops:OutdoorAreaCoordinates;1",
         "@type": "Object",
         "fields": [
           {
@@ -101,12 +101,12 @@
         "en": "The stage in the life of the building or structure such as design, construction, or operational."
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:OutdoorAreaLifecyclePhase;1"
+      "schema": "dtmi:com:syyclops:OutdoorAreaLifecyclePhase;1"
     }
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:OutdoorAreaLifecyclePhase;1",
+      "@id": "dtmi:com:syyclops:OutdoorAreaLifecyclePhase;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [

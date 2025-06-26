@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ZoneDamper;1",
+  "@id": "dtmi:com:syyclops:ZoneDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Zone Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

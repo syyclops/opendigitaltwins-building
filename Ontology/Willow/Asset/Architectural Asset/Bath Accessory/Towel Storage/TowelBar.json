@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TowelBar;1",
+  "@id": "dtmi:com:syyclops:TowelBar;1",
   "@type": "Interface",
   "displayName": {
     "en": "Towel Bar"
@@ -8,7 +8,7 @@
     "en": "A simple bar that holds a bath towel."
   },
   "extends" : [
-    "dtmi:com:willowinc:TowelStorageAsset;1"
+    "dtmi:com:syyclops:TowelStorageAsset;1"
   ],
   "contents": [
 

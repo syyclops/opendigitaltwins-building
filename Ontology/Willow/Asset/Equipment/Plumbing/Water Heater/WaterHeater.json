@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WaterHeater;1",
+  "@id": "dtmi:com:syyclops:WaterHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
   "contents": [
     {

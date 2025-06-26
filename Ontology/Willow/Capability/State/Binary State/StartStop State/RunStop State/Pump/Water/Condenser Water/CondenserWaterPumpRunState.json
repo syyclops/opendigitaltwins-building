@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CondenserWaterPumpRunState;1",
+  "@id": "dtmi:com:syyclops:CondenserWaterPumpRunState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Water Pump Run State"
   },
   "description": {"en": "The Boolean state of the condenser water pump which is 'run' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:WaterPumpRunState;1"
+    "dtmi:com:syyclops:WaterPumpRunState;1"
   ],
   "contents": [
 

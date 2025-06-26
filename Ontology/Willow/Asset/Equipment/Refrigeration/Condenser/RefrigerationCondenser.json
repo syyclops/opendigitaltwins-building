@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationCondenser;1",
+  "@id": "dtmi:com:syyclops:RefrigerationCondenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Condenser"
@@ -8,8 +8,8 @@
     "en": "A condenser which is used within a refrigeration system or circuit used in applications such food, beverage, pharmaceutical and chemical storage and ice storage and production."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipment;1",
-    "dtmi:com:willowinc:Condenser;1"
+    "dtmi:com:syyclops:RefrigerationEquipment;1",
+    "dtmi:com:syyclops:Condenser;1"
   ],
   "contents": [
 

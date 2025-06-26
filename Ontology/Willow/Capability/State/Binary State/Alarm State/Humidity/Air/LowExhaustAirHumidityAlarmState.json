@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowExhaustAirHumidityAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowExhaustAirHumidityAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Exhaust Air Humidity Alarm State"
   },
   "description": {"en": "The Boolean state of the low exhaust air humidity alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirHumidityAlarmState;1"
+    "dtmi:com:syyclops:LowAirHumidityAlarmState;1"
   ],
   "contents": [
 

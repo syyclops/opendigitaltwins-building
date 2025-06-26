@@ -1,11 +1,11 @@
 ﻿{
-  "@id": "dtmi:com:willowinc:UtilityEmissionFactor;1",
+  "@id": "dtmi:com:syyclops:UtilityEmissionFactor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Utility Emission Factor"
   },
   "extends": [
-    "dtmi:com:willowinc:Component;1"
+    "dtmi:com:syyclops:Component;1"
   ],
   "contents": [
     {

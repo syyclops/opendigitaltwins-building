@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RestroomAccessory;1",
+  "@id": "dtmi:com:syyclops:RestroomAccessory;1",
   "@type": "Interface",
   "displayName": {
     "en": "Restroom Accessory"
@@ -8,7 +8,7 @@
     "en": "An device used by occupants generally located in a public restroom such as a hand dryer or soap dispenser."
   },
   "extends" : [
-    "dtmi:com:willowinc:ArchitecturalAsset;1"
+    "dtmi:com:syyclops:ArchitecturalAsset;1"
   ],
   "contents": [
 

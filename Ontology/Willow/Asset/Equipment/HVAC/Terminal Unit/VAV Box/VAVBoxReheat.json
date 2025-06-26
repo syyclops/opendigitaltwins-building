@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:VAVBoxReheat;1",
+  "@id": "dtmi:com:syyclops:VAVBoxReheat;1",
   "@type": "Interface",
   "displayName": {
     "en": "VAV Box with Reheat"
@@ -8,7 +8,7 @@
     "en": "A type of terminal unit that modulates damper position to control airflow at a setpoint that resets based on zone conditions and controls a reheat device to provide supplemental heating when appropriate"
   },
   "extends" : [
-    "dtmi:com:willowinc:VAVBox;1"
+    "dtmi:com:syyclops:VAVBox;1"
   ],
   "contents": [
     {
@@ -38,7 +38,7 @@
         "en": "re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

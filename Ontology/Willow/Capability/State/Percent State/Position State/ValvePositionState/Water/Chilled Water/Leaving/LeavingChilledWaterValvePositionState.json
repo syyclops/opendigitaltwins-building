@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingChilledWaterValvePositionState;1",
+  "@id": "dtmi:com:syyclops:LeavingChilledWaterValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Chilled Water Valve Position State"
   },
   "description": {"en": "The percent position state of the leaving chilled water valve"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterValvePositionState;1"
+    "dtmi:com:syyclops:ChilledWaterValvePositionState;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WalkInFreezer;1",
+  "@id": "dtmi:com:syyclops:WalkInFreezer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Walk-In Freezer"
@@ -8,7 +8,7 @@
     "en": "A walk-in refrigeration unit used for foods or other products required to be refrigerated to low-temperatures."
   },
   "extends" : [
-    "dtmi:com:willowinc:WalkInRefrigerationEquipment;1"
+    "dtmi:com:syyclops:WalkInRefrigerationEquipment;1"
   ],
   "contents": [
   ],

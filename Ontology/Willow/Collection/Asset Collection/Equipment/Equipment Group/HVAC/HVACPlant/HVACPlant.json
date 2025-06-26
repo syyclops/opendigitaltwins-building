@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HVACPlant;1",
+  "@id": "dtmi:com:syyclops:HVACPlant;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Plant"
@@ -8,7 +8,7 @@
     "en": "A central group of equipment that is used to generate a substance which contains the thermal energy used for heating or cooling a building."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipmentGroup;1"
+    "dtmi:com:syyclops:HVACEquipmentGroup;1"
   ],
   "contents": [
   ],

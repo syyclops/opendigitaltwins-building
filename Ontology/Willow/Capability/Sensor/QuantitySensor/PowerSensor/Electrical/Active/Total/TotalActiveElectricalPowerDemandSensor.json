@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TotalActiveElectricalPowerDemandSensor;1",
+  "@id": "dtmi:com:syyclops:TotalActiveElectricalPowerDemandSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Active Electrical Power Demand Sensor"
   },
   "description": {"en": "The peak quantity of electrical power demand during a set time period, typically monthly."},
   "extends" : [
-    "dtmi:com:willowinc:TotalActiveElectricalPowerSensor;1"
+    "dtmi:com:syyclops:TotalActiveElectricalPowerSensor;1"
   ],
   "contents": [
 

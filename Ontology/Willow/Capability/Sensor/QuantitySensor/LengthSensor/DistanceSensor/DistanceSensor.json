@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DistanceSensor;1",
+  "@id": "dtmi:com:syyclops:DistanceSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Distance Sensor"
   },
   "description": {"en": "The distance feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:LengthSensor;1"
+    "dtmi:com:syyclops:LengthSensor;1"
   ],
   "contents": [
 

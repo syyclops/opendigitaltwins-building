@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ClosedState;1",
+  "@id": "dtmi:com:syyclops:ClosedState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Closed State"
   },
   "description": {"en": "The Boolean state of the equipment which is 'closed' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:OpenCloseState;1"
+    "dtmi:com:syyclops:OpenCloseState;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CondimentCart;1",
+  "@id": "dtmi:com:syyclops:CondimentCart;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condiment Cart"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodserviceCart;1"
+    "dtmi:com:syyclops:FoodserviceCart;1"
   ],
   "contents": [
   ],

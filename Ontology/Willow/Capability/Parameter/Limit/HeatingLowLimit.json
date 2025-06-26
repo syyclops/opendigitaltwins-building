@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingLowLimit;1",
+  "@id": "dtmi:com:syyclops:HeatingLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Low Limit"
   },
   "description": {"en": "The lower limit on the equipment in heating mode"},
   "extends" : [
-    "dtmi:com:willowinc:LowLimit;1"
+    "dtmi:com:syyclops:LowLimit;1"
   ],
   "contents": [
   ],

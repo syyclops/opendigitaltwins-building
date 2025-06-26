@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LightPole;1",
+  "@id": "dtmi:com:syyclops:LightPole;1",
   "@type": "Interface",
   "displayName": {
     "en": "Light Pole"
   },
   "extends" : [
-    "dtmi:com:willowinc:OutdoorLuminaire;1"
+    "dtmi:com:syyclops:OutdoorLuminaire;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OutsideAirSmokeAlarmState;1",
+  "@id": "dtmi:com:syyclops:OutsideAirSmokeAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Air Smoke Alarm State"
   },
   "description": {"en": "The Boolean state of the outside air smoke alarm which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:SmokeAlarmState;1"
+    "dtmi:com:syyclops:SmokeAlarmState;1"
   ],
   "contents": [
 

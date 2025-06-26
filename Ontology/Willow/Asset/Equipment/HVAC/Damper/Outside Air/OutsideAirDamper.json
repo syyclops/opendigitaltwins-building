@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:OutsideAirDamper;1",
+  "@id": "dtmi:com:syyclops:OutsideAirDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Air Damper"
@@ -8,7 +8,7 @@
     "en": "A damper which has a minimum position setting for minimum outside air and modulates open above minimum position for economizing."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

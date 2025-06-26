@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACRefrigerantSystem;1",
+  "@id": "dtmi:com:syyclops:HVACRefrigerantSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Refrigerant System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACSystem;1"
+    "dtmi:com:syyclops:HVACSystem;1"
   ],
   "contents": [
   ],

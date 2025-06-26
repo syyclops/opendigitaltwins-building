@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringHotWaterPressureSensor;1",
+  "@id": "dtmi:com:syyclops:EnteringHotWaterPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Hot Water Pressure Sensor"
   },
   "description": {"en": "The pressure feedback from a sensor associated with entering hot water"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterPressureSensor;1",
-    "dtmi:com:willowinc:EnteringWaterPressureSensor;1"
+    "dtmi:com:syyclops:HotWaterPressureSensor;1",
+    "dtmi:com:syyclops:EnteringWaterPressureSensor;1"
   ],
   "contents": [
   ],

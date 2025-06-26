@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopLeavingCondenserWaterTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopLeavingCondenserWaterTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Leaving Condenser Water Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with secondary condenser water loop leaving temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingCondenserWaterTemperatureSetpoint;1"
+    "dtmi:com:syyclops:LeavingCondenserWaterTemperatureSetpoint;1"
   ],
   "contents": [
   ],

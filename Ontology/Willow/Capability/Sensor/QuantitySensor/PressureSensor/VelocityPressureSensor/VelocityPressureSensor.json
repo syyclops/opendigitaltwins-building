@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VelocityPressureSensor;1",
+  "@id": "dtmi:com:syyclops:VelocityPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Velocity Pressure Sensor"
   },
   "description": {"en": "The velocity pressure feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:PressureSensor;1"
+    "dtmi:com:syyclops:PressureSensor;1"
   ],
   "contents": [
     

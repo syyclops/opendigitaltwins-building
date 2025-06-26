@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:InletDamper;1",
+  "@id": "dtmi:com:syyclops:InletDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Inlet Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

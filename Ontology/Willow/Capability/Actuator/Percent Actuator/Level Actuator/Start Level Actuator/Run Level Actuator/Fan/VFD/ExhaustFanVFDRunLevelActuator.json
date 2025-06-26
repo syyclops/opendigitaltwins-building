@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustFanVFDRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:ExhaustFanVFDRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Fan VFD Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the exhaust air fan vfd"},
   "extends" : [
-    "dtmi:com:willowinc:FanVFDRunLevelActuator;1",
-    "dtmi:com:willowinc:ExhaustFanRunLevelActuator;1"
+    "dtmi:com:syyclops:FanVFDRunLevelActuator;1",
+    "dtmi:com:syyclops:ExhaustFanRunLevelActuator;1"
   ],
   "contents": [
 

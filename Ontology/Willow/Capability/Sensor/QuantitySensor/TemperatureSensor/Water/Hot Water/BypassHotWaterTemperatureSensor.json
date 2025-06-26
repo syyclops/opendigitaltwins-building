@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassHotWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:BypassHotWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Hot Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with hot water bypass"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:HotWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

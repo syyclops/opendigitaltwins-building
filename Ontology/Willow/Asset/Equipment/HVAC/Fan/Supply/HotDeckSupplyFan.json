@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HotDeckSupplyFan;1",
+  "@id": "dtmi:com:syyclops:HotDeckSupplyFan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Deck Supply Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:SupplyFan;1"
+    "dtmi:com:syyclops:SupplyFan;1"
   ],
   "contents": [
   ],

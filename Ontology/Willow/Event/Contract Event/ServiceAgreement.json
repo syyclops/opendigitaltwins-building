@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ServiceAgreement;1",
+  "@id": "dtmi:com:syyclops:ServiceAgreement;1",
   "@type": "Interface",
   "displayName": {
     "en": "Service Agreement"
   },
   "extends" : [
-    "dtmi:com:willowinc:ContractEvent;1"
+    "dtmi:com:syyclops:ContractEvent;1"
   ],
   "contents": [
     {
@@ -17,7 +17,7 @@
         "en": "regulated by"
       },
       "name": "regulatedBy",
-      "target": "dtmi:com:willowinc:ContractDocument;1"
+      "target": "dtmi:com:syyclops:ContractDocument;1"
     },
     {
       "@type": "Relationship",
@@ -28,7 +28,7 @@
         "en": "Service Provider"
       },
       "name": "serviceProvider",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -39,7 +39,7 @@
         "en": "Client"
       },
       "name": "client",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     }
   ],
   "@context": [

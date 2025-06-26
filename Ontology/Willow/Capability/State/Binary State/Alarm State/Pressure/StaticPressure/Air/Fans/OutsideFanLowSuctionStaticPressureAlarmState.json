@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OutsideFanLowSuctionStaticPressureAlarmState;1",
+  "@id": "dtmi:com:syyclops:OutsideFanLowSuctionStaticPressureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Fan Low Suction Static Pressure Alarm State"
   },
   "description": {"en": "The Boolean state of the outside fan low suction static pressure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:FanLowSuctionStaticPressureAlarmState;1"
+    "dtmi:com:syyclops:FanLowSuctionStaticPressureAlarmState;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseBActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:PhaseBActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase B Active Electrical Energy Sensor"
   },
   "description": {"en": "The active electrical energy feedback from a sensor associated with phase b"},
   "extends" : [
-    "dtmi:com:willowinc:ActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:ActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

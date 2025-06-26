@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustAirHighAirFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:ExhaustAirHighAirFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Air High Air Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the exhaust air high air flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:HighAirFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighAirFlowAlarmSetpoint;1"
   ],
   "contents": [
 

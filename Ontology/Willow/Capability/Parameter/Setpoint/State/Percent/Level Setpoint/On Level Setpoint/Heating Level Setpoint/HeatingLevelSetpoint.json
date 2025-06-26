@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingLevelSetpoint;1",
+  "@id": "dtmi:com:syyclops:HeatingLevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Level Setpoint"
   },
   "description": {"en": "The desired heating level percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:OnLevelSetpoint;1"
+    "dtmi:com:syyclops:OnLevelSetpoint;1"
   ],
   "contents": [
 

@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:Handhole;1",
+  "@id": "dtmi:com:syyclops:Handhole;1",
   "@type": "Interface",
   "displayName": {
     "en": "Handhole"
   },
-  "extends": "dtmi:com:willowinc:DistributionConnector;1",
+  "extends": "dtmi:com:syyclops:DistributionConnector;1",
   "contents": [
 
   ],

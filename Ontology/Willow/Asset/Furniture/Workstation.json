@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Workstation;1",
+  "@id": "dtmi:com:syyclops:Workstation;1",
   "@type": "Interface",
   "displayName": {
     "en": "Workstation"
   },
   "extends" : [
-    "dtmi:com:willowinc:Furniture;1"
+    "dtmi:com:syyclops:Furniture;1"
   ],
   "contents": [
     {

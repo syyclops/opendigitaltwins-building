@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringHotWaterPumpRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:EnteringHotWaterPumpRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Hot Water Pump Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the entering hot water pump"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterPumpRunLevelActuator;1",
-    "dtmi:com:willowinc:EnteringWaterPumpRunLevelActuator;1"
+    "dtmi:com:syyclops:HotWaterPumpRunLevelActuator;1",
+    "dtmi:com:syyclops:EnteringWaterPumpRunLevelActuator;1"
   ],
   "contents": [
 

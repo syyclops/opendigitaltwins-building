@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Server;1",
+  "@id": "dtmi:com:syyclops:Server;1",
   "@type": "Interface",
   "displayName": {
     "en": "Server"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTHardware;1"
+    "dtmi:com:syyclops:ICTHardware;1"
   ],
   "contents": [
     {

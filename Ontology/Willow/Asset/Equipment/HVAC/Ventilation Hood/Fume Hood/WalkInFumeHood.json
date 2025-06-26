@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WalkInFumeHood;1",
+  "@id": "dtmi:com:syyclops:WalkInFumeHood;1",
   "@type": "Interface",
   "displayName": {
     "en": "Walk-In Fume Hood"
   },
   "extends" : [
-    "dtmi:com:willowinc:FumeHood;1"
+    "dtmi:com:syyclops:FumeHood;1"
   ],
   "contents": [
   ],

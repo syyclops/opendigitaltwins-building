@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ThermalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:ThermalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Thermal Energy Sensor"
   },
   "description": {"en": "The thermal energy feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:EnergySensor;1"
+    "dtmi:com:syyclops:EnergySensor;1"
   ],
   "contents": [
 

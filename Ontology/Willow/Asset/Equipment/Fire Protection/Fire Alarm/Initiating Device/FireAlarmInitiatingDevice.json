@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireAlarmInitiatingDevice;1",
+  "@id": "dtmi:com:syyclops:FireAlarmInitiatingDevice;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Initiating Device"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireAlarmEquipment;1"
+    "dtmi:com:syyclops:FireAlarmEquipment;1"
   ],
   "contents": [
   ],

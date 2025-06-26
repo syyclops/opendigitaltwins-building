@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:BuildingTerrace;1",
+  "@id": "dtmi:com:syyclops:BuildingTerrace;1",
   "@type": "Interface",
   "displayName": {
     "en": "Building Terrace"
@@ -8,7 +8,7 @@
     "en": "A designated area for social gathering that is either adjacent to or attached to the main structure of a building, can have multiple access points, and is raised from its surroundings."
   },
   "extends" : [
-    "dtmi:com:willowinc:BuildingOutdoorArea;1"
+    "dtmi:com:syyclops:BuildingOutdoorArea;1"
   ],
   "contents": [
   ],

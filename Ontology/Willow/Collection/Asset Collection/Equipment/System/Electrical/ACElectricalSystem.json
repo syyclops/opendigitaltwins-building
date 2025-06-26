@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ACElectricalSystem;1",
+  "@id": "dtmi:com:syyclops:ACElectricalSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "AC Electrical System"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalSystem;1"
+    "dtmi:com:syyclops:ElectricalSystem;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:StopState;1",
+  "@id": "dtmi:com:syyclops:StopState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Stop State"
   },
   "extends" : [
-    "dtmi:com:willowinc:StartStopState;1",
-    "dtmi:com:willowinc:RunStopState;1"
+    "dtmi:com:syyclops:StartStopState;1",
+    "dtmi:com:syyclops:RunStopState;1"
   ],
   "contents": [
   ],

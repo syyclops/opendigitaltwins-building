@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamMassFlowSensor;1",
+  "@id": "dtmi:com:syyclops:SteamMassFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Mass Flow Sensor"
   },
   "description": {"en": "The mass flow feedback from a sensor associated with steam"},
   "extends" : [
-    "dtmi:com:willowinc:MassFlowSensor;1"
+    "dtmi:com:syyclops:MassFlowSensor;1"
   ],
   "contents": [
 

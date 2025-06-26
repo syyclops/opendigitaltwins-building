@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingChilledWaterFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:LeavingChilledWaterFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Chilled Water Flow Setpoint"
   },
   "description": {"en": "The desired value associated with leaving chilled water flow"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowSetpoint;1"
+    "dtmi:com:syyclops:ChilledWaterFlowSetpoint;1"
   ],
   "contents": [
   ],

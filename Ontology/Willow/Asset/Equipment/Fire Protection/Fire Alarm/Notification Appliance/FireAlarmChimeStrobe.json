@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FireAlarmChimeStrobe;1",
+  "@id": "dtmi:com:syyclops:FireAlarmChimeStrobe;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Chime Strobe"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireAlarmChime;1",
-    "dtmi:com:willowinc:FireAlarmStrobe;1"
+    "dtmi:com:syyclops:FireAlarmChime;1",
+    "dtmi:com:syyclops:FireAlarmStrobe;1"
   ],
   "contents": [
   ],

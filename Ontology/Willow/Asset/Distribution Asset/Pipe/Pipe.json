@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:Pipe;1",
+  "@id": "dtmi:com:syyclops:Pipe;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pipe"
   },
-  "extends": "dtmi:com:willowinc:DistributionAsset;1",
+  "extends": "dtmi:com:syyclops:DistributionAsset;1",
   "contents": [
     {
       "@type": "Property",

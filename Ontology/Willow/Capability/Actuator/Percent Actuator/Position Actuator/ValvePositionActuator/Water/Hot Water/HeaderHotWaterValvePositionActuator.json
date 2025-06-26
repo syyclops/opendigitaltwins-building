@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderHotWaterValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:HeaderHotWaterValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Hot Water Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the hot water header valve"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterValvePositionActuator;1"
+    "dtmi:com:syyclops:HotWaterValvePositionActuator;1"
   ],
   "contents": [
   ],

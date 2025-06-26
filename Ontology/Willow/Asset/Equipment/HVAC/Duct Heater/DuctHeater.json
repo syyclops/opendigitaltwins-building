@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DuctHeater;1",
+  "@id": "dtmi:com:syyclops:DuctHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Duct Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -35,7 +35,7 @@
         "en": "heating method"
       },
       "name": "heatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

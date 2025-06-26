@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefFanVFDFrequencyLowLimit;1",
+  "@id": "dtmi:com:syyclops:ReliefFanVFDFrequencyLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Fan VFD Frequency Low Limit"
   },
   "description": {"en": "The low limit associated with relief fan vfd output frequency"},
   "extends" : [
-    "dtmi:com:willowinc:FanVFDFrequencyLowLimit;1"
+    "dtmi:com:syyclops:FanVFDFrequencyLowLimit;1"
   ],
   "contents": [
     

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CoolingTower;1",
+  "@id": "dtmi:com:syyclops:CoolingTower;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling Tower"
@@ -8,7 +8,7 @@
     "en": "A device that rejects waste heat to the atmosphere through the cooling of a coolant stream, usually a water stream to a lower temperature."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -59,7 +59,7 @@
         "en": "fan"
       },
       "name": "fan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": "Property",

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DoorOpenState;1",
+  "@id": "dtmi:com:syyclops:DoorOpenState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Door Open State"
   },
   "description": {"en": "The Boolean state of the door which is 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:OpenState;1"
+    "dtmi:com:syyclops:OpenState;1"
   ],
   "contents": [
 

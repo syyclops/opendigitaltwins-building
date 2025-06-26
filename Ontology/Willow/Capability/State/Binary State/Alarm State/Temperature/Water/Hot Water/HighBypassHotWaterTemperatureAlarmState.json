@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighBypassHotWaterTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighBypassHotWaterTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Bypass Hot Water Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with high hot water bypass temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighHotWaterTemperatureAlarmState;1"
+    "dtmi:com:syyclops:HighHotWaterTemperatureAlarmState;1"
   ],
   "contents": [
   ],

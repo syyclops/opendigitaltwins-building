@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighOutsideAirHumidityAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighOutsideAirHumidityAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Outside Air Humidity Alarm State"
   },
   "description": {"en": "The Boolean state of the high outside air humidity alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighAirHumidityAlarmState;1"
+    "dtmi:com:syyclops:HighAirHumidityAlarmState;1"
   ],
   "contents": [
 

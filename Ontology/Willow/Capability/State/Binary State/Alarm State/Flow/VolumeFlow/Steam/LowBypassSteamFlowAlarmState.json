@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowBypassSteamFlowAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowBypassSteamFlowAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Bypass Steam Flow Alarm State"
   },
   "description": {"en": "The Boolean state of the low bypass steam flow alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowSteamFlowAlarmState;1"
+    "dtmi:com:syyclops:LowSteamFlowAlarmState;1"
   ],
   "contents": [
 

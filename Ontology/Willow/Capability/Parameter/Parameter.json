@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:Parameter;1",
+  "@id": "dtmi:com:syyclops:Parameter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Parameter"
   },
   "description": {"en": "A configuration setting"},
   "extends" : [
-    "dtmi:com:willowinc:Capability;1"
+    "dtmi:com:syyclops:Capability;1"
   ],
   "contents": [
     {
@@ -18,7 +18,7 @@
         "en": "is parameter of"
       },
       "name": "isParameterOf",
-      "target": "dtmi:com:willowinc:Capability;1"
+      "target": "dtmi:com:syyclops:Capability;1"
     }
   ],
   "@context": [

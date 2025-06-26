@@ -1,11 +1,11 @@
 {
-    "@id": "dtmi:com:willowinc:CapabilityCommunication;1",
+    "@id": "dtmi:com:syyclops:CapabilityCommunication;1",
     "@type": "Interface",
     "displayName": {
       "en": "Capability Communication"
     },
     "extends" : [
-      "dtmi:com:willowinc:CapabilityComponent;1"
+      "dtmi:com:syyclops:CapabilityComponent;1"
     ],
     "contents": [
         {
@@ -15,7 +15,7 @@
               "en": "Protocol"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:CapabilityCommunicationProtocol;1"
+            "schema": "dtmi:com:syyclops:CapabilityCommunicationProtocol;1"
         },
         {
             "@type": "Property",
@@ -24,7 +24,7 @@
               "en": "API"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:APICapabilityProperties;1"
+            "schema": "dtmi:com:syyclops:APICapabilityProperties;1"
         },
         {
             "@type": "Property",
@@ -33,7 +33,7 @@
               "en": "BACnet"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:BACnetCapabilityProperties;1"
+            "schema": "dtmi:com:syyclops:BACnetCapabilityProperties;1"
         },
         {
             "@type": "Property",
@@ -42,7 +42,7 @@
               "en": "Modbus"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:ModbusCapabilityProperties;1"
+            "schema": "dtmi:com:syyclops:ModbusCapabilityProperties;1"
         },
         {
             "@type": "Property",
@@ -51,7 +51,7 @@
               "en": "OPC DA"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:OPCDACapabilityProperties;1"
+            "schema": "dtmi:com:syyclops:OPCDACapabilityProperties;1"
         },
         {
             "@type": "Property",
@@ -60,7 +60,7 @@
               "en": "OPC UA"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:OPCUACapabilityProperties;1"
+            "schema": "dtmi:com:syyclops:OPCUACapabilityProperties;1"
         },
         {
             "@type": "Property",
@@ -69,12 +69,12 @@
               "en": "IoT Hub"
             },
             "writable": true,
-            "schema": "dtmi:com:willowinc:IoTHubCapabilityProperties;1"
+            "schema": "dtmi:com:syyclops:IoTHubCapabilityProperties;1"
         }
     ],
     "schemas": [
         {
-            "@id": "dtmi:com:willowinc:CapabilityCommunicationProtocol;1",
+            "@id": "dtmi:com:syyclops:CapabilityCommunicationProtocol;1",
             "@type": "Enum",
             "valueSchema": "string",
             "enumValues": [
@@ -141,7 +141,7 @@
             ]
         },
         {
-            "@id": "dtmi:com:willowinc:APICapabilityProperties;1",
+            "@id": "dtmi:com:syyclops:APICapabilityProperties;1",
             "@type": "Object",
             "fields": [
                 {
@@ -154,7 +154,7 @@
             ]
         },
         {
-            "@id": "dtmi:com:willowinc:BACnetCapabilityProperties;1",
+            "@id": "dtmi:com:syyclops:BACnetCapabilityProperties;1",
             "@type": "Object",
             "fields": [
                 {
@@ -168,7 +168,7 @@
                     "name": "objectType",
                     "displayName": "Object Type",
                     "schema": {
-                        "@id": "dtmi:com:willowinc:BACnetCapabilityObjectType;1",
+                        "@id": "dtmi:com:syyclops:BACnetCapabilityObjectType;1",
                         "@type": "Enum",
                         "valueSchema": "string",
                         "enumValues": [
@@ -250,14 +250,14 @@
             ]
         },
         {
-            "@id": "dtmi:com:willowinc:ModbusCapabilityProperties;1",
+            "@id": "dtmi:com:syyclops:ModbusCapabilityProperties;1",
             "@type": "Object",
             "fields": [
                 {
                     "name": "dataType",
                     "displayName": "Data Type",
                     "schema": {
-                        "@id": "dtmi:com:willowinc:ModbusDataType;1",
+                        "@id": "dtmi:com:syyclops:ModbusDataType;1",
                         "@type": "Enum",
                         "valueSchema": "integer",
                         "enumValues": [
@@ -346,7 +346,7 @@
                       "en": "Endian"
                     },
                     "schema": {
-                        "@id": "dtmi:com:willowinc:ModbusEndianType;1",
+                        "@id": "dtmi:com:syyclops:ModbusEndianType;1",
                         "@type": "Enum",
                         "valueSchema": "string",
                         "enumValues": [
@@ -373,7 +373,7 @@
                       "en": "Register Type"
                     },
                     "schema": {
-                        "@id": "dtmi:com:willowinc:ModbusRegisterType;1",
+                        "@id": "dtmi:com:syyclops:ModbusRegisterType;1",
                         "@type": "Enum",
                         "valueSchema": "integer",
                         "enumValues": [
@@ -418,7 +418,7 @@
             ]
         },
         {
-            "@id": "dtmi:com:willowinc:OPCDACapabilityProperties;1",
+            "@id": "dtmi:com:syyclops:OPCDACapabilityProperties;1",
             "@type": "Object",
             "fields": [
                 {
@@ -431,7 +431,7 @@
             ]
         },
         {
-            "@id": "dtmi:com:willowinc:OPCUACapabilityProperties;1",
+            "@id": "dtmi:com:syyclops:OPCUACapabilityProperties;1",
             "@type": "Object",
             "fields": [
                 {
@@ -444,7 +444,7 @@
             ]
         },
         {
-            "@id": "dtmi:com:willowinc:IoTHubCapabilityProperties;1",
+            "@id": "dtmi:com:syyclops:IoTHubCapabilityProperties;1",
             "@type": "Object",
             "fields": [
                 {

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HotWaterTemperatureSetpointLowLimit;1",
+  "@id": "dtmi:com:syyclops:HotWaterTemperatureSetpointLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Water Temperature Setpoint Low Limit"
   },
   "description": {"en": "The low limit associated with hot water temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:WaterTemperatureSetpointLowLimit;1"
+    "dtmi:com:syyclops:WaterTemperatureSetpointLowLimit;1"
   ],
   "contents": [
   ],

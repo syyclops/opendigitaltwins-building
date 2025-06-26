@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PitLoadingDockLeveler;1",
+  "@id": "dtmi:com:syyclops:PitLoadingDockLeveler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pit Loading Dock Leveler"
   },
   "extends" : [
-    "dtmi:com:willowinc:LoadingDockLeveler;1"
+    "dtmi:com:syyclops:LoadingDockLeveler;1"
   ],
   "contents": [
 

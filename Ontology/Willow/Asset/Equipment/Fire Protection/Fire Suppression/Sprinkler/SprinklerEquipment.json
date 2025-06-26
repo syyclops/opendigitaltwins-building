@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerEquipment;1",
+  "@id": "dtmi:com:syyclops:SprinklerEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sprinkler Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireSuppressionEquipment;1"
+    "dtmi:com:syyclops:FireSuppressionEquipment;1"
   ],
   "contents": [
   ],

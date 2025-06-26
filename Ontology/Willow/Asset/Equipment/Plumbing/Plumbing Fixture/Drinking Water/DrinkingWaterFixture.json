@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DrinkingWaterFixture;1",
+  "@id": "dtmi:com:syyclops:DrinkingWaterFixture;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drinking Water Fixture"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
     {

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirHandlingUnitTemperingSection;1",
+  "@id": "dtmi:com:syyclops:AirHandlingUnitTemperingSection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Handling Unit Section"
@@ -8,7 +8,7 @@
     "en": "The tempering section of an air handling unit."
   },
   "extends": [
-    "dtmi:com:willowinc:AirHandlingUnitSection;1"
+    "dtmi:com:syyclops:AirHandlingUnitSection;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Window;1",
+  "@id": "dtmi:com:syyclops:Window;1",
   "@type": "Interface",
   "displayName": {
     "en": "Window"
   },
   "extends" : [
-    "dtmi:com:willowinc:BarrierAsset;1"
+    "dtmi:com:syyclops:BarrierAsset;1"
   ],
   "contents": [
     

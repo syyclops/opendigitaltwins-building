@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AccessControlPanel;1",
+  "@id": "dtmi:com:syyclops:AccessControlPanel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Access Control Panel"
   },
   "extends" : [
-    "dtmi:com:willowinc:AccessControlEquipment;1"
+    "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
   "contents": [
   ],

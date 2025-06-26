@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:EvaporativeCoolingTower;1",
+  "@id": "dtmi:com:syyclops:EvaporativeCoolingTower;1",
   "@type": "Interface",
   "displayName": {
     "en": "Evaporative Cooling Tower"
@@ -8,7 +8,7 @@
     "en": "A cooling tower where the process fluid is evaporated."
   },
   "extends" : [
-    "dtmi:com:willowinc:CoolingTower;1"
+    "dtmi:com:syyclops:CoolingTower;1"
   ],
   "contents": [
 

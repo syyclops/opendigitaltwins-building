@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PeopleFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:PeopleFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "People Flow Setpoint"
   },
   "description": {"en": "The desired value associated with people flow"},
   "extends" : [
-    "dtmi:com:willowinc:ObjectFlowSetpoint;1"
+    "dtmi:com:syyclops:ObjectFlowSetpoint;1"
   ],
   "contents": [
 

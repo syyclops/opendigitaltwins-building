@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingRequestState;1",
+  "@id": "dtmi:com:syyclops:HeatingRequestState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Request State"
   },
   "description": {"en": "The Boolean state of a request for additional heating which is 'requested' when 'true' and 'not requested' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:RequestState;1"
+    "dtmi:com:syyclops:RequestState;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AccessPanel;1",
+  "@id": "dtmi:com:syyclops:AccessPanel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Access Panel"
   },
   "extends" : [
-    "dtmi:com:willowinc:BarrierAsset;1"
+    "dtmi:com:syyclops:BarrierAsset;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AirQualityIndexAlarmState;1",
+  "@id": "dtmi:com:syyclops:AirQualityIndexAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Quality Index Alarm State"
   },
   "description": {"en": "The Boolean state of the air quality index alarm which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AirQualityAlarmState;1"
+    "dtmi:com:syyclops:AirQualityAlarmState;1"
   ],
   "contents": [
 

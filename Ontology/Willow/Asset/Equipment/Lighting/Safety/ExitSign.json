@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ExitSign;1",
+  "@id": "dtmi:com:syyclops:ExitSign;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exit Sign"
   },
   "extends" : [
-    "dtmi:com:willowinc:SafetyLighting;1"
+    "dtmi:com:syyclops:SafetyLighting;1"
   ],
   "contents": [
 

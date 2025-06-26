@@ -1,11 +1,11 @@
 {
-    "@id": "dtmi:com:willowinc:PipeConnection;1",
+    "@id": "dtmi:com:syyclops:PipeConnection;1",
     "@type": "Interface",
     "displayName": {
         "en": "Pipe connection"
       },
     "extends": [
-        "dtmi:com:willowinc:AssetComponent;1"
+        "dtmi:com:syyclops:AssetComponent;1"
     ],
     "contents": [
       {

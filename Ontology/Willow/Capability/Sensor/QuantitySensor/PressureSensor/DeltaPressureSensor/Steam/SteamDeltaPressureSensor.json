@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:SteamDeltaPressureSensor;1",
+  "@id": "dtmi:com:syyclops:SteamDeltaPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Delta Pressure Sensor"
   },
   "description": {"en": "The delta pressure feedback from a sensor associated with steam"},
   "extends" : [
-    "dtmi:com:willowinc:SteamPressureSensor;1",
-    "dtmi:com:willowinc:DeltaPressureSensor;1"
+    "dtmi:com:syyclops:SteamPressureSensor;1",
+    "dtmi:com:syyclops:DeltaPressureSensor;1"
   ],
   "contents": [
     

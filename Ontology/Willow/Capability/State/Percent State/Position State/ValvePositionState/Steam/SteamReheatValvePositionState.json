@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamReheatValvePositionState;1",
+  "@id": "dtmi:com:syyclops:SteamReheatValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Reheat Valve Position State"
   },
   "description": {"en": "The percent position state of the steam reheat valve"},
   "extends" : [
-    "dtmi:com:willowinc:SteamValvePositionState;1"
+    "dtmi:com:syyclops:SteamValvePositionState;1"
   ],
   "contents": [
   ],

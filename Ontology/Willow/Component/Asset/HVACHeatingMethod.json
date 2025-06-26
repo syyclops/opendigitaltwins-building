@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACHeatingMethod;1",
+  "@id": "dtmi:com:syyclops:HVACHeatingMethod;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Method"
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetComponent;1"
+    "dtmi:com:syyclops:AssetComponent;1"
   ],
   "contents": [
     {

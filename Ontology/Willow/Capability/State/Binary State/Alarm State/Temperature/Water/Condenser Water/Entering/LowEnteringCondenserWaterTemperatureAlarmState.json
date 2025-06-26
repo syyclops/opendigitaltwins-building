@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:LowEnteringCondenserWaterTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowEnteringCondenserWaterTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Entering Condenser Water Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with low entering condenser water temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowCondenserWaterTemperatureAlarmState;1",
-    "dtmi:com:willowinc:LowEnteringWaterTemperatureAlarmState;1"
+    "dtmi:com:syyclops:LowCondenserWaterTemperatureAlarmState;1",
+    "dtmi:com:syyclops:LowEnteringWaterTemperatureAlarmState;1"
   ],
   "contents": [
   ],

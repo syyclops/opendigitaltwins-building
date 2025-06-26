@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringHotWaterFlowSensor;1",
+  "@id": "dtmi:com:syyclops:EnteringHotWaterFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Hot Water Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with entering hot water"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterFlowSensor;1"
+    "dtmi:com:syyclops:HotWaterFlowSensor;1"
   ],
   "contents": [
   ],

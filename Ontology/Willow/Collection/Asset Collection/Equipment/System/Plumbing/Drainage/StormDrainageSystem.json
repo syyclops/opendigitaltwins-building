@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StormDrainageSystem;1",
+  "@id": "dtmi:com:syyclops:StormDrainageSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Storm Drainage System"
   },
   "extends" : [
-    "dtmi:com:willowinc:DrainageSystem;1"
+    "dtmi:com:syyclops:DrainageSystem;1"
   ],
   "contents": [
   ],

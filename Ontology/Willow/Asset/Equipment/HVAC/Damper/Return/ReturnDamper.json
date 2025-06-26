@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnDamper;1",
+  "@id": "dtmi:com:syyclops:ReturnDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

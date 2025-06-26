@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:HeatDetector;1",
+  "@id": "dtmi:com:syyclops:HeatDetector;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Detector"
   },
-  "extends": "dtmi:com:willowinc:FireDetector;1",
+  "extends": "dtmi:com:syyclops:FireDetector;1",
   "@context": [
     "dtmi:dtdl:context;3"
   ]

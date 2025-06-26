@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WalkInCombinationCoolerFreezer;1",
+  "@id": "dtmi:com:syyclops:WalkInCombinationCoolerFreezer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Walk-In Combination Cooler / Freezer"
@@ -8,8 +8,8 @@
     "en": "A walk-in refrigeration unit which is dual zoned for both low-temperature and medium-temperature applications."
   },
   "extends" : [
-    "dtmi:com:willowinc:WalkInCooler;1",
-    "dtmi:com:willowinc:WalkInFreezer;1"
+    "dtmi:com:syyclops:WalkInCooler;1",
+    "dtmi:com:syyclops:WalkInFreezer;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AutoLevelFaultAlarmState;1",
+  "@id": "dtmi:com:syyclops:AutoLevelFaultAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Auto-Level Fault Alarm State"
   },
   "description": {"en": "The Boolean state of the auto-level fault alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmState;1"
+    "dtmi:com:syyclops:AlarmState;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FiberOpticCablingEquipment;1",
+  "@id": "dtmi:com:syyclops:FiberOpticCablingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fiber Optic Cabling Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:StructuredCablingEquipment;1"
+    "dtmi:com:syyclops:StructuredCablingEquipment;1"
   ],
   "contents": [
 

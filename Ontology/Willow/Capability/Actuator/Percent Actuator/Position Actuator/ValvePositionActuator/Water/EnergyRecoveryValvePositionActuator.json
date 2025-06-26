@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnergyRecoveryValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:EnergyRecoveryValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Energy Recovery Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the energy recovery valve"},
   "extends" : [
-    "dtmi:com:willowinc:WaterValvePositionActuator;1"
+    "dtmi:com:syyclops:WaterValvePositionActuator;1"
   ],
   "contents": [
   ],

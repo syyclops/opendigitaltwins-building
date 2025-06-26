@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:Cable;1",
+  "@id": "dtmi:com:syyclops:Cable;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cable"
   },
-  "extends": "dtmi:com:willowinc:DistributionAsset;1",
+  "extends": "dtmi:com:syyclops:DistributionAsset;1",
   "contents": [
     {
       "@type": "Property",

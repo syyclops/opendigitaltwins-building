@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACWaterFiltration;1",
+  "@id": "dtmi:com:syyclops:HVACWaterFiltration;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Filtration (HVAC)"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACWaterTreatment;1"
+    "dtmi:com:syyclops:HVACWaterTreatment;1"
   ],
   "contents": [
     {

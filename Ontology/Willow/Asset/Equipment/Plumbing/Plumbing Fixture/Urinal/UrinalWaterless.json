@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:UrinalWaterless;1",
+  "@id": "dtmi:com:syyclops:UrinalWaterless;1",
   "@type": "Interface",
   "displayName": {
     "en": "Urinal - Waterless"
   },
   "extends" : [
-    "dtmi:com:willowinc:Urinal;1"
+    "dtmi:com:syyclops:Urinal;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OutsideAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:OutsideAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Air Damper Position State"
   },
   "description": {"en": "The percent position state of the outside air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HVACCompressor;1",
+  "@id": "dtmi:com:syyclops:HVACCompressor;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Compressor"
@@ -8,8 +8,8 @@
     "en": "A compressor which is used within an HVAC system for the applicaiton of conditioning a space for comfort."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1",
-    "dtmi:com:willowinc:Compressor;1"
+    "dtmi:com:syyclops:HVACEquipment;1",
+    "dtmi:com:syyclops:Compressor;1"
   ],
   "contents": [
 

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:GroundSourceCondensingUnit;1",
+  "@id": "dtmi:com:syyclops:GroundSourceCondensingUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ground Source Condensing Unit"
@@ -8,7 +8,7 @@
     "en": "A type of heat exchanger comprised of a compressor and a condenser whose function is to transfer heat to the ground in a split system air conditioner"
   },
   "extends" : [
-    "dtmi:com:willowinc:CondensingUnit;1"
+    "dtmi:com:syyclops:CondensingUnit;1"
   ],
   "contents": [
   

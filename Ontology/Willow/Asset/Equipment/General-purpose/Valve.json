@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Valve;1",
+  "@id": "dtmi:com:syyclops:Valve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Valve"
   },
   "extends" : [
-    "dtmi:com:willowinc:GeneralPurposeEquipment;1"
+    "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
     {
@@ -56,7 +56,7 @@
         "en": "pipe outlet"
       },
       "name": "pipeOutlet",
-      "schema": "dtmi:com:willowinc:PipeConnection;1"
+      "schema": "dtmi:com:syyclops:PipeConnection;1"
     },
     {
       "@type": "Component",
@@ -64,7 +64,7 @@
         "en": "pipe inlet"
       },
       "name": "pipeInlet",
-      "schema": "dtmi:com:willowinc:PipeConnection;1"
+      "schema": "dtmi:com:syyclops:PipeConnection;1"
     }
   ],
   "@context": [

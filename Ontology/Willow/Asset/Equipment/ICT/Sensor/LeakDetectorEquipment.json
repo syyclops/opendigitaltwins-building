@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LeakDetectorEquipment;1",
+  "@id": "dtmi:com:syyclops:LeakDetectorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leak Detector"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

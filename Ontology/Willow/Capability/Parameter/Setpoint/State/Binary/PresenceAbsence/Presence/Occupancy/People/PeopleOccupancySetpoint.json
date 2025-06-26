@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PeopleOccupancySetpoint;1",
+  "@id": "dtmi:com:syyclops:PeopleOccupancySetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "People Occupancy Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:OccupancySetpoint;1"
+    "dtmi:com:syyclops:OccupancySetpoint;1"
   ],
   "contents": [
 

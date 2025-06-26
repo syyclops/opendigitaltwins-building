@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:NaturalGasSystem;1",
+  "@id": "dtmi:com:syyclops:NaturalGasSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Natural Gas System"
   },
   "extends" : [
-    "dtmi:com:willowinc:GasSystem;1"
+    "dtmi:com:syyclops:GasSystem;1"
   ],
   "contents": [
   ],

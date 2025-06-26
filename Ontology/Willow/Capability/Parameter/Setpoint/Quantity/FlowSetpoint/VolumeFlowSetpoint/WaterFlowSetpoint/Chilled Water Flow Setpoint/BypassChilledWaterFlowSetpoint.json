@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassChilledWaterFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:BypassChilledWaterFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Chilled Water Flow Setpoint"
   },
   "description": {"en": "The desired value associated with chilled water bypass flow"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowSetpoint;1"
+    "dtmi:com:syyclops:ChilledWaterFlowSetpoint;1"
   ],
   "contents": [
   ],

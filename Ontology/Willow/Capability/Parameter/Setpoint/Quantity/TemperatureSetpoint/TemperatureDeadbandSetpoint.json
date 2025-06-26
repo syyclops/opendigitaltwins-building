@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:TemperatureDeadbandSetpoint;1",
+  "@id": "dtmi:com:syyclops:TemperatureDeadbandSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Temperature Deadband Setpoint"
   },
   "description": {"en": "The deadband around the temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:TemperatureSetpoint;1",
-    "dtmi:com:willowinc:DeadbandSetpoint;1"
+    "dtmi:com:syyclops:TemperatureSetpoint;1",
+    "dtmi:com:syyclops:DeadbandSetpoint;1"
   ],
   "contents": [
 

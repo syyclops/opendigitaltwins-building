@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CurrentMagnitudeSetpoint;1",
+  "@id": "dtmi:com:syyclops:CurrentMagnitudeSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Current Magnitude Setpoint"
   },
   "description": {"en": "The desired value associated with current magnitude"},
   "extends" : [
-    "dtmi:com:willowinc:CurrentSetpoint;1"
+    "dtmi:com:syyclops:CurrentSetpoint;1"
   ],
   "contents": [
 

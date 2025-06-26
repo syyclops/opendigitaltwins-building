@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElevatorShaft;1",
+  "@id": "dtmi:com:syyclops:ElevatorShaft;1",
   "@type": "Interface",
   "displayName": {
     "en": "Elevator Shaft"
   },
   "extends" : [
-    "dtmi:com:willowinc:StructuralShaft;1"
+    "dtmi:com:syyclops:StructuralShaft;1"
   ],
   "contents": [
   ],

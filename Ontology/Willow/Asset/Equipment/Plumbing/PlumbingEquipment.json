@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingEquipment;1",
+  "@id": "dtmi:com:syyclops:PlumbingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Plumbing Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

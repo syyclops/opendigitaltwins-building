@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowUnderfloorAirTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowUnderfloorAirTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Underfloor Air Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with low underfloor air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowAirTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

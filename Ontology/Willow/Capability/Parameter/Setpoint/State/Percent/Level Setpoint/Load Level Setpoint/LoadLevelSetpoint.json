@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LoadLevelSetpoint;1",
+  "@id": "dtmi:com:syyclops:LoadLevelSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Load Level Setpoint"
   },
   "description": {"en": "The desired load level percentage for control of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:LevelSetpoint;1"
+    "dtmi:com:syyclops:LevelSetpoint;1"
   ],
   "contents": [
   ],

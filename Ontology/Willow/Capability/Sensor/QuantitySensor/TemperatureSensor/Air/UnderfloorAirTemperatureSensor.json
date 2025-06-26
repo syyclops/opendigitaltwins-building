@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:UnderfloorAirTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:UnderfloorAirTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Underfloor Air Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with underfloor air"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSensor;1"
+    "dtmi:com:syyclops:AirTemperatureSensor;1"
   ],
   "contents": [
   ],

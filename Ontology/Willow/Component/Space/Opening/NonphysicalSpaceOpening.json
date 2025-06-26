@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:NonphysicalSpaceOpening;1",
+  "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening;1",
   "@type": "Interface",
   "displayName": {
     "en": "Nonphysical Space Opening"
@@ -8,7 +8,7 @@
     "en": "A nonphysical or logical transition between spaces that is defined by purely by function or virtually rather than a physical barrier."
   },
   "extends" : [
-    "dtmi:com:willowinc:SpaceOpening;1"
+    "dtmi:com:syyclops:SpaceOpening;1"
   ],
   "contents": [
     {
@@ -30,7 +30,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:com:willowinc:SpaceOpening;1"
+      "target": "dtmi:com:syyclops:SpaceOpening;1"
     },
     {
       "@type": "Relationship",
@@ -41,7 +41,7 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:com:willowinc:Collection;1"
+      "target": "dtmi:com:syyclops:Collection;1"
     },
     {
       "@type": "Relationship",
@@ -52,7 +52,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -60,7 +60,7 @@
       "displayName": {
         "en": "has document"
       },
-      "target": "dtmi:com:willowinc:Document;1"
+      "target": "dtmi:com:syyclops:Document;1"
     },
     {
       "@type": "Property",
@@ -90,7 +90,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:NonphysicalSpaceOpeningMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:NonphysicalSpaceOpeningMappedIdObject;1"
       }
     },
     {
@@ -179,7 +179,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:NonphysicalSpaceOpeningMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpeningMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."

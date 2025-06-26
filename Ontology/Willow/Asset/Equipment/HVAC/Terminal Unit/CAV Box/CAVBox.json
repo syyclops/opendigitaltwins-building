@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CAVBox;1",
+  "@id": "dtmi:com:syyclops:CAVBox;1",
   "@type": "Interface",
   "displayName": {
     "en": "CAV Box"
@@ -8,7 +8,7 @@
     "en": "A type of terminal unit that modulates damper position to control airflow at a fixed setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:TerminalUnit;1"
+    "dtmi:com:syyclops:TerminalUnit;1"
   ],
   "contents": [
   ],

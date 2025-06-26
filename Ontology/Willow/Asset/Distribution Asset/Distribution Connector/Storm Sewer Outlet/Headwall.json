@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:Headwall;1",
+  "@id": "dtmi:com:syyclops:Headwall;1",
   "@type": "Interface",
   "displayName": {
     "en": "Headwall"
   },
-  "extends": "dtmi:com:willowinc:StormSewerOutlet;1",
+  "extends": "dtmi:com:syyclops:StormSewerOutlet;1",
   "contents": [
 
   ],

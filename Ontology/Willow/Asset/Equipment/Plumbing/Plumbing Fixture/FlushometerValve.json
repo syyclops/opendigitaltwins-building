@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FlushometerValve;1",
+  "@id": "dtmi:com:syyclops:FlushometerValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Flushometer-Valve"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
     {

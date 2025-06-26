@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Treadmill;1",
+  "@id": "dtmi:com:syyclops:Treadmill;1",
   "@type": "Interface",
   "displayName": {
     "en": "Treadmill"
   },
   "extends" : [
-    "dtmi:com:willowinc:CardioFitnessEquipment;1"
+    "dtmi:com:syyclops:CardioFitnessEquipment;1"
   ],
   "contents": [
   ],

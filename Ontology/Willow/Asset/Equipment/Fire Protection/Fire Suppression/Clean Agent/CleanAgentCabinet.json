@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CleanAgentCabinet;1",
+  "@id": "dtmi:com:syyclops:CleanAgentCabinet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Clean Agent Cabinet"
   },
   "extends" : [
-    "dtmi:com:willowinc:CleanAgentEquipment;1"
+    "dtmi:com:syyclops:CleanAgentEquipment;1"
   ],
   "contents": [
 

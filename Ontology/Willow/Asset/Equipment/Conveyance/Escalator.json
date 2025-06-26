@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Escalator;1",
+  "@id": "dtmi:com:syyclops:Escalator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Escalator"
   },
   "extends" : [
-    "dtmi:com:willowinc:ConveyanceEquipment;1"
+    "dtmi:com:syyclops:ConveyanceEquipment;1"
   ],
   "contents": [
     {

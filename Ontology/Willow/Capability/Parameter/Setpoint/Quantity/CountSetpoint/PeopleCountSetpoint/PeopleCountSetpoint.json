@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PeopleCountSetpoint;1",
+  "@id": "dtmi:com:syyclops:PeopleCountSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "People Count Setpoint"
   },
   "description": {"en": "The desired value associated with people count"},
   "extends" : [
-    "dtmi:com:willowinc:CountSetpoint;1"
+    "dtmi:com:syyclops:CountSetpoint;1"
   ],
   "contents": [
     

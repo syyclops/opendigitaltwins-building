@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighTertiaryLoopLeavingChilledWaterTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighTertiaryLoopLeavingChilledWaterTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Tertiary Loop Leaving Chilled Water Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with high leaving chilled water tertiary loop temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HighChilledWaterTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighChilledWaterTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

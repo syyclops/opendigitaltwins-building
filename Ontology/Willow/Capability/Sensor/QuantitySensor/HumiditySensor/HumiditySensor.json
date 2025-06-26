@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HumiditySensor;1",
+  "@id": "dtmi:com:syyclops:HumiditySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Humidity Sensor"
   },
   "description": {"en": "The humidity feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:GasDetectorEquipment;1",
+  "@id": "dtmi:com:syyclops:GasDetectorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Gas Detector"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

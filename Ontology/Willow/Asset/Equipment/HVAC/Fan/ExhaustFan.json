@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustFan;1",
+  "@id": "dtmi:com:syyclops:ExhaustFan;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Fan"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACFan;1"
+    "dtmi:com:syyclops:HVACFan;1"
   ],
   "contents": [
   ],

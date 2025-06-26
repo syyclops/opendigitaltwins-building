@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DomesticWaterPump;1",
+  "@id": "dtmi:com:syyclops:DomesticWaterPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Domestic Water Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingPump;1"
+    "dtmi:com:syyclops:PlumbingPump;1"
   ],
   "contents": [
   ],

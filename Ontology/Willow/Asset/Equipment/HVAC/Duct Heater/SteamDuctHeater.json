@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SteamDuctHeater;1",
+  "@id": "dtmi:com:syyclops:SteamDuctHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Duct Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:DuctHeater;1"
+    "dtmi:com:syyclops:DuctHeater;1"
   ],
   "contents": [
     {

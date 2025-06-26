@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderSteamFlowSensor;1",
+  "@id": "dtmi:com:syyclops:HeaderSteamFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Steam Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with steam header"},
   "extends" : [
-    "dtmi:com:willowinc:SteamFlowSensor;1"
+    "dtmi:com:syyclops:SteamFlowSensor;1"
   ],
   "contents": [
   ],

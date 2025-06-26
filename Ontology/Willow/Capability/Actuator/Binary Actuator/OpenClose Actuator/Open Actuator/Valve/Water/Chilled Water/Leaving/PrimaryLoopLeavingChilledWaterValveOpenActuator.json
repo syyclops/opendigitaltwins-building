@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopLeavingChilledWaterValveOpenActuator;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopLeavingChilledWaterValveOpenActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Leaving Chilled Water Valve Open Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the primary loop leaving chilled water valve to 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingChilledWaterValveOpenActuator;1"
+    "dtmi:com:syyclops:LeavingChilledWaterValveOpenActuator;1"
   ],
   "contents": [
 

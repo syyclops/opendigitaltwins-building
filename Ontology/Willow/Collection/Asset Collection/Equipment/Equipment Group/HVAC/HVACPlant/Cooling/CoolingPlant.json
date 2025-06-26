@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CoolingPlant;1",
+  "@id": "dtmi:com:syyclops:CoolingPlant;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling Plant"
@@ -8,7 +8,7 @@
     "en": "A central group of equipment that is used to generate a substance such as chilled water or condenser water which contains the thermal energy used for cooling a building."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACPlant;1"
+    "dtmi:com:syyclops:HVACPlant;1"
   ],
   "contents": [
   ],

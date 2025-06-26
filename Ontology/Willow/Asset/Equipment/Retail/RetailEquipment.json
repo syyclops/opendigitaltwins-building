@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:RetailEquipment;1",
+  "@id": "dtmi:com:syyclops:RetailEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Retail Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

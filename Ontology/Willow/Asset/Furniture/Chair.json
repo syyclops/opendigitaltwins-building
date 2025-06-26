@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Chair;1",
+  "@id": "dtmi:com:syyclops:Chair;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chair"
   },
   "extends" : [
-    "dtmi:com:willowinc:Furniture;1"
+    "dtmi:com:syyclops:Furniture;1"
   ],
   "contents": [
     {

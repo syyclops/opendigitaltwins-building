@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HybridCoolingTower;1",
+  "@id": "dtmi:com:syyclops:HybridCoolingTower;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hybrid Cooling Tower"
@@ -8,8 +8,8 @@
     "en": "A closed-circuit cooler which leverages both dry and evaporative cooling techniques."
   },
   "extends" : [
-    "dtmi:com:willowinc:DryCooler;1",
-    "dtmi:com:willowinc:EvaporativeCoolingTower;1"
+    "dtmi:com:syyclops:DryCooler;1",
+    "dtmi:com:syyclops:EvaporativeCoolingTower;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SteamSystem;1",
+  "@id": "dtmi:com:syyclops:SteamSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam System"
   },
   "extends" : [
-    "dtmi:com:willowinc:GasSystem;1"
+    "dtmi:com:syyclops:GasSystem;1"
   ],
   "contents": [
   ],

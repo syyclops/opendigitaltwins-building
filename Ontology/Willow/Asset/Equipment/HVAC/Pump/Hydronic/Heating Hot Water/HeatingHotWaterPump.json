@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingHotWaterPump;1",
+  "@id": "dtmi:com:syyclops:HeatingHotWaterPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Hot Water Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:HydronicPump;1"
+    "dtmi:com:syyclops:HydronicPump;1"
   ],
   "contents": [
   ],

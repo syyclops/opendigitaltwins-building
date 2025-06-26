@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:TransferSwitch;1",
+  "@id": "dtmi:com:syyclops:TransferSwitch;1",
   "@type": "Interface",
   "displayName": {
     "en": "Transfer Switch"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalDistributionEquipment;1"
+    "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
   "contents": [
     {
@@ -46,7 +46,7 @@
       "displayName": {
         "en": "Main Bus"
       },
-      "schema": "dtmi:com:willowinc:ElectricalBus;1"
+      "schema": "dtmi:com:syyclops:ElectricalBus;1"
     }
   ],
   "@context": [

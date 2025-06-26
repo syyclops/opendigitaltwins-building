@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:UnitHeater;1",
+  "@id": "dtmi:com:syyclops:UnitHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Unit Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {
@@ -57,7 +57,7 @@
         "en": "heating method"
       },
       "name": "heatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     },
     {
       "@type": "Component",
@@ -65,7 +65,7 @@
         "en": "fan"
       },
       "name": "fan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     }
   ],
   "@context": [

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DischargeFanLowSuctionStaticPressureAlarmState;1",
+  "@id": "dtmi:com:syyclops:DischargeFanLowSuctionStaticPressureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Discharge Fan Low Suction Static Pressure Alarm State"
   },
   "description": {"en": "The Boolean state of the discharge fan low suction static pressure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:FanLowSuctionStaticPressureAlarmState;1"
+    "dtmi:com:syyclops:FanLowSuctionStaticPressureAlarmState;1"
   ],
   "contents": [
 

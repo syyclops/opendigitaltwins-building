@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:MotorizedShoppingCart;1",
+  "@id": "dtmi:com:syyclops:MotorizedShoppingCart;1",
   "@type": "Interface",
   "displayName": {
     "en": "Motorized Shopping Cart"
@@ -8,7 +8,7 @@
     "en": "A shopping cart equipped with an electric motor, navigational controls, and a seat."
   },
   "extends" : [
-    "dtmi:com:willowinc:Vehicle;1"
+    "dtmi:com:syyclops:Vehicle;1"
   ],
   "contents": [
 

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:EnergyStarScore;1",
+  "@id": "dtmi:com:syyclops:EnergyStarScore;1",
   "@type": "Interface",
   "displayName": {
     "en": "ENERGY STAR Score"
@@ -8,7 +8,7 @@
     "en": "The 1-100 ENERGY STAR score for a building compares it to other buildings across the United States with similar primary use characteristics. A higher score represents better performance. (energystar.gov)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PercentPerformanceIndicator;1"
+    "dtmi:com:syyclops:PercentPerformanceIndicator;1"
   ],
   "contents": [
 

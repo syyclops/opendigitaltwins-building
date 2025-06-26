@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CompressorFailureAlarmState;1",
+  "@id": "dtmi:com:syyclops:CompressorFailureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Compressor Failure Alarm State"
   },
   "description": {"en": "The Boolean state of the compressor failure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:FailureAlarmState;1"
+    "dtmi:com:syyclops:FailureAlarmState;1"
   ],
   "contents": [
 

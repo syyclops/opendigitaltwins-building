@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighAirFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighAirFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Air Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high air flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:AirFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:AirFlowAlarmSetpoint;1"
   ],
   "contents": [
 

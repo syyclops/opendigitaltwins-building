@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingHotWaterFlowSensor;1",
+  "@id": "dtmi:com:syyclops:LeavingHotWaterFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Hot Water Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with leaving hot water"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterFlowSensor;1"
+    "dtmi:com:syyclops:HotWaterFlowSensor;1"
   ],
   "contents": [
   ],

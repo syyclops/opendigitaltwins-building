@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:FrontOfHouseArea;1",
+  "@id": "dtmi:com:syyclops:FrontOfHouseArea;1",
   "@type": "Interface",
   "displayName": {
     "en": "Front of House Area"
@@ -8,7 +8,7 @@
     "en": "An area within a building, generally a hotel or restaurant, where the guests or customers occupy and have access."
   },
   "extends" : [
-    "dtmi:com:willowinc:BuildingOperationsArea;1"
+    "dtmi:com:syyclops:BuildingOperationsArea;1"
   ],
   "contents": [
 

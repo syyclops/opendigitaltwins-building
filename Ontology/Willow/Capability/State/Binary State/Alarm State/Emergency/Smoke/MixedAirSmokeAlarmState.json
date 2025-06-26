@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MixedAirSmokeAlarmState;1",
+  "@id": "dtmi:com:syyclops:MixedAirSmokeAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Air Smoke Alarm State"
   },
   "description": {"en": "The Boolean state of the mixed air smoke alarm which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:SmokeAlarmState;1"
+    "dtmi:com:syyclops:SmokeAlarmState;1"
   ],
   "contents": [
 

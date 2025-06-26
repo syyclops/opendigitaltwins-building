@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BypassSteamPumpRunLevelState;1",
+  "@id": "dtmi:com:syyclops:BypassSteamPumpRunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Steam Pump Run Level State"
   },
   "extends" : [
-    "dtmi:com:willowinc:SteamPumpRunLevelState;1"
+    "dtmi:com:syyclops:SteamPumpRunLevelState;1"
   ],
   "contents": [
 

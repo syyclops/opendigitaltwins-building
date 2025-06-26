@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CleanAgentSystem;1",
+  "@id": "dtmi:com:syyclops:CleanAgentSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Clean Agent System"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireSuppressionSystem;1"
+    "dtmi:com:syyclops:FireSuppressionSystem;1"
   ],
   "contents": [
   ],

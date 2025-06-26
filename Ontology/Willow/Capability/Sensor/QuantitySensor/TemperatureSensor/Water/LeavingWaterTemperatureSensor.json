@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:LeavingWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with leaving water"},
   "extends" : [
-    "dtmi:com:willowinc:WaterTemperatureSensor;1"
+    "dtmi:com:syyclops:WaterTemperatureSensor;1"
   ],
   "contents": [
   ],

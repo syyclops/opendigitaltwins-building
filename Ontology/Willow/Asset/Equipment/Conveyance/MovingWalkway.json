@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:MovingWalkway;1",
+  "@id": "dtmi:com:syyclops:MovingWalkway;1",
   "@type": "Interface",
   "displayName": {
     "en": "Moving Walkway"
   },
   "extends" : [
-    "dtmi:com:willowinc:ConveyanceEquipment;1"
+    "dtmi:com:syyclops:ConveyanceEquipment;1"
   ],
   "contents": [
     {

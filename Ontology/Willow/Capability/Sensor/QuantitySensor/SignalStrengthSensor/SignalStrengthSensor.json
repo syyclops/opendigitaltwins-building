@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SignalStrengthSensor;1",
+  "@id": "dtmi:com:syyclops:SignalStrengthSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Signal Strength Sensor"
   },
   "description": {"en": "The signal strength feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

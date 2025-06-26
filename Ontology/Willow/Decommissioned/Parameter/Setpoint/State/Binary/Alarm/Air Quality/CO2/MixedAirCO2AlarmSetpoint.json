@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MixedAirCO2AlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:MixedAirCO2AlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Air CO2 Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the CO2 air quality associatd with the mixed air"},
   "extends" : [
-    "dtmi:com:willowinc:CO2AirQualityAlarmSetpoint;1"
+    "dtmi:com:syyclops:CO2AirQualityAlarmSetpoint;1"
   ],
   "contents": [
   ],

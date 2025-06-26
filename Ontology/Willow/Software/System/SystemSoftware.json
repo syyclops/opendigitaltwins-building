@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:SystemSoftware;1",
+  "@id": "dtmi:com:syyclops:SystemSoftware;1",
   "@type": "Interface",
   "displayName": {
     "en": "System Software"
@@ -8,7 +8,7 @@
     "en": "A type of software responsible for managing the hardware and basic functionality of the computer or device, i.e. operating system, device drivers, or firmware."
   },
   "extends" : [
-    "dtmi:com:willowinc:Software;1"
+    "dtmi:com:syyclops:Software;1"
   ],
   "contents": [
 

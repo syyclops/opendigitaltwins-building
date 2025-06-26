@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationHeatExchanger;1",
+  "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Heat Exchanger"
@@ -8,7 +8,7 @@
     "en": "A heat exchanger which is used within a refrigeration system or circuit used in applications such food, beverage, pharmaceutical and chemical storage and ice storage and production."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipment;1"
+    "dtmi:com:syyclops:RefrigerationEquipment;1"
   ],
   "contents": [
     {

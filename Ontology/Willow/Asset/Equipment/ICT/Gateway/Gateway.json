@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Gateway;1",
+  "@id": "dtmi:com:syyclops:Gateway;1",
   "@type": "Interface",
   "displayName": {
     "en": "Gateway"
   },
   "extends" : [
-    "dtmi:com:willowinc:DataNetworkEquipment;1"
+    "dtmi:com:syyclops:DataNetworkEquipment;1"
   ],
   "contents": [
     {

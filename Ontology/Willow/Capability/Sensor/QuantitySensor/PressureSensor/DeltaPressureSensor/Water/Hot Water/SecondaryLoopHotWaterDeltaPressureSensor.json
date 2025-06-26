@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopHotWaterDeltaPressureSensor;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopHotWaterDeltaPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Hot Water Delta Pressure Sensor"
   },
   "description": {"en": "The delta pressure feedback from a sensor associated with hot water secondary loop"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterDeltaPressureSensor;1"
+    "dtmi:com:syyclops:HotWaterDeltaPressureSensor;1"
   ],
   "contents": [
     

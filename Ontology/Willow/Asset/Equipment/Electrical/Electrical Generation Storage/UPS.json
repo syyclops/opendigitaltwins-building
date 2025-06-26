@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:UPS;1",
+  "@id": "dtmi:com:syyclops:UPS;1",
   "@type": "Interface",
   "displayName": {
     "en": "UPS"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalGenerationStorageEquipment;1"
+    "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1"
   ],
   "contents": [
     {

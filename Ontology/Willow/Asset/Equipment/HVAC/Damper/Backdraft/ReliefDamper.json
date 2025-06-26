@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefDamper;1",
+  "@id": "dtmi:com:syyclops:ReliefDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:BackdraftDamper;1"
+    "dtmi:com:syyclops:BackdraftDamper;1"
   ],
   "contents": [
   ],

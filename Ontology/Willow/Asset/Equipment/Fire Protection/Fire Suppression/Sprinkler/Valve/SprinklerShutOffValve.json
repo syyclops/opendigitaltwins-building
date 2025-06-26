@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerShutOffValve;1",
+  "@id": "dtmi:com:syyclops:SprinklerShutOffValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shut-off Valve (Sprinkler)"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerValve;1"
+    "dtmi:com:syyclops:SprinklerValve;1"
   ],
   "contents": [
     {

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BreakGlassAlarmState;1",
+  "@id": "dtmi:com:syyclops:BreakGlassAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Break Glass Alarm State"
   },
   "description": {"en": "The Boolean state of the break glass alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:EmergencyAlarmState;1"
+    "dtmi:com:syyclops:EmergencyAlarmState;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACExhaustAirSystem;1",
+  "@id": "dtmi:com:syyclops:HVACExhaustAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Exhaust Air System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACAirSystem;1"
+    "dtmi:com:syyclops:HVACAirSystem;1"
   ],
   "contents": [
   ],

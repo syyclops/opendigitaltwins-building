@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CoefficientOfPerformance;1",
+  "@id": "dtmi:com:syyclops:CoefficientOfPerformance;1",
   "@type": "Interface",
   "displayName": {
     "en": "Coefficient of Performance (COP)"
@@ -8,7 +8,7 @@
     "en": "A performance indicator for equipment with a refrigeration or cooling function which is the ratio of the thermal power output (kW) to its electrical power input (kW)."
   },
   "extends" : [
-    "dtmi:com:willowinc:RatioPerformanceIndicator;1"
+    "dtmi:com:syyclops:RatioPerformanceIndicator;1"
   ],
   "contents": [
 

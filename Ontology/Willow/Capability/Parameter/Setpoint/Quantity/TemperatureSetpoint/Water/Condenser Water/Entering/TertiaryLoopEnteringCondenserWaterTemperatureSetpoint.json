@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TertiaryLoopEnteringCondenserWaterTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:TertiaryLoopEnteringCondenserWaterTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Tertiary Loop Entering Condenser Water Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with tertiary condenser water loop entering temperature"},
   "extends" : [
-    "dtmi:com:willowinc:EnteringCondenserWaterTemperatureSetpoint;1"
+    "dtmi:com:syyclops:EnteringCondenserWaterTemperatureSetpoint;1"
   ],
   "contents": [
   ],

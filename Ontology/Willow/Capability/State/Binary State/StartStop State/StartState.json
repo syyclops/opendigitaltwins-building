@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StartState;1",
+  "@id": "dtmi:com:syyclops:StartState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Start State"
   },
   "extends" : [
-    "dtmi:com:willowinc:StartStopState;1"
+    "dtmi:com:syyclops:StartStopState;1"
   ],
   "contents": [
   ],

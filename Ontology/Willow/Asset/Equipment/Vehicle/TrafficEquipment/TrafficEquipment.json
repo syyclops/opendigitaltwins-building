@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:TrafficEquipment;1",
+  "@id": "dtmi:com:syyclops:TrafficEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Traffic Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:VehicleEquipment;1"
+    "dtmi:com:syyclops:VehicleEquipment;1"
   ],
   "contents": [
   ],

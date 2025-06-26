@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BilledElectricalEnergyCost;1",
+  "@id": "dtmi:com:syyclops:BilledElectricalEnergyCost;1",
   "@type": "Interface",
   "displayName": {
     "en": "Billed Electrical Energy Cost"
   },
   "description": {"en": "The billed electrical cost trend associated with energy consumption, typically on a monthly basis."},
   "extends" : [
-    "dtmi:com:willowinc:BilledElectricalCost;1"
+    "dtmi:com:syyclops:BilledElectricalCost;1"
   ],
   "contents": [
 

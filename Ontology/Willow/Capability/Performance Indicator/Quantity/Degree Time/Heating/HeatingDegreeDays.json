@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingDegreeDays;1",
+  "@id": "dtmi:com:syyclops:HeatingDegreeDays;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Degree Days"
@@ -8,7 +8,7 @@
     "en": "An accumulation of the heating degree days, based on the time-based integral of the difference between the outside air temperature and a threshold value"
   },
   "extends" : [
-    "dtmi:com:willowinc:DegreeDays;1"
+    "dtmi:com:syyclops:DegreeDays;1"
   ],
   "contents": [
 

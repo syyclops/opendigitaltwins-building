@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighCoolingTowerBasinWaterLevelAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighCoolingTowerBasinWaterLevelAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Cooling Tower Basin Water Level Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high cooling tower basin water level alarm"},
   "extends" : [
-    "dtmi:com:willowinc:HighWaterLevelAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighWaterLevelAlarmSetpoint;1"
   ],
   "contents": [
 

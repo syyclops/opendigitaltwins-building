@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopEnteringCondenserWaterValvePositionState;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopEnteringCondenserWaterValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Entering Condenser Water Valve Position State"
   },
   "description": {"en": "The percent position state of the secondary loop entering condenser water valve"},
   "extends" : [
-    "dtmi:com:willowinc:EnteringCondenserWaterValvePositionState;1"
+    "dtmi:com:syyclops:EnteringCondenserWaterValvePositionState;1"
   ],
   "contents": [
   ],

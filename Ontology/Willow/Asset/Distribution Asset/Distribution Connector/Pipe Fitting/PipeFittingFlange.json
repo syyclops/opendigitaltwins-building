@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:PipeFittingFlange;1",
+  "@id": "dtmi:com:syyclops:PipeFittingFlange;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pipe Fitting Flange"
   },
-  "extends": "dtmi:com:willowinc:PipeFitting;1",
+  "extends": "dtmi:com:syyclops:PipeFitting;1",
   "contents": [
 
   ],

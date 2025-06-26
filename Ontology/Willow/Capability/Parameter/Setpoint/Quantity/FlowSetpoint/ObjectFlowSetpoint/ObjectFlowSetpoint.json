@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ObjectFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:ObjectFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Object Flow Setpoint"
   },
   "description": {"en": "The desired value associated with object flow"},
   "extends" : [
-    "dtmi:com:willowinc:FlowSetpoint;1"
+    "dtmi:com:syyclops:FlowSetpoint;1"
   ],
   "contents": [
 

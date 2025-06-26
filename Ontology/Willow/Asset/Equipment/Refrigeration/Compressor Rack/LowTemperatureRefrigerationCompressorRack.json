@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:LowTemperatureRefrigerationCompressorRack;1",
+  "@id": "dtmi:com:syyclops:LowTemperatureRefrigerationCompressorRack;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low-Temperature Refrigeration Compressor Rack"
@@ -8,7 +8,7 @@
     "en": "A compressor rack which is optimized for low-temperature refrigeration applications."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationCompressorRack;1"
+    "dtmi:com:syyclops:RefrigerationCompressorRack;1"
   ],
   "contents": [
 

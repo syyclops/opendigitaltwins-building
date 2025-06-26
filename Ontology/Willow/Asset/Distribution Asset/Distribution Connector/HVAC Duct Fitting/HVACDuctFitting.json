@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:HVACDuctFitting;1",
+  "@id": "dtmi:com:syyclops:HVACDuctFitting;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Duct Fitting"
   },
-  "extends": "dtmi:com:willowinc:DistributionConnector;1",
+  "extends": "dtmi:com:syyclops:DistributionConnector;1",
   "contents": [
     {
       "@type": "Property",

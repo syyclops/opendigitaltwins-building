@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PositioningEquipment;1",
+  "@id": "dtmi:com:syyclops:PositioningEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Positioning Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:MaterialHandlingEquipment;1"
+    "dtmi:com:syyclops:MaterialHandlingEquipment;1"
   ],
   "contents": [
   ],

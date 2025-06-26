@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerPumpGroup;1",
+  "@id": "dtmi:com:syyclops:SprinklerPumpGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pump Group (Sprinkler)"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireProtectionEquipmentGroup;1"
+    "dtmi:com:syyclops:FireProtectionEquipmentGroup;1"
   ],
   "contents": [
   ],

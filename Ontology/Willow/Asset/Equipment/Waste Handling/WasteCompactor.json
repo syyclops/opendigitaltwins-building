@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WasteCompactor;1",
+  "@id": "dtmi:com:syyclops:WasteCompactor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Waste Compactor"
   },
   "extends" : [
-    "dtmi:com:willowinc:WasteHandlingEquipment;1"
+    "dtmi:com:syyclops:WasteHandlingEquipment;1"
   ],
   "contents": [
   ],

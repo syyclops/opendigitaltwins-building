@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Collection;1",
+  "@id": "dtmi:com:syyclops:Collection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Collection"
@@ -16,7 +16,7 @@
       "displayName": {
         "en": "has document"
       },
-      "target": "dtmi:com:willowinc:Document;1"
+      "target": "dtmi:com:syyclops:Document;1"
     },
     {
       "@type": "Relationship",
@@ -27,7 +27,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -35,7 +35,7 @@
       "displayName": {
         "en": "included in"
       },
-      "target": "dtmi:com:willowinc:Collection;1"
+      "target": "dtmi:com:syyclops:Collection;1"
     },
     {
       "@type": "Relationship",
@@ -43,7 +43,7 @@
         "en": "located in"
       },
       "name": "locatedIn",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Relationship",
@@ -112,7 +112,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:CollectionMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:CollectionMappedIdObject;1"
       }
     },
     {
@@ -252,42 +252,42 @@
             "displayName": {
               "en": "MasterFormat"
             },
-            "schema": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1"
           },
           {
             "name": "omniClass",
             "displayName": {
               "en": "OmniClass"
             },
-            "schema": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1"
           },
           {
             "name": "uniFormat",
             "displayName": {
               "en": "UniFormat"
             },
-            "schema": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1"
           },
           {
             "name": "uniclass",
             "displayName": {
               "en": "Uniclass"
             },
-            "schema": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1"
           },
           {
             "name": "projectHaystack",
             "displayName": {
               "en": "Project Haystack"
             },
-            "schema": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1"
           },
           {
             "name": "brickSchema",
             "displayName": {
               "en": "Brick Schema"
             },
-            "schema": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1"
           }
         ]
       }
@@ -295,7 +295,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:CollectionAlternateClassificationObject;1",
+      "@id": "dtmi:com:syyclops:CollectionAlternateClassificationObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -315,7 +315,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:CollectionMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:CollectionMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."

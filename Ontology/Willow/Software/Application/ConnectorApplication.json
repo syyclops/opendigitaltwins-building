@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ConnectorApplication;1",
+  "@id": "dtmi:com:syyclops:ConnectorApplication;1",
   "@type": "Interface",
   "displayName": {
     "en": "Connector Application"
@@ -8,7 +8,7 @@
     "en": "An application whose task is to connect to and communicate with other software applications."
   },
   "extends" : [
-    "dtmi:com:willowinc:Application;1"
+    "dtmi:com:syyclops:Application;1"
   ],
   "contents": [
     {

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireProtectionEquipmentGroup;1",
+  "@id": "dtmi:com:syyclops:FireProtectionEquipmentGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Protection Equipment Group"
   },
   "extends" : [
-    "dtmi:com:willowinc:EquipmentGroup;1"
+    "dtmi:com:syyclops:EquipmentGroup;1"
   ],
   "contents": [
   ],

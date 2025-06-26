@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalGenerationStorageEquipment;1",
+  "@id": "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Generation & Storage Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalEquipment;1"
+    "dtmi:com:syyclops:ElectricalEquipment;1"
   ],
   "contents": [
   ],

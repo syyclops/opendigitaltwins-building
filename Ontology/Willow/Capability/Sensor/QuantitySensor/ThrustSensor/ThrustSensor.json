@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ThrustSensor;1",
+  "@id": "dtmi:com:syyclops:ThrustSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Thrust Sensor"
   },
   "description": {"en": "The thrust feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

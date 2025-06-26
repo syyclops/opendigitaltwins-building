@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingSteamTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:LeavingSteamTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Steam Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with steam leaving"},
   "extends" : [
-    "dtmi:com:willowinc:SteamTemperatureSensor;1"
+    "dtmi:com:syyclops:SteamTemperatureSensor;1"
   ],
   "contents": [
   ],

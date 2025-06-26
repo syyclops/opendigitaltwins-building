@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TimeSpanSensor;1",
+  "@id": "dtmi:com:syyclops:TimeSpanSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Time Span Sensor"
   },
   "description": {"en": "The time span feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

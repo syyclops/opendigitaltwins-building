@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseACurrentAngleSensor;1",
+  "@id": "dtmi:com:syyclops:PhaseACurrentAngleSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase A Current Angle Sensor"
   },
   "description": {"en": "The current angle feedback from a sensor associated with phase a"},
   "extends" : [
-    "dtmi:com:willowinc:CurrentAngleSensor;1"
+    "dtmi:com:syyclops:CurrentAngleSensor;1"
   ],
   "contents": [
 

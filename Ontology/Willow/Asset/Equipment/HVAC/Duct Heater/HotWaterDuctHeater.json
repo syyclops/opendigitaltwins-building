@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HotWaterDuctHeater;1",
+  "@id": "dtmi:com:syyclops:HotWaterDuctHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Water Duct Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:DuctHeater;1"
+    "dtmi:com:syyclops:DuctHeater;1"
   ],
   "contents": [
     {

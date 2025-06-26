@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ClosePositionState;1",
+  "@id": "dtmi:com:syyclops:ClosePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Close Position State"
   },
   "description": {"en": "The percent close position state of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:PositionState;1"
+    "dtmi:com:syyclops:PositionState;1"
   ],
   "contents": [
   ],

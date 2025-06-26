@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACHeatExchangerGroup;1",
+  "@id": "dtmi:com:syyclops:HVACHeatExchangerGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Exchanger Group"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipmentGroup;1"
+    "dtmi:com:syyclops:HVACEquipmentGroup;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighCompressorLeavingRefrigerantStaticPressureAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighCompressorLeavingRefrigerantStaticPressureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Compressor Leaving Refrigerant Static Pressure Alarm State"
   },
   "description": {"en": "The Boolean state of the high compressor leaving refrigerant static pressure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:RefrigerantStaticPressureAlarmState;1"
+    "dtmi:com:syyclops:RefrigerantStaticPressureAlarmState;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ChilledWaterPumpRunState;1",
+  "@id": "dtmi:com:syyclops:ChilledWaterPumpRunState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Pump Run State"
   },
   "description": {"en": "The Boolean state of the chilled water pump which is 'run' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:WaterPumpRunState;1"
+    "dtmi:com:syyclops:WaterPumpRunState;1"
   ],
   "contents": [
 

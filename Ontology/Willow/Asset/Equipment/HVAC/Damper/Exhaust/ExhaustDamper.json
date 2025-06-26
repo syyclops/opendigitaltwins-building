@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustDamper;1",
+  "@id": "dtmi:com:syyclops:ExhaustDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

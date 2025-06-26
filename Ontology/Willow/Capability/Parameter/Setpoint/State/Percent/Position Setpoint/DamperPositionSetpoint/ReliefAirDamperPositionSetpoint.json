@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefAirDamperPositionSetpoint;1",
+  "@id": "dtmi:com:syyclops:ReliefAirDamperPositionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Air Damper Position Setpoint"
   },
   "description": {"en": "The desired position percentage for control of the relief air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionSetpoint;1"
+    "dtmi:com:syyclops:DamperPositionSetpoint;1"
   ],
   "contents": [
   ],

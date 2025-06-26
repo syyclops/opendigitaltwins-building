@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DomesticWaterBoosterPump;1",
+  "@id": "dtmi:com:syyclops:DomesticWaterBoosterPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Domestic Water Booster Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:DomesticWaterPump;1"
+    "dtmi:com:syyclops:DomesticWaterPump;1"
   ],
   "contents": [
   ],

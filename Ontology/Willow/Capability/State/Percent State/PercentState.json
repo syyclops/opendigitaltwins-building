@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PercentState;1",
+  "@id": "dtmi:com:syyclops:PercentState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Percent Unity State"
   },
   "description": {"en": "The percent state of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:State;1"
+    "dtmi:com:syyclops:State;1"
   ],
   "contents": [
     {

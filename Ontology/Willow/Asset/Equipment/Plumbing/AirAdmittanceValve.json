@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirAdmittanceValve;1",
+  "@id": "dtmi:com:syyclops:AirAdmittanceValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Admittance Valve"
@@ -8,7 +8,7 @@
     "en": "A one-way mechanical valve that is installed locally at the site of a plumbing fixture, allowing proper venting to occur without a connection to a larger venting system and stack vent (a.k.a. Studor Vent)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
   "contents": [
   ],

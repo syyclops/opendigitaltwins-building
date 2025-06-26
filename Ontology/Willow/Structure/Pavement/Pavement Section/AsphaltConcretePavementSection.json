@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AsphaltConcretePavementSection;1",
+  "@id": "dtmi:com:syyclops:AsphaltConcretePavementSection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Asphalt Concrete Pavement Section"
   },
   "extends" : [
-    "dtmi:com:willowinc:PavementSection;1"
+    "dtmi:com:syyclops:PavementSection;1"
   ],
   "contents": [
     

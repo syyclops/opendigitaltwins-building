@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Region;1",
+  "@id": "dtmi:com:syyclops:Region;1",
   "@type": "Interface",
   "displayName": {
     "en": "Region"
@@ -8,7 +8,7 @@
     "en": "An administrative geospatial unit larger than the individual real estate. For instance, \"Lombary\", \"North America\", \"The Back Bay\", \"Elnätsområde Syd\", etc."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
 

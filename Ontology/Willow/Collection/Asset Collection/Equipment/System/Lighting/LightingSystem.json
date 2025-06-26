@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LightingSystem;1",
+  "@id": "dtmi:com:syyclops:LightingSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Lighting System"
   },
   "extends" : [
-    "dtmi:com:willowinc:System;1"
+    "dtmi:com:syyclops:System;1"
   ],
   "contents": [
   ],

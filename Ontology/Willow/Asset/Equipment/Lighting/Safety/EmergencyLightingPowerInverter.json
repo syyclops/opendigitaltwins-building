@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EmergencyLightingPowerInverter;1",
+  "@id": "dtmi:com:syyclops:EmergencyLightingPowerInverter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Emergency Lighting Power Inverter"
   },
   "extends" : [
-    "dtmi:com:willowinc:SafetyLighting;1"
+    "dtmi:com:syyclops:SafetyLighting;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DwellTimeSetpoint;1",
+  "@id": "dtmi:com:syyclops:DwellTimeSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dwell Time Setpoint"
   },
   "description": {"en": "The desired value associated with dwell time"},
   "extends" : [
-    "dtmi:com:willowinc:TimeSpanSetpoint;1"
+    "dtmi:com:syyclops:TimeSpanSetpoint;1"
   ],
   "contents": [
 

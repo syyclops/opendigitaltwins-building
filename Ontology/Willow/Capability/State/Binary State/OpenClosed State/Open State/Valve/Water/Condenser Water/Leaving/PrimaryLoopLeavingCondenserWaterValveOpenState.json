@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopLeavingCondenserWaterValveOpenState;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopLeavingCondenserWaterValveOpenState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Leaving Condenser Water Valve Open State"
   },
   "description": {"en": "The Boolean state of the primary loop leaving condenser water valve which is 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingCondenserWaterValveOpenState;1"
+    "dtmi:com:syyclops:LeavingCondenserWaterValveOpenState;1"
   ],
   "contents": [
 

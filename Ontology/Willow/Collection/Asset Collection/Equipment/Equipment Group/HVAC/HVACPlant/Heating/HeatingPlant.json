@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingPlant;1",
+  "@id": "dtmi:com:syyclops:HeatingPlant;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Plant"
@@ -8,7 +8,7 @@
     "en": "A central group of equipment that is used to generate a substance such as hot water or steam which contains the thermal energy used for heating a building."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACPlant;1"
+    "dtmi:com:syyclops:HVACPlant;1"
   ],
   "contents": [
   ],

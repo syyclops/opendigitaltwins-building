@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BreadSlicer;1",
+  "@id": "dtmi:com:syyclops:BreadSlicer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bread Slicer"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodPreparationEquipment;1"
+    "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
   "contents": [
   ],

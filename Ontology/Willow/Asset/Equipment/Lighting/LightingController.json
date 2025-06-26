@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LightingController;1",
+  "@id": "dtmi:com:syyclops:LightingController;1",
   "@type": "Interface",
   "displayName": {
     "en": "Lighting Controller"
   },
   "extends" : [
-    "dtmi:com:willowinc:LightingEquipment;1"
+    "dtmi:com:syyclops:LightingEquipment;1"
   ],
   "contents": [
   ],

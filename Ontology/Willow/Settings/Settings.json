@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Settings;1",
+  "@id": "dtmi:com:syyclops:Settings;1",
   "@type": "Interface",
   "displayName": {
     "en": "Settings"

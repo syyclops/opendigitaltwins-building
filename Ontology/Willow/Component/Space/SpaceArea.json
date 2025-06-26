@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SpaceArea;1",
+  "@id": "dtmi:com:syyclops:SpaceArea;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Area"
   },
   "extends" : [
-    "dtmi:com:willowinc:SpaceComponent;1"
+    "dtmi:com:syyclops:SpaceComponent;1"
   ],
   "contents": [
     {

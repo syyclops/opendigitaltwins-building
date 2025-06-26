@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WaterFeatureSystem;1",
+  "@id": "dtmi:com:syyclops:WaterFeatureSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Feature System"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingWaterSystem;1"
+    "dtmi:com:syyclops:PlumbingWaterSystem;1"
   ],
   "contents": [
   ],

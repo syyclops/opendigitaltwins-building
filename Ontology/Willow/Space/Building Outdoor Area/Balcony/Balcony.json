@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Balcony;1",
+  "@id": "dtmi:com:syyclops:Balcony;1",
   "@type": "Interface",
   "displayName": {
     "en": "Balcony"
@@ -8,7 +8,7 @@
     "en": "An small enclosed area that is affixed to an upper level of building with typically a single access point."
   },
   "extends" : [
-    "dtmi:com:willowinc:BuildingOutdoorArea;1"
+    "dtmi:com:syyclops:BuildingOutdoorArea;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationEvaporatorUnit;1",
+  "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Evaporator Unit"
@@ -8,7 +8,7 @@
     "en": "An stand-alone evaporator consisting of a fan and coil typically used to cool walk-in coolers or freezers."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipment;1"
+    "dtmi:com:syyclops:RefrigerationEquipment;1"
   ],
   "contents": [
     {
@@ -26,7 +26,7 @@
         "en": "fan"
       },
       "name": "fan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     },
     {
       "@type": ["Property", "EnergyRate"],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalPowerSensor;1",
+  "@id": "dtmi:com:syyclops:ElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Power Sensor"
   },
   "description": {"en": "The electrical power feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:PowerSensor;1"
+    "dtmi:com:syyclops:PowerSensor;1"
   ],
   "contents": [
     

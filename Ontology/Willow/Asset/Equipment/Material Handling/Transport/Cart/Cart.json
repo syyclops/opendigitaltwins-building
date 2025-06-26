@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Cart;1",
+  "@id": "dtmi:com:syyclops:Cart;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cart"
   },
   "extends" : [
-    "dtmi:com:willowinc:TransportEquipment;1"
+    "dtmi:com:syyclops:TransportEquipment;1"
   ],
   "contents": [
   ],

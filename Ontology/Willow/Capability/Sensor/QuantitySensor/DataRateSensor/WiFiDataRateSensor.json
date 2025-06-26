@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WiFiDataRateSensor;1",
+  "@id": "dtmi:com:syyclops:WiFiDataRateSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "WiFi Data Rate Sensor"
   },
   "description": {"en": "The data rate feedback from a sensor associated with wifi"},
   "extends" : [
-    "dtmi:com:willowinc:DataRateSensor;1"
+    "dtmi:com:syyclops:DataRateSensor;1"
   ],
   "contents": [
   ],

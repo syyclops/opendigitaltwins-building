@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationDesuperheater;1",
+  "@id": "dtmi:com:syyclops:RefrigerationDesuperheater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Desuperheater"
@@ -8,7 +8,7 @@
     "en": "A desuperheater heat exchanger used in a refrigeration system or circuit dedicated to heat recovery by removing heat from the compressor superheated discharge gas."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationHeatExchanger;1"
+    "dtmi:com:syyclops:RefrigerationHeatExchanger;1"
   ],
   "contents": [
 

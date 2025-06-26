@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingCondenserWaterPumpVFDRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:LeavingCondenserWaterPumpVFDRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Condenser Water Pump VFD Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the leaving condenser water pump vfd"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterPumpVFDRunLevelActuator;1",
-    "dtmi:com:willowinc:LeavingCondenserWaterPumpRunLevelActuator;1"
+    "dtmi:com:syyclops:CondenserWaterPumpVFDRunLevelActuator;1",
+    "dtmi:com:syyclops:LeavingCondenserWaterPumpRunLevelActuator;1"
   ],
   "contents": [
 

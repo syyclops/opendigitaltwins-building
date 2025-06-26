@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingBalancingValve;1",
+  "@id": "dtmi:com:syyclops:PlumbingBalancingValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Balancing Valve (Plumbing)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingValve;1"
+    "dtmi:com:syyclops:PlumbingValve;1"
   ],
   "contents": [
 

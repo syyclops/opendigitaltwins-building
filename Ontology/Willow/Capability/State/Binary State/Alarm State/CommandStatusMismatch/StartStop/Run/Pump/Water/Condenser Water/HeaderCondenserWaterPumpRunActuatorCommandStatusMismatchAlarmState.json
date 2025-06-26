@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderCondenserWaterPumpRunActuatorCommandStatusMismatchAlarmState;1",
+  "@id": "dtmi:com:syyclops:HeaderCondenserWaterPumpRunActuatorCommandStatusMismatchAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Condenser Water Pump Run Actuator Command Status Mismatch Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm for the mismatch between command and status when commanding the condenser water header pump to 'run', which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterPumpRunActuatorCommandStatusMismatchAlarmState;1"
+    "dtmi:com:syyclops:CondenserWaterPumpRunActuatorCommandStatusMismatchAlarmState;1"
   ],
   "contents": [
 

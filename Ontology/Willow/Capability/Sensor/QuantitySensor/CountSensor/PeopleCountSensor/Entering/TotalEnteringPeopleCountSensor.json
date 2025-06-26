@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:TotalEnteringPeopleCountSensor;1",
+  "@id": "dtmi:com:syyclops:TotalEnteringPeopleCountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Entering People Count Sensor"
@@ -8,7 +8,7 @@
     "en": "A totalized count of the number of people entering a space over a defined period of time. The value continues to increment if the same individual enters multiple times."
   },
   "extends" : [
-    "dtmi:com:willowinc:EnteringPeopleCountSensor;1"
+    "dtmi:com:syyclops:EnteringPeopleCountSensor;1"
   ],
   "contents": [
     

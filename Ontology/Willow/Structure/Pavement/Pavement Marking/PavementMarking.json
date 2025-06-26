@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PavementMarking;1",
+  "@id": "dtmi:com:syyclops:PavementMarking;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pavement Marking"
   },
   "extends" : [
-    "dtmi:com:willowinc:Pavement;1"
+    "dtmi:com:syyclops:Pavement;1"
   ],
   "contents": [
     

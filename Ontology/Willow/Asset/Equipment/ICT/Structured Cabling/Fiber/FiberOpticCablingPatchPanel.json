@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FiberOpticCablingPatchPanel;1",
+  "@id": "dtmi:com:syyclops:FiberOpticCablingPatchPanel;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fiber Optic Cabling Patch Panel"
   },
   "extends" : [
-    "dtmi:com:willowinc:FiberOpticCablingEquipment;1",
-    "dtmi:com:willowinc:PatchPanel;1"
+    "dtmi:com:syyclops:FiberOpticCablingEquipment;1",
+    "dtmi:com:syyclops:PatchPanel;1"
   ],
   "contents": [
 

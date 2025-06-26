@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VoltageAngleSetpoint;1",
+  "@id": "dtmi:com:syyclops:VoltageAngleSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Voltage Angle Setpoint"
   },
   "description": {"en": "The desired value associated with voltage angle"},
   "extends" : [
-    "dtmi:com:willowinc:VoltageSetpoint;1"
+    "dtmi:com:syyclops:VoltageSetpoint;1"
   ],
   "contents": [
 

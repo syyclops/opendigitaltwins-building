@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FlowRequestCountSensor;1",
+  "@id": "dtmi:com:syyclops:FlowRequestCountSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Flow Request Count Sensor"
   },
   "description": {"en": "The counted number of assets or locations requesting additional flow from a primary asset"},
   "extends" : [
-    "dtmi:com:willowinc:RequestCountSensor;1"
+    "dtmi:com:syyclops:RequestCountSensor;1"
   ],
   "contents": [
 

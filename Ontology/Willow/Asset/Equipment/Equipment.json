@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Equipment;1",
+  "@id": "dtmi:com:syyclops:Equipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Asset;1"
+    "dtmi:com:syyclops:Asset;1"
   ],
   "contents": [
     {
@@ -25,7 +25,7 @@
             "en": "Substance"
           },
           "writable": true,
-          "schema": "dtmi:com:willowinc:EquipmentIsFedBySubstances;1"
+          "schema": "dtmi:com:syyclops:EquipmentIsFedBySubstances;1"
         }
       ]
     },
@@ -46,7 +46,7 @@
             "en": "Substance"
           },
           "writable": true,
-          "schema": "dtmi:com:willowinc:EquipmentIsFedBySubstances;1"
+          "schema": "dtmi:com:syyclops:EquipmentIsFedBySubstances;1"
         }
       ]
     },
@@ -65,7 +65,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:EquipmentIsFedBySubstances;1",
+      "@id": "dtmi:com:syyclops:EquipmentIsFedBySubstances;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [

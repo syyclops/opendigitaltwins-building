@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnergyRecoveryDeviceReturnAirBypassDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:EnergyRecoveryDeviceReturnAirBypassDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Energy Recovery Device Return Air Bypass Damper Position State"
   },
   "description": {"en": "The percent position state of the energy recovery device return air bypass damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

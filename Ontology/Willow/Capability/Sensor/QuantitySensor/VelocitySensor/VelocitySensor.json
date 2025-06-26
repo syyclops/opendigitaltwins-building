@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VelocitySensor;1",
+  "@id": "dtmi:com:syyclops:VelocitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Velocity Sensor"
   },
   "description": {"en": "The velocity feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

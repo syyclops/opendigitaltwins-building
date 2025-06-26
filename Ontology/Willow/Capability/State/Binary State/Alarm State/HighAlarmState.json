@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Alarm State"
   },
   "description": {"en": "The Boolean state of the high alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmState;1"
+    "dtmi:com:syyclops:AlarmState;1"
   ],
   "contents": [
 

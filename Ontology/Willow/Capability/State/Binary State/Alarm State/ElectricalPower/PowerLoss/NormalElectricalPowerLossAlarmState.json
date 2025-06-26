@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:NormalElectricaLPowerLossAlarmState;1",
+  "@id": "dtmi:com:syyclops:NormalElectricaLPowerLossAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Normal Electrical Power Loss Alarm State"
   },
   "description": {"en": "The Boolean state of the normal electrical power loss alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:ElectricalPowerLossAlarmState;1"
+    "dtmi:com:syyclops:ElectricalPowerLossAlarmState;1"
   ],
   "contents": [
 

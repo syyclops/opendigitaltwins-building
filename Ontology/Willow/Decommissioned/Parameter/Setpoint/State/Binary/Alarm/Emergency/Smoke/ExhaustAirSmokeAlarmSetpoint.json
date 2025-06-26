@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ExhaustAirSmokeAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:ExhaustAirSmokeAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Exhaust Air Smoke Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the exhaust air smoke alarm"},
   "extends" : [
-    "dtmi:com:willowinc:SmokeAlarmSetpoint;1"
+    "dtmi:com:syyclops:SmokeAlarmSetpoint;1"
   ],
   "contents": [
 

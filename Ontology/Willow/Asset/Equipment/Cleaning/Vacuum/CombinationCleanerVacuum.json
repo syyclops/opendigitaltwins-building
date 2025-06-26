@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CombinationCleanerVacuum;1",
+  "@id": "dtmi:com:syyclops:CombinationCleanerVacuum;1",
   "@type": "Interface",
   "displayName": {
     "en": "Combination Cleaner Vacuum"
@@ -8,7 +8,7 @@
     "en": "A combination equipment that can clean with the use of water and vacuum."
   },
   "extends" : [
-    "dtmi:com:willowinc:Vacuum;1"
+    "dtmi:com:syyclops:Vacuum;1"
   ],
   "contents": [
   ],

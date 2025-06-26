@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:WaterStorageBasin;1",
+  "@id": "dtmi:com:syyclops:WaterStorageBasin;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Storage Basin"
   },
-  "extends": "dtmi:com:willowinc:DistributionStorage;1",
+  "extends": "dtmi:com:syyclops:DistributionStorage;1",
   "contents": [
 
   ],

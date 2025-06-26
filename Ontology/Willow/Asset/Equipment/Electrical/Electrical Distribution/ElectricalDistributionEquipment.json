@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalDistributionEquipment;1",
+  "@id": "dtmi:com:syyclops:ElectricalDistributionEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Distribution Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalEquipment;1"
+    "dtmi:com:syyclops:ElectricalEquipment;1"
   ],
   "contents": [
     {

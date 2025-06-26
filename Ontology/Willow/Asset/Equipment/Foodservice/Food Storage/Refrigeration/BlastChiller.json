@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:BlastChiller;1",
+  "@id": "dtmi:com:syyclops:BlastChiller;1",
   "@type": "Interface",
   "displayName": {
     "en": "Blast Chiller"
@@ -8,7 +8,7 @@
     "en": "An food storage refrigeration equipment used to quickly cool or freeze foods."
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodStorageRefrigerationEquipment;1"
+    "dtmi:com:syyclops:FoodStorageRefrigerationEquipment;1"
   ],
   "contents": [
   ],

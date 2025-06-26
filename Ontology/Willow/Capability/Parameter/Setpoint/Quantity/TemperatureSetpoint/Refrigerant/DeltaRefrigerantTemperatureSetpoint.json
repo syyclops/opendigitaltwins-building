@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DeltaRefrigerantTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:DeltaRefrigerantTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Delta Refrigerant Temperature Setpoint"
   },
   "description": {"en": "The feedback from a setpoint associated with differential temperature, tyipcally between the entering and leaving."},
   "extends" : [
-    "dtmi:com:willowinc:RefrigerantTemperatureSetpoint;1"
+    "dtmi:com:syyclops:RefrigerantTemperatureSetpoint;1"
   ],
   "contents": [
   ],

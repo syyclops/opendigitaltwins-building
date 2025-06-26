@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Drawing;1",
+  "@id": "dtmi:com:syyclops:Drawing;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drawing"
   },
   "extends" : [
-    "dtmi:com:willowinc:Document;1"
+    "dtmi:com:syyclops:Document;1"
   ],
   "contents": [
   ],

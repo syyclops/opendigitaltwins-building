@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:SteamFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Flow Setpoint"
   },
   "description": {"en": "The desired value associated with steam flow"},
   "extends" : [
-    "dtmi:com:willowinc:WaterFlowSetpoint;1"
+    "dtmi:com:syyclops:WaterFlowSetpoint;1"
   ],
   "contents": [
   ],

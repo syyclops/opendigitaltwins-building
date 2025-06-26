@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:MultimodeFiberOpticPatchCord;1",
+  "@id": "dtmi:com:syyclops:MultimodeFiberOpticPatchCord;1",
   "@type": "Interface",
   "displayName": {
     "en": "Multimode Fiber Optic Patch Cord"
   },
   "extends" : [
-    "dtmi:com:willowinc:TelecommunicationPatchCord;1"
+    "dtmi:com:syyclops:TelecommunicationPatchCord;1"
   ],
   "contents": [
     {

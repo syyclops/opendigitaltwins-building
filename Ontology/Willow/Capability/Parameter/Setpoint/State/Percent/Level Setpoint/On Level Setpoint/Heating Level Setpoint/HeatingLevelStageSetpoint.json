@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeatingLevelStageSetpoint;1",
+  "@id": "dtmi:com:syyclops:HeatingLevelStageSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heating Level Stage Setpoint"
   },
   "description": {"en": "The heating level percentage for staging of equipment"},
   "extends" : [
-    "dtmi:com:willowinc:HeatingLevelSetpoint;1"
+    "dtmi:com:syyclops:HeatingLevelSetpoint;1"
   ],
   "contents": [
 

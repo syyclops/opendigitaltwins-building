@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FanCoilUnit;1",
+  "@id": "dtmi:com:syyclops:FanCoilUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fan Coil Unit"
   },
   "extends" : [
-    "dtmi:com:willowinc:TerminalUnit;1"
+    "dtmi:com:syyclops:TerminalUnit;1"
   ],
   "contents": [
     {
@@ -122,7 +122,7 @@
         "en": "secondary cooling method"
       },
       "name": "secondaryCoolingMethod",
-      "schema": "dtmi:com:willowinc:HVACCoolingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACCoolingMethod;1"
     },
     {
       "@type": "Component",
@@ -130,7 +130,7 @@
         "en": "primary cooling method"
       },
       "name": "primaryCoolingMethod",
-      "schema": "dtmi:com:willowinc:HVACCoolingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACCoolingMethod;1"
     },
     {
       "@type": "Property",
@@ -163,7 +163,7 @@
         "en": "fan"
       },
       "name": "fan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     }
   ],
   "@context": [

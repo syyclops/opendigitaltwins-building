@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:BrazedPlateHeatExchanger;1",
+  "@id": "dtmi:com:syyclops:BrazedPlateHeatExchanger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Brazed Plate Heat Exchanger"
@@ -8,7 +8,7 @@
     "en": "A type of plate heat exchanger whose plates are brazed together to form a seal."
   },
   "extends" : [
-    "dtmi:com:willowinc:PlateHeatExchanger;1"
+    "dtmi:com:syyclops:PlateHeatExchanger;1"
   ],
   "contents": [
     

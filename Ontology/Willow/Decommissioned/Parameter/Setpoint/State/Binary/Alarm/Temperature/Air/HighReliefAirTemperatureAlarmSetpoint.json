@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighReliefAirTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighReliefAirTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Relief Air Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with high relief air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:HighAirTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighAirTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

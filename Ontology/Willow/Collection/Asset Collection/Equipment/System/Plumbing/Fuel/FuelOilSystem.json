@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FuelOilSystem;1",
+  "@id": "dtmi:com:syyclops:FuelOilSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fuel Oil System"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingSystem;1"
+    "dtmi:com:syyclops:PlumbingSystem;1"
   ],
   "contents": [
   ],

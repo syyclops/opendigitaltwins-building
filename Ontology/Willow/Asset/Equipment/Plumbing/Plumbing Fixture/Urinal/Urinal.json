@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Urinal;1",
+  "@id": "dtmi:com:syyclops:Urinal;1",
   "@type": "Interface",
   "displayName": {
     "en": "Urinal"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
   ],

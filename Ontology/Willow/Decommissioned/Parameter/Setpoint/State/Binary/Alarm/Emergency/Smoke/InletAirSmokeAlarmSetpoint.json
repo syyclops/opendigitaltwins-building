@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:InletAirSmokeAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:InletAirSmokeAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Inlet Air Smoke Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the inlet air smoke alarm"},
   "extends" : [
-    "dtmi:com:willowinc:SmokeAlarmSetpoint;1"
+    "dtmi:com:syyclops:SmokeAlarmSetpoint;1"
   ],
   "contents": [
 

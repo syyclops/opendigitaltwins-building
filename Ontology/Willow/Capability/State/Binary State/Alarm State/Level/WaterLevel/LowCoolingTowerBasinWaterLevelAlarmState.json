@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowCoolingTowerBasinWaterLevelAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowCoolingTowerBasinWaterLevelAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Cooling Tower Basin Water Level Alarm State"
   },
   "description": {"en": "The Boolean state of the low cooling tower basin water level alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowWaterLevelAlarmState;1"
+    "dtmi:com:syyclops:LowWaterLevelAlarmState;1"
   ],
   "contents": [
 

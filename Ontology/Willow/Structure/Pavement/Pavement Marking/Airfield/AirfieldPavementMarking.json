@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:airport:AirfieldPavementMarking;1",
+  "@id": "dtmi:com:syyclops:airport:AirfieldPavementMarking;1",
   "@type": "Interface",
   "displayName": {
     "en": "Airfield Pavement Marking"
   },
   "extends" : [
-    "dtmi:com:willowinc:PavementMarking;1"
+    "dtmi:com:syyclops:PavementMarking;1"
   ],
   "contents": [
     {

@@ -1,11 +1,11 @@
 ﻿{
-  "@id": "dtmi:com:willowinc:UtilityRate;1",
+  "@id": "dtmi:com:syyclops:UtilityRate;1",
   "@type": "Interface",
   "displayName": {
     "en": "Utility Rate"
   },
   "extends": [
-    "dtmi:com:willowinc:Component;1"
+    "dtmi:com:syyclops:Component;1"
   ],
   "contents": [
     {

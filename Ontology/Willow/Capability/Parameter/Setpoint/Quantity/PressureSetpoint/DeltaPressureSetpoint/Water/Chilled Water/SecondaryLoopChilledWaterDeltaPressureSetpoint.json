@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SecondaryLoopChilledWaterDeltaPressureSetpoint;1",
+  "@id": "dtmi:com:syyclops:SecondaryLoopChilledWaterDeltaPressureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Secondary Loop Chilled Water Delta Pressure Setpoint"
   },
   "description": {"en": "The desired value associated with secondary chilled water loop delta pressure"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterDeltaPressureSetpoint;1"
+    "dtmi:com:syyclops:ChilledWaterDeltaPressureSetpoint;1"
   ],
   "contents": [
     

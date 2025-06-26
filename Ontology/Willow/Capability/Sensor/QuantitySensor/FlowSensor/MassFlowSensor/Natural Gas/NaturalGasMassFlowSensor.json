@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:NaturalGasMassFlowSensor;1",
+  "@id": "dtmi:com:syyclops:NaturalGasMassFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Natural Gas Mass Flow Sensor"
   },
   "description": {"en": "The mass flow feedback from a sensor associated with natural gas"},
   "extends" : [
-    "dtmi:com:willowinc:MassFlowSensor;1"
+    "dtmi:com:syyclops:MassFlowSensor;1"
   ],
   "contents": [
 

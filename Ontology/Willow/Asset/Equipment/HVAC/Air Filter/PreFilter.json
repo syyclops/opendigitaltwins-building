@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PreFilter;1",
+  "@id": "dtmi:com:syyclops:PreFilter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pre-Filter"
@@ -8,7 +8,7 @@
     "en": "A filter that is the first stage of filtration in an air handling system, designed to capture larger particles and extend the life of subsequent filters."
   },
   "extends" : [
-    "dtmi:com:willowinc:AirFilter;1"
+    "dtmi:com:syyclops:AirFilter;1"
   ],
   "contents": [
   ],

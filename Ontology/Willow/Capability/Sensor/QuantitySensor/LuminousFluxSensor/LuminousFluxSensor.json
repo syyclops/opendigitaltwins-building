@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LuminousFluxSensor;1",
+  "@id": "dtmi:com:syyclops:LuminousFluxSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Luminous Flux Sensor"
   },
   "description": {"en": "The luminous flux feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

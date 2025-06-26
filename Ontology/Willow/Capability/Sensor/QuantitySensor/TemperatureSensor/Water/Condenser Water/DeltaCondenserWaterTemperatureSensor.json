@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:DeltaCondenserWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:DeltaCondenserWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Delta Condenser Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with condenser water delta"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterTemperatureSensor;1",
-    "dtmi:com:willowinc:DeltaWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:CondenserWaterTemperatureSensor;1",
+    "dtmi:com:syyclops:DeltaWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

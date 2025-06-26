@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AutomaticTransferSwitch;1",
+  "@id": "dtmi:com:syyclops:AutomaticTransferSwitch;1",
   "@type": "Interface",
   "displayName": {
     "en": "Automatic Transfer Switch"
   },
   "extends" : [
-    "dtmi:com:willowinc:TransferSwitch;1"
+    "dtmi:com:syyclops:TransferSwitch;1"
   ],
   "contents": [
     {

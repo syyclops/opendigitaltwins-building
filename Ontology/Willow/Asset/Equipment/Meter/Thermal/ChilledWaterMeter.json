@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ChilledWaterMeter;1",
+  "@id": "dtmi:com:syyclops:ChilledWaterMeter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Meter"
   },
   "extends" : [
-    "dtmi:com:willowinc:ThermalMeter;1"
+    "dtmi:com:syyclops:ThermalMeter;1"
   ],
   "contents": [
     

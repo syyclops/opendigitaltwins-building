@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Bathtub;1",
+  "@id": "dtmi:com:syyclops:Bathtub;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bathtub"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
   ],

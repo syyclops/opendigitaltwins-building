@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PreheatCoilLeavingAirTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:PreheatCoilLeavingAirTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Preheat Coil Leaving Air Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with air leaving the preheat coil"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSensor;1"
+    "dtmi:com:syyclops:AirTemperatureSensor;1"
   ],
   "contents": [
   ],

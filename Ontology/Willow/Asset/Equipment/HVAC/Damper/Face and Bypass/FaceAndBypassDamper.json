@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FaceAndBypassDamper;1",
+  "@id": "dtmi:com:syyclops:FaceAndBypassDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Face and Bypass Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

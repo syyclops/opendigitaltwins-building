@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OnLevelActuator;1",
+  "@id": "dtmi:com:syyclops:OnLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "On Level Actuator"
   },
   "description": {"en": "The percent command which sets the 'on' level of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:LevelActuator;1"
+    "dtmi:com:syyclops:LevelActuator;1"
   ],
   "contents": [
   ],

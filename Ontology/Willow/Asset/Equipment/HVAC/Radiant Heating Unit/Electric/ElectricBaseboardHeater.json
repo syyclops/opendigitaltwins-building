@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricBaseboardHeater;1",
+  "@id": "dtmi:com:syyclops:ElectricBaseboardHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Baseboard Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricRadiantHeater;1"
+    "dtmi:com:syyclops:ElectricRadiantHeater;1"
   ],
   "contents": [
 

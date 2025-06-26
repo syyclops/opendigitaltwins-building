@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WaterQualitySensorEquipment;1",
+  "@id": "dtmi:com:syyclops:WaterQualitySensorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Quality Sensor"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

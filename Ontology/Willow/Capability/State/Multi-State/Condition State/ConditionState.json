@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ConditionState;1",
+  "@id": "dtmi:com:syyclops:ConditionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condition State"
   },
   "description": {"en": "The multi-state condition of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:MultiState;1"
+    "dtmi:com:syyclops:MultiState;1"
   ],
   "contents": [
   ],

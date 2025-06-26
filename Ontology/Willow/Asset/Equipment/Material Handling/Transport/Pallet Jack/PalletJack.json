@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PalletJack;1",
+  "@id": "dtmi:com:syyclops:PalletJack;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pallet Jack"
@@ -8,7 +8,7 @@
     "en": "A machine used to lift and move pallets to another location"
   },
   "extends" : [
-    "dtmi:com:willowinc:TransportEquipment;1"
+    "dtmi:com:syyclops:TransportEquipment;1"
   ],
   "contents": [
   ],

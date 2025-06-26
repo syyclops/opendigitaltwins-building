@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RunLevelState;1",
+  "@id": "dtmi:com:syyclops:RunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Run Level State"
   },
   "description": {"en": "The percent run level state of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:StartLevelState;1"
+    "dtmi:com:syyclops:StartLevelState;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FireAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:FireAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the fire alarm"},
   "extends" : [
-    "dtmi:com:willowinc:EmergencyAlarmSetpoint;1"
+    "dtmi:com:syyclops:EmergencyAlarmSetpoint;1"
   ],
   "contents": [
 

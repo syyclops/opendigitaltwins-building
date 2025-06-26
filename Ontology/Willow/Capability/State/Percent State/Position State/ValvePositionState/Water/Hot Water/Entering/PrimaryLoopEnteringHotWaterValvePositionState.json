@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopEnteringHotWaterValvePositionState;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopEnteringHotWaterValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Entering Hot Water Valve Position State"
   },
   "description": {"en": "The percent position state of the primary loop entering hot water valve"},
   "extends" : [
-    "dtmi:com:willowinc:EnteringHotWaterValvePositionState;1"
+    "dtmi:com:syyclops:EnteringHotWaterValvePositionState;1"
   ],
   "contents": [
   ],

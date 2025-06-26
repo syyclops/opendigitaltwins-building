@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricTankWaterHeater;1",
+  "@id": "dtmi:com:syyclops:ElectricTankWaterHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Tank Water Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:TankWaterHeater;1"
+    "dtmi:com:syyclops:TankWaterHeater;1"
   ],
   "contents": [
     {

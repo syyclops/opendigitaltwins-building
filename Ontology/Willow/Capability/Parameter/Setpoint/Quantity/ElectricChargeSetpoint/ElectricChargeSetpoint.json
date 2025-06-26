@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricChargeSetpoint;1",
+  "@id": "dtmi:com:syyclops:ElectricChargeSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electric Charge Setpoint"
   },
   "description": {"en": "The desired value associated with electric charge"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpoint;1"
+    "dtmi:com:syyclops:QuantitySetpoint;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RequestState;1",
+  "@id": "dtmi:com:syyclops:RequestState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Request State"
   },
   "description": {"en": "The Boolean state of a request which is 'requested' when 'true' and 'not requested' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:BinaryState;1"
+    "dtmi:com:syyclops:BinaryState;1"
   ],
   "contents": [
 

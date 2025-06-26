@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingCheckValve;1",
+  "@id": "dtmi:com:syyclops:PlumbingCheckValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Check Valve (Plumbing)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingValve;1"
+    "dtmi:com:syyclops:PlumbingValve;1"
   ],
   "contents": [
 

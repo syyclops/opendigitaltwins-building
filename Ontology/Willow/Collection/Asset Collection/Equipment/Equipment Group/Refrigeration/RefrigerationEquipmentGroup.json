@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationEquipmentGroup;1",
+  "@id": "dtmi:com:syyclops:RefrigerationEquipmentGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Equipment Group"
   },
   "extends" : [
-    "dtmi:com:willowinc:EquipmentGroup;1"
+    "dtmi:com:syyclops:EquipmentGroup;1"
   ],
   "contents": [
   ],

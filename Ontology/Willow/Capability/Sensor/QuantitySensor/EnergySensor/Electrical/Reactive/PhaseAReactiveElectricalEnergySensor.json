@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PhaseAReactiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:PhaseAReactiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Phase A Reactive Electrical Energy Sensor"
   },
   "description": {"en": "The reactive electrical energy feedback from a sensor associated with phase a"},
   "extends" : [
-    "dtmi:com:willowinc:ReactiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:ReactiveElectricalEnergySensor;1"
   ],
   "contents": [
 

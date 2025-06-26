@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HVACManifold;1",
+  "@id": "dtmi:com:syyclops:HVACManifold;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Manifold"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1",
-    "dtmi:com:willowinc:Manifold;1"
+    "dtmi:com:syyclops:HVACEquipment;1",
+    "dtmi:com:syyclops:Manifold;1"
   ],
   "contents": [
 

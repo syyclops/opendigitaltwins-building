@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:airport:AircraftDockState;1",
+  "@id": "dtmi:com:syyclops:airport:AircraftDockState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Aircraft Dock State"
@@ -8,7 +8,7 @@
     "en": "The Boolean state of the aircraft which is 'docked' when 'true' and 'not docked' when 'false'"
   },
   "extends" : [
-    "dtmi:com:willowinc:BinaryState;1"
+    "dtmi:com:syyclops:BinaryState;1"
   ],
   "contents": [
     

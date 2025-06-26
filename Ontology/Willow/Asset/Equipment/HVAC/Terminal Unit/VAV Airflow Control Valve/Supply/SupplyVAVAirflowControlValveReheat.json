@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:SupplyVAVAirflowControlValveReheat;1",
+  "@id": "dtmi:com:syyclops:SupplyVAVAirflowControlValveReheat;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply VAV Airflow Control Valve with Reheat"
@@ -8,7 +8,7 @@
     "en": "A Supply VAV airflow control vavle which includes reheat to a critical space such as a laboratory or healtchare isolation room (i.e. venturi valve)."
   },
   "extends" : [
-    "dtmi:com:willowinc:SupplyVAVAirflowControlValve;1"
+    "dtmi:com:syyclops:SupplyVAVAirflowControlValve;1"
   ],
   "contents": [
     {
@@ -38,7 +38,7 @@
         "en": "re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

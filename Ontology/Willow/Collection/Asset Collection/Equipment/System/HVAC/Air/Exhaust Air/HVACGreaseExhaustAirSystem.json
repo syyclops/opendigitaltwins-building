@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACGreaseExhaustAirSystem;1",
+  "@id": "dtmi:com:syyclops:HVACGreaseExhaustAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Grease Exhaust Air System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACExhaustAirSystem;1"
+    "dtmi:com:syyclops:HVACExhaustAirSystem;1"
   ],
   "contents": [
   ],

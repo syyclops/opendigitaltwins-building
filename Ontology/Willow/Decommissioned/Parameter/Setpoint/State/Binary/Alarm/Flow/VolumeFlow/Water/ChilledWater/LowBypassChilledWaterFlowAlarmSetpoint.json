@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowBypassChilledWaterFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowBypassChilledWaterFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Bypass Chilled Water Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the low bypass chilled water flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:LowChilledWaterFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowChilledWaterFlowAlarmSetpoint;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DeltaChilledWaterFlowSensor;1",
+  "@id": "dtmi:com:syyclops:DeltaChilledWaterFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Delta Chilled Water Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with chilled water delta"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowSensor;1"
+    "dtmi:com:syyclops:ChilledWaterFlowSensor;1"
   ],
   "contents": [
   ],

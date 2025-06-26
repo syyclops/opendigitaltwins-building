@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ChilledWaterDeltaPressureSetpoint;1",
+  "@id": "dtmi:com:syyclops:ChilledWaterDeltaPressureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Delta Pressure Setpoint"
   },
   "description": {"en": "The desired value associated with chilled water delta pressure"},
   "extends" : [
-    "dtmi:com:willowinc:WaterDeltaPressureSetpoint;1"
+    "dtmi:com:syyclops:WaterDeltaPressureSetpoint;1"
   ],
   "contents": [
     

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighChilledWaterFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighChilledWaterFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Chilled Water Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high chilled water flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:ChilledWaterFlowAlarmSetpoint;1"
   ],
   "contents": [
 

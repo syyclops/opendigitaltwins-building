@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:RunStopSetpoint;1",
+  "@id": "dtmi:com:syyclops:RunStopSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Run/Stop Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:StartStopSetpoint;1"
+    "dtmi:com:syyclops:StartStopSetpoint;1"
   ],
   "contents": [
   ],

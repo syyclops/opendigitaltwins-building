@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PackagedHeatPump;1",
+  "@id": "dtmi:com:syyclops:PackagedHeatPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Packaged Heat Pump"
@@ -8,7 +8,7 @@
     "en": "A self-contained heat pump which contains the condenser, compressor, and evaporator in a single unit. A reversing valve changes the direction of refrigerant flow to enable cooling or heating."
   },
   "extends" : [
-    "dtmi:com:willowinc:PackagedAirConditioner;1"
+    "dtmi:com:syyclops:PackagedAirConditioner;1"
   ],
   "contents": [
 

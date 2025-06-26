@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AbsenceSetpoint;1",
+  "@id": "dtmi:com:syyclops:AbsenceSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Absence Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:PresenceAbsenceSetpoint;1"
+    "dtmi:com:syyclops:PresenceAbsenceSetpoint;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AutomaticRevolvingDoor;1",
+  "@id": "dtmi:com:syyclops:AutomaticRevolvingDoor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Automatic Revolving Door"
   },
   "extends" : [
-    "dtmi:com:willowinc:RevolvingDoor;1"
+    "dtmi:com:syyclops:RevolvingDoor;1"
   ],
   "contents": [
     

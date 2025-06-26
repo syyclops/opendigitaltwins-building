@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:SupplyVAVAirflowControlValve;1",
+  "@id": "dtmi:com:syyclops:SupplyVAVAirflowControlValve;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply VAV Airflow Control Valve"
@@ -8,7 +8,7 @@
     "en": "A VAV airflow control vavle which provides precise control of supply airflow to a critical space such as a laboratory or healtchare isolation room (i.e. venturi valve)."
   },
   "extends" : [
-    "dtmi:com:willowinc:VAVAirflowControlValve;1"
+    "dtmi:com:syyclops:VAVAirflowControlValve;1"
   ],
   "contents": [
   ],

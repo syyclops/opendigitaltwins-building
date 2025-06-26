@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Level;1",
+  "@id": "dtmi:com:syyclops:Level;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level"
@@ -8,7 +8,7 @@
     "en": "The level of a building or other structure, a.k.a. storey, floor, etc."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
     {

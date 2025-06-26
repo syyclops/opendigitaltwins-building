@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirportGateBlockEvent;1",
+  "@id": "dtmi:com:syyclops:AirportGateBlockEvent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Airport Gate Block Event"
@@ -8,7 +8,7 @@
     "en": "An event at an airport gate related to a flight arriving (In-block) or departing (Off-block) at the gate."
   },
   "extends" : [
-    "dtmi:com:willowinc:Event;1"
+    "dtmi:com:syyclops:Event;1"
   ],
   "contents": [
     {
@@ -19,7 +19,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:BlockEventFlight;1",
+        "@id": "dtmi:com:syyclops:BlockEventFlight;1",
         "@type": "Object",
         "fields": [
           {
@@ -63,7 +63,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:BlockEventAircraft;1",
+        "@id": "dtmi:com:syyclops:BlockEventAircraft;1",
         "@type": "Object",
         "fields": [
           {

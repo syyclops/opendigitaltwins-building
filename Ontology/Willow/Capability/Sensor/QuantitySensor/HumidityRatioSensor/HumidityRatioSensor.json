@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HumidityRatioSensor;1",
+  "@id": "dtmi:com:syyclops:HumidityRatioSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Humidity Ratio Sensor"
   },
   "description": {"en": "The humidity ratio (air grains) feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

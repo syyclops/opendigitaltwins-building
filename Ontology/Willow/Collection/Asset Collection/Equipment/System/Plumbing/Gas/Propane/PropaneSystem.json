@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PropaneSystem;1",
+  "@id": "dtmi:com:syyclops:PropaneSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Propane System"
   },
   "extends" : [
-    "dtmi:com:willowinc:GasSystem;1"
+    "dtmi:com:syyclops:GasSystem;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:CondensingUnit;1",
+  "@id": "dtmi:com:syyclops:CondensingUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condensing Unit"
@@ -8,7 +8,7 @@
     "en": "A type of heat exchanger comprised of a compressor, a condenser, and a fan whose function is to remove heat in a split system air conditioner. It is typically located outdoors."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
     {

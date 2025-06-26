@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Drain;1",
+  "@id": "dtmi:com:syyclops:Drain;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drain"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
   "contents": [
   ],

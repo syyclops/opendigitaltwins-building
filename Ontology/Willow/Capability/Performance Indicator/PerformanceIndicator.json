@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PerformanceIndicator;1",
+  "@id": "dtmi:com:syyclops:PerformanceIndicator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Performance Indicator"
@@ -8,7 +8,7 @@
     "en": "A metric which is calculated to indicate the performance of an entity. Performance indicators are used to evaluate and benchmark against an objective."
   },
   "extends" : [
-    "dtmi:com:willowinc:Capability;1"
+    "dtmi:com:syyclops:Capability;1"
   ],
   "contents": [
 

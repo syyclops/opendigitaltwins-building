@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowBypassSteamTemperatureAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LowBypassSteamTemperatureAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Bypass Steam Temperature Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the alarm associated with low steam bypass temperature"},
   "extends" : [
-    "dtmi:com:willowinc:LowSteamTemperatureAlarmSetpoint;1"
+    "dtmi:com:syyclops:LowSteamTemperatureAlarmSetpoint;1"
   ],
   "contents": [
   ],

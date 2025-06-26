@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Specification;1",
+  "@id": "dtmi:com:syyclops:Specification;1",
   "@type": "Interface",
   "displayName": {
     "en": "Specification"
   },
   "extends" : [
-    "dtmi:com:willowinc:Document;1"
+    "dtmi:com:syyclops:Document;1"
   ],
   "contents": [
   ],

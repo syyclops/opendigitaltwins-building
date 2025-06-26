@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:FaultState;1",
+  "@id": "dtmi:com:syyclops:FaultState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault State"
   },
   "description": {"en": "The Boolean state of the equipment which is 'fault' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:NormalFaultState;1"
+    "dtmi:com:syyclops:NormalFaultState;1"
   ],
   "contents": [
   ],

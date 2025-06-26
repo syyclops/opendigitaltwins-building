@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:OccupancySensorEquipment;1",
+  "@id": "dtmi:com:syyclops:OccupancySensorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupancy Sensor Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

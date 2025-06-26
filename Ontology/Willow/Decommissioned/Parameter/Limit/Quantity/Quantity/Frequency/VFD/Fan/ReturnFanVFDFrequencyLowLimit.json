@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnFanVFDFrequencyLowLimit;1",
+  "@id": "dtmi:com:syyclops:ReturnFanVFDFrequencyLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Fan VFD Frequency Low Limit"
   },
   "description": {"en": "The low limit associated with return fan vfd output frequency"},
   "extends" : [
-    "dtmi:com:willowinc:FanVFDFrequencyLowLimit;1"
+    "dtmi:com:syyclops:FanVFDFrequencyLowLimit;1"
   ],
   "contents": [
     

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:airport:AirportVehicle;1",
+  "@id": "dtmi:com:syyclops:airport:AirportVehicle;1",
   "@type": "Interface",
   "displayName": {
     "en": "Airport Vehicle"
@@ -8,7 +8,7 @@
     "en": "A vehicle at an aiport."
   },
   "extends" : [
-    "dtmi:com:willowinc:Vehicle;1"
+    "dtmi:com:syyclops:Vehicle;1"
   ],
   "contents": [
 

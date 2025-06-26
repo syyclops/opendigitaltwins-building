@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:BatteryCharger;1",
+  "@id": "dtmi:com:syyclops:BatteryCharger;1",
   "@type": "Interface",
   "displayName": {
     "en": "Battery Charger"
   },
   "extends" : [
-    "dtmi:com:willowinc:BatteryEquipment;1"
+    "dtmi:com:syyclops:BatteryEquipment;1"
   ],
   "contents": [
 

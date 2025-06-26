@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DataSizeSetpoint;1",
+  "@id": "dtmi:com:syyclops:DataSizeSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Data Size Setpoint"
   },
   "description": {"en": "The desired value associated with data size"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySetpoint;1"
+    "dtmi:com:syyclops:QuantitySetpoint;1"
   ],
   "contents": [
 

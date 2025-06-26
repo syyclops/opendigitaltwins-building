@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:BuildingTower;1",
+  "@id": "dtmi:com:syyclops:BuildingTower;1",
   "@type": "Interface",
   "displayName": {
     "en": "Building Tower"
@@ -8,7 +8,7 @@
     "en": "A sub-building which extends up from a podium and is generally set back from the podium boundary."
   },
   "extends": [
-    "dtmi:com:willowinc:SubBuilding;1"
+    "dtmi:com:syyclops:SubBuilding;1"
   ],
   "contents": [
   ],

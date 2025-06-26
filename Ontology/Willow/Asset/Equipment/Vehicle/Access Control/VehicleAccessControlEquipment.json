@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:VehicleAccessControlEquipment;1",
+  "@id": "dtmi:com:syyclops:VehicleAccessControlEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Vehicle Access Control Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:VehicleEquipment;1"
+    "dtmi:com:syyclops:VehicleEquipment;1"
   ],
   "contents": [
   ],

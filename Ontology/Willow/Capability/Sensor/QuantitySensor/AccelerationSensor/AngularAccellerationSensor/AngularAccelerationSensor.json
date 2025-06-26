@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AngularAccelerationSensor;1",
+  "@id": "dtmi:com:syyclops:AngularAccelerationSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Angular Acceleration Sensor"
   },
   "description": {"en": "The angular acceleration feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:AccelerationSensor;1"
+    "dtmi:com:syyclops:AccelerationSensor;1"
   ],
   "contents": [
 

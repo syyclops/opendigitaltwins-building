@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationCompressor;1",
+  "@id": "dtmi:com:syyclops:RefrigerationCompressor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Compressor"
@@ -8,8 +8,8 @@
     "en": "A compressor which is used within a refrigeration system or circuit used in applications such food, beverage, pharmaceutical and chemical storage and ice storage and production."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipment;1",
-    "dtmi:com:willowinc:Compressor;1"
+    "dtmi:com:syyclops:RefrigerationEquipment;1",
+    "dtmi:com:syyclops:Compressor;1"
   ],
   "contents": [
     {

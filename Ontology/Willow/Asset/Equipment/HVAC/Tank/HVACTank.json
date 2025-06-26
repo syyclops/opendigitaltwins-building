@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HVACTank;1",
+  "@id": "dtmi:com:syyclops:HVACTank;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1",
-    "dtmi:com:willowinc:Tank;1"
+    "dtmi:com:syyclops:HVACEquipment;1",
+    "dtmi:com:syyclops:Tank;1"
   ],
   "contents": [
 

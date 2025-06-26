@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingHotWaterPumpVFDRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:LeavingHotWaterPumpVFDRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Hot Water Leaving Pump VFD Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the leaving hot water pump vfd"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterPumpVFDRunLevelActuator;1",
-    "dtmi:com:willowinc:LeavingHotWaterPumpRunLevelActuator;1"
+    "dtmi:com:syyclops:HotWaterPumpVFDRunLevelActuator;1",
+    "dtmi:com:syyclops:LeavingHotWaterPumpRunLevelActuator;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Transformer;1",
+  "@id": "dtmi:com:syyclops:Transformer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Transformer"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalDistributionEquipment;1"
+    "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
   "contents": [
     {

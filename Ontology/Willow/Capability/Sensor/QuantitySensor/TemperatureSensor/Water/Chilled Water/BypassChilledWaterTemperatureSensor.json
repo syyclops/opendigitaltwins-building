@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassChilledWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:BypassChilledWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Chilled Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with chilled water bypass"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:ChilledWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

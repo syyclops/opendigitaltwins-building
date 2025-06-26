@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ICTHardware;1",
+  "@id": "dtmi:com:syyclops:ICTHardware;1",
   "@type": "Interface",
   "displayName": {
     "en": "ICT Hardware"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTEquipment;1"
+    "dtmi:com:syyclops:ICTEquipment;1"
   ],
   "contents": [
     {
@@ -34,7 +34,7 @@
           "writable": true
         }
       ],
-      "target": "dtmi:com:willowinc:ITRack;1"
+      "target": "dtmi:com:syyclops:ITRack;1"
     }
   ],
   "@context": [

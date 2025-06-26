@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OccupancySensor;1",
+  "@id": "dtmi:com:syyclops:OccupancySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupancy Sensor"
   },
   "description": {"en": "The Boolean status from a sensor where 'occupancy' is 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:PresenceSensor;1"
+    "dtmi:com:syyclops:PresenceSensor;1"
   ],
   "contents": [
 

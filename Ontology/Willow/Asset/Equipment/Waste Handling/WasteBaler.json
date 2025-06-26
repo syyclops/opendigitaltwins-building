@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WasteBaler;1",
+  "@id": "dtmi:com:syyclops:WasteBaler;1",
   "@type": "Interface",
   "displayName": {
     "en": "Waste Baler"
   },
   "extends" : [
-    "dtmi:com:willowinc:WasteHandlingEquipment;1"
+    "dtmi:com:syyclops:WasteHandlingEquipment;1"
   ],
   "contents": [
   ],

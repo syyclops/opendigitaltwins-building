@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SteamPreheatValvePositionState;1",
+  "@id": "dtmi:com:syyclops:SteamPreheatValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Preheat Valve Position State"
   },
   "description": {"en": "The percent position state of the steam preheat valve"},
   "extends" : [
-    "dtmi:com:willowinc:SteamValvePositionState;1"
+    "dtmi:com:syyclops:SteamValvePositionState;1"
   ],
   "contents": [
   ],

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:BuildingWing;1",
+  "@id": "dtmi:com:syyclops:BuildingWing;1",
   "@type": "Interface",
   "displayName": {
     "en": "Building Wing"
@@ -8,7 +8,7 @@
     "en": "A sub-building which is subordinate to the main, central structure."
   },
   "extends": [
-    "dtmi:com:willowinc:SubBuilding;1"
+    "dtmi:com:syyclops:SubBuilding;1"
   ],
   "contents": [
   ],

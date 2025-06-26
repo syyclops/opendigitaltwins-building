@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OccupiedLowLimit;1",
+  "@id": "dtmi:com:syyclops:OccupiedLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupied Low Limit"
   },
   "description": {"en": "The lower limit on the equipment in occupied mode"},
   "extends" : [
-    "dtmi:com:willowinc:LowLimit;1"
+    "dtmi:com:syyclops:LowLimit;1"
   ],
   "contents": [
   ],

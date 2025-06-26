@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowOutsideAirTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowOutsideAirTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Outside Air Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with low outside air temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowAirTemperatureAlarmState;1"
+    "dtmi:com:syyclops:LowAirTemperatureAlarmState;1"
   ],
   "contents": [
   ],

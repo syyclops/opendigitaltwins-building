@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerationCircuit;1",
+  "@id": "dtmi:com:syyclops:RefrigerationCircuit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigeration Circuit"
@@ -8,8 +8,8 @@
     "en": "A group of evaporators that are controlled together."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigerationEquipmentGroup;1",
-    "dtmi:com:willowinc:DefrostEquipment;1"
+    "dtmi:com:syyclops:RefrigerationEquipmentGroup;1",
+    "dtmi:com:syyclops:DefrostEquipment;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringCondenserWaterFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:EnteringCondenserWaterFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Condenser Water Flow Setpoint"
   },
   "description": {"en": "The desired value associated with entering condenser water flow"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterFlowSetpoint;1"
+    "dtmi:com:syyclops:CondenserWaterFlowSetpoint;1"
   ],
   "contents": [
   ],

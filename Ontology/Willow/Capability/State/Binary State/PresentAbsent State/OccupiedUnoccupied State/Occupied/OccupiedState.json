@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:OccupiedState;1",
+  "@id": "dtmi:com:syyclops:OccupiedState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupied State"
   },
   "description": {"en": "When 'true', equipment is operating in an occupied mode as set by a normal schedule, overtime schedule, or manual override."},
   "extends" : [
-    "dtmi:com:willowinc:OccupiedUnoccupiedState;1",
-    "dtmi:com:willowinc:PresentState;1"
+    "dtmi:com:syyclops:OccupiedUnoccupiedState;1",
+    "dtmi:com:syyclops:PresentState;1"
   ],
   "contents": [
   ],

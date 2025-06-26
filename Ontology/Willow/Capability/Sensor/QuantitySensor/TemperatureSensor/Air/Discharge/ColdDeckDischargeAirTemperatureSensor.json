@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ColdDeckDischargeAirTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:ColdDeckDischargeAirTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cold Deck Discharge Air Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with discharge air to a terminal unit from the cold deck of an air handling unit"},
   "extends" : [
-    "dtmi:com:willowinc:DischargeAirTemperatureSensor;1"
+    "dtmi:com:syyclops:DischargeAirTemperatureSensor;1"
   ],
   "contents": [
   ],

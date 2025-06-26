@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElectricalSwitch;1",
+  "@id": "dtmi:com:syyclops:ElectricalSwitch;1",
   "@type": "Interface",
   "displayName": {
     "en": "Electrical Switch"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalWiringDevice;1"
+    "dtmi:com:syyclops:ElectricalWiringDevice;1"
   ],
   "contents": [
     {

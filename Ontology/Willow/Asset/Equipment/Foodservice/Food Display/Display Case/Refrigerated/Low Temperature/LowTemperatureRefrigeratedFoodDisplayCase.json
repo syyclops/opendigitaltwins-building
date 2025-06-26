@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:LowTemperatureRefrigeratedFoodDisplayCase;1",
+  "@id": "dtmi:com:syyclops:LowTemperatureRefrigeratedFoodDisplayCase;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low-Temperature Refrigerated Food Display Case"
@@ -8,7 +8,7 @@
     "en": "A food display case used for foods required to be refrigerated to low-temperatures."
   },
   "extends" : [
-    "dtmi:com:willowinc:RefrigeratedFoodDisplayCase;1"
+    "dtmi:com:syyclops:RefrigeratedFoodDisplayCase;1"
   ],
   "contents": [
   ],

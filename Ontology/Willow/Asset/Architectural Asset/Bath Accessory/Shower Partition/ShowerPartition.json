@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ShowerPartition;1",
+  "@id": "dtmi:com:syyclops:ShowerPartition;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shower Partition"
@@ -8,8 +8,8 @@
     "en": "A structure which separates showers to provide privacy in a public restroom."
   },
   "extends" : [
-    "dtmi:com:willowinc:BathAccessory;1",
-    "dtmi:com:willowinc:RestroomAccessory;1"
+    "dtmi:com:syyclops:BathAccessory;1",
+    "dtmi:com:syyclops:RestroomAccessory;1"
   ],
   "contents": [
 

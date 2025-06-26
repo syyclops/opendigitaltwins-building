@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighTertiaryLoopChilledWaterFlowAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighTertiaryLoopChilledWaterFlowAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Tertiary Loop Chilled Water Flow Alarm State"
   },
   "description": {"en": "The Boolean state of the high tertiary loop chilled water flow alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighChilledWaterFlowAlarmState;1"
+    "dtmi:com:syyclops:HighChilledWaterFlowAlarmState;1"
   ],
   "contents": [
 

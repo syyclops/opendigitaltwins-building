@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighChilledWaterCoilLeavingAirTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighChilledWaterCoilLeavingAirTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Chilled Water Coil Leaving Air Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with high air leaving the chilled water coil temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighCoolingCoilLeavingAirTemperatureAlarmState;1"
+    "dtmi:com:syyclops:HighCoolingCoilLeavingAirTemperatureAlarmState;1"
   ],
   "contents": [
   ],

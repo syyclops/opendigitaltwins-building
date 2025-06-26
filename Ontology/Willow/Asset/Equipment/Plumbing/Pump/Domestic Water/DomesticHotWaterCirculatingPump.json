@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DomesticHotWaterCirculatingPump;1",
+  "@id": "dtmi:com:syyclops:DomesticHotWaterCirculatingPump;1",
   "@type": "Interface",
   "displayName": {
     "en": "Domestic Hot Water Circulating Pump"
   },
   "extends" : [
-    "dtmi:com:willowinc:DomesticWaterPump;1"
+    "dtmi:com:syyclops:DomesticWaterPump;1"
   ],
   "contents": [
   ],

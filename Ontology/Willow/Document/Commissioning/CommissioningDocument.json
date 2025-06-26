@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:CommissioningDocument;1",
+  "@id": "dtmi:com:syyclops:CommissioningDocument;1",
   "@type": "Interface",
   "displayName": {
     "en": "Commissioning Document"
   },
   "extends" : [
-    "dtmi:com:willowinc:Document;1"
+    "dtmi:com:syyclops:Document;1"
   ],
   "contents": [
   ],

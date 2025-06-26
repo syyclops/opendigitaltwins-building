@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PaintDispenser;1",
+  "@id": "dtmi:com:syyclops:PaintDispenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Paint Dispenser"
   },
   "extends" : [
-    "dtmi:com:willowinc:PaintRetailEquipment;1"
+    "dtmi:com:syyclops:PaintRetailEquipment;1"
   ],
   "contents": [
   ],

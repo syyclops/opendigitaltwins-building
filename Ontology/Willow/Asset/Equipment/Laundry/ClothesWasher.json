@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:ClothesWasher;1",
+  "@id": "dtmi:com:syyclops:ClothesWasher;1",
   "@type": "Interface",
   "displayName": {
     "en": "Washer"
@@ -8,7 +8,7 @@
     "en": "An applicance used to wash laundry such as clothes or other textiles."
   },
   "extends" : [
-    "dtmi:com:willowinc:LaundryEquipment;1"
+    "dtmi:com:syyclops:LaundryEquipment;1"
   ],
   "contents": [
   ],

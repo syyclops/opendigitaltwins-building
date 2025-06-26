@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ZoneAirTemperatureSetpointLowLimit;1",
+  "@id": "dtmi:com:syyclops:ZoneAirTemperatureSetpointLowLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Zone Air Temperature Setpoint Low Limit"
   },
   "description": {"en": "The low limit associated with zone air temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpointLowLimit;1"
+    "dtmi:com:syyclops:AirTemperatureSetpointLowLimit;1"
   ],
   "contents": [
   ],

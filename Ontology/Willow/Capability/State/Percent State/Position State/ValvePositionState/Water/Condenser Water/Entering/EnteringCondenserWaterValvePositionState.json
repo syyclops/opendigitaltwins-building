@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringCondenserWaterValvePositionState;1",
+  "@id": "dtmi:com:syyclops:EnteringCondenserWaterValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Condenser Water Valve Position State"
   },
   "description": {"en": "The percent position state of the entering condenser water valve"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterValvePositionState;1"
+    "dtmi:com:syyclops:CondenserWaterValvePositionState;1"
   ],
   "contents": [
   ],

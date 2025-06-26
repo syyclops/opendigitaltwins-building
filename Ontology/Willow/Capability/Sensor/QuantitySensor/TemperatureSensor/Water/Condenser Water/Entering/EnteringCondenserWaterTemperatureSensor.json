@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringCondenserWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:EnteringCondenserWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Condenser Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with entering condenser water"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterTemperatureSensor;1",
-    "dtmi:com:willowinc:EnteringWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:CondenserWaterTemperatureSensor;1",
+    "dtmi:com:syyclops:EnteringWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

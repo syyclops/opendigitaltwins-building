@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:RadiantHeater;1",
+  "@id": "dtmi:com:syyclops:RadiantHeater;1",
   "@type": "Interface",
   "displayName": {
     "en": "Radiant Heater"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACEquipment;1"
+    "dtmi:com:syyclops:HVACEquipment;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DistributionAssetCollection;1",
+  "@id": "dtmi:com:syyclops:DistributionAssetCollection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Distribution Asset Collection"
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetCollection;1"
+    "dtmi:com:syyclops:AssetCollection;1"
   ],
   "contents": [
   ],

@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:OccupiedCoolingZoneAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:OccupiedCoolingZoneAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupied Cooling Zone Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with occupied cooling zone air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:CoolingZoneAirTemperatureSetpoint;1",
-    "dtmi:com:willowinc:OccupiedCoolingSetpoint;1"
+    "dtmi:com:syyclops:CoolingZoneAirTemperatureSetpoint;1",
+    "dtmi:com:syyclops:OccupiedCoolingSetpoint;1"
   ],
   "contents": [
   ],

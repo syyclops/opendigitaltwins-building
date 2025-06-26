@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BatteryExportActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:BatteryExportActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Battery Export Active Electrical Energy Sensor"
   },
   "description": {"en": "The cummulative active electrical energy being discharged from the battery system."},
   "extends" : [
-    "dtmi:com:willowinc:TotalExportActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:TotalExportActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

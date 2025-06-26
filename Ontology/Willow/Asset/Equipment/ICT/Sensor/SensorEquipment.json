@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SensorEquipment;1",
+  "@id": "dtmi:com:syyclops:SensorEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sensor Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTEquipment;1"
+    "dtmi:com:syyclops:ICTEquipment;1"
   ],
   "contents": [
     {

@@ -1,10 +1,10 @@
 {
-  "@id": "dtmi:com:willowinc:DrainCleanout;1",
+  "@id": "dtmi:com:syyclops:DrainCleanout;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drain Cleanout"
   },
-  "extends": "dtmi:com:willowinc:PipeFittingPlug;1",
+  "extends": "dtmi:com:syyclops:PipeFittingPlug;1",
   "contents": [
 
   ],

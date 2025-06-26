@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DefaultSetpoint;1",
+  "@id": "dtmi:com:syyclops:DefaultSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Default Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:DefaultOverrideSetpoint;1"
+    "dtmi:com:syyclops:DefaultOverrideSetpoint;1"
   ],
   "contents": [
   ],

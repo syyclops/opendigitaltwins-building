@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:NaturalGasMassSensor;1",
+  "@id": "dtmi:com:syyclops:NaturalGasMassSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Natural Gas Mass Sensor"
   },
   "description": {"en": "The mass feedback from a sensor associated with natural gas"},
   "extends" : [
-    "dtmi:com:willowinc:MassSensor;1"
+    "dtmi:com:syyclops:MassSensor;1"
   ],
   "contents": [
 

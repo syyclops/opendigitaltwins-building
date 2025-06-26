@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Capability;1",
+  "@id": "dtmi:com:syyclops:Capability;1",
   "@type": "Interface",
   "displayName": {
     "en": "Capability"
@@ -29,7 +29,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -93,7 +93,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:CapabilityMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:CapabilityMappedIdObject;1"
       }
     },
     {
@@ -170,7 +170,7 @@
       "displayName": {
         "en": "Communication"
       },
-      "schema": "dtmi:com:willowinc:CapabilityCommunication;1"
+      "schema": "dtmi:com:syyclops:CapabilityCommunication;1"
     },
     {
       "@type": "Property",
@@ -196,14 +196,14 @@
             "displayName": {
               "en": "Project Haystack"
             },
-            "schema": "dtmi:com:willowinc:CapabilityAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CapabilityAlternateClassificationObject;1"
           },
           {
             "name": "brickSchema",
             "displayName": {
               "en": "Brick Schema"
             },
-            "schema": "dtmi:com:willowinc:CapabilityAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:CapabilityAlternateClassificationObject;1"
           }
         ]
       }
@@ -311,7 +311,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:CapabilityInterpolation;1",
+        "@id": "dtmi:com:syyclops:CapabilityInterpolation;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [
@@ -386,7 +386,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:CapabilityType;1",
+        "@id": "dtmi:com:syyclops:CapabilityType;1",
         "@type": "Enum",
         "valueSchema": "string",
         "enumValues": [
@@ -434,7 +434,7 @@
         "en": "categorization properties"
       },
       "name": "categorizationProperties",
-      "schema": "dtmi:com:willowinc:CapabilityPropertySet;1"
+      "schema": "dtmi:com:syyclops:CapabilityPropertySet;1"
     },
     {
       "@type": "Property",
@@ -505,7 +505,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:CapabilityAlternateClassificationObject;1",
+      "@id": "dtmi:com:syyclops:CapabilityAlternateClassificationObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -525,7 +525,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:CapabilityMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:CapabilityMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."

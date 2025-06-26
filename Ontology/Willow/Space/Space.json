@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Space;1",
+  "@id": "dtmi:com:syyclops:Space;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space"
@@ -30,7 +30,7 @@
             "en": "The status of onboarding the twins and relationships for a connector that has been installed. Used to filter out data quality alerts for connectors that are not Complete."
           },
           "writable": true,
-          "schema": "dtmi:com:willowinc:SpaceServedByConnectorOnboardingStatus;1"
+          "schema": "dtmi:com:syyclops:SpaceServedByConnectorOnboardingStatus;1"
         }
       ]
     },
@@ -53,7 +53,7 @@
         "en": "is adjacent to"
       },
       "name": "isAdjacentTo",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Relationship",
@@ -64,7 +64,7 @@
         "en": "owned by"
       },
       "name": "ownedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -72,7 +72,7 @@
         "en": "operated by"
       },
       "name": "operatedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -83,7 +83,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Relationship",
@@ -91,7 +91,7 @@
         "en": "located in grid region"
       },
       "name": "locatedInGridRegion",
-      "target": "dtmi:com:willowinc:Space;1"
+      "target": "dtmi:com:syyclops:Space;1"
     },
     {
       "@type": "Relationship",
@@ -102,7 +102,7 @@
         "en": "included in"
       },
       "name": "includedIn",
-      "target": "dtmi:com:willowinc:Collection;1"
+      "target": "dtmi:com:syyclops:Collection;1"
     },
     {
       "@type": "Relationship",
@@ -110,7 +110,7 @@
         "en": "constructed by"
       },
       "name": "constructedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -118,7 +118,7 @@
         "en": "architected by"
       },
       "name": "architectedBy",
-      "target": "dtmi:com:willowinc:Agent;1"
+      "target": "dtmi:com:syyclops:Agent;1"
     },
     {
       "@type": "Relationship",
@@ -129,7 +129,7 @@
       "description": {
         "en": "Used to extend a twin's base properties with settings that can be used by applications or people to create functionality and experiences in the context of the twin."
       },
-      "target": "dtmi:com:willowinc:Settings;1"
+      "target": "dtmi:com:syyclops:Settings;1"
     },
     {
       "@type": "Relationship",
@@ -137,7 +137,7 @@
       "displayName": {
         "en": "has document"
       },
-      "target": "dtmi:com:willowinc:Document;1"
+      "target": "dtmi:com:syyclops:Document;1"
     },
     {
       "@type": "Property",
@@ -186,7 +186,7 @@
       "writable": true,
       "schema": {
         "@type": "Array",
-        "elementSchema": "dtmi:com:willowinc:SpaceMappedIdObject;1"
+        "elementSchema": "dtmi:com:syyclops:SpaceMappedIdObject;1"
       }
     },
     {
@@ -216,7 +216,7 @@
       "displayName": {
         "en": "Area"
       },
-      "schema": "dtmi:com:willowinc:SpaceArea;1"
+      "schema": "dtmi:com:syyclops:SpaceArea;1"
     },
     {
       "@type": "Component",
@@ -224,7 +224,7 @@
       "displayName": {
         "en": "Capacity"
       },
-      "schema": "dtmi:com:willowinc:SpaceCapacity;1"
+      "schema": "dtmi:com:syyclops:SpaceCapacity;1"
     },
     {
       "@type": "Component",
@@ -232,7 +232,7 @@
       "displayName": {
         "en": "Occupancy"
       },
-      "schema": "dtmi:com:willowinc:SpaceOccupancy;1"
+      "schema": "dtmi:com:syyclops:SpaceOccupancy;1"
     },
     {
       "@type": "Component",
@@ -240,7 +240,7 @@
       "displayName": {
         "en": "Temperature"
       },
-      "schema": "dtmi:com:willowinc:SpaceTemperature;1"
+      "schema": "dtmi:com:syyclops:SpaceTemperature;1"
     },
     {
       "@type": "Component",
@@ -248,7 +248,7 @@
       "displayName": {
         "en": "Humidity"
       },
-      "schema": "dtmi:com:willowinc:SpaceHumidity;1"
+      "schema": "dtmi:com:syyclops:SpaceHumidity;1"
     },
     {
       "@type": "Component",
@@ -256,7 +256,7 @@
       "displayName": {
         "en": "CO2"
       },
-      "schema": "dtmi:com:willowinc:SpaceCO2;1"
+      "schema": "dtmi:com:syyclops:SpaceCO2;1"
     },
     {
       "@type": "Property",
@@ -358,42 +358,42 @@
             "displayName": {
               "en": "MasterFormat"
             },
-            "schema": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1"
           },
           {
             "name": "omniClass",
             "displayName": {
               "en": "OmniClass"
             },
-            "schema": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1"
           },
           {
             "name": "uniFormat",
             "displayName": {
               "en": "UniFormat"
             },
-            "schema": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1"
           },
           {
             "name": "uniclass",
             "displayName": {
               "en": "Uniclass"
             },
-            "schema": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1"
           },
           {
             "name": "projectHaystack",
             "displayName": {
               "en": "Project Haystack"
             },
-            "schema": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1"
           },
           {
             "name": "brickSchema",
             "displayName": {
               "en": "Brick Schema"
             },
-            "schema": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1"
+            "schema": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1"
           }
         ]
       }
@@ -429,7 +429,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:SpaceAlternateClassificationObject;1",
+      "@id": "dtmi:com:syyclops:SpaceAlternateClassificationObject;1",
       "@type": "Object",
       "fields": [
         {
@@ -449,7 +449,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:SpaceMappedIdObject;1",
+      "@id": "dtmi:com:syyclops:SpaceMappedIdObject;1",
       "@type": "Object",
       "description": {
         "en": "An object which represents an identity in Mapped, typically sourced from a connector. The composite of all fields is unique for a given twin."
@@ -508,7 +508,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:SpaceServedByConnectorOnboardingStatus;1",
+      "@id": "dtmi:com:syyclops:SpaceServedByConnectorOnboardingStatus;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [

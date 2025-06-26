@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EthernetSwitchPort;1",
+  "@id": "dtmi:com:syyclops:EthernetSwitchPort;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ethernet Switch Port"
   },
   "extends" : [
-    "dtmi:com:willowinc:DataNetworkEquipment;1"
+    "dtmi:com:syyclops:DataNetworkEquipment;1"
   ],
   "contents": [
     {

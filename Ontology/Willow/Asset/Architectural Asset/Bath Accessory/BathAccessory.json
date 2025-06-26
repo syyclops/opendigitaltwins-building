@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:BathAccessory;1",
+  "@id": "dtmi:com:syyclops:BathAccessory;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bath Accessory"
@@ -8,7 +8,7 @@
     "en": "An device co-located with a bathtub or shower such as a towel holder or shower partition."
   },
   "extends" : [
-    "dtmi:com:willowinc:ArchitecturalAsset;1"
+    "dtmi:com:syyclops:ArchitecturalAsset;1"
   ],
   "contents": [
 

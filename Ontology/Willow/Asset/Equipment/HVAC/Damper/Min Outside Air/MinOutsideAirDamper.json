@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:MinOutsideAirDamper;1",
+  "@id": "dtmi:com:syyclops:MinOutsideAirDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Min Outside Air Damper"
@@ -8,7 +8,7 @@
     "en": "A damper that only opens to allow minimum outside air flow per ventilation requirements."
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

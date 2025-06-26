@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:DedicatedOutdoorAirSystem;1",
+  "@id": "dtmi:com:syyclops:DedicatedOutdoorAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dedicated Outdoor Air System"
@@ -8,7 +8,7 @@
     "en": "A device that conditions and delivers 100% outdoor air to its assigned spaces. It decouples air-conditioning of the outdoor air, usually used to provide minimum outdoor air ventilation, from conditioning of the internal loads."
   },
   "extends" : [
-    "dtmi:com:willowinc:AirHandlingUnit;1"
+    "dtmi:com:syyclops:AirHandlingUnit;1"
   ],
   "contents": [
   ],

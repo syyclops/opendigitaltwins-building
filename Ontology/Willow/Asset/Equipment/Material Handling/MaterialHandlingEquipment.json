@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:MaterialHandlingEquipment;1",
+  "@id": "dtmi:com:syyclops:MaterialHandlingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Material Handling Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
   ],

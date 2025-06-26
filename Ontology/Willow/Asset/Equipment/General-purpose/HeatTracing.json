@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HeatTracing;1",
+  "@id": "dtmi:com:syyclops:HeatTracing;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Tracing"
   },
   "extends" : [
-    "dtmi:com:willowinc:GeneralPurposeEquipment;1"
+    "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
     {

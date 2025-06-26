@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:System;1",
+  "@id": "dtmi:com:syyclops:System;1",
   "@type": "Interface",
   "displayName": {
     "en": "System"
   },
   "extends" : [
-    "dtmi:com:willowinc:EquipmentCollection;1"
+    "dtmi:com:syyclops:EquipmentCollection;1"
   ],
   "contents": [
     {
@@ -60,7 +60,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:com:willowinc:System;1"
+      "target": "dtmi:com:syyclops:System;1"
     }
   ],
   "@context": [

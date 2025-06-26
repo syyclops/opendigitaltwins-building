@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Substructure;1",
+  "@id": "dtmi:com:syyclops:Substructure;1",
   "@type": "Interface",
   "displayName": {
     "en": "Substructure"
@@ -8,7 +8,7 @@
     "en": "A structure which is below ground level serving as the foundation for one or more buildings on a land above and has uniquely defined name and levels."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
     {
@@ -17,7 +17,7 @@
         "en": "address"
       },
       "name": "address",
-      "schema": "dtmi:com:willowinc:Address;1"
+      "schema": "dtmi:com:syyclops:Address;1"
     },
     {
       "@type": "Property",
@@ -34,7 +34,7 @@
       "displayName": {
         "en": "Time Zone"
       },
-      "schema": "dtmi:com:willowinc:TimeZone;1"
+      "schema": "dtmi:com:syyclops:TimeZone;1"
     },
     {
       "@type": "Component",
@@ -42,7 +42,7 @@
         "en": "Electricity Price Rate"
       },
       "name": "electricityPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -50,7 +50,7 @@
         "en": "Electricity Emission Factor"
       },
       "name": "electricityEmissionFactor",
-      "schema": "dtmi:com:willowinc:UtilityEmissionFactor;1"
+      "schema": "dtmi:com:syyclops:UtilityEmissionFactor;1"
     },
     {
       "@type": "Component",
@@ -58,7 +58,7 @@
         "en": "Natural Gas Price Rate"
       },
       "name": "naturalGasPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -66,7 +66,7 @@
         "en": "Chilled Water Price Rate"
       },
       "name": "chilledWaterPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -74,7 +74,7 @@
         "en": "Steam Price Rate"
       },
       "name": "steamPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -82,7 +82,7 @@
         "en": "Domestic Water Price Rate"
       },
       "name": "domesticWaterPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Property",
@@ -94,7 +94,7 @@
         "en": "The Climate Zone as defined by IECC which is based on the location of the building."
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:SubstructureIECCClimateZone;1"
+      "schema": "dtmi:com:syyclops:SubstructureIECCClimateZone;1"
     },
     {
       "@type": "Property",
@@ -104,7 +104,7 @@
       },
       "writable": true,
       "schema": {
-        "@id": "dtmi:com:willowinc:SubstructureCoordinates;1",
+        "@id": "dtmi:com:syyclops:SubstructureCoordinates;1",
         "@type": "Object",
         "fields": [
           {
@@ -203,12 +203,12 @@
         "en": "The stage in the life of the building or structure such as design, construction, or operational."
       },
       "writable": true,
-      "schema": "dtmi:com:willowinc:SubstructureLifecyclePhase;1"
+      "schema": "dtmi:com:syyclops:SubstructureLifecyclePhase;1"
     }
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:SubstructureIECCClimateZone;1",
+      "@id": "dtmi:com:syyclops:SubstructureIECCClimateZone;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "@id": "dtmi:com:willowinc:SubstructureLifecyclePhase;1",
+      "@id": "dtmi:com:syyclops:SubstructureLifecyclePhase;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [

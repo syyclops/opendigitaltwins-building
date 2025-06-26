@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AngularAccelerationSetpoint;1",
+  "@id": "dtmi:com:syyclops:AngularAccelerationSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Angular Acceleration Setpoint"
   },
   "description": {"en": "The desired value associated with angular acceleration"},
   "extends" : [
-    "dtmi:com:willowinc:AccelerationSetpoint;1"
+    "dtmi:com:syyclops:AccelerationSetpoint;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CoolingOnActuator;1",
+  "@id": "dtmi:com:syyclops:CoolingOnActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Cooling On Actuator"
   },
   "description": {"en": "The Boolean command which turns on an equipment's cooling function when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:OnActuator;1"
+    "dtmi:com:syyclops:OnActuator;1"
   ],
   "contents": [
   ],

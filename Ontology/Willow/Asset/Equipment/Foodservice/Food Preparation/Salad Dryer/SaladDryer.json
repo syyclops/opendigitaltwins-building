@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SaladDryer;1",
+  "@id": "dtmi:com:syyclops:SaladDryer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Salad Dryer"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodPreparationEquipment;1"
+    "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
   "contents": [
   ],

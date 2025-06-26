@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:WaterFlowSetpoint;1",
+  "@id": "dtmi:com:syyclops:WaterFlowSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Flow Setpoint"
   },
   "description": {"en": "The desired value associated with water flow"},
   "extends" : [
-    "dtmi:com:willowinc:FlowSetpoint;1"
+    "dtmi:com:syyclops:FlowSetpoint;1"
   ],
   "contents": [
   ],

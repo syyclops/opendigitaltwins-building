@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:TwistedPairPatchCord;1",
+  "@id": "dtmi:com:syyclops:TwistedPairPatchCord;1",
   "@type": "Interface",
   "displayName": {
     "en": "Twisted Pair Patch Cord"
   },
   "extends" : [
-    "dtmi:com:willowinc:TelecommunicationPatchCord;1"
+    "dtmi:com:syyclops:TelecommunicationPatchCord;1"
   ],
   "contents": [
     {

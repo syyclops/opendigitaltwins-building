@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighCondenserWaterFlowAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighCondenserWaterFlowAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Condenser Water Flow Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high condenser water flow alarm"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterFlowAlarmSetpoint;1"
+    "dtmi:com:syyclops:CondenserWaterFlowAlarmSetpoint;1"
   ],
   "contents": [
 

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReheatLevelActuator;1",
+  "@id": "dtmi:com:syyclops:ReheatLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reheating Level Actuator"
   },
   "description": {"en": "The percent command which sets the reheat level of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:HeatingLevelActuator;1"
+    "dtmi:com:syyclops:HeatingLevelActuator;1"
   ],
   "contents": [
 

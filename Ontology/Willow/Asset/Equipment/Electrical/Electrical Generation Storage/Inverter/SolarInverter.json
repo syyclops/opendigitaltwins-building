@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:SolarInverter;1",
+  "@id": "dtmi:com:syyclops:SolarInverter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Solar Inverter"
@@ -8,7 +8,7 @@
     "en": "A power inverter which has been optimized to convert the DC output of photovoltaic (PV) panels into alternating current (AC) electricity."
   },
   "extends" : [
-    "dtmi:com:willowinc:Inverter;1"
+    "dtmi:com:syyclops:Inverter;1"
   ],
   "contents": [
 

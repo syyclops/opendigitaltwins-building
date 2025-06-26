@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefAirSmokeAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:ReliefAirSmokeAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Air Smoke Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the relief air smoke alarm"},
   "extends" : [
-    "dtmi:com:willowinc:SmokeAlarmSetpoint;1"
+    "dtmi:com:syyclops:SmokeAlarmSetpoint;1"
   ],
   "contents": [
 

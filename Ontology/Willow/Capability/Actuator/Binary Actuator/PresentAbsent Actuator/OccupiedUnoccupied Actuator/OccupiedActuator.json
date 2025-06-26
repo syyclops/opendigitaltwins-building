@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:OccupiedActuator;1",
+  "@id": "dtmi:com:syyclops:OccupiedActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupied Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the equipment to 'occupied' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:OccupiedUnoccupiedActuator;1",
-    "dtmi:com:willowinc:PresentActuator;1"
+    "dtmi:com:syyclops:OccupiedUnoccupiedActuator;1",
+    "dtmi:com:syyclops:PresentActuator;1"
   ],
   "contents": [
   ],

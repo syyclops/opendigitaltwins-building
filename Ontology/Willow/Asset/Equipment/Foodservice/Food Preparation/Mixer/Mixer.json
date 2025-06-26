@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Mixer;1",
+  "@id": "dtmi:com:syyclops:Mixer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixer"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodPreparationEquipment;1"
+    "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
   "contents": [
   ],

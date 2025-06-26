@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:FireSprinklerRiserManifold;1",
+  "@id": "dtmi:com:syyclops:FireSprinklerRiserManifold;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Sprinkler Riser Manifold"
@@ -8,8 +8,8 @@
     "en": "A fire sprinkler assembly which includes a water flow switch, pressure guage, and drain valve required for a NFPA 13 riser sprinkler system."
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerEquipment;1",
-    "dtmi:com:willowinc:Manifold;1"
+    "dtmi:com:syyclops:SprinklerEquipment;1",
+    "dtmi:com:syyclops:Manifold;1"
   ],
   "contents": [
 

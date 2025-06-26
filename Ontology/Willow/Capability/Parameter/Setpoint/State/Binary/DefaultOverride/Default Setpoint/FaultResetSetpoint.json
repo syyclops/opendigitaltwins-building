@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FaultResetSetpoint;1",
+  "@id": "dtmi:com:syyclops:FaultResetSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fault Reset Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:ResetSetpoint;1"
+    "dtmi:com:syyclops:ResetSetpoint;1"
   ],
   "contents": [
 

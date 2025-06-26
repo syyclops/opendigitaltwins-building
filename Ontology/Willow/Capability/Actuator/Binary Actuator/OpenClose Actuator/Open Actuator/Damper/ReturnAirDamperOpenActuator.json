@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirDamperOpenActuator;1",
+  "@id": "dtmi:com:syyclops:ReturnAirDamperOpenActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Damper Open Actuator"
   },
   "description": {"en": "The Boolean command which sets the state of the return air damper to 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:DamperOpenActuator;1"
+    "dtmi:com:syyclops:DamperOpenActuator;1"
   ],
   "contents": [
 

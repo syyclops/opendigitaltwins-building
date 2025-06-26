@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Culvert;1",
+  "@id": "dtmi:com:syyclops:Culvert;1",
   "@type": "Interface",
   "description": {
     "en": "A tunnel structure built to allow water in an open channel to pass under a road, rail, path, or other surface level obstruction."
@@ -8,7 +8,7 @@
     "en": "Culvert"
   },
   "extends" : [
-    "dtmi:com:willowinc:Tunnel;1"
+    "dtmi:com:syyclops:Tunnel;1"
   ],
   "contents": [
     

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DishwashingEquipment;1",
+  "@id": "dtmi:com:syyclops:DishwashingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Dishwashing Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodserviceEquipment;1"
+    "dtmi:com:syyclops:FoodserviceEquipment;1"
   ],
   "contents": [
   ],

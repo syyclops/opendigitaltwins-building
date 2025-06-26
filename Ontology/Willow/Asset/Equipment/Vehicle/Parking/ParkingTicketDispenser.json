@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ParkingTicketDispenser;1",
+  "@id": "dtmi:com:syyclops:ParkingTicketDispenser;1",
   "@type": "Interface",
   "displayName": {
     "en": "Parking Ticket Dispenser"
   },
   "extends" : [
-    "dtmi:com:willowinc:ParkingEquipment;1"
+    "dtmi:com:syyclops:ParkingEquipment;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DrinkingFountain;1",
+  "@id": "dtmi:com:syyclops:DrinkingFountain;1",
   "@type": "Interface",
   "displayName": {
     "en": "Drinking Fountain"
   },
   "extends" : [
-    "dtmi:com:willowinc:DrinkingWaterFixture;1"
+    "dtmi:com:syyclops:DrinkingWaterFixture;1"
   ],
   "contents": [
 

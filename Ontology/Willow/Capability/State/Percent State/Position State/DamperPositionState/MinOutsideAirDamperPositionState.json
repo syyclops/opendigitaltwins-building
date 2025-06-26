@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MinOutsideAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:MinOutsideAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Minimum Outside Air Damper Position State"
   },
   "description": {"en": "The percent position state of the minimum outside air damper, as confirmation of a position for allowing or disallowing ventilation air flow"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

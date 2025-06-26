@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MixedFanRunLevelState;1",
+  "@id": "dtmi:com:syyclops:MixedFanRunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Fan Run Level State"
   },
   "description": {"en": "The percent run level state of the mixed air fan"},
   "extends" : [
-    "dtmi:com:willowinc:FanRunLevelState;1"
+    "dtmi:com:syyclops:FanRunLevelState;1"
   ],
   "contents": [
 

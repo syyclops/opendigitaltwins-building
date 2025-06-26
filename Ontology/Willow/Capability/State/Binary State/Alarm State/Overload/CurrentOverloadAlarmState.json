@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CurrentOverloadAlarmState;1",
+  "@id": "dtmi:com:syyclops:CurrentOverloadAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Current Overload Alarm State"
   },
   "description": {"en": "The Boolean state of the current overload alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:OverloadAlarmState;1"
+    "dtmi:com:syyclops:OverloadAlarmState;1"
   ],
   "contents": [
 

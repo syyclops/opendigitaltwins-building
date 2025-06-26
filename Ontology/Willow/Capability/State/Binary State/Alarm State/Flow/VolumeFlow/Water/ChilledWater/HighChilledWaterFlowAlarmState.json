@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighChilledWaterFlowAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighChilledWaterFlowAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Chilled Water Flow Alarm State"
   },
   "description": {"en": "The Boolean state of the high chilled water flow alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterFlowAlarmState;1"
+    "dtmi:com:syyclops:ChilledWaterFlowAlarmState;1"
   ],
   "contents": [
 

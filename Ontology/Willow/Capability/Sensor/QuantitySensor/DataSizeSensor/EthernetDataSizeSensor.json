@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:EthernetDataSizeSensor;1",
+  "@id": "dtmi:com:syyclops:EthernetDataSizeSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ethernet Data Size Sensor"
   },
   "description": {"en": "The data size feedback from a sensor associated with ethernet"},
   "extends" : [
-    "dtmi:com:willowinc:DataSizeSensor;1"
+    "dtmi:com:syyclops:DataSizeSensor;1"
   ],
   "contents": [
   ],

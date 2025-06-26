@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ParkingEquipment;1",
+  "@id": "dtmi:com:syyclops:ParkingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Parking Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:VehicleEquipment;1"
+    "dtmi:com:syyclops:VehicleEquipment;1"
   ],
   "contents": [
   ],

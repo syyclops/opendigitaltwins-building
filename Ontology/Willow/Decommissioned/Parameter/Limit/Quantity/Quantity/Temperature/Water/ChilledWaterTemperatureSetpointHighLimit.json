@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ChilledWaterTemperatureSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:ChilledWaterTemperatureSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Chilled Water Temperature Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with chilled water temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:WaterTemperatureSetpointHighLimit;1"
+    "dtmi:com:syyclops:WaterTemperatureSetpointHighLimit;1"
   ],
   "contents": [
   ],

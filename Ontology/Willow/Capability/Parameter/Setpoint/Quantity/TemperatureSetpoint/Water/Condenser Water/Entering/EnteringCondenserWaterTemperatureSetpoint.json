@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:EnteringCondenserWaterTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:EnteringCondenserWaterTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Entering Condenser Water Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with entering condenser water temperature"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterTemperatureSetpoint;1",
-    "dtmi:com:willowinc:EnteringWaterTemperatureSetpoint;1"
+    "dtmi:com:syyclops:CondenserWaterTemperatureSetpoint;1",
+    "dtmi:com:syyclops:EnteringWaterTemperatureSetpoint;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CondenserWaterCoilLeavingAirTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:CondenserWaterCoilLeavingAirTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Condenser Water Coil Leaving Air Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with air leaving the condenser water coil"},
   "extends" : [
-    "dtmi:com:willowinc:CoolingCoilLeavingAirTemperatureSensor;1"
+    "dtmi:com:syyclops:CoolingCoilLeavingAirTemperatureSensor;1"
   ],
   "contents": [
   ],

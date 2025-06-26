@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:GreaseTrap;1",
+  "@id": "dtmi:com:syyclops:GreaseTrap;1",
   "@type": "Interface",
   "displayName": {
     "en": "Grease Trap"
   },
   "extends" : [
-    "dtmi:com:willowinc:FatsOilsGreaseDisposal;1"
+    "dtmi:com:syyclops:FatsOilsGreaseDisposal;1"
   ],
   "contents": [
     

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FireSuppressionSystem;1",
+  "@id": "dtmi:com:syyclops:FireSuppressionSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fire Suppression System"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireProtectionSystem;1"
+    "dtmi:com:syyclops:FireProtectionSystem;1"
   ],
   "contents": [
   ],

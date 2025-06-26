@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Tank;1",
+  "@id": "dtmi:com:syyclops:Tank;1",
   "@type": "Interface",
   "displayName": {
     "en": "Tank"
   },
   "extends" : [
-    "dtmi:com:willowinc:GeneralPurposeEquipment;1"
+    "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
     {

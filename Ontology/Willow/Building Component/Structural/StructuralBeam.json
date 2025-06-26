@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StructuralBeam;1",
+  "@id": "dtmi:com:syyclops:StructuralBeam;1",
   "@type": "Interface",
   "displayName": {
     "en": "Structural Beam"
   },
   "extends" : [
-    "dtmi:com:willowinc:StructuralBuildingComponent;1"
+    "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"

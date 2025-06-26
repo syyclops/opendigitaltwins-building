@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:OpenSetpoint;1",
+  "@id": "dtmi:com:syyclops:OpenSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Open Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:OpenCloseSetpoint;1"
+    "dtmi:com:syyclops:OpenCloseSetpoint;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowTertiaryLoopEnteringHotWaterTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowTertiaryLoopEnteringHotWaterTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Tertiary Loop Entering Hot Water Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with low entering hot water tertiary loop temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowEnteringHotWaterTemperatureAlarmState;1"
+    "dtmi:com:syyclops:LowEnteringHotWaterTemperatureAlarmState;1"
   ],
   "contents": [
   ],

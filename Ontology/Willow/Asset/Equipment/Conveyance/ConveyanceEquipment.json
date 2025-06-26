@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ConveyanceEquipment;1",
+  "@id": "dtmi:com:syyclops:ConveyanceEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Conveyance Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:Equipment;1"
+    "dtmi:com:syyclops:Equipment;1"
   ],
   "contents": [
     {

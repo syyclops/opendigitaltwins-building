@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReversingMotorStarter;1",
+  "@id": "dtmi:com:syyclops:ReversingMotorStarter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reversing Motor Starter"
   },
   "extends" : [
-    "dtmi:com:willowinc:MotorStarter;1"
+    "dtmi:com:syyclops:MotorStarter;1"
   ],
   "contents": [
   ],

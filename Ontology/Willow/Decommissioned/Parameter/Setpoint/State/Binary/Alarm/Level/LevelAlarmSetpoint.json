@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LevelAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:LevelAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Level Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the level alarm"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmSetpoint;1"
+    "dtmi:com:syyclops:AlarmSetpoint;1"
   ],
   "contents": [
 

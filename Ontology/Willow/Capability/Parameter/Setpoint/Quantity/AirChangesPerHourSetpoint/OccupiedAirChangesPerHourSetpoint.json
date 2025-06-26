@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:OccupiedAirChangesPerHourSetpoint;1",
+  "@id": "dtmi:com:syyclops:OccupiedAirChangesPerHourSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Occupied Air Changes Per Hour Setpoint"
@@ -8,7 +8,7 @@
     "en": "The desired air changes per hour while the space is occupied, a.k.a. Occupied Air Change Rate Setpoint."
   },
   "extends" : [
-    "dtmi:com:willowinc:AirChangesPerHourSetpoint;1"
+    "dtmi:com:syyclops:AirChangesPerHourSetpoint;1"
   ],
   "contents": [
 

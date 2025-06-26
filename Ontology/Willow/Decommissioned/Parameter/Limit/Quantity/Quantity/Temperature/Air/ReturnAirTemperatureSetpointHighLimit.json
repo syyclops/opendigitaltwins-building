@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirTemperatureSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:ReturnAirTemperatureSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Temperature Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with return air temperature setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpointHighLimit;1"
+    "dtmi:com:syyclops:AirTemperatureSetpointHighLimit;1"
   ],
   "contents": [
   ],

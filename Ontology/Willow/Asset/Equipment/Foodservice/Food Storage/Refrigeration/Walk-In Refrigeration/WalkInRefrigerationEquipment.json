@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WalkInRefrigerationEquipment;1",
+  "@id": "dtmi:com:syyclops:WalkInRefrigerationEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Walk-In Refrigeration Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodStorageRefrigerationEquipment;1"
+    "dtmi:com:syyclops:FoodStorageRefrigerationEquipment;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:CombinationGrateCurbInlet;1",
+  "@id": "dtmi:com:syyclops:CombinationGrateCurbInlet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Combination Grate-Curb Inlet"
   },
   "extends": [
-    "dtmi:com:willowinc:GrateInlet;1",
-    "dtmi:com:willowinc:CurbInlet;1"
+    "dtmi:com:syyclops:GrateInlet;1",
+    "dtmi:com:syyclops:CurbInlet;1"
   ],
   "contents": [
 

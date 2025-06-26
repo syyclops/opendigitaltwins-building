@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:UrinalPartition;1",
+  "@id": "dtmi:com:syyclops:UrinalPartition;1",
   "@type": "Interface",
   "displayName": {
     "en": "Urinal Partition"
@@ -8,8 +8,8 @@
     "en": "A structure which separates urinals to provide privacy in a public restroom."
   },
   "extends" : [
-    "dtmi:com:willowinc:ToiletAccessory;1",
-    "dtmi:com:willowinc:RestroomAccessory;1"
+    "dtmi:com:syyclops:ToiletAccessory;1",
+    "dtmi:com:syyclops:RestroomAccessory;1"
   ],
   "contents": [
 

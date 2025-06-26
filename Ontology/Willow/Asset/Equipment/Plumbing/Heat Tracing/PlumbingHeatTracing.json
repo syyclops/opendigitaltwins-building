@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PlumbingHeatTracing;1",
+  "@id": "dtmi:com:syyclops:PlumbingHeatTracing;1",
   "@type": "Interface",
   "displayName": {
     "en": "Heat Tracing (Plumbing)"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingEquipment;1",
-    "dtmi:com:willowinc:HeatTracing;1"
+    "dtmi:com:syyclops:PlumbingEquipment;1",
+    "dtmi:com:syyclops:HeatTracing;1"
   ],
   "contents": [
 

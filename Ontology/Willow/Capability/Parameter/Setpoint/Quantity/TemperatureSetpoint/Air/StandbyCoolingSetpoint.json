@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:StandbyCoolingSetpoint;1",
+  "@id": "dtmi:com:syyclops:StandbyCoolingSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Standby Cooling Setpoint"
   },
   "description": {"en": "The desired value associated with standby cooling temperature"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:AirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

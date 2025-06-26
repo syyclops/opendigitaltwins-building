@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Pallet;1",
+  "@id": "dtmi:com:syyclops:Pallet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pallet"
   },
   "extends" : [
-    "dtmi:com:willowinc:UnitLoadFormationEquipment;1"
+    "dtmi:com:syyclops:UnitLoadFormationEquipment;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EquipmentGroup;1",
+  "@id": "dtmi:com:syyclops:EquipmentGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Equipment Group"
   },
   "extends" : [
-    "dtmi:com:willowinc:EquipmentCollection;1"
+    "dtmi:com:syyclops:EquipmentCollection;1"
   ],
   "contents": [
     {
@@ -17,7 +17,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:com:willowinc:Asset;1"
+      "target": "dtmi:com:syyclops:Asset;1"
     }
   ],
   "@context": [

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:ReturnAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Damper Position State"
   },
   "description": {"en": "The percent position state of the return air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

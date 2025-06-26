@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirTemperatureSetpoint;1",
+  "@id": "dtmi:com:syyclops:ReturnAirTemperatureSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Temperature Setpoint"
   },
   "description": {"en": "The desired value associated with return air temperature"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:AirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

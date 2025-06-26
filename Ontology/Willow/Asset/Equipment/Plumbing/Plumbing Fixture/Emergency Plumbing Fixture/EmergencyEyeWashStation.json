@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EmergencyEyeWashStation;1",
+  "@id": "dtmi:com:syyclops:EmergencyEyeWashStation;1",
   "@type": "Interface",
   "displayName": {
     "en": "Emergency Eye Wash Station"
   },
   "extends" : [
-    "dtmi:com:willowinc:EmergencyPlumbingFixture;1"
+    "dtmi:com:syyclops:EmergencyPlumbingFixture;1"
   ],
   "contents": [
   ],

@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:ReliefFanVFDRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:ReliefFanVFDRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Relief Fan VFD Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the relief air fan vfd"},
   "extends" : [
-    "dtmi:com:willowinc:FanVFDRunLevelActuator;1",
-    "dtmi:com:willowinc:ReliefFanRunLevelActuator;1"
+    "dtmi:com:syyclops:FanVFDRunLevelActuator;1",
+    "dtmi:com:syyclops:ReliefFanRunLevelActuator;1"
   ],
   "contents": [
 

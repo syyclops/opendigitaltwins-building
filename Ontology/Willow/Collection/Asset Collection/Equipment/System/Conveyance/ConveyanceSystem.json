@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ConveyanceSystem;1",
+  "@id": "dtmi:com:syyclops:ConveyanceSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Conveyance System"
   },
   "extends" : [
-    "dtmi:com:willowinc:System;1"
+    "dtmi:com:syyclops:System;1"
   ],
   "contents": [
   ],

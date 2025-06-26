@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AcrossTheLineMotorStarter;1",
+  "@id": "dtmi:com:syyclops:AcrossTheLineMotorStarter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Across-the-Line Motor Starter"
   },
   "extends" : [
-    "dtmi:com:willowinc:MotorStarter;1"
+    "dtmi:com:syyclops:MotorStarter;1"
   ],
   "contents": [
   ],

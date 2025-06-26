@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PressureSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:PressureSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pressure Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with pressure setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:HighLimit;1"
+    "dtmi:com:syyclops:HighLimit;1"
   ],
   "contents": [
     

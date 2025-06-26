@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:EthernetSwitch;1",
+  "@id": "dtmi:com:syyclops:EthernetSwitch;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ethernet Switch"
   },
   "extends" : [
-    "dtmi:com:willowinc:DataNetworkEquipment;1"
+    "dtmi:com:syyclops:DataNetworkEquipment;1"
   ],
   "contents": [
     {

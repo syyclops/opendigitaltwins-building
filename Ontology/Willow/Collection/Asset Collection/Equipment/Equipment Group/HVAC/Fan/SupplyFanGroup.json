@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SupplyFanGroup;1",
+  "@id": "dtmi:com:syyclops:SupplyFanGroup;1",
   "@type": "Interface",
   "displayName": {
     "en": "Supply Fan Group"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACFanGroup;1"
+    "dtmi:com:syyclops:HVACFanGroup;1"
   ],
   "contents": [
   ],

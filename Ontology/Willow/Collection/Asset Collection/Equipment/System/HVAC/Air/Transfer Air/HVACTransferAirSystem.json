@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACTransferAirSystem;1",
+  "@id": "dtmi:com:syyclops:HVACTransferAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Transfer Air System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACAirSystem;1"
+    "dtmi:com:syyclops:HVACAirSystem;1"
   ],
   "contents": [
   ],

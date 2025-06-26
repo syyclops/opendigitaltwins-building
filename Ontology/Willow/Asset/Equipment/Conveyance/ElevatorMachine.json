@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ElevatorMachine;1",
+  "@id": "dtmi:com:syyclops:ElevatorMachine;1",
   "@type": "Interface",
   "displayName": {
     "en": "Elevator Machine"
   },
   "extends" : [
-    "dtmi:com:willowinc:ConveyanceEquipment;1"
+    "dtmi:com:syyclops:ConveyanceEquipment;1"
   ],
   "contents": [
     {

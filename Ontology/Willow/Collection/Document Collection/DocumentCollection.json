@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DocumentCollection;1",
+  "@id": "dtmi:com:syyclops:DocumentCollection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Document Collection"
   },
   "extends" : [
-    "dtmi:com:willowinc:Collection;1"
+    "dtmi:com:syyclops:Collection;1"
   ],
   "contents": [
 

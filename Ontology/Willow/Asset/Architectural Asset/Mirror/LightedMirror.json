@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:LightedMirror;1",
+  "@id": "dtmi:com:syyclops:LightedMirror;1",
   "@type": "Interface",
   "displayName": {
     "en": "Lighted Mirror"
   },
   "extends" : [
-    "dtmi:com:willowinc:Mirror;1"
+    "dtmi:com:syyclops:Mirror;1"
   ],
   "contents": [
   ],

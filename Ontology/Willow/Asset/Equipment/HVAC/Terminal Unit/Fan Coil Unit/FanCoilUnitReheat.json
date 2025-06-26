@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FanCoilUnitReheat;1",
+  "@id": "dtmi:com:syyclops:FanCoilUnitReheat;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fan Coil Unit with Reheat"
   },
   "extends" : [
-    "dtmi:com:willowinc:FanCoilUnit;1"
+    "dtmi:com:syyclops:FanCoilUnit;1"
   ],
   "contents": [
     {
@@ -35,7 +35,7 @@
         "en": "re-heating method"
       },
       "name": "reHeatingMethod",
-      "schema": "dtmi:com:willowinc:HVACHeatingMethod;1"
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1"
     }
   ],
   "@context": [

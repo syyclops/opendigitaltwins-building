@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:airport:AircraftBoardingEquipment;1",
+  "@id": "dtmi:com:syyclops:airport:AircraftBoardingEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Aircraft Boarding Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:airport:AirportEquipment;1"
+    "dtmi:com:syyclops:airport:AirportEquipment;1"
   ],
   "contents": [
   ],

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:MixedDamper;1",
+  "@id": "dtmi:com:syyclops:MixedDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Damper"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACDamper;1"
+    "dtmi:com:syyclops:HVACDamper;1"
   ],
   "contents": [
   ],

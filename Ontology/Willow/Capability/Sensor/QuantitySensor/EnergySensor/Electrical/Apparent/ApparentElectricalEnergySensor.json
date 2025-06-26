@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ApparentElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:ApparentElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Apparent Electrical Energy Sensor"
   },
   "description": {"en": "The apparent electrical energy feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:ElectricalEnergySensor;1"
+    "dtmi:com:syyclops:ElectricalEnergySensor;1"
   ],
   "contents": [
     

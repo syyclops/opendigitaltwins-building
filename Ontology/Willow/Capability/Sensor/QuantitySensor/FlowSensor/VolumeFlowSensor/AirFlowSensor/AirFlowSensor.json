@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:AirFlowSensor;1",
+  "@id": "dtmi:com:syyclops:AirFlowSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Flow Sensor"
   },
   "description": {"en": "The volume flow feedback from a sensor associated with air"},
   "extends" : [
-    "dtmi:com:willowinc:VolumeFlowSensor;1"
+    "dtmi:com:syyclops:VolumeFlowSensor;1"
   ],
   "contents": [
 

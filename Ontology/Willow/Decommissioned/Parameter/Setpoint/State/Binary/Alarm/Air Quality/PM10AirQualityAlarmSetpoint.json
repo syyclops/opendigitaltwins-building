@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PM10AirQualityAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:PM10AirQualityAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "PM10 Air Quality Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the PM10 air quality alarm"},
   "extends" : [
-    "dtmi:com:willowinc:AirQualityAlarmSetpoint;1"
+    "dtmi:com:syyclops:AirQualityAlarmSetpoint;1"
   ],
   "contents": [
 

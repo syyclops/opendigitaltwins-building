@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OutsideAirTemperatureLockoutSetpoint;1",
+  "@id": "dtmi:com:syyclops:OutsideAirTemperatureLockoutSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outside Air Temperature Lockout Setpoint"
   },
   "description": {"en": "The desired value associated with outside air temperature lockout"},
   "extends" : [
-    "dtmi:com:willowinc:OutsideAirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:OutsideAirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

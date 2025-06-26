@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:BypassHotWaterValvePositionState;1",
+  "@id": "dtmi:com:syyclops:BypassHotWaterValvePositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Bypass Hot Water Valve Position State"
   },
   "description": {"en": "The percent position state of the bypass hot water valve"},
   "extends" : [
-    "dtmi:com:willowinc:HotWaterValvePositionState;1"
+    "dtmi:com:syyclops:HotWaterValvePositionState;1"
   ],
   "contents": [
   ],

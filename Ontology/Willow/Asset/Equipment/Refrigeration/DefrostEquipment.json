@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:DefrostEquipment;1",
+  "@id": "dtmi:com:syyclops:DefrostEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Defrost Equipment"

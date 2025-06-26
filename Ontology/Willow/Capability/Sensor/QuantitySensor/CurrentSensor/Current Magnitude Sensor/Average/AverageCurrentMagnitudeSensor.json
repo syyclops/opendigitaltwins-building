@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:AverageCurrentMagnitudeSensor;1",
+  "@id": "dtmi:com:syyclops:AverageCurrentMagnitudeSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Average Current Magnitude Sensor"
   },
   "extends" : [
-    "dtmi:com:willowinc:CurrentMagnitudeSensor;1"
+    "dtmi:com:syyclops:CurrentMagnitudeSensor;1"
   ],
   "contents": [
 

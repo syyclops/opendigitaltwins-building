@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OpenAlarmState;1",
+  "@id": "dtmi:com:syyclops:OpenAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Open Alarm State"
   },
   "description": {"en": "The Boolean state of the open alarm which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmState;1"
+    "dtmi:com:syyclops:AlarmState;1"
   ],
   "contents": [
   ],

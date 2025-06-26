@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PreheatLevelActuator;1",
+  "@id": "dtmi:com:syyclops:PreheatLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Preheating Level Actuator"
   },
   "description": {"en": "The percent command which sets the preheat level of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:HeatingLevelActuator;1"
+    "dtmi:com:syyclops:HeatingLevelActuator;1"
   ],
   "contents": [
 

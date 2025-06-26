@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:WaterSourceHeatRecoveryCondensingUnit;1",
+  "@id": "dtmi:com:syyclops:WaterSourceHeatRecoveryCondensingUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Water Source Heat Recovery Condensing Unit"
@@ -8,8 +8,8 @@
     "en": "A type of condensing unit which provides cooling by transferring heat to a water loop and also uses heat recovered from the cooling process to provide heating."
   },
   "extends" : [
-    "dtmi:com:willowinc:HeatRecoveryCondensingUnit;1",
-    "dtmi:com:willowinc:WaterSourceCondensingUnit;1"
+    "dtmi:com:syyclops:HeatRecoveryCondensingUnit;1",
+    "dtmi:com:syyclops:WaterSourceCondensingUnit;1"
   ],
   "contents": [
 

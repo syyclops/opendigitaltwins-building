@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Toilet;1",
+  "@id": "dtmi:com:syyclops:Toilet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Toilet"
   },
   "extends" : [
-    "dtmi:com:willowinc:PlumbingFixture;1"
+    "dtmi:com:syyclops:PlumbingFixture;1"
   ],
   "contents": [
     {

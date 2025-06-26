@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderChilledWaterPumpRunLevelActuator;1",
+  "@id": "dtmi:com:syyclops:HeaderChilledWaterPumpRunLevelActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Chilled Water Pump Run Level Actuator"
   },
   "description": {"en": "The percent command which sets the run level of the chilled water header pump"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterPumpRunLevelActuator;1"
+    "dtmi:com:syyclops:ChilledWaterPumpRunLevelActuator;1"
   ],
   "contents": [
 

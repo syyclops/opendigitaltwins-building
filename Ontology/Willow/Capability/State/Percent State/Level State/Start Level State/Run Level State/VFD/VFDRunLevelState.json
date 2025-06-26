@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:VFDRunLevelState;1",
+  "@id": "dtmi:com:syyclops:VFDRunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "VFD Run Level State"
   },
   "description": {"en": "The percent run level state of the VFD"},
   "extends" : [
-    "dtmi:com:willowinc:RunLevelState;1"
+    "dtmi:com:syyclops:RunLevelState;1"
   ],
   "contents": [
 

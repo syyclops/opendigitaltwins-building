@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TimerSensor;1",
+  "@id": "dtmi:com:syyclops:TimerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Timer Sensor"
   },
   "description": {"en": "The timer feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:TimeSpanSensor;1"
+    "dtmi:com:syyclops:TimeSpanSensor;1"
   ],
   "contents": [
 

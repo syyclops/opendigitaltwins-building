@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ICTWiFiNetworkSystem;1",
+  "@id": "dtmi:com:syyclops:ICTWiFiNetworkSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "WiFi Network System"
   },
   "extends" : [
-    "dtmi:com:willowinc:ICTSystem;1"
+    "dtmi:com:syyclops:ICTSystem;1"
   ],
   "contents": [
   ],

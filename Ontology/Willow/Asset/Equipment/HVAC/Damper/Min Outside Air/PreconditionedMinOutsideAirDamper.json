@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:PreconditionedMinOutsideAirDamper;1",
+  "@id": "dtmi:com:syyclops:PreconditionedMinOutsideAirDamper;1",
   "@type": "Interface",
   "displayName": {
     "en": "Preconditioned Min Outside Air Damper"
@@ -8,7 +8,7 @@
     "en": "A minimum OA damper that is used to control the flow of outside air that has been preconditioned, typically by a DOAS, prior to entering the inlet of an air handling unit or HVAC system."
   },
   "extends" : [
-    "dtmi:com:willowinc:MinOutsideAirDamper;1"
+    "dtmi:com:syyclops:MinOutsideAirDamper;1"
   ],
   "contents": [
   ],

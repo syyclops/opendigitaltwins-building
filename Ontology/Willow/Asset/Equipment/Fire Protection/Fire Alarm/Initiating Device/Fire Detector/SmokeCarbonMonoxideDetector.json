@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SmokeCarbonMonoxideDetector;1",
+  "@id": "dtmi:com:syyclops:SmokeCarbonMonoxideDetector;1",
   "@type": "Interface",
   "displayName": {
     "en": "Smoke and Carbon Monoxide Detector"
   },
   "extends": [
-    "dtmi:com:willowinc:SmokeDetector;1",
-    "dtmi:com:willowinc:CarbonMonoxideDetector;1"
+    "dtmi:com:syyclops:SmokeDetector;1",
+    "dtmi:com:syyclops:CarbonMonoxideDetector;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnFilterAirDeltaPressureSensor;1",
+  "@id": "dtmi:com:syyclops:ReturnFilterAirDeltaPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Filter Air Delta Pressure Sensor"
   },
   "description": {"en": "The delta pressure feedback from a sensor associated with return air filter"},
   "extends" : [
-    "dtmi:com:willowinc:FilterAirDeltaPressureSensor;1"
+    "dtmi:com:syyclops:FilterAirDeltaPressureSensor;1"
   ],
   "contents": [
     

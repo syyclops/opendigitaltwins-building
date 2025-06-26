@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:IceMachine;1",
+  "@id": "dtmi:com:syyclops:IceMachine;1",
   "@type": "Interface",
   "displayName": {
     "en": "Ice Machine"
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodStorageRefrigerationEquipment;1"
+    "dtmi:com:syyclops:FoodStorageRefrigerationEquipment;1"
   ],
   "contents": [
   ],

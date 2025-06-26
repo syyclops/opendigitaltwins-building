@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:HVACZone;1",
+  "@id": "dtmi:com:syyclops:HVACZone;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Zone"
@@ -8,7 +8,7 @@
     "en": "A zone which is conditioned with air from the HVAC system."
   },
   "extends" : [
-    "dtmi:com:willowinc:Zone;1"
+    "dtmi:com:syyclops:Zone;1"
   ],
   "contents": [
     {
@@ -25,7 +25,7 @@
             "en": "Substance"
           },
           "writable": true,
-          "schema": "dtmi:com:willowinc:HVACZoneIsFedBySubstances;1",
+          "schema": "dtmi:com:syyclops:HVACZoneIsFedBySubstances;1",
           "comment": "Terminal Unit, Diffuser"
         }
       ]
@@ -33,7 +33,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:willowinc:HVACZoneIsFedBySubstances;1",
+      "@id": "dtmi:com:syyclops:HVACZoneIsFedBySubstances;1",
       "@type": "Enum",
       "valueSchema": "string",
       "enumValues": [

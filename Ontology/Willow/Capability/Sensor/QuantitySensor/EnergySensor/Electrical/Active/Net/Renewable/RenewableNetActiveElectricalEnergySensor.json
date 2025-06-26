@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RenewableNetActiveElectricalEnergySensor;1",
+  "@id": "dtmi:com:syyclops:RenewableNetActiveElectricalEnergySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Renewable Net Active Electrical Energy Sensor"
   },
   "description": {"en": "The active electrical energy feedback from a sensor associated with renewable net"},
   "extends" : [
-    "dtmi:com:willowinc:TotalNetActiveElectricalEnergySensor;1"
+    "dtmi:com:syyclops:TotalNetActiveElectricalEnergySensor;1"
   ],
   "contents": [
 

@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PreActionSprinklerSystem;1",
+  "@id": "dtmi:com:syyclops:PreActionSprinklerSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pre-Action Sprinkler System"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerSystem;1"
+    "dtmi:com:syyclops:SprinklerSystem;1"
   ],
   "contents": [
   ],

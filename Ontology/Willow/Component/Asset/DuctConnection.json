@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:DuctConnection;1",
+  "@id": "dtmi:com:syyclops:DuctConnection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Duct Connection"
   },
   "extends" : [
-    "dtmi:com:willowinc:AssetComponent;1"
+    "dtmi:com:syyclops:AssetComponent;1"
   ],
   "contents": [
     {

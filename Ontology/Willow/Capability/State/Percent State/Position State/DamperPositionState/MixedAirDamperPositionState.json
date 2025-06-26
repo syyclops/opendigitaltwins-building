@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:MixedAirDamperPositionState;1",
+  "@id": "dtmi:com:syyclops:MixedAirDamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Mixed Air Damper Position State"
   },
   "description": {"en": "The percent position state of the mixed air damper"},
   "extends" : [
-    "dtmi:com:willowinc:DamperPositionState;1"
+    "dtmi:com:syyclops:DamperPositionState;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PreheatCoilLeavingWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:PreheatCoilLeavingWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Preheat Coil Leaving Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with water leaving the preheat coil"},
   "extends" : [
-    "dtmi:com:willowinc:CoilLeavingWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:CoilLeavingWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

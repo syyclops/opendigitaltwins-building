@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReducedVoltageMotorStarter;1",
+  "@id": "dtmi:com:syyclops:ReducedVoltageMotorStarter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Reduced Voltage Motor Starter"
   },
   "extends" : [
-    "dtmi:com:willowinc:MotorStarter;1"
+    "dtmi:com:syyclops:MotorStarter;1"
   ],
   "contents": [
   ],

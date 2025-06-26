@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SteamMeter;1",
+  "@id": "dtmi:com:syyclops:SteamMeter;1",
   "@type": "Interface",
   "displayName": {
     "en": "Steam Meter"
   },
   "extends" : [
-    "dtmi:com:willowinc:ThermalMeter;1"
+    "dtmi:com:syyclops:ThermalMeter;1"
   ],
   "contents": [
     

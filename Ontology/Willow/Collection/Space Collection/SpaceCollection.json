@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SpaceCollection;1",
+  "@id": "dtmi:com:syyclops:SpaceCollection;1",
   "@type": "Interface",
   "displayName": {
     "en": "Space Collection"
   },
   "extends" : [
-    "dtmi:com:willowinc:Collection;1"
+    "dtmi:com:syyclops:Collection;1"
   ],
   "contents": [
     {

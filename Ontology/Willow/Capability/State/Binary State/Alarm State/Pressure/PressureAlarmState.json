@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PressureAlarmState;1",
+  "@id": "dtmi:com:syyclops:PressureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pressure Alarm State"
   },
   "description": {"en": "The Boolean state of the pressure alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:AlarmState;1"
+    "dtmi:com:syyclops:AlarmState;1"
   ],
   "contents": [
 

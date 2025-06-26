@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StorageEquipment;1",
+  "@id": "dtmi:com:syyclops:StorageEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Storage Equipment"
   },
   "extends" : [
-    "dtmi:com:willowinc:MaterialHandlingEquipment;1"
+    "dtmi:com:syyclops:MaterialHandlingEquipment;1"
   ],
   "contents": [
   ],

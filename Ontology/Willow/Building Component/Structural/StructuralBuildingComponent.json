@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:StructuralBuildingComponent;1",
+  "@id": "dtmi:com:syyclops:StructuralBuildingComponent;1",
   "@type": "Interface",
   "displayName": {
     "en": "Structural Building Component"
   },
   "extends" : [
-    "dtmi:com:willowinc:BuildingComponent;1"
+    "dtmi:com:syyclops:BuildingComponent;1"
   ],
   "contents": [
     

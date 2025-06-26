@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ConductivitySensor;1",
+  "@id": "dtmi:com:syyclops:ConductivitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Conductivity Sensor"
   },
   "description": {"en": "The conductivity feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

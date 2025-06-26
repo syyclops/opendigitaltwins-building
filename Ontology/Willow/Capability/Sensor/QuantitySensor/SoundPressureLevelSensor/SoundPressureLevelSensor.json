@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:SoundPressureLevelSensor;1",
+  "@id": "dtmi:com:syyclops:SoundPressureLevelSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sound Pressure Level Sensor"
   },
   "description": {"en": "The sound pressure level feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:QuantitySensor;1"
+    "dtmi:com:syyclops:QuantitySensor;1"
   ],
   "contents": [
 

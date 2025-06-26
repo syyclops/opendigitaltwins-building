@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Generator;1",
+  "@id": "dtmi:com:syyclops:Generator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Generator"
   },
   "extends" : [
-    "dtmi:com:willowinc:ElectricalGenerationStorageEquipment;1"
+    "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1"
   ],
   "contents": [
     {

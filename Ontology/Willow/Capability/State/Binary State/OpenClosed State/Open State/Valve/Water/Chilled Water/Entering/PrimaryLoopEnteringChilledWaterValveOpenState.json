@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopEnteringChilledWaterValveOpenState;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopEnteringChilledWaterValveOpenState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Entering Chilled Water Valve Open State"
   },
   "description": {"en": "The Boolean state of the primary loop entering chilled water valve which is 'open' when 'true'"},
   "extends" : [
-    "dtmi:com:willowinc:EnteringChilledWaterValveOpenState;1"
+    "dtmi:com:syyclops:EnteringChilledWaterValveOpenState;1"
   ],
   "contents": [
 

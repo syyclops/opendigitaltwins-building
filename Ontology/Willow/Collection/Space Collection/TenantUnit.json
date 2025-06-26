@@ -1,17 +1,17 @@
 {
-  "@id": "dtmi:com:willowinc:TenantUnit;1",
+  "@id": "dtmi:com:syyclops:TenantUnit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Tenant Unit"
   },
   "extends" : [
-    "dtmi:com:willowinc:SpaceCollection;1"
+    "dtmi:com:syyclops:SpaceCollection;1"
   ],
   "contents": [
     {
       "@type": "Relationship",
       "name": "hasLease",
-      "target": "dtmi:com:willowinc:Lease;1"
+      "target": "dtmi:com:syyclops:Lease;1"
     },
     {
       "@type": "Component",
@@ -19,7 +19,7 @@
         "en": "address"
       },
       "name": "address",
-      "schema": "dtmi:com:willowinc:Address;1"
+      "schema": "dtmi:com:syyclops:Address;1"
     },
     {
       "@type": "Component",
@@ -27,7 +27,7 @@
         "en": "Electricity Price Rate"
       },
       "name": "electricityPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -35,7 +35,7 @@
         "en": "Electricity Emission Factor"
       },
       "name": "electricityEmissionFactor",
-      "schema": "dtmi:com:willowinc:UtilityEmissionFactor;1"
+      "schema": "dtmi:com:syyclops:UtilityEmissionFactor;1"
     },
     {
       "@type": "Component",
@@ -43,7 +43,7 @@
         "en": "Natural Gas Price Rate"
       },
       "name": "naturalGasPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -51,7 +51,7 @@
         "en": "Chilled Water Price Rate"
       },
       "name": "chilledWaterPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -59,7 +59,7 @@
         "en": "Steam Price Rate"
       },
       "name": "steamPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -67,7 +67,7 @@
         "en": "Domestic Water Price Rate"
       },
       "name": "domesticWaterPriceRate",
-      "schema": "dtmi:com:willowinc:UtilityRate;1"
+      "schema": "dtmi:com:syyclops:UtilityRate;1"
     },
     {
       "@type": "Component",
@@ -75,7 +75,7 @@
       "displayName": {
         "en": "Area"
       },
-      "schema": "dtmi:com:willowinc:SpaceArea;1"
+      "schema": "dtmi:com:syyclops:SpaceArea;1"
     },
     {
       "@type": "Component",
@@ -83,7 +83,7 @@
       "displayName": {
         "en": "Capacity"
       },
-      "schema": "dtmi:com:willowinc:SpaceCapacity;1"
+      "schema": "dtmi:com:syyclops:SpaceCapacity;1"
     },
     {
       "@type": "Component",
@@ -91,7 +91,7 @@
       "displayName": {
         "en": "Temperature"
       },
-      "schema": "dtmi:com:willowinc:SpaceTemperature;1"
+      "schema": "dtmi:com:syyclops:SpaceTemperature;1"
     },
     {
       "@type": "Component",
@@ -99,7 +99,7 @@
       "displayName": {
         "en": "Humidity Average"
       },
-      "schema": "dtmi:com:willowinc:SpaceHumidity;1"
+      "schema": "dtmi:com:syyclops:SpaceHumidity;1"
     },
     {
       "@type": "Component",
@@ -107,7 +107,7 @@
       "displayName": {
         "en": "CO2"
       },
-      "schema": "dtmi:com:willowinc:SpaceCO2;1"
+      "schema": "dtmi:com:syyclops:SpaceCO2;1"
     },
     {
       "@type": "Component",
@@ -115,7 +115,7 @@
       "displayName": {
         "en": "Occupancy"
       },
-      "schema": "dtmi:com:willowinc:SpaceOccupancy;1"
+      "schema": "dtmi:com:syyclops:SpaceOccupancy;1"
     }
   ],
   "@context": [

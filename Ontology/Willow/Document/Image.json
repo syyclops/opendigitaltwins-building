@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:Image;1",
+  "@id": "dtmi:com:syyclops:Image;1",
   "@type": "Interface",
   "displayName": {
     "en": "Image"
   },
   "extends" : [
-    "dtmi:com:willowinc:Document;1"
+    "dtmi:com:syyclops:Document;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:StandbyHeatingSetpoint;1",
+  "@id": "dtmi:com:syyclops:StandbyHeatingSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "Standby Heating Setpoint"
   },
   "description": {"en": "The desired value associated with standby heating temperature"},
   "extends" : [
-    "dtmi:com:willowinc:AirTemperatureSetpoint;1"
+    "dtmi:com:syyclops:AirTemperatureSetpoint;1"
   ],
   "contents": [
   ],

@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighReliefAirHumidityAlarmSetpoint;1",
+  "@id": "dtmi:com:syyclops:HighReliefAirHumidityAlarmSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Relief Air Humidity Alarm Setpoint"
   },
   "description": {"en": "The setpoint that must be exceeded to trigger the high relief air humidity alarm"},
   "extends" : [
-    "dtmi:com:willowinc:HighAirHumidityAlarmSetpoint;1"
+    "dtmi:com:syyclops:HighAirHumidityAlarmSetpoint;1"
   ],
   "contents": [
 

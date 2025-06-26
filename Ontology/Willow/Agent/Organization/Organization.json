@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Organization;1",
+  "@id": "dtmi:com:syyclops:Organization;1",
   "@type": "Interface",
   "displayName": {
     "en": "Organization"
@@ -8,7 +8,7 @@
     "en": "An organization of any sort (e.g., a business, association, project, consortium, tribe, etc.)"
   },
   "extends" : [
-    "dtmi:com:willowinc:Agent;1"
+    "dtmi:com:syyclops:Agent;1"
   ],
   "contents": [
     {
@@ -32,7 +32,7 @@
         "en": "is part of"
       },
       "name": "isPartOf",
-      "target": "dtmi:com:willowinc:Organization;1"
+      "target": "dtmi:com:syyclops:Organization;1"
     }
   ],
   "@context": [

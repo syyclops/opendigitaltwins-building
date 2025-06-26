@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerBackflowPreventer;1",
+  "@id": "dtmi:com:syyclops:SprinklerBackflowPreventer;1",
   "@type": "Interface",
   "displayName": {
     "en": "Backflow Preventer (Sprinkler)"
   },
   "extends" : [
-    "dtmi:com:willowinc:SprinklerValve;1"
+    "dtmi:com:syyclops:SprinklerValve;1"
   ],
   "contents": [
   ],

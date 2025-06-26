@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:NeutralCurrentMagnitudeSensor;1",
+  "@id": "dtmi:com:syyclops:NeutralCurrentMagnitudeSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Neutral Current Magnitude Sensor"
   },
   "description": {"en": "The current imbalance feedback from a sensor associated with neutral"},
   "extends" : [
-    "dtmi:com:willowinc:CurrentMagnitudeSensor;1"
+    "dtmi:com:syyclops:CurrentMagnitudeSensor;1"
   ],
   "contents": [
 

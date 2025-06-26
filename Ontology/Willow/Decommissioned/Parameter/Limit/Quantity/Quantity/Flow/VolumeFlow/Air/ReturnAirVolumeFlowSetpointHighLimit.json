@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirVolumeFlowSetpointHighLimit;1",
+  "@id": "dtmi:com:syyclops:ReturnAirVolumeFlowSetpointHighLimit;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Volume Flow Setpoint High Limit"
   },
   "description": {"en": "The high limit associated with return air volume flow setpoint"},
   "extends" : [
-    "dtmi:com:willowinc:AirVolumeFlowSetpointHighLimit;1"
+    "dtmi:com:syyclops:AirVolumeFlowSetpointHighLimit;1"
   ],
   "contents": [
     

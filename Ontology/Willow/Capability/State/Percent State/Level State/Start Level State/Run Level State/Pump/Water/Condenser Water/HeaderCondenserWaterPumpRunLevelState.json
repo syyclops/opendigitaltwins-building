@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HeaderCondenserWaterPumpRunLevelState;1",
+  "@id": "dtmi:com:syyclops:HeaderCondenserWaterPumpRunLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Header Condenser Water Pump Run Level State"
   },
   "description": {"en": "The percent run level state of the condenser water header pump"},
   "extends" : [
-    "dtmi:com:willowinc:CondenserWaterPumpRunLevelState;1"
+    "dtmi:com:syyclops:CondenserWaterPumpRunLevelState;1"
   ],
   "contents": [
 

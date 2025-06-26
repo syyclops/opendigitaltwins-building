@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:SprinklerSystem;1",
+  "@id": "dtmi:com:syyclops:SprinklerSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "Sprinkler System"
   },
   "extends" : [
-    "dtmi:com:willowinc:FireSuppressionSystem;1"
+    "dtmi:com:syyclops:FireSuppressionSystem;1"
   ],
   "contents": [
   ],

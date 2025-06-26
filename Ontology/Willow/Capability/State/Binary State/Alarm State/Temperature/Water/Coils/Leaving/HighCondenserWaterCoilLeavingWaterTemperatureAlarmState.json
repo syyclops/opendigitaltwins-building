@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:HighCondenserWaterCoilLeavingWaterTemperatureAlarmState;1",
+  "@id": "dtmi:com:syyclops:HighCondenserWaterCoilLeavingWaterTemperatureAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "High Condenser Water Coil Leaving Water Temperature Alarm State"
   },
   "description": {"en": "The Boolean state of the alarm associated with high the water leaving the condenser water coil temperature which is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:HighCoilLeavingWaterTemperatureAlarmState;1"
+    "dtmi:com:syyclops:HighCoilLeavingWaterTemperatureAlarmState;1"
   ],
   "contents": [
   ],

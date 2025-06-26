@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:OutdoorLuminaire;1",
+  "@id": "dtmi:com:syyclops:OutdoorLuminaire;1",
   "@type": "Interface",
   "displayName": {
     "en": "Outdoor Luminaire"
   },
   "extends" : [
-    "dtmi:com:willowinc:Luminaire;1"
+    "dtmi:com:syyclops:Luminaire;1"
   ],
   "contents": [
 

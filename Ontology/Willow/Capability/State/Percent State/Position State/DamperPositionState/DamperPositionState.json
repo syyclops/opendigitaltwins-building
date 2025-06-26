@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:DamperPositionState;1",
+  "@id": "dtmi:com:syyclops:DamperPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Damper Position State"
   },
   "description": {"en": "The percent position state of the damper"},
   "extends" : [
-    "dtmi:com:willowinc:PositionState;1"
+    "dtmi:com:syyclops:PositionState;1"
   ],
   "contents": [
   ],

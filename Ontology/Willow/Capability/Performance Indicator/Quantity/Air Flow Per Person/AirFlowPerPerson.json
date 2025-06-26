@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:AirFlowPerPerson;1",
+  "@id": "dtmi:com:syyclops:AirFlowPerPerson;1",
   "@type": "Interface",
   "displayName": {
     "en": "Air Flow Per Person"
@@ -8,7 +8,7 @@
     "en": "A performance indicator which has values that are a volumetric air flow per person quantity (i.e. CFM/person, LPS/person, CMH/person)."
   },
   "extends" : [
-    "dtmi:com:willowinc:QuantityPerformanceIndicator;1"
+    "dtmi:com:syyclops:QuantityPerformanceIndicator;1"
   ],
   "contents": [
 

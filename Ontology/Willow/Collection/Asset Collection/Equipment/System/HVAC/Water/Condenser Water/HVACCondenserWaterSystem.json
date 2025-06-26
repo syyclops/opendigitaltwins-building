@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACCondenserWaterSystem;1",
+  "@id": "dtmi:com:syyclops:HVACCondenserWaterSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Condenser Water System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACWaterSystem;1"
+    "dtmi:com:syyclops:HVACWaterSystem;1"
   ],
   "contents": [
   ],

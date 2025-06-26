@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PeopleMotionSetpoint;1",
+  "@id": "dtmi:com:syyclops:PeopleMotionSetpoint;1",
   "@type": "Interface",
   "displayName": {
     "en": "People Motion Setpoint"
   },
   "extends" : [
-    "dtmi:com:willowinc:MotionSetpoint;1"
+    "dtmi:com:syyclops:MotionSetpoint;1"
   ],
   "contents": [
     

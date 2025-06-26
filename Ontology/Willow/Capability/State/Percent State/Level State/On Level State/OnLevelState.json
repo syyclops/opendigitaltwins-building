@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OnLevelState;1",
+  "@id": "dtmi:com:syyclops:OnLevelState;1",
   "@type": "Interface",
   "displayName": {
     "en": "On Level State"
   },
   "description": {"en": "The percent 'on' level state of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:LevelState;1"
+    "dtmi:com:syyclops:LevelState;1"
   ],
   "contents": [
   ],

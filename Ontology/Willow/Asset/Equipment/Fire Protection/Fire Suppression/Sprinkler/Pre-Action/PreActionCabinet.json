@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:PreActionCabinet;1",
+  "@id": "dtmi:com:syyclops:PreActionCabinet;1",
   "@type": "Interface",
   "displayName": {
     "en": "Pre-Action Cabinet"
   },
   "extends" : [
-    "dtmi:com:willowinc:PreActionEquipment;1"
+    "dtmi:com:syyclops:PreActionEquipment;1"
   ],
   "contents": [
 

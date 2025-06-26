@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACSupplyAirSystem;1",
+  "@id": "dtmi:com:syyclops:HVACSupplyAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Supply Air System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACConditionedAirSystem;1"
+    "dtmi:com:syyclops:HVACConditionedAirSystem;1"
   ],
   "contents": [
   ],

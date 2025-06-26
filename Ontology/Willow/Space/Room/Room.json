@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:Room;1",
+  "@id": "dtmi:com:syyclops:Room;1",
   "@type": "Interface",
   "displayName": {
     "en": "Room"
@@ -8,7 +8,7 @@
     "en": "A portion of space within a building that's usually enclosed and has its own walls, floor, and ceiling."
   },
   "extends" : [
-    "dtmi:com:willowinc:Space;1"
+    "dtmi:com:syyclops:Space;1"
   ],
   "contents": [
     {

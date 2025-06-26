@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:GreaseInterceptor;1",
+  "@id": "dtmi:com:syyclops:GreaseInterceptor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Grease Interceptor"
   },
   "extends" : [
-    "dtmi:com:willowinc:FatsOilsGreaseDisposal;1"
+    "dtmi:com:syyclops:FatsOilsGreaseDisposal;1"
   ],
   "contents": [
     

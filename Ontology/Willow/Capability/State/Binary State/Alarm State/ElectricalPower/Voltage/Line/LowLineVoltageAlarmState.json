@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:LowLineVoltageAlarmState;1",
+  "@id": "dtmi:com:syyclops:LowLineVoltageAlarmState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Low Line Voltage Alarm State"
   },
   "description": {"en": "The Boolean state of the low line (input) voltage alarm is 'alarm' when 'true' and 'normal' when 'false'"},
   "extends" : [
-    "dtmi:com:willowinc:LowVoltageAlarmState;1"
+    "dtmi:com:syyclops:LowVoltageAlarmState;1"
   ],
   "contents": [
 

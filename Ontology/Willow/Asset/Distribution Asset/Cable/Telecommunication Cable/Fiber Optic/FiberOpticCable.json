@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:FiberOpticCable;1",
+  "@id": "dtmi:com:syyclops:FiberOpticCable;1",
   "@type": "Interface",
   "displayName": {
     "en": "Fiber Optic Cable"
   },
   "extends" : [
-    "dtmi:com:willowinc:TelecommunicationCable;1"
+    "dtmi:com:syyclops:TelecommunicationCable;1"
   ],
   "contents": [
     {

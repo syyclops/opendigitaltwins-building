@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:PrimaryLoopLeavingHotWaterValvePositionActuator;1",
+  "@id": "dtmi:com:syyclops:PrimaryLoopLeavingHotWaterValvePositionActuator;1",
   "@type": "Interface",
   "displayName": {
     "en": "Primary Loop Leaving Hot Water Valve Position Actuator"
   },
   "description": {"en": "The percent command which sets the position of the primary loop leaving hot water valve"},
   "extends" : [
-    "dtmi:com:willowinc:LeavingHotWaterValvePositionActuator;1"
+    "dtmi:com:syyclops:LeavingHotWaterValvePositionActuator;1"
   ],
   "contents": [
   ],

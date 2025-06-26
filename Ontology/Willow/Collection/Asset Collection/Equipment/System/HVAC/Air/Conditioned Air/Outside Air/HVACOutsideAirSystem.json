@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:HVACOutsideAirSystem;1",
+  "@id": "dtmi:com:syyclops:HVACOutsideAirSystem;1",
   "@type": "Interface",
   "displayName": {
     "en": "HVAC Outside Air System"
   },
   "extends" : [
-    "dtmi:com:willowinc:HVACConditionedAirSystem;1"
+    "dtmi:com:syyclops:HVACConditionedAirSystem;1"
   ],
   "contents": [
   ],

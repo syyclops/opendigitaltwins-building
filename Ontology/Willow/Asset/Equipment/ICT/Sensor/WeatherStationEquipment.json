@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:WeatherStationEquipment;1",
+  "@id": "dtmi:com:syyclops:WeatherStationEquipment;1",
   "@type": "Interface",
   "displayName": {
     "en": "Weather Station"
   },
   "extends" : [
-    "dtmi:com:willowinc:SensorEquipment;1"
+    "dtmi:com:syyclops:SensorEquipment;1"
   ],
   "contents": [
   ],

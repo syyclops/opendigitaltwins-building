@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:TotalActiveElectricalPowerSensor;1",
+  "@id": "dtmi:com:syyclops:TotalActiveElectricalPowerSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Total Active Electrical Power Sensor"
   },
   "description": {"en": "The active electrical power feedback from a sensor associated with total"},
   "extends" : [
-    "dtmi:com:willowinc:ActiveElectricalPowerSensor;1"
+    "dtmi:com:syyclops:ActiveElectricalPowerSensor;1"
   ],
   "contents": [
 

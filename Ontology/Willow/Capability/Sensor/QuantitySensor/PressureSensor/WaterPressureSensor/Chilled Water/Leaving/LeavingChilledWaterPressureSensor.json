@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:LeavingChilledWaterPressureSensor;1",
+  "@id": "dtmi:com:syyclops:LeavingChilledWaterPressureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Leaving Chilled Water Pressure Sensor"
   },
   "description": {"en": "The pressure feedback from a sensor associated with leaving chilled water"},
   "extends" : [
-    "dtmi:com:willowinc:ChilledWaterPressureSensor;1",
-    "dtmi:com:willowinc:LeavingWaterPressureSensor;1"
+    "dtmi:com:syyclops:ChilledWaterPressureSensor;1",
+    "dtmi:com:syyclops:LeavingWaterPressureSensor;1"
   ],
   "contents": [
   ],

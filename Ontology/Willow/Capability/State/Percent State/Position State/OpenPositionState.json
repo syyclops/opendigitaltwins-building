@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:OpenPositionState;1",
+  "@id": "dtmi:com:syyclops:OpenPositionState;1",
   "@type": "Interface",
   "displayName": {
     "en": "Open Position State"
   },
   "description": {"en": "The percent open position state of the equipment"},
   "extends" : [
-    "dtmi:com:willowinc:PositionState;1"
+    "dtmi:com:syyclops:PositionState;1"
   ],
   "contents": [
   ],

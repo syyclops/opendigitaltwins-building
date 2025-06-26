@@ -1,12 +1,12 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigerantAirQualitySensor;1",
+  "@id": "dtmi:com:syyclops:RefrigerantAirQualitySensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigerant Air Quality Sensor"
   },
   "description": {"en": "The refrigerant (R23, R134a, R410a, etc.) air quality feedback from a sensor"},
   "extends" : [
-    "dtmi:com:willowinc:AirQualitySensor;1"
+    "dtmi:com:syyclops:AirQualitySensor;1"
   ],
   "contents": [
 

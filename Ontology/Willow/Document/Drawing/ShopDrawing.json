@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ShopDrawing;1",
+  "@id": "dtmi:com:syyclops:ShopDrawing;1",
   "@type": "Interface",
   "displayName": {
     "en": "Shop Drawing"
   },
   "extends" : [
-    "dtmi:com:willowinc:Drawing;1"
+    "dtmi:com:syyclops:Drawing;1"
   ],
   "contents": [
   ],

@@ -1,13 +1,13 @@
 {
-  "@id": "dtmi:com:willowinc:CoilEnteringWaterTemperatureSensor;1",
+  "@id": "dtmi:com:syyclops:CoilEnteringWaterTemperatureSensor;1",
   "@type": "Interface",
   "displayName": {
     "en": "Coil Entering Water Temperature Sensor"
   },
   "description": {"en": "The temperature feedback from a sensor associated with water entering the coil"},
   "extends" : [
-    "dtmi:com:willowinc:WaterTemperatureSensor;1",
-    "dtmi:com:willowinc:EnteringWaterTemperatureSensor;1"
+    "dtmi:com:syyclops:WaterTemperatureSensor;1",
+    "dtmi:com:syyclops:EnteringWaterTemperatureSensor;1"
   ],
   "contents": [
   ],

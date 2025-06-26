@@ -1,11 +1,11 @@
 {
-  "@id": "dtmi:com:willowinc:ReturnAirRegister;1",
+  "@id": "dtmi:com:syyclops:ReturnAirRegister;1",
   "@type": "Interface",
   "displayName": {
     "en": "Return Air Register"
   },
   "extends" : [
-    "dtmi:com:willowinc:AirRegister;1"
+    "dtmi:com:syyclops:AirRegister;1"
   ],
   "contents": [
 

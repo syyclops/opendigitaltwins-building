@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:com:willowinc:RefrigeratedFoodDisplayCase;1",
+  "@id": "dtmi:com:syyclops:RefrigeratedFoodDisplayCase;1",
   "@type": "Interface",
   "displayName": {
     "en": "Refrigerated Food Display Case"
@@ -8,8 +8,8 @@
     "en": "A food display case used for foods required to be refrigerated to either low- or medium-temperatures."
   },
   "extends" : [
-    "dtmi:com:willowinc:FoodDisplayCase;1",
-    "dtmi:com:willowinc:DefrostEquipment;1"
+    "dtmi:com:syyclops:FoodDisplayCase;1",
+    "dtmi:com:syyclops:DefrostEquipment;1"
   ],
   "contents": [
     {
@@ -18,7 +18,7 @@
         "en": "Evaporator Fan"
       },
       "name": "evaporatorFan",
-      "schema": "dtmi:com:willowinc:Fan;1"
+      "schema": "dtmi:com:syyclops:Fan;1"
     }
   ],
   "@context": [
