@@ -1,0 +1,22 @@
+{
+  "name": "@syyclops/dtdl-converter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convert DTDL ontologies to SQL by scanning the Ontology directory structure",
+  "main": "src/dtdl-to-sql.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/dtdl-to-sql.ts"
+  },
+  "dependencies": {
+    "slugify": "^1.6.6",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
