@@ -78,17 +78,6 @@
       "@id": "dtmi:com:syyclops:ElectricalPanelboard:mainBus;1"
     },
     {
-      "@type": "Relationship",
-      "name": "hasCircuits",
-      "displayName": {
-        "en": "Has circuits"
-      },
-      "description": {
-        "en": "The circuit breakers contained within this panelboard."
-      },
-      "target": "dtmi:com:syyclops:CircuitBreaker;1"
-    },
-    {
       "@type": "Property",
       "name": "inputPhases",
       "displayName": {
