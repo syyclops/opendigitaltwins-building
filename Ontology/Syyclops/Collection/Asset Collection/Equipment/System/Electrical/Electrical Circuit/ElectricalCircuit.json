@@ -102,7 +102,7 @@
       },
       "writable": true,
       "schema": "integer",
-      "comment": "Optional property. Represents the physical position in the panel schedule.",
+      "comment": "Represents the physical position in the panel schedule.",
       "@id": "dtmi:com:syyclops:ElectricalCircuit:panelboardStartPosition;1"
     },
     {
