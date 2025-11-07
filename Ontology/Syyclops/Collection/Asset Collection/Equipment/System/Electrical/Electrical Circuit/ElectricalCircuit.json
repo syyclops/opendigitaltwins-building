@@ -93,6 +93,20 @@
     },
     {
       "@type": "Property",
+      "name": "panelboardStartPosition",
+      "displayName": {
+        "en": "Panelboard Start Position"
+      },
+      "description": {
+        "en": "The first pole position occupied by this circuit in the panelboard (1-based index, typically 1-42 for standard panels). For multi-pole circuits, this indicates the starting position."
+      },
+      "writable": true,
+      "schema": "integer",
+      "comment": "Represents the physical position in the panel schedule.",
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:panelboardStartPosition;1"
+    },
+    {
+      "@type": "Property",
       "name": "loadClassification",
       "displayName": {
         "en": "Load Classification"
