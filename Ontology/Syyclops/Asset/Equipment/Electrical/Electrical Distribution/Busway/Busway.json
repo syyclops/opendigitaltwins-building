@@ -16,7 +16,10 @@
       "name": "shortCircuitRating",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Busway:shortCircuitRating;1"
+      "@id": "dtmi:com:syyclops:Busway:shortCircuitRating;1",
+      "description": {
+        "en": "Indicates the short circuit rating for the busway to ensure electrical safety."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Busway:inputVoltage;1"
+      "@id": "dtmi:com:syyclops:Busway:inputVoltage;1",
+      "description": {
+        "en": "Specifies the input voltage required for the busway's operation."
+      }
     },
     {
       "@type": "Property",
@@ -56,7 +62,10 @@
         "@id": "dtmi:com:syyclops:Busway:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Busway:inputPhases;1"
+      "@id": "dtmi:com:syyclops:Busway:inputPhases;1",
+      "description": {
+        "en": "Defines the number of input phases supported by the busway."
+      }
     },
     {
       "@type": "Component",
@@ -65,11 +74,17 @@
       },
       "name": "mainBus",
       "schema": "dtmi:com:syyclops:ElectricalBus;1",
-      "@id": "dtmi:com:syyclops:Busway:mainBus;1"
+      "@id": "dtmi:com:syyclops:Busway:mainBus;1",
+      "description": {
+        "en": "Component representing the main bus within the busway system for conducting electricity."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining the specifications and properties of a busway used in electrical distribution."
+  }
 }

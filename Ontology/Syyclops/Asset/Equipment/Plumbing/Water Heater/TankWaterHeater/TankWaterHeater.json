@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TankWaterHeater:tankCapacity;1"
+      "@id": "dtmi:com:syyclops:TankWaterHeater:tankCapacity;1",
+      "description": {
+        "en": "Specifies the tank capacity of the water heater for effective hot water management."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TankWaterHeater:tankCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:TankWaterHeater:tankCapacityUnit;1",
+      "description": {
+        "en": "Defines the measurement unit for the tank capacity of the water heater."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for tank water heaters, which provide a storage solution for hot water."
+  }
 }

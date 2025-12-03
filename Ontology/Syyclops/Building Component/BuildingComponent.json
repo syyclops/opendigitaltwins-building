@@ -42,7 +42,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:BuildingComponent:hasDocument;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:hasDocument;1",
+      "description": {
+        "en": "The 'hasDocument' relationship connects a Building Component to its associated Document for detailed specifications."
+      }
     },
     {
       "@type": "Relationship",
@@ -63,7 +66,10 @@
         "en": "included in"
       },
       "target": "dtmi:com:syyclops:Collection;1",
-      "@id": "dtmi:com:syyclops:BuildingComponent:includedIn;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:includedIn;1",
+      "description": {
+        "en": "The 'includedIn' relationship indicates the organizational structure of a Building Component within a Collection."
+      }
     },
     {
       "@type": "Relationship",
@@ -72,7 +78,10 @@
       },
       "name": "locatedIn",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:BuildingComponent:locatedIn;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:locatedIn;1",
+      "description": {
+        "en": "The 'locatedIn' relationship specifies the spatial context of a Building Component within a defined Space."
+      }
     },
     {
       "@type": "Relationship",
@@ -91,7 +100,10 @@
           "schema": "dtmi:com:syyclops:BuildingComponentIsFedBySubstances;1"
         }
       ],
-      "@id": "dtmi:com:syyclops:BuildingComponent:isFedBy;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:isFedBy;1",
+      "description": {
+        "en": "The 'isFedBy' relationship denotes the source or supply chain for a Building Component within the system."
+      }
     },
     {
       "@type": "Property",
@@ -114,7 +126,10 @@
         "@id": "dtmi:com:syyclops:BuildingComponent:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:BuildingComponent:customTags;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:customTags;1",
+      "description": {
+        "en": "A property defining custom tags associated with the building component for enhanced metadata categorization."
+      }
     },
     {
       "@type": "Property",
@@ -137,7 +152,10 @@
         "@id": "dtmi:com:syyclops:BuildingComponent:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:BuildingComponent:externalIds;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:externalIds;1",
+      "description": {
+        "en": "A property holding external identifiers linked to the building component for cross-reference with external systems."
+      }
     },
     {
       "@type": "Property",
@@ -151,7 +169,10 @@
         "elementSchema": "dtmi:com:syyclops:BuildingComponentMappedIdObject;1",
         "@id": "dtmi:com:syyclops:BuildingComponent:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:BuildingComponent:mappedIds;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:mappedIds;1",
+      "description": {
+        "en": "A property that stores mapped identifiers for the building component, facilitating integration with other datasets."
+      }
     },
     {
       "@type": "Property",
@@ -161,7 +182,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BuildingComponent:name;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:name;1",
+      "description": {
+        "en": "A property representing the name of the building component for identification and display purposes."
+      }
     },
     {
       "@type": "Property",
@@ -172,7 +196,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for geometry rendering (i.e. ForgeViewerID)",
-      "@id": "dtmi:com:syyclops:BuildingComponent:geometryViewerID;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:geometryViewerID;1",
+      "description": {
+        "en": "A property indicating the ID used to visualize the geometry of the building component."
+      }
     },
     {
       "@type": "Property",
@@ -183,7 +210,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for displaying in spatial context",
-      "@id": "dtmi:com:syyclops:BuildingComponent:geometrySpatialReference;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:geometrySpatialReference;1",
+      "description": {
+        "en": "A property specifying the spatial reference used for the geometry of the building component."
+      }
     },
     {
       "@type": "Property",
@@ -194,7 +224,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference to geometry source (i.e. Revit GUID)",
-      "@id": "dtmi:com:syyclops:BuildingComponent:geometryExternalID;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:geometryExternalID;1",
+      "description": {
+        "en": "A property holding the external ID related to the geometry of the building component."
+      }
     },
     {
       "@type": "Property",
@@ -204,7 +237,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:BuildingComponent:uniqueID;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:uniqueID;1",
+      "description": {
+        "en": "A property containing a unique identifier for the building component to ensure distinct identification."
+      }
     },
     {
       "@type": "Property",
@@ -214,7 +250,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:BuildingComponent:externalID;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:externalID;1",
+      "description": {
+        "en": "A property representing an external ID for the building component, allowing integration with external entities."
+      }
     },
     {
       "@type": "Property",
@@ -224,7 +263,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:BuildingComponent:description;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:description;1",
+      "description": {
+        "en": "A property providing a textual description of the building component to elaborate its features and purpose."
+      }
     },
     {
       "@type": "Property",
@@ -234,7 +276,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:BuildingComponent:siteID;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:siteID;1",
+      "description": {
+        "en": "A property specifying the ID of the site where the building component is located."
+      }
     },
     {
       "@type": "Property",
@@ -297,7 +342,10 @@
         ],
         "@id": "dtmi:com:syyclops:BuildingComponent:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:BuildingComponent:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:alternateClassification;1",
+      "description": {
+        "en": "A property indicating alternative classification schemes for the building component beyond the primary classification."
+      }
     },
     {
       "@type": "Property",
@@ -332,7 +380,10 @@
         },
         "@id": "dtmi:com:syyclops:BuildingComponent:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:BuildingComponent:customProperties;1"
+      "@id": "dtmi:com:syyclops:BuildingComponent:customProperties;1",
+      "description": {
+        "en": "A property allowing the specification of custom properties associated with the building component."
+      }
     }
   ],
   "schemas": [
@@ -344,177 +395,282 @@
         {
           "enumValue": "MakeupWater",
           "name": "MakeupWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:MakeupWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:MakeupWater;1",
+          "description": {
+            "en": "An enum value representing makeup water as a resource category within the building component's schema."
+          }
         },
         {
           "enumValue": "Light",
           "name": "Light",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Light;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Light;1",
+          "description": {
+            "en": "An enum value denoting light as a resource category relevant to the building component's operations."
+          }
         },
         {
           "enumValue": "IrrigationWater",
           "name": "IrrigationWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:IrrigationWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:IrrigationWater;1",
+          "description": {
+            "en": "An enum value indicating irrigation water as a specific resource category for the building component."
+          }
         },
         {
           "enumValue": "HotWater",
           "name": "HotWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:HotWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:HotWater;1",
+          "description": {
+            "en": "An enum value representing hot water as a resource category pertaining to the building component."
+          }
         },
         {
           "enumValue": "HotDomesticWater",
           "name": "HotDomesticWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:HotDomesticWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:HotDomesticWater;1",
+          "description": {
+            "en": "An enum value signifying hot domestic water as a resource category associated with the building component."
+          }
         },
         {
           "enumValue": "GreaseExhaustAir",
           "name": "GreaseExhaustAir",
-          "@id": "dtmi:com:syyclops:BuildingComponent:GreaseExhaustAir;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:GreaseExhaustAir;1",
+          "description": {
+            "en": "An enum value indicating grease exhaust air as a relevant resource category for the building component."
+          }
         },
         {
           "enumValue": "Gasoline",
           "name": "Gasoline",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Gasoline;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Gasoline;1",
+          "description": {
+            "en": "An enum value representing gasoline as a resource category pertinent to the building component."
+          }
         },
         {
           "enumValue": "FuelOil",
           "name": "FuelOil",
-          "@id": "dtmi:com:syyclops:BuildingComponent:FuelOil;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:FuelOil;1",
+          "description": {
+            "en": "Represents fuel oil as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "Freight",
           "name": "Freight",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Freight;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Freight;1",
+          "description": {
+            "en": "Denotes freight as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "ExhaustAir",
           "name": "ExhaustAir",
-          "@id": "dtmi:com:syyclops:BuildingComponent:ExhaustAir;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:ExhaustAir;1",
+          "description": {
+            "en": "Defines exhaust air as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "Ethernet",
           "name": "Ethernet",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Ethernet;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Ethernet;1",
+          "description": {
+            "en": "Specifies Ethernet as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "DriveElec",
           "name": "DriveElec",
-          "@id": "dtmi:com:syyclops:BuildingComponent:DriveElec;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:DriveElec;1",
+          "description": {
+            "en": "Indicates drive electricity as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "Diesel",
           "name": "Diesel",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Diesel;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Diesel;1",
+          "description": {
+            "en": "Represents diesel as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "DCElec",
           "name": "DCElec",
-          "@id": "dtmi:com:syyclops:BuildingComponent:DCElec;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:DCElec;1",
+          "description": {
+            "en": "Defines direct current electricity as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "CondenserWater",
           "name": "CondenserWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:CondenserWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:CondenserWater;1",
+          "description": {
+            "en": "Indicates condenser water as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "Condensate",
           "name": "Condensate",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Condensate;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Condensate;1",
+          "description": {
+            "en": "Represents condensate as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "ColdDomesticWater",
           "name": "ColdDomesticWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:ColdDomesticWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:ColdDomesticWater;1",
+          "description": {
+            "en": "Defines cold domestic water as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "ChilledWater",
           "name": "ChilledWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:ChilledWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:ChilledWater;1",
+          "description": {
+            "en": "Indicates chilled water as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "BlowdownWater",
           "name": "BlowdownWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:BlowdownWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:BlowdownWater;1",
+          "description": {
+            "en": "Represents blowdown water as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "Air",
           "name": "Air",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Air;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Air;1",
+          "description": {
+            "en": "Denotes air as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "ACElec",
           "name": "ACElec",
-          "@id": "dtmi:com:syyclops:BuildingComponent:ACElec;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:ACElec;1",
+          "description": {
+            "en": "Defines alternating current electricity as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "NaturalGas",
           "name": "NaturalGas",
-          "@id": "dtmi:com:syyclops:BuildingComponent:NaturalGas;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:NaturalGas;1",
+          "description": {
+            "en": "Represents natural gas as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "NonPotableDomesticWater",
           "name": "NonPotableDomesticWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:NonPotableDomesticWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:NonPotableDomesticWater;1",
+          "description": {
+            "en": "Indicates non-potable domestic water as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "OutsideAir",
           "name": "OutsideAir",
-          "@id": "dtmi:com:syyclops:BuildingComponent:OutsideAir;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:OutsideAir;1",
+          "description": {
+            "en": "Specifies outside air as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "Propane",
           "name": "Propane",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Propane;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Propane;1",
+          "description": {
+            "en": "Defines propane as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "RecircHotDomesticWater",
           "name": "RecircHotDomesticWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:RecircHotDomesticWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:RecircHotDomesticWater;1",
+          "description": {
+            "en": "Represents recirculated hot domestic water as an enum value in the building component schema."
+          }
         },
         {
           "enumValue": "Refrig",
           "name": "Refrig",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Refrig;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Refrig;1",
+          "description": {
+            "en": "Indicates refrigerant as an enum value within the building component schema."
+          }
         },
         {
           "enumValue": "ReturnAir",
           "name": "ReturnAir",
-          "@id": "dtmi:com:syyclops:BuildingComponent:ReturnAir;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:ReturnAir;1",
+          "description": {
+            "en": "Represents the Return Air enum value within the Building Component schema, used to define air recirculation in HVAC systems."
+          }
         },
         {
           "enumValue": "SprinklerWater",
           "name": "SprinklerWater",
-          "@id": "dtmi:com:syyclops:BuildingComponent:SprinklerWater;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:SprinklerWater;1",
+          "description": {
+            "en": "Defines the Sprinkler Water enum value in the Building Component schema, representing water supplied for fire suppression systems."
+          }
         },
         {
           "enumValue": "Steam",
           "name": "Steam",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Steam;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Steam;1",
+          "description": {
+            "en": "Describes the Steam enum value within the Building Component schema, indicating the use of steam in HVAC or process applications."
+          }
         },
         {
           "enumValue": "StormDrainage",
           "name": "StormDrainage",
-          "@id": "dtmi:com:syyclops:BuildingComponent:StormDrainage;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:StormDrainage;1",
+          "description": {
+            "en": "Specifies the Storm Drainage enum value in the Building Component schema, related to water management in construction."
+          }
         },
         {
           "enumValue": "SupplyAir",
           "name": "SupplyAir",
-          "@id": "dtmi:com:syyclops:BuildingComponent:SupplyAir;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:SupplyAir;1",
+          "description": {
+            "en": "Denotes the Supply Air enum value in the Building Component schema, referring to air delivered into spaces by HVAC systems."
+          }
         },
         {
           "enumValue": "TransferAir",
           "name": "TransferAir",
-          "@id": "dtmi:com:syyclops:BuildingComponent:TransferAir;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:TransferAir;1",
+          "description": {
+            "en": "Indicates the Transfer Air enum value within the Building Component schema, relating to air flow between different spaces."
+          }
         },
         {
           "enumValue": "WasteVentDrainage",
           "name": "WasteVentDrainage",
-          "@id": "dtmi:com:syyclops:BuildingComponent:WasteVentDrainage;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:WasteVentDrainage;1",
+          "description": {
+            "en": "Defines the Waste Vent Drainage enum value in the Building Component schema, used for waste removal in plumbing."
+          }
         },
         {
           "enumValue": "Water",
           "name": "Water",
-          "@id": "dtmi:com:syyclops:BuildingComponent:Water;1"
+          "@id": "dtmi:com:syyclops:BuildingComponent:Water;1",
+          "description": {
+            "en": "Represents the Water enum value in the Building Component schema, covering general water supply components."
+          }
         }
       ],
       "displayName": {

@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:CapabilityCommunicationProtocol;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:protocol;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:protocol;1",
+      "description": {
+        "en": "Specifies the communications protocol used in the HVAC capability communication interface."
+      }
     },
     {
       "@type": "Property",
@@ -26,7 +29,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:APICapabilityProperties;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:API;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:API;1",
+      "description": {
+        "en": "Indicates the API used for communication within HVAC capability interfaces."
+      }
     },
     {
       "@type": "Property",
@@ -36,7 +42,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:BACnetCapabilityProperties;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:BACnet;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:BACnet;1",
+      "description": {
+        "en": "Identifies BACnet as a communication standard supported in HVAC capability interfaces."
+      }
     },
     {
       "@type": "Property",
@@ -46,7 +55,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:ModbusCapabilityProperties;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:Modbus;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:Modbus;1",
+      "description": {
+        "en": "Identifies Modbus as a supported communication protocol in HVAC systems."
+      }
     },
     {
       "@type": "Property",
@@ -56,7 +68,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:OPCDACapabilityProperties;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:OPCDA;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:OPCDA;1",
+      "description": {
+        "en": "Denotes OPC Data Access (OPCDA) as a communication capability in HVAC systems."
+      }
     },
     {
       "@type": "Property",
@@ -66,7 +81,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:OPCUACapabilityProperties;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:OPCUA;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:OPCUA;1",
+      "description": {
+        "en": "Denotes OPC Unified Architecture (OPCUA) as a communication protocol supported in HVAC systems."
+      }
     },
     {
       "@type": "Property",
@@ -76,7 +94,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:IoTHubCapabilityProperties;1",
-      "@id": "dtmi:com:syyclops:CapabilityCommunication:IoTHub;1"
+      "@id": "dtmi:com:syyclops:CapabilityCommunication:IoTHub;1",
+      "description": {
+        "en": "Specifies IoT Hub as part of the communication capabilities for HVAC systems."
+      }
     }
   ],
   "schemas": [
@@ -89,73 +110,109 @@
           "name": "API",
           "displayName": "API",
           "enumValue": "API",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE1;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE1;1",
+          "description": {
+            "en": "Represents an enum value for the API in HVAC capability communication."
+          }
         },
         {
           "name": "BACnet",
           "displayName": "BACnet",
           "enumValue": "BACnet",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE2;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE2;1",
+          "description": {
+            "en": "Represents an enum value for the BACnet communication protocol in HVAC capability communication."
+          }
         },
         {
           "name": "Modbus",
           "displayName": "Modbus",
           "enumValue": "Modbus",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE3;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE3;1",
+          "description": {
+            "en": "Modbus is an enum value in the Capability Communication schema representing a popular communication protocol for industrial devices."
+          }
         },
         {
           "name": "OPCDA",
           "displayName": "OPC DA",
           "enumValue": "OPC DA",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE4;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE4;1",
+          "description": {
+            "en": "OPCDA is an enum value in the Capability Communication schema representing a legacy standard for accessing industrial data."
+          }
         },
         {
           "name": "OPCUA",
           "displayName": "OPC UA",
           "enumValue": "OPC UA",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE5;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE5;1",
+          "description": {
+            "en": "OPCUA is an enum value in the Capability Communication schema for a modern standard facilitating secure data exchange in industrial systems."
+          }
         },
         {
           "name": "KNX",
           "displayName": "KNX",
           "enumValue": "KNX",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:KNX;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:KNX;1",
+          "description": {
+            "en": "KNX is an enum value in the Capability Communication schema representing a standardized protocol for building automation."
+          }
         },
         {
           "name": "LonWorks",
           "displayName": "LonWorks",
           "enumValue": "LonWorks",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:LonWorks;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:LonWorks;1",
+          "description": {
+            "en": "LonWorks is an enum value in the Capability Communication schema utilized for control networks in building automation."
+          }
         },
         {
           "name": "DALI",
           "displayName": "DALI",
           "enumValue": "DALI",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:DALI;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:DALI;1",
+          "description": {
+            "en": "DALI is an enum value in the Capability Communication schema for digital lighting control in building management."
+          }
         },
         {
           "name": "MBus",
           "displayName": "M-Bus",
           "enumValue": "M-Bus",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:MBus;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:MBus;1",
+          "description": {
+            "en": "MBus is an enum value in the Capability Communication schema primarily used for remote reading of utilities."
+          }
         },
         {
           "name": "SNMP",
           "displayName": "SNMP",
           "enumValue": "SNMP",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SNMP;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SNMP;1",
+          "description": {
+            "en": "SNMP is an enum value in the Capability Communication schema used for monitoring and managing network devices."
+          }
         },
         {
           "name": "MQTT",
           "displayName": "MQTT",
           "enumValue": "MQTT",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:MQTT;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:MQTT;1",
+          "description": {
+            "en": "MQTT is an enum value in the Capability Communication schema designed for lightweight messaging in IoT environments."
+          }
         },
         {
           "name": "IoTHub",
           "displayName": "IoT Hub",
           "enumValue": "IoT Hub",
-          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE6;1"
+          "@id": "dtmi:com:syyclops:CapabilityCommunication:SE6;1",
+          "description": {
+            "en": "IoTHub is an enum value in the Capability Communication schema signifying a cloud service for connecting IoT devices."
+          }
         }
       ],
       "displayName": {
@@ -555,5 +612,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for communication capabilities in HVAC systems."
+  }
 }

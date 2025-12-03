@@ -29,7 +29,10 @@
           "comment": "Terminal Unit, Diffuser"
         }
       ],
-      "@id": "dtmi:com:syyclops:HVACZone:isFedBy;1"
+      "@id": "dtmi:com:syyclops:HVACZone:isFedBy;1",
+      "description": {
+        "en": "isFedBy is a Relationship in the HVAC Zone interface that specifies how one zone is supplied with HVAC resources."
+      }
     }
   ],
   "schemas": [
@@ -44,7 +47,10 @@
             "en": "Air"
           },
           "enumValue": "Air",
-          "@id": "dtmi:com:syyclops:HVACZone:Air;1"
+          "@id": "dtmi:com:syyclops:HVACZone:Air;1",
+          "description": {
+            "en": "Air is an Enum Value in the HVAC Zone schema that denotes the air type circulating within the HVAC zone."
+          }
         },
         {
           "name": "OutsideAir",
@@ -52,7 +58,10 @@
             "en": "Outside Air"
           },
           "enumValue": "OutsideAir",
-          "@id": "dtmi:com:syyclops:HVACZone:OutsideAir;1"
+          "@id": "dtmi:com:syyclops:HVACZone:OutsideAir;1",
+          "description": {
+            "en": "OutsideAir is an Enum Value indicating the air sourced from outside within the HVAC Zone schema."
+          }
         },
         {
           "name": "ReturnAir",
@@ -60,7 +69,10 @@
             "en": "Return Air"
           },
           "enumValue": "ReturnAir",
-          "@id": "dtmi:com:syyclops:HVACZone:ReturnAir;1"
+          "@id": "dtmi:com:syyclops:HVACZone:ReturnAir;1",
+          "description": {
+            "en": "ReturnAir is an Enum Value representing the air returned to the HVAC system from the zone."
+          }
         },
         {
           "name": "SupplyAir",
@@ -68,7 +80,10 @@
             "en": "Supply Air"
           },
           "enumValue": "SupplyAir",
-          "@id": "dtmi:com:syyclops:HVACZone:SupplyAir;1"
+          "@id": "dtmi:com:syyclops:HVACZone:SupplyAir;1",
+          "description": {
+            "en": "SupplyAir is an Enum Value for air supplied to a space by the HVAC system."
+          }
         },
         {
           "name": "ExhaustAir",
@@ -76,7 +91,10 @@
             "en": "Exhaust Air"
           },
           "enumValue": "ExhaustAir",
-          "@id": "dtmi:com:syyclops:HVACZone:ExhaustAir;1"
+          "@id": "dtmi:com:syyclops:HVACZone:ExhaustAir;1",
+          "description": {
+            "en": "ExhaustAir is an Enum Value designating air expelled from the HVAC zone to the outside."
+          }
         },
         {
           "name": "GreaseExhaustAir",
@@ -84,7 +102,10 @@
             "en": "Grease Exhaust Air"
           },
           "enumValue": "GreaseExhaustAir",
-          "@id": "dtmi:com:syyclops:HVACZone:GreaseExhaustAir;1"
+          "@id": "dtmi:com:syyclops:HVACZone:GreaseExhaustAir;1",
+          "description": {
+            "en": "GreaseExhaustAir is an Enum Value for air containing grease, primarily in culinary spaces, managed by the HVAC system."
+          }
         },
         {
           "name": "TransferAir",
@@ -92,7 +113,10 @@
             "en": "Transfer Air"
           },
           "enumValue": "TransferAir",
-          "@id": "dtmi:com:syyclops:HVACZone:TransferAir;1"
+          "@id": "dtmi:com:syyclops:HVACZone:TransferAir;1",
+          "description": {
+            "en": "TransferAir is an Enum Value describing air moved from one zone to another, facilitating HVAC efficiency."
+          }
         }
       ],
       "displayName": {

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Positioning Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MaterialHandlingEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface outlining the characteristics and features specific to equipment for positioning materials."
+  }
 }

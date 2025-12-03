@@ -19,7 +19,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Zone:type;1"
+      "@id": "dtmi:com:syyclops:Zone:type;1",
+      "description": {
+        "en": "type is a Property in the Zone interface that categorizes the type of zone within the spatial structure."
+      }
     }
   ],
   "@context": [

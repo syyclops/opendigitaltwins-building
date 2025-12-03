@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "comment": "%",
-      "@id": "dtmi:com:syyclops:PercentState:lastValue;1"
+      "@id": "dtmi:com:syyclops:PercentState:lastValue;1",
+      "description": {
+        "en": "This property indicates the last recorded percentage value for the Percent State interface."
+      }
     }
   ],
   "@context": [

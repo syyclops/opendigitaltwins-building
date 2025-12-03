@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Transport Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MaterialHandlingEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing various functionalities associated with transporting materials within a facility."
+  }
 }

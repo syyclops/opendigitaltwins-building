@@ -21,7 +21,10 @@
       "name": "designFaceVelocity18inSashHeight",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FumeHood:designFaceVelocity18inSashHeight;1"
+      "@id": "dtmi:com:syyclops:FumeHood:designFaceVelocity18inSashHeight;1",
+      "description": {
+        "en": "Represents the designed average face velocity for the fume hood at an 18-inch sash height."
+      }
     },
     {
       "@type": [
@@ -35,7 +38,10 @@
       "annotates": "designFaceVelocity18inSashHeight",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FumeHood:designFaceVelocity18inSashHeightUnit;1"
+      "@id": "dtmi:com:syyclops:FumeHood:designFaceVelocity18inSashHeightUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the designed face velocity at 18-inch sash height of the fume hood."
+      }
     },
     {
       "@type": "Property",
@@ -66,7 +72,10 @@
         "@id": "dtmi:com:syyclops:FumeHood:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FumeHood:sashType;1"
+      "@id": "dtmi:com:syyclops:FumeHood:sashType;1",
+      "description": {
+        "en": "Defines the type of sash used in the fume hood, impacting airflow and usability."
+      }
     },
     {
       "@type": "Property",
@@ -92,7 +101,10 @@
         "@id": "dtmi:com:syyclops:FumeHood:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FumeHood:bypassType;1"
+      "@id": "dtmi:com:syyclops:FumeHood:bypassType;1",
+      "description": {
+        "en": "Specifies the bypass type of the fume hood, which affects airflow and exhaust efficiency."
+      }
     }
   ],
   "@context": [

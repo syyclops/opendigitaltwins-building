@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "squareMetre",
-      "@id": "dtmi:com:syyclops:SpaceArea:grossArea;1"
+      "@id": "dtmi:com:syyclops:SpaceArea:grossArea;1",
+      "description": {
+        "en": "Represents the total gross area of the space."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "AreaUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SpaceArea:grossAreaUnit;1"
+      "@id": "dtmi:com:syyclops:SpaceArea:grossAreaUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the gross area."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "writable": true,
       "schema": "double",
       "unit": "squareMetre",
-      "@id": "dtmi:com:syyclops:SpaceArea:usableArea;1"
+      "@id": "dtmi:com:syyclops:SpaceArea:usableArea;1",
+      "description": {
+        "en": "Indicates the usable area within the designated space."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "AreaUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SpaceArea:usableAreaUnit;1"
+      "@id": "dtmi:com:syyclops:SpaceArea:usableAreaUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the usable area."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "writable": true,
       "schema": "double",
       "unit": "squareMetre",
-      "@id": "dtmi:com:syyclops:SpaceArea:rentableArea;1"
+      "@id": "dtmi:com:syyclops:SpaceArea:rentableArea;1",
+      "description": {
+        "en": "Specifies the area of the space that is available for rent."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "AreaUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SpaceArea:rentableAreaUnit;1"
+      "@id": "dtmi:com:syyclops:SpaceArea:rentableAreaUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the rentable area."
+      }
     }
   ],
   "@context": [
@@ -104,5 +122,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface encapsulating attributes of space area."
+  }
 }

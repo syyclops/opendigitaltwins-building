@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fire Alarm Notification Appliance"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireAlarmEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining general features for fire alarm notification appliances, including sounds and alerts."
+  }
 }

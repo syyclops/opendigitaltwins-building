@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Duct Bank"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DistributionRacewayCollection;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a duct bank, which provides a structured pathway for protecting and housing various utility conduits."
+  }
 }

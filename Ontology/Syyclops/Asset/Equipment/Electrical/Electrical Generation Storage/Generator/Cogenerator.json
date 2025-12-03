@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Cogenerator"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Generator;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Cogenerator interface describes the features and specifications for a device that simultaneously generates electricity and useful heat."
+  }
 }

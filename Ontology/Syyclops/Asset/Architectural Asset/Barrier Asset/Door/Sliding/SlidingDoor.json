@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Sliding Door"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Door;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the interface for sliding doors within architectural barrier assets."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Medium Intensity Approach Lighting System (MALS)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:ApproachLightingSystem;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for medium intensity approach lighting systems in airport lighting."
+  }
 }

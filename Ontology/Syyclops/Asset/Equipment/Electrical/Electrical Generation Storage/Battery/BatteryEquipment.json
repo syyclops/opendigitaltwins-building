@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Battery Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The BatteryEquipment interface encompasses all types of equipment related to battery systems."
+  }
 }

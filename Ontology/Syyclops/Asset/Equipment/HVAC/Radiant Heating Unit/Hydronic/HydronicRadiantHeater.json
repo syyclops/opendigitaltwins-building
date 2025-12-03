@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Hydronic Radiant Heater"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:RadiantHeater;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a hydronic radiant heater, ensuring effective heat distribution in rooms."
+  }
 }

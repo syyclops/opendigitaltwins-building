@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACProbeHeater:powerInput;1"
+      "@id": "dtmi:com:syyclops:HVACProbeHeater:powerInput;1",
+      "description": {
+        "en": "Specifies the power input for the HVAC Probe Heater, indicating energy consumption."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACProbeHeater:powerInputUnit;1"
+      "@id": "dtmi:com:syyclops:HVACProbeHeater:powerInputUnit;1",
+      "description": {
+        "en": "Indicates the measurement unit for the HVAC Probe Heater's power input."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for the HVAC Probe Heater, which regulates temperature within HVAC systems."
+  }
 }

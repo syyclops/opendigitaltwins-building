@@ -5,10 +5,11 @@
     "en": "Handhole"
   },
   "extends": "dtmi:com:syyclops:DistributionConnector;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Handhole interface represents access points in distribution networks for maintenance and inspection."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Radiant Heating Manifold"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACManifold;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for radiant heating manifold systems, managing fluid distribution for radiant heating applications."
+  }
 }

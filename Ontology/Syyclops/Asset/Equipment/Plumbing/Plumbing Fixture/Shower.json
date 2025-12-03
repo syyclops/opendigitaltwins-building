@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Shower"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingFixture;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the Shower interface within the plumbing fixture category."
+  }
 }

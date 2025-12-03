@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Point-Of-Sale Register"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PaymentEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a Point of Sale Register, defining properties and behaviors specific to payment equipment in retail environments."
+  }
 }

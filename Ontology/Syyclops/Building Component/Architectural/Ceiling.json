@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Ceiling"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Ceiling interface specifies components that are part of the architectural overhead structure."
+  }
 }

@@ -22,7 +22,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designEnteringAirTemperature;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designEnteringAirTemperature;1",
+      "description": {
+        "en": "A property defining the design entering air temperature for the air-cooled condenser."
+      }
     },
     {
       "@type": [
@@ -37,7 +40,10 @@
       "annotates": "designEnteringAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designEnteringAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designEnteringAirTemperatureUnit;1",
+      "description": {
+        "en": "A property specifying the units for the design entering air temperature of the air-cooled condenser."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designLeavingAirTemperature;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designLeavingAirTemperature;1",
+      "description": {
+        "en": "A property indicating the design leaving air temperature from the air-cooled condenser."
+      }
     },
     {
       "@type": [
@@ -65,7 +74,10 @@
       "annotates": "designLeavingAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designLeavingAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designLeavingAirTemperatureUnit;1",
+      "description": {
+        "en": "A property defining the units used for the design leaving air temperature of the air-cooled condenser."
+      }
     },
     {
       "@type": [
@@ -78,7 +90,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designDeltaAirTemperature;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designDeltaAirTemperature;1",
+      "description": {
+        "en": "A property representing the design delta air temperature across the air-cooled condenser."
+      }
     },
     {
       "@type": [
@@ -93,7 +108,10 @@
       "annotates": "designDeltaAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designDeltaAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designDeltaAirTemperatureUnit;1",
+      "description": {
+        "en": "A property specifying the units for measuring the design delta air temperature of the air-cooled condenser."
+      }
     },
     {
       "@type": [
@@ -107,7 +125,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designAirflow;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designAirflow;1",
+      "description": {
+        "en": "Defines the design airflow rate for the Air-Cooled Condenser, critical for optimizing heat rejection."
+      }
     },
     {
       "@type": [
@@ -123,7 +144,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:designAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:designAirflowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measure for the design airflow rate of the Air-Cooled Condenser."
+      }
     },
     {
       "@type": "Property",
@@ -133,7 +157,10 @@
       "name": "numberOfFans",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:numberOfFans;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:numberOfFans;1",
+      "description": {
+        "en": "Indicates the number of fans utilized in the Air-Cooled Condenser assembly for enhanced heat dissipation."
+      }
     },
     {
       "@type": [
@@ -147,7 +174,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanPower;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanPower;1",
+      "description": {
+        "en": "Represents the total power consumption of all fans in the Air-Cooled Condenser, essential for energy management."
+      }
     },
     {
       "@type": [
@@ -163,7 +193,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanPowerUnit;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanPowerUnit;1",
+      "description": {
+        "en": "Defines the unit of measure for the total fan power in the Air-Cooled Condenser."
+      }
     },
     {
       "@type": [
@@ -177,7 +210,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanbrakeHorsepower;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanbrakeHorsepower;1",
+      "description": {
+        "en": "Calculates the total brake horsepower of all fans in the Air-Cooled Condenser, indicating overall fan performance."
+      }
     },
     {
       "@type": [
@@ -193,7 +229,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanbrakeHorsepowerUnit;1"
+      "@id": "dtmi:com:syyclops:AirCooledCondenser:totalFanbrakeHorsepowerUnit;1",
+      "description": {
+        "en": "Specifies the unit of measure for the total fan brake horsepower in the Air-Cooled Condenser."
+      }
     }
   ],
   "@context": [

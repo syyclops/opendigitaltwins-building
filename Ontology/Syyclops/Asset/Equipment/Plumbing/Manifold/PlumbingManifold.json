@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Plumbing Manifold"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipment;1",
     "dtmi:com:syyclops:Manifold;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PlumbingManifold interface outlines properties related to manifold systems used for distributing plumbing resources."
+  }
 }

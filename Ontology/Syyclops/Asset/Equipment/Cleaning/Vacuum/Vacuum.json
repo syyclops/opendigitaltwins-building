@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Vacuum"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CleaningEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for vacuum equipment used in cleaning and maintenance within airport facilities."
+  }
 }

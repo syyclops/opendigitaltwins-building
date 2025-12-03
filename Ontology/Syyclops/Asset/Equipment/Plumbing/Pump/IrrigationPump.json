@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Irrigation Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingPump;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents a pump designed specifically for irrigation purposes."
+  }
 }

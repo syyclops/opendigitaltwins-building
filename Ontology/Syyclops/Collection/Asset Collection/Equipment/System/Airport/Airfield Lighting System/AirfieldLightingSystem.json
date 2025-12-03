@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Airfield Lighting System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirportSystem;1",
     "dtmi:com:syyclops:LightingSystem;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for airfield lighting systems within airport asset collections."
+  }
 }

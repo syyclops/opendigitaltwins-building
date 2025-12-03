@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Dish Cleanup Cart"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodserviceCart;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a dish cleanup cart, used for efficiently collecting and transporting dirty dishes in foodservice."
+  }
 }

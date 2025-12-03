@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:FanCoilUnit:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:type;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:type;1",
+      "description": {
+        "en": "The type property defining the category of the Fan Coil Unit in HVAC systems."
+      }
     },
     {
       "@type": "Property",
@@ -42,7 +45,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:refrigerantType;1",
+      "description": {
+        "en": "The refrigerant type used in the Fan Coil Unit for effective cooling."
+      }
     },
     {
       "@type": [
@@ -56,7 +62,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:nominalCoolingCapacity;1",
+      "description": {
+        "en": "The nominal cooling capacity property of a Fan Coil Unit, specified in watts."
+      }
     },
     {
       "@type": [
@@ -72,7 +81,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the nominal cooling capacity of a Fan Coil Unit."
+      }
     },
     {
       "@type": [
@@ -86,7 +98,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:netSensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:netSensibleCoolingCapacity;1",
+      "description": {
+        "en": "The netSensibleCoolingCapacity property represents the effective cooling capacity of the Fan Coil Unit in BTUs."
+      }
     },
     {
       "@type": [
@@ -102,7 +117,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:netSensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:netSensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "The netSensibleCoolingCapacityUnit property indicates the measurement unit for the net sensible cooling capacity."
+      }
     },
     {
       "@type": "Property",
@@ -133,7 +151,10 @@
         "@id": "dtmi:com:syyclops:FanCoilUnit:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:mounting;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:mounting;1",
+      "description": {
+        "en": "The mounting property specifies the installation method or configuration of the Fan Coil Unit."
+      }
     },
     {
       "@type": "Property",
@@ -143,7 +164,10 @@
       "name": "filterType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnit:filterType;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:filterType;1",
+      "description": {
+        "en": "The filterType property defines the type of air filter utilized by the Fan Coil Unit for air purification."
+      }
     },
     {
       "@type": "Component",
@@ -152,7 +176,10 @@
       },
       "name": "secondaryCoolingMethod",
       "schema": "dtmi:com:syyclops:HVACCoolingMethod;1",
-      "@id": "dtmi:com:syyclops:FanCoilUnit:secondaryCoolingMethod;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:secondaryCoolingMethod;1",
+      "description": {
+        "en": "The secondaryCoolingMethod component describes the alternative cooling technique used by the Fan Coil Unit."
+      }
     },
     {
       "@type": "Component",
@@ -161,7 +188,10 @@
       },
       "name": "primaryCoolingMethod",
       "schema": "dtmi:com:syyclops:HVACCoolingMethod;1",
-      "@id": "dtmi:com:syyclops:FanCoilUnit:primaryCoolingMethod;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:primaryCoolingMethod;1",
+      "description": {
+        "en": "The primaryCoolingMethod component identifies the main cooling technology employed by the Fan Coil Unit."
+      }
     },
     {
       "@type": "Property",
@@ -199,7 +229,10 @@
       },
       "name": "fan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:FanCoilUnit:fan;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnit:fan;1",
+      "description": {
+        "en": "The fan component represents the airflow mechanism within the Fan Coil Unit, facilitating the circulation of air."
+      }
     }
   ],
   "@context": [
@@ -207,5 +240,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a Fan Coil Unit, a terminal device in HVAC systems for air cooling and heating."
+  }
 }

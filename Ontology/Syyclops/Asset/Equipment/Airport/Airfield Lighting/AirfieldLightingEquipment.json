@@ -41,7 +41,10 @@
         ],
         "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:faaIntesityRating;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:faaIntesityRating;1",
+      "description": {
+        "en": "The 'faaIntesityRating' property specifies the intensity level of airfield lighting according to FAA standards."
+      }
     },
     {
       "@type": "Property",
@@ -114,7 +117,10 @@
         ],
         "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:OS2;1"
       },
-      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:installation;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:installation;1",
+      "description": {
+        "en": "The 'installation' property describes the method and specifics of how airfield lighting equipment is installed."
+      }
     },
     {
       "@type": "Property",
@@ -148,7 +154,10 @@
         ],
         "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:ES5;1"
       },
-      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:lightDirection;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:lightDirection;1",
+      "description": {
+        "en": "The 'lightDirection' property indicates the intended direction of illumination of the airfield lighting."
+      }
     },
     {
       "@type": "Property",
@@ -159,10 +168,16 @@
       "writable": true,
       "schema": "string",
       "comment": "yellow, white-white, red-green",
-      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:lightColors;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:lightColors;1",
+      "description": {
+        "en": "The 'lightColors' property defines the colors emitted by the airfield lighting for visibility and signaling."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Airfield Lighting Equipment interface includes various lighting systems installed at airports to ensure safe operations."
+  }
 }

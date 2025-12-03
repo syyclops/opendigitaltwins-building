@@ -20,7 +20,10 @@
       "schema": "integer",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HydronicAirSeparator:workingPressure;1"
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:workingPressure;1",
+      "description": {
+        "en": "Represents the working pressure of the hydronic air separator in an HVAC system."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HydronicAirSeparator:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:workingPressureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the working pressure of a hydronic air separator."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "millimetre",
-      "@id": "dtmi:com:syyclops:HydronicAirSeparator:pipeDiameter;1"
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:pipeDiameter;1",
+      "description": {
+        "en": "Indicates the pipe diameter connected to the hydronic air separator within the HVAC system."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HydronicAirSeparator:pipeDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:pipeDiameterUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the pipe diameter related to the hydronic air separator."
+      }
     }
   ],
   "@context": [
@@ -74,5 +86,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface for hydronic air separator equipment in HVAC systems used to remove air from fluids."
+  }
 }

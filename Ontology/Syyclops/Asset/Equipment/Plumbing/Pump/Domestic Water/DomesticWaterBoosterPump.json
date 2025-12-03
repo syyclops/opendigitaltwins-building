@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Domestic Water Booster Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DomesticWaterPump;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface details the domestic water booster pump used to enhance water pressure."
+  }
 }

@@ -19,7 +19,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Room:type;1"
+      "@id": "dtmi:com:syyclops:Room:type;1",
+      "description": {
+        "en": "Defines the type property of the Room interface, categorizing its intended function."
+      }
     },
     {
       "@type": [
@@ -33,7 +36,10 @@
       "writable": true,
       "schema": "double",
       "unit": "cubicMetre",
-      "@id": "dtmi:com:syyclops:Room:volume;1"
+      "@id": "dtmi:com:syyclops:Room:volume;1",
+      "description": {
+        "en": "Represents the volume property of the Room interface, detailing the space it occupies."
+      }
     },
     {
       "@type": [
@@ -49,7 +55,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Room:volumeUnit;1"
+      "@id": "dtmi:com:syyclops:Room:volumeUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for volume in the Room interface, ensuring measurement consistency."
+      }
     }
   ],
   "@context": [

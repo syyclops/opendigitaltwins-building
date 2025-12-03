@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Centerline Light Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:TaxiwayLightFixture;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface details the specifications of a taxiway centerline light fixture, aiding in safe navigation along taxiways."
+  }
 }

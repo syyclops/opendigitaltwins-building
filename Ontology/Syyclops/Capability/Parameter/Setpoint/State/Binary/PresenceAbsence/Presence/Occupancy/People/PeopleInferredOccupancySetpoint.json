@@ -4,14 +4,15 @@
   "displayName": {
     "en": "People Inferred Occupancy Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PeopleOccupancySetpoint;1",
     "dtmi:com:syyclops:InferredOccupancySetpoint;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Indicates the inferred occupancy setpoint based on the presence of people in a defined area."
+  }
 }

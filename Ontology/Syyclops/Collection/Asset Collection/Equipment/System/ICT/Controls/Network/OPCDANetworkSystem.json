@@ -4,12 +4,14 @@
   "displayName": {
     "en": "OPC DA Network System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ControlsSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface facilitates the operations of an OPC DA network system for data access in industrial environments."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Commissioning Document"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Document;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Comprehensive document outlining the commissioning process, scope, and verification protocols."
+  }
 }

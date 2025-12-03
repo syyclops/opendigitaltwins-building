@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Face and Bypass Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Face and Bypass Damper interface integrates functionality for directing airflow while providing temperature control in HVAC systems."
+  }
 }

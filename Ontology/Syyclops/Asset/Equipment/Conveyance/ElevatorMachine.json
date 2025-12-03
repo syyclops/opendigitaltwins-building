@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "kilogram",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElevatorMachine:weightCapacity;1"
+      "@id": "dtmi:com:syyclops:ElevatorMachine:weightCapacity;1",
+      "description": {
+        "en": "The property indicating the maximum weight capacity of the elevator machine's components."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "MassUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElevatorMachine:weightCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:ElevatorMachine:weightCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the elevator machine's weight capacity, often in kilograms or pounds."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElevatorMachine:motorPower;1"
+      "@id": "dtmi:com:syyclops:ElevatorMachine:motorPower;1",
+      "description": {
+        "en": "The property defining the power output of the elevator machine's motor."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElevatorMachine:motorPowerUnit;1"
+      "@id": "dtmi:com:syyclops:ElevatorMachine:motorPowerUnit;1",
+      "description": {
+        "en": "The unit of measurement for the motor power, typically expressed in watts or horsepower."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElevatorMachine:brakeHorsepower;1"
+      "@id": "dtmi:com:syyclops:ElevatorMachine:brakeHorsepower;1",
+      "description": {
+        "en": "The property indicating the brake horsepower produced by the elevator machine."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElevatorMachine:brakeHorsepowerUnit;1"
+      "@id": "dtmi:com:syyclops:ElevatorMachine:brakeHorsepowerUnit;1",
+      "description": {
+        "en": "The unit of measurement for brake horsepower, commonly stated in horsepower (HP)."
+      }
     }
   ],
   "@context": [
@@ -104,5 +122,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing the machinery responsible for the operation of an elevator."
+  }
 }

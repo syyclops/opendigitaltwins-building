@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "minute",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:runtime;1"
+      "@id": "dtmi:com:syyclops:UPS:runtime;1",
+      "description": {
+        "en": "The runtime property indicates the duration that the UPS can provide power during an outage."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "schema": "double",
       "unit": "kilovoltAmpere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:powerOutputKVA;1"
+      "@id": "dtmi:com:syyclops:UPS:powerOutputKVA;1",
+      "description": {
+        "en": "The powerOutputKVA property specifies the kilovolt-amps output capacity of the UPS."
+      }
     },
     {
       "@type": [
@@ -48,7 +54,10 @@
       "schema": "double",
       "unit": "kilowatt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:powerOutput;1"
+      "@id": "dtmi:com:syyclops:UPS:powerOutput;1",
+      "description": {
+        "en": "Represents the power output level of the UPS, indicating the amount of electrical power supplied to connected loads."
+      }
     },
     {
       "@type": [
@@ -62,7 +71,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:outputVoltage;1"
+      "@id": "dtmi:com:syyclops:UPS:outputVoltage;1",
+      "description": {
+        "en": "Defines the voltage level supplied by the UPS to the output load, critical for equipment compatibility."
+      }
     },
     {
       "@type": "Property",
@@ -88,7 +100,10 @@
         "@id": "dtmi:com:syyclops:UPS:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:outputPhases;1"
+      "@id": "dtmi:com:syyclops:UPS:outputPhases;1",
+      "description": {
+        "en": "Indicates the number of phases in the UPS output, which affects power distribution and equipment operation."
+      }
     },
     {
       "@type": [
@@ -102,7 +117,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:inputVoltage;1"
+      "@id": "dtmi:com:syyclops:UPS:inputVoltage;1",
+      "description": {
+        "en": "Specifies the voltage level required for the UPS input, necessary for proper operation and efficiency."
+      }
     },
     {
       "@type": "Property",
@@ -128,11 +146,17 @@
         "@id": "dtmi:com:syyclops:UPS:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:UPS:inputPhases;1"
+      "@id": "dtmi:com:syyclops:UPS:inputPhases;1",
+      "description": {
+        "en": "Identifies the number of phases in the UPS input power supply, influencing the UPS's overall performance."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "The UPS interface represents the Uninterruptible Power Supply system within the electrical generation storage."
+  }
 }

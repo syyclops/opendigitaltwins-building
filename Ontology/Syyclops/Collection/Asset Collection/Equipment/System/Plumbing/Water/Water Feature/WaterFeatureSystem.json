@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Water Feature System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingWaterSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface characterizing systems utilized for water features including fountains and ponds in landscaping."
+  }
 }

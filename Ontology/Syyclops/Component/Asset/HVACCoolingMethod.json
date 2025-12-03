@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:HVACCoolingMethod:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:type;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:type;1",
+      "description": {
+        "en": "Indicates the type of cooling method utilized in the HVAC system."
+      }
     },
     {
       "@type": "Property",
@@ -42,7 +45,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:refrigerantType;1",
+      "description": {
+        "en": "Specifies the type of refrigerant used in the cooling method."
+      }
     },
     {
       "@type": [
@@ -56,7 +62,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:outsideDiameter;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:outsideDiameter;1",
+      "description": {
+        "en": "Describes the outside diameter measurement of components in the cooling method."
+      }
     },
     {
       "@type": [
@@ -72,7 +81,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:outsideDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:outsideDiameterUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the outside diameter in the cooling method."
+      }
     },
     {
       "@type": "Property",
@@ -83,7 +95,10 @@
       "writable": true,
       "schema": "integer",
       "comment": "Coil row configuration",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:rows;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:rows;1",
+      "description": {
+        "en": "Specifies the number of rows in the cooling device configuration."
+      }
     },
     {
       "@type": "Property",
@@ -94,7 +109,10 @@
       "writable": true,
       "schema": "double",
       "comment": "Fins per inch",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:finsPerInch;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:finsPerInch;1",
+      "description": {
+        "en": "Represents the number of fins per inch in a cooling system's heat exchanger for improved thermal transfer."
+      }
     },
     {
       "@type": [
@@ -107,7 +125,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringWaterTemperature;1",
+      "description": {
+        "en": "Defines the target entering water temperature for optimal cooling performance in HVAC systems."
+      }
     },
     {
       "@type": [
@@ -122,7 +143,10 @@
       "annotates": "designEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design entering water temperature in HVAC applications."
+      }
     },
     {
       "@type": [
@@ -135,7 +159,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingWaterTemperature;1",
+      "description": {
+        "en": "Indicates the expected leaving water temperature from the cooling system after heat exchange."
+      }
     },
     {
       "@type": [
@@ -150,7 +177,10 @@
       "annotates": "designLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design leaving water temperature in HVAC applications."
+      }
     },
     {
       "@type": [
@@ -163,7 +193,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designDeltaWaterTemperature;1",
+      "description": {
+        "en": "Represents the temperature difference between entering and leaving water in a cooling system."
+      }
     },
     {
       "@type": [
@@ -178,7 +211,10 @@
       "annotates": "designDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design delta water temperature in HVAC applications."
+      }
     },
     {
       "@type": [
@@ -192,7 +228,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designFlow;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designFlow;1",
+      "description": {
+        "en": "Defines the design flow rate of water in the cooling system for effective heat transfer."
+      }
     },
     {
       "@type": [
@@ -208,7 +247,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designFlowUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designFlowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design flow rate in HVAC cooling systems."
+      }
     },
     {
       "@type": [
@@ -222,7 +264,10 @@
       "schema": "double",
       "unit": "kilopascal",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designPressureDrop;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designPressureDrop;1",
+      "description": {
+        "en": "Represents the anticipated pressure drop across the cooling system's components during operation."
+      }
     },
     {
       "@type": [
@@ -238,7 +283,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designPressureDropUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design pressure drop in HVAC cooling systems."
+      }
     },
     {
       "@type": [
@@ -251,7 +299,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirDryBulbTemperature;1",
+      "description": {
+        "en": "Defines the target dry bulb temperature of entering air for cooling system design conditions."
+      }
     },
     {
       "@type": [
@@ -266,7 +317,10 @@
       "annotates": "designEnteringAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design entering air dry bulb temperature."
+      }
     },
     {
       "@type": [
@@ -279,7 +333,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirDryBulbTemperature;1",
+      "description": {
+        "en": "Indicates the expected dry bulb temperature of leaving air from the cooling system."
+      }
     },
     {
       "@type": [
@@ -294,7 +351,10 @@
       "annotates": "designLeavingAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design leaving air dry bulb temperature."
+      }
     },
     {
       "@type": [
@@ -307,7 +367,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirWetBulbTemperature;1",
+      "description": {
+        "en": "Defines the target wet bulb temperature of entering air used for cooling calculations."
+      }
     },
     {
       "@type": [
@@ -322,7 +385,10 @@
       "annotates": "designEnteringAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design entering air wet bulb temperature."
+      }
     },
     {
       "@type": [
@@ -335,7 +401,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirWetBulbTemperature;1",
+      "description": {
+        "en": "Indicates the expected wet bulb temperature of leaving air from the cooling system."
+      }
     },
     {
       "@type": [
@@ -350,7 +419,10 @@
       "annotates": "designLeavingAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design leaving air wet bulb temperature."
+      }
     }
   ],
   "@context": [
@@ -358,5 +430,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Outlines the interface for cooling methods within the HVAC system."
+  }
 }

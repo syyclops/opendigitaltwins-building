@@ -6,5 +6,8 @@
   },
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Component interface serves as a base for defining the properties and behaviors of various components in the architecture."
+  }
 }

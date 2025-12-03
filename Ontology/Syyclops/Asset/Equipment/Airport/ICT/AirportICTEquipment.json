@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Airport ICT Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirportEquipment;1",
     "dtmi:com:syyclops:ICTEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing information and communication technology (ICT) equipment used in airport operations."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Distance Remaining Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldSignageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the properties of Runway Distance Remaining Signs informing pilots of remaining runway length."
+  }
 }

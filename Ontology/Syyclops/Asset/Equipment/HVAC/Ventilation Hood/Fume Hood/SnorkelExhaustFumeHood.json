@@ -4,15 +4,17 @@
   "displayName": {
     "en": "Snorkel Exhaust Fume Hood"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FumeHood;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for a snorkel exhaust fume hood designed for localized capture of fumes or vapors."
+  }
 }

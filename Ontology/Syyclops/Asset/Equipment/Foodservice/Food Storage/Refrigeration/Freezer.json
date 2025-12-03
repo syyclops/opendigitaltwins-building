@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Freezer"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodStorageRefrigerationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a freezer, intended for long-term storage of food at sub-zero temperatures."
+  }
 }

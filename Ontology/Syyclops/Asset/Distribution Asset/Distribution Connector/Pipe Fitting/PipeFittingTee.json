@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Tee"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingTee interface directs fluid flow in three different paths by splitting the flow."
+  }
 }

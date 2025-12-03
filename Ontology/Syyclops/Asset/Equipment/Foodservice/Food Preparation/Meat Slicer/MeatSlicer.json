@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Meat Slicer"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a meat slicer, facilitating precise and adjustable slicing of meats."
+  }
 }

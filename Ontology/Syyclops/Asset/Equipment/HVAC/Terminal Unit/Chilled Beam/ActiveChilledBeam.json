@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:nominalHeatingCapacity;1",
+      "description": {
+        "en": "The nominal heating capacity property of an Active Chilled Beam, expressed in watts."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the nominal heating capacity of an Active Chilled Beam."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:primarySensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:primarySensibleCoolingCapacity;1",
+      "description": {
+        "en": "The primary sensible cooling capacity property for an Active Chilled Beam, measured in watts."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:primarySensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:primarySensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the primary sensible cooling capacity of an Active Chilled Beam."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:secondarySensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:secondarySensibleCoolingCapacity;1",
+      "description": {
+        "en": "The secondary sensible cooling capacity property of an Active Chilled Beam, defined in watts."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:secondarySensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:secondarySensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the secondary sensible cooling capacity of an Active Chilled Beam."
+      }
     },
     {
       "@type": "Component",
@@ -105,7 +123,10 @@
       },
       "name": "heatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:ActiveChilledBeam:heatingMethod;1"
+      "@id": "dtmi:com:syyclops:ActiveChilledBeam:heatingMethod;1",
+      "description": {
+        "en": "A component representing the heating method utilized by the Active Chilled Beam."
+      }
     }
   ],
   "@context": [
@@ -113,5 +134,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing an Active Chilled Beam, a terminal unit in HVAC systems designed for both cooling and heating."
+  }
 }

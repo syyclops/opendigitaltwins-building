@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Baggage Handling System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirportSystem;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for the Baggage Handling System managing the processing and transportation of baggage within the airport."
+  }
 }

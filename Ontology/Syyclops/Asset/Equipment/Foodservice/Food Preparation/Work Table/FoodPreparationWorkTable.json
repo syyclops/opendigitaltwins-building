@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Food Preparation Work Table"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a food preparation work table, essential for organized food prep in commercial kitchens."
+  }
 }

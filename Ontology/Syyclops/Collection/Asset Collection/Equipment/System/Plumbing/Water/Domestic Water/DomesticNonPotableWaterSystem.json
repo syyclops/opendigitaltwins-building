@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Domestic Non-Potable Water System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DomesticWaterSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for managing non-potable water systems used for irrigation and other non-drinking purposes."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fire Extinguisher"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireSuppressionEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a fire extinguisher used to combat small fires with various suppression agents."
+  }
 }

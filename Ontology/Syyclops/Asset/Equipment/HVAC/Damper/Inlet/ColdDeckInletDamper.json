@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Cold Deck Inlet Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:InletDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines a Cold Deck Inlet Damper, which manages airflow in the HVAC system's cold air supply zone."
+  }
 }

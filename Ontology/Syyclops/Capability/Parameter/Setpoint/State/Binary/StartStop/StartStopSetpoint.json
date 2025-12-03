@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Start/Stop Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BinarySetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Indicates the control setpoint for starting and stopping, represented as a binary state."
+  }
 }

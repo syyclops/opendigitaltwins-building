@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Cold Deck Supply Fan"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SupplyFan;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a cold deck supply fan that aids in delivering cold air to spaces."
+  }
 }

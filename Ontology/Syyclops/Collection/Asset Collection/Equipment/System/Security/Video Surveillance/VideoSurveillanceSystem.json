@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Video Surveillance System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SecuritySystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for a video surveillance system, detailing functionalities for monitoring and recording activities within secured environments."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Air Grille"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AirInletsOutlets;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The AirGrille interface outlines the features of grilles that cover air inlets and outlets, managing airflow in HVAC systems."
+  }
 }

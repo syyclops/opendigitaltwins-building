@@ -39,7 +39,10 @@
         "en": "hosted by"
       },
       "comment": "Controller (i.e. BACnet Device)",
-      "@id": "dtmi:com:syyclops:Capability:hostedBy;1"
+      "@id": "dtmi:com:syyclops:Capability:hostedBy;1",
+      "description": {
+        "en": "Represents the relationship indicating which entity hosts the Capability."
+      }
     },
     {
       "@type": "Relationship",
@@ -47,7 +50,10 @@
       "displayName": {
         "en": "is controlled by"
       },
-      "@id": "dtmi:com:syyclops:Capability:isControlledBy;1"
+      "@id": "dtmi:com:syyclops:Capability:isControlledBy;1",
+      "description": {
+        "en": "Defines a relationship that indicates which entity controls the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -70,7 +76,10 @@
         "@id": "dtmi:com:syyclops:Capability:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Capability:customTags;1"
+      "@id": "dtmi:com:syyclops:Capability:customTags;1",
+      "description": {
+        "en": "Holds a collection of user-defined tags associated with the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -93,7 +102,10 @@
         "@id": "dtmi:com:syyclops:Capability:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Capability:externalIds;1"
+      "@id": "dtmi:com:syyclops:Capability:externalIds;1",
+      "description": {
+        "en": "Stores external identifiers linked to the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -107,7 +119,10 @@
         "elementSchema": "dtmi:com:syyclops:CapabilityMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Capability:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Capability:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Capability:mappedIds;1",
+      "description": {
+        "en": "Contains IDs that map to other identifiers related to the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -130,7 +145,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Capability:name;1"
+      "@id": "dtmi:com:syyclops:Capability:name;1",
+      "description": {
+        "en": "Denotes the name of the Capability for identification purposes."
+      }
     },
     {
       "@type": "Property",
@@ -140,7 +158,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Capability:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Capability:uniqueID;1",
+      "description": {
+        "en": "Provides a unique identifier for the Capability, ensuring distinct identification."
+      }
     },
     {
       "@type": "Property",
@@ -150,7 +171,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Capability:externalID;1"
+      "@id": "dtmi:com:syyclops:Capability:externalID;1",
+      "description": {
+        "en": "Represents an external unique identifier for the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -161,7 +185,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Time Series DB",
-      "@id": "dtmi:com:syyclops:Capability:trendID;1"
+      "@id": "dtmi:com:syyclops:Capability:trendID;1",
+      "description": {
+        "en": "Indicates an identifier used to track trends related to this Capability."
+      }
     },
     {
       "@type": "Property",
@@ -171,7 +198,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Capability:siteID;1"
+      "@id": "dtmi:com:syyclops:Capability:siteID;1",
+      "description": {
+        "en": "Identifies the site associated with the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -182,7 +212,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Willow Connector identifier which manages the Capabiltiy",
-      "@id": "dtmi:com:syyclops:Capability:connectorID;1"
+      "@id": "dtmi:com:syyclops:Capability:connectorID;1",
+      "description": {
+        "en": "Specifies the ID of the connector associated with this Capability."
+      }
     },
     {
       "@type": "Component",
@@ -191,7 +224,10 @@
         "en": "Communication"
       },
       "schema": "dtmi:com:syyclops:CapabilityCommunication;1",
-      "@id": "dtmi:com:syyclops:Capability:communication;1"
+      "@id": "dtmi:com:syyclops:Capability:communication;1",
+      "description": {
+        "en": "Defines a component responsible for communication functionality within the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -201,7 +237,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Capability:description;1"
+      "@id": "dtmi:com:syyclops:Capability:description;1",
+      "description": {
+        "en": "Provides a textual description that outlines the functionality of the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -232,7 +271,10 @@
         ],
         "@id": "dtmi:com:syyclops:Capability:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Capability:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Capability:alternateClassification;1",
+      "description": {
+        "en": "Holds alternate classification information for categorizing the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -267,7 +309,10 @@
         },
         "@id": "dtmi:com:syyclops:Capability:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Capability:customProperties;1"
+      "@id": "dtmi:com:syyclops:Capability:customProperties;1",
+      "description": {
+        "en": "Enables the storage of additional user-defined properties for the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -290,7 +335,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Capability:unit;1"
+      "@id": "dtmi:com:syyclops:Capability:unit;1",
+      "description": {
+        "en": "Specifies the measurement unit for the values associated with the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -313,7 +361,10 @@
         "@id": "dtmi:com:syyclops:Capability:MS7;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Capability:valueMap;1"
+      "@id": "dtmi:com:syyclops:Capability:valueMap;1",
+      "description": {
+        "en": "Represents a mapping of values used within the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -344,7 +395,10 @@
         ],
         "@id": "dtmi:com:syyclops:Capability:OS8;1"
       },
-      "@id": "dtmi:com:syyclops:Capability:validValues;1"
+      "@id": "dtmi:com:syyclops:Capability:validValues;1",
+      "description": {
+        "en": "Defines the acceptable value range or set for the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -387,7 +441,10 @@
           "en": "Capability Interpolation"
         }
       },
-      "@id": "dtmi:com:syyclops:Capability:interpolation;1"
+      "@id": "dtmi:com:syyclops:Capability:interpolation;1",
+      "description": {
+        "en": "Specifies the interpolation method used for value calculations within the Capability."
+      }
     },
     {
       "@type": "Property",
@@ -397,7 +454,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Capability:totalized;1"
+      "@id": "dtmi:com:syyclops:Capability:totalized;1",
+      "description": {
+        "en": "Indicates whether the Capability supports totalization of its values."
+      }
     },
     {
       "@type": "Property",
@@ -408,7 +468,10 @@
       "writable": true,
       "schema": "string",
       "comment": "The trended values are derived by evaluating this expression",
-      "@id": "dtmi:com:syyclops:Capability:valueExpression;1"
+      "@id": "dtmi:com:syyclops:Capability:valueExpression;1",
+      "description": {
+        "en": "Specifies the expression used to evaluate the value dynamically within the Capability interface."
+      }
     },
     {
       "@type": "Property",
@@ -419,7 +482,10 @@
       "writable": true,
       "schema": "double",
       "comment": "Raw values from the connected system are multiplied by this scale factor when being stored in the twin",
-      "@id": "dtmi:com:syyclops:Capability:scaleFactor;1"
+      "@id": "dtmi:com:syyclops:Capability:scaleFactor;1",
+      "description": {
+        "en": "Defines a scaling factor that adjusts the capability output values accordingly."
+      }
     },
     {
       "@type": "Property",
@@ -430,7 +496,10 @@
       "writable": true,
       "schema": "double",
       "comment": "This value is added to the raw values from the connected system, after scaling, when being stored in the twin",
-      "@id": "dtmi:com:syyclops:Capability:offsetValue;1"
+      "@id": "dtmi:com:syyclops:Capability:offsetValue;1",
+      "description": {
+        "en": "Indicates an offset value added to the capability output for calibration purposes."
+      }
     },
     {
       "@type": "Property",
@@ -489,7 +558,10 @@
           "en": "Capability Type"
         }
       },
-      "@id": "dtmi:com:syyclops:Capability:type;1"
+      "@id": "dtmi:com:syyclops:Capability:type;1",
+      "description": {
+        "en": "Categorizes the type of capability, facilitating its identification and usage."
+      }
     },
     {
       "@type": "Component",
@@ -498,7 +570,10 @@
       },
       "name": "categorizationProperties",
       "schema": "dtmi:com:syyclops:CapabilityPropertySet;1",
-      "@id": "dtmi:com:syyclops:Capability:categorizationProperties;1"
+      "@id": "dtmi:com:syyclops:Capability:categorizationProperties;1",
+      "description": {
+        "en": "Holds various properties used for categorizing the capability within its interface."
+      }
     },
     {
       "@type": "Property",
@@ -520,7 +595,10 @@
         },
         "@id": "dtmi:com:syyclops:Capability:MS9;1"
       },
-      "@id": "dtmi:com:syyclops:Capability:tags;1"
+      "@id": "dtmi:com:syyclops:Capability:tags;1",
+      "description": {
+        "en": "Array of tags for enhancing the discoverability and context of the capability."
+      }
     },
     {
       "@type": [
@@ -535,7 +613,10 @@
       "schema": "integer",
       "unit": "second",
       "comment": "how often the capability value is read from the controller",
-      "@id": "dtmi:com:syyclops:Capability:trendInterval;1"
+      "@id": "dtmi:com:syyclops:Capability:trendInterval;1",
+      "description": {
+        "en": "Specifies the time interval for capturing trends associated with the capability."
+      }
     },
     {
       "@type": "Property",
@@ -546,7 +627,10 @@
       "writable": true,
       "schema": "double",
       "comment": "sort and filter priority to be leveraged by UI",
-      "@id": "dtmi:com:syyclops:Capability:displayPriority;1"
+      "@id": "dtmi:com:syyclops:Capability:displayPriority;1",
+      "description": {
+        "en": "Determines the order in which the capability is displayed relative to others."
+      }
     },
     {
       "@type": "Property",
@@ -556,7 +640,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Capability:enabled;1"
+      "@id": "dtmi:com:syyclops:Capability:enabled;1",
+      "description": {
+        "en": "Indicates if the capability is currently enabled or disabled for operation."
+      }
     },
     {
       "@type": "Property",
@@ -566,7 +653,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Capability:detected;1"
+      "@id": "dtmi:com:syyclops:Capability:detected;1",
+      "description": {
+        "en": "Flags whether the capability has been successfully detected by the system."
+      }
     },
     {
       "@type": "Property",
@@ -576,7 +666,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Capability:analyticsEnabled;1"
+      "@id": "dtmi:com:syyclops:Capability:analyticsEnabled;1",
+      "description": {
+        "en": "Indicates whether analytical features are enabled for the capability."
+      }
     }
   ],
   "schemas": [

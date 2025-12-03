@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Modbus Network System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ControlsSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines the characteristics of a Modbus network system utilized in automation control."
+  }
 }

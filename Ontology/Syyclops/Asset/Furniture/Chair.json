@@ -17,10 +17,16 @@
       "writable": true,
       "schema": "string",
       "comment": "basic, adjustable-height",
-      "@id": "dtmi:com:syyclops:Chair:type;1"
+      "@id": "dtmi:com:syyclops:Chair:type;1",
+      "description": {
+        "en": "The 'type' property of the Chair interface defines the category of the chair."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a chair as a piece of furniture."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "VOR Receiver Checkpoint Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:InformationSign;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Outlines properties of VOR Receiver Checkpoint Signs used for navigation reference points."
+  }
 }

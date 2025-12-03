@@ -16,7 +16,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Collection:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Collection:hasDocument;1",
+      "description": {
+        "en": "A relationship indicating that a collection can contain one or more associated documents."
+      }
     },
     {
       "@type": "Relationship",
@@ -37,7 +40,10 @@
         "en": "included in"
       },
       "target": "dtmi:com:syyclops:Collection;1",
-      "@id": "dtmi:com:syyclops:Collection:includedIn;1"
+      "@id": "dtmi:com:syyclops:Collection:includedIn;1",
+      "description": {
+        "en": "A relationship denoting that a collection can be part of another collection."
+      }
     },
     {
       "@type": "Relationship",
@@ -46,7 +52,10 @@
       },
       "name": "locatedIn",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:Collection:locatedIn;1"
+      "@id": "dtmi:com:syyclops:Collection:locatedIn;1",
+      "description": {
+        "en": "A relationship specifying the spatial context or location of the collection within a defined space."
+      }
     },
     {
       "@type": "Relationship",
@@ -91,7 +100,10 @@
         "@id": "dtmi:com:syyclops:Collection:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Collection:customTags;1"
+      "@id": "dtmi:com:syyclops:Collection:customTags;1",
+      "description": {
+        "en": "A property that holds custom tags associated with the collection for enhanced categorization."
+      }
     },
     {
       "@type": "Property",
@@ -114,7 +126,10 @@
         "@id": "dtmi:com:syyclops:Collection:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Collection:externalIds;1"
+      "@id": "dtmi:com:syyclops:Collection:externalIds;1",
+      "description": {
+        "en": "A property containing external identifiers relevant to the collection for integration with other systems."
+      }
     },
     {
       "@type": "Property",
@@ -128,7 +143,10 @@
         "elementSchema": "dtmi:com:syyclops:CollectionMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Collection:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Collection:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Collection:mappedIds;1",
+      "description": {
+        "en": "A property that stores identifiers mapped to specific attributes or elements within the collection."
+      }
     },
     {
       "@type": "Property",
@@ -138,7 +156,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Collection:name;1"
+      "@id": "dtmi:com:syyclops:Collection:name;1",
+      "description": {
+        "en": "A property defining the name of the collection for easy identification."
+      }
     },
     {
       "@type": "Property",
@@ -149,7 +170,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for geometry rendering (i.e. ForgeViewerID)",
-      "@id": "dtmi:com:syyclops:Collection:geometryViewerID;1"
+      "@id": "dtmi:com:syyclops:Collection:geometryViewerID;1",
+      "description": {
+        "en": "A property representing the ID used for viewing the geometry of the collection."
+      }
     },
     {
       "@type": "Property",
@@ -160,7 +184,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for displaying in spatial context",
-      "@id": "dtmi:com:syyclops:Collection:geometrySpatialReference;1"
+      "@id": "dtmi:com:syyclops:Collection:geometrySpatialReference;1",
+      "description": {
+        "en": "A property specifying the spatial reference system of the collection's geometry."
+      }
     },
     {
       "@type": "Property",
@@ -171,7 +198,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference to geometry source (i.e. Revit GUID)",
-      "@id": "dtmi:com:syyclops:Collection:geometryExternalID;1"
+      "@id": "dtmi:com:syyclops:Collection:geometryExternalID;1",
+      "description": {
+        "en": "A property holding an external ID related to the collection's geometric representation."
+      }
     },
     {
       "@type": "Property",
@@ -181,7 +211,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Collection:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Collection:uniqueID;1",
+      "description": {
+        "en": "A property that provides a unique identifier for distinguishing the collection."
+      }
     },
     {
       "@type": "Property",
@@ -191,7 +224,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Collection:externalID;1"
+      "@id": "dtmi:com:syyclops:Collection:externalID;1",
+      "description": {
+        "en": "A property that holds an external identifier corresponding to the collection for interoperability."
+      }
     },
     {
       "@type": "Property",
@@ -201,7 +237,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Collection:code;1"
+      "@id": "dtmi:com:syyclops:Collection:code;1",
+      "description": {
+        "en": "A property representing a code that uniquely identifies the collection for reference."
+      }
     },
     {
       "@type": "Property",
@@ -211,7 +250,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Collection:description;1"
+      "@id": "dtmi:com:syyclops:Collection:description;1",
+      "description": {
+        "en": "A property that contains a textual description of the collection's purpose and contents."
+      }
     },
     {
       "@type": "Property",
@@ -221,7 +263,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Collection:siteID;1"
+      "@id": "dtmi:com:syyclops:Collection:siteID;1",
+      "description": {
+        "en": "A property indicating the site identifier where the collection is hosted or based."
+      }
     },
     {
       "@type": "Property",
@@ -232,7 +277,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference of the land (i.e. campus, site, airport) to which the asset belongs. A Customer has one or many Lands. Land is considered the top-level entity for binding airport twins.",
-      "@id": "dtmi:com:syyclops:Collection:landId;1"
+      "@id": "dtmi:com:syyclops:Collection:landId;1",
+      "description": {
+        "en": "A property representing the land identifier associated with the collection."
+      }
     },
     {
       "@type": "Property",
@@ -267,7 +315,10 @@
         },
         "@id": "dtmi:com:syyclops:Collection:MS4;1"
       },
-      "@id": "dtmi:com:syyclops:Collection:customProperties;1"
+      "@id": "dtmi:com:syyclops:Collection:customProperties;1",
+      "description": {
+        "en": "A property for storing additional custom properties specific to the collection."
+      }
     },
     {
       "@type": "Property",
@@ -330,7 +381,10 @@
         ],
         "@id": "dtmi:com:syyclops:Collection:OS6;1"
       },
-      "@id": "dtmi:com:syyclops:Collection:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Collection:alternateClassification;1",
+      "description": {
+        "en": "A property that holds alternate classification identifiers for the collection's items."
+      }
     }
   ],
   "schemas": [

@@ -33,7 +33,10 @@
       "annotates": "fixedRate",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityRate:fixedRateUnit;1"
+      "@id": "dtmi:com:syyclops:UtilityRate:fixedRateUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for fixed utility rates in the Utility Rate interface."
+      }
     },
     {
       "@type": "Property",
@@ -102,7 +105,10 @@
         },
         "@id": "dtmi:com:syyclops:UtilityRate:AS1;1"
       },
-      "@id": "dtmi:com:syyclops:UtilityRate:timeOfUseRates;1"
+      "@id": "dtmi:com:syyclops:UtilityRate:timeOfUseRates;1",
+      "description": {
+        "en": "Represents the time-of-use rates property indicating variable utility costs based on consumption times."
+      }
     }
   ],
   "@context": [
@@ -110,5 +116,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the UtilityRate interface for determining the costs associated with utility consumption."
+  }
 }

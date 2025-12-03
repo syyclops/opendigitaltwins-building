@@ -280,7 +280,10 @@
             "en": "Draft"
           },
           "enumValue": "Draft",
-          "@id": "dtmi:com:syyclops:WorkOrder:Draft;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Draft;1",
+          "description": {
+            "en": "Denotes the Draft status of a Work Order."
+          }
         },
         {
           "name": "Open",
@@ -288,7 +291,10 @@
             "en": "Open"
           },
           "enumValue": "Open",
-          "@id": "dtmi:com:syyclops:WorkOrder:Open;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Open;1",
+          "description": {
+            "en": "Indicates that the Work Order is currently Open."
+          }
         },
         {
           "name": "Assigned",
@@ -296,7 +302,10 @@
             "en": "Assigned"
           },
           "enumValue": "Assigned",
-          "@id": "dtmi:com:syyclops:WorkOrder:Assigned;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Assigned;1",
+          "description": {
+            "en": "Represents the Assigned status of a Work Order."
+          }
         },
         {
           "name": "InProgress",
@@ -304,7 +313,10 @@
             "en": "In Progress"
           },
           "enumValue": "InProgress",
-          "@id": "dtmi:com:syyclops:WorkOrder:InProgress;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:InProgress;1",
+          "description": {
+            "en": "Indicates that the Work Order is currently In Progress."
+          }
         },
         {
           "name": "OnHold",
@@ -312,7 +324,10 @@
             "en": "On Hold"
           },
           "enumValue": "OnHold",
-          "@id": "dtmi:com:syyclops:WorkOrder:OnHold;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:OnHold;1",
+          "description": {
+            "en": "Denotes that the Work Order is On Hold."
+          }
         },
         {
           "name": "Completed",
@@ -320,7 +335,10 @@
             "en": "Completed"
           },
           "enumValue": "Completed",
-          "@id": "dtmi:com:syyclops:WorkOrder:Completed;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Completed;1",
+          "description": {
+            "en": "Indicates the Work Order has been Completed."
+          }
         },
         {
           "name": "Cancelled",
@@ -328,7 +346,10 @@
             "en": "Cancelled"
           },
           "enumValue": "Cancelled",
-          "@id": "dtmi:com:syyclops:WorkOrder:Cancelled;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Cancelled;1",
+          "description": {
+            "en": "Indicates that the Work Order has been Cancelled."
+          }
         },
         {
           "name": "Closed",
@@ -336,7 +357,10 @@
             "en": "Closed"
           },
           "enumValue": "Closed",
-          "@id": "dtmi:com:syyclops:WorkOrder:Closed;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Closed;1",
+          "description": {
+            "en": "Denotes that the Work Order is Closed."
+          }
         }
       ],
       "displayName": {
@@ -354,7 +378,10 @@
             "en": "Low"
           },
           "enumValue": "Low",
-          "@id": "dtmi:com:syyclops:WorkOrder:Low;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Low;1",
+          "description": {
+            "en": "Represents a Low priority status for a Work Order."
+          }
         },
         {
           "name": "Medium",
@@ -362,7 +389,10 @@
             "en": "Medium"
           },
           "enumValue": "Medium",
-          "@id": "dtmi:com:syyclops:WorkOrder:Medium;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Medium;1",
+          "description": {
+            "en": "Represents a Medium priority status for a Work Order."
+          }
         },
         {
           "name": "High",
@@ -370,7 +400,10 @@
             "en": "High"
           },
           "enumValue": "High",
-          "@id": "dtmi:com:syyclops:WorkOrder:High;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:High;1",
+          "description": {
+            "en": "Represents a high-priority work order status within the event-driven work order schema."
+          }
         },
         {
           "name": "Critical",
@@ -378,7 +411,10 @@
             "en": "Critical"
           },
           "enumValue": "Critical",
-          "@id": "dtmi:com:syyclops:WorkOrder:Critical;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Critical;1",
+          "description": {
+            "en": "Denotes a critical work order status in the event-centered work order schema."
+          }
         },
         {
           "name": "Emergency",
@@ -386,7 +422,10 @@
             "en": "Emergency"
           },
           "enumValue": "Emergency",
-          "@id": "dtmi:com:syyclops:WorkOrder:Emergency;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Emergency;1",
+          "description": {
+            "en": "Indicates an emergency work order status as defined in the event work order schema."
+          }
         }
       ],
       "displayName": {
@@ -404,7 +443,10 @@
             "en": "Preventive Maintenance"
           },
           "enumValue": "PreventiveMaintenance",
-          "@id": "dtmi:com:syyclops:WorkOrder:PreventiveMaintenance;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:PreventiveMaintenance;1",
+          "description": {
+            "en": "Specifies a work order status for preventive maintenance in the event work order schema."
+          }
         },
         {
           "name": "CorrectiveMaintenance",
@@ -412,7 +454,10 @@
             "en": "Corrective Maintenance"
           },
           "enumValue": "CorrectiveMaintenance",
-          "@id": "dtmi:com:syyclops:WorkOrder:CorrectiveMaintenance;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:CorrectiveMaintenance;1",
+          "description": {
+            "en": "Identifies a work order for corrective maintenance within the event-driven work order framework."
+          }
         },
         {
           "name": "Inspection",
@@ -420,7 +465,10 @@
             "en": "Inspection"
           },
           "enumValue": "Inspection",
-          "@id": "dtmi:com:syyclops:WorkOrder:Inspection;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Inspection;1",
+          "description": {
+            "en": "Represents a work order status related to inspection activities in the event work order context."
+          }
         },
         {
           "name": "Repair",
@@ -428,7 +476,10 @@
             "en": "Repair"
           },
           "enumValue": "Repair",
-          "@id": "dtmi:com:syyclops:WorkOrder:Repair;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Repair;1",
+          "description": {
+            "en": "Denotes a work order status focused on repair tasks within the event work order schema."
+          }
         },
         {
           "name": "Installation",
@@ -436,7 +487,10 @@
             "en": "Installation"
           },
           "enumValue": "Installation",
-          "@id": "dtmi:com:syyclops:WorkOrder:Installation;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Installation;1",
+          "description": {
+            "en": "Describes a work order status pertaining to installation processes in the event work order schema."
+          }
         },
         {
           "name": "Replacement",
@@ -444,7 +498,10 @@
             "en": "Replacement"
           },
           "enumValue": "Replacement",
-          "@id": "dtmi:com:syyclops:WorkOrder:Replacement;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Replacement;1",
+          "description": {
+            "en": "Indicates a work order status for replacement tasks as defined in the work order event schema."
+          }
         },
         {
           "name": "Calibration",
@@ -452,7 +509,10 @@
             "en": "Calibration"
           },
           "enumValue": "Calibration",
-          "@id": "dtmi:com:syyclops:WorkOrder:Calibration;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Calibration;1",
+          "description": {
+            "en": "Specifies a calibration-related work order status within the event work order schema."
+          }
         },
         {
           "name": "Cleaning",
@@ -460,7 +520,10 @@
             "en": "Cleaning"
           },
           "enumValue": "Cleaning",
-          "@id": "dtmi:com:syyclops:WorkOrder:Cleaning;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Cleaning;1",
+          "description": {
+            "en": "Represents a work order status associated with cleaning activities in the event work order schema."
+          }
         },
         {
           "name": "Safety",
@@ -468,7 +531,10 @@
             "en": "Safety"
           },
           "enumValue": "Safety",
-          "@id": "dtmi:com:syyclops:WorkOrder:Safety;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:Safety;1",
+          "description": {
+            "en": "Indicates a work order status focused on safety inspections within the event work order framework."
+          }
         },
         {
           "name": "Emergency",
@@ -476,7 +542,10 @@
             "en": "Emergency"
           },
           "enumValue": "Emergency",
-          "@id": "dtmi:com:syyclops:WorkOrder:SE1;1"
+          "@id": "dtmi:com:syyclops:WorkOrder:SE1;1",
+          "description": {
+            "en": "Defines an emergency work order status, reiterated in the event-based work order context."
+          }
         }
       ],
       "displayName": {

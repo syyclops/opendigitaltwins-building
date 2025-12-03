@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Domestic Water Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingPump;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface characterizes the domestic water pump controlling household water distribution."
+  }
 }

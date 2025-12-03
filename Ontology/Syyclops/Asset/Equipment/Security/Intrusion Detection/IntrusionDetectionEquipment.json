@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Intrusion Detection Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SecurityEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface specifying devices designed to detect unauthorized entry or suspicious activity."
+  }
 }

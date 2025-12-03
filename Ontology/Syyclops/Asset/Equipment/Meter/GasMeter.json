@@ -16,7 +16,10 @@
       "name": "type",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:type;1"
+      "@id": "dtmi:com:syyclops:GasMeter:type;1",
+      "description": {
+        "en": "Property indicating the type designation specific to the gas meter interface."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:minTemperatureRating;1"
+      "@id": "dtmi:com:syyclops:GasMeter:minTemperatureRating;1",
+      "description": {
+        "en": "Property specifying the minimum temperature rating required for the gas meter operation."
+      }
     },
     {
       "@type": [
@@ -46,7 +52,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:minTemperatureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:GasMeter:minTemperatureRatingUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the minimum temperature rating of the Gas Meter."
+      }
     },
     {
       "@type": [
@@ -60,7 +69,10 @@
       "schema": "double",
       "unit": "kilogramPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:minMassFlowRating;1"
+      "@id": "dtmi:com:syyclops:GasMeter:minMassFlowRating;1",
+      "description": {
+        "en": "Represents the minimum mass flow rating that the Gas Meter can accurately measure."
+      }
     },
     {
       "@type": [
@@ -76,7 +88,10 @@
       "overrides": "unit",
       "schema": "MassFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:minMassFlowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:GasMeter:minMassFlowRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the minimum mass flow rating of the Gas Meter."
+      }
     },
     {
       "@type": [
@@ -90,7 +105,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:maxTemperatureRating;1"
+      "@id": "dtmi:com:syyclops:GasMeter:maxTemperatureRating;1",
+      "description": {
+        "en": "Indicates the maximum temperature rating that the Gas Meter can operate under."
+      }
     },
     {
       "@type": [
@@ -106,7 +124,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:maxTemperatureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:GasMeter:maxTemperatureRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the maximum temperature rating of the Gas Meter."
+      }
     },
     {
       "@type": [
@@ -120,7 +141,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:maxPressureRating;1"
+      "@id": "dtmi:com:syyclops:GasMeter:maxPressureRating;1",
+      "description": {
+        "en": "Represents the maximum pressure rating that the Gas Meter can safely handle."
+      }
     },
     {
       "@type": [
@@ -136,7 +160,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:maxPressureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:GasMeter:maxPressureRatingUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the maximum pressure rating of the Gas Meter."
+      }
     },
     {
       "@type": [
@@ -150,7 +177,10 @@
       "schema": "double",
       "unit": "kilogramPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:maxMassFlowRating;1"
+      "@id": "dtmi:com:syyclops:GasMeter:maxMassFlowRating;1",
+      "description": {
+        "en": "Specifies the maximum mass flow rating that the Gas Meter can accurately measure."
+      }
     },
     {
       "@type": [
@@ -166,7 +196,10 @@
       "overrides": "unit",
       "schema": "MassFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasMeter:maxMassFlowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:GasMeter:maxMassFlowRatingUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the maximum mass flow rating of the Gas Meter."
+      }
     },
     {
       "@type": "Relationship",
@@ -175,7 +208,10 @@
       },
       "name": "subMeterOf",
       "target": "dtmi:com:syyclops:GasMeter;1",
-      "@id": "dtmi:com:syyclops:GasMeter:subMeterOf;1"
+      "@id": "dtmi:com:syyclops:GasMeter:subMeterOf;1",
+      "description": {
+        "en": "Defines the relationship indicating that this Gas Meter is a sub-meter of another Gas Meter."
+      }
     },
     {
       "@type": "Relationship",
@@ -183,7 +219,10 @@
         "en": "measures"
       },
       "name": "measures",
-      "@id": "dtmi:com:syyclops:GasMeter:measures;1"
+      "@id": "dtmi:com:syyclops:GasMeter:measures;1",
+      "description": {
+        "en": "Specifies the relationship that indicates what the Gas Meter measures."
+      }
     }
   ],
   "@context": [
@@ -191,5 +230,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface outlining the specifications and functions of gas metering equipment."
+  }
 }

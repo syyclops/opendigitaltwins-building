@@ -12,7 +12,10 @@
   ],
   "contents": [
     {
-      "@type": ["Telemetry", "Density"],
+      "@type": [
+        "Telemetry",
+        "Density"
+      ],
       "@id": "dtmi:com:syyclops:AirQualitySensor:pm;1",
       "name": "pm",
       "displayName": {
@@ -25,7 +28,11 @@
       "unit": "microgramPerCubicMetre"
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "@id": "dtmi:com:syyclops:AirQualitySensor:pmUnit;1",
       "name": "pmUnit",
       "displayName": {
@@ -34,7 +41,10 @@
       "schema": "DensityUnit",
       "writable": true,
       "annotates": "pm",
-      "overrides": "unit"
+      "overrides": "unit",
+      "description": {
+        "en": "The pmUnit property specifies the unit of measurement for particulate matter concentration in air quality sensors."
+      }
     }
   ],
   "@context": [

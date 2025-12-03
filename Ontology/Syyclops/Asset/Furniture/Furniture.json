@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "float",
-      "@id": "dtmi:com:syyclops:Furniture:length;1"
+      "@id": "dtmi:com:syyclops:Furniture:length;1",
+      "description": {
+        "en": "The 'length' property of the Furniture interface specifies the length measurement of the furniture."
+      }
     },
     {
       "@type": "Property",
@@ -26,7 +29,10 @@
       },
       "writable": true,
       "schema": "float",
-      "@id": "dtmi:com:syyclops:Furniture:width;1"
+      "@id": "dtmi:com:syyclops:Furniture:width;1",
+      "description": {
+        "en": "The 'width' property of the Furniture interface indicates the width measurement of the furniture."
+      }
     },
     {
       "@type": "Property",
@@ -36,10 +42,16 @@
       },
       "writable": true,
       "schema": "float",
-      "@id": "dtmi:com:syyclops:Furniture:height;1"
+      "@id": "dtmi:com:syyclops:Furniture:height;1",
+      "description": {
+        "en": "The 'height' property of the Furniture interface describes the height measurement of the furniture."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Furniture interface represents a generic category within the Asset model for various furniture items."
+  }
 }

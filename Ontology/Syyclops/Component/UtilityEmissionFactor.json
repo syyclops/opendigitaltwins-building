@@ -33,7 +33,10 @@
       "annotates": "co2",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:co2Unit;1"
+      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:co2Unit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for carbon dioxide emissions in the Utility Emission Factor interface."
+      }
     },
     {
       "@type": "Property",
@@ -60,7 +63,10 @@
       "annotates": "co2e",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:co2eUnit;1"
+      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:co2eUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for carbon dioxide equivalent emissions in the Utility Emission Factor interface."
+      }
     },
     {
       "@type": "Property",
@@ -87,7 +93,10 @@
       "annotates": "n2o",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:n2oUnit;1"
+      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:n2oUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for nitrous oxide emissions in the Utility Emission Factor interface."
+      }
     },
     {
       "@type": "Property",
@@ -114,7 +123,10 @@
       "annotates": "ch4",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:ch4Unit;1"
+      "@id": "dtmi:com:syyclops:UtilityEmissionFactor:ch4Unit;1",
+      "description": {
+        "en": "Establishes the unit of measurement for methane emissions in the Utility Emission Factor interface."
+      }
     }
   ],
   "@context": [
@@ -122,5 +134,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Establishes the UtilityEmissionFactor interface for assessing the environmental impact of utility consumption."
+  }
 }

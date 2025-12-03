@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:transitionType;1"
+      "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:transitionType;1",
+      "description": {
+        "en": "Property defining the type of transition used by an automatic transfer switch, affecting power reliability."
+      }
     },
     {
       "@type": "Property",
@@ -63,10 +66,16 @@
         "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:switchingMechanism;1"
+      "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:switchingMechanism;1",
+      "description": {
+        "en": "Property describing the switching mechanism of an automatic transfer switch, which influences operation speed."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for automatic transfer switches that ensure power continuity by switching between power sources."
+  }
 }

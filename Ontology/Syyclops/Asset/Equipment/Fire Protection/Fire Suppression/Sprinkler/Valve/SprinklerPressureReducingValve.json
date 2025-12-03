@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Pressure-reducing Valve (Sprinkler)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SprinklerValve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for a Pressure Reducing Valve that regulates and lowers system pressure."
+  }
 }

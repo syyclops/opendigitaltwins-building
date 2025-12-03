@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Pressure Reducing Valve (HVAC)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACValve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface that defines a valve for reducing pressure within HVAC systems."
+  }
 }

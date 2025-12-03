@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Propane System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:GasSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface describing a propane gas system primarily utilized for energy generation in plumbing."
+  }
 }

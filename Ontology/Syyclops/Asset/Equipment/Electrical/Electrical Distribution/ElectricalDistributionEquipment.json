@@ -60,11 +60,17 @@
         },
         "@id": "dtmi:com:syyclops:ElectricalDistributionEquipment:MS1;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalDistributionEquipment:loadClassification;1"
+      "@id": "dtmi:com:syyclops:ElectricalDistributionEquipment:loadClassification;1",
+      "description": {
+        "en": "Classifies the load that the electrical distribution equipment is designed to support, aiding in performance assessment."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for electrical distribution equipment, encompassing specifications and properties for efficient power distribution."
+  }
 }

@@ -5,10 +5,11 @@
     "en": "Storm Sewer Outlet"
   },
   "extends": "dtmi:com:syyclops:DistributionConnector;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing outlets in storm sewer systems where water discharges into the environment."
+  }
 }

@@ -45,7 +45,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:zoneDelivery;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:zoneDelivery;1",
+      "description": {
+        "en": "Property defining the delivery method for air within a designated zone."
+      }
     },
     {
       "@type": "Property",
@@ -81,7 +84,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:ventilationStrategy;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:ventilationStrategy;1",
+      "description": {
+        "en": "Property indicating the strategy employed for ventilating spaces within the air handling unit."
+      }
     },
     {
       "@type": "Property",
@@ -112,7 +118,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES3;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:ventilationConfiguration;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:ventilationConfiguration;1",
+      "description": {
+        "en": "Property representing the specific configuration of ventilation used by the air handling unit."
+      }
     },
     {
       "@type": "Property",
@@ -122,7 +131,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:refrigerantType;1",
+      "description": {
+        "en": "Specifies the type of refrigerant used in the Air Handling Unit (AHU) for cooling operations."
+      }
     },
     {
       "@type": [
@@ -136,7 +148,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalHeatingCapacity;1",
+      "description": {
+        "en": "Denotes the nominal heating capacity of the Air Handling Unit, measured in BTUs or Watts."
+      }
     },
     {
       "@type": [
@@ -152,7 +167,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for nominal heating capacity in the Air Handling Unit."
+      }
     },
     {
       "@type": [
@@ -166,7 +184,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalCoolingCapacity;1",
+      "description": {
+        "en": "Defines the nominal cooling capacity of the Air Handling Unit, indicated in BTUs or Watts."
+      }
     },
     {
       "@type": [
@@ -182,7 +203,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the nominal cooling capacity of the Air Handling Unit."
+      }
     },
     {
       "@type": [
@@ -196,7 +220,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleHeatingCapacity;1",
+      "description": {
+        "en": "Represents the net sensible heating capacity of the Air Handling Unit, in BTUs or Watts."
+      }
     },
     {
       "@type": [
@@ -212,7 +239,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleHeatingCapacityUnit;1",
+      "description": {
+        "en": "Indicates the unit for net sensible heating capacity specific to the Air Handling Unit."
+      }
     },
     {
       "@type": [
@@ -226,7 +256,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleCoolingCapacity;1",
+      "description": {
+        "en": "Defines the net sensible cooling capacity of the Air Handling Unit, measured in BTUs or Watts."
+      }
     },
     {
       "@type": [
@@ -242,7 +275,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:netSensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for net sensible cooling capacity in the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -252,7 +288,10 @@
       "name": "nominalEnergyEfficiencyRatio",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalEnergyEfficiencyRatio;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalEnergyEfficiencyRatio;1",
+      "description": {
+        "en": "Describes the nominal energy efficiency ratio of the Air Handling Unit, reflecting cooling output relative to energy consumption."
+      }
     },
     {
       "@type": [
@@ -266,7 +305,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMinOutsideAirflow;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMinOutsideAirflow;1",
+      "description": {
+        "en": "Establishes the design minimum outside airflow for the Air Handling Unit, typically measured in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -282,7 +324,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMinOutsideAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMinOutsideAirflowUnit;1",
+      "description": {
+        "en": "Indicates the unit of measure for the design minimum outside airflow in the Air Handling Unit."
+      }
     },
     {
       "@type": [
@@ -295,7 +340,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMaxEnteringAirTemperature;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMaxEnteringAirTemperature;1",
+      "description": {
+        "en": "Specifies the design maximum entering air temperature for the Air Handling Unit."
+      }
     },
     {
       "@type": [
@@ -310,7 +358,10 @@
       "annotates": "designMaxEnteringAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMaxEnteringAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:designMaxEnteringAirTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measure for the design maximum entering air temperature of the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -346,7 +397,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES5;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:humidificationMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:humidificationMethod;1",
+      "description": {
+        "en": "Describes the method of humidification employed by the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -356,7 +410,10 @@
       "name": "filterType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:filterType;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:filterType;1",
+      "description": {
+        "en": "Specifies the type of filter used in the Air Handling Unit for air cleaning."
+      }
     },
     {
       "@type": "Property",
@@ -387,7 +444,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES7;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:dischargeDuctworkConfiguration;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:dischargeDuctworkConfiguration;1",
+      "description": {
+        "en": "Defines the configuration of the discharge ductwork in the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -438,7 +498,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES8;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:dehumidificationMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:dehumidificationMethod;1",
+      "description": {
+        "en": "Describes the dehumidification method utilized by the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -479,7 +542,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES10;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:energyRecoveryMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:energyRecoveryMethod;1",
+      "description": {
+        "en": "Specifies the energy recovery method implemented in the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -505,7 +571,10 @@
         "@id": "dtmi:com:syyclops:AirHandlingUnit:ES14;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:airflowModulation;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:airflowModulation;1",
+      "description": {
+        "en": "Indicates the mechanism for airflow modulation in the Air Handling Unit."
+      }
     },
     {
       "@type": "Property",
@@ -527,7 +596,10 @@
       },
       "name": "supplyFan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:supplyFan;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:supplyFan;1",
+      "description": {
+        "en": "The supplyFan is a component of the Air Handling Unit responsible for distributing conditioned air to the occupied spaces."
+      }
     },
     {
       "@type": "Component",
@@ -536,7 +608,10 @@
       },
       "name": "secondaryCoolingMethod",
       "schema": "dtmi:com:syyclops:HVACCoolingMethod;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:secondaryCoolingMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:secondaryCoolingMethod;1",
+      "description": {
+        "en": "The secondaryCoolingMethod defines the additional cooling techniques integrated into the Air Handling Unit for enhanced thermal comfort."
+      }
     },
     {
       "@type": "Property",
@@ -574,7 +649,10 @@
       },
       "name": "returnFan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:returnFan;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:returnFan;1",
+      "description": {
+        "en": "The returnFan is a component that facilitates the return of indoor air back to the Air Handling Unit for reconditioning."
+      }
     },
     {
       "@type": "Component",
@@ -583,7 +661,10 @@
       },
       "name": "reHeatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:reHeatingMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:reHeatingMethod;1",
+      "description": {
+        "en": "The reHeatingMethod specifies the processes used in the Air Handling Unit to elevate air temperatures after cooling."
+      }
     },
     {
       "@type": "Component",
@@ -592,7 +673,10 @@
       },
       "name": "primaryCoolingMethod",
       "schema": "dtmi:com:syyclops:HVACCoolingMethod;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:primaryCoolingMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:primaryCoolingMethod;1",
+      "description": {
+        "en": "The primaryCoolingMethod outlines the main cooling strategy employed in the Air Handling Unit for indoor climate control."
+      }
     },
     {
       "@type": "Component",
@@ -601,7 +685,10 @@
       },
       "name": "preHeatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:preHeatingMethod;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:preHeatingMethod;1",
+      "description": {
+        "en": "The preHeatingMethod describes the technique utilized by the Air Handling Unit to warm incoming air prior to cooling."
+      }
     },
     {
       "@type": "Component",
@@ -610,7 +697,10 @@
       },
       "name": "mixingBox",
       "schema": "dtmi:com:syyclops:HVACMixingBox;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:mixingBox;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:mixingBox;1",
+      "description": {
+        "en": "The mixingBox is a component that blends return air with fresh outdoor air to optimize the Air Handling Unit's performance."
+      }
     },
     {
       "@type": "Component",
@@ -619,7 +709,10 @@
       },
       "name": "exhaustFan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:exhaustFan;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:exhaustFan;1",
+      "description": {
+        "en": "The exhaustFan is responsible for removing stale air from the space, ensuring optimal indoor air quality."
+      }
     },
     {
       "@type": "Component",
@@ -628,7 +721,10 @@
       },
       "name": "energyRecoveryDevice",
       "schema": "dtmi:com:syyclops:EnergyRecoveryDevice;1",
-      "@id": "dtmi:com:syyclops:AirHandlingUnit:energyRecoveryDevice;1"
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:energyRecoveryDevice;1",
+      "description": {
+        "en": "The energyRecoveryDevice reclaims energy from exhaust air to enhance the overall efficiency of the Air Handling Unit."
+      }
     }
   ],
   "schemas": [],

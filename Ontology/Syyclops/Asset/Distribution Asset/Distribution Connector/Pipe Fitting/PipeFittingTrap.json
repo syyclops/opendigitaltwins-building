@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Trap"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingTrap interface prevents the escape of gases while allowing liquid flow."
+  }
 }

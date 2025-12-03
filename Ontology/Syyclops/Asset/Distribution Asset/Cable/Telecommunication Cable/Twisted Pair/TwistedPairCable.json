@@ -70,10 +70,16 @@
         "@id": "dtmi:com:syyclops:TwistedPairCable:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:TwistedPairCable:categoryRating;1"
+      "@id": "dtmi:com:syyclops:TwistedPairCable:categoryRating;1",
+      "description": {
+        "en": "Property indicating the category rating of the Twisted Pair Cable interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Twisted Pair Cable utilized in telecommunication installations."
+  }
 }

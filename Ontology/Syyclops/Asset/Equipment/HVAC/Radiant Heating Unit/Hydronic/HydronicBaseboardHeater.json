@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Hydronic Baseboard Heater"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HydronicRadiantHeater;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for a hydronic baseboard heater in HVAC systems for efficient heating."
+  }
 }

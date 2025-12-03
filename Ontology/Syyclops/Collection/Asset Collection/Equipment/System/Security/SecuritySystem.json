@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Security System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:System;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for a security system, encompassing features and operations related to comprehensive security management in equipment systems."
+  }
 }

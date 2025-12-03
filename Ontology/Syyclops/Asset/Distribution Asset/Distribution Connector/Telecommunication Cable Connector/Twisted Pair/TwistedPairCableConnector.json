@@ -70,10 +70,16 @@
         "@id": "dtmi:com:syyclops:TwistedPairCableConnector:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:TwistedPairCableConnector:categoryRating;1"
+      "@id": "dtmi:com:syyclops:TwistedPairCableConnector:categoryRating;1",
+      "description": {
+        "en": "Property indicating the category rating of twisted pair cable connectors to ensure compliance with standards."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining connectors for twisted pair cables commonly used in telecommunication systems."
+  }
 }

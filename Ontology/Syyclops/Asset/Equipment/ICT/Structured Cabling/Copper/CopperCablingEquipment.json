@@ -70,10 +70,16 @@
         "@id": "dtmi:com:syyclops:CopperCablingEquipment:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:CopperCablingEquipment:categoryRating;1"
+      "@id": "dtmi:com:syyclops:CopperCablingEquipment:categoryRating;1",
+      "description": {
+        "en": "Property defining the category rating of Copper Cabling, determining its performance capabilities."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Copper Cabling Equipment, managing structured cabling solutions within ICT infrastructure."
+  }
 }

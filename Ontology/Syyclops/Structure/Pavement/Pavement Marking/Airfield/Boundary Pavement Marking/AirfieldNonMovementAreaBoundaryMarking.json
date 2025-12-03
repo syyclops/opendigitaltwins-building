@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Airfield Non-Movement Area Boundary Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldBoundaryPavementMarking;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies markings for the non-movement area boundaries of the airfield, indicating no aircraft operations are permitted."
+  }
 }

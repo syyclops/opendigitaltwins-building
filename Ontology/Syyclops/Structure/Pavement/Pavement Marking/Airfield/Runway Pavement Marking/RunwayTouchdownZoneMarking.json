@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Touchdown Zone Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:RunwayPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining touchdown zone markings that indicate the ideal landing area on the runway."
+  }
 }

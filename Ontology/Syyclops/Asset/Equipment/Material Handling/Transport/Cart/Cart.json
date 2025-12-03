@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Cart"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:TransportEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface that specifies the design and use of carts for transporting materials."
+  }
 }

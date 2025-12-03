@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Vehicle Service Lift"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ConveyanceEquipment;1",
     "dtmi:com:syyclops:VehicleEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface describing the specifications and properties of a vehicle service lift."
+  }
 }

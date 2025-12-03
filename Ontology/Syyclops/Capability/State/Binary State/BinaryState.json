@@ -19,7 +19,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:BinaryState:lastValue;1"
+      "@id": "dtmi:com:syyclops:BinaryState:lastValue;1",
+      "description": {
+        "en": "Represents the last recorded value of a binary state property, indicating the most recent status in the Binary State interface."
+      }
     }
   ],
   "@context": [

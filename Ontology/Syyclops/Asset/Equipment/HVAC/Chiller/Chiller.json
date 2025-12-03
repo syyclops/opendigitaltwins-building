@@ -15,7 +15,10 @@
       },
       "name": "evaporator",
       "schema": "dtmi:com:syyclops:Evaporator;1",
-      "@id": "dtmi:com:syyclops:Chiller:evaporator;1"
+      "@id": "dtmi:com:syyclops:Chiller:evaporator;1",
+      "description": {
+        "en": "The evaporator component refers to the heat absorption element of an HVAC chiller."
+      }
     },
     {
       "@type": "Component",
@@ -24,7 +27,10 @@
       },
       "name": "compressor",
       "schema": "dtmi:com:syyclops:Compressor;1",
-      "@id": "dtmi:com:syyclops:Chiller:compressor;1"
+      "@id": "dtmi:com:syyclops:Chiller:compressor;1",
+      "description": {
+        "en": "The compressor component indicates the mechanical unit that increases the refrigerant pressure in a chiller."
+      }
     },
     {
       "@type": "Property",
@@ -34,7 +40,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:Chiller:refrigerantType;1",
+      "description": {
+        "en": "The refrigerantType property specifies the type of refrigerant used in the chiller's cooling cycle."
+      }
     },
     {
       "@type": [
@@ -48,7 +57,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:Chiller:nominalCoolingCapacity;1",
+      "description": {
+        "en": "The nominalCoolingCapacity property defines the rated cooling capacity of the chiller in BTUs per hour."
+      }
     },
     {
       "@type": [
@@ -64,7 +76,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Chiller:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "The nominalCoolingCapacityUnit property indicates the unit of measurement for the nominal cooling capacity."
+      }
     },
     {
       "@type": [
@@ -78,7 +93,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:netSensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:Chiller:netSensibleCoolingCapacity;1",
+      "description": {
+        "en": "The netSensibleCoolingCapacity property defines the effective cooling capacity for sensible heat removal."
+      }
     },
     {
       "@type": [
@@ -94,7 +112,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:netSensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Chiller:netSensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "The netSensibleCoolingCapacityUnit property specifies the unit of measurement for net sensible cooling capacity."
+      }
     },
     {
       "@type": [
@@ -108,7 +129,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:designCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:Chiller:designCoolingCapacity;1",
+      "description": {
+        "en": "The designCoolingCapacity property indicates the planned cooling capacity of the chiller system."
+      }
     },
     {
       "@type": [
@@ -124,7 +148,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:designCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Chiller:designCoolingCapacityUnit;1",
+      "description": {
+        "en": "The designCoolingCapacityUnit property shows the unit of measurement for the design cooling capacity."
+      }
     },
     {
       "@type": "Property",
@@ -134,7 +161,10 @@
       "name": "designKWPerTon",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:designKWPerTon;1"
+      "@id": "dtmi:com:syyclops:Chiller:designKWPerTon;1",
+      "description": {
+        "en": "The designKWPerTon property defines the design kilowatt usage per ton of cooling capacity."
+      }
     },
     {
       "@type": "Property",
@@ -144,7 +174,10 @@
       "name": "designCoefficientOfPerformance",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:designCoefficientOfPerformance;1"
+      "@id": "dtmi:com:syyclops:Chiller:designCoefficientOfPerformance;1",
+      "description": {
+        "en": "The designCoefficientOfPerformance property specifies the efficiency of the chiller expressed as a ratio."
+      }
     },
     {
       "@type": "Property",
@@ -154,7 +187,10 @@
       "name": "designEnergyEfficiencyRatio",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:designEnergyEfficiencyRatio;1"
+      "@id": "dtmi:com:syyclops:Chiller:designEnergyEfficiencyRatio;1",
+      "description": {
+        "en": "The designEnergyEfficiencyRatio property indicates the energy efficiency rating of the chiller."
+      }
     },
     {
       "@type": "Property",
@@ -164,7 +200,10 @@
       "name": "nominalKWPerTon",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:nominalKWPerTon;1"
+      "@id": "dtmi:com:syyclops:Chiller:nominalKWPerTon;1",
+      "description": {
+        "en": "The nominalKWPerTon property indicates the cooling capacity of the chiller expressed in kilowatts per ton."
+      }
     },
     {
       "@type": "Property",
@@ -174,7 +213,10 @@
       "name": "nominalCoefficientOfPerformance",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:nominalCoefficientOfPerformance;1"
+      "@id": "dtmi:com:syyclops:Chiller:nominalCoefficientOfPerformance;1",
+      "description": {
+        "en": "The nominalCoefficientOfPerformance property represents the efficiency of the chiller based on its nominal operating conditions."
+      }
     },
     {
       "@type": "Property",
@@ -184,7 +226,10 @@
       "name": "nominalEnergyEfficiencyRatio",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Chiller:nominalEnergyEfficiencyRatio;1"
+      "@id": "dtmi:com:syyclops:Chiller:nominalEnergyEfficiencyRatio;1",
+      "description": {
+        "en": "The nominalEnergyEfficiencyRatio property quantifies the chiller's cooling output in relation to its energy consumption."
+      }
     }
   ],
   "@context": [
@@ -192,5 +237,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The Chiller interface represents an HVAC unit responsible for producing chilled water for cooling purposes."
+  }
 }

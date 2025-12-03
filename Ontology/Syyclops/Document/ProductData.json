@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Product Data"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Document;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The ProductData interface contains comprehensive information about a specific product."
+  }
 }

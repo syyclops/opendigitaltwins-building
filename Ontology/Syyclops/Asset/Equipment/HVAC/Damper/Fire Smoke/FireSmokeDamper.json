@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Fire/Smoke Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireDamper;1",
     "dtmi:com:syyclops:SmokeDamper;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines a Fire Smoke Damper, designed to control smoke and prevent its spread in HVAC duct systems during a fire."
+  }
 }

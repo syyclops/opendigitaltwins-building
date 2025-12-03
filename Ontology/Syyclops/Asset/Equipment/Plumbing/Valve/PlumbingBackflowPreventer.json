@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Backflow Preventer (Plumbing)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingValve;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface details the backflow preventer essential for maintaining water safety."
+  }
 }

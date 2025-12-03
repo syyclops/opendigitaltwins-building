@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Structural Footing"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralFoundation;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Acts as an interface for Structural Footing components within the Building Component > Structural Foundation schema."
+  }
 }

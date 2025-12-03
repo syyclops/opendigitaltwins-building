@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Motor Control Center"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining attributes and behaviors for motor control centers, centralizing motor management for electrical distribution."
+  }
 }

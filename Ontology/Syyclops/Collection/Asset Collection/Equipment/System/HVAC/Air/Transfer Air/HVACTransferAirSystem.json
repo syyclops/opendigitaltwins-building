@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Transfer Air System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACAirSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface manages the interactions of a HVAC transfer air system, responsible for the distribution of conditioned air."
+  }
 }

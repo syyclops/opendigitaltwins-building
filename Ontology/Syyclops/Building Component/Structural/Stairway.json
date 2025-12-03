@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Stairway:stepWidth;1"
+      "@id": "dtmi:com:syyclops:Stairway:stepWidth;1",
+      "description": {
+        "en": "Specifies the stepWidth property of the Stairway interface, defining the width of each step."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Stairway:stepWidthUnit;1"
+      "@id": "dtmi:com:syyclops:Stairway:stepWidthUnit;1",
+      "description": {
+        "en": "Denotes the stepWidthUnit property in the Stairway interface, indicating the measurement unit for step width."
+      }
     },
     {
       "@type": "Component",
@@ -45,7 +51,10 @@
         "en": "Capacity"
       },
       "schema": "dtmi:com:syyclops:SpaceCapacity;1",
-      "@id": "dtmi:com:syyclops:Stairway:capacity;1"
+      "@id": "dtmi:com:syyclops:Stairway:capacity;1",
+      "description": {
+        "en": "Describes the capacity component of the Stairway interface, representing the maximum load it can support."
+      }
     },
     {
       "@type": "Component",
@@ -54,7 +63,10 @@
         "en": "Occupancy"
       },
       "schema": "dtmi:com:syyclops:SpaceOccupancy;1",
-      "@id": "dtmi:com:syyclops:Stairway:occupancy;1"
+      "@id": "dtmi:com:syyclops:Stairway:occupancy;1",
+      "description": {
+        "en": "Defines the occupancy component in the Stairway interface, indicating the expected number of users."
+      }
     }
   ],
   "@context": [
@@ -62,5 +74,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Functions as an interface for Stairway structural components in the Building Component > Structural schema."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Vehicle Gate Barrier"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VehicleAccessControlEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for gate barriers regulating vehicle access at entry points or secure areas."
+  }
 }

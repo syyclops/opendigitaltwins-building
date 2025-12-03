@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:PersonAccessEvent:accessReaderId;1"
+      "@id": "dtmi:com:syyclops:PersonAccessEvent:accessReaderId;1",
+      "description": {
+        "en": "Specifies the identifier for the access reader involved in the Person Access Event."
+      }
     },
     {
       "@type": "Property",
@@ -51,10 +54,16 @@
           "en": "Access Event Type"
         }
       },
-      "@id": "dtmi:com:syyclops:PersonAccessEvent:accessEventType;1"
+      "@id": "dtmi:com:syyclops:PersonAccessEvent:accessEventType;1",
+      "description": {
+        "en": "Describes the type of access event occurring in the Person Access Event."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for tracking access events involving individuals."
+  }
 }

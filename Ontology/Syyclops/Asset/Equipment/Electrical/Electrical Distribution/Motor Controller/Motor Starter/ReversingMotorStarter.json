@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Reversing Motor Starter"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MotorStarter;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a reversing motor starter for controlling motor operations in electrical distribution systems."
+  }
 }

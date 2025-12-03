@@ -21,7 +21,10 @@
       "schema": "double",
       "unit": "pascal",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:nominalExternalStaticPressure;1"
+      "@id": "dtmi:com:syyclops:Fan:nominalExternalStaticPressure;1",
+      "description": {
+        "en": "Specifies the nominal external static pressure for the fan."
+      }
     },
     {
       "@type": [
@@ -37,7 +40,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:nominalExternalStaticPressureUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:nominalExternalStaticPressureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the nominal external static pressure in the fan."
+      }
     },
     {
       "@type": [
@@ -51,7 +57,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:nominalAirflow;1"
+      "@id": "dtmi:com:syyclops:Fan:nominalAirflow;1",
+      "description": {
+        "en": "Represents the nominal airflow capacity of the fan."
+      }
     },
     {
       "@type": [
@@ -67,7 +76,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:nominalAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:nominalAirflowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the nominal airflow in the fan."
+      }
     },
     {
       "@type": [
@@ -81,7 +93,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:motorPower;1"
+      "@id": "dtmi:com:syyclops:Fan:motorPower;1",
+      "description": {
+        "en": "Denotes the power consumption of the fan motor."
+      }
     },
     {
       "@type": [
@@ -97,7 +112,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:motorPowerUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:motorPowerUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the motor power of the fan."
+      }
     },
     {
       "@type": [
@@ -111,7 +129,10 @@
       "schema": "double",
       "unit": "revolutionPerMinute",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:maxRotationSpeed;1"
+      "@id": "dtmi:com:syyclops:Fan:maxRotationSpeed;1",
+      "description": {
+        "en": "Specifies the maximum rotation speed of the fan in revolutions per minute (RPM)."
+      }
     },
     {
       "@type": [
@@ -125,7 +146,10 @@
       "schema": "double",
       "unit": "hertz",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:maxVFDFrequency;1"
+      "@id": "dtmi:com:syyclops:Fan:maxVFDFrequency;1",
+      "description": {
+        "en": "Indicates the maximum variable frequency drive (VFD) frequency the fan can operate at, measured in Hertz (Hz)."
+      }
     },
     {
       "@type": [
@@ -141,7 +165,10 @@
       "overrides": "unit",
       "schema": "FrequencyUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:maxVFDFrequencyUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:maxVFDFrequencyUnit;1",
+      "description": {
+        "en": "Unit of measurement for the maximum variable frequency drive (VFD) frequency of the fan, typically Hertz (Hz)."
+      }
     },
     {
       "@type": [
@@ -155,7 +182,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:brakeHorsepower;1"
+      "@id": "dtmi:com:syyclops:Fan:brakeHorsepower;1",
+      "description": {
+        "en": "Denotes the brake horsepower of the fan, representing its power output under load conditions."
+      }
     },
     {
       "@type": [
@@ -171,7 +201,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:brakeHorsepowerUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:brakeHorsepowerUnit;1",
+      "description": {
+        "en": "Unit of measure for the brake horsepower of the fan, commonly expressed in horsepower (HP)."
+      }
     },
     {
       "@type": [
@@ -185,7 +218,10 @@
       "schema": "double",
       "unit": "ampere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:fullLoadCurrent;1"
+      "@id": "dtmi:com:syyclops:Fan:fullLoadCurrent;1",
+      "description": {
+        "en": "Specifies the full load current required for the fan's operation, measured in Amperes (A)."
+      }
     },
     {
       "@type": [
@@ -201,7 +237,10 @@
       "overrides": "unit",
       "schema": "CurrentUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:fullLoadCurrentUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:fullLoadCurrentUnit;1",
+      "description": {
+        "en": "Unit of measurement for the full load current of the fan, typically represented in Amperes (A)."
+      }
     },
     {
       "@type": [
@@ -215,7 +254,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:minAirflowRating;1"
+      "@id": "dtmi:com:syyclops:Fan:minAirflowRating;1",
+      "description": {
+        "en": "Defines the minimum airflow rating of the fan, indicating the lowest airflow it can achieve, measured in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -231,7 +273,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:minAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:minAirflowRatingUnit;1",
+      "description": {
+        "en": "Unit of measurement for the minimum airflow rating of the fan, generally in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -245,7 +290,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:maxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:Fan:maxAirflowRating;1",
+      "description": {
+        "en": "Specifies the maximum airflow rating of the fan, representing its highest attainable airflow, measured in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -261,7 +309,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:maxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:maxAirflowRatingUnit;1",
+      "description": {
+        "en": "Unit of measurement for the maximum airflow rating of the fan, usually expressed in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -275,7 +326,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designAirflow;1"
+      "@id": "dtmi:com:syyclops:Fan:designAirflow;1",
+      "description": {
+        "en": "Indicates the design airflow of the fan, representing the optimal airflow intended for operation, measured in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -291,7 +345,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:designAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure for the design airflow of the fan, typically in cubic feet per minute (CFM)."
+      }
     },
     {
       "@type": [
@@ -305,7 +362,10 @@
       "schema": "double",
       "unit": "revolutionPerMinute",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designRotationSpeed;1"
+      "@id": "dtmi:com:syyclops:Fan:designRotationSpeed;1",
+      "description": {
+        "en": "Defines the design rotation speed of the fan, indicating the intended RPM during optimal operation."
+      }
     },
     {
       "@type": [
@@ -319,7 +379,10 @@
       "schema": "double",
       "unit": "hertz",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designVFDFrequency;1"
+      "@id": "dtmi:com:syyclops:Fan:designVFDFrequency;1",
+      "description": {
+        "en": "Specifies the design variable frequency drive (VFD) frequency for the fan, measured in Hertz (Hz)."
+      }
     },
     {
       "@type": [
@@ -335,7 +398,10 @@
       "overrides": "unit",
       "schema": "FrequencyUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designVFDFrequencyUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:designVFDFrequencyUnit;1",
+      "description": {
+        "en": "Unit of measurement for the design variable frequency drive (VFD) frequency of the fan, typically Hertz (Hz)."
+      }
     },
     {
       "@type": [
@@ -349,7 +415,10 @@
       "schema": "double",
       "unit": "pascal",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designExternalStaticPressure;1"
+      "@id": "dtmi:com:syyclops:Fan:designExternalStaticPressure;1",
+      "description": {
+        "en": "Indicates the design external static pressure that the fan is intended to operate against, measured in inches of water column (inWC)."
+      }
     },
     {
       "@type": [
@@ -365,7 +434,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:designExternalStaticPressureUnit;1"
+      "@id": "dtmi:com:syyclops:Fan:designExternalStaticPressureUnit;1",
+      "description": {
+        "en": "Unit of measurement for the design external static pressure of the fan, generally expressed in inches of water column (inWC)."
+      }
     },
     {
       "@type": "Property",
@@ -391,7 +463,10 @@
         "@id": "dtmi:com:syyclops:Fan:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Fan:driveType;1"
+      "@id": "dtmi:com:syyclops:Fan:driveType;1",
+      "description": {
+        "en": "Specifies the type of drive mechanism employed by the fan, such as direct drive or belt drive."
+      }
     },
     {
       "@type": "Property",
@@ -412,5 +487,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a fan with various operational characteristics."
+  }
 }

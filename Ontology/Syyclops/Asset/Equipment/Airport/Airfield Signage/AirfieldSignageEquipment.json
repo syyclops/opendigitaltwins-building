@@ -17,7 +17,10 @@
       "writable": true,
       "schema": "string",
       "comment": "A | 36-18",
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:message;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:message;1",
+      "description": {
+        "en": "This property specifies the text message displayed on the airfield signage equipment."
+      }
     },
     {
       "@type": [
@@ -31,7 +34,10 @@
       "writable": true,
       "schema": "double",
       "unit": "millimetre",
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:messageHeight;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:messageHeight;1",
+      "description": {
+        "en": "This property indicates the height of the displayed message on the airfield signage equipment."
+      }
     },
     {
       "@type": [
@@ -47,7 +53,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:messageHeightUnit;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:messageHeightUnit;1",
+      "description": {
+        "en": "This property defines the unit of measurement for the message height on airfield signage."
+      }
     },
     {
       "@type": [
@@ -61,7 +70,10 @@
       "writable": true,
       "schema": "double",
       "unit": "millimetre",
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelHeight;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelHeight;1",
+      "description": {
+        "en": "This property specifies the overall height of the signage panel used in airfield signage equipment."
+      }
     },
     {
       "@type": [
@@ -77,7 +89,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelHeightUnit;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelHeightUnit;1",
+      "description": {
+        "en": "This property indicates the unit of measurement for the height of the signage panel."
+      }
     },
     {
       "@type": [
@@ -91,7 +106,10 @@
       "writable": true,
       "schema": "double",
       "unit": "millimetre",
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelWidth;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelWidth;1",
+      "description": {
+        "en": "This property defines the width of the signage panel used in airfield signage equipment."
+      }
     },
     {
       "@type": [
@@ -107,7 +125,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelWidthUnit;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:panelWidthUnit;1",
+      "description": {
+        "en": "This property specifies the unit of measurement for the width of the signage panel."
+      }
     },
     {
       "@type": [
@@ -121,7 +142,10 @@
       "writable": true,
       "schema": "double",
       "unit": "millimetre",
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:installedHeight;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:installedHeight;1",
+      "description": {
+        "en": "This property indicates the installed height of the airfield signage equipment above ground."
+      }
     },
     {
       "@type": [
@@ -137,7 +161,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:installedHeightUnit;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldSignageEquipment:installedHeightUnit;1",
+      "description": {
+        "en": "This property defines the unit of measurement for the installed height of airfield signage equipment."
+      }
     }
   ],
   "@context": [
@@ -145,5 +172,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "This interface covers equipment related to airfield signage, including properties for digital signage displays."
+  }
 }

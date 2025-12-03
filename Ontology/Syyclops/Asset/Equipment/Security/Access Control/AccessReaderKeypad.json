@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Access Reader with Keypad"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AccessReader;1",
     "dtmi:com:syyclops:AccessKeypad;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface combining access reader and keypad functionalities for enhanced security entry."
+  }
 }

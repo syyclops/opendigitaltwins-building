@@ -62,10 +62,16 @@
         "@id": "dtmi:com:syyclops:MultimodeFiberOpticCable:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:MultimodeFiberOpticCable:performanceRating;1"
+      "@id": "dtmi:com:syyclops:MultimodeFiberOpticCable:performanceRating;1",
+      "description": {
+        "en": "Property indicating the performance rating of the Multimode Fiber Optic Cable interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Multimode Fiber Optic Cable used for telecommunication."
+  }
 }

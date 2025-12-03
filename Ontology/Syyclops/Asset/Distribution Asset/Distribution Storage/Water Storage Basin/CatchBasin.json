@@ -5,10 +5,11 @@
     "en": "Catch Basin"
   },
   "extends": "dtmi:com:syyclops:WaterStorageBasin;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for a catch basin located within the water storage basin storage."
+  }
 }

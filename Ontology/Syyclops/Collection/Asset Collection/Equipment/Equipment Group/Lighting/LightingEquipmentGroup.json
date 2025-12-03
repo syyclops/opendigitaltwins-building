@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Lighting Equipment Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EquipmentGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Establishes the interface for a group of lighting equipment in asset collections."
+  }
 }

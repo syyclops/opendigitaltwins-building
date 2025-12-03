@@ -42,7 +42,10 @@
         "@id": "dtmi:com:syyclops:HVACHeatingMethod:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:type;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:type;1",
+      "description": {
+        "en": "Represents the heating method type used within the HVAC system."
+      }
     },
     {
       "@type": [
@@ -56,7 +59,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:outsideDiameter;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:outsideDiameter;1",
+      "description": {
+        "en": "Specifies the outside diameter measurement of the heating method component."
+      }
     },
     {
       "@type": [
@@ -72,7 +78,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:outsideDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:outsideDiameterUnit;1",
+      "description": {
+        "en": "Indicates the measurement unit for the outside diameter of the heating component."
+      }
     },
     {
       "@type": "Property",
@@ -83,7 +92,10 @@
       "writable": true,
       "schema": "integer",
       "comment": "Coil row configuration",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:rows;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:rows;1",
+      "description": {
+        "en": "Defines the number of rows in the heating method configuration."
+      }
     },
     {
       "@type": "Property",
@@ -94,7 +106,10 @@
       "writable": true,
       "schema": "double",
       "comment": "Fins per inch",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:finsPerInch;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:finsPerInch;1",
+      "description": {
+        "en": "Indicates the number of fins per inch in the heating method design."
+      }
     },
     {
       "@type": [
@@ -107,7 +122,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringWaterTemperature;1",
+      "description": {
+        "en": "Defines the design entering water temperature for the heating system."
+      }
     },
     {
       "@type": [
@@ -122,7 +140,10 @@
       "annotates": "designEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design entering water temperature."
+      }
     },
     {
       "@type": [
@@ -135,7 +156,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingWaterTemperature;1",
+      "description": {
+        "en": "Specifies the designed leaving water temperature from the heating system."
+      }
     },
     {
       "@type": [
@@ -150,7 +174,10 @@
       "annotates": "designLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the design leaving water temperature."
+      }
     },
     {
       "@type": [
@@ -163,7 +190,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designDeltaWaterTemperature;1",
+      "description": {
+        "en": "Defines the designed delta temperature for water flow through the heating method."
+      }
     },
     {
       "@type": [
@@ -178,7 +208,10 @@
       "annotates": "designDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design delta water temperature."
+      }
     },
     {
       "@type": [
@@ -191,7 +224,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringAirTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringAirTemperature;1",
+      "description": {
+        "en": "Defines the design entering air temperature for the heating system."
+      }
     },
     {
       "@type": [
@@ -206,7 +242,10 @@
       "annotates": "designEnteringAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designEnteringAirTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the design entering air temperature."
+      }
     },
     {
       "@type": [
@@ -219,7 +258,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingAirTemperature;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingAirTemperature;1",
+      "description": {
+        "en": "Specifies the design leaving air temperature from the HVAC system."
+      }
     },
     {
       "@type": [
@@ -234,7 +276,10 @@
       "annotates": "designLeavingAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designLeavingAirTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design leaving air temperature."
+      }
     },
     {
       "@type": [
@@ -248,7 +293,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designFlow;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designFlow;1",
+      "description": {
+        "en": "Indicates the design flow rate for the heating method within the HVAC system."
+      }
     },
     {
       "@type": [
@@ -264,7 +312,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designFlowUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designFlowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design flow rate."
+      }
     },
     {
       "@type": [
@@ -278,7 +329,10 @@
       "schema": "double",
       "unit": "massPoundPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designMassFlow;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designMassFlow;1",
+      "description": {
+        "en": "Defines the design mass flow rate for the heating system."
+      }
     },
     {
       "@type": [
@@ -294,7 +348,10 @@
       "overrides": "unit",
       "schema": "MassFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designMassFlowUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designMassFlowUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the design mass flow rate."
+      }
     },
     {
       "@type": [
@@ -308,7 +365,10 @@
       "schema": "double",
       "unit": "kilopascal",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designPressureDrop;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designPressureDrop;1",
+      "description": {
+        "en": "Specifies the design pressure drop across the heating method."
+      }
     },
     {
       "@type": [
@@ -324,7 +384,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:designPressureDropUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design pressure drop in HVAC heating methods."
+      }
     }
   ],
   "@context": [
@@ -332,5 +395,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for HVAC heating methods to ensure proper integration and functionalities."
+  }
 }

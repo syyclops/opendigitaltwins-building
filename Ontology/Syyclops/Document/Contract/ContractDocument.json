@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Contract Document"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Document;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface detailing elements and contents of a generic contract document."
+  }
 }

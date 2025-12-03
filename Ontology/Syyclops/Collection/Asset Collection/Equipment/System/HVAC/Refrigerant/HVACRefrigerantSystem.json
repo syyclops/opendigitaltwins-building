@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Refrigerant System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface governs the features and controls of a HVAC refrigerant system for temperature regulation and cooling."
+  }
 }

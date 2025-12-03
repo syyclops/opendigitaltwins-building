@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Vibration Sensor Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SensorEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Vibration Sensor Equipment, monitoring vibration levels to detect potential anomalies."
+  }
 }

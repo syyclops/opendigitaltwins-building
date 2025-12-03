@@ -18,7 +18,10 @@
       },
       "name": "hasUtilityBill",
       "target": "dtmi:com:syyclops:UtilityBillEvent;1",
-      "@id": "dtmi:com:syyclops:UtilityAccount:hasUtilityBill;1"
+      "@id": "dtmi:com:syyclops:UtilityAccount:hasUtilityBill;1",
+      "description": {
+        "en": "Links a Utility Account to its associated Utility Bill."
+      }
     },
     {
       "@type": "Component",
@@ -27,7 +30,10 @@
       },
       "name": "emissionFactor",
       "schema": "dtmi:com:syyclops:UtilityEmissionFactor;1",
-      "@id": "dtmi:com:syyclops:UtilityAccount:emissionFactor;1"
+      "@id": "dtmi:com:syyclops:UtilityAccount:emissionFactor;1",
+      "description": {
+        "en": "Represents the component responsible for calculating emissions related to the Utility Account."
+      }
     }
   ],
   "@context": [

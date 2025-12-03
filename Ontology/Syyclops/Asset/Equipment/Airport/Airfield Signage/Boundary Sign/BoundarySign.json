@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Boundary Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldSignageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents a boundary sign used to delineate specific areas within an airport's airfield."
+  }
 }

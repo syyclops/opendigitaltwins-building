@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Cross"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingCross interface connects three or more pipes at intersecting points."
+  }
 }

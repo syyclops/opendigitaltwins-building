@@ -37,7 +37,10 @@
         "@id": "dtmi:com:syyclops:HVACDamper:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACDamper:service;1"
+      "@id": "dtmi:com:syyclops:HVACDamper:service;1",
+      "description": {
+        "en": "The service property indicates the type of service an HVAC Damper provides, ensuring compliance with system operational standards."
+      }
     },
     {
       "@type": "Property",
@@ -68,7 +71,10 @@
         "@id": "dtmi:com:syyclops:HVACDamper:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACDamper:leakageClass;1"
+      "@id": "dtmi:com:syyclops:HVACDamper:leakageClass;1",
+      "description": {
+        "en": "The leakageClass property categorizes the damper's air leakage rate, an important parameter for energy efficiency in HVAC systems."
+      }
     },
     {
       "@type": "Property",
@@ -99,7 +105,10 @@
         "@id": "dtmi:com:syyclops:HVACDamper:ES3;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACDamper:bladeType;1"
+      "@id": "dtmi:com:syyclops:HVACDamper:bladeType;1",
+      "description": {
+        "en": "This property defines the type of blades used in an HVAC Damper, affecting airflow characteristics and efficiency."
+      }
     },
     {
       "@type": "Component",
@@ -108,10 +117,16 @@
       },
       "name": "ductInlet",
       "schema": "dtmi:com:syyclops:DuctConnection;1",
-      "@id": "dtmi:com:syyclops:HVACDamper:ductInlet;1"
+      "@id": "dtmi:com:syyclops:HVACDamper:ductInlet;1",
+      "description": {
+        "en": "The ductInlet component specifies the inlet design of an HVAC Damper, which is crucial for proper installation and functionality."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents an HVAC Damper, a critical component for regulating airflow and pressure within heating and cooling systems."
+  }
 }

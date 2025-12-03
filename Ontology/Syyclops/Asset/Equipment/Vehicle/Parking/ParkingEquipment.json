@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Parking Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VehicleEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface encompassing diverse parking-related equipment and systems."
+  }
 }

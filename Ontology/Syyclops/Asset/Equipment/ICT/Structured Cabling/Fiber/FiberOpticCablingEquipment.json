@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Fiber Optic Cabling Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuredCablingEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing fiber optic cabling equipment in structured cabling installations."
+  }
 }

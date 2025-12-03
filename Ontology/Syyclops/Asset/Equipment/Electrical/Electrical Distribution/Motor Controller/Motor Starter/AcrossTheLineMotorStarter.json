@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Across-the-Line Motor Starter"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MotorStarter;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for an across-the-line motor starter, providing direct control for starting and stopping motors."
+  }
 }

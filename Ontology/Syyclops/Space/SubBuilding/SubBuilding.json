@@ -18,7 +18,10 @@
       },
       "name": "address",
       "schema": "dtmi:com:syyclops:Address;1",
-      "@id": "dtmi:com:syyclops:SubBuilding:address;1"
+      "@id": "dtmi:com:syyclops:SubBuilding:address;1",
+      "description": {
+        "en": "The address component provides the physical address information of the SubBuilding entity."
+      }
     },
     {
       "@type": [
@@ -32,7 +35,10 @@
       "writable": true,
       "schema": "double",
       "unit": "metre",
-      "@id": "dtmi:com:syyclops:SubBuilding:height;1"
+      "@id": "dtmi:com:syyclops:SubBuilding:height;1",
+      "description": {
+        "en": "The height property specifies the vertical measurement of the SubBuilding entity."
+      }
     },
     {
       "@type": [
@@ -48,7 +54,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SubBuilding:heightUnit;1"
+      "@id": "dtmi:com:syyclops:SubBuilding:heightUnit;1",
+      "description": {
+        "en": "The heightUnit property denotes the unit of measurement used for the SubBuilding's height."
+      }
     }
   ],
   "@context": [

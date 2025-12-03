@@ -219,7 +219,10 @@
         },
         "@id": "dtmi:com:syyclops:UtilityBillEvent:AS2;1"
       },
-      "@id": "dtmi:com:syyclops:UtilityBillEvent:meterData;1"
+      "@id": "dtmi:com:syyclops:UtilityBillEvent:meterData;1",
+      "description": {
+        "en": "Contains data from the utility meter associated with the Utility Bill Event."
+      }
     }
   ],
   "schemas": [

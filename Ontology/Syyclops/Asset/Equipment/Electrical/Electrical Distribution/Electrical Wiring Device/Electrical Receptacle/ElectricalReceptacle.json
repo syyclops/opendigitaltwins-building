@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "volt",
-      "@id": "dtmi:com:syyclops:ElectricalReceptacle:inputVoltage;1"
+      "@id": "dtmi:com:syyclops:ElectricalReceptacle:inputVoltage;1",
+      "description": {
+        "en": "This property specifies the input voltage requirement of the Electrical Receptacle, necessary for device compatibility."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "ampere",
-      "@id": "dtmi:com:syyclops:ElectricalReceptacle:currentRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalReceptacle:currentRating;1",
+      "description": {
+        "en": "This property defines the current rating of the Electrical Receptacle, indicating the maximum load it can handle safely."
+      }
     },
     {
       "@type": "Property",
@@ -68,7 +74,10 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalReceptacle:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalReceptacle:poles;1"
+      "@id": "dtmi:com:syyclops:ElectricalReceptacle:poles;1",
+      "description": {
+        "en": "This property indicates the number of poles in the Electrical Receptacle, essential for determining its application."
+      }
     },
     {
       "@type": "Property",
@@ -78,11 +87,17 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:ElectricalReceptacle:nemaConfiguration;1"
+      "@id": "dtmi:com:syyclops:ElectricalReceptacle:nemaConfiguration;1",
+      "description": {
+        "en": "This property defines the NEMA configuration of the Electrical Receptacle, specifying compatibility with different plugs."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines the Electrical Receptacle, serving as a connection point for devices in an electrical distribution system."
+  }
 }

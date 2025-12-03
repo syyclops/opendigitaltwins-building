@@ -5,10 +5,11 @@
     "en": "Manhole"
   },
   "extends": "dtmi:com:syyclops:DistributionConnector;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Manhole interface defines entry points in distribution systems for personnel access to underground utilities."
+  }
 }

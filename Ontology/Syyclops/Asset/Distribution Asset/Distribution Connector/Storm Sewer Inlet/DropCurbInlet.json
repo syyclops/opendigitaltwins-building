@@ -5,10 +5,11 @@
     "en": "Drop Curb Inlet"
   },
   "extends": "dtmi:com:syyclops:StormSewerInlet;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The DropCurbInlet interface allows for the vertical drop of stormwater into underground pipes."
+  }
 }

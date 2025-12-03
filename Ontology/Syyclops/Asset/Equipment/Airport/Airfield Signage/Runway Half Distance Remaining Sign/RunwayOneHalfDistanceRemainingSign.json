@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway One-Half Distance Remaining Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldSignageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Describes the specifications for Runway Half Distance Remaining Signs to communicate runway availability."
+  }
 }

@@ -84,5 +84,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Describes the structure and attributes of a Lease interface in the system."
+  }
 }

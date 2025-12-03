@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Structural Beam"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Serves as an interface for Structural Beam components within the Building Component > Structural schema."
+  }
 }

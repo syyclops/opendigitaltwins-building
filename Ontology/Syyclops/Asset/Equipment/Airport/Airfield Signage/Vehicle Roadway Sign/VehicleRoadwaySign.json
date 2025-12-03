@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Vehicle Roadway Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldSignageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for vehicle roadway signs that provide essential navigation information on airport roadways."
+  }
 }

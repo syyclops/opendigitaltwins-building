@@ -576,7 +576,10 @@
         ],
         "@id": "dtmi:com:syyclops:Currency:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:Currency:code;1"
+      "@id": "dtmi:com:syyclops:Currency:code;1",
+      "description": {
+        "en": "The code property specifies the currency code, representing the currency in which financial transactions are conducted."
+      }
     }
   ],
   "@context": [

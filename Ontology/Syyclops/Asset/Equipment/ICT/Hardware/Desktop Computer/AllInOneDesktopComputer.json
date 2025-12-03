@@ -4,14 +4,15 @@
   "displayName": {
     "en": "All-In-One Desktop Computer"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DesktopComputer;1",
     "dtmi:com:syyclops:ComputerMonitor;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for an all-in-one desktop computer, integrating CPU and display."
+  }
 }

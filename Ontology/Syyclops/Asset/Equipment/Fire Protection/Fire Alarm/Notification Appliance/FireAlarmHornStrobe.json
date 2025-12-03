@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Fire Alarm Horn Strobe"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireAlarmHorn;1",
     "dtmi:com:syyclops:FireAlarmStrobe;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a combined fire alarm horn and strobe that provides visual and audible alerts for fire incidents."
+  }
 }

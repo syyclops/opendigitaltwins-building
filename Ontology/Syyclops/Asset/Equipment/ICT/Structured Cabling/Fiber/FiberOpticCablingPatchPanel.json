@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Fiber Optic Cabling Patch Panel"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FiberOpticCablingEquipment;1",
     "dtmi:com:syyclops:PatchPanel;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a fiber optic cabling patch panel facilitating optical fiber distribution."
+  }
 }

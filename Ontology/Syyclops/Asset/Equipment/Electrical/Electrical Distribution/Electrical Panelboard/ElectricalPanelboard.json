@@ -16,7 +16,10 @@
       "name": "shortCircuitRating",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalPanelboard:shortCircuitRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboard:shortCircuitRating;1",
+      "description": {
+        "en": "This property defines the short circuit rating of the Electrical Panelboard, indicating its capacity to withstand short circuit conditions."
+      }
     },
     {
       "@type": "Property",
@@ -42,7 +45,10 @@
         "@id": "dtmi:com:syyclops:ElectricalPanelboard:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalPanelboard:outputPhases;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboard:outputPhases;1",
+      "description": {
+        "en": "This property specifies the output phases of the Electrical Panelboard, essential for determining the electrical distribution configuration."
+      }
     },
     {
       "@type": [
@@ -56,7 +62,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalPanelboard:inputVoltage;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboard:inputVoltage;1",
+      "description": {
+        "en": "This property defines the input voltage of the Electrical Panelboard, crucial for ensuring compatibility with power sources."
+      }
     },
     {
       "@type": "Property",
@@ -66,7 +75,10 @@
       "name": "maxNumberOfPoles",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalPanelboard:maxNumberOfPoles;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboard:maxNumberOfPoles;1",
+      "description": {
+        "en": "This property indicates the maximum number of poles that the Electrical Panelboard can accommodate for circuit distribution."
+      }
     },
     {
       "@type": "Component",
@@ -75,7 +87,10 @@
       },
       "name": "mainBus",
       "schema": "dtmi:com:syyclops:ElectricalBus;1",
-      "@id": "dtmi:com:syyclops:ElectricalPanelboard:mainBus;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboard:mainBus;1",
+      "description": {
+        "en": "This component represents the main bus within the Electrical Panelboard, enabling effective electrical distribution."
+      }
     },
     {
       "@type": "Property",
@@ -103,11 +118,17 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalPanelboard:ES2;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalPanelboard:inputPhases;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboard:inputPhases;1",
+      "description": {
+        "en": "This property denotes the input phases to the Electrical Panelboard, critical for determining operational capabilities."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents an Electrical Panelboard, serving as a central point for electrical distribution and management."
+  }
 }

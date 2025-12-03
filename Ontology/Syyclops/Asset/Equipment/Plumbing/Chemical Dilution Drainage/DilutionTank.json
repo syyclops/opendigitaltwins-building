@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Dilution Tank"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ChemicalDilutionDrainageEquipment;1",
     "dtmi:com:syyclops:PlumbingTank;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the Dilution Tank interface used in chemical dilution processes."
+  }
 }

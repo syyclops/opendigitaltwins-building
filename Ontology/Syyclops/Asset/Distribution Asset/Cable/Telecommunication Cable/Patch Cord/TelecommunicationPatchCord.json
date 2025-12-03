@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Telecommunication Patch Cord"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:TelecommunicationCable;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a general Telecommunication Patch Cord used in network connections."
+  }
 }

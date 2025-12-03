@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Sprinkler System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireSuppressionSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a basic sprinkler system designed for fire suppression in various environments."
+  }
 }

@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:BinarySetpoint:lastValue;1"
+      "@id": "dtmi:com:syyclops:BinarySetpoint:lastValue;1",
+      "description": {
+        "en": "Property that stores the last recorded value of the binary setpoint, indicating its previous state."
+      }
     },
     {
       "@type": "Telemetry",
@@ -33,5 +36,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;4"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a binary setpoint with states of on and off within the parameter setpoint capability."
+  }
 }

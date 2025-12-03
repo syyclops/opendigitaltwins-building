@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Dishwasher"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DishwashingEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for dishwashers in foodservice, monitoring wash cycles and water consumption."
+  }
 }

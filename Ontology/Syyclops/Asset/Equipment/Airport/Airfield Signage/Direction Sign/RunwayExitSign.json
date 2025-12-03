@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Exit Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:DirectionSign;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Details the characteristics of Runway Exit Signs that indicate exit points from runways."
+  }
 }

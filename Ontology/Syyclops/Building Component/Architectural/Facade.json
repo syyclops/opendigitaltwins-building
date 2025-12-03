@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Facade"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Facade interface designates the external surface or face of a building as an architectural component."
+  }
 }

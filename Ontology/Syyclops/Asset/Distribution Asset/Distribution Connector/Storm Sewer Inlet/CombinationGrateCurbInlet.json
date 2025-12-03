@@ -8,10 +8,11 @@
     "dtmi:com:syyclops:GrateInlet;1",
     "dtmi:com:syyclops:CurbInlet;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The CombinationGrateCurbInlet interface models a stormwater inlet with a combination grate system."
+  }
 }

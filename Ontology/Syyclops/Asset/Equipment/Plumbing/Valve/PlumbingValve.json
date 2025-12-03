@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Plumbing Valve"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipment;1",
     "dtmi:com:syyclops:Valve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "A generic plumbing valve interface responsible for regulating liquid flow in plumbing systems."
+  }
 }

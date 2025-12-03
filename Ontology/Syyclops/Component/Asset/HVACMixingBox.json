@@ -16,10 +16,16 @@
       "name": "economizer",
       "schema": "boolean",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACMixingBox:economizer;1"
+      "@id": "dtmi:com:syyclops:HVACMixingBox:economizer;1",
+      "description": {
+        "en": "Indicates the presence and functionality of an economizer in an HVAC mixing box."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for HVAC mixing box components, managing air mixing functionalities."
+  }
 }

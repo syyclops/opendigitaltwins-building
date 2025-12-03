@@ -16,7 +16,10 @@
       "name": "numberOfPorts",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:EthernetRouter:numberOfPorts;1"
+      "@id": "dtmi:com:syyclops:EthernetRouter:numberOfPorts;1",
+      "description": {
+        "en": "Property indicating the number of ports available on the Ethernet router."
+      }
     },
     {
       "@type": "Property",
@@ -26,10 +29,16 @@
       "name": "heightRUs",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:EthernetRouter:heightRUs;1"
+      "@id": "dtmi:com:syyclops:EthernetRouter:heightRUs;1",
+      "description": {
+        "en": "Property defining the height in rack units of the Ethernet router."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining an Ethernet router's capabilities in data networking."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Steam Pump Run Level State"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PumpRunLevelState;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the general run level state for a steam pump, represented in percentage to indicate operational status."
+  }
 }

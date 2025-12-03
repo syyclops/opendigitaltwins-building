@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Access Control Panel"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a central control panel managing entry permissions across multiple access points."
+  }
 }

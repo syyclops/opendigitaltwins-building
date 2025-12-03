@@ -5,10 +5,11 @@
     "en": "Grate Inlet"
   },
   "extends": "dtmi:com:syyclops:StormSewerInlet;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining a grate inlet utilized in storm sewer systems to allow surface water entry while obstructing debris."
+  }
 }

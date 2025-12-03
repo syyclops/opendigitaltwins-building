@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Retail Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Equipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface delineating the essential characteristics and functionalities of retail equipment, encompassing a variety of devices used in retail operations."
+  }
 }

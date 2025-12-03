@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Product IOM Manual"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Document;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Product_IOM_Manual interface details the Installation, Operation, and Maintenance instructions for a product."
+  }
 }

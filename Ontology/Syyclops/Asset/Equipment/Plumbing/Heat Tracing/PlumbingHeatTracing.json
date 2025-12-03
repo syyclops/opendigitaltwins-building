@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Heat Tracing (Plumbing)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipment;1",
     "dtmi:com:syyclops:HeatTracing;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PlumbingHeatTracing interface describes properties and operations related to heat trace systems utilized in plumbing."
+  }
 }

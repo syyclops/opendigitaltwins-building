@@ -70,10 +70,16 @@
         "@id": "dtmi:com:syyclops:TwistedPairPatchCord:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:TwistedPairPatchCord:categoryRating;1"
+      "@id": "dtmi:com:syyclops:TwistedPairPatchCord:categoryRating;1",
+      "description": {
+        "en": "Property indicating the category rating of the Twisted Pair Patch Cord interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Twisted Pair Patch Cord used within telecommunication networks."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Thermostat"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SensorEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Thermostat Equipment, allowing control and monitoring of temperature settings."
+  }
 }

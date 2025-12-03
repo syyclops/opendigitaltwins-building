@@ -16,7 +16,10 @@
       "name": "type",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:type;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:type;1",
+      "description": {
+        "en": "The type property indicating the specific classification of the water meter."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:minVolumeFlowRating;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:minVolumeFlowRating;1",
+      "description": {
+        "en": "The minimum volume flow rating property defining the lowest water flow the meter can accurately measure."
+      }
     },
     {
       "@type": [
@@ -46,7 +52,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:minVolumeFlowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:minVolumeFlowRatingUnit;1",
+      "description": {
+        "en": "The units of measurement for the minimum volume flow rating of the water meter."
+      }
     },
     {
       "@type": [
@@ -60,7 +69,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:minTemperatureRating;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:minTemperatureRating;1",
+      "description": {
+        "en": "The minimum temperature rating property specifying the lowest temperature for optimal meter operation."
+      }
     },
     {
       "@type": [
@@ -76,7 +88,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:minTemperatureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:minTemperatureRatingUnit;1",
+      "description": {
+        "en": "The units of measurement for the minimum temperature rating of the water meter."
+      }
     },
     {
       "@type": [
@@ -90,7 +105,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:maxVolumeFlowRating;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:maxVolumeFlowRating;1",
+      "description": {
+        "en": "The maximum volume flow rating property defining the highest water flow the meter can accurately measure."
+      }
     },
     {
       "@type": [
@@ -106,7 +124,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:maxVolumeFlowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:maxVolumeFlowRatingUnit;1",
+      "description": {
+        "en": "The units of measurement for the maximum volume flow rating of the water meter."
+      }
     },
     {
       "@type": [
@@ -120,7 +141,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:maxTemperatureRating;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:maxTemperatureRating;1",
+      "description": {
+        "en": "The maximum temperature rating property specifying the highest temperature for optimal meter operation."
+      }
     },
     {
       "@type": [
@@ -136,7 +160,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:maxTemperatureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:maxTemperatureRatingUnit;1",
+      "description": {
+        "en": "The units of measurement for the maximum temperature rating of the water meter."
+      }
     },
     {
       "@type": [
@@ -150,7 +177,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:maxPressureRating;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:maxPressureRating;1",
+      "description": {
+        "en": "The maximum pressure rating property indicating the highest pressure the water meter can withstand."
+      }
     },
     {
       "@type": [
@@ -166,7 +196,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterMeter:maxPressureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:maxPressureRatingUnit;1",
+      "description": {
+        "en": "The units of measurement for the maximum pressure rating of the water meter."
+      }
     },
     {
       "@type": "Relationship",
@@ -175,7 +208,10 @@
       },
       "name": "subMeterOf",
       "target": "dtmi:com:syyclops:WaterMeter;1",
-      "@id": "dtmi:com:syyclops:WaterMeter:subMeterOf;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:subMeterOf;1",
+      "description": {
+        "en": "A relationship indicating that the water meter is a sub-meter of another measuring device."
+      }
     },
     {
       "@type": "Relationship",
@@ -183,7 +219,10 @@
         "en": "measures"
       },
       "name": "measures",
-      "@id": "dtmi:com:syyclops:WaterMeter:measures;1"
+      "@id": "dtmi:com:syyclops:WaterMeter:measures;1",
+      "description": {
+        "en": "A relationship that describes what the water meter measures, typically water flow."
+      }
     }
   ],
   "@context": [
@@ -191,5 +230,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a water meter, providing essential functionality for measuring water usage."
+  }
 }

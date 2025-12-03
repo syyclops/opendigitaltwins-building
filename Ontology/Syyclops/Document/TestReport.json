@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Test Report"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Document;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The TestReport interface includes results and analysis from testing activities relevant to the document."
+  }
 }

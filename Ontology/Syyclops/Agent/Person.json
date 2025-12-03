@@ -109,7 +109,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Person:companyId;1"
+      "@id": "dtmi:com:syyclops:Person:companyId;1",
+      "description": {
+        "en": "Represents the company identifier associated with the Person."
+      }
     }
   ],
   "@context": [

@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Stop State"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StartStopState;1",
     "dtmi:com:syyclops:RunStopState;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the terminal state for binary state capabilities, indicating the cessation of a process."
+  }
 }

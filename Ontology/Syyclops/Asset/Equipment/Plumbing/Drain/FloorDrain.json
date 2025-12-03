@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Floor Drain"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Drain;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The FloorDrain interface encompasses properties and functionalities related to floor drainage systems in plumbing."
+  }
 }

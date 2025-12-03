@@ -16,10 +16,16 @@
       "name": "type",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ConveyanceEquipment:type;1"
+      "@id": "dtmi:com:syyclops:ConveyanceEquipment:type;1",
+      "description": {
+        "en": "A property defining the specific type of conveyance equipment utilized in airport operations."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing various types of conveyance equipment used within airport operations."
+  }
 }

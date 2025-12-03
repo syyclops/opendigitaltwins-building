@@ -10,5 +10,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Smoke and Carbon Monoxide Detector devices functioning in fire alarms."
+  }
 }

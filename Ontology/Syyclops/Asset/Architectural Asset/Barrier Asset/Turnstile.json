@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Turnstile"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BarrierAsset;1",
     "dtmi:com:syyclops:PhysicalSpaceOpening;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for turnstile devices that regulate access through barriers."
+  }
 }

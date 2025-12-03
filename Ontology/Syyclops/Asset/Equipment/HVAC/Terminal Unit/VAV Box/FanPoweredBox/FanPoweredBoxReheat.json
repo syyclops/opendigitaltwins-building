@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanPoweredBoxReheat:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:FanPoweredBoxReheat:nominalHeatingCapacity;1",
+      "description": {
+        "en": "Indicates the nominal heating capacity of the Fan Powered Box with Reheat feature."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanPoweredBoxReheat:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:FanPoweredBoxReheat:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the nominal heating capacity of the Fan Powered Box with Reheat."
+      }
     },
     {
       "@type": "Component",
@@ -48,7 +54,10 @@
       },
       "name": "reHeatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:FanPoweredBoxReheat:reHeatingMethod;1"
+      "@id": "dtmi:com:syyclops:FanPoweredBoxReheat:reHeatingMethod;1",
+      "description": {
+        "en": "Describes the method of re-heating used in the Fan Powered Box with Reheat feature."
+      }
     }
   ],
   "@context": [

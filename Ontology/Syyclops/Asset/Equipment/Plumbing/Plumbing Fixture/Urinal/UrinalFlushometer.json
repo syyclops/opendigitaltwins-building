@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UrinalFlushometer:waterPerFlush;1"
+      "@id": "dtmi:com:syyclops:UrinalFlushometer:waterPerFlush;1",
+      "description": {
+        "en": "Specifies the water consumption per flush for the Urinal Flushometer property."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:UrinalFlushometer:waterPerFlushUnit;1"
+      "@id": "dtmi:com:syyclops:UrinalFlushometer:waterPerFlushUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for water per flush used by the Urinal Flushometer."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the Urinal Flushometer interface, designed for flushing urinals."
+  }
 }

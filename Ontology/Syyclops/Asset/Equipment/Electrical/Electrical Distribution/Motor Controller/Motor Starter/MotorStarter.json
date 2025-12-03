@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Motor Starter"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MotorController;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for motor starters, governing motor operations ensuring safe and efficient functionality."
+  }
 }

@@ -716,7 +716,10 @@
         ],
         "@id": "dtmi:com:syyclops:TimeZone:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:TimeZone:name;1"
+      "@id": "dtmi:com:syyclops:TimeZone:name;1",
+      "description": {
+        "en": "Defines the name property identifying the specific time zone in the Time Zone interface."
+      }
     }
   ],
   "@context": [

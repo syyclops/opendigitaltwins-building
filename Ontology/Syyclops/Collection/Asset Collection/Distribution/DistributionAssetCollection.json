@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Distribution Asset Collection"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AssetCollection;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface that defines a collection of distribution assets, such as components and systems involved in energy or data distribution."
+  }
 }

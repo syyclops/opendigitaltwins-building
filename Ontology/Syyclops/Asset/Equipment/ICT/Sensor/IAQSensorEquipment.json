@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Indoor Air Quality Sensor Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SensorEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Indoor Air Quality (IAQ) Sensor Equipment, assessing air quality metrics within indoor environments."
+  }
 }

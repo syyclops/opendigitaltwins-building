@@ -5,10 +5,11 @@
     "en": "Drop Grate Inlet"
   },
   "extends": "dtmi:com:syyclops:StormSewerInlet;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a drop grate inlet for storm sewer systems facilitating water entry from the surface to the sewer."
+  }
 }

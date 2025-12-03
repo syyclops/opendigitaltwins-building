@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ChilledBeam:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:ChilledBeam:nominalCoolingCapacity;1",
+      "description": {
+        "en": "The nominal cooling capacity property of a Chilled Beam, quantified in watts."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ChilledBeam:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:ChilledBeam:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the nominal cooling capacity of a Chilled Beam."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ChilledBeam:netSensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:ChilledBeam:netSensibleCoolingCapacity;1",
+      "description": {
+        "en": "The net sensible cooling capacity property for a Chilled Beam, indicated in watts."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ChilledBeam:netSensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:ChilledBeam:netSensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the net sensible cooling capacity of a Chilled Beam."
+      }
     },
     {
       "@type": "Component",
@@ -75,7 +87,10 @@
       },
       "name": "coolingMethod",
       "schema": "dtmi:com:syyclops:HVACCoolingMethod;1",
-      "@id": "dtmi:com:syyclops:ChilledBeam:coolingMethod;1"
+      "@id": "dtmi:com:syyclops:ChilledBeam:coolingMethod;1",
+      "description": {
+        "en": "A component indicating the cooling method utilized by the Chilled Beam."
+      }
     },
     {
       "@type": "Property",
@@ -112,5 +127,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a Chilled Beam, a terminal unit in HVAC systems focused on cooling."
+  }
 }

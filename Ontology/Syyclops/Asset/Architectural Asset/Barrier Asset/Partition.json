@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Partition"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BarrierAsset;1",
     "dtmi:com:syyclops:PhysicalSpaceOpening;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for partitioning structures within architectural barrier assets."
+  }
 }

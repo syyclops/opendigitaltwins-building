@@ -16,7 +16,10 @@
       "name": "type",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:type;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:type;1",
+      "description": {
+        "en": "Specifies the type of Thermal Meter, defining its measurement capabilities."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:minVolumeFlowRating;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:minVolumeFlowRating;1",
+      "description": {
+        "en": "Represents the minimum volume flow rating that the Thermal Meter can accurately measure."
+      }
     },
     {
       "@type": [
@@ -46,7 +52,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:minVolumeFlowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:minVolumeFlowRatingUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the minimum volume flow rating of the Thermal Meter."
+      }
     },
     {
       "@type": [
@@ -60,7 +69,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:minTemperatureRating;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:minTemperatureRating;1",
+      "description": {
+        "en": "Defines the minimum temperature rating of the thermal meter, indicating the lowest temperature it can measure."
+      }
     },
     {
       "@type": [
@@ -76,7 +88,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:minTemperatureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:minTemperatureRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the minimum temperature rating of the thermal meter."
+      }
     },
     {
       "@type": [
@@ -90,7 +105,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:maxVolumeFlowRating;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:maxVolumeFlowRating;1",
+      "description": {
+        "en": "Indicates the maximum volume flow rating that the thermal meter can handle."
+      }
     },
     {
       "@type": [
@@ -106,7 +124,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:maxVolumeFlowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:maxVolumeFlowRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the maximum volume flow rating of the thermal meter."
+      }
     },
     {
       "@type": [
@@ -120,7 +141,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:maxTemperatureRating;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:maxTemperatureRating;1",
+      "description": {
+        "en": "Defines the maximum temperature rating of the thermal meter, indicating the highest temperature it can measure."
+      }
     },
     {
       "@type": [
@@ -136,7 +160,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:maxTemperatureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:maxTemperatureRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the maximum temperature rating of the thermal meter."
+      }
     },
     {
       "@type": [
@@ -150,7 +177,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:maxPressureRating;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:maxPressureRating;1",
+      "description": {
+        "en": "Indicates the maximum pressure rating that the thermal meter can withstand."
+      }
     },
     {
       "@type": [
@@ -166,7 +196,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ThermalMeter:maxPressureRatingUnit;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:maxPressureRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the maximum pressure rating of the thermal meter."
+      }
     },
     {
       "@type": "Relationship",
@@ -175,7 +208,10 @@
       },
       "name": "subMeterOf",
       "target": "dtmi:com:syyclops:ThermalMeter;1",
-      "@id": "dtmi:com:syyclops:ThermalMeter:subMeterOf;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:subMeterOf;1",
+      "description": {
+        "en": "Establishes a relationship indicating that the thermal meter is a sub-meter of another thermal meter."
+      }
     },
     {
       "@type": "Relationship",
@@ -183,7 +219,10 @@
         "en": "measures"
       },
       "name": "measures",
-      "@id": "dtmi:com:syyclops:ThermalMeter:measures;1"
+      "@id": "dtmi:com:syyclops:ThermalMeter:measures;1",
+      "description": {
+        "en": "Indicates a relationship defining what parameters the thermal meter measures."
+      }
     }
   ],
   "@context": [
@@ -191,5 +230,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Represents the interface defining properties and relationships for Thermal Meters."
+  }
 }

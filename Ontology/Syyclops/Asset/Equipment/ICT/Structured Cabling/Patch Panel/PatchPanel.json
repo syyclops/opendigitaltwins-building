@@ -35,7 +35,10 @@
         }
       ],
       "target": "dtmi:com:syyclops:ITRack;1",
-      "@id": "dtmi:com:syyclops:PatchPanel:mountedInRack;1"
+      "@id": "dtmi:com:syyclops:PatchPanel:mountedInRack;1",
+      "description": {
+        "en": "Relationship indicating that the patch panel is mounted within a specified rack."
+      }
     },
     {
       "@type": "Property",
@@ -45,7 +48,10 @@
       "name": "numberOfPorts",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PatchPanel:numberOfPorts;1"
+      "@id": "dtmi:com:syyclops:PatchPanel:numberOfPorts;1",
+      "description": {
+        "en": "Property representing the total number of ports available in the patch panel."
+      }
     },
     {
       "@type": "Property",
@@ -55,10 +61,16 @@
       "name": "heightRUs",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PatchPanel:heightRUs;1"
+      "@id": "dtmi:com:syyclops:PatchPanel:heightRUs;1",
+      "description": {
+        "en": "Property indicating the height of the patch panel measured in rack units (RUs)."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining a patch panel component within structured cabling systems."
+  }
 }

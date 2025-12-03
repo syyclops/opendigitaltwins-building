@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Mixed Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Mixed Damper interface facilitates the mixing of hot and cold air streams within HVAC systems to achieve desired temperature."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Vertical Fan Coil Unit with Reheat"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VerticalFanCoilUnit;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The VerticalFanCoilUnitReheat interface provides specifications for reheat functionalities in vertical Fan Coil Units."
+  }
 }

@@ -76,7 +76,10 @@
       },
       "name": "operatedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Space:operatedBy;1"
+      "@id": "dtmi:com:syyclops:Space:operatedBy;1",
+      "description": {
+        "en": "Describes the relationship indicating which agent operates the Space interface, establishing operational links."
+      }
     },
     {
       "@type": "Relationship",
@@ -97,7 +100,10 @@
       },
       "name": "locatedInGridRegion",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:Space:locatedInGridRegion;1"
+      "@id": "dtmi:com:syyclops:Space:locatedInGridRegion;1",
+      "description": {
+        "en": "Indicates the relationship linking the Space interface to its corresponding grid region, defining spatial organization."
+      }
     },
     {
       "@type": "Relationship",
@@ -118,7 +124,10 @@
       },
       "name": "constructedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Space:constructedBy;1"
+      "@id": "dtmi:com:syyclops:Space:constructedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent that constructed the space."
+      }
     },
     {
       "@type": "Relationship",
@@ -127,7 +136,10 @@
       },
       "name": "architectedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Space:architectedBy;1"
+      "@id": "dtmi:com:syyclops:Space:architectedBy;1",
+      "description": {
+        "en": "Defines the relationship of the agent responsible for architecting the space."
+      }
     },
     {
       "@type": "Relationship",
@@ -148,7 +160,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Space:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Space:hasDocument;1",
+      "description": {
+        "en": "Links the space to associated documents."
+      }
     },
     {
       "@type": "Property",
@@ -171,7 +186,10 @@
         "@id": "dtmi:com:syyclops:Space:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Space:customTags;1"
+      "@id": "dtmi:com:syyclops:Space:customTags;1",
+      "description": {
+        "en": "Stores custom tags related to the space for identification or categorization."
+      }
     },
     {
       "@type": "Property",
@@ -194,7 +212,10 @@
         "@id": "dtmi:com:syyclops:Space:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Space:externalIds;1"
+      "@id": "dtmi:com:syyclops:Space:externalIds;1",
+      "description": {
+        "en": "Contains external identifiers associated with the space."
+      }
     },
     {
       "@type": "Property",
@@ -217,7 +238,10 @@
         "@id": "dtmi:com:syyclops:Space:MS3;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Space:externalUrls;1"
+      "@id": "dtmi:com:syyclops:Space:externalUrls;1",
+      "description": {
+        "en": "Holds external URLs relevant to the space."
+      }
     },
     {
       "@type": "Property",
@@ -231,7 +255,10 @@
         "elementSchema": "dtmi:com:syyclops:SpaceMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Space:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Space:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Space:mappedIds;1",
+      "description": {
+        "en": "Stores mapped identifiers for the space."
+      }
     },
     {
       "@type": "Property",
@@ -241,7 +268,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Space:name;1"
+      "@id": "dtmi:com:syyclops:Space:name;1",
+      "description": {
+        "en": "Represents the name of the space."
+      }
     },
     {
       "@type": "Property",
@@ -263,7 +293,10 @@
         "en": "Area"
       },
       "schema": "dtmi:com:syyclops:SpaceArea;1",
-      "@id": "dtmi:com:syyclops:Space:area;1"
+      "@id": "dtmi:com:syyclops:Space:area;1",
+      "description": {
+        "en": "Component representing the area of the space."
+      }
     },
     {
       "@type": "Component",
@@ -272,7 +305,10 @@
         "en": "Capacity"
       },
       "schema": "dtmi:com:syyclops:SpaceCapacity;1",
-      "@id": "dtmi:com:syyclops:Space:capacity;1"
+      "@id": "dtmi:com:syyclops:Space:capacity;1",
+      "description": {
+        "en": "Component that indicates the capacity limit of the space."
+      }
     },
     {
       "@type": "Component",
@@ -281,7 +317,10 @@
         "en": "Occupancy"
       },
       "schema": "dtmi:com:syyclops:SpaceOccupancy;1",
-      "@id": "dtmi:com:syyclops:Space:occupancy;1"
+      "@id": "dtmi:com:syyclops:Space:occupancy;1",
+      "description": {
+        "en": "Component measuring the current occupancy level of the space."
+      }
     },
     {
       "@type": "Component",
@@ -290,7 +329,10 @@
         "en": "Temperature"
       },
       "schema": "dtmi:com:syyclops:SpaceTemperature;1",
-      "@id": "dtmi:com:syyclops:Space:temperature;1"
+      "@id": "dtmi:com:syyclops:Space:temperature;1",
+      "description": {
+        "en": "Component that monitors the temperature within the space."
+      }
     },
     {
       "@type": "Component",
@@ -299,7 +341,10 @@
         "en": "Humidity"
       },
       "schema": "dtmi:com:syyclops:SpaceHumidity;1",
-      "@id": "dtmi:com:syyclops:Space:humidity;1"
+      "@id": "dtmi:com:syyclops:Space:humidity;1",
+      "description": {
+        "en": "Component that tracks humidity levels within the space."
+      }
     },
     {
       "@type": "Component",
@@ -308,7 +353,10 @@
         "en": "CO2"
       },
       "schema": "dtmi:com:syyclops:SpaceCO2;1",
-      "@id": "dtmi:com:syyclops:Space:CO2;1"
+      "@id": "dtmi:com:syyclops:Space:CO2;1",
+      "description": {
+        "en": "Component measuring carbon dioxide levels in the space."
+      }
     },
     {
       "@type": "Property",
@@ -319,7 +367,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for geometry rendering (i.e. ForgeViewerID)",
-      "@id": "dtmi:com:syyclops:Space:geometryViewerID;1"
+      "@id": "dtmi:com:syyclops:Space:geometryViewerID;1",
+      "description": {
+        "en": "Property storing the identifier for the geometry viewer application associated with the space."
+      }
     },
     {
       "@type": "Property",
@@ -330,7 +381,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for displaying in spatial context",
-      "@id": "dtmi:com:syyclops:Space:geometrySpatialReference;1"
+      "@id": "dtmi:com:syyclops:Space:geometrySpatialReference;1",
+      "description": {
+        "en": "Contains the spatial reference standards for the geometry of the space."
+      }
     },
     {
       "@type": "Property",
@@ -341,7 +395,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference to geometry source (i.e. Revit GUID)",
-      "@id": "dtmi:com:syyclops:Space:geometryExternalID;1"
+      "@id": "dtmi:com:syyclops:Space:geometryExternalID;1",
+      "description": {
+        "en": "Holds external IDs for the space's geometry."
+      }
     },
     {
       "@type": "Property",
@@ -351,7 +408,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Space:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Space:uniqueID;1",
+      "description": {
+        "en": "Represents a unique identifier for the space."
+      }
     },
     {
       "@type": "Property",
@@ -361,7 +421,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Space:externalID;1"
+      "@id": "dtmi:com:syyclops:Space:externalID;1",
+      "description": {
+        "en": "Stores an external ID designated for the space."
+      }
     },
     {
       "@type": "Property",
@@ -371,7 +434,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Space:code;1"
+      "@id": "dtmi:com:syyclops:Space:code;1",
+      "description": {
+        "en": "Property representing a code associated with the space."
+      }
     },
     {
       "@type": "Property",
@@ -381,7 +447,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Space:description;1"
+      "@id": "dtmi:com:syyclops:Space:description;1",
+      "description": {
+        "en": "The description property provides a textual overview or summary of the Space entity."
+      }
     },
     {
       "@type": "Property",
@@ -391,7 +460,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Space:siteID;1"
+      "@id": "dtmi:com:syyclops:Space:siteID;1",
+      "description": {
+        "en": "The siteID property uniquely identifies the location associated with the Space entity."
+      }
     },
     {
       "@type": "Property",
@@ -402,7 +474,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference of the land (i.e. campus, site, airport) to which the asset belongs. A Customer has one or many Lands. Land is considered the top-level entity for binding airport twins.",
-      "@id": "dtmi:com:syyclops:Space:landId;1"
+      "@id": "dtmi:com:syyclops:Space:landId;1",
+      "description": {
+        "en": "The landId property specifies the unique identifier for the land associated with the Space entity."
+      }
     },
     {
       "@type": "Property",
@@ -465,7 +540,10 @@
         ],
         "@id": "dtmi:com:syyclops:Space:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Space:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Space:alternateClassification;1",
+      "description": {
+        "en": "The alternateClassification property allows for additional classification types for the Space entity."
+      }
     },
     {
       "@type": "Property",
@@ -500,7 +578,10 @@
         },
         "@id": "dtmi:com:syyclops:Space:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Space:customProperties;1"
+      "@id": "dtmi:com:syyclops:Space:customProperties;1",
+      "description": {
+        "en": "The customProperties property holds user-defined attributes for the Space entity."
+      }
     }
   ],
   "schemas": [
@@ -607,7 +688,10 @@
           "displayName": {
             "en": "In Progress"
           },
-          "@id": "dtmi:com:syyclops:Space:InProgress;1"
+          "@id": "dtmi:com:syyclops:Space:InProgress;1",
+          "description": {
+            "en": "The InProgress enum value indicates that the Space entity's state is currently under development or action."
+          }
         },
         {
           "enumValue": "Complete",
@@ -615,7 +699,10 @@
           "displayName": {
             "en": "Complete"
           },
-          "@id": "dtmi:com:syyclops:Space:Complete;1"
+          "@id": "dtmi:com:syyclops:Space:Complete;1",
+          "description": {
+            "en": "The Complete enum value represents that the Space entity's operations have been finalized."
+          }
         },
         {
           "enumValue": "Retired",
@@ -623,7 +710,10 @@
           "displayName": {
             "en": "Retired"
           },
-          "@id": "dtmi:com:syyclops:Space:Retired;1"
+          "@id": "dtmi:com:syyclops:Space:Retired;1",
+          "description": {
+            "en": "The Retired enum value signifies that the Space entity is no longer active or in use."
+          }
         }
       ],
       "displayName": {
@@ -631,5 +721,7 @@
       }
     }
   ],
-  "@context": ["dtmi:dtdl:context;3"]
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Maintenance Bypass Switch"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:TransferSwitch;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for maintenance bypass switches used in electrical distribution to allow maintenance without power interruption."
+  }
 }

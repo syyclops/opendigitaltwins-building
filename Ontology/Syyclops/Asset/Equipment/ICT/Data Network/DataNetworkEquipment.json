@@ -35,10 +35,16 @@
         }
       ],
       "target": "dtmi:com:syyclops:ITRack;1",
-      "@id": "dtmi:com:syyclops:DataNetworkEquipment:mountedInRack;1"
+      "@id": "dtmi:com:syyclops:DataNetworkEquipment:mountedInRack;1",
+      "description": {
+        "en": "Relationship indicating rack mounting status for data network equipment."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for data network equipment in ICT systems."
+  }
 }

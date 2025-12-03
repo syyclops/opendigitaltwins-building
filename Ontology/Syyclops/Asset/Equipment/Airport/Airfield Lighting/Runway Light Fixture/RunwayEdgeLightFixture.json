@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Edge Light Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:RunwayLightFixture;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Runway Edge Light Fixture interface represents lighting systems marking the edges of runways."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Food Storage Rack"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodStorageEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a food storage rack, providing organized shelving for easy access to food items."
+  }
 }

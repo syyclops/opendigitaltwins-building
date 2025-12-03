@@ -18,7 +18,10 @@
       },
       "name": "condenser",
       "schema": "dtmi:com:syyclops:AirCooledCondenser;1",
-      "@id": "dtmi:com:syyclops:AirCooledChiller:condenser;1"
+      "@id": "dtmi:com:syyclops:AirCooledChiller:condenser;1",
+      "description": {
+        "en": "The condenser component defines the heat rejection unit of an air-cooled chiller in an HVAC system."
+      }
     }
   ],
   "@context": [

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Steam Condensate Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CondensatePump;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a steam condensate pump for efficient liquid removal in HVAC systems."
+  }
 }

@@ -18,7 +18,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACOvalDuct:width;1"
+      "@id": "dtmi:com:syyclops:HVACOvalDuct:width;1",
+      "description": {
+        "en": "A property that defines the width measurement of an HVAC oval duct."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACOvalDuct:widthUnit;1"
+      "@id": "dtmi:com:syyclops:HVACOvalDuct:widthUnit;1",
+      "description": {
+        "en": "A property specifying the unit of measurement used for the width of the HVAC oval duct."
+      }
     },
     {
       "@type": [
@@ -48,7 +54,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACOvalDuct:height;1"
+      "@id": "dtmi:com:syyclops:HVACOvalDuct:height;1",
+      "description": {
+        "en": "A property representing the height measurement of the HVAC oval duct."
+      }
     },
     {
       "@type": [
@@ -64,7 +73,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACOvalDuct:heightUnit;1"
+      "@id": "dtmi:com:syyclops:HVACOvalDuct:heightUnit;1",
+      "description": {
+        "en": "A property detailing the unit of measurement for the height of the HVAC oval duct."
+      }
     }
   ],
   "@context": [
@@ -72,5 +84,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for HVAC oval duct systems, contributing to the overall distribution asset categorization."
+  }
 }

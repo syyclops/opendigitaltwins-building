@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Tank:tankCapacity;1"
+      "@id": "dtmi:com:syyclops:Tank:tankCapacity;1",
+      "description": {
+        "en": "Property indicating the maximum volume of liquid that the tank can hold."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Tank:tankCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Tank:tankCapacityUnit;1",
+      "description": {
+        "en": "Property defining the unit of measurement for the tank's capacity."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Tank:systemPressure;1"
+      "@id": "dtmi:com:syyclops:Tank:systemPressure;1",
+      "description": {
+        "en": "Property representing the pressure level within the tank system."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Tank:systemPressureUnit;1"
+      "@id": "dtmi:com:syyclops:Tank:systemPressureUnit;1",
+      "description": {
+        "en": "Property specifying the unit of measurement for the system's pressure."
+      }
     }
   ],
   "@context": [
@@ -74,5 +86,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a general-purpose tank with properties for tank capacity and system pressure."
+  }
 }

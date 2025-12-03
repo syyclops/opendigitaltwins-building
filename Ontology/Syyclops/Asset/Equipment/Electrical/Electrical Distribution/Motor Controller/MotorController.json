@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Motor Controller"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for motor controllers that manage the operation of electric motors in electrical distribution."
+  }
 }

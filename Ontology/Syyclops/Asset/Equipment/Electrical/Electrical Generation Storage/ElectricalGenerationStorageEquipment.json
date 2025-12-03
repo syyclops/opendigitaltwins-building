@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Electrical Generation & Storage Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The ElectricalGenerationStorageEquipment interface outlines the specifications for equipment that stores generated electrical energy."
+  }
 }

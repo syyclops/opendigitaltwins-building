@@ -49,10 +49,16 @@
           "en": "EV Charging Station Level"
         }
       },
-      "@id": "dtmi:com:syyclops:ElectricVehicleChargingStation:chargingLevel;1"
+      "@id": "dtmi:com:syyclops:ElectricVehicleChargingStation:chargingLevel;1",
+      "description": {
+        "en": "This property indicates the charging level available at the Electric Vehicle Charging Station, essential for optimizing charging efficiency."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines the Electric Vehicle Charging Station, enabling communication and management within electrical distribution systems."
+  }
 }

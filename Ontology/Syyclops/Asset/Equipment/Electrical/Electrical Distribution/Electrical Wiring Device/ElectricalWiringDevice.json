@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Electrical Wiring Device"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalDistributionEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for electrical wiring devices, facilitating interaction definitions for various electrical components."
+  }
 }

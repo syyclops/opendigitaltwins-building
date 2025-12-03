@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Outbound Destination Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:DestinationSign;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Outlines functionalities of Outbound Destination Signs providing directional information for departing flights."
+  }
 }

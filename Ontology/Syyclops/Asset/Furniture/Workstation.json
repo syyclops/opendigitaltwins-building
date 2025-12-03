@@ -17,10 +17,16 @@
       "writable": true,
       "schema": "string",
       "comment": "basic, sit/stand",
-      "@id": "dtmi:com:syyclops:Workstation:type;1"
+      "@id": "dtmi:com:syyclops:Workstation:type;1",
+      "description": {
+        "en": "The 'type' property of the Workstation interface specifies the category of the workstation."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Workstation interface represents a specialized category of furniture specifically designed for work activities."
+  }
 }

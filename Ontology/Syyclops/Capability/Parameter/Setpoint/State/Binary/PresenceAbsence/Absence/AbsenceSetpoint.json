@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Absence Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PresenceAbsenceSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Designates the absence status setpoint in presence detection systems using a binary state."
+  }
 }

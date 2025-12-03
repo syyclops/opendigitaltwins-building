@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Coupling"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingCoupling interface facilitates the joining of two lengths of pipe."
+  }
 }

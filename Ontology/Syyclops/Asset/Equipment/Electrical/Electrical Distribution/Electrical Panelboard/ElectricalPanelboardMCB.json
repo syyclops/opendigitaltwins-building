@@ -20,11 +20,17 @@
       "schema": "double",
       "unit": "ampere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalPanelboardMCB:MCBRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalPanelboardMCB:MCBRating;1",
+      "description": {
+        "en": "This property indicates the rating of the Miniature Circuit Breaker within the Electrical Panelboard, signifying its load capacity."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines the Electrical Panelboard MCB (Miniature Circuit Breaker), crucial for circuit protection."
+  }
 }

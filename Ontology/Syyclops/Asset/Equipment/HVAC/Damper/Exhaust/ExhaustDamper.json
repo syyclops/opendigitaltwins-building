@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Exhaust Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents an Exhaust Damper for HVAC systems, facilitating the efficient removal of stale air from indoor environments."
+  }
 }

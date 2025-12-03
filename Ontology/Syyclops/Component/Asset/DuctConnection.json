@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:DuctConnection:size;1"
+      "@id": "dtmi:com:syyclops:DuctConnection:size;1",
+      "description": {
+        "en": "Specifies the size of the duct connection as defined in the asset."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:DuctConnection:sizeUnit;1"
+      "@id": "dtmi:com:syyclops:DuctConnection:sizeUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement used for the duct connection size."
+      }
     },
     {
       "@type": "Property",
@@ -67,7 +73,10 @@
         "@id": "dtmi:com:syyclops:DuctConnection:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:DuctConnection:shape;1"
+      "@id": "dtmi:com:syyclops:DuctConnection:shape;1",
+      "description": {
+        "en": "Describes the geometric shape of the duct connection in the asset."
+      }
     },
     {
       "@type": "Property",
@@ -93,7 +102,10 @@
         "@id": "dtmi:com:syyclops:DuctConnection:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:DuctConnection:configuration;1"
+      "@id": "dtmi:com:syyclops:DuctConnection:configuration;1",
+      "description": {
+        "en": "Details the configuration specifications of the duct connection."
+      }
     }
   ],
   "@context": [
@@ -101,5 +113,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for the duct connection component within the asset."
+  }
 }

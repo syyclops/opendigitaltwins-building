@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Vertical Stack Fan Coil Unit"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VerticalFanCoilUnit;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The VerticalStackFanCoilUnit interface defines specific features pertinent to vertically stacked Fan Coil Units."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "System Verification Checklist"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CommissioningChecklist;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Checklist designed for verifying system performance against design specifications during the commissioning phase."
+  }
 }

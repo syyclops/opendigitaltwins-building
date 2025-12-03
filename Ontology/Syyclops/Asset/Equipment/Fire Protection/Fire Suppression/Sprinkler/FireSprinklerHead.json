@@ -42,7 +42,10 @@
         "@id": "dtmi:com:syyclops:FireSprinklerHead:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FireSprinklerHead:type;1"
+      "@id": "dtmi:com:syyclops:FireSprinklerHead:type;1",
+      "description": {
+        "en": "Property indicating the type of fire sprinkler head, defining its operational characteristics."
+      }
     },
     {
       "@type": "Property",
@@ -52,7 +55,10 @@
       "name": "kFactorMetric",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FireSprinklerHead:kFactorMetric;1"
+      "@id": "dtmi:com:syyclops:FireSprinklerHead:kFactorMetric;1",
+      "description": {
+        "en": "Property representing the k-factor for metric measurements in fire sprinkler head performance."
+      }
     },
     {
       "@type": "Property",
@@ -62,10 +68,16 @@
       "name": "kFactorImperial",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FireSprinklerHead:kFactorImperial;1"
+      "@id": "dtmi:com:syyclops:FireSprinklerHead:kFactorImperial;1",
+      "description": {
+        "en": "Property representing the k-factor for imperial measurements in fire sprinkler head performance."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining a fire sprinkler head that releases water when activated by heat."
+  }
 }

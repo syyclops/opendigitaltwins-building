@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Door"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BarrierAsset;1",
     "dtmi:com:syyclops:PhysicalSpaceOpening;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for architectural door assets within barrier constructs."
+  }
 }

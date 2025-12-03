@@ -14,10 +14,16 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACDuctFitting:material;1"
+      "@id": "dtmi:com:syyclops:HVACDuctFitting:material;1",
+      "description": {
+        "en": "Property indicating the material composition of the HVAC Duct Fitting interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing an HVAC Duct Fitting used in air distribution systems."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Exhaust Air System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACAirSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing the HVAC system that manages the removal of exhaust air from spaces."
+  }
 }

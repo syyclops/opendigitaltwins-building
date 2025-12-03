@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:workingPressure;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:workingPressure;1",
+      "description": {
+        "en": "A property specifying the working pressure required for the effective operation of the water filtration system."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:workingPressureUnit;1",
+      "description": {
+        "en": "The unit of measurement for the working pressure property of the HVAC water filtration system."
+      }
     },
     {
       "@type": "Property",
@@ -46,7 +52,10 @@
       "name": "type",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:type;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:type;1",
+      "description": {
+        "en": "A property denoting the type of water filtration system used in HVAC applications."
+      }
     },
     {
       "@type": [
@@ -60,7 +69,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:tankCapacity;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:tankCapacity;1",
+      "description": {
+        "en": "A property indicating the tank capacity of the water filtration system to ensure adequate water supply."
+      }
     },
     {
       "@type": [
@@ -76,7 +88,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:tankCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:tankCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the tank capacity property of the HVAC water filtration system."
+      }
     },
     {
       "@type": [
@@ -90,7 +105,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:flowCapacity;1",
+      "description": {
+        "en": "A property defining the flow capacity of the water filtration system to manage water treatment effectively."
+      }
     },
     {
       "@type": [
@@ -106,7 +124,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACWaterFiltration:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HVACWaterFiltration:flowCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the flow capacity property of the HVAC water filtration system."
+      }
     },
     {
       "@type": [
@@ -131,5 +152,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface detailing the specifications of water filtration systems within HVAC water treatment solutions."
+  }
 }

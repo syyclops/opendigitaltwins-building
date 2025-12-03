@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Elevator Shaft"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralShaft;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Describes the Elevator Shaft interface, outlining the design and structure for vertical transport systems."
+  }
 }

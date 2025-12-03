@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "kilowattHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BatterySystem:nominalCapacity;1"
+      "@id": "dtmi:com:syyclops:BatterySystem:nominalCapacity;1",
+      "description": {
+        "en": "The nominalCapacity property represents the total energy capacity of the Battery System in ampere-hours."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "EnergyUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BatterySystem:nominalCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:BatterySystem:nominalCapacityUnit;1",
+      "description": {
+        "en": "The nominalCapacityUnit property specifies the unit of measurement used for the nominal capacity of the Battery System."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The BatterySystem interface defines the overall configuration and properties of the battery system."
+  }
 }

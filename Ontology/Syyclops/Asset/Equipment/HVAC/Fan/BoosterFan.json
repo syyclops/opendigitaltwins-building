@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Booster Fan"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACFan;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for booster fans used in HVAC systems to enhance airflow in ductwork."
+  }
 }

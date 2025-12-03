@@ -19,7 +19,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:ParkingSpot:type;1"
+      "@id": "dtmi:com:syyclops:ParkingSpot:type;1",
+      "description": {
+        "en": "Specifies the type property of the Parking Spot interface, defining its functional classification."
+      }
     },
     {
       "@type": [
@@ -33,7 +36,10 @@
       "schema": "double",
       "unit": "metre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ParkingSpot:width;1"
+      "@id": "dtmi:com:syyclops:ParkingSpot:width;1",
+      "description": {
+        "en": "Represents the width property of the Parking Spot interface, detailing its dimensional measurement."
+      }
     },
     {
       "@type": [
@@ -49,7 +55,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ParkingSpot:widthUnit;1"
+      "@id": "dtmi:com:syyclops:ParkingSpot:widthUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for width in the Parking Spot interface, ensuring consistent measurement."
+      }
     },
     {
       "@type": [
@@ -63,7 +72,10 @@
       "schema": "double",
       "unit": "metre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ParkingSpot:length;1"
+      "@id": "dtmi:com:syyclops:ParkingSpot:length;1",
+      "description": {
+        "en": "Specifies the length property of the Parking Spot interface, providing its dimensional measurement."
+      }
     },
     {
       "@type": [
@@ -79,7 +91,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ParkingSpot:lengthUnit;1"
+      "@id": "dtmi:com:syyclops:ParkingSpot:lengthUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for length in the Parking Spot interface, facilitating accuracy."
+      }
     }
   ],
   "@context": [

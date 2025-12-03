@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Combination Runway Stop Bar - Runway Guard Light Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:RunwayStopBarLightFixture;1",
     "dtmi:com:syyclops:airport:RunwayGuardLightFixture;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface specifies a runway stop bar guard light fixture designed to enhance safety at runway holding positions."
+  }
 }

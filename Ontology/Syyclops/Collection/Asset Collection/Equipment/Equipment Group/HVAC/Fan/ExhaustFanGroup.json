@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Exhaust Fan Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACFanGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface denoting a group of exhaust fans used in HVAC systems to enhance airflow and ventilation."
+  }
 }

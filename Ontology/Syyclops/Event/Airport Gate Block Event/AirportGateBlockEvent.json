@@ -60,7 +60,10 @@
           "en": "Block Event Flight"
         }
       },
-      "@id": "dtmi:com:syyclops:AirportGateBlockEvent:flight;1"
+      "@id": "dtmi:com:syyclops:AirportGateBlockEvent:flight;1",
+      "description": {
+        "en": "Indicates the flight identifier associated with an Airport Gate Block Event."
+      }
     },
     {
       "@type": "Property",
@@ -100,7 +103,10 @@
           "en": "Block Event Aircraft"
         }
       },
-      "@id": "dtmi:com:syyclops:AirportGateBlockEvent:aircraft;1"
+      "@id": "dtmi:com:syyclops:AirportGateBlockEvent:aircraft;1",
+      "description": {
+        "en": "Represents the aircraft identifier related to an Airport Gate Block Event."
+      }
     },
     {
       "@type": "Property",

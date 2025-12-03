@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Pre-Action Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SprinklerEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for equipment within a pre-action fire sprinkler system designed for enhanced fire protection."
+  }
 }

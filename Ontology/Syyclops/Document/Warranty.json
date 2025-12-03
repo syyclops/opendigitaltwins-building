@@ -49,7 +49,10 @@
           "en": "Warranty Type"
         }
       },
-      "@id": "dtmi:com:syyclops:Warranty:type;1"
+      "@id": "dtmi:com:syyclops:Warranty:type;1",
+      "description": {
+        "en": "The type property defines the classification of the warranty, such as standard or extended."
+      }
     },
     {
       "@type": "Property",
@@ -59,7 +62,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Warranty:guarantor;1"
+      "@id": "dtmi:com:syyclops:Warranty:guarantor;1",
+      "description": {
+        "en": "The guarantor property identifies the entity responsible for upholding the warranty terms."
+      }
     },
     {
       "@type": "Property",
@@ -69,7 +75,10 @@
       },
       "writable": true,
       "schema": "duration",
-      "@id": "dtmi:com:syyclops:Warranty:duration;1"
+      "@id": "dtmi:com:syyclops:Warranty:duration;1",
+      "description": {
+        "en": "The duration property specifies the length of time the warranty remains valid."
+      }
     },
     {
       "@type": "Property",
@@ -79,7 +88,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:Warranty:startDate;1"
+      "@id": "dtmi:com:syyclops:Warranty:startDate;1",
+      "description": {
+        "en": "The startDate property indicates when the warranty coverage begins."
+      }
     },
     {
       "@type": "Property",
@@ -89,10 +101,16 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:Warranty:endDate;1"
+      "@id": "dtmi:com:syyclops:Warranty:endDate;1",
+      "description": {
+        "en": "Specifies the end date of a warranty period for a given product."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Warranty interface encapsulates terms and conditions under which a product is warranted."
+  }
 }

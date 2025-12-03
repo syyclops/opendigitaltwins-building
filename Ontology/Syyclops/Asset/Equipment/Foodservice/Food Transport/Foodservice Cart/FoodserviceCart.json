@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Foodservice Cart"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodTransportEquipment;1",
     "dtmi:com:syyclops:Cart;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining a foodservice cart used for efficiently transporting food items within foodservice operations."
+  }
 }

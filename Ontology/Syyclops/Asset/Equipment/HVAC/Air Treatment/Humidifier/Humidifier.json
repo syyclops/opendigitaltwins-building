@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Humidifier"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACAirTreatment;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Humidifier interface designates an HVAC component utilized for adding moisture to indoor air."
+  }
 }

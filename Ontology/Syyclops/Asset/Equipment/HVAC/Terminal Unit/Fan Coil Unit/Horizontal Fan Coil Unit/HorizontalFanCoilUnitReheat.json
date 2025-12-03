@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Horizontal Fan Coil Unit with Reheat"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HorizontalFanCoilUnit;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The HorizontalFanCoilUnitReheat interface encompasses reheat functionalities for horizontally configured Fan Coil Units."
+  }
 }

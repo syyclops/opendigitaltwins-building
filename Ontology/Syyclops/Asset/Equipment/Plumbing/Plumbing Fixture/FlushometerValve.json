@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FlushometerValve:waterPerFlush;1"
+      "@id": "dtmi:com:syyclops:FlushometerValve:waterPerFlush;1",
+      "description": {
+        "en": "A property indicating the amount of water discarded per flush by the flushometer valve."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FlushometerValve:waterPerFlushUnit;1"
+      "@id": "dtmi:com:syyclops:FlushometerValve:waterPerFlushUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for water per flush in the Flushometer Valve property."
+      }
     },
     {
       "@type": "Property",
@@ -62,7 +68,10 @@
         "@id": "dtmi:com:syyclops:FlushometerValve:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FlushometerValve:type;1"
+      "@id": "dtmi:com:syyclops:FlushometerValve:type;1",
+      "description": {
+        "en": "Indicates the type of Flushometer Valve as a property within the plumbing fixture interface."
+      }
     },
     {
       "@type": "Property",
@@ -88,7 +97,10 @@
         "@id": "dtmi:com:syyclops:FlushometerValve:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FlushometerValve:technology;1"
+      "@id": "dtmi:com:syyclops:FlushometerValve:technology;1",
+      "description": {
+        "en": "Denotes the technology used in the Flushometer Valve as a plumbing fixture property."
+      }
     },
     {
       "@type": "Relationship",
@@ -96,7 +108,10 @@
         "en": "mounted on"
       },
       "name": "mountedOn",
-      "@id": "dtmi:com:syyclops:FlushometerValve:mountedOn;1"
+      "@id": "dtmi:com:syyclops:FlushometerValve:mountedOn;1",
+      "description": {
+        "en": "Describes the mounting relationship of the Flushometer Valve within the plumbing fixture interface."
+      }
     }
   ],
   "@context": [
@@ -104,5 +119,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface modeling a flushometer valve fixture used with restroom toilets for flushing."
+  }
 }

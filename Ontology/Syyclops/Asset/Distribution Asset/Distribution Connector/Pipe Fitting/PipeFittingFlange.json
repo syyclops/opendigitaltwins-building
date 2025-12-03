@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Flange"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingFlange interface provides a method for fastening pipes with bolted connections."
+  }
 }

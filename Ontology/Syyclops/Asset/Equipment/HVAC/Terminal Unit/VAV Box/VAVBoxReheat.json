@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VAVBoxReheat:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:VAVBoxReheat:nominalHeatingCapacity;1",
+      "description": {
+        "en": "Represents the nominal heating capacity for the VAV Box with Reheat feature."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VAVBoxReheat:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:VAVBoxReheat:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the nominal heating capacity of the VAV Box with Reheat."
+      }
     },
     {
       "@type": "Component",
@@ -48,7 +54,10 @@
       },
       "name": "reHeatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:VAVBoxReheat:reHeatingMethod;1"
+      "@id": "dtmi:com:syyclops:VAVBoxReheat:reHeatingMethod;1",
+      "description": {
+        "en": "Indicates the re-heating method for the VAV Box with Reheat."
+      }
     }
   ],
   "@context": [

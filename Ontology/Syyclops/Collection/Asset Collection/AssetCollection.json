@@ -25,7 +25,10 @@
           "schema": "dtmi:com:syyclops:AssetCollectionIsFedBySubstances;1"
         }
       ],
-      "@id": "dtmi:com:syyclops:AssetCollection:isFedBy;1"
+      "@id": "dtmi:com:syyclops:AssetCollection:isFedBy;1",
+      "description": {
+        "en": "This relationship indicates which asset feeds into the associated asset collection."
+      }
     }
   ],
   "schemas": [
@@ -37,177 +40,282 @@
         {
           "enumValue": "MakeupWater",
           "name": "MakeupWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:MakeupWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:MakeupWater;1",
+          "description": {
+            "en": "This enum value represents makeup water as a specific type of asset in the asset collection."
+          }
         },
         {
           "enumValue": "Light",
           "name": "Light",
-          "@id": "dtmi:com:syyclops:AssetCollection:Light;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Light;1",
+          "description": {
+            "en": "This enum value defines light as a distinct asset type within the asset collection."
+          }
         },
         {
           "enumValue": "IrrigationWater",
           "name": "IrrigationWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:IrrigationWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:IrrigationWater;1",
+          "description": {
+            "en": "This enum value categorizes irrigation water as a specialized asset within the asset collection."
+          }
         },
         {
           "enumValue": "HotWater",
           "name": "HotWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:HotWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:HotWater;1",
+          "description": {
+            "en": "This enum value designates hot water as a notable type of asset in the asset collection."
+          }
         },
         {
           "enumValue": "HotDomesticWater",
           "name": "HotDomesticWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:HotDomesticWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:HotDomesticWater;1",
+          "description": {
+            "en": "This enum value specifies hot domestic water as a relevant asset type in the asset collection."
+          }
         },
         {
           "enumValue": "GreaseExhaustAir",
           "name": "GreaseExhaustAir",
-          "@id": "dtmi:com:syyclops:AssetCollection:GreaseExhaustAir;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:GreaseExhaustAir;1",
+          "description": {
+            "en": "This enum value classifies grease exhaust air as a particular asset type within the asset collection."
+          }
         },
         {
           "enumValue": "Gasoline",
           "name": "Gasoline",
-          "@id": "dtmi:com:syyclops:AssetCollection:Gasoline;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Gasoline;1",
+          "description": {
+            "en": "This enum value identifies gasoline as a key asset type in the asset collection."
+          }
         },
         {
           "enumValue": "FuelOil",
           "name": "FuelOil",
-          "@id": "dtmi:com:syyclops:AssetCollection:FuelOil;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:FuelOil;1",
+          "description": {
+            "en": "This enum value categorizes fuel oil as an essential asset type in the asset collection."
+          }
         },
         {
           "enumValue": "Freight",
           "name": "Freight",
-          "@id": "dtmi:com:syyclops:AssetCollection:Freight;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Freight;1",
+          "description": {
+            "en": "This enum value signifies freight as a specific type of asset in the asset collection."
+          }
         },
         {
           "enumValue": "ExhaustAir",
           "name": "ExhaustAir",
-          "@id": "dtmi:com:syyclops:AssetCollection:ExhaustAir;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:ExhaustAir;1",
+          "description": {
+            "en": "This enum value indicates exhaust air as a particular type of asset within the asset collection."
+          }
         },
         {
           "enumValue": "Ethernet",
           "name": "Ethernet",
-          "@id": "dtmi:com:syyclops:AssetCollection:Ethernet;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Ethernet;1",
+          "description": {
+            "en": "This enum value defines ethernet as a relevant asset type within the asset collection."
+          }
         },
         {
           "enumValue": "DriveElec",
           "name": "DriveElec",
-          "@id": "dtmi:com:syyclops:AssetCollection:DriveElec;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:DriveElec;1",
+          "description": {
+            "en": "This enum value designates drive electric as a specific asset type in the asset collection."
+          }
         },
         {
           "enumValue": "Diesel",
           "name": "Diesel",
-          "@id": "dtmi:com:syyclops:AssetCollection:Diesel;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Diesel;1",
+          "description": {
+            "en": "This enum value categorizes diesel as a distinct asset type within the asset collection."
+          }
         },
         {
           "enumValue": "DCElec",
           "name": "DCElec",
-          "@id": "dtmi:com:syyclops:AssetCollection:DCElec;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:DCElec;1",
+          "description": {
+            "en": "This enum value identifies direct current electric as an important asset type in the asset collection."
+          }
         },
         {
           "enumValue": "CondenserWater",
           "name": "CondenserWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:CondenserWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:CondenserWater;1",
+          "description": {
+            "en": "This enum value classifies condenser water as a significant type of asset in the asset collection."
+          }
         },
         {
           "enumValue": "Condensate",
           "name": "Condensate",
-          "@id": "dtmi:com:syyclops:AssetCollection:Condensate;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Condensate;1",
+          "description": {
+            "en": "Enum value representing condensate within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "ColdDomesticWater",
           "name": "ColdDomesticWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:ColdDomesticWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:ColdDomesticWater;1",
+          "description": {
+            "en": "Enum value representing cold domestic water within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "ChilledWater",
           "name": "ChilledWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:ChilledWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:ChilledWater;1",
+          "description": {
+            "en": "Enum value representing chilled water within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "BlowdownWater",
           "name": "BlowdownWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:BlowdownWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:BlowdownWater;1",
+          "description": {
+            "en": "Enum value representing blowdown water within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "Air",
           "name": "Air",
-          "@id": "dtmi:com:syyclops:AssetCollection:Air;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Air;1",
+          "description": {
+            "en": "Enum value representing air within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "ACElec",
           "name": "ACElec",
-          "@id": "dtmi:com:syyclops:AssetCollection:ACElec;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:ACElec;1",
+          "description": {
+            "en": "Enum value representing AC electrical systems within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "NaturalGas",
           "name": "NaturalGas",
-          "@id": "dtmi:com:syyclops:AssetCollection:NaturalGas;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:NaturalGas;1",
+          "description": {
+            "en": "Enum value representing natural gas within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "NonPotableDomesticWater",
           "name": "NonPotableDomesticWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:NonPotableDomesticWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:NonPotableDomesticWater;1",
+          "description": {
+            "en": "Enum value representing non-potable domestic water within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "OutsideAir",
           "name": "OutsideAir",
-          "@id": "dtmi:com:syyclops:AssetCollection:OutsideAir;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:OutsideAir;1",
+          "description": {
+            "en": "Enum value representing outside air within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "People",
           "name": "People",
-          "@id": "dtmi:com:syyclops:AssetCollection:People;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:People;1",
+          "description": {
+            "en": "Enum value representing people within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "RecircHotDomesticWater",
           "name": "RecircHotDomesticWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:RecircHotDomesticWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:RecircHotDomesticWater;1",
+          "description": {
+            "en": "Enum value representing recirculated hot domestic water within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "Refrig",
           "name": "Refrig",
-          "@id": "dtmi:com:syyclops:AssetCollection:Refrig;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Refrig;1",
+          "description": {
+            "en": "Enum value representing refrigeration systems within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "ReturnAir",
           "name": "ReturnAir",
-          "@id": "dtmi:com:syyclops:AssetCollection:ReturnAir;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:ReturnAir;1",
+          "description": {
+            "en": "Enum value representing return air within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "SprinklerWater",
           "name": "SprinklerWater",
-          "@id": "dtmi:com:syyclops:AssetCollection:SprinklerWater;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:SprinklerWater;1",
+          "description": {
+            "en": "Enum value representing sprinkler water within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "Steam",
           "name": "Steam",
-          "@id": "dtmi:com:syyclops:AssetCollection:Steam;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Steam;1",
+          "description": {
+            "en": "Enum value representing steam within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "StormDrainage",
           "name": "StormDrainage",
-          "@id": "dtmi:com:syyclops:AssetCollection:StormDrainage;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:StormDrainage;1",
+          "description": {
+            "en": "Enum value representing storm drainage within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "SupplyAir",
           "name": "SupplyAir",
-          "@id": "dtmi:com:syyclops:AssetCollection:SupplyAir;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:SupplyAir;1",
+          "description": {
+            "en": "Enum value representing supply air within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "TransferAir",
           "name": "TransferAir",
-          "@id": "dtmi:com:syyclops:AssetCollection:TransferAir;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:TransferAir;1",
+          "description": {
+            "en": "Enum value representing transfer air within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "WasteVentDrainage",
           "name": "WasteVentDrainage",
-          "@id": "dtmi:com:syyclops:AssetCollection:WasteVentDrainage;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:WasteVentDrainage;1",
+          "description": {
+            "en": "Enum value representing waste vent drainage within the Asset Collection schema."
+          }
         },
         {
           "enumValue": "Water",
           "name": "Water",
-          "@id": "dtmi:com:syyclops:AssetCollection:Water;1"
+          "@id": "dtmi:com:syyclops:AssetCollection:Water;1",
+          "description": {
+            "en": "Enum value representing water within the Asset Collection schema."
+          }
         }
       ],
       "displayName": {
@@ -217,5 +325,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface manages the representation and organization of a collection of various assets."
+  }
 }

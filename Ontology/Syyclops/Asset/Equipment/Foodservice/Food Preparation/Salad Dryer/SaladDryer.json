@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Salad Dryer"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface describing a salad dryer that efficiently removes excess water from washed greens."
+  }
 }

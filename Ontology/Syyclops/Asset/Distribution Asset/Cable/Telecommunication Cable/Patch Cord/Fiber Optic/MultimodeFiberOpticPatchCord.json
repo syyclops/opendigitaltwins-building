@@ -62,10 +62,16 @@
         "@id": "dtmi:com:syyclops:MultimodeFiberOpticPatchCord:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:MultimodeFiberOpticPatchCord:performanceRating;1"
+      "@id": "dtmi:com:syyclops:MultimodeFiberOpticPatchCord:performanceRating;1",
+      "description": {
+        "en": "Property indicating the performance rating of the Multimode Fiber Optic Patch Cord interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Multimode Fiber Optic Patch Cord configured for telecommunication."
+  }
 }

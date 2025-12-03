@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Structural Pile"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralFoundation;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the Structural Pile interface within the Building Component > Structural Foundation schema, used for deep foundations."
+  }
 }

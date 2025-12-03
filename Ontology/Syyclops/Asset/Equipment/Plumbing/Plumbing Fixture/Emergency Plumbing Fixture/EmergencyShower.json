@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Emergency Shower"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EmergencyPlumbingFixture;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for an emergency shower fixture designed for body decontamination."
+  }
 }

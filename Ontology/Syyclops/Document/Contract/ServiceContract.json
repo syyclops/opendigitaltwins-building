@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Service Contract"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ContractDocument;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface outlining the provisions and terms of a service contract."
+  }
 }

@@ -14,10 +14,16 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACDuct:material;1"
+      "@id": "dtmi:com:syyclops:HVACDuct:material;1",
+      "description": {
+        "en": "A property detailing the material used in the construction of the HVAC duct."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface that specifies properties and behaviors for HVAC duct systems as a type of distribution asset."
+  }
 }

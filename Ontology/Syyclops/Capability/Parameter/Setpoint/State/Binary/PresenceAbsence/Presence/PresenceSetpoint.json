@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Presence Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PresenceAbsenceSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the status setpoint for the presence state in occupancy detection systems."
+  }
 }

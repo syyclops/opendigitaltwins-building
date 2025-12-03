@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Level State"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PercentState;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Describes the percentage-based state indicating the current level of a resource or process."
+  }
 }

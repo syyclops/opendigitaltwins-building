@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Approach Light Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldLightingEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Approach Light Fixture interface represents lighting systems guiding aircraft during approach to landing."
+  }
 }

@@ -16,7 +16,10 @@
       "name": "numberOfPorts",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:EthernetSwitch:numberOfPorts;1"
+      "@id": "dtmi:com:syyclops:EthernetSwitch:numberOfPorts;1",
+      "description": {
+        "en": "Property indicating the number of ports on the Ethernet switch."
+      }
     },
     {
       "@type": "Property",
@@ -26,10 +29,16 @@
       "name": "heightRUs",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:EthernetSwitch:heightRUs;1"
+      "@id": "dtmi:com:syyclops:EthernetSwitch:heightRUs;1",
+      "description": {
+        "en": "Property specifying the height in rack units of the Ethernet switch."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Ethernet switches in data network infrastructures."
+  }
 }

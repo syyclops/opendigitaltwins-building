@@ -20,7 +20,10 @@
       "name": "nominalEnthalpyRecoveryRatio",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:nominalEnthalpyRecoveryRatio;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:nominalEnthalpyRecoveryRatio;1",
+      "description": {
+        "en": "Indicates the nominal enthalpy recovery ratio for the Energy Recovery Device, essential for efficiency assessment."
+      }
     },
     {
       "@type": "Property",
@@ -66,7 +69,10 @@
         "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:energyRecoveryMethod;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:energyRecoveryMethod;1",
+      "description": {
+        "en": "Defines the method utilized for energy recovery in the Energy Recovery Device, impacting system performance."
+      }
     },
     {
       "@type": [
@@ -79,7 +85,10 @@
       "name": "supplyCoolingAirPressureDrop",
       "schema": "double",
       "unit": "inchesOfWater",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingAirPressureDrop;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingAirPressureDrop;1",
+      "description": {
+        "en": "Represents the supply cooling air pressure drop across the Energy Recovery Device, important for airflow calculations."
+      }
     },
     {
       "@type": [
@@ -92,7 +101,10 @@
       "name": "supplyCoolingMinAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMinAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMinAirflowRating;1",
+      "description": {
+        "en": "Specifies the minimum airflow rating for the cooling supply within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -105,7 +117,10 @@
       "name": "supplyCoolingMaxAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMaxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMaxAirflowRating;1",
+      "description": {
+        "en": "Defines the maximum airflow rating for the cooling supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -118,7 +133,10 @@
       "name": "supplyCoolingDesignAirflow",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignAirflow;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignAirflow;1",
+      "description": {
+        "en": "Indicates the design airflow value for the cooling supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -131,7 +149,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirDryBulbTemperature;1",
+      "description": {
+        "en": "Represents the design entering dry bulb temperature for the cooling supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -144,7 +165,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirDryBulbTemperature;1",
+      "description": {
+        "en": "Specifies the design leaving dry bulb temperature for the cooling supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -157,7 +181,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirWetBulbTemperature;1",
+      "description": {
+        "en": "Indicates the design entering wet bulb temperature for the cooling supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -170,7 +197,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirWetBulbTemperature;1",
+      "description": {
+        "en": "Defines the design leaving wet bulb temperature for the cooling supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -183,7 +213,10 @@
       "name": "supplyHeatingAirPressureDrop",
       "schema": "double",
       "unit": "inchesOfWater",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingAirPressureDrop;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingAirPressureDrop;1",
+      "description": {
+        "en": "Measures the air pressure drop for the heating supply within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -196,7 +229,10 @@
       "name": "supplyHeatingMinAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMinAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMinAirflowRating;1",
+      "description": {
+        "en": "Specifies the minimum airflow rating for the heating supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -209,7 +245,10 @@
       "name": "supplyHeatingMaxAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMaxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMaxAirflowRating;1",
+      "description": {
+        "en": "Defines the maximum airflow rating for the heating supply within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -222,7 +261,10 @@
       "name": "supplyHeatingDesignAirflow",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignAirflow;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignAirflow;1",
+      "description": {
+        "en": "Indicates the design airflow value for the heating supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -235,7 +277,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirDryBulbTemperature;1",
+      "description": {
+        "en": "Represents the design entering dry bulb temperature for the heating supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -248,7 +293,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirDryBulbTemperature;1",
+      "description": {
+        "en": "Specifies the design leaving dry bulb temperature for the heating supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -261,7 +309,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirWetBulbTemperature;1",
+      "description": {
+        "en": "Indicates the design entering wet bulb temperature for the heating supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -274,7 +325,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirWetBulbTemperature;1",
+      "description": {
+        "en": "Defines the design leaving wet bulb temperature for the heating supply in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -287,7 +341,10 @@
       "name": "exhaustCoolingAirPressureDrop",
       "schema": "double",
       "unit": "inchesOfWater",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingAirPressureDrop;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingAirPressureDrop;1",
+      "description": {
+        "en": "Measures the air pressure drop for the cooling exhaust within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -300,7 +357,10 @@
       "name": "exhaustCoolingMinAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMinAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMinAirflowRating;1",
+      "description": {
+        "en": "Specifies the minimum airflow rating for the cooling exhaust in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -313,7 +373,10 @@
       "name": "exhaustCoolingMaxAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMaxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMaxAirflowRating;1",
+      "description": {
+        "en": "Defines the maximum airflow rating for the cooling exhaust within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -326,7 +389,10 @@
       "name": "exhaustCoolingDesignAirflow",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignAirflow;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignAirflow;1",
+      "description": {
+        "en": "Indicates the design airflow value for the cooling exhaust in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -339,7 +405,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirDryBulbTemperature;1",
+      "description": {
+        "en": "Represents the design entering dry bulb temperature for the cooling exhaust in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -352,7 +421,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirDryBulbTemperature;1",
+      "description": {
+        "en": "Represents the dry bulb temperature of leaving air in the exhaust cooling design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -365,7 +437,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirWetBulbTemperature;1",
+      "description": {
+        "en": "Indicates the wet bulb temperature of entering air in the exhaust cooling design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -378,7 +453,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirWetBulbTemperature;1",
+      "description": {
+        "en": "Specifies the wet bulb temperature of leaving air in the exhaust cooling design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -391,7 +469,10 @@
       "name": "exhaustHeatingAirPressureDrop",
       "schema": "double",
       "unit": "inchesOfWater",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingAirPressureDrop;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingAirPressureDrop;1",
+      "description": {
+        "en": "Measures the air pressure drop across the exhaust heating section of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -404,7 +485,10 @@
       "name": "exhaustHeatingMinAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMinAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMinAirflowRating;1",
+      "description": {
+        "en": "Defines the minimum airflow rating for the exhaust heating function of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -417,7 +501,10 @@
       "name": "exhaustHeatingMaxAirflowRating",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMaxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMaxAirflowRating;1",
+      "description": {
+        "en": "Specifies the maximum airflow rating for the exhaust heating function of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -430,7 +517,10 @@
       "name": "exhaustHeatingDesignAirflow",
       "schema": "double",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignAirflow;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignAirflow;1",
+      "description": {
+        "en": "Represents the design airflow parameter for the exhaust heating system within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -443,7 +533,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirDryBulbTemperature;1",
+      "description": {
+        "en": "Indicates the dry bulb temperature of entering air in the design for exhaust heating of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -456,7 +549,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirDryBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirDryBulbTemperature;1",
+      "description": {
+        "en": "Represents the dry bulb temperature of leaving air in the exhaust heating design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -469,7 +565,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirWetBulbTemperature;1",
+      "description": {
+        "en": "Specifies the wet bulb temperature of entering air in the exhaust heating design for the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -482,7 +581,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirWetBulbTemperature;1",
+      "description": {
+        "en": "Indicates the wet bulb temperature of leaving air in the exhaust heating design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -497,7 +599,10 @@
       "annotates": "supplyCoolingAirPressureDrop",
       "overrides": "unit",
       "schema": "PressureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingAirPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingAirPressureDropUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for chilling air pressure drop in the supply cooling function of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -512,7 +617,10 @@
       "annotates": "supplyCoolingMinAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMinAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMinAirflowRatingUnit;1",
+      "description": {
+        "en": "Specifies the unit for the minimum airflow rating in the supply cooling process of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -527,7 +635,10 @@
       "annotates": "supplyCoolingMaxAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMaxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingMaxAirflowRatingUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the maximum airflow rating in the supply cooling function of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -542,7 +653,10 @@
       "annotates": "supplyCoolingDesignAirflow",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignAirflowUnit;1",
+      "description": {
+        "en": "Represents the unit for the design airflow in the cooling supply configuration of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -557,7 +671,10 @@
       "annotates": "supplyCoolingDesignEnteringAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the dry bulb temperature of entering air in the design cooling supply of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -572,7 +689,10 @@
       "annotates": "supplyCoolingDesignLeavingAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit for the dry bulb temperature of leaving air in the design cooling supply process of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -587,7 +707,10 @@
       "annotates": "supplyCoolingDesignEnteringAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignEnteringAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the entering air wet bulb temperature in the cooling design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -602,7 +725,10 @@
       "annotates": "supplyCoolingDesignLeavingAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyCoolingDesignLeavingAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Defines the unit used for the wet bulb temperature of leaving air in the cooling design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -617,7 +743,10 @@
       "annotates": "supplyHeatingAirPressureDrop",
       "overrides": "unit",
       "schema": "PressureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingAirPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingAirPressureDropUnit;1",
+      "description": {
+        "en": "Represents the unit of measurement for the air pressure drop across the supply heating section of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -632,7 +761,10 @@
       "annotates": "supplyHeatingMinAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMinAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMinAirflowRatingUnit;1",
+      "description": {
+        "en": "Represents the minimum airflow rating for the supply heating system in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -647,7 +779,10 @@
       "annotates": "supplyHeatingMaxAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMaxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingMaxAirflowRatingUnit;1",
+      "description": {
+        "en": "Specifies the maximum airflow rating for the supply heating component of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -662,7 +797,10 @@
       "annotates": "supplyHeatingDesignAirflow",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignAirflowUnit;1",
+      "description": {
+        "en": "Defines the design airflow rate intended for the supply heating function of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -677,7 +815,10 @@
       "annotates": "supplyHeatingDesignEnteringAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the entering air dry bulb temperature for the supply heating design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -692,7 +833,10 @@
       "annotates": "supplyHeatingDesignLeavingAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Identifies the leaving air dry bulb temperature in the supply heating design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -707,7 +851,10 @@
       "annotates": "supplyHeatingDesignEnteringAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignEnteringAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the entering air wet bulb temperature for the supply heating design in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -722,7 +869,10 @@
       "annotates": "supplyHeatingDesignLeavingAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:supplyHeatingDesignLeavingAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Represents the leaving air wet bulb temperature for the supply heating design in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -737,7 +887,10 @@
       "annotates": "exhaustCoolingAirPressureDrop",
       "overrides": "unit",
       "schema": "PressureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingAirPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingAirPressureDropUnit;1",
+      "description": {
+        "en": "Defines the air pressure drop unit for the exhaust cooling operation of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -752,7 +905,10 @@
       "annotates": "exhaustCoolingMinAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMinAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMinAirflowRatingUnit;1",
+      "description": {
+        "en": "Indicates the minimum airflow rating for the exhaust cooling function in the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -767,7 +923,10 @@
       "annotates": "exhaustCoolingMaxAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMaxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingMaxAirflowRatingUnit;1",
+      "description": {
+        "en": "Specifies the maximum airflow rating for the exhaust cooling operation of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -782,7 +941,10 @@
       "annotates": "exhaustCoolingDesignAirflow",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignAirflowUnit;1",
+      "description": {
+        "en": "Represents the design airflow rate for the exhaust cooling functionality within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -797,7 +959,10 @@
       "annotates": "exhaustCoolingDesignEnteringAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Defines the entering air dry bulb temperature used in the design of exhaust cooling for the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -812,7 +977,10 @@
       "annotates": "exhaustCoolingDesignLeavingAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the leaving air dry bulb temperature for the exhaust cooling design segment of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -827,7 +995,10 @@
       "annotates": "exhaustCoolingDesignEnteringAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignEnteringAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the entering air wet bulb temperature in the design of the exhaust cooling system of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -842,7 +1013,10 @@
       "annotates": "exhaustCoolingDesignLeavingAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustCoolingDesignLeavingAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Represents the leaving air wet bulb temperature for the exhaust cooling design within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -857,7 +1031,10 @@
       "annotates": "exhaustHeatingAirPressureDrop",
       "overrides": "unit",
       "schema": "PressureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingAirPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingAirPressureDropUnit;1",
+      "description": {
+        "en": "Defines the air pressure drop unit associated with exhaust heating operations of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -872,7 +1049,10 @@
       "annotates": "exhaustHeatingMinAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMinAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMinAirflowRatingUnit;1",
+      "description": {
+        "en": "Indicates the minimum airflow requirement for the exhaust heating section of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -887,7 +1067,10 @@
       "annotates": "exhaustHeatingMaxAirflowRating",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMaxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingMaxAirflowRatingUnit;1",
+      "description": {
+        "en": "Specifies the maximum airflow rating for the exhaust heating function within the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -902,7 +1085,10 @@
       "annotates": "exhaustHeatingDesignAirflow",
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignAirflowUnit;1",
+      "description": {
+        "en": "Represents the design airflow rate intended for the exhaust heating component of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -917,7 +1103,10 @@
       "annotates": "exhaustHeatingDesignEnteringAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the entering air dry bulb temperature for the exhaust heating design of the Energy Recovery Device."
+      }
     },
     {
       "@type": [
@@ -932,7 +1121,10 @@
       "annotates": "exhaustHeatingDesignLeavingAirDryBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirDryBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the dry bulb temperature of leaving air in the exhaust heating design of the energy recovery device."
+      }
     },
     {
       "@type": [
@@ -947,7 +1139,10 @@
       "annotates": "exhaustHeatingDesignEnteringAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignEnteringAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Defines the wet bulb temperature of entering air in the exhaust heating design of the energy recovery device."
+      }
     },
     {
       "@type": [
@@ -962,7 +1157,10 @@
       "annotates": "exhaustHeatingDesignLeavingAirWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:exhaustHeatingDesignLeavingAirWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the wet bulb temperature of leaving air in the exhaust heating design of the energy recovery device."
+      }
     }
   ],
   "@context": [

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Blender"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for blenders used in food preparation, facilitating speed control and blending performance data."
+  }
 }

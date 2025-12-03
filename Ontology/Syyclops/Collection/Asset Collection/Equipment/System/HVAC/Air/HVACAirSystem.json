@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Air System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines the properties and commands for a HVAC air system, facilitating air conditioning and ventilation operations."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Building Emergency Supply Kit"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EmergencyPreparednessEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a collection of emergency supplies essential for building safety during disasters."
+  }
 }

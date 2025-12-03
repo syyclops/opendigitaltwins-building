@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeConnection:outsideDiameter;1"
+      "@id": "dtmi:com:syyclops:PipeConnection:outsideDiameter;1",
+      "description": {
+        "en": "Specifies the outside diameter of the pipe connection in HVAC systems."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeConnection:outsideDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:PipeConnection:outsideDiameterUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the outside diameter of the pipe connection."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeConnection:nominalDiameter;1"
+      "@id": "dtmi:com:syyclops:PipeConnection:nominalDiameter;1",
+      "description": {
+        "en": "Specifies the nominal diameter for pipe connections in HVAC applications."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeConnection:nominalDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:PipeConnection:nominalDiameterUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the nominal diameter of the pipe connection."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeConnection:insideDiameter;1"
+      "@id": "dtmi:com:syyclops:PipeConnection:insideDiameter;1",
+      "description": {
+        "en": "Specifies the inside diameter of the pipe connection in HVAC systems."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeConnection:insideDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:PipeConnection:insideDiameterUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the inside diameter of the pipe connection."
+      }
     }
   ],
   "@context": [
@@ -104,5 +122,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for pipe connection components within HVAC systems."
+  }
 }

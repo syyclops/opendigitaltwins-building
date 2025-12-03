@@ -14,7 +14,10 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pipe:material;1"
+      "@id": "dtmi:com:syyclops:Pipe:material;1",
+      "description": {
+        "en": "The 'material' property of the Pipe interface specifies the composition material of the pipeline component."
+      }
     },
     {
       "@type": [
@@ -28,7 +31,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pipe:diameter;1"
+      "@id": "dtmi:com:syyclops:Pipe:diameter;1",
+      "description": {
+        "en": "The 'diameter' property defines the nominal diameter of the pipe in relevant measurement units."
+      }
     },
     {
       "@type": [
@@ -44,7 +50,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pipe:diameterUnit;1"
+      "@id": "dtmi:com:syyclops:Pipe:diameterUnit;1",
+      "description": {
+        "en": "The 'diameterUnit' property indicates the unit of measurement used for the pipe's diameter."
+      }
     }
   ],
   "@context": [
@@ -52,5 +61,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing pipe assets used in distribution systems, detailing their characteristics."
+  }
 }

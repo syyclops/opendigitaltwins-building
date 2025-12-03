@@ -18,7 +18,10 @@
       },
       "name": "address",
       "schema": "dtmi:com:syyclops:Address;1",
-      "@id": "dtmi:com:syyclops:Land:address;1"
+      "@id": "dtmi:com:syyclops:Land:address;1",
+      "description": {
+        "en": "Component defining the address associated with the Land interface."
+      }
     },
     {
       "@type": "Component",
@@ -27,7 +30,10 @@
       },
       "name": "electricityPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Land:electricityPriceRate;1"
+      "@id": "dtmi:com:syyclops:Land:electricityPriceRate;1",
+      "description": {
+        "en": "Component specifying the electricity price rate in the Land interface."
+      }
     },
     {
       "@type": "Component",
@@ -36,7 +42,10 @@
       },
       "name": "electricityEmissionFactor",
       "schema": "dtmi:com:syyclops:UtilityEmissionFactor;1",
-      "@id": "dtmi:com:syyclops:Land:electricityEmissionFactor;1"
+      "@id": "dtmi:com:syyclops:Land:electricityEmissionFactor;1",
+      "description": {
+        "en": "Component representing the electricity emission factor within the Land interface."
+      }
     },
     {
       "@type": "Component",
@@ -45,7 +54,10 @@
       },
       "name": "naturalGasPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Land:naturalGasPriceRate;1"
+      "@id": "dtmi:com:syyclops:Land:naturalGasPriceRate;1",
+      "description": {
+        "en": "Component indicating the natural gas price rate in the Land interface."
+      }
     },
     {
       "@type": "Component",
@@ -54,7 +66,10 @@
       },
       "name": "chilledWaterPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Land:chilledWaterPriceRate;1"
+      "@id": "dtmi:com:syyclops:Land:chilledWaterPriceRate;1",
+      "description": {
+        "en": "Component defining the chilled water price rate associated with the Land interface."
+      }
     },
     {
       "@type": "Component",
@@ -63,7 +78,10 @@
       },
       "name": "steamPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Land:steamPriceRate;1"
+      "@id": "dtmi:com:syyclops:Land:steamPriceRate;1",
+      "description": {
+        "en": "Component specifying the steam price rate in the Land interface."
+      }
     },
     {
       "@type": "Component",
@@ -72,7 +90,10 @@
       },
       "name": "domesticWaterPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Land:domesticWaterPriceRate;1"
+      "@id": "dtmi:com:syyclops:Land:domesticWaterPriceRate;1",
+      "description": {
+        "en": "Component representing the domestic water price rate within the Land interface."
+      }
     },
     {
       "@type": "Property",
@@ -82,7 +103,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Land:type;1"
+      "@id": "dtmi:com:syyclops:Land:type;1",
+      "description": {
+        "en": "Property defining the type of land in the Land interface."
+      }
     },
     {
       "@type": "Property",
@@ -116,7 +140,10 @@
           "en": "Land Coordinates"
         }
       },
-      "@id": "dtmi:com:syyclops:Land:coordinates;1"
+      "@id": "dtmi:com:syyclops:Land:coordinates;1",
+      "description": {
+        "en": "Property representing the geographic coordinates of the Land interface."
+      }
     },
     {
       "@type": [
@@ -130,7 +157,10 @@
       "writable": true,
       "schema": "double",
       "unit": "metre",
-      "@id": "dtmi:com:syyclops:Land:elevation;1"
+      "@id": "dtmi:com:syyclops:Land:elevation;1",
+      "description": {
+        "en": "Property indicating the elevation of the land in the Land interface."
+      }
     },
     {
       "@type": [
@@ -146,7 +176,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Land:elevationUnit;1"
+      "@id": "dtmi:com:syyclops:Land:elevationUnit;1",
+      "description": {
+        "en": "Property defining the unit of measurement for elevation in the Land interface."
+      }
     }
   ],
   "@context": [

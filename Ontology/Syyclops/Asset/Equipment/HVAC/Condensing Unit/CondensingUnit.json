@@ -35,7 +35,10 @@
         "@id": "dtmi:com:syyclops:CondensingUnit:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:type;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:type;1",
+      "description": {
+        "en": "The type property designates the category of the condensing unit used in the HVAC system."
+      }
     },
     {
       "@type": "Property",
@@ -45,7 +48,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:refrigerantType;1",
+      "description": {
+        "en": "The refrigerantType property specifies the type of refrigerant utilized by the condensing unit."
+      }
     },
     {
       "@type": [
@@ -59,7 +65,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalHeatingCapacity;1",
+      "description": {
+        "en": "The nominalHeatingCapacity property indicates the heating output capacity of the condensing unit."
+      }
     },
     {
       "@type": [
@@ -75,7 +84,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "The nominalHeatingCapacityUnit property specifies the measurement unit for nominalHeatingCapacity."
+      }
     },
     {
       "@type": [
@@ -89,7 +101,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalCoolingCapacity;1",
+      "description": {
+        "en": "The nominalCoolingCapacity property indicates the cooling output capacity of the condensing unit."
+      }
     },
     {
       "@type": [
@@ -105,7 +120,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "The nominalCoolingCapacityUnit property defines the measurement unit for nominalCoolingCapacity."
+      }
     },
     {
       "@type": [
@@ -119,7 +137,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleHeatingCapacity;1",
+      "description": {
+        "en": "The netSensibleHeatingCapacity property specifies the effective heating capacity of the condensing unit."
+      }
     },
     {
       "@type": [
@@ -135,7 +156,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleHeatingCapacityUnit;1",
+      "description": {
+        "en": "The netSensibleHeatingCapacityUnit property defines the unit of measure for netSensibleHeatingCapacity."
+      }
     },
     {
       "@type": [
@@ -149,7 +173,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleCoolingCapacity;1",
+      "description": {
+        "en": "Represents the net sensible cooling capacity of the Condensing Unit in BTUs per hour."
+      }
     },
     {
       "@type": [
@@ -165,7 +192,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:netSensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the net sensible cooling capacity, typically in BTU/h."
+      }
     },
     {
       "@type": "Property",
@@ -175,7 +205,10 @@
       "name": "eer",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CondensingUnit:eer;1"
+      "@id": "dtmi:com:syyclops:CondensingUnit:eer;1",
+      "description": {
+        "en": "Defines the Energy Efficiency Ratio (EER) of the Condensing Unit, measuring its cooling output relative to energy consumption."
+      }
     }
   ],
   "@context": [

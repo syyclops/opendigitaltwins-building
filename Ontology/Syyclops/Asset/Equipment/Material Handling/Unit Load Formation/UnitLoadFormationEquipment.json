@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Unit Load Formation Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MaterialHandlingEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface providing details on the equipment utilized for forming unit loads in material handling."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Low-voltage Switchgear"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Switchgear;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for low voltage switchgear that manages electrical distribution and protects against faults."
+  }
 }
