@@ -15,7 +15,10 @@
       },
       "name": "toSpace",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:BarrierAsset:toSpace;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:toSpace;1",
+      "description": {
+        "en": "Establishes a relationship from the Barrier Asset to a target Space."
+      }
     },
     {
       "@type": "Relationship",
@@ -24,7 +27,10 @@
       },
       "name": "fromSpace",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:BarrierAsset:fromSpace;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:fromSpace;1",
+      "description": {
+        "en": "Defines a relationship from a Space to the Barrier Asset."
+      }
     },
     {
       "@type": [
@@ -38,7 +44,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:width;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:width;1",
+      "description": {
+        "en": "Specifies the width property of the Barrier Asset."
+      }
     },
     {
       "@type": [
@@ -54,7 +63,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:widthUnit;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:widthUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the width of the Barrier Asset."
+      }
     },
     {
       "@type": [
@@ -68,7 +80,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:thickness;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:thickness;1",
+      "description": {
+        "en": "Defines the thickness property of the Barrier Asset."
+      }
     },
     {
       "@type": [
@@ -84,7 +99,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:thicknessUnit;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:thicknessUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the thickness of the Barrier Asset."
+      }
     },
     {
       "@type": "Property",
@@ -110,7 +128,10 @@
         "@id": "dtmi:com:syyclops:BarrierAsset:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:service;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:service;1",
+      "description": {
+        "en": "Describes the service associated with the Barrier Asset."
+      }
     },
     {
       "@type": "Property",
@@ -120,7 +141,10 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:material;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:material;1",
+      "description": {
+        "en": "Specifies the material used for constructing the Barrier Asset."
+      }
     },
     {
       "@type": [
@@ -134,7 +158,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:height;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:height;1",
+      "description": {
+        "en": "Specifies the height of the architectural barrier asset in units defined by 'heightUnit'."
+      }
     },
     {
       "@type": [
@@ -150,7 +177,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:heightUnit;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:heightUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the height property of the barrier asset."
+      }
     },
     {
       "@type": "Property",
@@ -160,7 +190,10 @@
       "name": "frameMaterial",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:frameMaterial;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:frameMaterial;1",
+      "description": {
+        "en": "Describes the material used for the frame of the barrier asset."
+      }
     },
     {
       "@type": [
@@ -174,7 +207,10 @@
       "schema": "double",
       "unit": "hour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:fireRating;1"
+      "@id": "dtmi:com:syyclops:BarrierAsset:fireRating;1",
+      "description": {
+        "en": "Defines the fire resistance rating of the barrier asset."
+      }
     }
   ],
   "@context": [
@@ -182,5 +218,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for barrier assets within architectural assets."
+  }
 }

@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:PlumbingStorageTank:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingStorageTank:type;1"
+      "@id": "dtmi:com:syyclops:PlumbingStorageTank:type;1",
+      "description": {
+        "en": "This property specifies the type of plumbing storage tank."
+      }
     },
     {
       "@type": "Property",
@@ -58,7 +61,10 @@
         "@id": "dtmi:com:syyclops:PlumbingStorageTank:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingStorageTank:arrangement;1"
+      "@id": "dtmi:com:syyclops:PlumbingStorageTank:arrangement;1",
+      "description": {
+        "en": "This property indicates the arrangement style of the plumbing storage tank."
+      }
     },
     {
       "@type": "Property",
@@ -93,10 +99,16 @@
           "en": "Plumbing Storage Tank Service"
         }
       },
-      "@id": "dtmi:com:syyclops:PlumbingStorageTank:service;1"
+      "@id": "dtmi:com:syyclops:PlumbingStorageTank:service;1",
+      "description": {
+        "en": "This property outlines the service capabilities of the plumbing storage tank."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents a plumbing storage tank used for managing water supply systems."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Holding Position Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:MandatoryInstructionSign;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Establishes the functionalities of Holding Position Signs marking areas where aircraft must hold."
+  }
 }

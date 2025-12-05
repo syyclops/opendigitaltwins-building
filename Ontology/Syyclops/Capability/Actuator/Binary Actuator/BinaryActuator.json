@@ -19,7 +19,10 @@
         "en": "Last Value"
       },
       "writable": true,
-      "schema": "boolean"
+      "schema": "boolean",
+      "description": {
+        "en": "Represents the last recorded state of a binary actuator, essential for tracking the operational status and control of devices."
+      }
     },
     {
       "@type": "Telemetry",

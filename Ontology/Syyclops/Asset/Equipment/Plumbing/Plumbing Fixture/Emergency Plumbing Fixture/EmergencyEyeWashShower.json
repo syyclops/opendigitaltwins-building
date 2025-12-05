@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Emergency Eye Wash / Shower"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EmergencyEyeWashStation;1",
     "dtmi:com:syyclops:EmergencyShower;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for an emergency eyewash shower fixture designed for immediate eye cleansing."
+  }
 }

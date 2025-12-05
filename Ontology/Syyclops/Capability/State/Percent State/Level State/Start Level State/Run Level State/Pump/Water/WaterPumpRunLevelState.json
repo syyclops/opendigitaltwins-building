@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Water Pump Run Level State"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PumpRunLevelState;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents the run level state of a water pump, detailing the operational status in terms of percentage."
+  }
 }

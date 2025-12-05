@@ -17,10 +17,16 @@
       "writable": true,
       "schema": "string",
       "comment": "A | 36-18",
-      "@id": "dtmi:com:syyclops:airport:AirfieldPavementMarking:message;1"
+      "@id": "dtmi:com:syyclops:airport:AirfieldPavementMarking:message;1",
+      "description": {
+        "en": "message is a Property in the Airfield Pavement Marking interface that conveys designated messages related to pavement markings."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "AirfieldPavementMarking is an Interface identifying the specifications and properties of pavement markings on airfields."
+  }
 }

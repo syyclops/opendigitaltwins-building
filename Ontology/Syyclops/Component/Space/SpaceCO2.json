@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "partsPerMillion",
-      "@id": "dtmi:com:syyclops:SpaceCO2:CO2Sensor;1"
+      "@id": "dtmi:com:syyclops:SpaceCO2:CO2Sensor;1",
+      "description": {
+        "en": "The CO2Sensor property represents the current concentration of carbon dioxide in the designated space."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "writable": true,
       "schema": "double",
       "unit": "partsPerMillion",
-      "@id": "dtmi:com:syyclops:SpaceCO2:CO2Setpoint;1"
+      "@id": "dtmi:com:syyclops:SpaceCO2:CO2Setpoint;1",
+      "description": {
+        "en": "The CO2Setpoint property defines the desired target level of carbon dioxide concentration in the space."
+      }
     },
     {
       "@type": [
@@ -48,11 +54,17 @@
       "writable": true,
       "schema": "double",
       "unit": "partsPerMillion",
-      "@id": "dtmi:com:syyclops:SpaceCO2:CO2Delta;1"
+      "@id": "dtmi:com:syyclops:SpaceCO2:CO2Delta;1",
+      "description": {
+        "en": "The CO2Delta property indicates the difference between the current CO2 level and the setpoint."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for tracking CO2 metrics related to the space."
+  }
 }

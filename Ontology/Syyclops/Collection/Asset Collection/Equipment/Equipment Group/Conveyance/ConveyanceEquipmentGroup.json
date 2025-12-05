@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Conveyance Equipment Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EquipmentGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface specifying a group of equipment designed for conveyance operations within asset collections."
+  }
 }

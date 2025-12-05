@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Adapter"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingAdapter interface allows connection between mismatched pipe diameters or types."
+  }
 }

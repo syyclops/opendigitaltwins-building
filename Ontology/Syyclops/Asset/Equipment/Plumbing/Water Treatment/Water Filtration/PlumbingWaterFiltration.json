@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:type;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:type;1",
+      "description": {
+        "en": "Property that indicates the type of filtration system used in Plumbing Water Filtration."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:flowCapacity;1",
+      "description": {
+        "en": "Property representing the maximum flow capacity of a Plumbing Water Filtration system."
+      }
     },
     {
       "@type": [
@@ -46,7 +52,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:flowCapacityUnit;1",
+      "description": {
+        "en": "Property indicating the unit of measurement for flow capacity in Plumbing Water Filtration systems."
+      }
     },
     {
       "@type": [
@@ -60,7 +69,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litre",
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:tankCapacity;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:tankCapacity;1",
+      "description": {
+        "en": "Property that specifies the tank capacity for water storage in Plumbing Water Filtration systems."
+      }
     },
     {
       "@type": [
@@ -76,7 +88,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:tankCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:tankCapacityUnit;1",
+      "description": {
+        "en": "Property representing the unit of measurement for tank capacity in Plumbing Water Filtration systems."
+      }
     },
     {
       "@type": [
@@ -107,7 +122,10 @@
       "schema": "integer",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:workingPressure;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:workingPressure;1",
+      "description": {
+        "en": "Property indicating the working pressure for Plumbing Water Filtration systems."
+      }
     },
     {
       "@type": [
@@ -123,7 +141,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:PlumbingWaterFiltration:workingPressureUnit;1",
+      "description": {
+        "en": "Property representing the unit of measurement for working pressure in Plumbing Water Filtration systems."
+      }
     }
   ],
   "@context": [
@@ -131,5 +152,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for Plumbing Water Filtration systems, designed to remove impurities from water."
+  }
 }

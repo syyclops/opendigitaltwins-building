@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:WaterSoftener:type;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:type;1",
+      "description": {
+        "en": "Property that indicates the type of technology employed in a Water Softener system."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:WaterSoftener:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:flowCapacity;1",
+      "description": {
+        "en": "Property representing the flow capacity of the Water Softener system."
+      }
     },
     {
       "@type": [
@@ -46,7 +52,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterSoftener:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:flowCapacityUnit;1",
+      "description": {
+        "en": "Property indicating the unit of measurement for flow capacity in Water Softener systems."
+      }
     },
     {
       "@type": [
@@ -60,7 +69,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litre",
-      "@id": "dtmi:com:syyclops:WaterSoftener:tankCapacity;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:tankCapacity;1",
+      "description": {
+        "en": "Property that specifies the tank capacity for salt or brine storage in Water Softener systems."
+      }
     },
     {
       "@type": [
@@ -76,7 +88,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterSoftener:tankCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:tankCapacityUnit;1",
+      "description": {
+        "en": "Property representing the unit of measurement for tank capacity in Water Softener systems."
+      }
     },
     {
       "@type": [
@@ -90,7 +105,10 @@
       "schema": "integer",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterSoftener:workingPressure;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:workingPressure;1",
+      "description": {
+        "en": "The working pressure property defines the operational pressure range of the water softener unit."
+      }
     },
     {
       "@type": [
@@ -106,7 +124,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterSoftener:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:WaterSoftener:workingPressureUnit;1",
+      "description": {
+        "en": "The working pressure unit property specifies the measurement unit for the working pressure of the water softener."
+      }
     }
   ],
   "@context": [
@@ -114,5 +135,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for Water Softener systems used in plumbing to reduce water hardness."
+  }
 }

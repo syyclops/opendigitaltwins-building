@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Chevron Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:RunwayPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies chevron markings at runway thresholds to assist in visual cueing for takeoff and landing."
+  }
 }

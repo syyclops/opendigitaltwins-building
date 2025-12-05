@@ -5,10 +5,11 @@
     "en": "Drain Cleanout"
   },
   "extends": "dtmi:com:syyclops:PipeFittingPlug;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The DrainCleanout interface models an access fitting for cleaning and maintenance of drainage pipes."
+  }
 }

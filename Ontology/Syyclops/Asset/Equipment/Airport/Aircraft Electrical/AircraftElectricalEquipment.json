@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Aircraft Electrical Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirportEquipment;1",
     "dtmi:com:syyclops:ElectricalEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Aircraft Electrical Equipment interface includes equipment used for electrical functions in aircraft systems."
+  }
 }

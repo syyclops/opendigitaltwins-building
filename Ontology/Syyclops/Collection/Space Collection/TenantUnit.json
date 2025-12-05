@@ -12,7 +12,10 @@
       "@type": "Relationship",
       "name": "hasLease",
       "target": "dtmi:com:syyclops:Lease;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:hasLease;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:hasLease;1",
+      "description": {
+        "en": "Describes a relationship indicating that a tenant unit is associated with a specific lease."
+      }
     },
     {
       "@type": "Component",
@@ -21,7 +24,10 @@
       },
       "name": "address",
       "schema": "dtmi:com:syyclops:Address;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:address;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:address;1",
+      "description": {
+        "en": "Defines the address component for a tenant unit, specifying its physical location."
+      }
     },
     {
       "@type": "Component",
@@ -30,7 +36,10 @@
       },
       "name": "electricityPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:electricityPriceRate;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:electricityPriceRate;1",
+      "description": {
+        "en": "Specifies the electricity price rate applicable to a tenant unit."
+      }
     },
     {
       "@type": "Component",
@@ -39,7 +48,10 @@
       },
       "name": "electricityEmissionFactor",
       "schema": "dtmi:com:syyclops:UtilityEmissionFactor;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:electricityEmissionFactor;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:electricityEmissionFactor;1",
+      "description": {
+        "en": "Tracks the electricity emission factor for a tenant unit, impacting its environmental footprint."
+      }
     },
     {
       "@type": "Component",
@@ -48,7 +60,10 @@
       },
       "name": "naturalGasPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:naturalGasPriceRate;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:naturalGasPriceRate;1",
+      "description": {
+        "en": "Indicates the price rate for natural gas consumption specific to a tenant unit."
+      }
     },
     {
       "@type": "Component",
@@ -57,7 +72,10 @@
       },
       "name": "chilledWaterPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:chilledWaterPriceRate;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:chilledWaterPriceRate;1",
+      "description": {
+        "en": "Specifies the price rate for chilled water services utilized by a tenant unit."
+      }
     },
     {
       "@type": "Component",
@@ -66,7 +84,10 @@
       },
       "name": "steamPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:steamPriceRate;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:steamPriceRate;1",
+      "description": {
+        "en": "Details the steam price rate that is charged to the tenant unit."
+      }
     },
     {
       "@type": "Component",
@@ -75,7 +96,10 @@
       },
       "name": "domesticWaterPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:domesticWaterPriceRate;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:domesticWaterPriceRate;1",
+      "description": {
+        "en": "Defines the domestic water price rate applicable to a tenant unit."
+      }
     },
     {
       "@type": "Component",
@@ -84,7 +108,10 @@
         "en": "Area"
       },
       "schema": "dtmi:com:syyclops:SpaceArea;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:area;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:area;1",
+      "description": {
+        "en": "Represents the physical area of a tenant unit within the space collection."
+      }
     },
     {
       "@type": "Component",
@@ -93,7 +120,10 @@
         "en": "Capacity"
       },
       "schema": "dtmi:com:syyclops:SpaceCapacity;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:capacity;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:capacity;1",
+      "description": {
+        "en": "Indicates the capacity limit of the tenant unit in terms of occupancy or utilization."
+      }
     },
     {
       "@type": "Component",
@@ -102,7 +132,10 @@
         "en": "Temperature"
       },
       "schema": "dtmi:com:syyclops:SpaceTemperature;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:temperature;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:temperature;1",
+      "description": {
+        "en": "Monitors the ambient temperature of the tenant unit as part of the space collection."
+      }
     },
     {
       "@type": "Component",
@@ -111,7 +144,10 @@
         "en": "Humidity Average"
       },
       "schema": "dtmi:com:syyclops:SpaceHumidity;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:humidity;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:humidity;1",
+      "description": {
+        "en": "Measures the relative humidity level within the tenant unit."
+      }
     },
     {
       "@type": "Component",
@@ -120,7 +156,10 @@
         "en": "CO2"
       },
       "schema": "dtmi:com:syyclops:SpaceCO2;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:CO2;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:CO2;1",
+      "description": {
+        "en": "Tracks the concentration of CO2 within the tenant unit's environment."
+      }
     },
     {
       "@type": "Component",
@@ -129,10 +168,16 @@
         "en": "Occupancy"
       },
       "schema": "dtmi:com:syyclops:SpaceOccupancy;1",
-      "@id": "dtmi:com:syyclops:TenantUnit:occupancy;1"
+      "@id": "dtmi:com:syyclops:TenantUnit:occupancy;1",
+      "description": {
+        "en": "Denotes the current occupancy status of the tenant unit."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for a tenant unit within a space collection."
+  }
 }

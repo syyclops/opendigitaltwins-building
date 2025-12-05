@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Disable Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EnableDisableSetpoint;1",
     "dtmi:com:syyclops:OffSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for controlling the enable/disable state in binary parameters."
+  }
 }

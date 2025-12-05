@@ -16,10 +16,16 @@
       "name": "condensate",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SteamDuctHeater:condensate;1"
+      "@id": "dtmi:com:syyclops:SteamDuctHeater:condensate;1",
+      "description": {
+        "en": "Specifies the condensate property of steam duct heaters, indicating the water produced during heating."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines an interface for steam duct heaters used in HVAC systems to provide air heating via steam."
+  }
 }

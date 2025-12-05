@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Plumbing Equipment Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EquipmentGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Outlines the interface for various plumbing equipment within a unified group."
+  }
 }

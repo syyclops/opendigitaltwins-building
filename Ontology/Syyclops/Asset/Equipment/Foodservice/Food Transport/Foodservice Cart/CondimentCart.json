@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Condiment Cart"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodserviceCart;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a condiment cart, enabling easy access and organization of condiments in service areas."
+  }
 }

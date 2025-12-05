@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Medium-voltage Switchgear"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Switchgear;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for medium voltage switchgear, ensuring safe electrical distribution and fault protection."
+  }
 }

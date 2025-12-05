@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Emergency Preparedness Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SafetyEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining equipment designed to enhance preparedness for emergencies in various facilities."
+  }
 }

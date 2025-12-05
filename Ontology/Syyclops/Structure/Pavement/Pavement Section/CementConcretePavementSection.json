@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Cement Concrete Pavement Section"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PavementSection;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface detailing specifications for cement concrete pavement sections utilized in airfield construction."
+  }
 }

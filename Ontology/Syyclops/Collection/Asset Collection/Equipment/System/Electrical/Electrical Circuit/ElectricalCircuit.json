@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "volt",
-      "@id": "dtmi:com:syyclops:ElectricalCircuit:voltage;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:voltage;1",
+      "description": {
+        "en": "Property representing the voltage level within an Electrical Circuit interface for performance and safety monitoring."
+      }
     },
     {
       "@type": "Property",
@@ -54,7 +57,10 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalCircuit:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalCircuit:poles;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:poles;1",
+      "description": {
+        "en": "Property indicating the number of poles in an Electrical Circuit, affecting its configuration and operational capabilities."
+      }
     },
     {
       "@type": [
@@ -68,7 +74,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "ampere",
-      "@id": "dtmi:com:syyclops:ElectricalCircuit:CBRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:CBRating;1",
+      "description": {
+        "en": "Property defining the Circuit Breaker Rating for an Electrical Circuit, ensuring safe operation under given loads."
+      }
     },
     {
       "@type": "Property",
@@ -79,7 +88,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Qty-Size Phase, Qty-Size Neutral, Qty-Size Ground",
-      "@id": "dtmi:com:syyclops:ElectricalCircuit:wireSize;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:wireSize;1",
+      "description": {
+        "en": "Property representing the wire size in an Electrical Circuit, essential for capacity and safety management."
+      }
     },
     {
       "@type": "Property",
@@ -89,7 +101,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:ElectricalCircuit:wireType;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:wireType;1",
+      "description": {
+        "en": "Property detailing the wire type in an Electrical Circuit, influencing performance characteristics and application."
+      }
     },
     {
       "@type": "Property",
@@ -157,11 +172,17 @@
         },
         "@id": "dtmi:com:syyclops:ElectricalCircuit:MS2;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalCircuit:loadClassification;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:loadClassification;1",
+      "description": {
+        "en": "Property indicating the load classification within an Electrical Circuit, guiding design and operational use."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing an Electrical Circuit, detailing components for functional electrical flow within systems."
+  }
 }

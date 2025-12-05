@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Domestic Water System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingWaterSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface covering all aspects of domestic water supply systems within building plumbing."
+  }
 }

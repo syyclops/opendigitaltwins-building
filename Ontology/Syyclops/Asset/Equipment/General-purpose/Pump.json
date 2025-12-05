@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:Pump:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:type;1"
+      "@id": "dtmi:com:syyclops:Pump:type;1",
+      "description": {
+        "en": "Denotes the type property of the Pump interface within the general-purpose equipment asset."
+      }
     },
     {
       "@type": "Property",
@@ -42,7 +45,10 @@
       "name": "pumpingMedia",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:pumpingMedia;1"
+      "@id": "dtmi:com:syyclops:Pump:pumpingMedia;1",
+      "description": {
+        "en": "Indicates the media being pumped by the Pump interface in general-purpose equipment."
+      }
     },
     {
       "@type": [
@@ -56,7 +62,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:motorPower;1"
+      "@id": "dtmi:com:syyclops:Pump:motorPower;1",
+      "description": {
+        "en": "Specifies the motor power property of the Pump interface within the general-purpose equipment."
+      }
     },
     {
       "@type": [
@@ -72,7 +81,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:motorPowerUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:motorPowerUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the motor power property in the Pump interface."
+      }
     },
     {
       "@type": [
@@ -86,7 +98,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:brakeHorsepower;1"
+      "@id": "dtmi:com:syyclops:Pump:brakeHorsepower;1",
+      "description": {
+        "en": "Represents the brake horsepower property of the Pump interface in general-purpose equipment."
+      }
     },
     {
       "@type": [
@@ -102,7 +117,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:brakeHorsepowerUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:brakeHorsepowerUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the brake horsepower in the Pump interface."
+      }
     },
     {
       "@type": [
@@ -116,7 +134,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:pressureCapacity;1"
+      "@id": "dtmi:com:syyclops:Pump:pressureCapacity;1",
+      "description": {
+        "en": "Describes the pressure capacity property of the Pump interface for general-purpose equipment."
+      }
     },
     {
       "@type": [
@@ -132,7 +153,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:pressureCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:pressureCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit for the pressure capacity property in the Pump interface."
+      }
     },
     {
       "@type": [
@@ -165,7 +189,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:headCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:headCapacityUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for head capacity in the Pump interface."
+      }
     },
     {
       "@type": [
@@ -179,7 +206,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:Pump:flowCapacity;1",
+      "description": {
+        "en": "Indicates the flow capacity property of the Pump interface in general-purpose equipment."
+      }
     },
     {
       "@type": [
@@ -195,7 +225,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:flowCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for flow capacity in the Pump interface."
+      }
     },
     {
       "@type": [
@@ -209,7 +242,10 @@
       "schema": "double",
       "unit": "hertz",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:maxVFDFrequency;1"
+      "@id": "dtmi:com:syyclops:Pump:maxVFDFrequency;1",
+      "description": {
+        "en": "Represents the maximum variable frequency drive frequency for the Pump interface."
+      }
     },
     {
       "@type": [
@@ -225,7 +261,10 @@
       "overrides": "unit",
       "schema": "FrequencyUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:maxVFDFrequencyUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:maxVFDFrequencyUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the maximum variable frequency drive frequency in the Pump interface."
+      }
     },
     {
       "@type": [
@@ -239,7 +278,10 @@
       "schema": "double",
       "unit": "hertz",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:designVFDFrequency;1"
+      "@id": "dtmi:com:syyclops:Pump:designVFDFrequency;1",
+      "description": {
+        "en": "Specifies the design variable frequency drive frequency for the Pump interface."
+      }
     },
     {
       "@type": [
@@ -255,7 +297,10 @@
       "overrides": "unit",
       "schema": "FrequencyUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Pump:designVFDFrequencyUnit;1"
+      "@id": "dtmi:com:syyclops:Pump:designVFDFrequencyUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the design variable frequency drive frequency in the Pump interface."
+      }
     },
     {
       "@type": "Component",
@@ -264,7 +309,10 @@
       },
       "name": "pipeOutlet",
       "schema": "dtmi:com:syyclops:PipeConnection;1",
-      "@id": "dtmi:com:syyclops:Pump:pipeOutlet;1"
+      "@id": "dtmi:com:syyclops:Pump:pipeOutlet;1",
+      "description": {
+        "en": "Denotes the pipe outlet component of the Pump interface in general-purpose equipment."
+      }
     },
     {
       "@type": "Component",
@@ -273,7 +321,10 @@
       },
       "name": "pipeInlet",
       "schema": "dtmi:com:syyclops:PipeConnection;1",
-      "@id": "dtmi:com:syyclops:Pump:pipeInlet;1"
+      "@id": "dtmi:com:syyclops:Pump:pipeInlet;1",
+      "description": {
+        "en": "Specifies the pipe inlet component of the Pump interface within general-purpose equipment."
+      }
     }
   ],
   "@context": [
@@ -281,5 +332,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the Pump interface for general-purpose equipment assets."
+  }
 }

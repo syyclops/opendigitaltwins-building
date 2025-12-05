@@ -15,7 +15,10 @@
         "en": "operated by"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Portfolio:operatedBy;1"
+      "@id": "dtmi:com:syyclops:Portfolio:operatedBy;1",
+      "description": {
+        "en": "Defines a relationship indicating the agent responsible for operating the portfolio."
+      }
     },
     {
       "@type": "Relationship",
@@ -24,10 +27,16 @@
         "en": "owned by"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Portfolio:ownedBy;1"
+      "@id": "dtmi:com:syyclops:Portfolio:ownedBy;1",
+      "description": {
+        "en": "Establishes a relationship denoting ownership of the portfolio by a specific agent."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for a portfolio, encompassing multiple related entities or components within an organizational structure."
+  }
 }

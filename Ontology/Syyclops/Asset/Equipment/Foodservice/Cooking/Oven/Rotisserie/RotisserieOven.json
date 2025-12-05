@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Rotisserie Oven"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Oven;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface specifically for rotisserie ovens, offering features for roasting and temperature management."
+  }
 }

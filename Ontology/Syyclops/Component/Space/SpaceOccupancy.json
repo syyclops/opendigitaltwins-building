@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:isOccupied;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:isOccupied;1",
+      "description": {
+        "en": "The isOccupied property indicates whether the space is currently occupied."
+      }
     },
     {
       "@type": "Property",
@@ -26,7 +29,10 @@
       },
       "writable": true,
       "schema": "double",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:peopleCount;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:peopleCount;1",
+      "description": {
+        "en": "The peopleCount property captures the total number of individuals currently in the space."
+      }
     },
     {
       "@type": "Property",
@@ -36,7 +42,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:hasInferredOccupancy;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:hasInferredOccupancy;1",
+      "description": {
+        "en": "The hasInferredOccupancy property reflects whether occupancy is inferred from various sensors."
+      }
     },
     {
       "@type": [
@@ -51,7 +60,10 @@
       "schema": "double",
       "unit": "second",
       "comment": "Average time spent in the space by all individuals in the space",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:dwellTimeAverage;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:dwellTimeAverage;1",
+      "description": {
+        "en": "The dwellTimeAverage property calculates the average time occupants spend in the space."
+      }
     },
     {
       "@type": [
@@ -66,7 +78,10 @@
       "schema": "double",
       "unit": "second",
       "comment": "Wait time to enter the space",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:entranceDwellTime;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:entranceDwellTime;1",
+      "description": {
+        "en": "The entranceDwellTime property measures the duration individuals spend entering the space."
+      }
     },
     {
       "@type": [
@@ -81,7 +96,10 @@
       "schema": "double",
       "unit": "second",
       "comment": "Wait time to exit the space",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:exitDwellTime;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:exitDwellTime;1",
+      "description": {
+        "en": "The exitDwellTime property assesses how long individuals take to exit the space."
+      }
     },
     {
       "@type": "Property",
@@ -92,7 +110,10 @@
       "writable": true,
       "schema": "double",
       "comment": "e.g. people per second",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:entranceRate;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:entranceRate;1",
+      "description": {
+        "en": "The entranceRate property tracks the frequency of individuals entering the space over time."
+      }
     },
     {
       "@type": "Property",
@@ -103,11 +124,17 @@
       "writable": true,
       "schema": "double",
       "comment": "e.g. people per second",
-      "@id": "dtmi:com:syyclops:SpaceOccupancy:exitRate;1"
+      "@id": "dtmi:com:syyclops:SpaceOccupancy:exitRate;1",
+      "description": {
+        "en": "The exitRate property measures the frequency of individuals leaving the space over time."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "The SpaceOccupancy interface covers properties related to the occupancy status of a space."
+  }
 }

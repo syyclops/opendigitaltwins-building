@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Check Valve (Plumbing)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingValve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface identifies the check valve that allows water flow in one direction."
+  }
 }

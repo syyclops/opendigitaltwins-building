@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Computer Room Air Conditioning (CRAC) Unit"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AirHandlingUnit;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface specifies the functionalities of a dedicated air conditioning unit designed for maintaining optimal conditions in computer rooms."
+  }
 }

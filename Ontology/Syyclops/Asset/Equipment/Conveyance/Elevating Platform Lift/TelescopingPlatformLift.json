@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Telescoping Platform Lift"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElevatingPlatformLift;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for telescoping platform lifts designed for reaching high or distant areas during airport services."
+  }
 }

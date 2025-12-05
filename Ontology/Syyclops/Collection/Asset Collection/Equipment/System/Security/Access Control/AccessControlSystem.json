@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Access Control System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SecuritySystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining the access control mechanisms used to secure premises and manage entries."
+  }
 }

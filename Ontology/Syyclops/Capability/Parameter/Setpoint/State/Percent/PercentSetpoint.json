@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "comment": "%",
-      "@id": "dtmi:com:syyclops:PercentSetpoint:lastValue;1"
+      "@id": "dtmi:com:syyclops:PercentSetpoint:lastValue;1",
+      "description": {
+        "en": "Represents the last recorded value of a percentage-type setpoint, essential for monitoring states."
+      }
     }
   ],
   "@context": [

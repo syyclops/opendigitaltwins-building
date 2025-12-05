@@ -4,12 +4,14 @@
   "displayName": {
     "en": "WiFi Network System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ICTSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface governs an ICT Wi-Fi network system, enabling wireless connectivity for data and control."
+  }
 }

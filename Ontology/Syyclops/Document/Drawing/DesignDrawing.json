@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Design Drawing"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Drawing;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The DesignDrawing interface represents drawings used in the design phase of a project."
+  }
 }

@@ -16,7 +16,10 @@
       "name": "wifiSignalStrength",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SensorEquipment:wifiSignalStrength;1"
+      "@id": "dtmi:com:syyclops:SensorEquipment:wifiSignalStrength;1",
+      "description": {
+        "en": "Property capturing the WiFi signal strength, indicating connectivity quality for the Sensor Equipment."
+      }
     },
     {
       "@type": "Property",
@@ -26,11 +29,17 @@
       "name": "batteryPercentage",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SensorEquipment:batteryPercentage;1"
+      "@id": "dtmi:com:syyclops:SensorEquipment:batteryPercentage;1",
+      "description": {
+        "en": "Property representing the battery percentage of the Sensor Equipment, vital for power management."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface for general Sensor Equipment, encapsulating functionalities for various sensor types."
+  }
 }

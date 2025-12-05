@@ -18,7 +18,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACRectangularDuct:width;1"
+      "@id": "dtmi:com:syyclops:HVACRectangularDuct:width;1",
+      "description": {
+        "en": "A property that indicates the width of an HVAC rectangular duct."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACRectangularDuct:widthUnit;1"
+      "@id": "dtmi:com:syyclops:HVACRectangularDuct:widthUnit;1",
+      "description": {
+        "en": "A property that defines the unit of measurement for the width of the HVAC rectangular duct."
+      }
     },
     {
       "@type": [
@@ -48,7 +54,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACRectangularDuct:height;1"
+      "@id": "dtmi:com:syyclops:HVACRectangularDuct:height;1",
+      "description": {
+        "en": "A property corresponding to the height measurement of an HVAC rectangular duct."
+      }
     },
     {
       "@type": [
@@ -64,7 +73,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACRectangularDuct:heightUnit;1"
+      "@id": "dtmi:com:syyclops:HVACRectangularDuct:heightUnit;1",
+      "description": {
+        "en": "A property that specifies the unit of measurement for the height of the HVAC rectangular duct."
+      }
     }
   ],
   "@context": [
@@ -72,5 +84,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface that encompasses properties and functionalities of HVAC rectangular duct systems."
+  }
 }

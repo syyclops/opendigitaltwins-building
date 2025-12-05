@@ -4,10 +4,15 @@
   "displayName": {
     "en": "Water Leak Event"
   },
-  "extends": ["dtmi:com:syyclops:Event;1"],
+  "extends": [
+    "dtmi:com:syyclops:Event;1"
+  ],
   "contents": [
     {
-      "@type": ["Property", "VolumeFlowRate"],
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
       "displayName": {
         "en": "Leak Rate"
       },
@@ -15,10 +20,17 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterLeakEvent:leakRate;1"
+      "@id": "dtmi:com:syyclops:WaterLeakEvent:leakRate;1",
+      "description": {
+        "en": "Represents the rate of leakage detected in a Water Leak Event."
+      }
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "displayName": {
         "en": "Leak Rate Unit"
       },
@@ -27,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterLeakEvent:leakRateUnit;1"
+      "@id": "dtmi:com:syyclops:WaterLeakEvent:leakRateUnit;1",
+      "description": {
+        "en": "Indicates the units of measurement for the leak rate in a Water Leak Event."
+      }
     }
   ],
   "@context": [
@@ -35,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Designates an interface for events triggered by water leaks."
+  }
 }

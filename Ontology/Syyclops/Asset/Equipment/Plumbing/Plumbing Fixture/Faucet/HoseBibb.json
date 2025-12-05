@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Hose Bibb"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Faucet;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for a hose bibb, a plumbing fixture for connecting hoses to water supply."
+  }
 }

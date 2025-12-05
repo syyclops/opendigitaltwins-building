@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "volt",
-      "@id": "dtmi:com:syyclops:ElectricalSwitch:inputVoltage;1"
+      "@id": "dtmi:com:syyclops:ElectricalSwitch:inputVoltage;1",
+      "description": {
+        "en": "This property specifies the input voltage for the Electrical Switch, ensuring it operates within the necessary electrical parameters."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "ampere",
-      "@id": "dtmi:com:syyclops:ElectricalSwitch:currentRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalSwitch:currentRating;1",
+      "description": {
+        "en": "Indicates the maximum current that the electrical switch can safely handle, critical for operational integrity."
+      }
     },
     {
       "@type": "Property",
@@ -68,7 +74,10 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalSwitch:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalSwitch:poles;1"
+      "@id": "dtmi:com:syyclops:ElectricalSwitch:poles;1",
+      "description": {
+        "en": "Specifies the number of poles in the electrical switch, indicating its capability to control multiple circuits."
+      }
     },
     {
       "@type": "Property",
@@ -96,11 +105,17 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalSwitch:ES2;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalSwitch:throws;1"
+      "@id": "dtmi:com:syyclops:ElectricalSwitch:throws;1",
+      "description": {
+        "en": "Defines the action that the electrical switch performs, indicating its operational capability."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines the Electrical Switch, crucial for controlling the flow of electricity in a circuit."
+  }
 }

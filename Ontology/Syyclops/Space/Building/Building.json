@@ -18,7 +18,10 @@
       },
       "name": "address",
       "schema": "dtmi:com:syyclops:Address;1",
-      "@id": "dtmi:com:syyclops:Building:address;1"
+      "@id": "dtmi:com:syyclops:Building:address;1",
+      "description": {
+        "en": "The address component provides the physical location details of the building."
+      }
     },
     {
       "@type": "Component",
@@ -27,7 +30,10 @@
       },
       "name": "electricityPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Building:electricityPriceRate;1"
+      "@id": "dtmi:com:syyclops:Building:electricityPriceRate;1",
+      "description": {
+        "en": "The electricityPriceRate component specifies the cost of electricity consumption within the building."
+      }
     },
     {
       "@type": "Component",
@@ -36,7 +42,10 @@
       },
       "name": "electricityEmissionFactor",
       "schema": "dtmi:com:syyclops:UtilityEmissionFactor;1",
-      "@id": "dtmi:com:syyclops:Building:electricityEmissionFactor;1"
+      "@id": "dtmi:com:syyclops:Building:electricityEmissionFactor;1",
+      "description": {
+        "en": "The electricityEmissionFactor component quantifies the carbon emissions associated with electricity consumption in the building."
+      }
     },
     {
       "@type": "Component",
@@ -45,7 +54,10 @@
       },
       "name": "naturalGasPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Building:naturalGasPriceRate;1"
+      "@id": "dtmi:com:syyclops:Building:naturalGasPriceRate;1",
+      "description": {
+        "en": "The naturalGasPriceRate component details the pricing structure for natural gas utilized in the building."
+      }
     },
     {
       "@type": "Component",
@@ -54,7 +66,10 @@
       },
       "name": "chilledWaterPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Building:chilledWaterPriceRate;1"
+      "@id": "dtmi:com:syyclops:Building:chilledWaterPriceRate;1",
+      "description": {
+        "en": "The chilledWaterPriceRate component outlines the cost per unit of chilled water used in the building's cooling system."
+      }
     },
     {
       "@type": "Component",
@@ -63,7 +78,10 @@
       },
       "name": "steamPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Building:steamPriceRate;1"
+      "@id": "dtmi:com:syyclops:Building:steamPriceRate;1",
+      "description": {
+        "en": "The steamPriceRate component defines the pricing for steam supplied to the building."
+      }
     },
     {
       "@type": "Component",
@@ -72,7 +90,10 @@
       },
       "name": "domesticWaterPriceRate",
       "schema": "dtmi:com:syyclops:UtilityRate;1",
-      "@id": "dtmi:com:syyclops:Building:domesticWaterPriceRate;1"
+      "@id": "dtmi:com:syyclops:Building:domesticWaterPriceRate;1",
+      "description": {
+        "en": "The domesticWaterPriceRate component indicates the pricing for potable water utilized in the building."
+      }
     },
     {
       "@type": "Property",
@@ -82,7 +103,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Building:type;1"
+      "@id": "dtmi:com:syyclops:Building:type;1",
+      "description": {
+        "en": "The type property categorizes the building based on its primary function or usage."
+      }
     },
     {
       "@type": "Property",
@@ -117,7 +141,10 @@
         "en": "Time Zone"
       },
       "schema": "dtmi:com:syyclops:TimeZone;1",
-      "@id": "dtmi:com:syyclops:Building:timeZone;1"
+      "@id": "dtmi:com:syyclops:Building:timeZone;1",
+      "description": {
+        "en": "The timeZone component specifies the time zone applicable to the building's location."
+      }
     },
     {
       "@type": "Property",
@@ -164,7 +191,10 @@
           "en": "Building Coordinates"
         }
       },
-      "@id": "dtmi:com:syyclops:Building:coordinates;1"
+      "@id": "dtmi:com:syyclops:Building:coordinates;1",
+      "description": {
+        "en": "The coordinates property identifies the geographical positioning of the building."
+      }
     },
     {
       "@type": [
@@ -178,7 +208,10 @@
       "writable": true,
       "schema": "double",
       "unit": "metre",
-      "@id": "dtmi:com:syyclops:Building:elevation;1"
+      "@id": "dtmi:com:syyclops:Building:elevation;1",
+      "description": {
+        "en": "The elevation property represents the height of the building relative to sea level."
+      }
     },
     {
       "@type": [
@@ -194,7 +227,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Building:elevationUnit;1"
+      "@id": "dtmi:com:syyclops:Building:elevationUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement used for the elevation of the building."
+      }
     },
     {
       "@type": [
@@ -208,7 +244,10 @@
       "writable": true,
       "schema": "double",
       "unit": "metre",
-      "@id": "dtmi:com:syyclops:Building:height;1"
+      "@id": "dtmi:com:syyclops:Building:height;1",
+      "description": {
+        "en": "Specifies the total height of the building measured from the base to the apex."
+      }
     },
     {
       "@type": [
@@ -224,7 +263,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Building:heightUnit;1"
+      "@id": "dtmi:com:syyclops:Building:heightUnit;1",
+      "description": {
+        "en": "Represents the unit of measurement employed for the building's height."
+      }
     },
     {
       "@type": "Property",
@@ -234,7 +276,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:Building:constructionStartDate;1"
+      "@id": "dtmi:com:syyclops:Building:constructionStartDate;1",
+      "description": {
+        "en": "Records the date when the construction of the building commenced."
+      }
     },
     {
       "@type": "Property",
@@ -244,7 +289,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:Building:constructionCompletionDate;1"
+      "@id": "dtmi:com:syyclops:Building:constructionCompletionDate;1",
+      "description": {
+        "en": "Marks the date when the construction of the building was completed."
+      }
     },
     {
       "@type": "Property",
@@ -254,7 +302,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:Building:dateOpened;1"
+      "@id": "dtmi:com:syyclops:Building:dateOpened;1",
+      "description": {
+        "en": "Denotes the official opening date of the building for public use."
+      }
     },
     {
       "@type": "Property",
@@ -279,82 +330,130 @@
         {
           "enumValue": "Education",
           "name": "Education",
-          "@id": "dtmi:com:syyclops:Building:Education;1"
+          "@id": "dtmi:com:syyclops:Building:Education;1",
+          "description": {
+            "en": "Represents the classification of the building as an educational facility."
+          }
         },
         {
           "enumValue": "Food Sales",
           "name": "FoodSales",
-          "@id": "dtmi:com:syyclops:Building:FoodSales;1"
+          "@id": "dtmi:com:syyclops:Building:FoodSales;1",
+          "description": {
+            "en": "Characterizes the building as a location for food sales."
+          }
         },
         {
           "enumValue": "Food Service",
           "name": "FoodService",
-          "@id": "dtmi:com:syyclops:Building:FoodService;1"
+          "@id": "dtmi:com:syyclops:Building:FoodService;1",
+          "description": {
+            "en": "Identifies the building as a provider of food services."
+          }
         },
         {
           "enumValue": "Healthcare - Inpatient",
           "name": "HealthcareInpatient",
-          "@id": "dtmi:com:syyclops:Building:HealthcareInpatient;1"
+          "@id": "dtmi:com:syyclops:Building:HealthcareInpatient;1",
+          "description": {
+            "en": "Classifies the building as a facility for inpatient healthcare services."
+          }
         },
         {
           "enumValue": "Healthcare - Outpatient",
           "name": "HealthcareOutpatient",
-          "@id": "dtmi:com:syyclops:Building:HealthcareOutpatient;1"
+          "@id": "dtmi:com:syyclops:Building:HealthcareOutpatient;1",
+          "description": {
+            "en": "Identifies the building as a facility for outpatient healthcare services."
+          }
         },
         {
           "enumValue": "Lodging",
           "name": "Lodging",
-          "@id": "dtmi:com:syyclops:Building:Lodging;1"
+          "@id": "dtmi:com:syyclops:Building:Lodging;1",
+          "description": {
+            "en": "Designates the building as a lodging establishment."
+          }
         },
         {
           "enumValue": "Mercantile - Retail other than mall",
           "name": "MercantileRetailOtherThanMall",
-          "@id": "dtmi:com:syyclops:Building:MercantileRetailOtherThanMall;1"
+          "@id": "dtmi:com:syyclops:Building:MercantileRetailOtherThanMall;1",
+          "description": {
+            "en": "Classifies the building as a retail establishment excluding malls."
+          }
         },
         {
           "enumValue": "Mercantile - Enclosed and strip malls",
           "name": "MercantileEnclosed",
-          "@id": "dtmi:com:syyclops:Building:MercantileEnclosed;1"
+          "@id": "dtmi:com:syyclops:Building:MercantileEnclosed;1",
+          "description": {
+            "en": "Identifies the building as an enclosed mercantile facility."
+          }
         },
         {
           "enumValue": "Office",
           "name": "Office",
-          "@id": "dtmi:com:syyclops:Building:Office;1"
+          "@id": "dtmi:com:syyclops:Building:Office;1",
+          "description": {
+            "en": "Denotes the building as an office space."
+          }
         },
         {
           "enumValue": "Public Assembly",
           "name": "PublicAssembly",
-          "@id": "dtmi:com:syyclops:Building:PublicAssembly;1"
+          "@id": "dtmi:com:syyclops:Building:PublicAssembly;1",
+          "description": {
+            "en": "Classifies the building as a venue for public assembly activities."
+          }
         },
         {
           "enumValue": "Public Order and Safety",
           "name": "PublicOrderAndSafety",
-          "@id": "dtmi:com:syyclops:Building:PublicOrderAndSafety;1"
+          "@id": "dtmi:com:syyclops:Building:PublicOrderAndSafety;1",
+          "description": {
+            "en": "Identifies the building as related to public order and safety services."
+          }
         },
         {
           "enumValue": "Religious Worship",
           "name": "ReligiousWorship",
-          "@id": "dtmi:com:syyclops:Building:ReligiousWorship;1"
+          "@id": "dtmi:com:syyclops:Building:ReligiousWorship;1",
+          "description": {
+            "en": "Classifies the building as a place of religious worship."
+          }
         },
         {
           "enumValue": "Service",
           "name": "Service",
-          "@id": "dtmi:com:syyclops:Building:Service;1"
+          "@id": "dtmi:com:syyclops:Building:Service;1",
+          "description": {
+            "en": "Denotes the building as a service-oriented facility."
+          }
         },
         {
           "enumValue": "Warehouse and Storage",
           "name": "WarehouseAndStorage",
-          "@id": "dtmi:com:syyclops:Building:WarehouseAndStorage;1"
+          "@id": "dtmi:com:syyclops:Building:WarehouseAndStorage;1",
+          "description": {
+            "en": "Identifies the building as a warehouse or storage facility."
+          }
         },
         {
           "enumValue": "Other",
           "name": "Other",
-          "@id": "dtmi:com:syyclops:Building:Other;1"
+          "@id": "dtmi:com:syyclops:Building:Other;1",
+          "description": {
+            "en": "Represents a generic building type that does not fall into defined categories."
+          }
         },
         {
           "enumValue": "Vacant",
           "name": "Vacant",
-          "@id": "dtmi:com:syyclops:Building:Vacant;1"
+          "@id": "dtmi:com:syyclops:Building:Vacant;1",
+          "description": {
+            "en": "Indicates a building that is unoccupied and available for use or lease."
+          }
         }
       ],
       "displayName": {
@@ -369,122 +468,194 @@
         {
           "enumValue": "Bank Branch",
           "name": "BankBranch",
-          "@id": "dtmi:com:syyclops:Building:BankBranch;1"
+          "@id": "dtmi:com:syyclops:Building:BankBranch;1",
+          "description": {
+            "en": "Represents a building designated as a location for banking services."
+          }
         },
         {
           "enumValue": "Barracks",
           "name": "Barracks",
-          "@id": "dtmi:com:syyclops:Building:Barracks;1"
+          "@id": "dtmi:com:syyclops:Building:Barracks;1",
+          "description": {
+            "en": "Designates a building used for housing military personnel."
+          }
         },
         {
           "enumValue": "Convenience Store",
           "name": "ConvenienceStore",
-          "@id": "dtmi:com:syyclops:Building:ConvenienceStore;1"
+          "@id": "dtmi:com:syyclops:Building:ConvenienceStore;1",
+          "description": {
+            "en": "Indicates a retail establishment offering a range of everyday items."
+          }
         },
         {
           "enumValue": "Courthouse",
           "name": "Courthouse",
-          "@id": "dtmi:com:syyclops:Building:Courthouse;1"
+          "@id": "dtmi:com:syyclops:Building:Courthouse;1",
+          "description": {
+            "en": "Represents a building where legal cases are adjudicated."
+          }
         },
         {
           "enumValue": "Data Center",
           "name": "DataCenter",
-          "@id": "dtmi:com:syyclops:Building:DataCenter;1"
+          "@id": "dtmi:com:syyclops:Building:DataCenter;1",
+          "description": {
+            "en": "Indicates a facility used to house computer systems and associated components."
+          }
         },
         {
           "enumValue": "Distribution Center",
           "name": "DistributionCenter",
-          "@id": "dtmi:com:syyclops:Building:DistributionCenter;1"
+          "@id": "dtmi:com:syyclops:Building:DistributionCenter;1",
+          "description": {
+            "en": "Represents a building used for the storage and distribution of goods."
+          }
         },
         {
           "enumValue": "Financial Office",
           "name": "FinancialOffice",
-          "@id": "dtmi:com:syyclops:Building:FinancialOffice;1"
+          "@id": "dtmi:com:syyclops:Building:FinancialOffice;1",
+          "description": {
+            "en": "Designates a building that provides financial services and operations."
+          }
         },
         {
           "enumValue": "Hospital (General Medical & Surgical)",
           "name": "Hospital",
-          "@id": "dtmi:com:syyclops:Building:Hospital;1"
+          "@id": "dtmi:com:syyclops:Building:Hospital;1",
+          "description": {
+            "en": "Represents a medical facility providing comprehensive healthcare services."
+          }
         },
         {
           "enumValue": "Hotel",
           "name": "Hotel",
-          "@id": "dtmi:com:syyclops:Building:Hotel;1"
+          "@id": "dtmi:com:syyclops:Building:Hotel;1",
+          "description": {
+            "en": "Indicates a building offering lodging and accommodations to travelers."
+          }
         },
         {
           "enumValue": "K-12 School",
           "name": "K12Schoold",
-          "@id": "dtmi:com:syyclops:Building:K12Schoold;1"
+          "@id": "dtmi:com:syyclops:Building:K12Schoold;1",
+          "description": {
+            "en": "Represents an educational facility serving kindergarten to 12th-grade students."
+          }
         },
         {
           "enumValue": "Medical Office",
           "name": "MedicalOffice",
-          "@id": "dtmi:com:syyclops:Building:MedicalOffice;1"
+          "@id": "dtmi:com:syyclops:Building:MedicalOffice;1",
+          "description": {
+            "en": "Indicates a building housing medical professionals providing patient care."
+          }
         },
         {
           "enumValue": "Multifamily Housing",
           "name": "MultifamilyHousing",
-          "@id": "dtmi:com:syyclops:Building:MultifamilyHousing;1"
+          "@id": "dtmi:com:syyclops:Building:MultifamilyHousing;1",
+          "description": {
+            "en": "Represents a building designed to accommodate multiple families."
+          }
         },
         {
           "enumValue": "Non-refrigerated Warehouse",
           "name": "NonRefrigeratedWarehouse",
-          "@id": "dtmi:com:syyclops:Building:NonRefrigeratedWarehouse;1"
+          "@id": "dtmi:com:syyclops:Building:NonRefrigeratedWarehouse;1",
+          "description": {
+            "en": "Indicates a storage facility not designed for temperature-sensitive goods."
+          }
         },
         {
           "enumValue": "Office",
           "name": "Office",
-          "@id": "dtmi:com:syyclops:Building:SE1;1"
+          "@id": "dtmi:com:syyclops:Building:SE1;1",
+          "description": {
+            "en": "Represents a designated office space within a building."
+          }
         },
         {
           "enumValue": "Refrigerated Warehouse",
           "name": "RefrigeratedWarehouse",
-          "@id": "dtmi:com:syyclops:Building:RefrigeratedWarehouse;1"
+          "@id": "dtmi:com:syyclops:Building:RefrigeratedWarehouse;1",
+          "description": {
+            "en": "Indicates a facility designed for the storage of temperature-sensitive goods."
+          }
         },
         {
           "enumValue": "Residence Hall/Dormitory",
           "name": "ResidenceHallDormitory",
-          "@id": "dtmi:com:syyclops:Building:ResidenceHallDormitory;1"
+          "@id": "dtmi:com:syyclops:Building:ResidenceHallDormitory;1",
+          "description": {
+            "en": "Represents a building providing student housing at educational institutions."
+          }
         },
         {
           "enumValue": "Retail Store",
           "name": "RetailStore",
-          "@id": "dtmi:com:syyclops:Building:RetailStore;1"
+          "@id": "dtmi:com:syyclops:Building:RetailStore;1",
+          "description": {
+            "en": "Indicates a building dedicated to the sale of goods to consumers."
+          }
         },
         {
           "enumValue": "Single Family Home",
           "name": "SingleFamilyHome",
-          "@id": "dtmi:com:syyclops:Building:SingleFamilyHome;1"
+          "@id": "dtmi:com:syyclops:Building:SingleFamilyHome;1",
+          "description": {
+            "en": "Represents a standalone residential building designed for one family."
+          }
         },
         {
           "enumValue": "Senior Living Community",
           "name": "SeniorLivingCommunity",
-          "@id": "dtmi:com:syyclops:Building:SeniorLivingCommunity;1"
+          "@id": "dtmi:com:syyclops:Building:SeniorLivingCommunity;1",
+          "description": {
+            "en": "Enum value representing a Senior Living Community within the Space > Building schema."
+          }
         },
         {
           "enumValue": "Supermarket/Grocery Store",
           "name": "SupermarketGroceryStore",
-          "@id": "dtmi:com:syyclops:Building:SupermarketGroceryStore;1"
+          "@id": "dtmi:com:syyclops:Building:SupermarketGroceryStore;1",
+          "description": {
+            "en": "Enum value representing a Supermarket Grocery Store within the Space > Building schema."
+          }
         },
         {
           "enumValue": "Vehicle Dealership",
           "name": "VehicleDealership",
-          "@id": "dtmi:com:syyclops:Building:VehicleDealership;1"
+          "@id": "dtmi:com:syyclops:Building:VehicleDealership;1",
+          "description": {
+            "en": "Enum value representing a Vehicle Dealership within the Space > Building schema."
+          }
         },
         {
           "enumValue": "Wastewater Treatment Plant",
           "name": "WastewaterTreatmentPlant",
-          "@id": "dtmi:com:syyclops:Building:WastewaterTreatmentPlant;1"
+          "@id": "dtmi:com:syyclops:Building:WastewaterTreatmentPlant;1",
+          "description": {
+            "en": "Enum value representing a Wastewater Treatment Plant within the Space > Building schema."
+          }
         },
         {
           "enumValue": "Wholesale Club/Supercenter",
           "name": "WholesaleClubSupercenter",
-          "@id": "dtmi:com:syyclops:Building:WholesaleClubSupercenter;1"
+          "@id": "dtmi:com:syyclops:Building:WholesaleClubSupercenter;1",
+          "description": {
+            "en": "Enum value representing a Wholesale Club Supercenter within the Space > Building schema."
+          }
         },
         {
           "enumValue": "Worship Facility",
           "name": "WorshipFacility",
-          "@id": "dtmi:com:syyclops:Building:WorshipFacility;1"
+          "@id": "dtmi:com:syyclops:Building:WorshipFacility;1",
+          "description": {
+            "en": "Enum value representing a Worship Facility within the Space > Building schema."
+          }
         }
       ],
       "displayName": {
@@ -500,97 +671,145 @@
           "name": "oneA",
           "displayName": "1A - Very Hot Humid",
           "enumValue": "1A",
-          "@id": "dtmi:com:syyclops:Building:oneA;1"
+          "@id": "dtmi:com:syyclops:Building:oneA;1",
+          "description": {
+            "en": "Enum value representing section oneA within the Space > Building schema."
+          }
         },
         {
           "name": "twoA",
           "displayName": "2A Hot Humid",
           "enumValue": "2A",
-          "@id": "dtmi:com:syyclops:Building:twoA;1"
+          "@id": "dtmi:com:syyclops:Building:twoA;1",
+          "description": {
+            "en": "Enum value representing section twoA within the Space > Building schema."
+          }
         },
         {
           "name": "twoB",
           "displayName": "2B Hot Dry",
           "enumValue": "2B",
-          "@id": "dtmi:com:syyclops:Building:twoB;1"
+          "@id": "dtmi:com:syyclops:Building:twoB;1",
+          "description": {
+            "en": "Enum value representing section twoB within the Space > Building schema."
+          }
         },
         {
           "name": "threeA",
           "displayName": "3A Warm Humid",
           "enumValue": "3A",
-          "@id": "dtmi:com:syyclops:Building:threeA;1"
+          "@id": "dtmi:com:syyclops:Building:threeA;1",
+          "description": {
+            "en": "Enum value representing section threeA within the Space > Building schema."
+          }
         },
         {
           "name": "threeB",
           "displayName": "3B Warm Dry",
           "enumValue": "3B",
-          "@id": "dtmi:com:syyclops:Building:threeB;1"
+          "@id": "dtmi:com:syyclops:Building:threeB;1",
+          "description": {
+            "en": "Enum value representing section threeB within the Space > Building schema."
+          }
         },
         {
           "name": "threeC",
           "displayName": "3C Warm Marine",
           "enumValue": "3C",
-          "@id": "dtmi:com:syyclops:Building:threeC;1"
+          "@id": "dtmi:com:syyclops:Building:threeC;1",
+          "description": {
+            "en": "Enum value representing section threeC within the Space > Building schema."
+          }
         },
         {
           "name": "fourA",
           "displayName": "4A Mixed Humid",
           "enumValue": "4A",
-          "@id": "dtmi:com:syyclops:Building:fourA;1"
+          "@id": "dtmi:com:syyclops:Building:fourA;1",
+          "description": {
+            "en": "Enum value representing section fourA within the Space > Building schema."
+          }
         },
         {
           "name": "fourB",
           "displayName": "4B Mixed Dry",
           "enumValue": "4B",
-          "@id": "dtmi:com:syyclops:Building:fourB;1"
+          "@id": "dtmi:com:syyclops:Building:fourB;1",
+          "description": {
+            "en": "Enum value representing section fourB within the Space > Building schema."
+          }
         },
         {
           "name": "fourC",
           "displayName": "4C Mixed Marine",
           "enumValue": "4C",
-          "@id": "dtmi:com:syyclops:Building:fourC;1"
+          "@id": "dtmi:com:syyclops:Building:fourC;1",
+          "description": {
+            "en": "Enum value representing section fourC within the Space > Building schema."
+          }
         },
         {
           "name": "fiveA",
           "displayName": "5A Cool Humid",
           "enumValue": "5A",
-          "@id": "dtmi:com:syyclops:Building:fiveA;1"
+          "@id": "dtmi:com:syyclops:Building:fiveA;1",
+          "description": {
+            "en": "Enum value representing section fiveA within the Space > Building schema."
+          }
         },
         {
           "name": "fiveB",
           "displayName": "5B Cool Dry",
           "enumValue": "5B",
-          "@id": "dtmi:com:syyclops:Building:fiveB;1"
+          "@id": "dtmi:com:syyclops:Building:fiveB;1",
+          "description": {
+            "en": "Enum value representing section fiveB within the Space > Building schema."
+          }
         },
         {
           "name": "fiveC",
           "displayName": "5C Cool Marine",
           "enumValue": "5C",
-          "@id": "dtmi:com:syyclops:Building:fiveC;1"
+          "@id": "dtmi:com:syyclops:Building:fiveC;1",
+          "description": {
+            "en": "Enum value representing section fiveC within the Space > Building schema."
+          }
         },
         {
           "name": "sixA",
           "displayName": "6A Cold Humid",
           "enumValue": "6A",
-          "@id": "dtmi:com:syyclops:Building:sixA;1"
+          "@id": "dtmi:com:syyclops:Building:sixA;1",
+          "description": {
+            "en": "Enum value representing section sixA within the Space > Building schema."
+          }
         },
         {
           "name": "sixB",
           "displayName": "6B Cold Dry",
           "enumValue": "6B",
-          "@id": "dtmi:com:syyclops:Building:sixB;1"
+          "@id": "dtmi:com:syyclops:Building:sixB;1",
+          "description": {
+            "en": "Enum value representing section sixB within the Space > Building schema."
+          }
         },
         {
           "name": "seven",
           "displayName": "7 Very Cold",
           "enumValue": "7",
-          "@id": "dtmi:com:syyclops:Building:seven;1"
+          "@id": "dtmi:com:syyclops:Building:seven;1",
+          "description": {
+            "en": "Enum value representing the number seven within the Building schema."
+          }
         },
         {
           "name": "eight",
           "displayName": "8 Subarctic/Arctic",
           "enumValue": "8",
-          "@id": "dtmi:com:syyclops:Building:eight;1"
+          "@id": "dtmi:com:syyclops:Building:eight;1",
+          "description": {
+            "en": "Enum value representing the number eight within the Building schema."
+          }
         }
       ],
       "displayName": {
@@ -605,17 +824,26 @@
         {
           "enumValue": "Design",
           "name": "Design",
-          "@id": "dtmi:com:syyclops:Building:Design;1"
+          "@id": "dtmi:com:syyclops:Building:Design;1",
+          "description": {
+            "en": "Enum value indicating the design type within the Building schema."
+          }
         },
         {
           "enumValue": "Construction",
           "name": "Construction",
-          "@id": "dtmi:com:syyclops:Building:Construction;1"
+          "@id": "dtmi:com:syyclops:Building:Construction;1",
+          "description": {
+            "en": "Enum value representing the construction phase within the Building schema."
+          }
         },
         {
           "enumValue": "Operational",
           "name": "Operational",
-          "@id": "dtmi:com:syyclops:Building:Operational;1"
+          "@id": "dtmi:com:syyclops:Building:Operational;1",
+          "description": {
+            "en": "Enum value indicating operational status within the Building schema."
+          }
         }
       ],
       "displayName": {

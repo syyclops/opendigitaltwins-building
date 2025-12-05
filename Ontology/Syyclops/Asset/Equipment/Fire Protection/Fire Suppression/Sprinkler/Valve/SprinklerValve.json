@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Sprinkler Valve"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SprinklerEquipment;1",
     "dtmi:com:syyclops:Valve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the interface for a generic valve within sprinkler water delivery systems."
+  }
 }

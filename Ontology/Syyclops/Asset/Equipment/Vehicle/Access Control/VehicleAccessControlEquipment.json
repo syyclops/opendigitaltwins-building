@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Vehicle Access Control Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VehicleEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining devices for controlling vehicle entry and access to restricted areas."
+  }
 }

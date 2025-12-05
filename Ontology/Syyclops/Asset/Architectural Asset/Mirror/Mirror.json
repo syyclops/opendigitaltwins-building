@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Mirror:width;1"
+      "@id": "dtmi:com:syyclops:Mirror:width;1",
+      "description": {
+        "en": "Specifies the width of the architectural mirror asset."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Mirror:widthUnit;1"
+      "@id": "dtmi:com:syyclops:Mirror:widthUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement used for the width of the mirror."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Mirror:height;1"
+      "@id": "dtmi:com:syyclops:Mirror:height;1",
+      "description": {
+        "en": "Specifies the height dimension of the mirror in specified units."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Mirror:heightUnit;1"
+      "@id": "dtmi:com:syyclops:Mirror:heightUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement used for the height of the mirror."
+      }
     }
   ],
   "@context": [
@@ -74,5 +86,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface for standard mirrors as part of architectural asset design."
+  }
 }

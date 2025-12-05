@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fire Alarm Speaker"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireAlarmNotificationAppliance;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a fire alarm speaker designed to deliver voice instructions during fire emergencies."
+  }
 }

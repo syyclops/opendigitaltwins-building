@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Reset Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DefaultSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for resetting the current setpoint value to a predefined state."
+  }
 }

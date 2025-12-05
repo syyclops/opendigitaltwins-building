@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Hot Deck Inlet Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:InletDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Hot Deck Inlet Damper interface details the control of airflow in the HVAC system's warm air supply zone."
+  }
 }

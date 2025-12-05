@@ -4,13 +4,14 @@
   "displayName": {
     "en": "People Occupancy Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:OccupancySetpoint;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the occupancy setpoint focusing explicitly on the presence of people in monitored environments."
+  }
 }

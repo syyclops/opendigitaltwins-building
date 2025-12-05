@@ -4,14 +4,15 @@
   "displayName": {
     "en": "HVAC Tank"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACEquipment;1",
     "dtmi:com:syyclops:Tank;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for an HVAC tank used for storage and delivery of heat transfer fluids."
+  }
 }

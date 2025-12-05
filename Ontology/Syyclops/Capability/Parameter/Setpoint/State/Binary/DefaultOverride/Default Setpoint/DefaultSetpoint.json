@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Default Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DefaultOverrideSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for setting the default setpoint within the binary state of the setpoint capability."
+  }
 }

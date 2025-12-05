@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Demarcation Bar Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:RunwayPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Indicates demarcation bars on runways to delineate separation between movement areas and to enhance safety."
+  }
 }

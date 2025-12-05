@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Structured Cabling Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ICTEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for structured cabling equipment utilized in telecommunications infrastructure."
+  }
 }

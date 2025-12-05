@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Voltage Regulator"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalGenerationStorageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for managing voltage regulation capabilities within electrical generation storage equipment."
+  }
 }

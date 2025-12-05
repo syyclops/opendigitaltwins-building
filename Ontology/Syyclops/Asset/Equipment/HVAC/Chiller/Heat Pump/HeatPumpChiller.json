@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:nominalHeatingCapacity;1",
+      "description": {
+        "en": "The nominalHeatingCapacity property specifies the heating output of the heat pump chiller under standard conditions."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "The nominalHeatingCapacityUnit property defines the unit of measurement for the nominalHeatingCapacity of the heat pump chiller."
+      }
     },
     {
       "@type": [
@@ -53,7 +59,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:netSensibleHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:netSensibleHeatingCapacity;1",
+      "description": {
+        "en": "The netSensibleHeatingCapacity property indicates the effective heating capacity, excluding latent loads."
+      }
     },
     {
       "@type": [
@@ -69,7 +78,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:netSensibleHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:netSensibleHeatingCapacityUnit;1",
+      "description": {
+        "en": "The netSensibleHeatingCapacityUnit property defines the measurement unit for netSensibleHeatingCapacity."
+      }
     },
     {
       "@type": [
@@ -83,7 +95,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:designHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:designHeatingCapacity;1",
+      "description": {
+        "en": "The designHeatingCapacity property indicates the designed heating output capacity of the heat pump chiller."
+      }
     },
     {
       "@type": [
@@ -99,7 +114,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:designHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:designHeatingCapacityUnit;1",
+      "description": {
+        "en": "The designHeatingCapacityUnit property specifies the unit of measure for the designHeatingCapacity."
+      }
     },
     {
       "@type": "Property",
@@ -109,7 +127,10 @@
       "name": "designHeatingCoefficientOfPerformance",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:designHeatingCoefficientOfPerformance;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:designHeatingCoefficientOfPerformance;1",
+      "description": {
+        "en": "The designHeatingCoefficientOfPerformance property represents the efficiency of the heat pump chiller under design conditions."
+      }
     },
     {
       "@type": "Property",
@@ -119,7 +140,10 @@
       "name": "nominalHeatingCoefficientOfPerformance",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatPumpChiller:nominalHeatingCoefficientOfPerformance;1"
+      "@id": "dtmi:com:syyclops:HeatPumpChiller:nominalHeatingCoefficientOfPerformance;1",
+      "description": {
+        "en": "The nominalHeatingCoefficientOfPerformance property measures the efficiency of the heat pump chiller at nominal conditions."
+      }
     }
   ],
   "@context": [

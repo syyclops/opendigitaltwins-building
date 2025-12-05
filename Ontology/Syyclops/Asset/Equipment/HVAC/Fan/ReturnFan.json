@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Return Fan"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACFan;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a return fan facilitating the recycling of air within HVAC systems."
+  }
 }

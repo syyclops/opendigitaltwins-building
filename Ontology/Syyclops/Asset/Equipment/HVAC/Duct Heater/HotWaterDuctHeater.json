@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HotWaterDuctHeater:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:HotWaterDuctHeater:flowCapacity;1",
+      "description": {
+        "en": "Specifies the flow capacity property of hot water duct heaters, detailing the maximum water flow rate."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HotWaterDuctHeater:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HotWaterDuctHeater:flowCapacityUnit;1",
+      "description": {
+        "en": "Denotes the measurement unit for the flow capacity of hot water duct heaters."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for hot water duct heaters used in HVAC systems for heating air via hot water."
+  }
 }

@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Valve:pressureCapacity;1"
+      "@id": "dtmi:com:syyclops:Valve:pressureCapacity;1",
+      "description": {
+        "en": "Property indicating the maximum pressure the valve can handle."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Valve:pressureCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Valve:pressureCapacityUnit;1",
+      "description": {
+        "en": "Property defining the unit of measurement for the valve's pressure capacity."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Valve:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:Valve:flowCapacity;1",
+      "description": {
+        "en": "Property indicating the maximum flow rate through the valve."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Valve:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Valve:flowCapacityUnit;1",
+      "description": {
+        "en": "Property specifying the unit of measurement for the valve's flow capacity."
+      }
     },
     {
       "@type": "Component",
@@ -75,7 +87,10 @@
       },
       "name": "pipeOutlet",
       "schema": "dtmi:com:syyclops:PipeConnection;1",
-      "@id": "dtmi:com:syyclops:Valve:pipeOutlet;1"
+      "@id": "dtmi:com:syyclops:Valve:pipeOutlet;1",
+      "description": {
+        "en": "Component representing the outlet pipe of the valve."
+      }
     },
     {
       "@type": "Component",
@@ -84,7 +99,10 @@
       },
       "name": "pipeInlet",
       "schema": "dtmi:com:syyclops:PipeConnection;1",
-      "@id": "dtmi:com:syyclops:Valve:pipeInlet;1"
+      "@id": "dtmi:com:syyclops:Valve:pipeInlet;1",
+      "description": {
+        "en": "Component representing the inlet pipe of the valve."
+      }
     }
   ],
   "@context": [
@@ -92,5 +110,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a general-purpose valve with various properties related to flow and pressure."
+  }
 }

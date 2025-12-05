@@ -16,10 +16,16 @@
       "name": "fiberStrandCount",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FiberOpticPatchCord:fiberStrandCount;1"
+      "@id": "dtmi:com:syyclops:FiberOpticPatchCord:fiberStrandCount;1",
+      "description": {
+        "en": "Property indicating the fiber strand count for the Fiber Optic Patch Cord interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Fiber Optic Patch Cord for telecommunication applications."
+  }
 }

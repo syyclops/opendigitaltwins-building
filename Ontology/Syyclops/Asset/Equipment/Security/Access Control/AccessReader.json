@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Access Reader"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AccessControlEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for devices that read access credentials for validating entry permissions."
+  }
 }

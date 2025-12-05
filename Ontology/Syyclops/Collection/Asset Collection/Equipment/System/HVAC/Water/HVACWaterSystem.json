@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Water System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface encompasses the attributes of a HVAC water system, serving general water circulation duties."
+  }
 }

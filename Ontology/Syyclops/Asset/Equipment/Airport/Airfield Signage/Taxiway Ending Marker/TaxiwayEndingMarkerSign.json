@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Ending Marker Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldSignageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a taxiway ending marker sign used for guiding aircraft on airfield taxiways."
+  }
 }

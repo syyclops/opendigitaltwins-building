@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Structural Shaft"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the Structural Shaft interface for vertical passages in building designs, facilitating utility placements."
+  }
 }

@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litre",
-      "@id": "dtmi:com:syyclops:WaterHeater:firstHourDelivery;1"
+      "@id": "dtmi:com:syyclops:WaterHeater:firstHourDelivery;1",
+      "description": {
+        "en": "Property indicating the volume of hot water delivered in the first hour of operation for Water Heaters."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterHeater:firstHourDeliveryUnit;1"
+      "@id": "dtmi:com:syyclops:WaterHeater:firstHourDeliveryUnit;1",
+      "description": {
+        "en": "Property representing the unit of measurement for the first hour delivery capacity of Water Heaters."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "gallonPerHour",
-      "@id": "dtmi:com:syyclops:WaterHeater:recovery100FRise;1"
+      "@id": "dtmi:com:syyclops:WaterHeater:recovery100FRise;1",
+      "description": {
+        "en": "Property that specifies the recovery rate of a Water Heater when heated by 100 degrees Fahrenheit."
+      }
     }
   ],
   "@context": [
@@ -58,5 +67,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining properties and behaviors for conventional Water Heaters used in plumbing applications."
+  }
 }

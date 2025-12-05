@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Barrier Asset Hardware"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalAsset;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface encompassing hardware components related to barrier assets."
+  }
 }

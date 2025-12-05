@@ -16,7 +16,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Agent:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Agent:hasDocument;1",
+      "description": {
+        "en": "Establishes a relationship between an Agent and its associated Document."
+      }
     },
     {
       "@type": "Relationship",
@@ -62,7 +65,10 @@
         "@id": "dtmi:com:syyclops:Agent:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Agent:customTags;1"
+      "@id": "dtmi:com:syyclops:Agent:customTags;1",
+      "description": {
+        "en": "Holds user-defined tags for classification and management of the Agent."
+      }
     },
     {
       "@type": "Property",
@@ -85,7 +91,10 @@
         "@id": "dtmi:com:syyclops:Agent:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Agent:externalIds;1"
+      "@id": "dtmi:com:syyclops:Agent:externalIds;1",
+      "description": {
+        "en": "Stores external identifiers associated with the Agent for cross-referencing."
+      }
     },
     {
       "@type": "Property",
@@ -99,7 +108,10 @@
         "elementSchema": "dtmi:com:syyclops:AgentMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Agent:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Agent:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Agent:mappedIds;1",
+      "description": {
+        "en": "Contains identifiers that map the Agent to external systems or databases."
+      }
     },
     {
       "@type": "Property",
@@ -109,7 +121,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Agent:name;1"
+      "@id": "dtmi:com:syyclops:Agent:name;1",
+      "description": {
+        "en": "Represents the name of the Agent within the Agent interface."
+      }
     },
     {
       "@type": "Property",
@@ -119,7 +134,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Agent:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Agent:uniqueID;1",
+      "description": {
+        "en": "Holds a unique identifier for the Agent within the Agent interface."
+      }
     },
     {
       "@type": "Property",
@@ -129,7 +147,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Agent:externalID;1"
+      "@id": "dtmi:com:syyclops:Agent:externalID;1",
+      "description": {
+        "en": "Indicates an external identifier associated with the Agent."
+      }
     },
     {
       "@type": "Property",
@@ -139,7 +160,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Agent:code;1"
+      "@id": "dtmi:com:syyclops:Agent:code;1",
+      "description": {
+        "en": "Defines a code assigned to the Agent within the interface."
+      }
     },
     {
       "@type": "Property",
@@ -149,7 +173,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Agent:description;1"
+      "@id": "dtmi:com:syyclops:Agent:description;1",
+      "description": {
+        "en": "Provides a descriptive text for the Agent."
+      }
     },
     {
       "@type": "Property",
@@ -159,7 +186,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Agent:siteID;1"
+      "@id": "dtmi:com:syyclops:Agent:siteID;1",
+      "description": {
+        "en": "Identifies the site to which the Agent is assigned."
+      }
     },
     {
       "@type": "Property",
@@ -190,7 +220,10 @@
         ],
         "@id": "dtmi:com:syyclops:Agent:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Agent:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Agent:alternateClassification;1",
+      "description": {
+        "en": "Specifies an alternate classification for the Agent."
+      }
     },
     {
       "@type": "Property",
@@ -225,7 +258,10 @@
         },
         "@id": "dtmi:com:syyclops:Agent:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Agent:customProperties;1"
+      "@id": "dtmi:com:syyclops:Agent:customProperties;1",
+      "description": {
+        "en": "Allows custom properties to be defined within the Agent interface."
+      }
     }
   ],
   "schemas": [

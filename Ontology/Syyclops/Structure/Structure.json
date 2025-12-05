@@ -16,7 +16,10 @@
       },
       "name": "commissionedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Structure:commissionedBy;1"
+      "@id": "dtmi:com:syyclops:Structure:commissionedBy;1",
+      "description": {
+        "en": "Represents the relationship indicating which agent commissioned the structure."
+      }
     },
     {
       "@type": "Relationship",
@@ -25,7 +28,10 @@
       },
       "name": "installedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Structure:installedBy;1"
+      "@id": "dtmi:com:syyclops:Structure:installedBy;1",
+      "description": {
+        "en": "Identifies the agent responsible for installing the structure."
+      }
     },
     {
       "@type": "Relationship",
@@ -34,7 +40,10 @@
       },
       "name": "servicedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Structure:servicedBy;1"
+      "@id": "dtmi:com:syyclops:Structure:servicedBy;1",
+      "description": {
+        "en": "Denotes the agent that services the structure."
+      }
     },
     {
       "@type": "Relationship",
@@ -43,7 +52,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Structure:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Structure:hasDocument;1",
+      "description": {
+        "en": "Indicates the relationship between the structure and associated documents."
+      }
     },
     {
       "@type": "Relationship",
@@ -64,7 +76,10 @@
         "en": "Service Responsibilitly"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Structure:serviceResponsibility;1"
+      "@id": "dtmi:com:syyclops:Structure:serviceResponsibility;1",
+      "description": {
+        "en": "Specifies the agent responsible for the service of the structure."
+      }
     },
     {
       "@type": "Relationship",
@@ -73,7 +88,10 @@
       },
       "name": "locatedIn",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:Structure:locatedIn;1"
+      "@id": "dtmi:com:syyclops:Structure:locatedIn;1",
+      "description": {
+        "en": "Describes the spatial relationship of a structure within a designated space."
+      }
     },
     {
       "@type": "Relationship",
@@ -94,7 +112,10 @@
       },
       "name": "constructedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Structure:constructedBy;1"
+      "@id": "dtmi:com:syyclops:Structure:constructedBy;1",
+      "description": {
+        "en": "Indicates the agent or entity that constructed the structure."
+      }
     },
     {
       "@type": "Relationship",
@@ -103,7 +124,10 @@
       },
       "name": "architectedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Structure:architectedBy;1"
+      "@id": "dtmi:com:syyclops:Structure:architectedBy;1",
+      "description": {
+        "en": "Defines the relationship identifying the architect of the structure."
+      }
     },
     {
       "@type": "Relationship",
@@ -159,7 +183,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Structure:siteID;1"
+      "@id": "dtmi:com:syyclops:Structure:siteID;1",
+      "description": {
+        "en": "Property representing the site identification associated with the structure."
+      }
     },
     {
       "@type": "Property",
@@ -170,7 +197,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference of the land (i.e. campus, site, airport) to which the twin belongs. A Customer has one or many Lands. Land is considered the top-level entity for binding construction twins.",
-      "@id": "dtmi:com:syyclops:Structure:landId;1"
+      "@id": "dtmi:com:syyclops:Structure:landId;1",
+      "description": {
+        "en": "Property that holds the land identification for the structure."
+      }
     },
     {
       "@type": "Property",
@@ -204,7 +234,10 @@
           "en": "Structure Coordinates"
         }
       },
-      "@id": "dtmi:com:syyclops:Structure:coordinates;1"
+      "@id": "dtmi:com:syyclops:Structure:coordinates;1",
+      "description": {
+        "en": "Defines the geographical coordinates pertaining to the structure."
+      }
     },
     {
       "@type": "Property",
@@ -214,7 +247,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:name;1"
+      "@id": "dtmi:com:syyclops:Structure:name;1",
+      "description": {
+        "en": "Property that provides the name designation of the structure."
+      }
     },
     {
       "@type": "Property",
@@ -224,7 +260,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Structure:description;1"
+      "@id": "dtmi:com:syyclops:Structure:description;1",
+      "description": {
+        "en": "Descriptive property detailing information about the structure."
+      }
     },
     {
       "@type": "Property",
@@ -246,7 +285,10 @@
         },
         "@id": "dtmi:com:syyclops:Structure:MS1;1"
       },
-      "@id": "dtmi:com:syyclops:Structure:externalIds;1"
+      "@id": "dtmi:com:syyclops:Structure:externalIds;1",
+      "description": {
+        "en": "Property for storing external identifiers associated with the structure."
+      }
     },
     {
       "@type": "Property",
@@ -260,7 +302,10 @@
         "elementSchema": "dtmi:com:syyclops:StructureMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Structure:AS2;1"
       },
-      "@id": "dtmi:com:syyclops:Structure:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Structure:mappedIds;1",
+      "description": {
+        "en": "Contains mapped identifiers linked to the structure."
+      }
     },
     {
       "@type": "Property",
@@ -295,7 +340,10 @@
         },
         "@id": "dtmi:com:syyclops:Structure:MS3;1"
       },
-      "@id": "dtmi:com:syyclops:Structure:customProperties;1"
+      "@id": "dtmi:com:syyclops:Structure:customProperties;1",
+      "description": {
+        "en": "Property for storing custom-defined attributes of the structure."
+      }
     },
     {
       "@type": "Property",
@@ -358,7 +406,10 @@
         ],
         "@id": "dtmi:com:syyclops:Structure:OS5;1"
       },
-      "@id": "dtmi:com:syyclops:Structure:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Structure:alternateClassification;1",
+      "description": {
+        "en": "Property that outlines any alternative classifications for the structure."
+      }
     },
     {
       "@type": "Property",
@@ -369,7 +420,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for geometry rendering (i.e. ForgeViewerID)",
-      "@id": "dtmi:com:syyclops:Structure:geometryViewerID;1"
+      "@id": "dtmi:com:syyclops:Structure:geometryViewerID;1",
+      "description": {
+        "en": "Defines the identifier for the geometry viewer associated with the structure."
+      }
     },
     {
       "@type": "Property",
@@ -380,7 +434,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for displaying in spatial context",
-      "@id": "dtmi:com:syyclops:Structure:geometrySpatialReference;1"
+      "@id": "dtmi:com:syyclops:Structure:geometrySpatialReference;1",
+      "description": {
+        "en": "Property representing the spatial reference system used for the geometrical representation of the structure."
+      }
     },
     {
       "@type": "Property",
@@ -391,7 +448,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference to geometry source (i.e. Revit GUID)",
-      "@id": "dtmi:com:syyclops:Structure:geometryExternalID;1"
+      "@id": "dtmi:com:syyclops:Structure:geometryExternalID;1",
+      "description": {
+        "en": "Property for storing the external identification reference for the geometry of the structure."
+      }
     },
     {
       "@type": "Property",
@@ -401,7 +461,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Structure:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Structure:uniqueID;1",
+      "description": {
+        "en": "Property that provides a unique identifier for the structure within its operational context."
+      }
     },
     {
       "@type": "Property",
@@ -411,7 +474,10 @@
       "name": "commissionDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:commissionDate;1"
+      "@id": "dtmi:com:syyclops:Structure:commissionDate;1",
+      "description": {
+        "en": "Property indicating the date when the structure was officially commissioned for use."
+      }
     },
     {
       "@type": "Property",
@@ -421,7 +487,10 @@
       "name": "expectedEndOfLife",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:expectedEndOfLife;1"
+      "@id": "dtmi:com:syyclops:Structure:expectedEndOfLife;1",
+      "description": {
+        "en": "Property that denotes the projected end-of-life date for the structure."
+      }
     },
     {
       "@type": "Property",
@@ -431,7 +500,10 @@
       "name": "expectedLife",
       "schema": "duration",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:expectedLife;1"
+      "@id": "dtmi:com:syyclops:Structure:expectedLife;1",
+      "description": {
+        "en": "Property specifying the anticipated operational lifespan of the structure."
+      }
     },
     {
       "@type": "Property",
@@ -441,7 +513,10 @@
       "name": "expectedReplacementCost",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:expectedReplacementCost;1"
+      "@id": "dtmi:com:syyclops:Structure:expectedReplacementCost;1",
+      "description": {
+        "en": "Property estimating the future cost required to replace the structure."
+      }
     },
     {
       "@type": "Property",
@@ -451,7 +526,10 @@
       "name": "initialCost",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:initialCost;1"
+      "@id": "dtmi:com:syyclops:Structure:initialCost;1",
+      "description": {
+        "en": "Property defining the initial construction cost incurred for the structure."
+      }
     },
     {
       "@type": "Property",
@@ -461,7 +539,10 @@
       "name": "installationDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:installationDate;1"
+      "@id": "dtmi:com:syyclops:Structure:installationDate;1",
+      "description": {
+        "en": "Property indicating the date when the structure was installed."
+      }
     },
     {
       "@type": "Property",
@@ -471,7 +552,10 @@
       "name": "maintenanceInterval",
       "schema": "duration",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:maintenanceInterval;1"
+      "@id": "dtmi:com:syyclops:Structure:maintenanceInterval;1",
+      "description": {
+        "en": "Property describing the scheduled interval for maintenance activities on the structure."
+      }
     },
     {
       "@type": "Property",
@@ -481,7 +565,10 @@
       "name": "turnoverDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:turnoverDate;1"
+      "@id": "dtmi:com:syyclops:Structure:turnoverDate;1",
+      "description": {
+        "en": "Property that signifies the date when the structure was transferred or turned over for operational use."
+      }
     },
     {
       "@type": "Property",
@@ -491,7 +578,10 @@
       "name": "physicalTagNumber",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Structure:physicalTagNumber;1"
+      "@id": "dtmi:com:syyclops:Structure:physicalTagNumber;1",
+      "description": {
+        "en": "Property representing the physical tag number assigned to the structure for identification purposes."
+      }
     }
   ],
   "schemas": [

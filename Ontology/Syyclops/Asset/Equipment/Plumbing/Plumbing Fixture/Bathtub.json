@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Bathtub"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingFixture;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Bathtub interface includes characteristics and functionalities associated with bathtub fixtures in plumbing systems."
+  }
 }

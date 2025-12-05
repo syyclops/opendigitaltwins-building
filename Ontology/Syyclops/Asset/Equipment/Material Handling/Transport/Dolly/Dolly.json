@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Dolly"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:TransportEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface that describes the structural and functional aspects of dollies for material transport."
+  }
 }

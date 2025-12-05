@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Average Current Demand Sensor"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AverageCurrentMagnitudeSensor;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The AverageCurrentDemandSensor interface represents a sensor measuring the average current demand, providing insights into energy consumption patterns."
+  }
 }

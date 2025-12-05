@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Wall"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Wall interface designates vertical structural components of a building providing support and enclosure."
+  }
 }

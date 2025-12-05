@@ -15,10 +15,16 @@
         "en": "Main Bus"
       },
       "schema": "dtmi:com:syyclops:ElectricalBus;1",
-      "@id": "dtmi:com:syyclops:DisconnectSwitch:mainBus;1"
+      "@id": "dtmi:com:syyclops:DisconnectSwitch:mainBus;1",
+      "description": {
+        "en": "This component represents the main bus in a Disconnect Switch, facilitating electrical flow control in distribution systems."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining the specifications and properties of a disconnect switch used in electrical distribution."
+  }
 }

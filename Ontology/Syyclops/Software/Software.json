@@ -39,7 +39,10 @@
       },
       "name": "installedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Software:installedBy;1"
+      "@id": "dtmi:com:syyclops:Software:installedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent responsible for installing the software."
+      }
     },
     {
       "@type": "Relationship",
@@ -48,7 +51,10 @@
       },
       "name": "servicedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Software:servicedBy;1"
+      "@id": "dtmi:com:syyclops:Software:servicedBy;1",
+      "description": {
+        "en": "Denotes the agent that provides maintenance or support services for the software."
+      }
     },
     {
       "@type": "Relationship",
@@ -57,7 +63,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Software:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Software:hasDocument;1",
+      "description": {
+        "en": "Defines the relationship between software and its associated documentation."
+      }
     },
     {
       "@type": "Relationship",
@@ -91,7 +100,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Software:siteID;1"
+      "@id": "dtmi:com:syyclops:Software:siteID;1",
+      "description": {
+        "en": "Specifies the site identification number associated with the software interface."
+      }
     },
     {
       "@type": "Property",
@@ -101,7 +113,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Software:name;1"
+      "@id": "dtmi:com:syyclops:Software:name;1",
+      "description": {
+        "en": "Represents the name property of the software within its interface definition."
+      }
     },
     {
       "@type": "Property",
@@ -111,7 +126,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Software:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Software:uniqueID;1",
+      "description": {
+        "en": "Denotes the unique identification number assigned to the software interface."
+      }
     },
     {
       "@type": "Property",
@@ -121,7 +139,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Software:description;1"
+      "@id": "dtmi:com:syyclops:Software:description;1",
+      "description": {
+        "en": "Defines the descriptive property of the software interface, detailing its purpose or functionality."
+      }
     },
     {
       "@type": "Property",
@@ -143,7 +164,10 @@
         },
         "@id": "dtmi:com:syyclops:Software:MS1;1"
       },
-      "@id": "dtmi:com:syyclops:Software:externalIds;1"
+      "@id": "dtmi:com:syyclops:Software:externalIds;1",
+      "description": {
+        "en": "The externalIds property contains identifiers that link the software to external systems or resources."
+      }
     },
     {
       "@type": "Property",
@@ -157,7 +181,10 @@
         "elementSchema": "dtmi:com:syyclops:SoftwareMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Software:AS2;1"
       },
-      "@id": "dtmi:com:syyclops:Software:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Software:mappedIds;1",
+      "description": {
+        "en": "The mappedIds property holds identifiers that map the software to specific instances within an internal system."
+      }
     },
     {
       "@type": "Property",
@@ -192,7 +219,10 @@
         },
         "@id": "dtmi:com:syyclops:Software:MS3;1"
       },
-      "@id": "dtmi:com:syyclops:Software:customProperties;1"
+      "@id": "dtmi:com:syyclops:Software:customProperties;1",
+      "description": {
+        "en": "The customProperties property allows for the inclusion of user-defined attributes specific to the software."
+      }
     },
     {
       "@type": "Property",
@@ -255,7 +285,10 @@
         ],
         "@id": "dtmi:com:syyclops:Software:OS5;1"
       },
-      "@id": "dtmi:com:syyclops:Software:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Software:alternateClassification;1",
+      "description": {
+        "en": "The alternateClassification property provides additional classifications for the software beyond standard identifiers."
+      }
     },
     {
       "@type": "Property",
@@ -278,7 +311,10 @@
       "name": "installationDate",
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Software:installationDate;1"
+      "@id": "dtmi:com:syyclops:Software:installationDate;1",
+      "description": {
+        "en": "The installationDate property records the date when the software was installed."
+      }
     },
     {
       "@type": "Property",
@@ -288,7 +324,10 @@
       },
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Software:lastUpdatedDate;1"
+      "@id": "dtmi:com:syyclops:Software:lastUpdatedDate;1",
+      "description": {
+        "en": "The lastUpdatedDate property indicates the most recent modification date of the software."
+      }
     },
     {
       "@type": "Property",
@@ -298,7 +337,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Software:enabled;1"
+      "@id": "dtmi:com:syyclops:Software:enabled;1",
+      "description": {
+        "en": "The enabled property signifies whether the software is active and operational."
+      }
     }
   ],
   "schemas": [

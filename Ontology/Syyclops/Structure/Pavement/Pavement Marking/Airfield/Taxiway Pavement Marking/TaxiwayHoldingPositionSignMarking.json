@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Holding Position Sign Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:TaxiwayAirfieldPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface establishing holding position sign markings on taxiways to indicate stop points before runways."
+  }
 }

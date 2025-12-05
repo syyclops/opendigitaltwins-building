@@ -19,7 +19,10 @@
       },
       "name": "evaporatorFan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:RefrigeratedFoodDisplayCase:evaporatorFan;1"
+      "@id": "dtmi:com:syyclops:RefrigeratedFoodDisplayCase:evaporatorFan;1",
+      "description": {
+        "en": "A component interface for the evaporator fan in refrigerated food display cases, ensuring optimal temperature control."
+      }
     }
   ],
   "@context": [

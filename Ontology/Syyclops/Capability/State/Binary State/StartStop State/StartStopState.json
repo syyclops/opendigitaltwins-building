@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Start/Stop State"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BinaryState;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents a generic binary state interface that manages the start and stop conditions of a process."
+  }
 }

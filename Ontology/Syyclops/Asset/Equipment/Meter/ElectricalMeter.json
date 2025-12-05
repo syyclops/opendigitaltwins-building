@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:ElectricalMeter:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalMeter:type;1"
+      "@id": "dtmi:com:syyclops:ElectricalMeter:type;1",
+      "description": {
+        "en": "Property indicating the type of the electrical meter as defined in the electrical meter interface."
+      }
     },
     {
       "@type": [
@@ -46,7 +49,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalMeter:minVoltageRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalMeter:minVoltageRating;1",
+      "description": {
+        "en": "Property representing the minimum voltage rating requirements for the electrical meter."
+      }
     },
     {
       "@type": [
@@ -60,7 +66,10 @@
       "schema": "double",
       "unit": "ampere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalMeter:minCurrentRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalMeter:minCurrentRating;1",
+      "description": {
+        "en": "Property that specifies the minimum current rating of the electrical meter."
+      }
     },
     {
       "@type": [
@@ -74,7 +83,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalMeter:maxVoltageRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalMeter:maxVoltageRating;1",
+      "description": {
+        "en": "Property indicating the maximum voltage rating permissible for the electrical meter."
+      }
     },
     {
       "@type": [
@@ -88,7 +100,10 @@
       "schema": "double",
       "unit": "ampere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalMeter:maxCurrentRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalMeter:maxCurrentRating;1",
+      "description": {
+        "en": "Property that details the maximum current rating allowable for the electrical meter."
+      }
     },
     {
       "@type": "Relationship",
@@ -97,11 +112,17 @@
       },
       "name": "subMeterOf",
       "target": "dtmi:com:syyclops:ElectricalMeter;1",
-      "@id": "dtmi:com:syyclops:ElectricalMeter:subMeterOf;1"
+      "@id": "dtmi:com:syyclops:ElectricalMeter:subMeterOf;1",
+      "description": {
+        "en": "Relationship defining the association of this electrical meter as a submeter to another meter."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface specifying the features and operational parameters of electrical metering equipment."
+  }
 }

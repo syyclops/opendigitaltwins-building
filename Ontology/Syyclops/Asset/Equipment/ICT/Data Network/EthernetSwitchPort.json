@@ -37,5 +37,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing ports on an Ethernet switch."
+  }
 }

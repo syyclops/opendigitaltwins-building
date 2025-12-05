@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Fire Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SprinklerEquipment;1",
     "dtmi:com:syyclops:Pump;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for a Fire Pump that delivers water to the fire suppression systems."
+  }
 }

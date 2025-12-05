@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HotWaterUnitHeater:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:HotWaterUnitHeater:flowCapacity;1",
+      "description": {
+        "en": "Indicates the flow capacity of the Hot Water Unit Heater for efficient operation."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HotWaterUnitHeater:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HotWaterUnitHeater:flowCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the flow capacity of the Hot Water Unit Heater."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for the Hot Water Unit Heater utilized in HVAC applications for heating with water."
+  }
 }

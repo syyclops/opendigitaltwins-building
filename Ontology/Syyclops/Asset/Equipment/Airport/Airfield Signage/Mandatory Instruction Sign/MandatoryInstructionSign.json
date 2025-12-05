@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Mandatory Instruction Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldSignageEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Identifies requirements for Mandatory Instruction Signs indicating critical regulations for airport operations."
+  }
 }

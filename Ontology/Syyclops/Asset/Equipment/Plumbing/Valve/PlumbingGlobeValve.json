@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Globe Valve (Plumbing)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingValve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents a globe valve used for throttling fluid flow."
+  }
 }

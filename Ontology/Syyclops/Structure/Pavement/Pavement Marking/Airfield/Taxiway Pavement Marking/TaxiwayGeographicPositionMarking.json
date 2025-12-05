@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Geographic Position Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:TaxiwayAirfieldPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface providing geographic position markings on taxiways for location awareness by pilots."
+  }
 }

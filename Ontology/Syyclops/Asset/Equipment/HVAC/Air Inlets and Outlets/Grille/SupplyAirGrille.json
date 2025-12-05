@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Supply Air Grille"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AirGrille;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The SupplyAirGrille interface defines the grilles that allow for the discharge of conditioned air into a room."
+  }
 }

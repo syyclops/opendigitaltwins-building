@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fire Protection System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:System;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface outlining the components and operations of a comprehensive fire protection system."
+  }
 }

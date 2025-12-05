@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Rotating Beacon"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldLightingEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Rotating Beacon interface outlines the lighting systems signaling aircraft of location and direction."
+  }
 }

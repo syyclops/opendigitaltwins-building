@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Run Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:RunStopSetpoint;1",
     "dtmi:com:syyclops:StartSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the general run setpoint applicable to various motorized systems, controlled by binary state."
+  }
 }

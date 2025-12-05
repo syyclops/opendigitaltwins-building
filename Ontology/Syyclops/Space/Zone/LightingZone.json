@@ -29,7 +29,10 @@
           "comment": "Luminaire"
         }
       ],
-      "@id": "dtmi:com:syyclops:LightingZone:isFedBy;1"
+      "@id": "dtmi:com:syyclops:LightingZone:isFedBy;1",
+      "description": {
+        "en": "isFedBy is a Relationship in the Lighting Zone interface indicating how lighting is supplied to a zone."
+      }
     }
   ],
   "schemas": [
@@ -44,7 +47,10 @@
             "en": "Light"
           },
           "enumValue": "Light",
-          "@id": "dtmi:com:syyclops:LightingZone:Light;1"
+          "@id": "dtmi:com:syyclops:LightingZone:Light;1",
+          "description": {
+            "en": "Light is an Enum Value in the Lighting Zone schema representing the type of light utilized within the zone."
+          }
         }
       ],
       "displayName": {

@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxTemperature;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxTemperature;1",
+      "description": {
+        "en": "The secondary maximum temperature property specifies the highest operational temperature in the secondary loop of the refrigeration heat exchanger."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxTemperatureUnit;1",
+      "description": {
+        "en": "The secondary maximum temperature unit property represents the unit of measurement for the secondary maximum temperature."
+      }
     },
     {
       "@type": [
@@ -53,7 +59,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxPressure;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxPressure;1",
+      "description": {
+        "en": "The secondary maximum pressure property designates the maximum allowable pressure within the secondary loop of the refrigeration heat exchanger."
+      }
     },
     {
       "@type": [
@@ -69,7 +78,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxPressureUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryMaxPressureUnit;1",
+      "description": {
+        "en": "The secondary maximum pressure unit property defines the unit used to measure the secondary loop's maximum pressure."
+      }
     },
     {
       "@type": [
@@ -83,7 +95,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryFlowCapacity;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryFlowCapacity;1",
+      "description": {
+        "en": "The secondary flow capacity property quantifies the flow rate of refrigerant through the secondary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -99,7 +114,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryFlowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:secondaryFlowCapacityUnit;1",
+      "description": {
+        "en": "The secondary flow capacity unit property specifies the measurement unit for the flow rate in the secondary loop of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -113,7 +131,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxTemperature;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxTemperature;1",
+      "description": {
+        "en": "The primary maximum temperature property outlines the highest permissible temperature in the primary loop of the refrigeration heat exchanger."
+      }
     },
     {
       "@type": [
@@ -129,7 +150,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxTemperatureUnit;1",
+      "description": {
+        "en": "The primary maximum temperature unit property indicates the unit of measurement for the primary maximum temperature."
+      }
     },
     {
       "@type": [
@@ -143,7 +167,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxPressure;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxPressure;1",
+      "description": {
+        "en": "The primary maximum pressure property details the maximum operational pressure in the primary loop of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -159,7 +186,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxPressureUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryMaxPressureUnit;1",
+      "description": {
+        "en": "The primary maximum pressure unit property conveys the unit used to measure the primary loop's maximum pressure."
+      }
     },
     {
       "@type": [
@@ -173,7 +203,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryFlowCapacity;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryFlowCapacity;1",
+      "description": {
+        "en": "The primary flow capacity property specifies the refrigerant flow rate within the primary loop of the refrigeration heat exchanger."
+      }
     },
     {
       "@type": [
@@ -189,7 +222,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryFlowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationHeatExchanger:primaryFlowCapacityUnit;1",
+      "description": {
+        "en": "The primary flow capacity unit property denotes the measurement unit for the primary flow capacity in the heat exchanger."
+      }
     }
   ],
   "@context": [

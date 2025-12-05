@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Baggage Conveyor"
   },
-  "extends" : [
-    "dtmi:com:syyclops:airport:BaggageHandlingEquipment;1",    
+  "extends": [
+    "dtmi:com:syyclops:airport:BaggageHandlingEquipment;1",
     "dtmi:com:syyclops:ConveyanceEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for baggage conveyors that transport luggage throughout the airport's baggage handling system."
+  }
 }

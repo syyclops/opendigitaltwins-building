@@ -18,7 +18,10 @@
       },
       "name": "address",
       "schema": "dtmi:com:syyclops:Address;1",
-      "@id": "dtmi:com:syyclops:OutdoorArea:address;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:address;1",
+      "description": {
+        "en": "Specifies the address component of the Outdoor Area interface, detailing its physical location."
+      }
     },
     {
       "@type": "Property",
@@ -28,7 +31,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:OutdoorArea:type;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:type;1",
+      "description": {
+        "en": "Defines the type property of the Outdoor Area interface, categorizing its designated function."
+      }
     },
     {
       "@type": "Component",
@@ -37,7 +43,10 @@
         "en": "Time Zone"
       },
       "schema": "dtmi:com:syyclops:TimeZone;1",
-      "@id": "dtmi:com:syyclops:OutdoorArea:timeZone;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:timeZone;1",
+      "description": {
+        "en": "Identifies the time zone component of the Outdoor Area interface, influencing time calculations."
+      }
     },
     {
       "@type": "Property",
@@ -71,7 +80,10 @@
           "en": "Outdoor Area Coordinates"
         }
       },
-      "@id": "dtmi:com:syyclops:OutdoorArea:coordinates;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:coordinates;1",
+      "description": {
+        "en": "Represents the geographical coordinates property of the Outdoor Area interface, providing location details."
+      }
     },
     {
       "@type": "Property",
@@ -81,7 +93,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:OutdoorArea:constructionStartDate;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:constructionStartDate;1",
+      "description": {
+        "en": "Indicates the construction start date property of the Outdoor Area interface, marking initial construction activities."
+      }
     },
     {
       "@type": "Property",
@@ -91,7 +106,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:OutdoorArea:constructionCompletionDate;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:constructionCompletionDate;1",
+      "description": {
+        "en": "Specifies the construction completion date property of the Outdoor Area interface, signifying project finish."
+      }
     },
     {
       "@type": "Property",
@@ -101,7 +119,10 @@
       },
       "writable": true,
       "schema": "date",
-      "@id": "dtmi:com:syyclops:OutdoorArea:dateOpened;1"
+      "@id": "dtmi:com:syyclops:OutdoorArea:dateOpened;1",
+      "description": {
+        "en": "Denotes the date opened property of the Outdoor Area interface, indicating when the area was made accessible."
+      }
     },
     {
       "@type": "Property",
@@ -126,17 +147,26 @@
         {
           "enumValue": "Design",
           "name": "Design",
-          "@id": "dtmi:com:syyclops:OutdoorArea:Design;1"
+          "@id": "dtmi:com:syyclops:OutdoorArea:Design;1",
+          "description": {
+            "en": "Represents an enumeration value within the Outdoor Area schema, categorizing design types."
+          }
         },
         {
           "enumValue": "Construction",
           "name": "Construction",
-          "@id": "dtmi:com:syyclops:OutdoorArea:Construction;1"
+          "@id": "dtmi:com:syyclops:OutdoorArea:Construction;1",
+          "description": {
+            "en": "Defines an enumeration value within the Outdoor Area schema pertaining to construction categories."
+          }
         },
         {
           "enumValue": "Operational",
           "name": "Operational",
-          "@id": "dtmi:com:syyclops:OutdoorArea:Operational;1"
+          "@id": "dtmi:com:syyclops:OutdoorArea:Operational;1",
+          "description": {
+            "en": "Indicates an enumeration value within the Outdoor Area schema related to operational status."
+          }
         }
       ],
       "displayName": {

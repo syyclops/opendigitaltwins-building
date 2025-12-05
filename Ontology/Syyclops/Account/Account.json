@@ -16,7 +16,10 @@
         "en": "is held by"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Account:isHeldBy;1"
+      "@id": "dtmi:com:syyclops:Account:isHeldBy;1",
+      "description": {
+        "en": "Defines a relationship indicating ownership of an Account by an Agent."
+      }
     },
     {
       "@type": "Relationship",
@@ -25,7 +28,10 @@
         "en": "is provided by"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Account:isProvidedBy;1"
+      "@id": "dtmi:com:syyclops:Account:isProvidedBy;1",
+      "description": {
+        "en": "Indicates the Agent responsible for providing the Account."
+      }
     },
     {
       "@type": "Relationship",
@@ -34,7 +40,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Account:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Account:hasDocument;1",
+      "description": {
+        "en": "Establishes a relationship linking an Account to its associated Document."
+      }
     },
     {
       "@type": "Relationship",
@@ -80,7 +89,10 @@
         "@id": "dtmi:com:syyclops:Account:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Account:customTags;1"
+      "@id": "dtmi:com:syyclops:Account:customTags;1",
+      "description": {
+        "en": "Holds user-defined tags for classification and management of the Account."
+      }
     },
     {
       "@type": "Property",
@@ -103,7 +115,10 @@
         "@id": "dtmi:com:syyclops:Account:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Account:externalIds;1"
+      "@id": "dtmi:com:syyclops:Account:externalIds;1",
+      "description": {
+        "en": "Stores external identifiers associated with the Account for cross-referencing."
+      }
     },
     {
       "@type": "Property",
@@ -117,7 +132,10 @@
         "elementSchema": "dtmi:com:syyclops:AccountMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Account:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Account:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Account:mappedIds;1",
+      "description": {
+        "en": "Contains identifiers that map the Account to external systems or databases."
+      }
     },
     {
       "@type": "Property",
@@ -127,7 +145,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Account:name;1"
+      "@id": "dtmi:com:syyclops:Account:name;1",
+      "description": {
+        "en": "Represents the name of the Account for identification purposes."
+      }
     },
     {
       "@type": "Property",
@@ -137,7 +158,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Account:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Account:uniqueID;1",
+      "description": {
+        "en": "Provides a unique identifier for the Account for internal reference."
+      }
     },
     {
       "@type": "Property",
@@ -147,7 +171,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Account:externalID;1"
+      "@id": "dtmi:com:syyclops:Account:externalID;1",
+      "description": {
+        "en": "Contains an external ID for the Account, aiding in cross-system integration."
+      }
     },
     {
       "@type": "Property",
@@ -157,7 +184,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Account:code;1"
+      "@id": "dtmi:com:syyclops:Account:code;1",
+      "description": {
+        "en": "Holds a code for the Account, typically used for categorization."
+      }
     },
     {
       "@type": "Property",
@@ -167,7 +197,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Account:description;1"
+      "@id": "dtmi:com:syyclops:Account:description;1",
+      "description": {
+        "en": "Provides a description of the Account detailing its purpose and features."
+      }
     },
     {
       "@type": "Property",
@@ -177,7 +210,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Account:siteID;1"
+      "@id": "dtmi:com:syyclops:Account:siteID;1",
+      "description": {
+        "en": "Represents the identifier of the site related to the Account."
+      }
     },
     {
       "@type": "Property",
@@ -208,7 +244,10 @@
         ],
         "@id": "dtmi:com:syyclops:Account:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Account:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Account:alternateClassification;1",
+      "description": {
+        "en": "Holds an alternative classification for the Account, enhancing categorization."
+      }
     },
     {
       "@type": "Property",
@@ -243,7 +282,10 @@
         },
         "@id": "dtmi:com:syyclops:Account:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Account:customProperties;1"
+      "@id": "dtmi:com:syyclops:Account:customProperties;1",
+      "description": {
+        "en": "Stores additional user-defined properties for expanding Account details."
+      }
     }
   ],
   "schemas": [

@@ -40,7 +40,10 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:Phase1;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:Phase1;1",
+      "description": {
+        "en": "Property representing the first phase of a 2-pole electrical circuit."
+      }
     },
     {
       "@type": "Property",
@@ -74,10 +77,16 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:ES2;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:Phase2;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:Phase2;1",
+      "description": {
+        "en": "Property representing the second phase of a 2-pole electrical circuit."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a 2-pole electrical circuit, defining common properties and behaviors."
+  }
 }

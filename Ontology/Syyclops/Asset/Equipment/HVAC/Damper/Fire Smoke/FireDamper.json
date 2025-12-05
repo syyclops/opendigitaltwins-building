@@ -20,11 +20,17 @@
       "schema": "double",
       "unit": "hour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FireDamper:fireRating;1"
+      "@id": "dtmi:com:syyclops:FireDamper:fireRating;1",
+      "description": {
+        "en": "The fireRating property specifies the fire resistance level of a Fire Damper in HVAC applications."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "This interface defines a Fire Damper, designed to prevent the spread of fire and smoke through ductwork in HVAC systems."
+  }
 }

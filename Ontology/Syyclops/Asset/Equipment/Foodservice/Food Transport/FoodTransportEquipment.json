@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Food Transport Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodserviceEquipment;1",
     "dtmi:com:syyclops:TransportEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for food transport equipment, designed for safely moving food items within a facility."
+  }
 }

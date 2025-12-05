@@ -23,7 +23,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:Evaporator:designEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designEnteringWaterTemperature;1",
+      "description": {
+        "en": "Represents the design entering water temperature for the evaporator."
+      }
     },
     {
       "@type": [
@@ -38,7 +41,10 @@
       "annotates": "designEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:Evaporator:designEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design entering water temperature in the evaporator."
+      }
     },
     {
       "@type": [
@@ -51,7 +57,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:Evaporator:designLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designLeavingWaterTemperature;1",
+      "description": {
+        "en": "Denotes the design leaving water temperature for the evaporator."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "annotates": "designLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:Evaporator:designLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the design leaving water temperature in the evaporator."
+      }
     },
     {
       "@type": [
@@ -79,7 +91,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:Evaporator:designDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designDeltaWaterTemperature;1",
+      "description": {
+        "en": "Defines the temperature difference between entering and leaving water in the evaporator."
+      }
     },
     {
       "@type": [
@@ -94,7 +109,10 @@
       "annotates": "designDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:Evaporator:designDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design delta water temperature in the evaporator."
+      }
     },
     {
       "@type": [
@@ -108,7 +126,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Evaporator:designFlow;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designFlow;1",
+      "description": {
+        "en": "Represents the flow rate of water designed for the evaporator."
+      }
     },
     {
       "@type": [
@@ -124,7 +145,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Evaporator:designFlowUnit;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designFlowUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the design flow rate in the evaporator."
+      }
     },
     {
       "@type": [
@@ -138,7 +162,10 @@
       "schema": "double",
       "unit": "kilopascal",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Evaporator:designPressureDrop;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designPressureDrop;1",
+      "description": {
+        "en": "Denotes the pressure drop designed for the evaporator."
+      }
     },
     {
       "@type": [
@@ -154,7 +181,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Evaporator:designPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:Evaporator:designPressureDropUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design pressure drop in the evaporator."
+      }
     }
   ],
   "@context": [

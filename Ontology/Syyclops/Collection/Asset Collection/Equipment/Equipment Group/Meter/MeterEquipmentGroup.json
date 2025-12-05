@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Meter Equipment Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:EquipmentGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for a collection of metering equipment in asset management."
+  }
 }

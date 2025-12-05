@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:AirCompressorDryer:capacity;1"
+      "@id": "dtmi:com:syyclops:AirCompressorDryer:capacity;1",
+      "description": {
+        "en": "The capacity property specifies the maximum output drying capacity of the air compressor dryer, usually expressed in cubic feet per minute."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressorDryer:capacityUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressorDryer:capacityUnit;1",
+      "description": {
+        "en": "The capacityUnit property defines the unit of measurement used for the capacity of the air compressor dryer."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressorDryer:workingPressure;1"
+      "@id": "dtmi:com:syyclops:AirCompressorDryer:workingPressure;1",
+      "description": {
+        "en": "The workingPressure property represents the operating pressure at which the air compressor dryer functions efficiently."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressorDryer:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressorDryer:workingPressureUnit;1",
+      "description": {
+        "en": "The workingPressureUnit property indicates the unit in which the working pressure of the air compressor dryer is measured."
+      }
     }
   ],
   "@context": [
@@ -74,5 +86,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The AirCompressorDryer interface encompasses properties and operations for managing the performance of compressed air dryers."
+  }
 }

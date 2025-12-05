@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Shoulder Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:TaxiwayAirfieldPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface describing shoulder markings on taxiways to enhance aircraft safety and visibility."
+  }
 }

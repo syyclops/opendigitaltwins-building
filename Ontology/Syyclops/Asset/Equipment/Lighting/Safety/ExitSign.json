@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Exit Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SafetyLighting;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for exit signs that indicate evacuation routes during emergencies."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Plumbing Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Equipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface encompasses all plumbing-related equipment within the asset hierarchy."
+  }
 }

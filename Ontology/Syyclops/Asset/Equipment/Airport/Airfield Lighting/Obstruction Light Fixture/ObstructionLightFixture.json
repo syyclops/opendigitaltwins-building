@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Obstruction Light Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldLightingEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Obstruction Light Fixture interface designates lighting used to mark obstacles near air operations."
+  }
 }

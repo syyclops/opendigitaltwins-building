@@ -5,10 +5,11 @@
     "en": "Headwall"
   },
   "extends": "dtmi:com:syyclops:StormSewerOutlet;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for headwall structures that support storm sewer outlets, directing flow into receiving bodies."
+  }
 }

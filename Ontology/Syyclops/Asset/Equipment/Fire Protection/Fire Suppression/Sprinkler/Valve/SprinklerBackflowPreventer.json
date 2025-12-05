@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Backflow Preventer (Sprinkler)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SprinklerValve;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for a Backflow Preventer that protects water supply from contamination."
+  }
 }

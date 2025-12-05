@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Space Component"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Component;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The SpaceComponent interface serves as a blueprint for defining various components in a space."
+  }
 }

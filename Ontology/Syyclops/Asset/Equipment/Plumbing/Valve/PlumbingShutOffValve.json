@@ -37,10 +37,16 @@
         "@id": "dtmi:com:syyclops:PlumbingShutOffValve:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:PlumbingShutOffValve:type;1"
+      "@id": "dtmi:com:syyclops:PlumbingShutOffValve:type;1",
+      "description": {
+        "en": "Denotes the type of the plumbing shut-off valve within the plumbing equipment hierarchy."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "A plumbing shut-off valve interface designed to control liquid flow in plumbing systems."
+  }
 }

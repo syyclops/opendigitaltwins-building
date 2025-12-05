@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSensor;1"
+      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSensor;1",
+      "description": {
+        "en": "Represents the temperature sensor property of the SpaceTemperature interface."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSensorUnit;1"
+      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSensorUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement used by the temperature sensor in the SpaceTemperature interface."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "writable": true,
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSetpoint;1"
+      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSetpoint;1",
+      "description": {
+        "en": "Indicates the desired temperature setpoint property within the SpaceTemperature interface."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSetpointUnit;1"
+      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureSetpointUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the temperature setpoint in the SpaceTemperature interface."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "writable": true,
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureDelta;1"
+      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureDelta;1",
+      "description": {
+        "en": "Represents the temperature delta property that tracks deviations in temperature within the SpaceTemperature interface."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureDeltaUnit;1"
+      "@id": "dtmi:com:syyclops:SpaceTemperature:temperatureDeltaUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the temperature delta in the SpaceTemperature interface."
+      }
     }
   ],
   "@context": [
@@ -104,5 +122,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the SpaceTemperature interface for monitoring and controlling ambient temperature."
+  }
 }

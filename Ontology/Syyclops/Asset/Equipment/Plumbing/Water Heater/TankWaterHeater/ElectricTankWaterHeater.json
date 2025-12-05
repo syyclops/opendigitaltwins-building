@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricTankWaterHeater:powerInput;1"
+      "@id": "dtmi:com:syyclops:ElectricTankWaterHeater:powerInput;1",
+      "description": {
+        "en": "Represents the power input of the electric tank water heater based on energy consumption."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricTankWaterHeater:powerInputUnit;1"
+      "@id": "dtmi:com:syyclops:ElectricTankWaterHeater:powerInputUnit;1",
+      "description": {
+        "en": "Specifies the measurement unit for the power input of the electric tank water heater."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for electric tank water heaters, managing hot water storage and delivery."
+  }
 }

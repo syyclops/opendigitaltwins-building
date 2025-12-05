@@ -4,16 +4,17 @@
   "displayName": {
     "en": "Absorption Chiller"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Chiller;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The AbsorptionChiller interface specifies an HVAC system using heat absorption for producing chilled water."
+  }
 }

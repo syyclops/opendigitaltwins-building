@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Refrigerator"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodStorageRefrigerationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a refrigerator, utilized to keep food fresh by maintaining cool temperatures."
+  }
 }

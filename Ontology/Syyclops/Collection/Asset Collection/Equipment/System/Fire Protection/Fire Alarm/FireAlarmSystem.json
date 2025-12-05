@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fire Alarm System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireProtectionSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface denoting the structure and functionality of a fire alarm system."
+  }
 }

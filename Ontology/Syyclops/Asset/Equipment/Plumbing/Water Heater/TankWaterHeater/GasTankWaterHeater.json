@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasTankWaterHeater:powerInput;1"
+      "@id": "dtmi:com:syyclops:GasTankWaterHeater:powerInput;1",
+      "description": {
+        "en": "Indicates the power input of the gas tank water heater for energy regulation."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasTankWaterHeater:powerInputUnit;1"
+      "@id": "dtmi:com:syyclops:GasTankWaterHeater:powerInputUnit;1",
+      "description": {
+        "en": "Defines the measurement unit for the gas tank water heater's power input."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for gas tank water heaters, facilitating the management of hot water production."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Pavement Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface detailing airfield pavement markings on taxiways for improved aircraft movement safety."
+  }
 }

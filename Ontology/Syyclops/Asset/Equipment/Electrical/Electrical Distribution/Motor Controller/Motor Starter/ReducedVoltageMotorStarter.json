@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Reduced Voltage Motor Starter"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:MotorStarter;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for reduced voltage motor starters, designed to minimize inrush current during motor startup, enhancing longevity."
+  }
 }

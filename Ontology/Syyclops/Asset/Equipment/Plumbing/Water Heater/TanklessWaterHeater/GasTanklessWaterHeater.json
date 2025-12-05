@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasTanklessWaterHeater:powerInput;1"
+      "@id": "dtmi:com:syyclops:GasTanklessWaterHeater:powerInput;1",
+      "description": {
+        "en": "Indicates the power input of the gas tankless water heater, critical for operation."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:GasTanklessWaterHeater:powerInputUnit;1"
+      "@id": "dtmi:com:syyclops:GasTanklessWaterHeater:powerInputUnit;1",
+      "description": {
+        "en": "Defines the measurement unit for the gas tankless water heater's power input."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for gas tankless water heaters, providing continuous hot water without storage."
+  }
 }

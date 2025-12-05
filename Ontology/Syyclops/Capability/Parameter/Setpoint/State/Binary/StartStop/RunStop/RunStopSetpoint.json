@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Run/Stop Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StartStopSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the run/stop control setpoint for systems requiring binary operational status."
+  }
 }

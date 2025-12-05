@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Ejector Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingPump;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface describes the ejector pump used for removing water from low-lying areas."
+  }
 }

@@ -40,7 +40,10 @@
       "name": "createdDateTime",
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:createdDateTime;1"
+      "@id": "dtmi:com:syyclops:Event:createdDateTime;1",
+      "description": {
+        "en": "Denotes the timestamp when the event was created."
+      }
     },
     {
       "@type": "Property",
@@ -50,7 +53,10 @@
       "name": "updatedDateTime",
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:updatedDateTime;1"
+      "@id": "dtmi:com:syyclops:Event:updatedDateTime;1",
+      "description": {
+        "en": "Records the timestamp when the event was last updated."
+      }
     },
     {
       "@type": "Property",
@@ -60,7 +66,10 @@
       "name": "cancelledDateTime",
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:cancelledDateTime;1"
+      "@id": "dtmi:com:syyclops:Event:cancelledDateTime;1",
+      "description": {
+        "en": "Captures the timestamp when the event was cancelled."
+      }
     },
     {
       "@type": "Property",
@@ -70,7 +79,10 @@
       "name": "startDateTime",
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:startDateTime;1"
+      "@id": "dtmi:com:syyclops:Event:startDateTime;1",
+      "description": {
+        "en": "Marks the start date and time of the event."
+      }
     },
     {
       "@type": "Property",
@@ -80,7 +92,10 @@
       "name": "endDateTime",
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:endDateTime;1"
+      "@id": "dtmi:com:syyclops:Event:endDateTime;1",
+      "description": {
+        "en": "Indicates the end date and time of the event."
+      }
     },
     {
       "@type": "Property",
@@ -103,7 +118,10 @@
         "@id": "dtmi:com:syyclops:Event:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:customTags;1"
+      "@id": "dtmi:com:syyclops:Event:customTags;1",
+      "description": {
+        "en": "Holds user-defined tags associated with the event."
+      }
     },
     {
       "@type": "Property",
@@ -126,7 +144,10 @@
         "@id": "dtmi:com:syyclops:Event:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:externalIds;1"
+      "@id": "dtmi:com:syyclops:Event:externalIds;1",
+      "description": {
+        "en": "Contains external identifiers linked to the event from different systems."
+      }
     },
     {
       "@type": "Property",
@@ -140,7 +161,10 @@
         "elementSchema": "dtmi:com:syyclops:EventMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Event:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Event:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Event:mappedIds;1",
+      "description": {
+        "en": "Houses identifiers that map to other related IDs within the event context."
+      }
     },
     {
       "@type": "Property",
@@ -163,7 +187,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Event:name;1"
+      "@id": "dtmi:com:syyclops:Event:name;1",
+      "description": {
+        "en": "Provides the name of the event for identification purposes."
+      }
     },
     {
       "@type": "Property",
@@ -173,7 +200,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Event:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Event:uniqueID;1",
+      "description": {
+        "en": "Represents a unique identifier for the event."
+      }
     },
     {
       "@type": "Property",
@@ -183,7 +213,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Event:externalID;1"
+      "@id": "dtmi:com:syyclops:Event:externalID;1",
+      "description": {
+        "en": "Specifies an external ID associated with the event."
+      }
     },
     {
       "@type": "Property",
@@ -193,7 +226,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Event:code;1"
+      "@id": "dtmi:com:syyclops:Event:code;1",
+      "description": {
+        "en": "Contains a code that categorizes or identifies the event type."
+      }
     },
     {
       "@type": "Property",
@@ -203,7 +239,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Event:description;1"
+      "@id": "dtmi:com:syyclops:Event:description;1",
+      "description": {
+        "en": "Offers a textual description that provides insight into the event."
+      }
     },
     {
       "@type": "Property",
@@ -213,7 +252,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Event:siteID;1"
+      "@id": "dtmi:com:syyclops:Event:siteID;1",
+      "description": {
+        "en": "Identifies the specific site location associated with the event."
+      }
     },
     {
       "@type": "Property",
@@ -224,7 +266,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Willow Connector identifier which manages the Capabiltiy",
-      "@id": "dtmi:com:syyclops:Event:connectorID;1"
+      "@id": "dtmi:com:syyclops:Event:connectorID;1",
+      "description": {
+        "en": "Indicates the identifier for the connector relevant to the event."
+      }
     },
     {
       "@type": "Property",
@@ -255,7 +300,10 @@
         ],
         "@id": "dtmi:com:syyclops:Event:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Event:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Event:alternateClassification;1",
+      "description": {
+        "en": "Allows for an alternative classification type for categorizing the event."
+      }
     },
     {
       "@type": "Property",
@@ -290,7 +338,10 @@
         },
         "@id": "dtmi:com:syyclops:Event:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Event:customProperties;1"
+      "@id": "dtmi:com:syyclops:Event:customProperties;1",
+      "description": {
+        "en": "Stores additional user-defined properties associated with the event."
+      }
     },
     {
       "@type": "Property",
@@ -300,7 +351,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Event:active;1"
+      "@id": "dtmi:com:syyclops:Event:active;1",
+      "description": {
+        "en": "Indicates whether the Event is currently active."
+      }
     }
   ],
   "schemas": [

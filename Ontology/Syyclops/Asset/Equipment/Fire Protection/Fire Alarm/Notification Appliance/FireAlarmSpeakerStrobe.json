@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Fire Alarm Speaker Strobe"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireAlarmSpeaker;1",
     "dtmi:com:syyclops:FireAlarmStrobe;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a device that combines a fire alarm speaker and strobe light for dual notification capabilities."
+  }
 }

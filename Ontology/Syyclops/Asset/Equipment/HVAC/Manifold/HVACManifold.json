@@ -4,14 +4,15 @@
   "displayName": {
     "en": "HVAC Manifold"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACEquipment;1",
     "dtmi:com:syyclops:Manifold;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for HVAC manifold equipment, distributing fluids within heating and cooling systems."
+  }
 }

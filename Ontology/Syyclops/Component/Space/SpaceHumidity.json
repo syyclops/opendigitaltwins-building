@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "percent",
-      "@id": "dtmi:com:syyclops:SpaceHumidity:humiditySensor;1"
+      "@id": "dtmi:com:syyclops:SpaceHumidity:humiditySensor;1",
+      "description": {
+        "en": "The humiditySensor property tracks the current humidity level within the space."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "writable": true,
       "schema": "double",
       "unit": "percent",
-      "@id": "dtmi:com:syyclops:SpaceHumidity:humiditySetpoint;1"
+      "@id": "dtmi:com:syyclops:SpaceHumidity:humiditySetpoint;1",
+      "description": {
+        "en": "The humiditySetpoint property defines the target humidity level to be maintained in the space."
+      }
     },
     {
       "@type": [
@@ -48,11 +54,17 @@
       "writable": true,
       "schema": "double",
       "unit": "percent",
-      "@id": "dtmi:com:syyclops:SpaceHumidity:humidityDelta;1"
+      "@id": "dtmi:com:syyclops:SpaceHumidity:humidityDelta;1",
+      "description": {
+        "en": "The humidityDelta property indicates the difference between current humidity and setpoint."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "The SpaceHumidity interface defines properties associated with humidity levels in a space."
+  }
 }

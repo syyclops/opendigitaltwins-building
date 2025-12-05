@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fryer"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CookingEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for fryers used in cooking, providing insights into oil temperature and cooking duration."
+  }
 }

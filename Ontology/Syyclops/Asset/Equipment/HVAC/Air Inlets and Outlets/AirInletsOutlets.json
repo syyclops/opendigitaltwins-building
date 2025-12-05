@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Air Inlets and Outlets"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACEquipment;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface covers the management of air inlets and outlets within HVAC systems, ensuring proper air distribution."
+  }
 }

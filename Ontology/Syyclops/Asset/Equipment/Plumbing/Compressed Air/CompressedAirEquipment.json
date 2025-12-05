@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Compressed Air Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The CompressedAirEquipment interface includes properties and operations relevant to managing various compressed air systems."
+  }
 }

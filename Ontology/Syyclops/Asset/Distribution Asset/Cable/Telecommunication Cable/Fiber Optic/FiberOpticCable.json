@@ -16,10 +16,16 @@
       "name": "fiberStrandCount",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FiberOpticCable:fiberStrandCount;1"
+      "@id": "dtmi:com:syyclops:FiberOpticCable:fiberStrandCount;1",
+      "description": {
+        "en": "The fiberStrandCount property indicates the number of individual fibers within the fiber optic cable."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The FiberOpticCable interface defines a cable type that transmits data as light signals."
+  }
 }

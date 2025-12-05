@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Treadmill"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CardioFitnessEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for a Treadmill utilized for indoor running or jogging exercises."
+  }
 }

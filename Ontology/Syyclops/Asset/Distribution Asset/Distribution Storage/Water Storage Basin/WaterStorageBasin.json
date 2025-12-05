@@ -5,10 +5,11 @@
     "en": "Water Storage Basin"
   },
   "extends": "dtmi:com:syyclops:DistributionStorage;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a water storage basin within the distribution asset framework."
+  }
 }

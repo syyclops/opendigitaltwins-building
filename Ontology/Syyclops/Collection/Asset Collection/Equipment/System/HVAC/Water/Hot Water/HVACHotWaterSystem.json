@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Hot Water System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACWaterSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface regulates the operations of a HVAC hot water system for space heating and other applications."
+  }
 }

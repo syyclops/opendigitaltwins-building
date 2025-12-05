@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Aircraft"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirportVehicle;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Aircraft interface categorizes various aircraft types under the Vehicle model in the Airport context."
+  }
 }

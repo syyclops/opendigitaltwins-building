@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "unit": "litrePerHour",
-      "@id": "dtmi:com:syyclops:DrinkingWaterFixture:chillingCapacity;1"
+      "@id": "dtmi:com:syyclops:DrinkingWaterFixture:chillingCapacity;1",
+      "description": {
+        "en": "A property indicating the chilling capacity of a drinking water fixture."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:DrinkingWaterFixture:chillingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:DrinkingWaterFixture:chillingCapacityUnit;1",
+      "description": {
+        "en": "A property representing the unit of measure for the chilling capacity of a drinking water fixture."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface modeling a standard drinking water fixture within plumbing systems."
+  }
 }

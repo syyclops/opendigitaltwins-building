@@ -20,11 +20,17 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricDuctHeater:powerInput;1"
+      "@id": "dtmi:com:syyclops:ElectricDuctHeater:powerInput;1",
+      "description": {
+        "en": "Defines the power input property for electric duct heaters, indicating their energy requirements."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Describes an interface for electric duct heaters in HVAC systems, focusing on electric heating methods."
+  }
 }

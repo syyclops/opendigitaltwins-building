@@ -16,7 +16,10 @@
       "name": "numberOfPorts",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:NetworkSecurityEquipment:numberOfPorts;1"
+      "@id": "dtmi:com:syyclops:NetworkSecurityEquipment:numberOfPorts;1",
+      "description": {
+        "en": "Indicates the total number of ports available on the network security equipment."
+      }
     },
     {
       "@type": "Property",
@@ -26,10 +29,16 @@
       "name": "heightRUs",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:NetworkSecurityEquipment:heightRUs;1"
+      "@id": "dtmi:com:syyclops:NetworkSecurityEquipment:heightRUs;1",
+      "description": {
+        "en": "Specifies the height of the network security equipment in Rack Units (RUs)."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining network security equipment role in data protection."
+  }
 }

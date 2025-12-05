@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Dilution Trap"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ChemicalDilutionDrainageEquipment;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the Dilution Trap interface within chemical drainage systems."
+  }
 }

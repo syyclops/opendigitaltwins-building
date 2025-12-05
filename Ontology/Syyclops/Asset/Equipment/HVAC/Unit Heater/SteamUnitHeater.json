@@ -16,10 +16,16 @@
       "name": "condensate",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:SteamUnitHeater:condensate;1"
+      "@id": "dtmi:com:syyclops:SteamUnitHeater:condensate;1",
+      "description": {
+        "en": "Represents the condensate produced by the Steam Unit Heater."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for Steam Unit Heaters used in HVAC systems."
+  }
 }

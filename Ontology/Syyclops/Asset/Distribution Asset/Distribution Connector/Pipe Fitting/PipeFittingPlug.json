@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Plug"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingPlug interface is used to close off pipe ends, preventing the flow of fluids."
+  }
 }

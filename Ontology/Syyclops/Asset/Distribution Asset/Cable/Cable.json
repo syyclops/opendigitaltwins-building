@@ -14,7 +14,10 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Cable:material;1"
+      "@id": "dtmi:com:syyclops:Cable:material;1",
+      "description": {
+        "en": "The material property specifies the substance from which the cable is made."
+      }
     },
     {
       "@type": [
@@ -28,7 +31,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Cable:diameter;1"
+      "@id": "dtmi:com:syyclops:Cable:diameter;1",
+      "description": {
+        "en": "The diameter property defines the measurement of the cable's thickness."
+      }
     },
     {
       "@type": [
@@ -44,7 +50,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Cable:diameterUnit;1"
+      "@id": "dtmi:com:syyclops:Cable:diameterUnit;1",
+      "description": {
+        "en": "The diameterUnit property indicates the unit of measurement used for the cable diameter."
+      }
     }
   ],
   "@context": [
@@ -52,5 +61,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The Cable interface represents a type of distribution asset used for electrical or telecommunication purposes."
+  }
 }

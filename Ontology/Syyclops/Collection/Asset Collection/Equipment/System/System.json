@@ -16,7 +16,10 @@
       "name": "comment",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:System:comment;1"
+      "@id": "dtmi:com:syyclops:System:comment;1",
+      "description": {
+        "en": "A property of the System interface that allows for the inclusion of textual comments or annotations regarding the system."
+      }
     },
     {
       "@type": "Property",
@@ -57,7 +60,10 @@
         "@id": "dtmi:com:syyclops:System:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:System:service;1"
+      "@id": "dtmi:com:syyclops:System:service;1",
+      "description": {
+        "en": "A property of the System interface that identifies the services provided by the system, enabling enhanced functionality and integration."
+      }
     },
     {
       "@type": "Relationship",
@@ -74,5 +80,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the general interface for an equipment system, capturing essential attributes and methods for system management."
+  }
 }

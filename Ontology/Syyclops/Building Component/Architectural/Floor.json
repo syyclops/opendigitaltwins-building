@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Floor"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Floor interface identifies components that make up the lower horizontal structural elements in buildings."
+  }
 }

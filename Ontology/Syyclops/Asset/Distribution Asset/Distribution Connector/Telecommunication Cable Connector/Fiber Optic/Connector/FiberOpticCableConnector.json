@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Fiber Optic Cable Connector"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:TelecommunicationCableConnector;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining connectors for fiber optic cables enabling optical signal transmission."
+  }
 }

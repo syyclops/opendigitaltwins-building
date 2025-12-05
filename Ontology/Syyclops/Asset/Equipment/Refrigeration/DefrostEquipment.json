@@ -55,7 +55,10 @@
         "@id": "dtmi:com:syyclops:DefrostEquipment:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostMethod;1"
+      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostMethod;1",
+      "description": {
+        "en": "The defrost method property describes the technique used for defrosting within the refrigeration unit."
+      }
     },
     {
       "@type": [
@@ -86,7 +89,10 @@
       "annotates": "defrostTerminationTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostTerminationTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostTerminationTemperatureUnit;1",
+      "description": {
+        "en": "The defrost termination temperature unit specifies the measurement unit for the temperature at which defrosting completes."
+      }
     },
     {
       "@type": [
@@ -117,7 +123,10 @@
       "annotates": "defrostStartInterval",
       "overrides": "unit",
       "schema": "TimeUnit",
-      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostStartIntervalUnit;1"
+      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostStartIntervalUnit;1",
+      "description": {
+        "en": "The defrost start interval unit indicates the measurement unit for timing the interval until defrosting begins."
+      }
     },
     {
       "@type": [
@@ -148,7 +157,10 @@
       "annotates": "defrostMaxDuration",
       "overrides": "unit",
       "schema": "TimeUnit",
-      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostMaxDurationUnit;1"
+      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostMaxDurationUnit;1",
+      "description": {
+        "en": "The defrost maximum duration unit denotes the unit of time for the maximum allowed defrosting period."
+      }
     },
     {
       "@type": "Property",
@@ -179,7 +191,10 @@
         "@id": "dtmi:com:syyclops:DefrostEquipment:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostStartMethod;1"
+      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostStartMethod;1",
+      "description": {
+        "en": "The defrost start method property specifies the approach used to initiate the defrost process."
+      }
     },
     {
       "@type": "Property",
@@ -210,7 +225,10 @@
         "@id": "dtmi:com:syyclops:DefrostEquipment:ES3;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostStopMethod;1"
+      "@id": "dtmi:com:syyclops:DefrostEquipment:defrostStopMethod;1",
+      "description": {
+        "en": "The defrost stop method outlines the process for halting defrost operations within the equipment."
+      }
     }
   ],
   "@context": [

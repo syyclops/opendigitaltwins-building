@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Header Steam Pump Run Level State"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SteamPumpRunLevelState;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Denotes the current run level state of the header steam pump, expressed as a percentage."
+  }
 }

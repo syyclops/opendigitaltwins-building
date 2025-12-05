@@ -65,7 +65,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:hasDocument;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:hasDocument;1",
+      "description": {
+        "en": "Represents a relationship indicating that a nonphysical space opening is associated with a specific document."
+      }
     },
     {
       "@type": "Property",
@@ -88,7 +91,10 @@
         "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:externalIds;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:externalIds;1",
+      "description": {
+        "en": "Stores external identifiers for the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -102,7 +108,10 @@
         "elementSchema": "dtmi:com:syyclops:NonphysicalSpaceOpeningMappedIdObject;1",
         "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:AS2;1"
       },
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:mappedIds;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:mappedIds;1",
+      "description": {
+        "en": "Contains mapped identifiers associated with the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -112,7 +121,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:name;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:name;1",
+      "description": {
+        "en": "Defines the name of the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -122,7 +134,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:uniqueID;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:uniqueID;1",
+      "description": {
+        "en": "Specifies a unique identifier for the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -132,7 +147,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:externalID;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:externalID;1",
+      "description": {
+        "en": "Holds an external ID for referencing the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -142,7 +160,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:description;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:description;1",
+      "description": {
+        "en": "Provides a textual description of the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -152,7 +173,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:siteID;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:siteID;1",
+      "description": {
+        "en": "Indicates the site ID to which the nonphysical space opening belongs."
+      }
     },
     {
       "@type": "Property",
@@ -163,7 +187,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference of the land (i.e. campus, site, airport) to which the asset belongs. A Customer has one or many Lands. Land is considered the top-level entity for binding airport twins.",
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:landId;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:landId;1",
+      "description": {
+        "en": "References the land ID associated with the nonphysical space opening."
+      }
     },
     {
       "@type": "Property",
@@ -198,7 +225,10 @@
         },
         "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:MS3;1"
       },
-      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:customProperties;1"
+      "@id": "dtmi:com:syyclops:NonphysicalSpaceOpening:customProperties;1",
+      "description": {
+        "en": "Allows for the definition of custom properties specific to the nonphysical space opening."
+      }
     }
   ],
   "schemas": [

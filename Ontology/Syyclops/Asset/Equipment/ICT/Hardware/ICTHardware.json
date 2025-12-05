@@ -35,10 +35,16 @@
         }
       ],
       "target": "dtmi:com:syyclops:ITRack;1",
-      "@id": "dtmi:com:syyclops:ICTHardware:mountedInRack;1"
+      "@id": "dtmi:com:syyclops:ICTHardware:mountedInRack;1",
+      "description": {
+        "en": "Defines the relationship indicating that ICT hardware is mounted in a specified rack."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing ICT hardware items, encompassing various computing devices."
+  }
 }

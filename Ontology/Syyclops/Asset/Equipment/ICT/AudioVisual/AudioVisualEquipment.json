@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Audio Visual Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ICTEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing audio-visual equipment in ICT systems."
+  }
 }

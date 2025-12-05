@@ -12,7 +12,10 @@
   ],
   "contents": [
     {
-      "@type": ["Telemetry", "RelativeHumidity"],
+      "@type": [
+        "Telemetry",
+        "RelativeHumidity"
+      ],
       "@id": "dtmi:com:syyclops:AirHumiditySensor:relativeHumidity;1",
       "name": "relativeHumidity",
       "displayName": {
@@ -25,7 +28,11 @@
       "unit": "percent"
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "@id": "dtmi:com:syyclops:AirHumiditySensor:relativeHumidityUnit;1",
       "name": "relativeHumidityUnit",
       "displayName": {
@@ -34,7 +41,10 @@
       "schema": "Unitless",
       "writable": true,
       "annotates": "relativeHumidity",
-      "overrides": "unit"
+      "overrides": "unit",
+      "description": {
+        "en": "The relativeHumidityUnit property specifies the unit of measurement for relative humidity sampled by the Air Humidity Sensor, typically expressed in percentage (%)."
+      }
     }
   ],
   "@context": [

@@ -12,7 +12,10 @@
   ],
   "contents": [
     {
-      "@type": ["Telemetry", "Concentration"],
+      "@type": [
+        "Telemetry",
+        "Concentration"
+      ],
       "@id": "dtmi:com:syyclops:CO2AirQualitySensor:co2;1",
       "name": "co2",
       "displayName": {
@@ -25,7 +28,11 @@
       "unit": "partsPerMillion"
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "@id": "dtmi:com:syyclops:CO2AirQualitySensor:co2Unit;1",
       "name": "co2Unit",
       "displayName": {
@@ -34,7 +41,10 @@
       "schema": "Unitless",
       "writable": true,
       "annotates": "co2",
-      "overrides": "unit"
+      "overrides": "unit",
+      "description": {
+        "en": "The co2Unit property denotes the unit of measurement for carbon dioxide levels in CO2 air quality sensors."
+      }
     }
   ],
   "@context": [

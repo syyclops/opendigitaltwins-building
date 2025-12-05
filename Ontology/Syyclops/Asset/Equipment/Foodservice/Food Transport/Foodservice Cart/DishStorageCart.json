@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Dish Storage Cart"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodserviceCart;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a cart designed for the storage and transport of dishes in foodservice environments."
+  }
 }

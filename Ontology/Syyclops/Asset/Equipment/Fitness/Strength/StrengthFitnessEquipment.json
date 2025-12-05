@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Strength Fitness Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FitnessEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for strength fitness equipment, providing specifications and data for tracking performance metrics."
+  }
 }

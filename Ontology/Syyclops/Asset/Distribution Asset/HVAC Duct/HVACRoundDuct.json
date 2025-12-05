@@ -18,7 +18,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACRoundDuct:diameter;1"
+      "@id": "dtmi:com:syyclops:HVACRoundDuct:diameter;1",
+      "description": {
+        "en": "A property indicating the diameter dimension of an HVAC round duct."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HVACRoundDuct:diameterUnit;1"
+      "@id": "dtmi:com:syyclops:HVACRoundDuct:diameterUnit;1",
+      "description": {
+        "en": "A property that describes the unit of measurement for the diameter of the HVAC round duct."
+      }
     }
   ],
   "@context": [
@@ -42,5 +48,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for HVAC round duct systems, organized within the distribution asset hierarchy."
+  }
 }

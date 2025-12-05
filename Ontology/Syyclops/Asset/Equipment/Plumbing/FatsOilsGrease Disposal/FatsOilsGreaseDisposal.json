@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Fats, Oils, and Grease Disposal"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipment;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The FatsOilsGreaseDisposal interface outlines properties for the management of waste containing fats, oils, and grease in plumbing."
+  }
 }

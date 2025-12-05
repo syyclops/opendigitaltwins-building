@@ -4,14 +4,15 @@
   "displayName": {
     "en": "HVAC Valve"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACEquipment;1",
     "dtmi:com:syyclops:Valve;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining a generic valve utilized in HVAC systems for flow control."
+  }
 }

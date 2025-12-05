@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Steam Meter"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ThermalMeter;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the interface for a Steam Meter used for measuring steam flow."
+  }
 }

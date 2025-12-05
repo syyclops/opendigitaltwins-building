@@ -38,10 +38,16 @@
         "@id": "dtmi:com:syyclops:SinglemodeFiberOpticPatchCord:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:SinglemodeFiberOpticPatchCord:performanceRating;1"
+      "@id": "dtmi:com:syyclops:SinglemodeFiberOpticPatchCord:performanceRating;1",
+      "description": {
+        "en": "Property indicating the performance rating of the Singlemode Fiber Optic Patch Cord interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Singlemode Fiber Optic Patch Cord for telecommunication operations."
+  }
 }

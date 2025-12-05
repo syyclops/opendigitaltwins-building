@@ -5,10 +5,11 @@
     "en": "Distribution Raceway"
   },
   "extends": "dtmi:com:syyclops:DistributionAsset;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for the distribution raceway within the asset structure."
+  }
 }

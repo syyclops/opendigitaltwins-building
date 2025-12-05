@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnitReheat:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnitReheat:nominalHeatingCapacity;1",
+      "description": {
+        "en": "The nominalHeatingCapacity property outlines the standard heating capacity of the reheat feature in the Fan Coil Unit."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanCoilUnitReheat:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnitReheat:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "The nominalHeatingCapacityUnit property conveys the measurement unit for the nominal heating capacity."
+      }
     },
     {
       "@type": "Component",
@@ -45,7 +51,10 @@
       },
       "name": "reHeatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:FanCoilUnitReheat:reHeatingMethod;1"
+      "@id": "dtmi:com:syyclops:FanCoilUnitReheat:reHeatingMethod;1",
+      "description": {
+        "en": "The reHeatingMethod component details the technology employed for reheating air in the Fan Coil Unit."
+      }
     }
   ],
   "@context": [
@@ -53,5 +62,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The FanCoilUnitReheat interface encapsulates the functionalities specific to Fan Coil Units equipped with reheat capabilities."
+  }
 }

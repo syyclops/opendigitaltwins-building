@@ -17,10 +17,16 @@
       "writable": true,
       "schema": "string",
       "comment": "basic, adjustable-height",
-      "@id": "dtmi:com:syyclops:Bed:type;1"
+      "@id": "dtmi:com:syyclops:Bed:type;1",
+      "description": {
+        "en": "A property indicating the type or style of a bed."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface that represents a bed as a piece of furniture."
+  }
 }

@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Fire Alarm Chime Strobe"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireAlarmChime;1",
     "dtmi:com:syyclops:FireAlarmStrobe;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Fire Alarm Chime Strobe, combining auditory and visual notifications."
+  }
 }

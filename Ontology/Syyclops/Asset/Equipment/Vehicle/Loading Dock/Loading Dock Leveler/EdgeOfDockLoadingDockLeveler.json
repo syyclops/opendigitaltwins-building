@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Edge of Dock Loading Dock Leveler"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:LoadingDockLeveler;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for edge-of-dock levelers utilized in loading dock operations."
+  }
 }

@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Toilet:waterPerFlush;1"
+      "@id": "dtmi:com:syyclops:Toilet:waterPerFlush;1",
+      "description": {
+        "en": "Specifies the water consumption per flush for the Toilet interface."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Toilet:waterPerFlushUnit;1"
+      "@id": "dtmi:com:syyclops:Toilet:waterPerFlushUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for water per flush used by the Toilet."
+      }
     },
     {
       "@type": "Property",
@@ -62,7 +68,10 @@
         "@id": "dtmi:com:syyclops:Toilet:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Toilet:installationType;1"
+      "@id": "dtmi:com:syyclops:Toilet:installationType;1",
+      "description": {
+        "en": "Defines the type of installation for the Toilet as a plumbing fixture property."
+      }
     }
   ],
   "@context": [
@@ -70,5 +79,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the Toilet interface within the plumbing fixture hierarchy."
+  }
 }

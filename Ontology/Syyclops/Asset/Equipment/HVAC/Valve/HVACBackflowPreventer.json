@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Backflow Preventer (HVAC)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACValve;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface that defines the backflow preventer valve used to prevent reverse flow in HVAC systems."
+  }
 }

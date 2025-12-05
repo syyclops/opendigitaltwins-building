@@ -20,11 +20,17 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricUnitHeater:powerInput;1"
+      "@id": "dtmi:com:syyclops:ElectricUnitHeater:powerInput;1",
+      "description": {
+        "en": "Specifies the power input necessary for the operation of the Electric Unit Heater."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for the Electric Unit Heater, representing electric heating elements used in HVAC systems."
+  }
 }

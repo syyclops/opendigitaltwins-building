@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Tankless Water Heater"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:WaterHeater;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a Tankless Water Heater, which provides on-demand hot water without the need for a storage tank."
+  }
 }

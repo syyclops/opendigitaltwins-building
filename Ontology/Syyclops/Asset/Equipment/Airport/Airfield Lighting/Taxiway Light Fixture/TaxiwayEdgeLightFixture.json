@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Taxiway Edge Light Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:TaxiwayLightFixture;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface describes the functionality of a taxiway edge light fixture, ensuring pilots can discern the edges of taxiways."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "RSA/OFZ and Runway Approach/Departure Boundary Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:BoundarySign;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface details a boundary sign for Runway Safety Area (RSA) and Approach/Departure zones at airports."
+  }
 }

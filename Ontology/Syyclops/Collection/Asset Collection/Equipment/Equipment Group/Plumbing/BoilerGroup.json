@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Boiler Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipmentGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for boiler equipment within plumbing systems."
+  }
 }

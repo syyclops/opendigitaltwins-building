@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:minAirflowRating;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:minAirflowRating;1",
+      "description": {
+        "en": "The minAirflowRating property indicates the minimum airflow capacity rating for the Terminal Unit in CFM."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:minAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:minAirflowRatingUnit;1",
+      "description": {
+        "en": "The minAirflowRatingUnit property defines the measurement unit used for the minimum airflow rating."
+      }
     },
     {
       "@type": [
@@ -53,7 +59,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:maxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:maxAirflowRating;1",
+      "description": {
+        "en": "The maxAirflowRating property represents the maximum airflow capacity rating for the Terminal Unit in CFM."
+      }
     },
     {
       "@type": [
@@ -69,7 +78,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:maxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:maxAirflowRatingUnit;1",
+      "description": {
+        "en": "The maximum airflow rating unit specifies the highest airflow capacity for the terminal unit in HVAC systems."
+      }
     },
     {
       "@type": [
@@ -83,7 +95,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designCoolingZoneAirTemperature;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designCoolingZoneAirTemperature;1",
+      "description": {
+        "en": "The design cooling zone air temperature indicates the target temperature for a specified cooling zone within the terminal unit."
+      }
     },
     {
       "@type": [
@@ -99,7 +114,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designCoolingZoneAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designCoolingZoneAirTemperatureUnit;1",
+      "description": {
+        "en": "The design cooling zone air temperature unit denotes the measurement unit for the cooling zone temperature parameter."
+      }
     },
     {
       "@type": [
@@ -113,7 +131,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designHeatingZoneAirTemperature;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designHeatingZoneAirTemperature;1",
+      "description": {
+        "en": "The design heating zone air temperature defines the intended temperature for a specified heating zone managed by the terminal unit."
+      }
     },
     {
       "@type": [
@@ -129,7 +150,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designHeatingZoneAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designHeatingZoneAirTemperatureUnit;1",
+      "description": {
+        "en": "The design heating zone air temperature unit specifies the measurement unit for the heating zone temperature parameter."
+      }
     },
     {
       "@type": [
@@ -142,7 +166,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:TerminalUnit:designEnteringAirTemperature;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designEnteringAirTemperature;1",
+      "description": {
+        "en": "The design entering air temperature represents the target temperature of air entering the terminal unit for processing."
+      }
     },
     {
       "@type": [
@@ -157,7 +184,10 @@
       "annotates": "designEnteringAirTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:TerminalUnit:designEnteringAirTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designEnteringAirTemperatureUnit;1",
+      "description": {
+        "en": "The design entering air temperature unit indicates the measurement unit utilized for the entering air temperature parameter."
+      }
     },
     {
       "@type": [
@@ -171,7 +201,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMinAirflow;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMinAirflow;1",
+      "description": {
+        "en": "The design occupied minimum airflow specifies the lowest airflow rate for occupied spaces served by the terminal unit."
+      }
     },
     {
       "@type": [
@@ -187,7 +220,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMinAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMinAirflowUnit;1",
+      "description": {
+        "en": "The design occupied minimum airflow unit denotes the measurement unit for the minimum airflow in occupied areas."
+      }
     },
     {
       "@type": [
@@ -201,7 +237,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMaxAirflow;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMaxAirflow;1",
+      "description": {
+        "en": "The design occupied maximum airflow defines the maximum airflow rate allowed for occupied spaces managed by the terminal unit."
+      }
     },
     {
       "@type": [
@@ -217,7 +256,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMaxAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designOccupiedMaxAirflowUnit;1",
+      "description": {
+        "en": "The design occupied maximum airflow unit specifies the measurement unit for the maximum airflow in occupied areas."
+      }
     },
     {
       "@type": [
@@ -231,7 +273,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMinAirflow;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMinAirflow;1",
+      "description": {
+        "en": "The design unoccupied minimum airflow indicates the lowest permissible airflow rate when spaces are unoccupied."
+      }
     },
     {
       "@type": [
@@ -247,7 +292,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMinAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMinAirflowUnit;1",
+      "description": {
+        "en": "The design unoccupied minimum airflow unit specifies the measurement unit for the minimum airflow in unoccupied conditions."
+      }
     },
     {
       "@type": [
@@ -261,7 +309,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMaxAirflow;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMaxAirflow;1",
+      "description": {
+        "en": "The design unoccupied maximum airflow denotes the highest permissible airflow rate for unoccupied spaces served by the terminal unit."
+      }
     },
     {
       "@type": [
@@ -277,7 +328,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMaxAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:designUnoccupiedMaxAirflowUnit;1",
+      "description": {
+        "en": "The design unoccupied maximum airflow unit indicates the measurement unit for the maximum airflow in unoccupied areas."
+      }
     },
     {
       "@type": "Component",
@@ -286,7 +340,10 @@
       },
       "name": "ductInlet",
       "schema": "dtmi:com:syyclops:DuctConnection;1",
-      "@id": "dtmi:com:syyclops:TerminalUnit:ductInlet;1"
+      "@id": "dtmi:com:syyclops:TerminalUnit:ductInlet;1",
+      "description": {
+        "en": "The duct inlet component is an entry point in the terminal unit for air to be transferred into the duct system."
+      }
     },
     {
       "@type": "Property",

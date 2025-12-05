@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Bypass Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Bypass Damper interface allows for controlled air rerouting within HVAC systems to maintain desired temperature and airflow balance."
+  }
 }

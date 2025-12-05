@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Aircraft HVAC Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirportEquipment;1",
     "dtmi:com:syyclops:HVACEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Aircraft HVAC Equipment interface represents systems responsible for heating, ventilation, and air conditioning in aircraft."
+  }
 }

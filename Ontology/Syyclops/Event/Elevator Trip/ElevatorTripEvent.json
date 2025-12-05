@@ -16,7 +16,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:ElevatorTripEvent:startLevelId;1"
+      "@id": "dtmi:com:syyclops:ElevatorTripEvent:startLevelId;1",
+      "description": {
+        "en": "Indicates the starting level identifier for an Elevator Trip Event."
+      }
     },
     {
       "@type": "Property",
@@ -26,7 +29,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:ElevatorTripEvent:endLevelId;1"
+      "@id": "dtmi:com:syyclops:ElevatorTripEvent:endLevelId;1",
+      "description": {
+        "en": "Indicates the destination level ID for the elevator trip event."
+      }
     },
     {
       "@type": "Property",
@@ -36,7 +42,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:ElevatorTripEvent:currentLevelId;1"
+      "@id": "dtmi:com:syyclops:ElevatorTripEvent:currentLevelId;1",
+      "description": {
+        "en": "Represents the current level ID from which the elevator trip event is initiated."
+      }
     },
     {
       "@type": "Property",
@@ -71,10 +80,16 @@
           "en": "Elevator Trip Direction"
         }
       },
-      "@id": "dtmi:com:syyclops:ElevatorTripEvent:currentTripDirection;1"
+      "@id": "dtmi:com:syyclops:ElevatorTripEvent:currentTripDirection;1",
+      "description": {
+        "en": "Specifies the direction of travel for the elevator during the trip event."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the structure and characteristics of an Elevator Trip Event interface."
+  }
 }

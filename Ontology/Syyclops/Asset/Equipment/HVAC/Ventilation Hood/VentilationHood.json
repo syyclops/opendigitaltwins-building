@@ -38,7 +38,10 @@
         "@id": "dtmi:com:syyclops:VentilationHood:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:type;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:type;1",
+      "description": {
+        "en": "A property indicating the type of ventilation hood, essential for classification in HVAC systems."
+      }
     },
     {
       "@type": [
@@ -52,7 +55,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:maxAirflowRating;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:maxAirflowRating;1",
+      "description": {
+        "en": "A property defining the maximum airflow rating of the ventilation hood, critical for effective performance."
+      }
     },
     {
       "@type": [
@@ -68,7 +74,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:maxAirflowRatingUnit;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:maxAirflowRatingUnit;1",
+      "description": {
+        "en": "The unit of measurement for the maximum airflow rating property of the ventilation hood."
+      }
     },
     {
       "@type": [
@@ -82,7 +91,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:designMinAirflow;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:designMinAirflow;1",
+      "description": {
+        "en": "A property specifying the minimum airflow rate designed for optimal function of the ventilation hood."
+      }
     },
     {
       "@type": [
@@ -98,7 +110,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:designMinAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:designMinAirflowUnit;1",
+      "description": {
+        "en": "The unit of measurement for the design minimum airflow property of the ventilation hood."
+      }
     },
     {
       "@type": [
@@ -112,7 +127,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:designMaxAirflow;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:designMaxAirflow;1",
+      "description": {
+        "en": "A property identifying the maximum airflow rate designed for the ventilation hood's effective operation."
+      }
     },
     {
       "@type": [
@@ -128,7 +146,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:VentilationHood:designMaxAirflowUnit;1"
+      "@id": "dtmi:com:syyclops:VentilationHood:designMaxAirflowUnit;1",
+      "description": {
+        "en": "The unit of measurement for the design maximum airflow property of the ventilation hood."
+      }
     }
   ],
   "@context": [
@@ -136,5 +157,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface that defines the characteristics and functionalities of a general ventilation hood in HVAC systems."
+  }
 }

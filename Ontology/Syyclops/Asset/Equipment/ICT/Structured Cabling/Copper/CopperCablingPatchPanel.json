@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Copper Cabling Patch Panel"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CopperCablingEquipment;1",
     "dtmi:com:syyclops:PatchPanel;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a copper cabling patch panel used in structured cabling systems."
+  }
 }

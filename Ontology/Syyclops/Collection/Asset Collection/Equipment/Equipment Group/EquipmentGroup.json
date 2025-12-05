@@ -23,5 +23,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a generic group of equipment within an asset collection, facilitating organization and control."
+  }
 }

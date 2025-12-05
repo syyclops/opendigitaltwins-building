@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Plumbing Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingEquipment;1",
     "dtmi:com:syyclops:Pump;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface signifies a general plumbing pump used for various fluid transfer tasks."
+  }
 }

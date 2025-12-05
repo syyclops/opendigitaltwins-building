@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Audio Digital Signal Processor (DSP)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AudioVisualEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for an audio digital signal processor that optimizes audio signals in ICT applications."
+  }
 }

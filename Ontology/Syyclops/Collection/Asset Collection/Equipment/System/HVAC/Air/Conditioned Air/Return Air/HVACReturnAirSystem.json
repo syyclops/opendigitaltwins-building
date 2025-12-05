@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Return Air System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACConditionedAirSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing the HVAC subsystem responsible for the return air flow from conditioned areas."
+  }
 }

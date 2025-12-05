@@ -20,7 +20,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:Compressor:refrigerantType;1",
+      "description": {
+        "en": "A property indicating the type of refrigerant used in the compressor system."
+      }
     },
     {
       "@type": "Property",
@@ -61,7 +64,10 @@
         "@id": "dtmi:com:syyclops:Compressor:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:type;1"
+      "@id": "dtmi:com:syyclops:Compressor:type;1",
+      "description": {
+        "en": "A property specifying the type designation of the compressor, indicating its configuration or purpose."
+      }
     },
     {
       "@type": [
@@ -75,7 +81,10 @@
       "schema": "double",
       "unit": "kilogramPerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:designMassFlow;1"
+      "@id": "dtmi:com:syyclops:Compressor:designMassFlow;1",
+      "description": {
+        "en": "A property denoting the design mass flow rate of the compressor, expressing its efficiency."
+      }
     },
     {
       "@type": [
@@ -91,7 +100,10 @@
       "overrides": "unit",
       "schema": "MassFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:designMassFlowUnit;1"
+      "@id": "dtmi:com:syyclops:Compressor:designMassFlowUnit;1",
+      "description": {
+        "en": "A property defining the units used to measure the design mass flow rate of the compressor."
+      }
     },
     {
       "@type": [
@@ -105,7 +117,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:motorPower;1"
+      "@id": "dtmi:com:syyclops:Compressor:motorPower;1",
+      "description": {
+        "en": "A property representing the power rating of the motor driving the compressor."
+      }
     },
     {
       "@type": [
@@ -121,7 +136,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:motorPowerUnit;1"
+      "@id": "dtmi:com:syyclops:Compressor:motorPowerUnit;1",
+      "description": {
+        "en": "A property specifying the units in which the motor power of the compressor is measured."
+      }
     },
     {
       "@type": [
@@ -154,7 +172,10 @@
       "overrides": "unit",
       "schema": "CurrentUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:ratedLoadCurrentUnit;1"
+      "@id": "dtmi:com:syyclops:Compressor:ratedLoadCurrentUnit;1",
+      "description": {
+        "en": "A property detailing the units of the rated load current for the compressor motor."
+      }
     },
     {
       "@type": [
@@ -187,7 +208,10 @@
       "overrides": "unit",
       "schema": "CurrentUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:maximumContinuousCurrentUnit;1"
+      "@id": "dtmi:com:syyclops:Compressor:maximumContinuousCurrentUnit;1",
+      "description": {
+        "en": "A property indicating the units for measuring maximum continuous current in the compressor."
+      }
     },
     {
       "@type": [
@@ -220,7 +244,10 @@
       "overrides": "unit",
       "schema": "CurrentUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Compressor:lockedRotorCurrentUnit;1"
+      "@id": "dtmi:com:syyclops:Compressor:lockedRotorCurrentUnit;1",
+      "description": {
+        "en": "A property specifying the units associated with the locked rotor current of the compressor."
+      }
     }
   ],
   "@context": [

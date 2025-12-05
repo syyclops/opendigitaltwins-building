@@ -32,10 +32,16 @@
         "@id": "dtmi:com:syyclops:ToiletTank:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:ToiletTank:flushingType;1"
+      "@id": "dtmi:com:syyclops:ToiletTank:flushingType;1",
+      "description": {
+        "en": "Specifies the flushing mechanism type used in the Toilet Tank property."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the Toilet Tank interface, a plumbing component associated with Toilets."
+  }
 }

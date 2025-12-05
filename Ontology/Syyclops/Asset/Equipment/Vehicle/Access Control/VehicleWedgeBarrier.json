@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Vehicle Wedge Barrier"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VehicleAccessControlEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a vehicle wedge barrier used in access control systems."
+  }
 }

@@ -15,7 +15,10 @@
       "displayName": {
         "en": "is document of"
       },
-      "@id": "dtmi:com:syyclops:Document:isDocumentOf;1"
+      "@id": "dtmi:com:syyclops:Document:isDocumentOf;1",
+      "description": {
+        "en": "Relationship indicating that a document is associated with a specific entity."
+      }
     },
     {
       "@type": "Relationship",
@@ -36,7 +39,10 @@
         "en": "included in"
       },
       "target": "dtmi:com:syyclops:Collection;1",
-      "@id": "dtmi:com:syyclops:Document:includedIn;1"
+      "@id": "dtmi:com:syyclops:Document:includedIn;1",
+      "description": {
+        "en": "Relationship indicating a document's inclusion within a specified collection."
+      }
     },
     {
       "@type": "Property",
@@ -46,7 +52,10 @@
       "name": "url",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:url;1"
+      "@id": "dtmi:com:syyclops:Document:url;1",
+      "description": {
+        "en": "Property representing the URL location of a document."
+      }
     },
     {
       "@type": "Property",
@@ -56,7 +65,10 @@
       "name": "filename",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:filename;1"
+      "@id": "dtmi:com:syyclops:Document:filename;1",
+      "description": {
+        "en": "Property specifying the name of the file of a document."
+      }
     },
     {
       "@type": "Property",
@@ -66,7 +78,10 @@
       "name": "hashMD5",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:hashMD5;1"
+      "@id": "dtmi:com:syyclops:Document:hashMD5;1",
+      "description": {
+        "en": "Property providing the MD5 hash of the document for integrity verification."
+      }
     },
     {
       "@type": [
@@ -80,7 +95,10 @@
       "schema": "double",
       "unit": "byte",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:fileSize;1"
+      "@id": "dtmi:com:syyclops:Document:fileSize;1",
+      "description": {
+        "en": "Property indicating the size of the document file in bytes."
+      }
     },
     {
       "@type": [
@@ -96,7 +114,10 @@
       "overrides": "unit",
       "schema": "DataSizeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:fileSizeUnit;1"
+      "@id": "dtmi:com:syyclops:Document:fileSizeUnit;1",
+      "description": {
+        "en": "Property denoting the unit of measurement for the document's file size."
+      }
     },
     {
       "@type": "Property",
@@ -119,7 +140,10 @@
         "@id": "dtmi:com:syyclops:Document:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:customTags;1"
+      "@id": "dtmi:com:syyclops:Document:customTags;1",
+      "description": {
+        "en": "Property allowing for user-defined tags associated with the document."
+      }
     },
     {
       "@type": "Property",
@@ -142,7 +166,10 @@
         "@id": "dtmi:com:syyclops:Document:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:externalIds;1"
+      "@id": "dtmi:com:syyclops:Document:externalIds;1",
+      "description": {
+        "en": "Property listing external identifiers linked to the document."
+      }
     },
     {
       "@type": "Property",
@@ -156,7 +183,10 @@
         "elementSchema": "dtmi:com:syyclops:DocumentMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Document:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Document:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Document:mappedIds;1",
+      "description": {
+        "en": "Property containing IDs mapped to the document for internal tracking."
+      }
     },
     {
       "@type": "Property",
@@ -166,7 +196,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:name;1"
+      "@id": "dtmi:com:syyclops:Document:name;1",
+      "description": {
+        "en": "Property detailing the name of the document."
+      }
     },
     {
       "@type": "Property",
@@ -176,7 +209,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Document:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Document:uniqueID;1",
+      "description": {
+        "en": "Property representing a globally unique identifier for the document."
+      }
     },
     {
       "@type": "Property",
@@ -186,7 +222,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Document:externalID;1"
+      "@id": "dtmi:com:syyclops:Document:externalID;1",
+      "description": {
+        "en": "Property holding an external ID associated with the document."
+      }
     },
     {
       "@type": "Property",
@@ -196,7 +235,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Document:code;1"
+      "@id": "dtmi:com:syyclops:Document:code;1",
+      "description": {
+        "en": "Property defining a code related to the document for classification purposes."
+      }
     },
     {
       "@type": "Property",
@@ -206,7 +248,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Document:description;1"
+      "@id": "dtmi:com:syyclops:Document:description;1",
+      "description": {
+        "en": "Property providing a textual description of the document's content."
+      }
     },
     {
       "@type": "Property",
@@ -229,7 +274,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Document:siteID;1"
+      "@id": "dtmi:com:syyclops:Document:siteID;1",
+      "description": {
+        "en": "Property indicating the identifier of the site associated with the document."
+      }
     },
     {
       "@type": "Property",
@@ -260,7 +308,10 @@
         ],
         "@id": "dtmi:com:syyclops:Document:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Document:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Document:alternateClassification;1",
+      "description": {
+        "en": "The alternateClassification property categorizes the document under an alternative classification scheme."
+      }
     },
     {
       "@type": "Property",
@@ -295,7 +346,10 @@
         },
         "@id": "dtmi:com:syyclops:Document:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Document:customProperties;1"
+      "@id": "dtmi:com:syyclops:Document:customProperties;1",
+      "description": {
+        "en": "The customProperties property allows for the inclusion of user-defined metadata in the document."
+      }
     },
     {
       "@type": "Property",
@@ -305,7 +359,10 @@
       },
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:createdDate;1"
+      "@id": "dtmi:com:syyclops:Document:createdDate;1",
+      "description": {
+        "en": "The createdDate property indicates the timestamp when the document was initially created."
+      }
     },
     {
       "@type": "Property",
@@ -315,7 +372,10 @@
       },
       "schema": "dateTime",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Document:lastUpdatedDate;1"
+      "@id": "dtmi:com:syyclops:Document:lastUpdatedDate;1",
+      "description": {
+        "en": "The lastUpdatedDate property records the timestamp of the most recent modification to the document."
+      }
     },
     {
       "@type": "Property",
@@ -346,7 +406,10 @@
         ],
         "@id": "dtmi:com:syyclops:Document:OS7;1"
       },
-      "@id": "dtmi:com:syyclops:Document:createdBy;1"
+      "@id": "dtmi:com:syyclops:Document:createdBy;1",
+      "description": {
+        "en": "The createdBy property specifies the individual or system responsible for creating the document."
+      }
     }
   ],
   "schemas": [

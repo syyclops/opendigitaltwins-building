@@ -46,7 +46,10 @@
         ],
         "@id": "dtmi:com:syyclops:LoadingDockLeveler:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:LoadingDockLeveler:liftType;1"
+      "@id": "dtmi:com:syyclops:LoadingDockLeveler:liftType;1",
+      "description": {
+        "en": "A property defining the type of lift mechanism of a loading dock leveler."
+      }
     },
     {
       "@type": [
@@ -60,7 +63,10 @@
       "writable": true,
       "schema": "double",
       "unit": "kilogram",
-      "@id": "dtmi:com:syyclops:LoadingDockLeveler:loadCapacity;1"
+      "@id": "dtmi:com:syyclops:LoadingDockLeveler:loadCapacity;1",
+      "description": {
+        "en": "A property that specifies the maximum load capacity of a loading dock leveler."
+      }
     },
     {
       "@type": [
@@ -76,7 +82,10 @@
       "overrides": "unit",
       "schema": "MassUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:LoadingDockLeveler:loadCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:LoadingDockLeveler:loadCapacityUnit;1",
+      "description": {
+        "en": "A property indicating the unit of measurement for the load capacity of a loading dock leveler."
+      }
     }
   ],
   "@context": [
@@ -84,5 +93,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface for loading dock levelers that facilitate the movement of vehicles."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "ICT System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:System;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface describes the overall ICT system, integrating various communication technologies and protocols."
+  }
 }

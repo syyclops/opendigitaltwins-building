@@ -15,7 +15,10 @@
       },
       "name": "fan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:AirFilter:fan;1"
+      "@id": "dtmi:com:syyclops:AirFilter:fan;1",
+      "description": {
+        "en": "Component representing the fan element within the air filter system."
+      }
     },
     {
       "@type": "Property",
@@ -46,7 +49,10 @@
         "@id": "dtmi:com:syyclops:AirFilter:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirFilter:efficiencyRatingType;1"
+      "@id": "dtmi:com:syyclops:AirFilter:efficiencyRatingType;1",
+      "description": {
+        "en": "Property indicating the type of efficiency rating applied to the air filter."
+      }
     },
     {
       "@type": "Property",
@@ -56,7 +62,10 @@
       },
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirFilter:MERVRating;1"
+      "@id": "dtmi:com:syyclops:AirFilter:MERVRating;1",
+      "description": {
+        "en": "Property denoting the Minimum Efficiency Reporting Value (MERV) rating of the air filter."
+      }
     },
     {
       "@type": "Property",
@@ -66,10 +75,16 @@
       },
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirFilter:efficiencyAt03Microns;1"
+      "@id": "dtmi:com:syyclops:AirFilter:efficiencyAt03Microns;1",
+      "description": {
+        "en": "Property representing the efficiency of the air filter at capturing particles of 0.3 microns."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for an HVAC air filter with properties about filtration efficiency and ratings."
+  }
 }

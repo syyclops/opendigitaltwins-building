@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Fire Suppression Tank"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireSuppressionEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a tank used for storing fire suppression media."
+  }
 }

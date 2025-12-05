@@ -37,7 +37,10 @@
         "@id": "dtmi:com:syyclops:ITRack:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:ITRack:type;1"
+      "@id": "dtmi:com:syyclops:ITRack:type;1",
+      "description": {
+        "en": "Property denoting the type of IT Rack, defining its category within the ICT framework."
+      }
     },
     {
       "@type": "Property",
@@ -63,7 +66,10 @@
         "@id": "dtmi:com:syyclops:ITRack:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:ITRack:mounting;1"
+      "@id": "dtmi:com:syyclops:ITRack:mounting;1",
+      "description": {
+        "en": "Property specifying the mounting configuration of the IT Rack to ensure proper equipment installation."
+      }
     },
     {
       "@type": "Property",
@@ -73,10 +79,16 @@
       "name": "heightRUs",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ITRack:heightRUs;1"
+      "@id": "dtmi:com:syyclops:ITRack:heightRUs;1",
+      "description": {
+        "en": "Property indicating the height of the IT Rack in rack units (RUs) for sizing and capacity evaluation."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for IT Rack equipment, facilitating organization and support for ICT hardware installations."
+  }
 }

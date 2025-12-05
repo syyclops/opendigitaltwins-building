@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:TransferSwitch:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:TransferSwitch:poles;1"
+      "@id": "dtmi:com:syyclops:TransferSwitch:poles;1",
+      "description": {
+        "en": "The poles property indicates the number of electrical poles in the Transfer Switch configuration."
+      }
     },
     {
       "@type": [
@@ -46,7 +49,10 @@
       "schema": "double",
       "unit": "ampere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:TransferSwitch:mainsRating;1"
+      "@id": "dtmi:com:syyclops:TransferSwitch:mainsRating;1",
+      "description": {
+        "en": "The mainsRating property specifies the maximum voltage and current rating for the Transfer Switch's main connection."
+      }
     },
     {
       "@type": "Component",
@@ -55,11 +61,17 @@
         "en": "Main Bus"
       },
       "schema": "dtmi:com:syyclops:ElectricalBus;1",
-      "@id": "dtmi:com:syyclops:TransferSwitch:mainBus;1"
+      "@id": "dtmi:com:syyclops:TransferSwitch:mainBus;1",
+      "description": {
+        "en": "The mainBus component represents the primary electrical bus within the Transfer Switch interface."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "The Transfer Switch interface defines the parameters and components for managing power transfer between different electrical sources."
+  }
 }

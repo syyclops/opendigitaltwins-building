@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Supply Fan Group"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACFanGroup;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for a collection of supply fan equipment used in HVAC systems."
+  }
 }

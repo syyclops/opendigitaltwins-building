@@ -7,10 +7,15 @@
   "description": {
     "en": "The temperature feedback from a sensor"
   },
-  "extends": ["dtmi:com:syyclops:QuantitySensor;1"],
+  "extends": [
+    "dtmi:com:syyclops:QuantitySensor;1"
+  ],
   "contents": [
     {
-      "@type": ["Telemetry", "Temperature"],
+      "@type": [
+        "Telemetry",
+        "Temperature"
+      ],
       "@id": "dtmi:com:syyclops:TemperatureSensor:temperature;1",
       "name": "temperature",
       "displayName": {
@@ -23,7 +28,11 @@
       "unit": "degreeCelsius"
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "@id": "dtmi:com:syyclops:TemperatureSensor:temperatureUnit;1",
       "name": "temperatureUnit",
       "displayName": {
@@ -32,7 +41,10 @@
       "schema": "TemperatureUnit",
       "writable": true,
       "annotates": "temperature",
-      "overrides": "unit"
+      "overrides": "unit",
+      "description": {
+        "en": "Represents the unit of measurement for temperature readings from the Temperature Sensor, defining the scale (e.g., Celsius, Fahrenheit) in which the sensor reports temperature values."
+      }
     }
   ],
   "@context": [

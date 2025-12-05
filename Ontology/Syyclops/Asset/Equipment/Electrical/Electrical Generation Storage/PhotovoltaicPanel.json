@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:length;1"
+      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:length;1",
+      "description": {
+        "en": "The length property measures the physical length of the photovoltaic panel."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:lengthUnit;1"
+      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:lengthUnit;1",
+      "description": {
+        "en": "The lengthUnit property specifies the unit of measurement for the length of the photovoltaic panel."
+      }
     },
     {
       "@type": [
@@ -53,7 +59,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:width;1"
+      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:width;1",
+      "description": {
+        "en": "The width property measures the physical width of the photovoltaic panel."
+      }
     },
     {
       "@type": [
@@ -69,7 +78,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:widthUnit;1"
+      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:widthUnit;1",
+      "description": {
+        "en": "The widthUnit property specifies the unit of measurement for the width of the photovoltaic panel."
+      }
     },
     {
       "@type": "Property",
@@ -105,7 +117,10 @@
       "name": "cellMaterial",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:cellMaterial;1"
+      "@id": "dtmi:com:syyclops:PhotovoltaicPanel:cellMaterial;1",
+      "description": {
+        "en": "The cellMaterial property identifies the material used in the photovoltaic cells."
+      }
     }
   ],
   "schemas": [

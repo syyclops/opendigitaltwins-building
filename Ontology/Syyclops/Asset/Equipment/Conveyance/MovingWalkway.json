@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:stepWidth;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:stepWidth;1",
+      "description": {
+        "en": "Indicates the width of the steps on a moving walkway."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:stepWidthUnit;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:stepWidthUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the moving walkways' step width."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "metrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:maxTravelSpeed;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:maxTravelSpeed;1",
+      "description": {
+        "en": "Defines the maximum travel speed of the moving walkway."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "VelocityUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:maxTravelSpeedUnit;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:maxTravelSpeedUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the moving walkways' maximum travel speed."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "schema": "double",
       "unit": "metre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:maxLength;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:maxLength;1",
+      "description": {
+        "en": "Defines the maximum length that the moving walkway can occupy."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:maxLengthUnit;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:maxLengthUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the moving walkways' maximum length."
+      }
     },
     {
       "@type": [
@@ -110,7 +128,10 @@
       "schema": "double",
       "unit": "degreeOfArc",
       "writable": true,
-      "@id": "dtmi:com:syyclops:MovingWalkway:inclination;1"
+      "@id": "dtmi:com:syyclops:MovingWalkway:inclination;1",
+      "description": {
+        "en": "Defines the inclination angle of the moving walkway relative to the horizontal."
+      }
     }
   ],
   "@context": [
@@ -118,5 +139,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface describing the specifications and properties of a moving walkway."
+  }
 }

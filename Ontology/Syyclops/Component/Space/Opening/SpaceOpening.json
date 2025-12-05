@@ -18,7 +18,10 @@
       },
       "name": "isEntryTo",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:SpaceOpening:isEntryTo;1"
+      "@id": "dtmi:com:syyclops:SpaceOpening:isEntryTo;1",
+      "description": {
+        "en": "Denotes that the space opening serves as an entry point to a specified space."
+      }
     },
     {
       "@type": "Relationship",
@@ -27,7 +30,10 @@
       },
       "name": "isExitFrom",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:SpaceOpening:isExitFrom;1"
+      "@id": "dtmi:com:syyclops:SpaceOpening:isExitFrom;1",
+      "description": {
+        "en": "Indicates that the space opening functions as an exit point from a specified space."
+      }
     }
   ],
   "@context": [

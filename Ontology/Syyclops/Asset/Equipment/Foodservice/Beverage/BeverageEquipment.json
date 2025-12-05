@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Beverage Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodserviceEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for beverage equipment used in foodservice, detailing operational status and performance data."
+  }
 }

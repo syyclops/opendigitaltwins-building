@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Automatic Sliding Door"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SlidingDoor;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for automatic sliding doors, providing access through barriers."
+  }
 }

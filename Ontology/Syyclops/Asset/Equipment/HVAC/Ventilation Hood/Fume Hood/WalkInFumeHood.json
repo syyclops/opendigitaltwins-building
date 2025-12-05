@@ -4,15 +4,17 @@
   "displayName": {
     "en": "Walk-In Fume Hood"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FumeHood;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a walk-in fume hood for HVAC applications, designed to safely ventilate hazardous fumes."
+  }
 }

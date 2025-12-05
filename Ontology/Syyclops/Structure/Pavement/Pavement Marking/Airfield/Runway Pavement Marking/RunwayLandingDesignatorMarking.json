@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway Landing Designator Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:RunwayPavementMarking;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Establishes landing designator markings on runways to inform pilots of runway numbers and identifiers."
+  }
 }

@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:Faucet:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Faucet:type;1"
+      "@id": "dtmi:com:syyclops:Faucet:type;1",
+      "description": {
+        "en": "A property indicating the type of faucet in the plumbing system."
+      }
     },
     {
       "@type": [
@@ -46,7 +49,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Faucet:maxFlowRate;1"
+      "@id": "dtmi:com:syyclops:Faucet:maxFlowRate;1",
+      "description": {
+        "en": "A property that specifies the maximum flow rate of water through the faucet."
+      }
     },
     {
       "@type": [
@@ -62,7 +68,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Faucet:maxFlowRateUnit;1"
+      "@id": "dtmi:com:syyclops:Faucet:maxFlowRateUnit;1",
+      "description": {
+        "en": "A property stating the unit of measure for the maximum flow rate of the faucet."
+      }
     },
     {
       "@type": "Property",
@@ -72,7 +81,10 @@
       "name": "numberOfHandles",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Faucet:numberOfHandles;1"
+      "@id": "dtmi:com:syyclops:Faucet:numberOfHandles;1",
+      "description": {
+        "en": "A property indicating the number of handles present on the faucet."
+      }
     },
     {
       "@type": "Relationship",
@@ -80,7 +92,10 @@
         "en": "mounted on"
       },
       "name": "mountedOn",
-      "@id": "dtmi:com:syyclops:Faucet:mountedOn;1"
+      "@id": "dtmi:com:syyclops:Faucet:mountedOn;1",
+      "description": {
+        "en": "A relationship representing the mounting structure or location of the faucet."
+      }
     }
   ],
   "@context": [
@@ -88,5 +103,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining a faucet fixture used for controlling the flow of water."
+  }
 }

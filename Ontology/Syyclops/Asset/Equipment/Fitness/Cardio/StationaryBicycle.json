@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Stationary Bicycle"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CardioFitnessEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Describes the interface for a Stationary Bicycle designed for indoor cycling workouts."
+  }
 }

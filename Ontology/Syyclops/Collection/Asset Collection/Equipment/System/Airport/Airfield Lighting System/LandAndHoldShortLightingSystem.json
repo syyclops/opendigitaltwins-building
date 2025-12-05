@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Land and Hold Short Lighting System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldLightingSystem;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for the Land and Hold Short Lighting System designed to ensure safe runway usage and prevent incursion."
+  }
 }

@@ -4,7 +4,9 @@
   "displayName": {
     "en": "Electrical Bus"
   },
-  "extends": ["dtmi:com:syyclops:AssetComponent;1"],
+  "extends": [
+    "dtmi:com:syyclops:AssetComponent;1"
+  ],
   "contents": [
     {
       "@type": "Property",
@@ -30,10 +32,16 @@
         "@id": "dtmi:com:syyclops:ElectricalBus:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalBus:material;1"
+      "@id": "dtmi:com:syyclops:ElectricalBus:material;1",
+      "description": {
+        "en": "Specifies the material composition of the electrical bus."
+      }
     },
     {
-      "@type": ["Current", "Property"],
+      "@type": [
+        "Current",
+        "Property"
+      ],
       "displayName": {
         "en": "Current Rating"
       },
@@ -41,8 +49,17 @@
       "schema": "double",
       "unit": "ampere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:ElectricalBus:currentRating;1"
+      "@id": "dtmi:com:syyclops:ElectricalBus:currentRating;1",
+      "description": {
+        "en": "Defines the electrical current rating that the bus can handle."
+      }
     }
   ],
-  "@context": ["dtmi:dtdl:context;3", "dtmi:dtdl:extension:quantitativeTypes;1"]
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1"
+  ],
+  "description": {
+    "en": "Identifies the interface for the electrical bus component of the asset."
+  }
 }

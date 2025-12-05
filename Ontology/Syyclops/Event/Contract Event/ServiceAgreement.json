@@ -47,5 +47,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the characteristics and properties of a Service Agreement interface."
+  }
 }

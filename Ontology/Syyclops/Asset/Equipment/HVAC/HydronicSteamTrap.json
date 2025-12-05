@@ -20,7 +20,10 @@
       "schema": "integer",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HydronicSteamTrap:workingPressure;1"
+      "@id": "dtmi:com:syyclops:HydronicSteamTrap:workingPressure;1",
+      "description": {
+        "en": "Represents the working pressure of the hydronic steam trap in the HVAC system."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HydronicSteamTrap:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:HydronicSteamTrap:workingPressureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the working pressure of a hydronic steam trap."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "millimetre",
-      "@id": "dtmi:com:syyclops:HydronicSteamTrap:pipeDiameter;1"
+      "@id": "dtmi:com:syyclops:HydronicSteamTrap:pipeDiameter;1",
+      "description": {
+        "en": "Indicates the pipe diameter associated with the hydronic steam trap in HVAC installations."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HydronicSteamTrap:pipeDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:HydronicSteamTrap:pipeDiameterUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the pipe diameter related to the hydronic steam trap."
+      }
     }
   ],
   "@context": [
@@ -74,5 +86,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface for hydronic steam trap equipment, facilitating the removal of condensate and non-condensable gases."
+  }
 }

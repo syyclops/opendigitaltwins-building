@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Return Air Grille"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:AirGrille;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The ReturnAirGrille interface describes the grilles used to return air to the HVAC system from occupied spaces."
+  }
 }

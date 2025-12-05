@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Specification"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Document;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Specification interface outlines the technical requirements and standards for a project."
+  }
 }

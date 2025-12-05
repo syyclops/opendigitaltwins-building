@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Dehumidifier"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACAirTreatment;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Dehumidifier interface represents an HVAC air treatment component specifically designed to reduce humidity levels."
+  }
 }

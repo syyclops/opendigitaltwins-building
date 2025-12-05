@@ -16,7 +16,10 @@
       "name": "shortCircuitRating",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Switchboard:shortCircuitRating;1"
+      "@id": "dtmi:com:syyclops:Switchboard:shortCircuitRating;1",
+      "description": {
+        "en": "Property indicating the short circuit rating of a switchboard, defining its ability to withstand fault currents."
+      }
     },
     {
       "@type": [
@@ -30,7 +33,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Switchboard:inputVoltage;1"
+      "@id": "dtmi:com:syyclops:Switchboard:inputVoltage;1",
+      "description": {
+        "en": "Property specifying the input voltage level for a switchboard in electrical distribution."
+      }
     },
     {
       "@type": "Property",
@@ -56,7 +62,10 @@
         "@id": "dtmi:com:syyclops:Switchboard:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Switchboard:inputPhases;1"
+      "@id": "dtmi:com:syyclops:Switchboard:inputPhases;1",
+      "description": {
+        "en": "Property indicating the number of input phases for a switchboard system."
+      }
     },
     {
       "@type": "Component",
@@ -65,11 +74,17 @@
       },
       "name": "mainBus",
       "schema": "dtmi:com:syyclops:ElectricalBus;1",
-      "@id": "dtmi:com:syyclops:Switchboard:mainBus;1"
+      "@id": "dtmi:com:syyclops:Switchboard:mainBus;1",
+      "description": {
+        "en": "Component representing the main bus in a switchboard that conducts electricity between input and output."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface for switchboards that distribute electrical power and provide protection over circuits in electrical systems."
+  }
 }

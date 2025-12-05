@@ -4,12 +4,14 @@
   "displayName": {
     "en": "As-Built Drawing"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:Drawing;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The AsBuiltDrawing interface represents drawings that reflect the actual construction of a project."
+  }
 }

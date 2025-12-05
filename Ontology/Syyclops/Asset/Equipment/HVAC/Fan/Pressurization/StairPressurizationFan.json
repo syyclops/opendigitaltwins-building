@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Stair Pressurization Fan"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PressurizationFan;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a stair pressurization fan that maintains air pressure in stairwells."
+  }
 }

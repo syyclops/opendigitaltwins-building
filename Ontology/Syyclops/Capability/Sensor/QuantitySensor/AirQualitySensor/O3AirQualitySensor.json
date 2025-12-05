@@ -13,7 +13,10 @@
   "contents": [
     {
       "@id": "dtmi:com:syyclops:O3AirQualitySensor:o3;1",
-      "@type": ["Telemetry", "Concentration"],
+      "@type": [
+        "Telemetry",
+        "Concentration"
+      ],
       "name": "o3",
       "displayName": {
         "en": "Ozone (O3)"
@@ -26,7 +29,11 @@
     },
     {
       "@id": "dtmi:com:syyclops:O3AirQualitySensor:o3Unit;1",
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "name": "o3Unit",
       "displayName": {
         "en": "O3 Unit"
@@ -34,7 +41,10 @@
       "schema": "Unitless",
       "writable": true,
       "annotates": "o3",
-      "overrides": "unit"
+      "overrides": "unit",
+      "description": {
+        "en": "The o3Unit property indicates the unit of measurement for ozone concentration in O3 air quality sensors."
+      }
     }
   ],
   "@context": [

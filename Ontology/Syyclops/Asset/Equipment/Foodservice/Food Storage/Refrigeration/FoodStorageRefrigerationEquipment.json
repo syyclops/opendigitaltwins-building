@@ -16,7 +16,10 @@
       },
       "name": "evaporatorFan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:FoodStorageRefrigerationEquipment:evaporatorFan;1"
+      "@id": "dtmi:com:syyclops:FoodStorageRefrigerationEquipment:evaporatorFan;1",
+      "description": {
+        "en": "Component interface for the evaporator fan in refrigeration equipment, facilitating air circulation and cooling."
+      }
     }
   ],
   "@context": [
@@ -24,5 +27,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface for refrigeration equipment dedicated to storing perishable foods at safe temperatures."
+  }
 }

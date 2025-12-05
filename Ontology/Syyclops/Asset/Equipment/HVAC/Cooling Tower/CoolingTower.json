@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:nominalCoolingCapacity;1",
+      "description": {
+        "en": "Indicates the nominal cooling capacity of the Cooling Tower in BTUs per hour under standard conditions."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "Denotes the unit of measurement for the nominal cooling capacity, commonly expressed in BTU/h."
+      }
     },
     {
       "@type": [
@@ -53,7 +59,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:flowCapacity;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:flowCapacity;1",
+      "description": {
+        "en": "Represents the flow capacity of the Cooling Tower, indicating the volume of water it can handle per unit time."
+      }
     },
     {
       "@type": [
@@ -69,7 +78,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:flowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:flowCapacityUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for flow capacity, typically in gallons per minute (GPM) or cubic meters per hour."
+      }
     },
     {
       "@type": "Component",
@@ -78,7 +90,10 @@
       },
       "name": "fan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:CoolingTower:fan;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:fan;1",
+      "description": {
+        "en": "Represents the fan component of the Cooling Tower, responsible for inducing air flow through the system."
+      }
     },
     {
       "@type": "Property",
@@ -88,7 +103,10 @@
       "name": "numberOfCells",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:numberOfCells;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:numberOfCells;1",
+      "description": {
+        "en": "Indicates the number of cells in the Cooling Tower, affecting its overall cooling capacity and operation."
+      }
     },
     {
       "@type": [
@@ -101,7 +119,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWaterTemperature;1",
+      "description": {
+        "en": "Specifies the design entering water temperature for the Cooling Tower, determining optimal cooling efficiency."
+      }
     },
     {
       "@type": [
@@ -116,7 +137,10 @@
       "annotates": "designEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Denotes the unit of measurement for design entering water temperature, typically in degrees Fahrenheit or Celsius."
+      }
     },
     {
       "@type": [
@@ -129,7 +153,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:CoolingTower:designLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designLeavingWaterTemperature;1",
+      "description": {
+        "en": "Indicates the design leaving water temperature from the Cooling Tower, crucial for assessing cooling performance."
+      }
     },
     {
       "@type": [
@@ -144,7 +171,10 @@
       "annotates": "designLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:CoolingTower:designLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for design leaving water temperature, generally in degrees Fahrenheit or Celsius."
+      }
     },
     {
       "@type": [
@@ -157,7 +187,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWetBulbTemperature;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWetBulbTemperature;1",
+      "description": {
+        "en": "Represents the design entering wet bulb temperature for the Cooling Tower, impacting humidity and cooling efficiency."
+      }
     },
     {
       "@type": [
@@ -172,7 +205,10 @@
       "annotates": "designEnteringWetBulbTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWetBulbTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designEnteringWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Denotes the unit of measurement for design entering wet bulb temperature, typically in degrees Fahrenheit or Celsius."
+      }
     },
     {
       "@type": [
@@ -203,7 +239,10 @@
       "annotates": "approach",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:CoolingTower:approachUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:approachUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the approach, which defines how closely the leaving water temperature approaches the wet bulb temperature."
+      }
     },
     {
       "@type": [
@@ -217,7 +256,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:designMinFlow;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designMinFlow;1",
+      "description": {
+        "en": "Indicates the design minimum flow rate of water through the Cooling Tower necessary for optimal operation."
+      }
     },
     {
       "@type": [
@@ -233,7 +275,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:designMinFlowUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designMinFlowUnit;1",
+      "description": {
+        "en": "Denotes the unit of measurement for design minimum flow, usually in gallons per minute (GPM) or liters per second."
+      }
     },
     {
       "@type": [
@@ -247,7 +292,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:designMaxFlow;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designMaxFlow;1",
+      "description": {
+        "en": "Represents the design maximum flow rate of water through the Cooling Tower to ensure efficient cooling performance."
+      }
     },
     {
       "@type": [
@@ -263,7 +311,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CoolingTower:designMaxFlowUnit;1"
+      "@id": "dtmi:com:syyclops:CoolingTower:designMaxFlowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for design maximum flow, typically in gallons per minute (GPM) or cubic meters per hour."
+      }
     }
   ],
   "@context": [

@@ -4,11 +4,14 @@
   "displayName": {
     "en": "Structural Wall"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralBuildingComponent;1",
     "dtmi:com:syyclops:Wall;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the characteristics and roles of structural walls, essential for defining building enclosures and load distribution."
+  }
 }

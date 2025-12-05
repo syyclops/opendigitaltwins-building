@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Baggage Scale"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:BaggageHandlingEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for baggage scales that measure the weight of luggage to ensure compliance with airline regulations."
+  }
 }

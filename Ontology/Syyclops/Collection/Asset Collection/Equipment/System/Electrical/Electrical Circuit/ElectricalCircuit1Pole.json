@@ -40,10 +40,16 @@
         ],
         "@id": "dtmi:com:syyclops:ElectricalCircuit1Pole:ES1;1"
       },
-      "@id": "dtmi:com:syyclops:ElectricalCircuit1Pole:Phase1;1"
+      "@id": "dtmi:com:syyclops:ElectricalCircuit1Pole:Phase1;1",
+      "description": {
+        "en": "Property defining Phase 1 characteristics in a 1-Pole Electrical Circuit, essential for circuit performance and management."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a single-pole Electrical Circuit, emphasizing a straightforward circuitry design."
+  }
 }

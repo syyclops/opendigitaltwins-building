@@ -35,7 +35,10 @@
         "@id": "dtmi:com:syyclops:FanPoweredBox:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:FanPoweredBox:configuration;1"
+      "@id": "dtmi:com:syyclops:FanPoweredBox:configuration;1",
+      "description": {
+        "en": "Specifies the configuration settings of the Fan Powered Box in HVAC systems."
+      }
     },
     {
       "@type": "Component",
@@ -44,7 +47,10 @@
       },
       "name": "fan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:FanPoweredBox:fan;1"
+      "@id": "dtmi:com:syyclops:FanPoweredBox:fan;1",
+      "description": {
+        "en": "Represents the fan component integrated within the Fan Powered Box."
+      }
     }
   ],
   "@context": [

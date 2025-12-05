@@ -62,7 +62,10 @@
       },
       "name": "locatedIn",
       "target": "dtmi:com:syyclops:Space;1",
-      "@id": "dtmi:com:syyclops:Asset:locatedIn;1"
+      "@id": "dtmi:com:syyclops:Asset:locatedIn;1",
+      "description": {
+        "en": "Establishes a relationship indicating the space in which the asset is located."
+      }
     },
     {
       "@type": "Relationship",
@@ -71,7 +74,10 @@
       },
       "name": "servicedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Asset:servicedBy;1"
+      "@id": "dtmi:com:syyclops:Asset:servicedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent responsible for servicing the asset."
+      }
     },
     {
       "@type": "Relationship",
@@ -80,7 +86,10 @@
       },
       "name": "manufacturedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Asset:manufacturedBy;1"
+      "@id": "dtmi:com:syyclops:Asset:manufacturedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent that manufactured the asset."
+      }
     },
     {
       "@type": "Relationship",
@@ -89,7 +98,10 @@
       },
       "name": "installedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Asset:installedBy;1"
+      "@id": "dtmi:com:syyclops:Asset:installedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent that installed the asset."
+      }
     },
     {
       "@type": "Relationship",
@@ -98,7 +110,10 @@
       },
       "name": "commissionedBy",
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Asset:commissionedBy;1"
+      "@id": "dtmi:com:syyclops:Asset:commissionedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent that commissioned the asset."
+      }
     },
     {
       "@type": "Relationship",
@@ -107,7 +122,10 @@
         "en": "has document"
       },
       "target": "dtmi:com:syyclops:Document;1",
-      "@id": "dtmi:com:syyclops:Asset:hasDocument;1"
+      "@id": "dtmi:com:syyclops:Asset:hasDocument;1",
+      "description": {
+        "en": "Establishes a relationship indicating the document associated with the asset."
+      }
     },
     {
       "@type": "Relationship",
@@ -128,7 +146,10 @@
         "en": "Service Responsibilitly"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Asset:serviceResponsibility;1"
+      "@id": "dtmi:com:syyclops:Asset:serviceResponsibility;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent responsible for the asset's service."
+      }
     },
     {
       "@type": "Relationship",
@@ -137,7 +158,10 @@
         "en": "owned by"
       },
       "target": "dtmi:com:syyclops:Agent;1",
-      "@id": "dtmi:com:syyclops:Asset:ownedBy;1"
+      "@id": "dtmi:com:syyclops:Asset:ownedBy;1",
+      "description": {
+        "en": "Establishes a relationship indicating the agent that owns the asset."
+      }
     },
     {
       "@type": "Property",
@@ -147,7 +171,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
-      "@id": "dtmi:com:syyclops:Asset:manufacturedByRef;1"
+      "@id": "dtmi:com:syyclops:Asset:manufacturedByRef;1",
+      "description": {
+        "en": "References the agent that manufactured the asset."
+      }
     },
     {
       "@type": "Property",
@@ -157,7 +184,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
-      "@id": "dtmi:com:syyclops:Asset:installedByRef;1"
+      "@id": "dtmi:com:syyclops:Asset:installedByRef;1",
+      "description": {
+        "en": "References the agent that installed the asset."
+      }
     },
     {
       "@type": "Property",
@@ -167,7 +197,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
-      "@id": "dtmi:com:syyclops:Asset:commissionedByRef;1"
+      "@id": "dtmi:com:syyclops:Asset:commissionedByRef;1",
+      "description": {
+        "en": "References the agent that commissioned the asset."
+      }
     },
     {
       "@type": "Property",
@@ -177,7 +210,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
-      "@id": "dtmi:com:syyclops:Asset:ownedByRef;1"
+      "@id": "dtmi:com:syyclops:Asset:ownedByRef;1",
+      "description": {
+        "en": "References the agent that owns the asset."
+      }
     },
     {
       "@type": "Property",
@@ -188,7 +224,10 @@
       "writable": true,
       "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
       "comment": "This property lifts the REC ontology relationship servicedBy",
-      "@id": "dtmi:com:syyclops:Asset:serviceProviderRef;1"
+      "@id": "dtmi:com:syyclops:Asset:serviceProviderRef;1",
+      "description": {
+        "en": "References the agent that provides service for the asset."
+      }
     },
     {
       "@type": "Property",
@@ -198,7 +237,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:AssetRelationshipRefObject;1",
-      "@id": "dtmi:com:syyclops:Asset:serviceResponsibilityRef;1"
+      "@id": "dtmi:com:syyclops:Asset:serviceResponsibilityRef;1",
+      "description": {
+        "en": "References the agent responsible for the asset's service."
+      }
     },
     {
       "@type": "Property",
@@ -209,7 +251,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for geometry rendering (i.e. ForgeViewerID)",
-      "@id": "dtmi:com:syyclops:Asset:geometryViewerID;1"
+      "@id": "dtmi:com:syyclops:Asset:geometryViewerID;1",
+      "description": {
+        "en": "Identifies the geometry viewer associated with the asset."
+      }
     },
     {
       "@type": "Property",
@@ -220,7 +265,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference for displaying in spatial context",
-      "@id": "dtmi:com:syyclops:Asset:geometrySpatialReference;1"
+      "@id": "dtmi:com:syyclops:Asset:geometrySpatialReference;1",
+      "description": {
+        "en": "Specifies the spatial reference system for the asset's geometry."
+      }
     },
     {
       "@type": "Property",
@@ -231,7 +279,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference to geometry source (i.e. Revit GUID)",
-      "@id": "dtmi:com:syyclops:Asset:geometryExternalID;1"
+      "@id": "dtmi:com:syyclops:Asset:geometryExternalID;1",
+      "description": {
+        "en": "Provides an external identifier for the asset's geometry."
+      }
     },
     {
       "@type": "Property",
@@ -241,7 +292,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Asset:uniqueID;1"
+      "@id": "dtmi:com:syyclops:Asset:uniqueID;1",
+      "description": {
+        "en": "The uniqueID property identifies each asset with a distinct identifier to ensure uniqueness across the system."
+      }
     },
     {
       "@type": "Property",
@@ -264,7 +318,10 @@
         "@id": "dtmi:com:syyclops:Asset:MS1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:customTags;1"
+      "@id": "dtmi:com:syyclops:Asset:customTags;1",
+      "description": {
+        "en": "The customTags property allows the user to assign user-defined tags to categorize the asset for easier identification."
+      }
     },
     {
       "@type": "Property",
@@ -287,7 +344,10 @@
         "@id": "dtmi:com:syyclops:Asset:MS2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:externalIds;1"
+      "@id": "dtmi:com:syyclops:Asset:externalIds;1",
+      "description": {
+        "en": "The externalIds property holds identifiers used by external systems to reference this asset."
+      }
     },
     {
       "@type": "Property",
@@ -301,7 +361,10 @@
         "elementSchema": "dtmi:com:syyclops:AssetMappedIdObject;1",
         "@id": "dtmi:com:syyclops:Asset:AS3;1"
       },
-      "@id": "dtmi:com:syyclops:Asset:mappedIds;1"
+      "@id": "dtmi:com:syyclops:Asset:mappedIds;1",
+      "description": {
+        "en": "The mappedIds property maintains a collection of identifiers that link the asset to related data in other systems."
+      }
     },
     {
       "@type": "Property",
@@ -311,7 +374,10 @@
       "name": "name",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:name;1"
+      "@id": "dtmi:com:syyclops:Asset:name;1",
+      "description": {
+        "en": "The name property specifies the human-readable name of the asset for user interaction."
+      }
     },
     {
       "@type": "Property",
@@ -321,7 +387,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Asset:externalID;1"
+      "@id": "dtmi:com:syyclops:Asset:externalID;1",
+      "description": {
+        "en": "The externalID property contains a single identifier used by external applications to recognize the asset."
+      }
     },
     {
       "@type": "Property",
@@ -331,7 +400,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Asset:description;1"
+      "@id": "dtmi:com:syyclops:Asset:description;1",
+      "description": {
+        "en": "The description property provides a textual overview of the asset's purpose and functionalities."
+      }
     },
     {
       "@type": "Property",
@@ -341,7 +413,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Asset:siteID;1"
+      "@id": "dtmi:com:syyclops:Asset:siteID;1",
+      "description": {
+        "en": "The siteID property specifies the identifier of the physical site where the asset is located."
+      }
     },
     {
       "@type": "Property",
@@ -352,7 +427,10 @@
       "writable": true,
       "schema": "string",
       "comment": "Reference of the land (i.e. campus, site, airport) to which the asset belongs. A Customer has one or many Lands. Land is considered the top-level entity for binding airport twins.",
-      "@id": "dtmi:com:syyclops:Asset:landId;1"
+      "@id": "dtmi:com:syyclops:Asset:landId;1",
+      "description": {
+        "en": "The landId property represents the identifier for the specific land parcel associated with the asset."
+      }
     },
     {
       "@type": "Property",
@@ -386,7 +464,10 @@
           "en": "Asset Coordinates"
         }
       },
-      "@id": "dtmi:com:syyclops:Asset:coordinates;1"
+      "@id": "dtmi:com:syyclops:Asset:coordinates;1",
+      "description": {
+        "en": "The coordinates property defines the geographical location of the asset using latitude and longitude."
+      }
     },
     {
       "@type": [
@@ -419,7 +500,10 @@
       "overrides": "unit",
       "schema": "AngleUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:geographicOrientationUnit;1"
+      "@id": "dtmi:com:syyclops:Asset:geographicOrientationUnit;1",
+      "description": {
+        "en": "The geographicOrientationUnit property indicates the unit of measurement for the asset's geographic orientation."
+      }
     },
     {
       "@type": "Property",
@@ -429,7 +513,10 @@
       "name": "serialNumber",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:serialNumber;1"
+      "@id": "dtmi:com:syyclops:Asset:serialNumber;1",
+      "description": {
+        "en": "The serialNumber property uniquely identifies the asset within its manufacturing context."
+      }
     },
     {
       "@type": "Property",
@@ -439,7 +526,10 @@
       "name": "physicalTagNumber",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:physicalTagNumber;1"
+      "@id": "dtmi:com:syyclops:Asset:physicalTagNumber;1",
+      "description": {
+        "en": "The physicalTagNumber property captures the unique code assigned to the physical tag of the asset."
+      }
     },
     {
       "@type": "Property",
@@ -449,7 +539,10 @@
       "name": "modelNumber",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:modelNumber;1"
+      "@id": "dtmi:com:syyclops:Asset:modelNumber;1",
+      "description": {
+        "en": "The modelNumber property describes the specific model variant of the asset as defined by the manufacturer."
+      }
     },
     {
       "@type": "Property",
@@ -459,7 +552,10 @@
       "name": "MACAddress",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:MACAddress;1"
+      "@id": "dtmi:com:syyclops:Asset:MACAddress;1",
+      "description": {
+        "en": "The MACAddress property contains the network interface's physical address used for network identification."
+      }
     },
     {
       "@type": "Property",
@@ -469,7 +565,10 @@
       "name": "IPAddress",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:IPAddress;1"
+      "@id": "dtmi:com:syyclops:Asset:IPAddress;1",
+      "description": {
+        "en": "The IPAddress property specifies the logical address assigned to the asset for network communication."
+      }
     },
     {
       "@type": [
@@ -483,7 +582,10 @@
       "schema": "double",
       "unit": "kilogram",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:weight;1"
+      "@id": "dtmi:com:syyclops:Asset:weight;1",
+      "description": {
+        "en": "The weight property indicates the mass of the asset, recorded in the specified weight unit."
+      }
     },
     {
       "@type": [
@@ -499,7 +601,10 @@
       "overrides": "unit",
       "schema": "MassUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:weightUnit;1"
+      "@id": "dtmi:com:syyclops:Asset:weightUnit;1",
+      "description": {
+        "en": "The weightUnit property defines the unit of measurement used for the asset's weight."
+      }
     },
     {
       "@type": "Property",
@@ -509,7 +614,10 @@
       "name": "turnoverDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:turnoverDate;1"
+      "@id": "dtmi:com:syyclops:Asset:turnoverDate;1",
+      "description": {
+        "en": "The turnoverDate property signifies the date when the asset was taken into operation."
+      }
     },
     {
       "@type": "Property",
@@ -519,7 +627,10 @@
       "name": "maintenanceInterval",
       "schema": "duration",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:maintenanceInterval;1"
+      "@id": "dtmi:com:syyclops:Asset:maintenanceInterval;1",
+      "description": {
+        "en": "The maintenanceInterval property defines the recommended period between maintenance activities for the asset."
+      }
     },
     {
       "@type": "Property",
@@ -529,7 +640,10 @@
       "name": "installationDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:installationDate;1"
+      "@id": "dtmi:com:syyclops:Asset:installationDate;1",
+      "description": {
+        "en": "The installationDate property specifies the date when the asset was installed."
+      }
     },
     {
       "@type": "Property",
@@ -539,7 +653,10 @@
       "name": "initialCost",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:initialCost;1"
+      "@id": "dtmi:com:syyclops:Asset:initialCost;1",
+      "description": {
+        "en": "The initialCost property indicates the cost incurred during the acquisition of the asset."
+      }
     },
     {
       "@type": [
@@ -566,7 +683,10 @@
       "name": "expectedReplacementCost",
       "schema": "double",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:expectedReplacementCost;1"
+      "@id": "dtmi:com:syyclops:Asset:expectedReplacementCost;1",
+      "description": {
+        "en": "The expectedReplacementCost property estimates the financial outlay required to replace the asset."
+      }
     },
     {
       "@type": [
@@ -593,7 +713,10 @@
       "name": "expectedLife",
       "schema": "duration",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:expectedLife;1"
+      "@id": "dtmi:com:syyclops:Asset:expectedLife;1",
+      "description": {
+        "en": "The expectedLife property defines the projected usable duration of the asset."
+      }
     },
     {
       "@type": "Property",
@@ -603,7 +726,10 @@
       "name": "expectedEndOfLife",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:expectedEndOfLife;1"
+      "@id": "dtmi:com:syyclops:Asset:expectedEndOfLife;1",
+      "description": {
+        "en": "The expectedEndOfLife property indicates the anticipated date when the asset will no longer be operational."
+      }
     },
     {
       "@type": "Property",
@@ -613,7 +739,10 @@
       "name": "commissionDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:commissionDate;1"
+      "@id": "dtmi:com:syyclops:Asset:commissionDate;1",
+      "description": {
+        "en": "The commissionDate property records the date when the asset was officially put into service."
+      }
     },
     {
       "@type": "Property",
@@ -623,7 +752,10 @@
       "name": "manufacturedDate",
       "schema": "date",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Asset:manufacturedDate;1"
+      "@id": "dtmi:com:syyclops:Asset:manufacturedDate;1",
+      "description": {
+        "en": "The manufacturedDate property details the production date of the asset."
+      }
     },
     {
       "@type": "Property",
@@ -633,7 +765,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Asset:software;1"
+      "@id": "dtmi:com:syyclops:Asset:software;1",
+      "description": {
+        "en": "The software property identifies the software installed or associated with the asset."
+      }
     },
     {
       "@type": "Property",
@@ -643,7 +778,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:Asset:comments;1"
+      "@id": "dtmi:com:syyclops:Asset:comments;1",
+      "description": {
+        "en": "The comments property contains additional textual information relevant to the asset."
+      }
     },
     {
       "@type": "Property",
@@ -706,7 +844,10 @@
         ],
         "@id": "dtmi:com:syyclops:Asset:OS4;1"
       },
-      "@id": "dtmi:com:syyclops:Asset:alternateClassification;1"
+      "@id": "dtmi:com:syyclops:Asset:alternateClassification;1",
+      "description": {
+        "en": "The alternateClassification property provides an alternative categorization for the asset."
+      }
     },
     {
       "@type": "Property",
@@ -728,7 +869,10 @@
         },
         "@id": "dtmi:com:syyclops:Asset:MS5;1"
       },
-      "@id": "dtmi:com:syyclops:Asset:tags;1"
+      "@id": "dtmi:com:syyclops:Asset:tags;1",
+      "description": {
+        "en": "The tags property consists of keywords associated with the asset for classification purposes."
+      }
     },
     {
       "@type": "Property",
@@ -763,7 +907,10 @@
         },
         "@id": "dtmi:com:syyclops:Asset:MS8;1"
       },
-      "@id": "dtmi:com:syyclops:Asset:customProperties;1"
+      "@id": "dtmi:com:syyclops:Asset:customProperties;1",
+      "description": {
+        "en": "The customProperties property allows for the inclusion of user-defined attributes of the asset."
+      }
     }
   ],
   "schemas": [

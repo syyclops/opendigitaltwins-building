@@ -4,10 +4,13 @@
   "displayName": {
     "en": "RoofingMembrane"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The RoofingMembrane interface refers to protective layer components that cover and protect the roof of a structure."
+  }
 }

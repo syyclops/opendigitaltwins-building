@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Fire Alarm Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FireProtectionEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface describing Fire Alarm Equipment for fire protection systems."
+  }
 }

@@ -36,7 +36,10 @@
       "writable": true,
       "schema": "double",
       "unit": "metre",
-      "@id": "dtmi:com:syyclops:Level:elevation;1"
+      "@id": "dtmi:com:syyclops:Level:elevation;1",
+      "description": {
+        "en": "Property indicating the elevation of the level in the Level interface."
+      }
     },
     {
       "@type": [
@@ -52,7 +55,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Level:elevationUnit;1"
+      "@id": "dtmi:com:syyclops:Level:elevationUnit;1",
+      "description": {
+        "en": "Property defining the unit of measurement for level elevation."
+      }
     },
     {
       "@type": [
@@ -66,7 +72,10 @@
       "writable": true,
       "schema": "double",
       "unit": "metre",
-      "@id": "dtmi:com:syyclops:Level:siteElevation;1"
+      "@id": "dtmi:com:syyclops:Level:siteElevation;1",
+      "description": {
+        "en": "Property representing the site elevation of the level in the Level interface."
+      }
     },
     {
       "@type": [
@@ -82,7 +91,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Level:siteElevationUnit;1"
+      "@id": "dtmi:com:syyclops:Level:siteElevationUnit;1",
+      "description": {
+        "en": "Property defining the unit of measurement for site elevation within the Level interface."
+      }
     }
   ],
   "@context": [

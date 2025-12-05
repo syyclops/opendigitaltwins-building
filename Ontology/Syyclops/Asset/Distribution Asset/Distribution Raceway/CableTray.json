@@ -14,7 +14,10 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CableTray:material;1"
+      "@id": "dtmi:com:syyclops:CableTray:material;1",
+      "description": {
+        "en": "Property specifying the material used for constructing cable trays to ensure durability and functionality."
+      }
     },
     {
       "@type": [
@@ -28,7 +31,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CableTray:width;1"
+      "@id": "dtmi:com:syyclops:CableTray:width;1",
+      "description": {
+        "en": "Property defining the width of cable trays, affecting their capacity for cable organization."
+      }
     },
     {
       "@type": [
@@ -44,7 +50,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CableTray:widthUnit;1"
+      "@id": "dtmi:com:syyclops:CableTray:widthUnit;1",
+      "description": {
+        "en": "Specifies the measurement unit for the width of the cable tray in the distribution asset."
+      }
     },
     {
       "@type": [
@@ -58,7 +67,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CableTray:height;1"
+      "@id": "dtmi:com:syyclops:CableTray:height;1",
+      "description": {
+        "en": "Indicates the height of the cable tray as a property of the cable tray interface."
+      }
     },
     {
       "@type": [
@@ -74,7 +86,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CableTray:heightUnit;1"
+      "@id": "dtmi:com:syyclops:CableTray:heightUnit;1",
+      "description": {
+        "en": "Defines the measurement unit for the height of the cable tray."
+      }
     }
   ],
   "@context": [
@@ -82,5 +97,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing cable trays used in distribution raceways for organizing and supporting electrical or telecommunication cables."
+  }
 }

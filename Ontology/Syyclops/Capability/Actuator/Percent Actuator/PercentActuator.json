@@ -20,7 +20,10 @@
       "writable": true,
       "schema": "double",
       "comment": "%",
-      "@id": "dtmi:com:syyclops:PercentActuator:lastValue;1"
+      "@id": "dtmi:com:syyclops:PercentActuator:lastValue;1",
+      "description": {
+        "en": "The lastValue property represents the most recent output percentage of the Percent Actuator within the Percent Unity Actuator interface."
+      }
     }
   ],
   "@context": [

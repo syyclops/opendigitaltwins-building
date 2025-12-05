@@ -22,7 +22,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designEnteringWaterTemperature;1",
+      "description": {
+        "en": "Defines the design entering water temperature for the Water-Cooled Condenser, impacting thermal efficiency."
+      }
     },
     {
       "@type": [
@@ -37,7 +40,10 @@
       "annotates": "designEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measure for the design entering water temperature of the Water-Cooled Condenser."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designLeavingWaterTemperature;1",
+      "description": {
+        "en": "Indicates the design leaving water temperature from the Water-Cooled Condenser, essential for system efficiency."
+      }
     },
     {
       "@type": [
@@ -65,7 +74,10 @@
       "annotates": "designLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Defines the unit of measure for the design leaving water temperature of the Water-Cooled Condenser."
+      }
     },
     {
       "@type": [
@@ -78,7 +90,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designDeltaWaterTemperature;1",
+      "description": {
+        "en": "Represents the design delta water temperature across the Water-Cooled Condenser, important for fluid dynamics."
+      }
     },
     {
       "@type": [
@@ -93,7 +108,10 @@
       "annotates": "designDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measure for the design delta water temperature in the Water-Cooled Condenser."
+      }
     },
     {
       "@type": [
@@ -107,7 +125,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designFlow;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designFlow;1",
+      "description": {
+        "en": "Defines the design flow rate of water through the Water-Cooled Condenser, crucial for effective cooling."
+      }
     },
     {
       "@type": [
@@ -123,7 +144,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designFlowUnit;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designFlowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measure for the design flow rate in the Water-Cooled Condenser."
+      }
     },
     {
       "@type": [
@@ -137,7 +161,10 @@
       "schema": "double",
       "unit": "kilopascal",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designPressureDrop;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designPressureDrop;1",
+      "description": {
+        "en": "Represents the design pressure drop across the Water-Cooled Condenser, significant for pump sizing."
+      }
     },
     {
       "@type": [
@@ -153,7 +180,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designPressureDropUnit;1"
+      "@id": "dtmi:com:syyclops:WaterCooledCondenser:designPressureDropUnit;1",
+      "description": {
+        "en": "Specifies the unit of measure for the design pressure drop in the Water-Cooled Condenser."
+      }
     }
   ],
   "@context": [

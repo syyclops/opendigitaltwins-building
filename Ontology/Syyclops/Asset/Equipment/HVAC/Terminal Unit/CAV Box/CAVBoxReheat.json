@@ -23,7 +23,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CAVBoxReheat:nominalHeatingCapacity;1"
+      "@id": "dtmi:com:syyclops:CAVBoxReheat:nominalHeatingCapacity;1",
+      "description": {
+        "en": "Specifies the nominal heating capacity of the CAV box reheat component in HVAC systems."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CAVBoxReheat:nominalHeatingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:CAVBoxReheat:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the nominal heating capacity of the CAV box reheat."
+      }
     },
     {
       "@type": "Component",
@@ -48,7 +54,10 @@
       },
       "name": "reHeatingMethod",
       "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
-      "@id": "dtmi:com:syyclops:CAVBoxReheat:reHeatingMethod;1"
+      "@id": "dtmi:com:syyclops:CAVBoxReheat:reHeatingMethod;1",
+      "description": {
+        "en": "Component specifying the re-heating method utilized within the CAV box reheat interface."
+      }
     }
   ],
   "@context": [

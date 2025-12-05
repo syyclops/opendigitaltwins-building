@@ -5,10 +5,11 @@
     "en": "Curb Inlet"
   },
   "extends": "dtmi:com:syyclops:StormSewerInlet;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The CurbInlet interface defines an entry point for stormwater drainage into underground systems."
+  }
 }

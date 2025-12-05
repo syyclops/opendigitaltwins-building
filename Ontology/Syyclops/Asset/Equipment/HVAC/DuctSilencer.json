@@ -15,10 +15,16 @@
         "en": "Duct Inlet"
       },
       "schema": "dtmi:com:syyclops:DuctConnection;1",
-      "@id": "dtmi:com:syyclops:DuctSilencer:ductInlet;1"
+      "@id": "dtmi:com:syyclops:DuctSilencer:ductInlet;1",
+      "description": {
+        "en": "Defines the duct inlet component of a duct silencer interface, facilitating sound attenuation."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for duct silencers aimed at reducing noise in HVAC duct systems."
+  }
 }

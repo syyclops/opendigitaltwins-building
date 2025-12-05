@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Transformer:voltageSecondary;1"
+      "@id": "dtmi:com:syyclops:Transformer:voltageSecondary;1",
+      "description": {
+        "en": "The voltageSecondary property defines the output voltage rating of the Transformer."
+      }
     },
     {
       "@type": [
@@ -34,7 +37,10 @@
       "schema": "double",
       "unit": "volt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Transformer:voltagePrimary;1"
+      "@id": "dtmi:com:syyclops:Transformer:voltagePrimary;1",
+      "description": {
+        "en": "The voltagePrimary property specifies the input voltage rating of the Transformer."
+      }
     },
     {
       "@type": "Property",
@@ -44,7 +50,10 @@
       "name": "type",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Transformer:type;1"
+      "@id": "dtmi:com:syyclops:Transformer:type;1",
+      "description": {
+        "en": "The type property identifies the classification of the Transformer based on its design and application."
+      }
     },
     {
       "@type": [
@@ -58,7 +67,10 @@
       "schema": "double",
       "unit": "kilovoltAmpere",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Transformer:sizeKVA;1"
+      "@id": "dtmi:com:syyclops:Transformer:sizeKVA;1",
+      "description": {
+        "en": "The sizeKVA property indicates the apparent power rating of the Transformer in kilovolt-amperes."
+      }
     },
     {
       "@type": "Property",
@@ -84,11 +96,17 @@
         "@id": "dtmi:com:syyclops:Transformer:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Transformer:phases;1"
+      "@id": "dtmi:com:syyclops:Transformer:phases;1",
+      "description": {
+        "en": "The phases property specifies the number of phases the Transformer operates with, such as single or three-phase."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "The Transformer interface defines the specifications and operational characteristics of electrical transformers."
+  }
 }

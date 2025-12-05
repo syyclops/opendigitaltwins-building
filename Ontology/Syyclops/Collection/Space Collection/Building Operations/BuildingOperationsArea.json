@@ -18,7 +18,10 @@
         "en": "Area"
       },
       "schema": "dtmi:com:syyclops:SpaceArea;1",
-      "@id": "dtmi:com:syyclops:BuildingOperationsArea:area;1"
+      "@id": "dtmi:com:syyclops:BuildingOperationsArea:area;1",
+      "description": {
+        "en": "Represents a component defining the spatial area encompassed by the building operations."
+      }
     },
     {
       "@type": "Component",
@@ -27,7 +30,10 @@
         "en": "Capacity"
       },
       "schema": "dtmi:com:syyclops:SpaceCapacity;1",
-      "@id": "dtmi:com:syyclops:BuildingOperationsArea:capacity;1"
+      "@id": "dtmi:com:syyclops:BuildingOperationsArea:capacity;1",
+      "description": {
+        "en": "Specifies the capacity parameter for the building operations area, indicating its maximum functionality."
+      }
     },
     {
       "@type": "Component",
@@ -36,7 +42,10 @@
         "en": "Temperature"
       },
       "schema": "dtmi:com:syyclops:SpaceTemperature;1",
-      "@id": "dtmi:com:syyclops:BuildingOperationsArea:temperature;1"
+      "@id": "dtmi:com:syyclops:BuildingOperationsArea:temperature;1",
+      "description": {
+        "en": "Monitors and provides temperature readings within the building operations area."
+      }
     },
     {
       "@type": "Component",
@@ -45,7 +54,10 @@
         "en": "Humidity Average"
       },
       "schema": "dtmi:com:syyclops:SpaceHumidity;1",
-      "@id": "dtmi:com:syyclops:BuildingOperationsArea:humidity;1"
+      "@id": "dtmi:com:syyclops:BuildingOperationsArea:humidity;1",
+      "description": {
+        "en": "Measures and reports the humidity levels within the building operations area."
+      }
     },
     {
       "@type": "Component",
@@ -54,7 +66,10 @@
         "en": "CO2"
       },
       "schema": "dtmi:com:syyclops:SpaceCO2;1",
-      "@id": "dtmi:com:syyclops:BuildingOperationsArea:CO2;1"
+      "@id": "dtmi:com:syyclops:BuildingOperationsArea:CO2;1",
+      "description": {
+        "en": "Tracks carbon dioxide levels within the building operations area for environmental monitoring."
+      }
     },
     {
       "@type": "Component",
@@ -63,7 +78,10 @@
         "en": "Occupancy"
       },
       "schema": "dtmi:com:syyclops:SpaceOccupancy;1",
-      "@id": "dtmi:com:syyclops:BuildingOperationsArea:occupancy;1"
+      "@id": "dtmi:com:syyclops:BuildingOperationsArea:occupancy;1",
+      "description": {
+        "en": "Indicates the occupancy status within the building operations area."
+      }
     }
   ],
   "@context": [

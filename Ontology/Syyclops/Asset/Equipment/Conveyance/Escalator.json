@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:stepWidth;1"
+      "@id": "dtmi:com:syyclops:Escalator:stepWidth;1",
+      "description": {
+        "en": "The property defining the width of the escalator steps."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:stepWidthUnit;1"
+      "@id": "dtmi:com:syyclops:Escalator:stepWidthUnit;1",
+      "description": {
+        "en": "The unit of measurement for the escalator's step width, typically in centimeters or inches."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "metre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:maxVerticalRise;1"
+      "@id": "dtmi:com:syyclops:Escalator:maxVerticalRise;1",
+      "description": {
+        "en": "Defines the maximum vertical rise an escalator can transport passengers."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:maxVerticalRiseUnit;1"
+      "@id": "dtmi:com:syyclops:Escalator:maxVerticalRiseUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the escalator's maximum vertical rise."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "schema": "double",
       "unit": "metrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:maxTravelSpeed;1"
+      "@id": "dtmi:com:syyclops:Escalator:maxTravelSpeed;1",
+      "description": {
+        "en": "Indicates the maximum travel speed of the escalator."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "VelocityUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:maxTravelSpeedUnit;1"
+      "@id": "dtmi:com:syyclops:Escalator:maxTravelSpeedUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the escalator's maximum travel speed."
+      }
     },
     {
       "@type": [
@@ -110,7 +128,10 @@
       "schema": "double",
       "unit": "degreeOfArc",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Escalator:inclination;1"
+      "@id": "dtmi:com:syyclops:Escalator:inclination;1",
+      "description": {
+        "en": "Defines the inclination angle of the escalator relative to the horizontal."
+      }
     }
   ],
   "@context": [
@@ -118,5 +139,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing an escalator asset designed for the transport of passengers between different levels."
+  }
 }

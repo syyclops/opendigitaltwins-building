@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Lease Contract"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ContractDocument;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining the structure and attributes of a lease contract."
+  }
 }

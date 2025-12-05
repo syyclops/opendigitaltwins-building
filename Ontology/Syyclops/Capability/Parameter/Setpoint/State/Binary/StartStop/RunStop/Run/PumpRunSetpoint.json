@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Pump Run Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:RunSetpoint;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the run state setpoint for a pump operation, using a binary control signal."
+  }
 }

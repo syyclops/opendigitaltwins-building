@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CeilingFan:bladeDiameter;1"
+      "@id": "dtmi:com:syyclops:CeilingFan:bladeDiameter;1",
+      "description": {
+        "en": "Specifies the blade diameter property for ceiling fans, impacting airflow and efficiency."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CeilingFan:bladeDiameterUnit;1"
+      "@id": "dtmi:com:syyclops:CeilingFan:bladeDiameterUnit;1",
+      "description": {
+        "en": "Denotes the measurement unit for the blade diameter of ceiling fans."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for ceiling fans that enhance air circulation in indoor spaces."
+  }
 }

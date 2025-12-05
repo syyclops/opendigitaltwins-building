@@ -37,10 +37,16 @@
         "@id": "dtmi:com:syyclops:SprinklerShutOffValve:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:SprinklerShutOffValve:type;1"
+      "@id": "dtmi:com:syyclops:SprinklerShutOffValve:type;1",
+      "description": {
+        "en": "Describes the type property of the Shut-off Valve in sprinkler systems."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the interface for a Shut-Off Valve that halts the water flow in sprinkler systems."
+  }
 }

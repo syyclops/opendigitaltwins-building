@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Runway End Identifier Light (REIL) Fixture"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:ApproachLightFixture;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Runway End Identifier Light Fixture interface indicates the end of a runway during landing."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Airfield Boundary Pavement Marking"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:AirfieldPavementMarking;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the boundary pavement marking specifications for airfield operations, ensuring safe delineation of movement areas."
+  }
 }

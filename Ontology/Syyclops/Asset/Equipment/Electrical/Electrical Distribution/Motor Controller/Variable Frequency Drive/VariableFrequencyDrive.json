@@ -37,10 +37,16 @@
         "@id": "dtmi:com:syyclops:VariableFrequencyDrive:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:VariableFrequencyDrive:type;1"
+      "@id": "dtmi:com:syyclops:VariableFrequencyDrive:type;1",
+      "description": {
+        "en": "Property representing the type of variable frequency drive in an electrical distribution system."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining a variable frequency drive used to control motor speed and torque by varying input frequency and voltage."
+  }
 }

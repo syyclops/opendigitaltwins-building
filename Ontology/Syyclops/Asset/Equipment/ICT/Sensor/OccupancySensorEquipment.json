@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Occupancy Sensor Equipment"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:SensorEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for Occupancy Sensor Equipment, detecting the presence of individuals in a defined area."
+  }
 }

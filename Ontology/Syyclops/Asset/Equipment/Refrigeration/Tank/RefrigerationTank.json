@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Refrigeration Tank"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:RefrigerationEquipment;1",
     "dtmi:com:syyclops:Tank;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The refrigeration tank interface defines the operational characteristics and interactions of refrigerated storage equipment."
+  }
 }

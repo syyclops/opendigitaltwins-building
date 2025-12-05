@@ -31,7 +31,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:BinarySensor:lastValue;1"
+      "@id": "dtmi:com:syyclops:BinarySensor:lastValue;1",
+      "description": {
+        "en": "Represents the current state value of the binary sensor, indicating whether it is in an on or off position, as specified in the Binary Sensor interface."
+      }
     }
   ],
   "@context": [

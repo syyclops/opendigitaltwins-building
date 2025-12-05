@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Heat Tracing (HVAC)"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACEquipment;1",
     "dtmi:com:syyclops:HeatTracing;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for HVAC heat tracing equipment, supporting thermal management for piping systems."
+  }
 }

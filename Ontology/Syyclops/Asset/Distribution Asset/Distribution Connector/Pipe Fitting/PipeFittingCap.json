@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Cap"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingCap interface represents a closure fitting used to seal the ends of pipes."
+  }
 }

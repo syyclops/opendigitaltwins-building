@@ -40,7 +40,10 @@
         ],
         "@id": "dtmi:com:syyclops:airport:AirportGate:OS1;1"
       },
-      "@id": "dtmi:com:syyclops:airport:AirportGate:coordinates;1"
+      "@id": "dtmi:com:syyclops:airport:AirportGate:coordinates;1",
+      "description": {
+        "en": "The coordinates property denotes the geographic position of the airport gate."
+      }
     }
   ],
   "@context": [

@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:workingPressure;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:workingPressure;1",
+      "description": {
+        "en": "Specifies the operating pressure of the air compressor."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:workingPressureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the working pressure."
+      }
     },
     {
       "@type": [
@@ -50,7 +56,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:motorPower;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:motorPower;1",
+      "description": {
+        "en": "Defines the power output of the air compressor's motor."
+      }
     },
     {
       "@type": [
@@ -66,7 +75,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:motorPowerUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:motorPowerUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the motor power."
+      }
     },
     {
       "@type": [
@@ -80,7 +92,10 @@
       "schema": "double",
       "unit": "horsepower",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:brakeHorsepower;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:brakeHorsepower;1",
+      "description": {
+        "en": "Indicates the brake horsepower rating of the air compressor."
+      }
     },
     {
       "@type": [
@@ -96,7 +111,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:brakeHorsepowerUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:brakeHorsepowerUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the brake horsepower."
+      }
     },
     {
       "@type": [
@@ -110,7 +128,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:freeAirDelivery;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:freeAirDelivery;1",
+      "description": {
+        "en": "Specifies the volume of free air delivered by the compressor."
+      }
     },
     {
       "@type": [
@@ -126,7 +147,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressor:freeAirDeliveryUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressor:freeAirDeliveryUnit;1",
+      "description": {
+        "en": "The freeAirDeliveryUnit property indicates the volume of compressed air delivered by the air compressor, typically measured in cubic feet per minute."
+      }
     }
   ],
   "@context": [
@@ -134,5 +158,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Defines the Air Compressor interface encompassing its operational capabilities."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Heating Hot Water Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HydronicPump;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a heating hot water pump, facilitating the circulation of hot water in HVAC systems."
+  }
 }

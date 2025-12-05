@@ -55,7 +55,10 @@
       "name": "isAllDay",
       "schema": "boolean",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CalendarEvent:isAllDay;1"
+      "@id": "dtmi:com:syyclops:CalendarEvent:isAllDay;1",
+      "description": {
+        "en": "Denotes whether a calendar event spans the entire day."
+      }
     },
     {
       "@type": "Property",
@@ -65,7 +68,10 @@
       },
       "writable": true,
       "schema": "dtmi:com:syyclops:PatternedRecurrence;1",
-      "@id": "dtmi:com:syyclops:CalendarEvent:recurrence;1"
+      "@id": "dtmi:com:syyclops:CalendarEvent:recurrence;1",
+      "description": {
+        "en": "Defines the recurrence pattern for a calendar event."
+      }
     },
     {
       "@type": "Property",
@@ -75,7 +81,10 @@
       },
       "writable": true,
       "schema": "string",
-      "@id": "dtmi:com:syyclops:CalendarEvent:iCalUID;1"
+      "@id": "dtmi:com:syyclops:CalendarEvent:iCalUID;1",
+      "description": {
+        "en": "Provides a unique identifier for a calendar event in iCalendar format."
+      }
     },
     {
       "@type": "Property",
@@ -106,7 +115,10 @@
         "@id": "dtmi:com:syyclops:CalendarEvent:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:CalendarEvent:importance;1"
+      "@id": "dtmi:com:syyclops:CalendarEvent:importance;1",
+      "description": {
+        "en": "Indicates the importance level of a calendar event."
+      }
     },
     {
       "@type": "Property",
@@ -116,7 +128,10 @@
       "name": "estimatedAttendeeCount",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:CalendarEvent:estimatedAttendeeCount;1"
+      "@id": "dtmi:com:syyclops:CalendarEvent:estimatedAttendeeCount;1",
+      "description": {
+        "en": "Estimates the number of attendees expected at a calendar event."
+      }
     }
   ],
   "schemas": [
@@ -309,37 +324,58 @@
         {
           "enumValue": "sunday",
           "name": "sunday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:sunday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:sunday;1",
+          "description": {
+            "en": "Represents the enum value for Sunday in calendar events."
+          }
         },
         {
           "enumValue": "monday",
           "name": "monday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:monday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:monday;1",
+          "description": {
+            "en": "Represents the enum value for Monday in calendar events."
+          }
         },
         {
           "enumValue": "tuesday",
           "name": "tuesday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:tuesday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:tuesday;1",
+          "description": {
+            "en": "Represents the enum value for Tuesday in calendar events."
+          }
         },
         {
           "enumValue": "wednesday",
           "name": "wednesday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:wednesday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:wednesday;1",
+          "description": {
+            "en": "Represents the enum value for Wednesday in calendar events."
+          }
         },
         {
           "enumValue": "thursday",
           "name": "thursday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:thursday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:thursday;1",
+          "description": {
+            "en": "Represents the enum value for Thursday in calendar events."
+          }
         },
         {
           "enumValue": "friday",
           "name": "friday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:friday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:friday;1",
+          "description": {
+            "en": "Represents the enum value for Friday in calendar events."
+          }
         },
         {
           "enumValue": "saturday",
           "name": "saturday",
-          "@id": "dtmi:com:syyclops:CalendarEvent:saturday;1"
+          "@id": "dtmi:com:syyclops:CalendarEvent:saturday;1",
+          "description": {
+            "en": "Represents the enum value for Saturday in calendar events."
+          }
         }
       ],
       "valueSchema": "string",

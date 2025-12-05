@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:Boiler:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:type;1"
+      "@id": "dtmi:com:syyclops:Boiler:type;1",
+      "description": {
+        "en": "The type property indicating the specific classification of the boiler."
+      }
     },
     {
       "@type": [
@@ -46,7 +49,10 @@
       "schema": "double",
       "unit": "litre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:tankCapacity;1"
+      "@id": "dtmi:com:syyclops:Boiler:tankCapacity;1",
+      "description": {
+        "en": "The tank capacity property defining the volume of water the boiler can store."
+      }
     },
     {
       "@type": [
@@ -62,7 +68,10 @@
       "overrides": "unit",
       "schema": "VolumeUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:tankCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Boiler:tankCapacityUnit;1",
+      "description": {
+        "en": "The units of measurement for the tank capacity of the boiler."
+      }
     },
     {
       "@type": [
@@ -76,7 +85,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:powerOutput;1"
+      "@id": "dtmi:com:syyclops:Boiler:powerOutput;1",
+      "description": {
+        "en": "The power output property indicating the amount of energy the boiler can produce."
+      }
     },
     {
       "@type": [
@@ -92,7 +104,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:powerOutputUnit;1"
+      "@id": "dtmi:com:syyclops:Boiler:powerOutputUnit;1",
+      "description": {
+        "en": "The units of measurement for the power output of the boiler."
+      }
     },
     {
       "@type": [
@@ -106,7 +121,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:powerInput;1"
+      "@id": "dtmi:com:syyclops:Boiler:powerInput;1",
+      "description": {
+        "en": "Defines the input power to the boiler as a property of the Boiler interface."
+      }
     },
     {
       "@type": [
@@ -122,7 +140,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:powerInputUnit;1"
+      "@id": "dtmi:com:syyclops:Boiler:powerInputUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the boiler's input power."
+      }
     },
     {
       "@type": "Property",
@@ -148,7 +169,10 @@
         "@id": "dtmi:com:syyclops:Boiler:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Boiler:medium;1"
+      "@id": "dtmi:com:syyclops:Boiler:medium;1",
+      "description": {
+        "en": "Indicates the heating medium used in the boiler system."
+      }
     },
     {
       "@type": [
@@ -178,7 +202,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:Boiler:designEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:Boiler:designEnteringWaterTemperature;1",
+      "description": {
+        "en": "Represents the design temperature of water entering the boiler."
+      }
     },
     {
       "@type": [
@@ -193,7 +220,10 @@
       "annotates": "designEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:Boiler:designEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:Boiler:designEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the entering water temperature."
+      }
     },
     {
       "@type": [
@@ -206,7 +236,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:Boiler:designLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:Boiler:designLeavingWaterTemperature;1",
+      "description": {
+        "en": "Specifies the design water temperature upon leaving the boiler."
+      }
     },
     {
       "@type": [
@@ -221,7 +254,10 @@
       "annotates": "designLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:Boiler:designLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:Boiler:designLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the leaving water temperature."
+      }
     },
     {
       "@type": [
@@ -234,7 +270,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:Boiler:designDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:Boiler:designDeltaWaterTemperature;1",
+      "description": {
+        "en": "Defines the temperature difference (delta) between entering and leaving water."
+      }
     },
     {
       "@type": [
@@ -249,7 +288,10 @@
       "annotates": "designDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:Boiler:designDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:Boiler:designDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the delta water temperature."
+      }
     }
   ],
   "@context": [
@@ -257,5 +299,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing a boiler, providing essential functionality for heating applications."
+  }
 }

@@ -12,7 +12,10 @@
   ],
   "contents": [
     {
-      "@type": ["Telemetry", "Concentration"],
+      "@type": [
+        "Telemetry",
+        "Concentration"
+      ],
       "@id": "dtmi:com:syyclops:TVOCAirQualitySensor:tvoc;1",
       "name": "tvoc",
       "displayName": {
@@ -25,7 +28,11 @@
       "unit": "partsPerBillion"
     },
     {
-      "@type": ["Property", "ValueAnnotation", "Override"],
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
       "@id": "dtmi:com:syyclops:TVOCAirQualitySensor:tvocUnit;1",
       "name": "tvocUnit",
       "displayName": {
@@ -34,7 +41,10 @@
       "schema": "Unitless",
       "writable": true,
       "annotates": "tvoc",
-      "overrides": "unit"
+      "overrides": "unit",
+      "description": {
+        "en": "The tvocUnit property represents the unit of measurement for total volatile organic compound levels in TVOC air quality sensors."
+      }
     }
   ],
   "@context": [

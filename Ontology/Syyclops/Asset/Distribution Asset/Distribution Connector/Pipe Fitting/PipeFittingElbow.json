@@ -5,10 +5,11 @@
     "en": "Pipe Fitting Elbow"
   },
   "extends": "dtmi:com:syyclops:PipeFitting;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFittingElbow interface allows for directional changes in piping, typically at 90 or 45 degrees."
+  }
 }

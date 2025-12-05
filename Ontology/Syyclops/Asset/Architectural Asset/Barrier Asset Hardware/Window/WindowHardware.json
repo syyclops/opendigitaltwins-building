@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Window Hardware"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BarrierAssetHardware;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the hardware used with windows in architectural barrier configurations."
+  }
 }

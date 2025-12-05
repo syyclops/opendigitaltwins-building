@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Structural Building Component"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:BuildingComponent;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the properties and capabilities of structural building components, enabling the representation and interaction with physical structures."
+  }
 }

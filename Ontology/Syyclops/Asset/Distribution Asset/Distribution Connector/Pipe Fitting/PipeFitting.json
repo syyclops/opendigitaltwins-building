@@ -14,7 +14,10 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeFitting:material;1"
+      "@id": "dtmi:com:syyclops:PipeFitting:material;1",
+      "description": {
+        "en": "The material property specifies the composition of pipe fittings used within the distribution network."
+      }
     },
     {
       "@type": [
@@ -28,7 +31,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeFitting:diameter;1"
+      "@id": "dtmi:com:syyclops:PipeFitting:diameter;1",
+      "description": {
+        "en": "The diameter property indicates the width of the pipe fitting essential for compatible connection."
+      }
     },
     {
       "@type": [
@@ -44,7 +50,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:PipeFitting:diameterUnit;1"
+      "@id": "dtmi:com:syyclops:PipeFitting:diameterUnit;1",
+      "description": {
+        "en": "The diameterUnit property defines the measurement unit for the diameter of the pipe fitting."
+      }
     }
   ],
   "@context": [
@@ -52,5 +61,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "The PipeFitting interface encapsulates various types of connectors that join sections of piping."
+  }
 }

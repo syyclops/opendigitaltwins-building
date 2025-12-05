@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Bread Slicer"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:FoodPreparationEquipment;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining a bread slicer for uniform cutting of loaves into even slices."
+  }
 }

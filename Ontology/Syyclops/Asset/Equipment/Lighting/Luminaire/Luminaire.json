@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "watt",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Luminaire:powerInput;1"
+      "@id": "dtmi:com:syyclops:Luminaire:powerInput;1",
+      "description": {
+        "en": "Property specifying the electrical power input requirements for the luminaire."
+      }
     },
     {
       "@type": "Property",
@@ -61,11 +64,17 @@
         "@id": "dtmi:com:syyclops:Luminaire:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:Luminaire:mounting;1"
+      "@id": "dtmi:com:syyclops:Luminaire:mounting;1",
+      "description": {
+        "en": "Property detailing the mounting method used for the luminaire installation."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface defining a luminaire used for general lighting purposes."
+  }
 }

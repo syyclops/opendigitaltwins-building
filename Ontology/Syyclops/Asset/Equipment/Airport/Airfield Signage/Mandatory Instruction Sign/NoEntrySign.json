@@ -4,13 +4,14 @@
   "displayName": {
     "en": "No Entry Sign"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:airport:MandatoryInstructionSign;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines No Entry Signs prohibiting access to restricted zones within the airport environment."
+  }
 }

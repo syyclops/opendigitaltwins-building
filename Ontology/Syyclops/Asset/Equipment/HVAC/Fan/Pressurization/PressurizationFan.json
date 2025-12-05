@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Pressurization Fan"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACFan;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a generic pressurization fan in HVAC systems."
+  }
 }

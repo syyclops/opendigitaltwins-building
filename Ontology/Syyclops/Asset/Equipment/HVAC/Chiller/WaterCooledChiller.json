@@ -18,7 +18,10 @@
       },
       "name": "condenser",
       "schema": "dtmi:com:syyclops:WaterCooledCondenser;1",
-      "@id": "dtmi:com:syyclops:WaterCooledChiller:condenser;1"
+      "@id": "dtmi:com:syyclops:WaterCooledChiller:condenser;1",
+      "description": {
+        "en": "The condenser component represents the heat exchanger in the water-cooled chiller where heat is rejected."
+      }
     }
   ],
   "@context": [

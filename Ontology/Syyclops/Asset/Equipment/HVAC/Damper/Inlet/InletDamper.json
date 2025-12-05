@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Inlet Damper"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACDamper;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents an Inlet Damper for HVAC systems, regulating the entry of air into the ductwork."
+  }
 }

@@ -23,7 +23,10 @@
       "writable": true,
       "schema": "integer",
       "unit": "litrePerSecond",
-      "@id": "dtmi:com:syyclops:AirCompressorFilter:flowRate;1"
+      "@id": "dtmi:com:syyclops:AirCompressorFilter:flowRate;1",
+      "description": {
+        "en": "The flowRate property quantifies the volume of air that can pass through the air compressor filter, typically in cubic feet per minute."
+      }
     },
     {
       "@type": [
@@ -39,7 +42,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressorFilter:flowRateUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressorFilter:flowRateUnit;1",
+      "description": {
+        "en": "The flowRateUnit property specifies the measurement units used for the flow rate of the air compressor filter."
+      }
     },
     {
       "@type": [
@@ -53,7 +59,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressorFilter:workingPressure;1"
+      "@id": "dtmi:com:syyclops:AirCompressorFilter:workingPressure;1",
+      "description": {
+        "en": "The workingPressure property indicates the pressure at which the air compressor filter performs optimally."
+      }
     },
     {
       "@type": [
@@ -69,7 +78,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:AirCompressorFilter:workingPressureUnit;1"
+      "@id": "dtmi:com:syyclops:AirCompressorFilter:workingPressureUnit;1",
+      "description": {
+        "en": "The workingPressureUnit property denotes the unit of measurement for the working pressure of the air compressor filter."
+      }
     }
   ],
   "@context": [

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Natural Gas System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:GasSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for managing the natural gas supply and distribution within plumbing infrastructure."
+  }
 }

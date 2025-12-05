@@ -5,10 +5,11 @@
     "en": "Distribution Connector"
   },
   "extends": "dtmi:com:syyclops:DistributionAsset;1",
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a Distribution Connector within the distribution asset framework."
+  }
 }

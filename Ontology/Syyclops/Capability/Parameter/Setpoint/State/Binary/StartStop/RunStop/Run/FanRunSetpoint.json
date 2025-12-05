@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Fan Run Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:RunSetpoint;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Indicates the run setpoint for a fan system, employing a binary state for operation control."
+  }
 }

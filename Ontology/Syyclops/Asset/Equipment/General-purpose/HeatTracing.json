@@ -32,7 +32,10 @@
         "@id": "dtmi:com:syyclops:HeatTracing:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatTracing:type;1"
+      "@id": "dtmi:com:syyclops:HeatTracing:type;1",
+      "description": {
+        "en": "Represents the type property of the Heat Tracing interface within the general-purpose equipment asset."
+      }
     },
     {
       "@type": "Property",
@@ -51,5 +54,8 @@
   "@context": [
     "dtmi:dtdl:context;3",
     "dtmi:dtdl:extension:quantitativeTypes;1"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a heat tracing system designed to maintain temperatures in piping or equipment."
+  }
 }

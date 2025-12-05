@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Outside Air Fan"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACFan;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for an outside air fan used for ventilation in HVAC systems."
+  }
 }

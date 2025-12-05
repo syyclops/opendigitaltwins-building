@@ -17,10 +17,16 @@
       "writable": true,
       "schema": "string",
       "comment": "JSON encoded string ",
-      "@id": "dtmi:com:syyclops:BACnetController:address;1"
+      "@id": "dtmi:com:syyclops:BACnetController:address;1",
+      "description": {
+        "en": "Property representing the address of the BACnet Controller."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for BACnet controllers used in building automation and control."
+  }
 }

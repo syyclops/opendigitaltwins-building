@@ -24,5 +24,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents an interface for a collection of spaces available for various functionalities."
+  }
 }

@@ -20,7 +20,10 @@
       "schema": "double",
       "unit": "metre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:DistributionAsset:length;1"
+      "@id": "dtmi:com:syyclops:DistributionAsset:length;1",
+      "description": {
+        "en": "A property indicating the length of the distribution asset in specified units."
+      }
     },
     {
       "@type": [
@@ -36,7 +39,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:DistributionAsset:lengthUnit;1"
+      "@id": "dtmi:com:syyclops:DistributionAsset:lengthUnit;1",
+      "description": {
+        "en": "A property denoting the unit of measurement used for the length of the distribution asset."
+      }
     }
   ],
   "@context": [
@@ -44,5 +50,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface defining aspects of all distribution assets, serving as a base for specific asset types."
+  }
 }

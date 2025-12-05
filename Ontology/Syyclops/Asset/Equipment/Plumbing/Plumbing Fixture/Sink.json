@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Sink"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PlumbingFixture;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the Sink interface, classified as a plumbing fixture."
+  }
 }

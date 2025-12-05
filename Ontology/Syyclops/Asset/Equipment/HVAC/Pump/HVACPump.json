@@ -4,14 +4,15 @@
   "displayName": {
     "en": "HVAC Pump"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACEquipment;1",
     "dtmi:com:syyclops:Pump;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the interface for an HVAC pump responsible for fluid movement in heating and cooling systems."
+  }
 }

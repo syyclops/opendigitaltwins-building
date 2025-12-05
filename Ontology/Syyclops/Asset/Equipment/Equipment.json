@@ -75,187 +75,298 @@
         {
           "enumValue": "Water",
           "name": "Water",
-          "@id": "dtmi:com:syyclops:Equipment:Water;1"
+          "@id": "dtmi:com:syyclops:Equipment:Water;1",
+          "description": {
+            "en": "EnumValue representing water as a specified type of equipment within the equipment schema."
+          }
         },
         {
           "enumValue": "WasteVentDrainage",
           "name": "WasteVentDrainage",
-          "@id": "dtmi:com:syyclops:Equipment:WasteVentDrainage;1"
+          "@id": "dtmi:com:syyclops:Equipment:WasteVentDrainage;1",
+          "description": {
+            "en": "EnumValue for waste ventilation drainage, defining a type of drainage equipment."
+          }
         },
         {
           "enumValue": "TransferAir",
           "name": "TransferAir",
-          "@id": "dtmi:com:syyclops:Equipment:TransferAir;1"
+          "@id": "dtmi:com:syyclops:Equipment:TransferAir;1",
+          "description": {
+            "en": "EnumValue indicating equipment used for transferring air within HVAC systems."
+          }
         },
         {
           "enumValue": "SupplyAir",
           "name": "SupplyAir",
-          "@id": "dtmi:com:syyclops:Equipment:SupplyAir;1"
+          "@id": "dtmi:com:syyclops:Equipment:SupplyAir;1",
+          "description": {
+            "en": "EnumValue representing equipment dedicated to supplying air in ventilation systems."
+          }
         },
         {
           "enumValue": "StormDrainage",
           "name": "StormDrainage",
-          "@id": "dtmi:com:syyclops:Equipment:StormDrainage;1"
+          "@id": "dtmi:com:syyclops:Equipment:StormDrainage;1",
+          "description": {
+            "en": "EnumValue denoting storm drainage equipment utilized in water management systems."
+          }
         },
         {
           "enumValue": "Steam",
           "name": "Steam",
-          "@id": "dtmi:com:syyclops:Equipment:Steam;1"
+          "@id": "dtmi:com:syyclops:Equipment:Steam;1",
+          "description": {
+            "en": "EnumValue representing steam as a type of equipment, typically used in heating or power generation."
+          }
         },
         {
           "enumValue": "SprinklerWater",
           "name": "SprinklerWater",
-          "@id": "dtmi:com:syyclops:Equipment:SprinklerWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:SprinklerWater;1",
+          "description": {
+            "en": "EnumValue indicating sprinkler water equipment used for irrigation and firefighting systems."
+          }
         },
         {
           "enumValue": "ReturnAir",
           "name": "ReturnAir",
-          "@id": "dtmi:com:syyclops:Equipment:ReturnAir;1"
+          "@id": "dtmi:com:syyclops:Equipment:ReturnAir;1",
+          "description": {
+            "en": "EnumValue designating equipment responsible for returning air in HVAC applications."
+          }
         },
         {
           "enumValue": "Refrig",
           "name": "Refrig",
-          "@id": "dtmi:com:syyclops:Equipment:Refrig;1"
+          "@id": "dtmi:com:syyclops:Equipment:Refrig;1",
+          "description": {
+            "en": "EnumValue representing refrigeration equipment used for cooling and temperature control."
+          }
         },
         {
           "enumValue": "RecircHotDomesticWater",
           "name": "RecircHotDomesticWater",
-          "@id": "dtmi:com:syyclops:Equipment:RecircHotDomesticWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:RecircHotDomesticWater;1",
+          "description": {
+            "en": "EnumValue defining recirculated hot domestic water equipment for efficient water heating."
+          }
         },
         {
           "enumValue": "Propane",
           "name": "Propane",
-          "@id": "dtmi:com:syyclops:Equipment:Propane;1"
+          "@id": "dtmi:com:syyclops:Equipment:Propane;1",
+          "description": {
+            "en": "EnumValue for propane equipment utilized in heating and cooking applications."
+          }
         },
         {
           "enumValue": "OutsideAir",
           "name": "OutsideAir",
-          "@id": "dtmi:com:syyclops:Equipment:OutsideAir;1"
+          "@id": "dtmi:com:syyclops:Equipment:OutsideAir;1",
+          "description": {
+            "en": "EnumValue representing outside air equipment used for ventilation and air quality management."
+          }
         },
         {
           "enumValue": "NonPotableDomesticWater",
           "name": "NonPotableDomesticWater",
-          "@id": "dtmi:com:syyclops:Equipment:NonPotableDomesticWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:NonPotableDomesticWater;1",
+          "description": {
+            "en": "Represents non-potable water used for domestic applications within the equipment schema."
+          }
         },
         {
           "enumValue": "NaturalGas",
           "name": "NaturalGas",
-          "@id": "dtmi:com:syyclops:Equipment:NaturalGas;1"
+          "@id": "dtmi:com:syyclops:Equipment:NaturalGas;1",
+          "description": {
+            "en": "Denotes natural gas as a fuel type present in the equipment schema."
+          }
         },
         {
           "enumValue": "MakeupWater",
           "name": "MakeupWater",
-          "@id": "dtmi:com:syyclops:Equipment:MakeupWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:MakeupWater;1",
+          "description": {
+            "en": "Indicates water added to replace losses in equipment systems, categorized in the equipment schema."
+          }
         },
         {
           "enumValue": "Light",
           "name": "Light",
-          "@id": "dtmi:com:syyclops:Equipment:Light;1"
+          "@id": "dtmi:com:syyclops:Equipment:Light;1",
+          "description": {
+            "en": "Specifies light as a type of energy source utilized in the equipment schema."
+          }
         },
         {
           "enumValue": "IrrigationWater",
           "name": "IrrigationWater",
-          "@id": "dtmi:com:syyclops:Equipment:IrrigationWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:IrrigationWater;1",
+          "description": {
+            "en": "Identifies water specifically used for irrigation purposes within the equipment schema."
+          }
         },
         {
           "enumValue": "HotWater",
           "name": "HotWater",
-          "@id": "dtmi:com:syyclops:Equipment:HotWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:HotWater;1",
+          "description": {
+            "en": "Describes hot water as a significant resource in the operation of various equipment types."
+          }
         },
         {
           "enumValue": "HotWaterGlycolMix",
           "name": "HotWaterGlycolMix",
-          "@id": "dtmi:com:syyclops:Equipment:HotWaterGlycolMix;1"
+          "@id": "dtmi:com:syyclops:Equipment:HotWaterGlycolMix;1",
+          "description": {
+            "en": "Refers to a mixture of hot water and glycol used for heat transfer in the equipment schema."
+          }
         },
         {
           "enumValue": "HotDomesticWater",
           "name": "HotDomesticWater",
-          "@id": "dtmi:com:syyclops:Equipment:HotDomesticWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:HotDomesticWater;1",
+          "description": {
+            "en": "Defines hot domestic water as a service water supply for domestic applications in equipment."
+          }
         },
         {
           "enumValue": "GreaseExhaustAir",
           "name": "GreaseExhaustAir",
-          "@id": "dtmi:com:syyclops:Equipment:GreaseExhaustAir;1"
+          "@id": "dtmi:com:syyclops:Equipment:GreaseExhaustAir;1",
+          "description": {
+            "en": "Represents exhaust air mixed with grease, pertinent to equipment operation guidelines."
+          }
         },
         {
           "enumValue": "Gasoline",
           "name": "Gasoline",
-          "@id": "dtmi:com:syyclops:Equipment:Gasoline;1"
+          "@id": "dtmi:com:syyclops:Equipment:Gasoline;1",
+          "description": {
+            "en": "Specifies gasoline as a type of fuel listed within the equipment schema."
+          }
         },
         {
           "enumValue": "FuelOil",
           "name": "FuelOil",
-          "@id": "dtmi:com:syyclops:Equipment:FuelOil;1"
+          "@id": "dtmi:com:syyclops:Equipment:FuelOil;1",
+          "description": {
+            "en": "Identifies fuel oil as a combustion fuel type utilized in certain equipment configurations."
+          }
         },
         {
           "enumValue": "Freight",
           "name": "Freight",
-          "@id": "dtmi:com:syyclops:Equipment:Freight;1"
+          "@id": "dtmi:com:syyclops:Equipment:Freight;1",
+          "description": {
+            "en": "Denotes freight as a transportable commodity or material relevant to the equipment schema."
+          }
         },
         {
           "enumValue": "ExhaustAir",
           "name": "ExhaustAir",
-          "@id": "dtmi:com:syyclops:Equipment:ExhaustAir;1"
+          "@id": "dtmi:com:syyclops:Equipment:ExhaustAir;1",
+          "description": {
+            "en": "Describes exhaust air as a byproduct gas emitted from equipment during operation."
+          }
         },
         {
           "enumValue": "Ethernet",
           "name": "Ethernet",
-          "@id": "dtmi:com:syyclops:Equipment:Ethernet;1"
+          "@id": "dtmi:com:syyclops:Equipment:Ethernet;1",
+          "description": {
+            "en": "Specifies Ethernet as a communication technology used for networking in equipment."
+          }
         },
         {
           "enumValue": "DriveElec",
           "name": "DriveElec",
-          "@id": "dtmi:com:syyclops:Equipment:DriveElec;1"
+          "@id": "dtmi:com:syyclops:Equipment:DriveElec;1",
+          "description": {
+            "en": "Indicates electric drive systems incorporated within the equipment framework."
+          }
         },
         {
           "enumValue": "Diesel",
           "name": "Diesel",
-          "@id": "dtmi:com:syyclops:Equipment:Diesel;1"
+          "@id": "dtmi:com:syyclops:Equipment:Diesel;1",
+          "description": {
+            "en": "Defines diesel as a prevalent fuel type used in the operation of heavy machinery."
+          }
         },
         {
           "enumValue": "DCElec",
           "name": "DCElec",
-          "@id": "dtmi:com:syyclops:Equipment:DCElec;1"
+          "@id": "dtmi:com:syyclops:Equipment:DCElec;1",
+          "description": {
+            "en": "Describes direct current (DC) electricity as a power source featured in equipment applications."
+          }
         },
         {
           "enumValue": "CondenserWater",
           "name": "CondenserWater",
-          "@id": "dtmi:com:syyclops:Equipment:CondenserWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:CondenserWater;1",
+          "description": {
+            "en": "Specifies condenser water utilized for heat exchange processes in equipment systems."
+          }
         },
         {
           "enumValue": "CondenserWaterGlycolMix",
           "name": "CondenserWaterGlycolMix",
-          "@id": "dtmi:com:syyclops:Equipment:CondenserWaterGlycolMix;1"
+          "@id": "dtmi:com:syyclops:Equipment:CondenserWaterGlycolMix;1",
+          "description": {
+            "en": "Refers to the combination of condenser water and glycol for efficient thermal management."
+          }
         },
         {
           "enumValue": "Condensate",
           "name": "Condensate",
-          "@id": "dtmi:com:syyclops:Equipment:Condensate;1"
+          "@id": "dtmi:com:syyclops:Equipment:Condensate;1",
+          "description": {
+            "en": "Identifies condensate as water formed during condensation processes in equipment contexts."
+          }
         },
         {
           "enumValue": "ColdDomesticWater",
           "name": "ColdDomesticWater",
-          "@id": "dtmi:com:syyclops:Equipment:ColdDomesticWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:ColdDomesticWater;1",
+          "description": {
+            "en": "Represents the Cold Domestic Water enum value used in the Equipment schema."
+          }
         },
         {
           "enumValue": "ChilledWater",
           "name": "ChilledWater",
-          "@id": "dtmi:com:syyclops:Equipment:ChilledWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:ChilledWater;1",
+          "description": {
+            "en": "Denotes the Chilled Water enum value within the Equipment schema."
+          }
         },
         {
           "enumValue": "BlowdownWater",
           "name": "BlowdownWater",
-          "@id": "dtmi:com:syyclops:Equipment:BlowdownWater;1"
+          "@id": "dtmi:com:syyclops:Equipment:BlowdownWater;1",
+          "description": {
+            "en": "Identifies the Blowdown Water enum value in the Equipment schema."
+          }
         },
         {
           "enumValue": "Air",
           "name": "Air",
-          "@id": "dtmi:com:syyclops:Equipment:Air;1"
+          "@id": "dtmi:com:syyclops:Equipment:Air;1",
+          "description": {
+            "en": "Defines the Air enum value used in the Equipment schema."
+          }
         },
         {
           "enumValue": "ACElec",
           "name": "ACElec",
-          "@id": "dtmi:com:syyclops:Equipment:ACElec;1"
+          "@id": "dtmi:com:syyclops:Equipment:ACElec;1",
+          "description": {
+            "en": "Specifies the ACElec enum value within the Equipment schema."
+          }
         }
       ],
       "displayName": {
@@ -265,5 +376,8 @@
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Parent interface for all types of equipment categorized under asset management in the system."
+  }
 }

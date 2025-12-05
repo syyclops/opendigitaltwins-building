@@ -14,7 +14,10 @@
       "name": "material",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Conduit:material;1"
+      "@id": "dtmi:com:syyclops:Conduit:material;1",
+      "description": {
+        "en": "Identifies the material used in the construction of the conduit."
+      }
     },
     {
       "@type": [
@@ -28,7 +31,10 @@
       "schema": "double",
       "unit": "millimetre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Conduit:diameter;1"
+      "@id": "dtmi:com:syyclops:Conduit:diameter;1",
+      "description": {
+        "en": "Specifies the diameter of the conduit as a property of the conduit interface."
+      }
     },
     {
       "@type": [
@@ -44,7 +50,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Conduit:diameterUnit;1"
+      "@id": "dtmi:com:syyclops:Conduit:diameterUnit;1",
+      "description": {
+        "en": "Indicates the measurement unit for the diameter of the conduit."
+      }
     }
   ],
   "@context": [
@@ -52,5 +61,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "Represents the interface for conduit within the distribution asset."
+  }
 }

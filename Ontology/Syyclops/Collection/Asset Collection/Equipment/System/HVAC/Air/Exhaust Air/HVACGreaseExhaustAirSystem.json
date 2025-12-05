@@ -4,12 +4,14 @@
   "displayName": {
     "en": "HVAC Grease Exhaust Air System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:HVACExhaustAirSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a specialized HVAC exhaust system designed to handle grease-laden air."
+  }
 }

@@ -4,14 +4,15 @@
   "displayName": {
     "en": "Fish Tank"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ArchitecturalAsset;1",
     "dtmi:com:syyclops:Tank;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface for a fish tank as an architectural asset."
+  }
 }

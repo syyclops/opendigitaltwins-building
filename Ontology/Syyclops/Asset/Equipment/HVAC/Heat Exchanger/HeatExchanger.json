@@ -50,7 +50,10 @@
         "@id": "dtmi:com:syyclops:HeatExchanger:ES1;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMedium;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMedium;1",
+      "description": {
+        "en": "Property denoting the primary medium used in a heat exchanger for heat transfer."
+      }
     },
     {
       "@type": "Property",
@@ -86,7 +89,10 @@
         "@id": "dtmi:com:syyclops:HeatExchanger:ES2;1"
       },
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMedium;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMedium;1",
+      "description": {
+        "en": "Property indicating the secondary medium involved in the heat exchange process."
+      }
     },
     {
       "@type": [
@@ -100,7 +106,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxTemperature;1",
+      "description": {
+        "en": "Property defining the maximum allowable temperature of the secondary medium in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -116,7 +125,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxTemperatureUnit;1",
+      "description": {
+        "en": "Property specifying the units for measuring the secondary maximum temperature in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -130,7 +142,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxPressure;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxPressure;1",
+      "description": {
+        "en": "Property detailing the maximum pressure ratings for the secondary medium in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -146,7 +161,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxPressureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryMaxPressureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the maximum secondary pressure in the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -160,7 +178,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryFlowCapacity;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryFlowCapacity;1",
+      "description": {
+        "en": "Represents the flow capacity of the secondary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -176,7 +197,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryFlowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryFlowCapacityUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the secondary flow capacity of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -190,7 +214,10 @@
       "schema": "double",
       "unit": "degreeCelsius",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxTemperature;1",
+      "description": {
+        "en": "Indicates the maximum temperature allowed on the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -206,7 +233,10 @@
       "overrides": "unit",
       "schema": "TemperatureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the maximum primary temperature in the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -220,7 +250,10 @@
       "schema": "double",
       "unit": "bar",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxPressure;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxPressure;1",
+      "description": {
+        "en": "Defines the maximum pressure permissible on the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -236,7 +269,10 @@
       "overrides": "unit",
       "schema": "PressureUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxPressureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryMaxPressureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the maximum primary pressure in the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -250,7 +286,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryFlowCapacity;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryFlowCapacity;1",
+      "description": {
+        "en": "Represents the flow capacity of the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -266,7 +305,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryFlowCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryFlowCapacityUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the primary flow capacity of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -280,7 +322,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignFlow;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignFlow;1",
+      "description": {
+        "en": "Specifies the design flow rate for the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -296,7 +341,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignFlowUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignFlowUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the design flow rate of the primary side."
+      }
     },
     {
       "@type": [
@@ -310,7 +358,10 @@
       "schema": "double",
       "unit": "litrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignFlow;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignFlow;1",
+      "description": {
+        "en": "Represents the design flow rate for the secondary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -326,7 +377,10 @@
       "overrides": "unit",
       "schema": "VolumeFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignFlowUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignFlowUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the design flow rate of the secondary side."
+      }
     },
     {
       "@type": [
@@ -340,7 +394,10 @@
       "schema": "double",
       "unit": "massPoundPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignMassFlow;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignMassFlow;1",
+      "description": {
+        "en": "Indicates the design mass flow rate for the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -356,7 +413,10 @@
       "overrides": "unit",
       "schema": "MassFlowRateUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaruyDesignMassFlowUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaruyDesignMassFlowUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the design mass flow rate on the primary side."
+      }
     },
     {
       "@type": [
@@ -369,7 +429,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignEnteringWaterTemperature;1",
+      "description": {
+        "en": "Specifies the required entering water temperature for the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -384,7 +447,10 @@
       "annotates": "primaryDesignEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the entering water temperature of the primary side."
+      }
     },
     {
       "@type": [
@@ -397,7 +463,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignLeavingWaterTemperature;1",
+      "description": {
+        "en": "Represents the required leaving water temperature for the primary side of the heat exchanger."
+      }
     },
     {
       "@type": [
@@ -412,7 +481,10 @@
       "annotates": "primaryDesignLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the leaving water temperature of the primary side."
+      }
     },
     {
       "@type": [
@@ -425,7 +497,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignDeltaWaterTemperature;1",
+      "description": {
+        "en": "Specifies the temperature differential between entering and leaving water on the primary side."
+      }
     },
     {
       "@type": [
@@ -440,7 +515,10 @@
       "annotates": "primaryDesignDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:primaryDesignDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Represents the unit of measurement for the primary design delta water temperature in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -453,7 +531,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignEnteringWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignEnteringWaterTemperature;1",
+      "description": {
+        "en": "Indicates the secondary design entering water temperature for heat exchanger operations."
+      }
     },
     {
       "@type": [
@@ -468,7 +549,10 @@
       "annotates": "secondaryDesignEnteringWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignEnteringWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the secondary design entering water temperature in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -481,7 +565,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignLeavingWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignLeavingWaterTemperature;1",
+      "description": {
+        "en": "Denotes the secondary design leaving water temperature for heat exchanger functionality."
+      }
     },
     {
       "@type": [
@@ -496,7 +583,10 @@
       "annotates": "secondaryDesignLeavingWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignLeavingWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignLeavingWaterTemperatureUnit;1",
+      "description": {
+        "en": "Indicates the unit of measurement for the secondary design leaving water temperature in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -509,7 +599,10 @@
       },
       "schema": "double",
       "unit": "degreeCelsius",
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignDeltaWaterTemperature;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignDeltaWaterTemperature;1",
+      "description": {
+        "en": "Represents the delta water temperature between secondary entering and leaving conditions in a heat exchanger."
+      }
     },
     {
       "@type": [
@@ -524,7 +617,10 @@
       "annotates": "secondaryDesignDeltaWaterTemperature",
       "overrides": "unit",
       "schema": "TemperatureUnit",
-      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignDeltaWaterTemperatureUnit;1"
+      "@id": "dtmi:com:syyclops:HeatExchanger:secondaryDesignDeltaWaterTemperatureUnit;1",
+      "description": {
+        "en": "Defines the unit of measurement for the secondary design delta water temperature in a heat exchanger."
+      }
     }
   ],
   "@context": [

@@ -15,10 +15,16 @@
       },
       "name": "isLinkedTo",
       "target": "dtmi:com:syyclops:UtilityAccount;1",
-      "@id": "dtmi:com:syyclops:MeterEquipment:isLinkedTo;1"
+      "@id": "dtmi:com:syyclops:MeterEquipment:isLinkedTo;1",
+      "description": {
+        "en": "Indicates the relationship linking the Meter Equipment to a Utility Account."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Represents the interface defining properties and relationships for Meter Equipment."
+  }
 }

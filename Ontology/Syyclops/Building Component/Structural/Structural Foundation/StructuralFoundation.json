@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Structural Foundation"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Functions as an interface for Structural Foundation components, detailing foundational supports in construction."
+  }
 }

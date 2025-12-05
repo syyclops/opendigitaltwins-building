@@ -17,10 +17,16 @@
       "writable": true,
       "schema": "string",
       "comment": "basic, sit/stand",
-      "@id": "dtmi:com:syyclops:Table:type;1"
+      "@id": "dtmi:com:syyclops:Table:type;1",
+      "description": {
+        "en": "The 'type' property of the Table interface defines the category of the table."
+      }
     }
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The Table interface serves as a specific category for table-type furniture within the Asset model."
+  }
 }

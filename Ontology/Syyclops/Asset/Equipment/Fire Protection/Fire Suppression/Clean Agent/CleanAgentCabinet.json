@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Clean Agent Cabinet"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:CleanAgentEquipment;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing a cabinet that stores clean agent fire suppression materials."
+  }
 }

@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Drinking Water Bottle Filling Station"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:DrinkingWaterFixture;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for a water bottle filling station designed for dispensing drinking water suitable for bottles."
+  }
 }

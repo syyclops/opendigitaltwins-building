@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Coaxial Cable"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:TelecommunicationCable;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "The CoaxialCable interface describes a specific cable type used for telecommunication purposes."
+  }
 }

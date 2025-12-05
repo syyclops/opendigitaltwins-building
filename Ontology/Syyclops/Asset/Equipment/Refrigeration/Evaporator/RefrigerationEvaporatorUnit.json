@@ -19,7 +19,10 @@
       "name": "refrigerantType",
       "schema": "string",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:refrigerantType;1"
+      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:refrigerantType;1",
+      "description": {
+        "en": "The refrigerant type property identifies the type of refrigerant used in the refrigeration evaporator unit."
+      }
     },
     {
       "@type": "Component",
@@ -28,7 +31,10 @@
       },
       "name": "fan",
       "schema": "dtmi:com:syyclops:Fan;1",
-      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:fan;1"
+      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:fan;1",
+      "description": {
+        "en": "The fan component regulates airflow through the refrigeration evaporator unit for enhanced heat exchange."
+      }
     },
     {
       "@type": [
@@ -42,7 +48,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:nominalCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:nominalCoolingCapacity;1",
+      "description": {
+        "en": "The nominal cooling capacity property specifies the cooling performance capability of the evaporator at standard operations."
+      }
     },
     {
       "@type": [
@@ -58,7 +67,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:nominalCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "The nominal cooling capacity unit indicates the measurement unit for the cooling capacity of the evaporator."
+      }
     },
     {
       "@type": [
@@ -72,7 +84,10 @@
       "schema": "double",
       "unit": "britishThermalUnitPerHour",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:netSensibleCoolingCapacity;1"
+      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:netSensibleCoolingCapacity;1",
+      "description": {
+        "en": "The net sensible cooling capacity property defines the effective cooling output of the refrigeration evaporator unit in thermal units."
+      }
     },
     {
       "@type": [
@@ -88,7 +103,10 @@
       "overrides": "unit",
       "schema": "PowerUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:netSensibleCoolingCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:RefrigerationEvaporatorUnit:netSensibleCoolingCapacityUnit;1",
+      "description": {
+        "en": "The net sensible cooling capacity unit property indicates the measurement unit for the refrigerant's cooling output."
+      }
     }
   ],
   "@context": [

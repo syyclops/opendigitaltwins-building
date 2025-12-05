@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Occupancy Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:PresenceSetpoint;1"
   ],
-  "contents": [
-
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Specifies the occupancy status setpoint for presence detection, indicating whether a space is occupied."
+  }
 }

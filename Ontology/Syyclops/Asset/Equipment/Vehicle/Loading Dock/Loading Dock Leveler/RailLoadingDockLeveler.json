@@ -4,12 +4,14 @@
   "displayName": {
     "en": "Rail Loading Dock Leveler"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:VerticalLoadingDockLeveler;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "An interface for rail loading dock levelers designed for optimized loading operations."
+  }
 }

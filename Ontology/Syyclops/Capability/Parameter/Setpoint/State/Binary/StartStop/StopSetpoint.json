@@ -4,13 +4,15 @@
   "displayName": {
     "en": "Stop Setpoint"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StartStopSetpoint;1",
     "dtmi:com:syyclops:RunStopSetpoint;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Defines the stop command setpoint for controlled devices, using a binary state for activation."
+  }
 }

@@ -4,12 +4,14 @@
   "displayName": {
     "en": "AC Electrical System"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalSystem;1"
   ],
-  "contents": [
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Interface representing the Alternating Current Electrical System that powers various airport equipment."
+  }
 }

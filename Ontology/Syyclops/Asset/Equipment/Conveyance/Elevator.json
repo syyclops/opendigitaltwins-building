@@ -33,7 +33,10 @@
       "schema": "double",
       "unit": "kilogram",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:weightCapacity;1"
+      "@id": "dtmi:com:syyclops:Elevator:weightCapacity;1",
+      "description": {
+        "en": "The property indicating the maximum weight capacity the elevator can safely handle."
+      }
     },
     {
       "@type": [
@@ -49,7 +52,10 @@
       "overrides": "unit",
       "schema": "MassUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:weightCapacityUnit;1"
+      "@id": "dtmi:com:syyclops:Elevator:weightCapacityUnit;1",
+      "description": {
+        "en": "The unit of measurement for the elevator's weight capacity, typically expressed in kilograms or pounds."
+      }
     },
     {
       "@type": [
@@ -63,7 +69,10 @@
       "schema": "double",
       "unit": "metrePerSecond",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:maxTravelSpeed;1"
+      "@id": "dtmi:com:syyclops:Elevator:maxTravelSpeed;1",
+      "description": {
+        "en": "The property defining the maximum speed at which the elevator can travel vertically."
+      }
     },
     {
       "@type": [
@@ -79,7 +88,10 @@
       "overrides": "unit",
       "schema": "VelocityUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:maxTravelSpeedUnit;1"
+      "@id": "dtmi:com:syyclops:Elevator:maxTravelSpeedUnit;1",
+      "description": {
+        "en": "The unit of measurement for the elevator's maximum travel speed, generally in meters per second or feet per minute."
+      }
     },
     {
       "@type": [
@@ -93,7 +105,10 @@
       "schema": "double",
       "unit": "metre",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:maxTravelDistance;1"
+      "@id": "dtmi:com:syyclops:Elevator:maxTravelDistance;1",
+      "description": {
+        "en": "The maximum vertical distance the elevator can cover between its lowest and highest stops."
+      }
     },
     {
       "@type": [
@@ -109,7 +124,10 @@
       "overrides": "unit",
       "schema": "LengthUnit",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:maxTravelDistanceUnit;1"
+      "@id": "dtmi:com:syyclops:Elevator:maxTravelDistanceUnit;1",
+      "description": {
+        "en": "The unit of measurement for the maximum travel distance, often referenced in meters or feet."
+      }
     },
     {
       "@type": "Property",
@@ -119,7 +137,10 @@
       "name": "maxLandings",
       "schema": "integer",
       "writable": true,
-      "@id": "dtmi:com:syyclops:Elevator:maxLandings;1"
+      "@id": "dtmi:com:syyclops:Elevator:maxLandings;1",
+      "description": {
+        "en": "The maximum number of landings or stops the elevator can serve."
+      }
     },
     {
       "@type": "Property",
@@ -129,7 +150,10 @@
       },
       "writable": true,
       "schema": "boolean",
-      "@id": "dtmi:com:syyclops:Elevator:fireServiceAccessElevator;1"
+      "@id": "dtmi:com:syyclops:Elevator:fireServiceAccessElevator;1",
+      "description": {
+        "en": "Indicates whether the elevator is designated for fire service access."
+      }
     },
     {
       "@type": "Property",
@@ -168,7 +192,10 @@
         ],
         "@id": "dtmi:com:syyclops:Elevator:OS1;1"
       },
-      "@id": "dtmi:com:syyclops:Elevator:emergencyCommunication;1"
+      "@id": "dtmi:com:syyclops:Elevator:emergencyCommunication;1",
+      "description": {
+        "en": "Specifies the presence of emergency communication systems within the elevator."
+      }
     }
   ],
   "@context": [
@@ -176,5 +203,8 @@
     "dtmi:dtdl:extension:quantitativeTypes;1",
     "dtmi:dtdl:extension:annotation;1",
     "dtmi:dtdl:extension:overriding;1"
-  ]
+  ],
+  "description": {
+    "en": "An interface representing an elevator asset that facilitates vertical transport of passengers or goods."
+  }
 }

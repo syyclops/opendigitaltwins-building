@@ -4,10 +4,13 @@
   "displayName": {
     "en": "Structural Column"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:StructuralBuildingComponent;1"
   ],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "Describes a structural column's features and functions, facilitating the modeling of vertical load-bearing elements in building designs."
+  }
 }

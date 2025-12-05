@@ -4,13 +4,14 @@
   "displayName": {
     "en": "Electrical Panelboard MLO"
   },
-  "extends" : [
+  "extends": [
     "dtmi:com:syyclops:ElectricalPanelboard;1"
   ],
-  "contents": [
-    
-  ],
+  "contents": [],
   "@context": [
     "dtmi:dtdl:context;3"
-  ]
+  ],
+  "description": {
+    "en": "This interface represents the Electrical Panelboard MLO (Main Labeled On), used for circuit organization and management."
+  }
 }
