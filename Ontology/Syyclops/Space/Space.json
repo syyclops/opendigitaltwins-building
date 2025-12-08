@@ -245,6 +245,19 @@
     },
     {
       "@type": "Property",
+      "name": "matterportUrl",
+      "displayName": {
+        "en": "Matterport URL"
+      },
+      "writable": true,
+      "schema": "string",
+      "@id": "dtmi:com:syyclops:Space:matterportUrl;1",
+      "description": {
+        "en": "The URL to the Matterport 3D model for this space."
+      }
+    },
+    {
+      "@type": "Property",
       "displayName": {
         "en": "Mapped IDs"
       },
@@ -721,7 +734,5 @@
       }
     }
   ],
-  "@context": [
-    "dtmi:dtdl:context;3"
-  ]
+  "@context": ["dtmi:dtdl:context;3"]
 }
