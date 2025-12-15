@@ -9,7 +9,18 @@
     "dtmi:com:syyclops:Sensor;1"
   ],
   "contents": [
-
+	{
+		"@type": "Telemetry",
+		"@id": "dtmi:com:syyclops:StateSensor:state;1",
+		"name": "state",
+		"displayName": {
+		  "en": "State"
+		},
+		"description": {
+		  "en": "Current state value"
+		},
+		"schema": "boolean"
+	  }
   ],
   "@context": [
     "dtmi:dtdl:context;3"

@@ -12,18 +12,6 @@
   ],
   "contents": [
     {
-      "@type": "Telemetry",
-      "@id": "dtmi:com:syyclops:BinarySensor:binaryState;1",
-      "name": "binaryState",
-      "displayName": {
-        "en": "Binary State"
-      },
-      "description": {
-        "en": "Current boolean state (true or false)"
-      },
-      "schema": "boolean"
-    },
-    {
       "@type": "Property",
       "name": "lastValue",
       "displayName": {
