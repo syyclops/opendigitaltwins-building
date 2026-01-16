@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:syyclops:RoomCollection;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Room Collection"
+  },
+  "description": {
+    "en": "A collection of Room twins within a building, used to group and organize rooms for management and navigation purposes."
+  },
+  "extends": [
+    "dtmi:com:syyclops:SpaceCollection;1"
+  ],
+  "contents": [],
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ]
+}
