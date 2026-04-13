@@ -316,6 +316,21 @@
             }
           },
           "@id": "dtmi:com:syyclops:CalendarEvent:range;1"
+        },
+        {
+          "name": "customOccurrenceDates",
+          "displayName": {
+            "en": "Custom Occurrence Dates"
+          },
+          "description": {
+            "en": "An array of specific dates for custom recurrence patterns that do not follow a regular cadence."
+          },
+          "schema": {
+            "@type": "Array",
+            "elementSchema": "dateTime",
+            "@id": "dtmi:com:syyclops:PatternedRecurrence:customOccurrenceDatesArray;1"
+          },
+          "@id": "dtmi:com:syyclops:PatternedRecurrence:customOccurrenceDates;1"
         }
       ],
       "displayName": {
