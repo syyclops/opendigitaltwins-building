@@ -193,7 +193,7 @@
                     }
                   ],
                   "valueSchema": "string",
-                  "@id": "dtmi:com:syyclops:RecurrencePatternType;1"
+                  "@id": "dtmi:com:syyclops:CalendarEvent:PatternedRecurrence;1"
                 },
                 "@id": "dtmi:com:syyclops:CalendarEvent:type;1"
               },
@@ -282,7 +282,7 @@
                     }
                   ],
                   "valueSchema": "string",
-                  "@id": "dtmi:com:syyclops:RecurrenceRangeType;1"
+                  "@id": "dtmi:com:syyclops:CalendarEvent:ES2;1"
                 },
                 "@id": "dtmi:com:syyclops:CalendarEvent:OF1;1"
               },
