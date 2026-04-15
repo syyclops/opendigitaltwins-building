@@ -81,7 +81,7 @@
       },
       "name": "totalCharge",
       "writable": true,
-      "schema": "dtmi:com:syyclops:UtilityBillEventChargest;1",
+      "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
       "@id": "dtmi:com:syyclops:UtilityBillEvent:totalCharge;1"
     },
     {
@@ -211,7 +211,7 @@
               "description": {
                 "en": "The amount of usage as measured by the meter"
               },
-              "schema": "dtmi:com:syyclops:UtilityBillEventChargest;1",
+              "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
               "@id": "dtmi:com:syyclops:UtilityBillEvent:usage;1"
             }
           ],
@@ -227,7 +227,7 @@
   ],
   "schemas": [
     {
-      "@id": "dtmi:com:syyclops:UtilityBillEventChargest;1",
+      "@id": "dtmi:com:syyclops:UtilityBillEventCharges;1",
       "@type": "Object",
       "fields": [
         {
@@ -248,7 +248,7 @@
         }
       ],
       "displayName": {
-        "en": "Utility Bill Event Chargest"
+        "en": "Utility Bill Event Charges"
       }
     }
   ],
