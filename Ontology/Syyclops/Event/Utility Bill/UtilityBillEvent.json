@@ -7,9 +7,7 @@
   "description": {
     "en": "An event that occurs, typically monthly, when a utility company produces a bill for a utility account such as electric, gas, or water."
   },
-  "extends": [
-    "dtmi:com:syyclops:Event;1"
-  ],
+  "extends": ["dtmi:com:syyclops:Event;1"],
   "contents": [
     {
       "@type": "Property",
@@ -211,7 +209,7 @@
               "description": {
                 "en": "The amount of usage as measured by the meter"
               },
-              "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
+              "schema": "dtmi:com:syyclops:UtilityBillEventUsage;1",
               "@id": "dtmi:com:syyclops:UtilityBillEvent:usage;1"
             }
           ],
@@ -249,6 +247,31 @@
       ],
       "displayName": {
         "en": "Utility Bill Event Charges"
+      }
+    },
+    {
+      "@id": "dtmi:com:syyclops:UtilityBillEventUsage;1",
+      "@type": "Object",
+      "fields": [
+        {
+          "name": "amount",
+          "displayName": {
+            "en": "Amount"
+          },
+          "schema": "double",
+          "@id": "dtmi:com:syyclops:UtilityBillEvent:SF3;1"
+        },
+        {
+          "name": "unit",
+          "displayName": {
+            "en": "Unit"
+          },
+          "schema": "string",
+          "@id": "dtmi:com:syyclops:UtilityBillEvent:SF4;1"
+        }
+      ],
+      "displayName": {
+        "en": "Utility Bill Event Usage"
       }
     }
   ],
