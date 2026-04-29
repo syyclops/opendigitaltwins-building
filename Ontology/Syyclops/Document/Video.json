@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:syyclops:Video;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Video"
+  },
+  "extends": [
+    "dtmi:com:syyclops:Document;1"
+  ],
+  "contents": [],
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ],
+  "description": {
+    "en": "The Video interface represents moving-image media associated with the document, such as recordings of equipment, sites, or work performed."
+  }
+}
