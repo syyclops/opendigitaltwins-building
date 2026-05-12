@@ -1,0 +1,33 @@
+{
+  "@id": "dtmi:com:syyclops:NaturalGasBillEvent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Natural Gas Bill"
+  },
+  "description": {
+    "en": "A utility bill for natural gas service."
+  },
+  "extends": ["dtmi:com:syyclops:UtilityBillEvent;1"],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "consumption",
+      "displayName": {
+        "en": "Consumption"
+      },
+      "description": {
+        "en": "Total natural gas energy consumed during the billing period. Bills reported in volumetric units (CCF/MCF/m³) should be converted to therms using the utility's BTU factor at ingestion."
+      },
+      "schema": "double",
+      "unit": "therm",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:NaturalGasBillEvent:consumption;1"
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1",
+    "dtmi:dtdl:extension:annotation;1",
+    "dtmi:dtdl:extension:overriding;1"
+  ]
+}

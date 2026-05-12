@@ -1,0 +1,33 @@
+{
+  "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Reclaimed Water Bill"
+  },
+  "description": {
+    "en": "A utility bill for reclaimed (non-potable) water service, typically used for irrigation."
+  },
+  "extends": ["dtmi:com:syyclops:UtilityBillEvent;1"],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "consumption",
+      "displayName": {
+        "en": "Consumption"
+      },
+      "description": {
+        "en": "Total reclaimed water consumed during the billing period. Bills reported in CCF, kgal, or m³ should be converted to gallons at ingestion."
+      },
+      "schema": "double",
+      "unit": "gallon",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:consumption;1"
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1",
+    "dtmi:dtdl:extension:annotation;1",
+    "dtmi:dtdl:extension:overriding;1"
+  ]
+}

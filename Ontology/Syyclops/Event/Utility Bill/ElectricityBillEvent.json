@@ -1,0 +1,60 @@
+{
+  "@id": "dtmi:com:syyclops:ElectricityBillEvent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Electricity Bill"
+  },
+  "description": {
+    "en": "A utility bill for electricity service."
+  },
+  "extends": ["dtmi:com:syyclops:UtilityBillEvent;1"],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "consumption",
+      "displayName": {
+        "en": "Consumption"
+      },
+      "description": {
+        "en": "Total energy consumed during the billing period."
+      },
+      "schema": "double",
+      "unit": "kilowattHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:ElectricityBillEvent:consumption;1"
+    },
+    {
+      "@type": "Property",
+      "name": "peakDemand",
+      "displayName": {
+        "en": "Peak Demand"
+      },
+      "description": {
+        "en": "Highest demand recorded during the billing period."
+      },
+      "schema": "double",
+      "unit": "kilowatt",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:ElectricityBillEvent:peakDemand;1"
+    },
+    {
+      "@type": "Property",
+      "name": "peakDemandCharge",
+      "displayName": {
+        "en": "Peak Demand Charge"
+      },
+      "description": {
+        "en": "The charge attributable to peak demand during the billing period."
+      },
+      "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:ElectricityBillEvent:peakDemandCharge;1"
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1",
+    "dtmi:dtdl:extension:annotation;1",
+    "dtmi:dtdl:extension:overriding;1"
+  ]
+}
