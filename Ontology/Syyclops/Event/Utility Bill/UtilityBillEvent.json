@@ -81,32 +81,6 @@
       "writable": true,
       "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
       "@id": "dtmi:com:syyclops:UtilityBillEvent:totalCharge;1"
-    },
-    {
-      "@type": "Property",
-      "name": "meterId",
-      "displayName": {
-        "en": "Meter Id"
-      },
-      "description": {
-        "en": "The meter Id as provided by the utility account provider."
-      },
-      "schema": "string",
-      "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityBillEvent:meterId;1"
-    },
-    {
-      "@type": "Property",
-      "name": "consumptionCharge",
-      "displayName": {
-        "en": "Consumption Charge"
-      },
-      "description": {
-        "en": "The charge attributable to consumption during the billing period (subset of totalCharge, excluding fees, taxes, and other line items)."
-      },
-      "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
-      "writable": true,
-      "@id": "dtmi:com:syyclops:UtilityBillEvent:consumptionCharge;1"
     }
   ],
   "schemas": [
