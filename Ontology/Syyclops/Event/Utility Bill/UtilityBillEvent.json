@@ -108,31 +108,6 @@
       "displayName": {
         "en": "Utility Bill Event Charges"
       }
-    },
-    {
-      "@id": "dtmi:com:syyclops:UtilityBillEventUsage;1",
-      "@type": "Object",
-      "fields": [
-        {
-          "name": "amount",
-          "displayName": {
-            "en": "Amount"
-          },
-          "schema": "double",
-          "@id": "dtmi:com:syyclops:UtilityBillEvent:SF3;1"
-        },
-        {
-          "name": "unit",
-          "displayName": {
-            "en": "Unit"
-          },
-          "schema": "string",
-          "@id": "dtmi:com:syyclops:UtilityBillEvent:SF4;1"
-        }
-      ],
-      "displayName": {
-        "en": "Utility Bill Event Usage"
-      }
     }
   ],
   "@context": [
