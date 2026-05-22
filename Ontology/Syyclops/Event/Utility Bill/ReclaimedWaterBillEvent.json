@@ -1,0 +1,76 @@
+{
+  "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Reclaimed Water Bill"
+  },
+  "description": {
+    "en": "A utility bill for reclaimed (non-potable) water service, typically used for irrigation."
+  },
+  "extends": ["dtmi:com:syyclops:UtilityBillEvent;1"],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "meterData",
+      "displayName": {
+        "en": "Meter Data"
+      },
+      "description": {
+        "en": "Per-meter readings on this bill. Readings in CCF, kgal, or m³ should be converted to gallons at ingestion."
+      },
+      "writable": true,
+      "schema": {
+        "@type": "Array",
+        "elementSchema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "meterId",
+              "displayName": {
+                "en": "Meter Id"
+              },
+              "description": {
+                "en": "The meter Id as provided by the utility account provider."
+              },
+              "schema": "string",
+              "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:meterId;1"
+            },
+            {
+              "name": "charge",
+              "displayName": {
+                "en": "Charge"
+              },
+              "description": {
+                "en": "The individual charge for this meter's reading."
+              },
+              "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
+              "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:charge;1"
+            },
+            {
+              "@type": ["Field", "Volume"],
+              "name": "consumption",
+              "displayName": {
+                "en": "Consumption"
+              },
+              "description": {
+                "en": "Total reclaimed water consumed during the billing period for this meter."
+              },
+              "schema": "double",
+              "unit": "gallon",
+              "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:consumption;1"
+            }
+          ],
+          "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:OS1;1"
+        },
+        "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:AS1;1"
+      },
+      "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:meterData;1"
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1",
+    "dtmi:dtdl:extension:annotation;1",
+    "dtmi:dtdl:extension:overriding;1"
+  ]
+}

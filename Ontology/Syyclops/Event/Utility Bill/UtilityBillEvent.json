@@ -5,11 +5,9 @@
     "en": "Utility Bill"
   },
   "description": {
-    "en": "An event that occurs, typically monthly, when a utility company produces a bill for a utility account such as electric, gas, or water."
+    "en": "An event that occurs, typically monthly, when a utility company produces a bill for a utility account. Defines fields common to all service types; concrete bill types (electricity, natural gas, potable water, reclaimed water) extend this and add their service-specific meter data and charge structure."
   },
-  "extends": [
-    "dtmi:com:syyclops:Event;1"
-  ],
+  "extends": ["dtmi:com:syyclops:Event;1"],
   "contents": [
     {
       "@type": "Property",
@@ -83,146 +81,6 @@
       "writable": true,
       "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
       "@id": "dtmi:com:syyclops:UtilityBillEvent:totalCharge;1"
-    },
-    {
-      "@type": "Property",
-      "displayName": {
-        "en": "Meter Data"
-      },
-      "name": "meterData",
-      "writable": true,
-      "schema": {
-        "@type": "Array",
-        "elementSchema": {
-          "@type": "Object",
-          "fields": [
-            {
-              "name": "meterId",
-              "displayName": {
-                "en": "Meter Id."
-              },
-              "description": {
-                "en": "The meter Id as provided by the utility account provider."
-              },
-              "schema": "string",
-              "@id": "dtmi:com:syyclops:UtilityBillEvent:meterId;1"
-            },
-            {
-              "name": "measurementType",
-              "displayName": {
-                "en": "Measurement Type."
-              },
-              "description": {
-                "en": "Defines whether the measurement is total consumption or a peak demand during the billing period."
-              },
-              "schema": {
-                "@type": "Enum",
-                "enumValues": [
-                  {
-                    "enumValue": "TotalConsumption",
-                    "name": "TotalConsumption",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:TotalConsumption;1"
-                  },
-                  {
-                    "enumValue": "PeakDemand",
-                    "name": "PeakDemand",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:PeakDemand;1"
-                  }
-                ],
-                "valueSchema": "string",
-                "@id": "dtmi:com:syyclops:UtilityBillEvent:ES4;1"
-              },
-              "@id": "dtmi:com:syyclops:UtilityBillEvent:measurementType;1"
-            },
-            {
-              "name": "serviceType",
-              "displayName": {
-                "en": "Service Type."
-              },
-              "description": {
-                "en": "Defines the commodity or substance that is being measured by the meter."
-              },
-              "schema": {
-                "@type": "Enum",
-                "valueSchema": "string",
-                "enumValues": [
-                  {
-                    "enumValue": "Electricity",
-                    "name": "Electricity",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:Electricity;1"
-                  },
-                  {
-                    "enumValue": "PotableWater",
-                    "name": "PotableWater",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:PotableWater;1"
-                  },
-                  {
-                    "enumValue": "ReclaimedWater",
-                    "name": "ReclaimedWater",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:ReclaimedWater;1"
-                  },
-                  {
-                    "enumValue": "NaturalGas",
-                    "name": "NaturalGas",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:NaturalGas;1"
-                  }
-                ],
-                "@id": "dtmi:com:syyclops:UtilityBillEvent:ES5;1"
-              },
-              "@id": "dtmi:com:syyclops:UtilityBillEvent:serviceType;1"
-            },
-            {
-              "name": "charge",
-              "displayName": {
-                "en": "Charge"
-              },
-              "description": {
-                "en": "The individual charge for the usage as measured by the meter."
-              },
-              "schema": {
-                "@type": "Object",
-                "fields": [
-                  {
-                    "name": "amount",
-                    "displayName": {
-                      "en": "Amount"
-                    },
-                    "schema": "double",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:amount;1"
-                  },
-                  {
-                    "name": "currency",
-                    "displayName": {
-                      "en": "Currency"
-                    },
-                    "schema": "string",
-                    "@id": "dtmi:com:syyclops:UtilityBillEvent:currency;1"
-                  }
-                ],
-                "@id": "dtmi:com:syyclops:UtilityBillEvent:OS6;1"
-              },
-              "@id": "dtmi:com:syyclops:UtilityBillEvent:charge;1"
-            },
-            {
-              "name": "usage",
-              "displayName": {
-                "en": "Usage"
-              },
-              "description": {
-                "en": "The amount of usage as measured by the meter"
-              },
-              "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
-              "@id": "dtmi:com:syyclops:UtilityBillEvent:usage;1"
-            }
-          ],
-          "@id": "dtmi:com:syyclops:UtilityBillEvent:OS3;1"
-        },
-        "@id": "dtmi:com:syyclops:UtilityBillEvent:AS2;1"
-      },
-      "@id": "dtmi:com:syyclops:UtilityBillEvent:meterData;1",
-      "description": {
-        "en": "Contains data from the utility meter associated with the Utility Bill Event."
-      }
     }
   ],
   "schemas": [
