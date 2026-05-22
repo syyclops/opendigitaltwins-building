@@ -16,7 +16,7 @@
         "en": "Meter Data"
       },
       "description": {
-        "en": "Per-meter readings on this bill."
+        "en": "Per-meter readings on this bill. Volumetric readings (CCF/MCF/m³) should be converted to therms at ingestion using the utility's BTU factor."
       },
       "writable": true,
       "schema": {
@@ -36,53 +36,28 @@
               "@id": "dtmi:com:syyclops:NaturalGasBillEvent:meterId;1"
             },
             {
-              "name": "measurementType",
-              "displayName": {
-                "en": "Measurement Type"
-              },
-              "description": {
-                "en": "Whether the reading is total consumption or peak demand during the billing period."
-              },
-              "schema": {
-                "@type": "Enum",
-                "valueSchema": "string",
-                "enumValues": [
-                  {
-                    "name": "TotalConsumption",
-                    "enumValue": "TotalConsumption",
-                    "@id": "dtmi:com:syyclops:NaturalGasBillEvent:TotalConsumption;1"
-                  },
-                  {
-                    "name": "PeakDemand",
-                    "enumValue": "PeakDemand",
-                    "@id": "dtmi:com:syyclops:NaturalGasBillEvent:PeakDemand;1"
-                  }
-                ],
-                "@id": "dtmi:com:syyclops:NaturalGasBillEvent:ES1;1"
-              },
-              "@id": "dtmi:com:syyclops:NaturalGasBillEvent:measurementType;1"
-            },
-            {
               "name": "charge",
               "displayName": {
                 "en": "Charge"
               },
               "description": {
-                "en": "The individual charge for the usage as measured by the meter."
+                "en": "The individual charge for this meter's reading."
               },
               "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
               "@id": "dtmi:com:syyclops:NaturalGasBillEvent:charge;1"
             },
             {
-              "name": "usage",
+              "@type": ["Field", "Energy"],
+              "name": "consumption",
               "displayName": {
-                "en": "Usage"
+                "en": "Consumption"
               },
               "description": {
-                "en": "The amount of usage as measured by the meter."
+                "en": "Total natural gas energy consumed during the billing period for this meter."
               },
-              "schema": "dtmi:com:syyclops:NaturalGasBillEventUsage;1",
-              "@id": "dtmi:com:syyclops:NaturalGasBillEvent:usage;1"
+              "schema": "double",
+              "unit": "therm",
+              "@id": "dtmi:com:syyclops:NaturalGasBillEvent:consumption;1"
             }
           ],
           "@id": "dtmi:com:syyclops:NaturalGasBillEvent:OS1;1"
@@ -90,62 +65,6 @@
         "@id": "dtmi:com:syyclops:NaturalGasBillEvent:AS1;1"
       },
       "@id": "dtmi:com:syyclops:NaturalGasBillEvent:meterData;1"
-    }
-  ],
-  "schemas": [
-    {
-      "@id": "dtmi:com:syyclops:NaturalGasBillEventUsage;1",
-      "@type": "Object",
-      "displayName": {
-        "en": "Natural Gas Bill Event Usage"
-      },
-      "fields": [
-        {
-          "name": "amount",
-          "displayName": {
-            "en": "Amount"
-          },
-          "schema": "double",
-          "@id": "dtmi:com:syyclops:NaturalGasBillEvent:SF1;1"
-        },
-        {
-          "name": "unit",
-          "displayName": {
-            "en": "Unit"
-          },
-          "description": {
-            "en": "Gas unit. 'therm' is energy; CCF/MCF/cubicMetre are volumetric."
-          },
-          "schema": {
-            "@type": "Enum",
-            "valueSchema": "string",
-            "enumValues": [
-              {
-                "name": "therm",
-                "enumValue": "therm",
-                "@id": "dtmi:com:syyclops:NaturalGasBillEvent:Unittherm;1"
-              },
-              {
-                "name": "CCF",
-                "enumValue": "CCF",
-                "@id": "dtmi:com:syyclops:NaturalGasBillEvent:UnitCCF;1"
-              },
-              {
-                "name": "MCF",
-                "enumValue": "MCF",
-                "@id": "dtmi:com:syyclops:NaturalGasBillEvent:UnitMCF;1"
-              },
-              {
-                "name": "cubicMetre",
-                "enumValue": "cubicMetre",
-                "@id": "dtmi:com:syyclops:NaturalGasBillEvent:UnitcubicMetre;1"
-              }
-            ],
-            "@id": "dtmi:com:syyclops:NaturalGasBillEvent:ES2;1"
-          },
-          "@id": "dtmi:com:syyclops:NaturalGasBillEvent:SF2;1"
-        }
-      ]
     }
   ],
   "@context": [

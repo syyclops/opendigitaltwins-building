@@ -16,7 +16,7 @@
         "en": "Meter Data"
       },
       "description": {
-        "en": "Per-meter readings on this bill. A single physical meter may yield multiple entries — e.g. one for total consumption (kWh) and one for peak demand (kW)."
+        "en": "Per-meter readings on this bill. Each entry represents one physical meter; fill only the measurement fields the meter actually reports."
       },
       "writable": true,
       "schema": {
@@ -36,53 +36,41 @@
               "@id": "dtmi:com:syyclops:ElectricityBillEvent:meterId;1"
             },
             {
-              "name": "measurementType",
-              "displayName": {
-                "en": "Measurement Type"
-              },
-              "description": {
-                "en": "Whether the reading is total consumption or peak demand during the billing period."
-              },
-              "schema": {
-                "@type": "Enum",
-                "valueSchema": "string",
-                "enumValues": [
-                  {
-                    "name": "TotalConsumption",
-                    "enumValue": "TotalConsumption",
-                    "@id": "dtmi:com:syyclops:ElectricityBillEvent:TotalConsumption;1"
-                  },
-                  {
-                    "name": "PeakDemand",
-                    "enumValue": "PeakDemand",
-                    "@id": "dtmi:com:syyclops:ElectricityBillEvent:PeakDemand;1"
-                  }
-                ],
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:ES1;1"
-              },
-              "@id": "dtmi:com:syyclops:ElectricityBillEvent:measurementType;1"
-            },
-            {
               "name": "charge",
               "displayName": {
                 "en": "Charge"
               },
               "description": {
-                "en": "The individual charge for the usage as measured by the meter."
+                "en": "The individual charge for this meter's reading."
               },
               "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
               "@id": "dtmi:com:syyclops:ElectricityBillEvent:charge;1"
             },
             {
-              "name": "usage",
+              "@type": ["Field", "Energy"],
+              "name": "consumption",
               "displayName": {
-                "en": "Usage"
+                "en": "Consumption"
               },
               "description": {
-                "en": "The amount of usage as measured by the meter."
+                "en": "Total energy consumed during the billing period for this meter."
               },
-              "schema": "dtmi:com:syyclops:ElectricityBillEventUsage;1",
-              "@id": "dtmi:com:syyclops:ElectricityBillEvent:usage;1"
+              "schema": "double",
+              "unit": "kilowattHour",
+              "@id": "dtmi:com:syyclops:ElectricityBillEvent:consumption;1"
+            },
+            {
+              "@type": ["Field", "Power"],
+              "name": "peakDemand",
+              "displayName": {
+                "en": "Peak Demand"
+              },
+              "description": {
+                "en": "Highest demand recorded during the billing period for this meter."
+              },
+              "schema": "double",
+              "unit": "kilowatt",
+              "@id": "dtmi:com:syyclops:ElectricityBillEvent:peakDemand;1"
             }
           ],
           "@id": "dtmi:com:syyclops:ElectricityBillEvent:OS1;1"
@@ -90,72 +78,6 @@
         "@id": "dtmi:com:syyclops:ElectricityBillEvent:AS1;1"
       },
       "@id": "dtmi:com:syyclops:ElectricityBillEvent:meterData;1"
-    }
-  ],
-  "schemas": [
-    {
-      "@id": "dtmi:com:syyclops:ElectricityBillEventUsage;1",
-      "@type": "Object",
-      "displayName": {
-        "en": "Electricity Bill Event Usage"
-      },
-      "fields": [
-        {
-          "name": "amount",
-          "displayName": {
-            "en": "Amount"
-          },
-          "schema": "double",
-          "@id": "dtmi:com:syyclops:ElectricityBillEvent:SF1;1"
-        },
-        {
-          "name": "unit",
-          "displayName": {
-            "en": "Unit"
-          },
-          "description": {
-            "en": "Electrical unit. kilowattHour/megawattHour for consumption; kilowatt/megawatt for demand; kilovoltAmpereHour/kilovoltAmpere for apparent power."
-          },
-          "schema": {
-            "@type": "Enum",
-            "valueSchema": "string",
-            "enumValues": [
-              {
-                "name": "kilowattHour",
-                "enumValue": "kilowattHour",
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:UnitkilowattHour;1"
-              },
-              {
-                "name": "megawattHour",
-                "enumValue": "megawattHour",
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:UnitmegawattHour;1"
-              },
-              {
-                "name": "kilowatt",
-                "enumValue": "kilowatt",
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:Unitkilowatt;1"
-              },
-              {
-                "name": "megawatt",
-                "enumValue": "megawatt",
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:Unitmegawatt;1"
-              },
-              {
-                "name": "kilovoltAmpereHour",
-                "enumValue": "kilovoltAmpereHour",
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:UnitkilovoltAmpereHour;1"
-              },
-              {
-                "name": "kilovoltAmpere",
-                "enumValue": "kilovoltAmpere",
-                "@id": "dtmi:com:syyclops:ElectricityBillEvent:UnitkilovoltAmpere;1"
-              }
-            ],
-            "@id": "dtmi:com:syyclops:ElectricityBillEvent:ES2;1"
-          },
-          "@id": "dtmi:com:syyclops:ElectricityBillEvent:SF2;1"
-        }
-      ]
     }
   ],
   "@context": [

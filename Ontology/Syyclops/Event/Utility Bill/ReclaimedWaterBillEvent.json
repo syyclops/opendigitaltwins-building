@@ -16,7 +16,7 @@
         "en": "Meter Data"
       },
       "description": {
-        "en": "Per-meter readings on this bill."
+        "en": "Per-meter readings on this bill. Readings in CCF, kgal, or m³ should be converted to gallons at ingestion."
       },
       "writable": true,
       "schema": {
@@ -36,53 +36,28 @@
               "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:meterId;1"
             },
             {
-              "name": "measurementType",
-              "displayName": {
-                "en": "Measurement Type"
-              },
-              "description": {
-                "en": "Whether the reading is total consumption or peak demand during the billing period."
-              },
-              "schema": {
-                "@type": "Enum",
-                "valueSchema": "string",
-                "enumValues": [
-                  {
-                    "name": "TotalConsumption",
-                    "enumValue": "TotalConsumption",
-                    "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:TotalConsumption;1"
-                  },
-                  {
-                    "name": "PeakDemand",
-                    "enumValue": "PeakDemand",
-                    "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:PeakDemand;1"
-                  }
-                ],
-                "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:ES1;1"
-              },
-              "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:measurementType;1"
-            },
-            {
               "name": "charge",
               "displayName": {
                 "en": "Charge"
               },
               "description": {
-                "en": "The individual charge for the usage as measured by the meter."
+                "en": "The individual charge for this meter's reading."
               },
               "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
               "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:charge;1"
             },
             {
-              "name": "usage",
+              "@type": ["Field", "Volume"],
+              "name": "consumption",
               "displayName": {
-                "en": "Usage"
+                "en": "Consumption"
               },
               "description": {
-                "en": "The amount of usage as measured by the meter."
+                "en": "Total reclaimed water consumed during the billing period for this meter."
               },
-              "schema": "dtmi:com:syyclops:ReclaimedWaterBillEventUsage;1",
-              "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:usage;1"
+              "schema": "double",
+              "unit": "gallon",
+              "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:consumption;1"
             }
           ],
           "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:OS1;1"
@@ -90,62 +65,6 @@
         "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:AS1;1"
       },
       "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:meterData;1"
-    }
-  ],
-  "schemas": [
-    {
-      "@id": "dtmi:com:syyclops:ReclaimedWaterBillEventUsage;1",
-      "@type": "Object",
-      "displayName": {
-        "en": "Reclaimed Water Bill Event Usage"
-      },
-      "fields": [
-        {
-          "name": "amount",
-          "displayName": {
-            "en": "Amount"
-          },
-          "schema": "double",
-          "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:SF1;1"
-        },
-        {
-          "name": "unit",
-          "displayName": {
-            "en": "Unit"
-          },
-          "description": {
-            "en": "Reclaimed-water unit reported by the utility."
-          },
-          "schema": {
-            "@type": "Enum",
-            "valueSchema": "string",
-            "enumValues": [
-              {
-                "name": "gallon",
-                "enumValue": "gallon",
-                "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:Unitgallon;1"
-              },
-              {
-                "name": "kgal",
-                "enumValue": "kgal",
-                "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:Unitkgal;1"
-              },
-              {
-                "name": "CCF",
-                "enumValue": "CCF",
-                "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:UnitCCF;1"
-              },
-              {
-                "name": "cubicMetre",
-                "enumValue": "cubicMetre",
-                "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:UnitcubicMetre;1"
-              }
-            ],
-            "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:ES2;1"
-          },
-          "@id": "dtmi:com:syyclops:ReclaimedWaterBillEvent:SF2;1"
-        }
-      ]
     }
   ],
   "@context": [
