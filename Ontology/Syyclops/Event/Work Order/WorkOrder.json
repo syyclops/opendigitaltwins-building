@@ -241,6 +241,19 @@
       "@id": "dtmi:com:syyclops:WorkOrder:completionNotes;1"
     },
     {
+      "@type": "Property",
+      "name": "creationSource",
+      "displayName": {
+        "en": "Creation Source"
+      },
+      "description": {
+        "en": "How this work order came to exist. System-set at creation, never edited afterward. Drives different behaviors per source — e.g. alert-created work orders auto-close when the underlying alert resolves; manual ones never auto-close."
+      },
+      "schema": "dtmi:com:syyclops:WorkOrderCreationSourceEnum;1",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:WorkOrder:creationSource;1"
+    },
+    {
       "@id": "dtmi:com:syyclops:WorkOrderCommand:Create;1",
       "@type": "Command",
       "name": "createWorkOrder",
@@ -551,6 +564,38 @@
       "displayName": {
         "en": "Work Order Type Enum"
       }
+    },
+    {
+      "@id": "dtmi:com:syyclops:WorkOrderCreationSourceEnum;1",
+      "@type": "Enum",
+      "valueSchema": "string",
+      "displayName": {
+        "en": "Work Order Creation Source Enum"
+      },
+      "enumValues": [
+        {
+          "name": "Manual",
+          "displayName": {
+            "en": "Manual"
+          },
+          "enumValue": "Manual",
+          "@id": "dtmi:com:syyclops:WorkOrder:Manual;1",
+          "description": {
+            "en": "Created by a user through the Syyclops UI."
+          }
+        },
+        {
+          "name": "Alert",
+          "displayName": {
+            "en": "Alert"
+          },
+          "enumValue": "Alert",
+          "@id": "dtmi:com:syyclops:WorkOrder:Alert;1",
+          "description": {
+            "en": "Auto-created by Syyclops when an alert rule fired. Auto-closes when the underlying alert resolves."
+          }
+        }
+      ]
     },
     {
       "@id": "dtmi:com:syyclops:WorkOrderRequestSchema;1",
