@@ -176,6 +176,38 @@
       "description": {
         "en": "Property indicating the load classification within an Electrical Circuit, guiding design and operational use."
       }
+    },
+    {
+      "@type": "Property",
+      "name": "connectedLoadByPhase",
+      "displayName": {
+        "en": "Connected Load by Phase"
+      },
+      "description": {
+        "en": "Connected load (kVA) wired on each phase of the circuit, keyed by phase letter (\"A\", \"B\", \"C\"). Represents the load actually present on each phase wire, including unbalanced configurations (MWBC, mixed lighting banks, asymmetric 2-pole loads) where per-phase values are specified independently rather than derived from a single total by even split. Orthogonal to `loadClassification`, which carries the per-asset-category breakdown for NEC demand analysis."
+      },
+      "writable": true,
+      "schema": {
+        "@type": "Map",
+        "mapKey": {
+          "name": "phaseKey",
+          "description": {
+            "en": "Phase letter the load is wired on (\"A\", \"B\", or \"C\")."
+          },
+          "schema": "string",
+          "@id": "dtmi:com:syyclops:ElectricalCircuit:phaseKey;1"
+        },
+        "mapValue": {
+          "name": "phaseLoadKva",
+          "description": {
+            "en": "Connected load in kVA on that phase wire."
+          },
+          "schema": "double",
+          "@id": "dtmi:com:syyclops:ElectricalCircuit:phaseLoadKva;1"
+        },
+        "@id": "dtmi:com:syyclops:ElectricalCircuit:connectedLoadByPhaseSchema;1"
+      },
+      "@id": "dtmi:com:syyclops:ElectricalCircuit:connectedLoadByPhase;1"
     }
   ],
   "@context": [
