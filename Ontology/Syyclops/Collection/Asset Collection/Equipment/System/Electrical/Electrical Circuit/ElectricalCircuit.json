@@ -184,7 +184,7 @@
         "en": "Connected Load by Phase"
       },
       "description": {
-        "en": "Connected load (kVA) wired on each phase of the circuit, keyed by phase letter (\"A\", \"B\", \"C\"). Represents the load actually present on each phase wire, including unbalanced configurations (MWBC, mixed lighting banks, asymmetric 2-pole loads) where per-phase values are specified independently rather than derived from a single total by even split. Orthogonal to `loadClassification`, which carries the per-asset-category breakdown for NEC demand analysis."
+        "en": "Nameplate connected load (apparent power, kVA) attributed to each phase wire of the circuit, keyed by phase letter (\"A\", \"B\", \"C\"). For line-to-neutral loads (1-pole) the full kVA sits on a single phase. For line-to-line loads (2-pole or 3-pole) the convention is to split the total equally across each phase involved (e.g., a 5 kVA 240V 2-pole load → 2.5 kVA on each of two phases), so panel balance analysis stays correct. Per-phase values are stored independently, which also supports unbalanced configurations like MWBCs (NEC 210.4) where a shared multi-pole breaker carries different 1-pole loads on each phase. This property is the source of truth for panel-schedule balance and is orthogonal to `loadClassification`, which carries the per-asset-category breakdown used for NEC demand-factor analysis."
       },
       "writable": true,
       "schema": {
