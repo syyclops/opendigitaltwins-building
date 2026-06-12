@@ -115,6 +115,42 @@
       "description": {
         "en": "Indicates the unit of measurement for the rentable area."
       }
+    },
+    {
+      "@type": [
+        "Property",
+        "Area"
+      ],
+      "name": "netArea",
+      "displayName": {
+        "en": "Net Area"
+      },
+      "writable": true,
+      "schema": "double",
+      "unit": "squareMetre",
+      "@id": "dtmi:com:syyclops:SpaceArea:netArea;1",
+      "description": {
+        "en": "Represents the net area of the space, measured from the inside faces of its bounding walls (COBie.Space.NetArea)."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Net Area Unit"
+      },
+      "name": "netAreaUnit",
+      "annotates": "netArea",
+      "overrides": "unit",
+      "schema": "AreaUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:SpaceArea:netAreaUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the net area."
+      }
     }
   ],
   "@context": [

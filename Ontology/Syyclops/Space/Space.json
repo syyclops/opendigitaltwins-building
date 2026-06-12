@@ -60,6 +60,18 @@
     {
       "@type": "Relationship",
       "description": {
+        "en": "The walls (or other building elements) that physically delimit this space. A shared wall bounds each of the spaces it separates."
+      },
+      "displayName": {
+        "en": "bounded by"
+      },
+      "name": "boundedBy",
+      "target": "dtmi:com:syyclops:Wall;1",
+      "@id": "dtmi:com:syyclops:Space:boundedBy;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
         "en": "Property that defines the legal owner(s) of a given entity. Inverse of: owns"
       },
       "displayName": {
@@ -309,6 +321,18 @@
       "@id": "dtmi:com:syyclops:Space:area;1",
       "description": {
         "en": "Component representing the area of the space."
+      }
+    },
+    {
+      "@type": "Component",
+      "name": "boundaries",
+      "displayName": {
+        "en": "Boundaries"
+      },
+      "schema": "dtmi:com:syyclops:SpaceBoundaries;1",
+      "@id": "dtmi:com:syyclops:Space:boundaries;1",
+      "description": {
+        "en": "Component representing the physical boundaries of the space, such as its bounding walls and their surface areas."
       }
     },
     {

@@ -1,0 +1,93 @@
+{
+  "@id": "dtmi:com:syyclops:SpaceBoundaries;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Space Boundaries"
+  },
+  "extends": [
+    "dtmi:com:syyclops:SpaceComponent;1"
+  ],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "walls",
+      "displayName": {
+        "en": "Walls"
+      },
+      "writable": true,
+      "schema": {
+        "@type": "Array",
+        "@id": "dtmi:com:syyclops:SpaceBoundaries:AS1;1",
+        "elementSchema": {
+          "@type": "Object",
+          "@id": "dtmi:com:syyclops:SpaceBoundaries:OS2;1",
+          "fields": [
+            {
+              "name": "name",
+              "displayName": {
+                "en": "Wall Name"
+              },
+              "schema": "string",
+              "@id": "dtmi:com:syyclops:SpaceBoundaries:wallName;1",
+              "description": {
+                "en": "Label of the bounding wall relative to this space, e.g. its orientation (North, South/East)."
+              }
+            },
+            {
+              "name": "geometryExternalID",
+              "displayName": {
+                "en": "Geometry External ID"
+              },
+              "schema": "string",
+              "@id": "dtmi:com:syyclops:SpaceBoundaries:wallGeometryExternalID;1",
+              "description": {
+                "en": "Reference to the wall in the geometry source (i.e. Revit GUID), used to resolve the corresponding Wall twin."
+              }
+            },
+            {
+              "name": "area",
+              "displayName": {
+                "en": "Wall Area"
+              },
+              "schema": "double",
+              "@id": "dtmi:com:syyclops:SpaceBoundaries:wallArea;1",
+              "description": {
+                "en": "Surface area that this wall contributes to the space (COBie.Space.Walls)."
+              }
+            }
+          ]
+        }
+      },
+      "@id": "dtmi:com:syyclops:SpaceBoundaries:walls;1",
+      "description": {
+        "en": "The walls bounding this space and the surface area each contributes to it. A wall shared by several spaces appears in each space's list with its space-specific area (COBie.Space.Walls)."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation"
+      ],
+      "name": "wallsAreaUnit",
+      "displayName": {
+        "en": "Walls Area Unit"
+      },
+      "annotates": "walls",
+      "writable": true,
+      "schema": "string",
+      "@id": "dtmi:com:syyclops:SpaceBoundaries:wallsAreaUnit;1",
+      "description": {
+        "en": "Specifies the unit of measurement for the wall areas."
+      }
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1",
+    "dtmi:dtdl:extension:annotation;1",
+    "dtmi:dtdl:extension:overriding;1"
+  ],
+  "description": {
+    "en": "Defines an interface encapsulating the physical boundaries of a space, as derived from the design model."
+  }
+}
