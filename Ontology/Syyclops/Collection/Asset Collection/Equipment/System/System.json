@@ -76,6 +76,18 @@
       "name": "isPartOf",
       "target": "dtmi:com:syyclops:System;1",
       "@id": "dtmi:com:syyclops:System:isPartOf;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
+        "en": "Indicates the member Assets (equipment and distribution assets such as ducts and pipes) that make up this system. Maps to IFC IfcRelAssignsToGroup. Inverse of: memberOf"
+      },
+      "displayName": {
+        "en": "has member"
+      },
+      "name": "hasMember",
+      "target": "dtmi:com:syyclops:Asset;1",
+      "@id": "dtmi:com:syyclops:System:hasMember;1"
     }
   ],
   "@context": [

@@ -46,6 +46,18 @@
     {
       "@type": "Relationship",
       "description": {
+        "en": "Indicates the System(s) this Asset is a member of (e.g., an air handler is a member of a supply-air system). Maps to IFC IfcRelAssignsToGroup. Inverse of: hasMember"
+      },
+      "displayName": {
+        "en": "member of"
+      },
+      "name": "memberOf",
+      "target": "dtmi:com:syyclops:System;1",
+      "@id": "dtmi:com:syyclops:Asset:memberOf;1"
+    },
+    {
+      "@type": "Relationship",
+      "description": {
         "en": "Indicates that an entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Room is included in an Apartment. Inverse of: includes"
       },
       "displayName": {
