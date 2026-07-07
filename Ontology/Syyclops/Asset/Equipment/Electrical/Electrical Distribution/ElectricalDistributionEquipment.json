@@ -64,6 +64,17 @@
       "description": {
         "en": "Classifies the load that the electrical distribution equipment is designed to support, aiding in performance assessment."
       }
+    },
+    {
+      "@type": "Relationship",
+      "name": "hasMeter",
+      "displayName": {
+        "en": "Has Meter"
+      },
+      "@id": "dtmi:com:syyclops:ElectricalDistributionEquipment:hasMeter;1",
+      "description": {
+        "en": "A relationship indicating that this electrical distribution equipment is metered by the linked device (e.g. a BACnet controller submeter)."
+      }
     }
   ],
   "@context": [
