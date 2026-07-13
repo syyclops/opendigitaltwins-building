@@ -5,7 +5,7 @@
     "en": "Utility Account"
   },
   "description": {
-    "en": "A customer account in which the service provided is the delivery of a utility such as electricity, natural gas, or water."
+    "en": "A customer account in which the service provided is the delivery of a utility such as electricity, natural gas, water, internet, waste removal, or generator fuel."
   },
   "extends": [
     "dtmi:com:syyclops:Account;1"

@@ -1,0 +1,76 @@
+{
+  "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Generator Fuel Bill"
+  },
+  "description": {
+    "en": "A utility bill for generator fuel delivery or consumption."
+  },
+  "extends": ["dtmi:com:syyclops:UtilityBillEvent;1"],
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "meterData",
+      "displayName": {
+        "en": "Meter Data"
+      },
+      "description": {
+        "en": "Per-delivery or per-tank readings on this bill. Each entry represents one fuel delivery or tank; readings in litres or cubic meters should be converted to gallons at ingestion (1 litre ≈ 0.264 gal, 1 m³ ≈ 264 gal)."
+      },
+      "writable": true,
+      "schema": {
+        "@type": "Array",
+        "elementSchema": {
+          "@type": "Object",
+          "fields": [
+            {
+              "name": "meterId",
+              "displayName": {
+                "en": "Meter Id"
+              },
+              "description": {
+                "en": "The delivery or tank identifier as provided by the fuel supplier."
+              },
+              "schema": "string",
+              "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent:meterId;1"
+            },
+            {
+              "name": "charge",
+              "displayName": {
+                "en": "Charge"
+              },
+              "description": {
+                "en": "The individual charge for this delivery or tank reading."
+              },
+              "schema": "dtmi:com:syyclops:UtilityBillEventCharges;1",
+              "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent:charge;1"
+            },
+            {
+              "@type": ["Field", "Volume"],
+              "name": "consumption",
+              "displayName": {
+                "en": "Consumption"
+              },
+              "description": {
+                "en": "Total generator fuel volume billed during the billing period for this delivery or tank."
+              },
+              "schema": "double",
+              "unit": "gallon",
+              "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent:consumption;1"
+            }
+          ],
+          "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent:OS1;1"
+        },
+        "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent:AS1;1"
+      },
+      "@id": "dtmi:com:syyclops:GeneratorFuelBillEvent:meterData;1"
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3",
+    "dtmi:dtdl:extension:quantitativeTypes;1",
+    "dtmi:dtdl:extension:annotation;1",
+    "dtmi:dtdl:extension:overriding;1"
+  ]
+}

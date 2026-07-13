@@ -5,7 +5,7 @@
     "en": "Utility Bill"
   },
   "description": {
-    "en": "An event that occurs, typically monthly, when a utility company produces a bill for a utility account. Defines fields common to all service types; concrete bill types (electricity, natural gas, potable water, reclaimed water) extend this and add their service-specific meter data and charge structure."
+    "en": "An event that occurs, typically monthly, when a utility company produces a bill for a utility account. Defines fields common to all service types; concrete bill types (electricity, natural gas, potable water, reclaimed water, internet, garbage/waste removal, generator fuel) extend this and add their service-specific meter data and charge structure."
   },
   "extends": ["dtmi:com:syyclops:Event;1"],
   "contents": [
