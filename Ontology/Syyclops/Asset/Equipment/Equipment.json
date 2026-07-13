@@ -69,7 +69,7 @@
       "@type": ["Property", "Voltage"],
       "name": "ratedVoltage",
       "displayName": {
-        "en": "Voltage"
+        "en": "Rated Voltage"
       },
       "description": {
         "en": "Nameplate rated voltage of the equipment in units defined by 'ratedVoltageUnit'. Generic electrical rating applicable to any powered equipment; connection-specific values remain on type-specific properties such as inputVoltage and outputVoltage."
@@ -83,7 +83,7 @@
       "@type": ["Property", "ValueAnnotation", "Override"],
       "name": "ratedVoltageUnit",
       "displayName": {
-        "en": "Voltage Unit"
+        "en": "Rated Voltage Unit"
       },
       "description": {
         "en": "Indicates the unit of measurement for the ratedVoltage property of the equipment."
@@ -98,7 +98,7 @@
       "@type": ["Property", "Current"],
       "name": "ratedCurrent",
       "displayName": {
-        "en": "Amperage"
+        "en": "Rated Current"
       },
       "description": {
         "en": "Nameplate rated current draw of the equipment in units defined by 'ratedCurrentUnit'. Generic electrical rating applicable to any powered equipment; type-specific ratings such as currentRating or fullLoadCurrent remain on the types that own them."
@@ -112,7 +112,7 @@
       "@type": ["Property", "ValueAnnotation", "Override"],
       "name": "ratedCurrentUnit",
       "displayName": {
-        "en": "Amperage Unit"
+        "en": "Rated Current Unit"
       },
       "description": {
         "en": "Indicates the unit of measurement for the ratedCurrent property of the equipment."
