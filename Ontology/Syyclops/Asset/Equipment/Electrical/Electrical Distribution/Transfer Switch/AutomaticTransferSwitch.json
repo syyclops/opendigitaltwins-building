@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "Open",
+            "displayName": {
+              "en": "Open"
+            },
             "name": "Open",
             "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:Open;1"
           },
           {
             "enumValue": "Closed",
+            "displayName": {
+              "en": "Closed"
+            },
             "name": "Closed",
             "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:Closed;1"
           }
@@ -48,16 +54,25 @@
         "enumValues": [
           {
             "enumValue": "Contactor",
+            "displayName": {
+              "en": "Contactor"
+            },
             "name": "Contactor",
             "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:Contactor;1"
           },
           {
             "enumValue": "CircuitBreakerPowerCase",
+            "displayName": {
+              "en": "Power-Case Circuit Breaker"
+            },
             "name": "CircuitBreakerPowerCase",
             "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:CircuitBreakerPowerCase;1"
           },
           {
             "enumValue": "CircuitBreakerMoldedCase",
+            "displayName": {
+              "en": "Molded-Case Circuit Breaker"
+            },
             "name": "CircuitBreakerMoldedCase",
             "@id": "dtmi:com:syyclops:AutomaticTransferSwitch:CircuitBreakerMoldedCase;1"
           }

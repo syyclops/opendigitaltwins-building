@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "HotWater",
+            "displayName": {
+              "en": "Hot Water"
+            },
             "name": "HotWater",
             "@id": "dtmi:com:syyclops:PlumbingStorageTank:HotWater;1"
           },
           {
             "enumValue": "ChilledWater",
+            "displayName": {
+              "en": "Chilled Water"
+            },
             "name": "ChilledWater",
             "@id": "dtmi:com:syyclops:PlumbingStorageTank:ChilledWater;1"
           }
@@ -48,11 +54,17 @@
         "enumValues": [
           {
             "enumValue": "Vertical",
+            "displayName": {
+              "en": "Vertical"
+            },
             "name": "Vertical",
             "@id": "dtmi:com:syyclops:PlumbingStorageTank:Vertical;1"
           },
           {
             "enumValue": "Horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            },
             "name": "Horizontal",
             "@id": "dtmi:com:syyclops:PlumbingStorageTank:Horizontal;1"
           }

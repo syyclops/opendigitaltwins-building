@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "PressureAssisted",
+            "displayName": {
+              "en": "Pressure Assisted"
+            },
             "name": "PressureAssisted",
             "@id": "dtmi:com:syyclops:ToiletTank:PressureAssisted;1"
           },
           {
             "enumValue": "Gravity",
+            "displayName": {
+              "en": "Gravity"
+            },
             "name": "Gravity",
             "@id": "dtmi:com:syyclops:ToiletTank:Gravity;1"
           }

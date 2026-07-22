@@ -32,11 +32,17 @@
         "enumValues": [
           {
             "enumValue": "Three",
+            "displayName": {
+              "en": "Three"
+            },
             "name": "Three",
             "@id": "dtmi:com:syyclops:ElectricalPanelboard:Three;1"
           },
           {
             "enumValue": "One",
+            "displayName": {
+              "en": "One"
+            },
             "name": "One",
             "@id": "dtmi:com:syyclops:ElectricalPanelboard:One;1"
           }
@@ -105,13 +111,17 @@
         "enumValues": [
           {
             "name": "One",
-            "displayName": "1",
+            "displayName": {
+              "en": "1"
+            },
             "enumValue": "1",
             "@id": "dtmi:com:syyclops:ElectricalPanelboard:EE3;1"
           },
           {
             "name": "Three",
-            "displayName": "3",
+            "displayName": {
+              "en": "3"
+            },
             "enumValue": "3",
             "@id": "dtmi:com:syyclops:ElectricalPanelboard:EE4;1"
           }

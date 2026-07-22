@@ -54,16 +54,25 @@
         "enumValues": [
           {
             "enumValue": "Horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            },
             "name": "Horizontal",
             "@id": "dtmi:com:syyclops:FumeHood:Horizontal;1"
           },
           {
             "enumValue": "Vertical",
+            "displayName": {
+              "en": "Vertical"
+            },
             "name": "Vertical",
             "@id": "dtmi:com:syyclops:FumeHood:Vertical;1"
           },
           {
             "enumValue": "Combination",
+            "displayName": {
+              "en": "Combination"
+            },
             "name": "Combination",
             "@id": "dtmi:com:syyclops:FumeHood:Combination;1"
           }
@@ -88,11 +97,17 @@
         "enumValues": [
           {
             "enumValue": "Open",
+            "displayName": {
+              "en": "Open"
+            },
             "name": "Open",
             "@id": "dtmi:com:syyclops:FumeHood:Open;1"
           },
           {
             "enumValue": "Restricted",
+            "displayName": {
+              "en": "Restricted"
+            },
             "name": "Restricted",
             "@id": "dtmi:com:syyclops:FumeHood:Restricted;1"
           }

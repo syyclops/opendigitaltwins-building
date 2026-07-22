@@ -55,16 +55,25 @@
         "enumValues": [
           {
             "enumValue": "round",
+            "displayName": {
+              "en": "Round"
+            },
             "name": "round",
             "@id": "dtmi:com:syyclops:DuctConnection:round;1"
           },
           {
             "enumValue": "rectangle",
+            "displayName": {
+              "en": "Rectangle"
+            },
             "name": "rectangle",
             "@id": "dtmi:com:syyclops:DuctConnection:rectangle;1"
           },
           {
             "enumValue": "oval",
+            "displayName": {
+              "en": "Oval"
+            },
             "name": "oval",
             "@id": "dtmi:com:syyclops:DuctConnection:oval;1"
           }
@@ -89,11 +98,17 @@
         "enumValues": [
           {
             "enumValue": "single",
+            "displayName": {
+              "en": "Single"
+            },
             "name": "single",
             "@id": "dtmi:com:syyclops:DuctConnection:single;1"
           },
           {
             "enumValue": "dual",
+            "displayName": {
+              "en": "Dual"
+            },
             "name": "dual",
             "@id": "dtmi:com:syyclops:DuctConnection:dual;1"
           }

@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "Copper",
+            "displayName": {
+              "en": "Copper"
+            },
             "name": "Copper",
             "@id": "dtmi:com:syyclops:ElectricalBus:Copper;1"
           },
           {
             "enumValue": "Aluminium",
+            "displayName": {
+              "en": "Aluminium"
+            },
             "name": "Aluminium",
             "@id": "dtmi:com:syyclops:ElectricalBus:Aluminium;1"
           }

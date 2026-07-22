@@ -303,7 +303,9 @@
       "enumValues": [
         {
           "name": "oneA",
-          "displayName": "1A - Very Hot Humid",
+          "displayName": {
+            "en": "1A - Very Hot Humid"
+          },
           "enumValue": "1A",
           "@id": "dtmi:com:syyclops:Substructure:oneA;1",
           "description": {
@@ -312,7 +314,9 @@
         },
         {
           "name": "twoA",
-          "displayName": "2A Hot Humid",
+          "displayName": {
+            "en": "2A Hot Humid"
+          },
           "enumValue": "2A",
           "@id": "dtmi:com:syyclops:Substructure:twoA;1",
           "description": {
@@ -321,7 +325,9 @@
         },
         {
           "name": "twoB",
-          "displayName": "2B Hot Dry",
+          "displayName": {
+            "en": "2B Hot Dry"
+          },
           "enumValue": "2B",
           "@id": "dtmi:com:syyclops:Substructure:twoB;1",
           "description": {
@@ -330,7 +336,9 @@
         },
         {
           "name": "threeA",
-          "displayName": "3A Warm Humid",
+          "displayName": {
+            "en": "3A Warm Humid"
+          },
           "enumValue": "3A",
           "@id": "dtmi:com:syyclops:Substructure:threeA;1",
           "description": {
@@ -339,7 +347,9 @@
         },
         {
           "name": "threeB",
-          "displayName": "3B Warm Dry",
+          "displayName": {
+            "en": "3B Warm Dry"
+          },
           "enumValue": "3B",
           "@id": "dtmi:com:syyclops:Substructure:threeB;1",
           "description": {
@@ -348,7 +358,9 @@
         },
         {
           "name": "threeC",
-          "displayName": "3C Warm Marine",
+          "displayName": {
+            "en": "3C Warm Marine"
+          },
           "enumValue": "3C",
           "@id": "dtmi:com:syyclops:Substructure:threeC;1",
           "description": {
@@ -357,7 +369,9 @@
         },
         {
           "name": "fourA",
-          "displayName": "4A Mixed Humid",
+          "displayName": {
+            "en": "4A Mixed Humid"
+          },
           "enumValue": "4A",
           "@id": "dtmi:com:syyclops:Substructure:fourA;1",
           "description": {
@@ -366,7 +380,9 @@
         },
         {
           "name": "fourB",
-          "displayName": "4B Mixed Dry",
+          "displayName": {
+            "en": "4B Mixed Dry"
+          },
           "enumValue": "4B",
           "@id": "dtmi:com:syyclops:Substructure:fourB;1",
           "description": {
@@ -375,7 +391,9 @@
         },
         {
           "name": "fourC",
-          "displayName": "4C Mixed Marine",
+          "displayName": {
+            "en": "4C Mixed Marine"
+          },
           "enumValue": "4C",
           "@id": "dtmi:com:syyclops:Substructure:fourC;1",
           "description": {
@@ -384,7 +402,9 @@
         },
         {
           "name": "fiveA",
-          "displayName": "5A Cool Humid",
+          "displayName": {
+            "en": "5A Cool Humid"
+          },
           "enumValue": "5A",
           "@id": "dtmi:com:syyclops:Substructure:fiveA;1",
           "description": {
@@ -393,7 +413,9 @@
         },
         {
           "name": "fiveB",
-          "displayName": "5B Cool Dry",
+          "displayName": {
+            "en": "5B Cool Dry"
+          },
           "enumValue": "5B",
           "@id": "dtmi:com:syyclops:Substructure:fiveB;1",
           "description": {
@@ -402,7 +424,9 @@
         },
         {
           "name": "fiveC",
-          "displayName": "5C Cool Marine",
+          "displayName": {
+            "en": "5C Cool Marine"
+          },
           "enumValue": "5C",
           "@id": "dtmi:com:syyclops:Substructure:fiveC;1",
           "description": {
@@ -411,7 +435,9 @@
         },
         {
           "name": "sixA",
-          "displayName": "6A Cold Humid",
+          "displayName": {
+            "en": "6A Cold Humid"
+          },
           "enumValue": "6A",
           "@id": "dtmi:com:syyclops:Substructure:sixA;1",
           "description": {
@@ -420,7 +446,9 @@
         },
         {
           "name": "sixB",
-          "displayName": "6B Cold Dry",
+          "displayName": {
+            "en": "6B Cold Dry"
+          },
           "enumValue": "6B",
           "@id": "dtmi:com:syyclops:Substructure:sixB;1",
           "description": {
@@ -429,7 +457,9 @@
         },
         {
           "name": "seven",
-          "displayName": "7 Very Cold",
+          "displayName": {
+            "en": "7 Very Cold"
+          },
           "enumValue": "7",
           "@id": "dtmi:com:syyclops:Substructure:seven;1",
           "description": {
@@ -438,7 +468,9 @@
         },
         {
           "name": "eight",
-          "displayName": "8 Subarctic/Arctic",
+          "displayName": {
+            "en": "8 Subarctic/Arctic"
+          },
           "enumValue": "8",
           "@id": "dtmi:com:syyclops:Substructure:eight;1",
           "description": {
@@ -457,6 +489,9 @@
       "enumValues": [
         {
           "enumValue": "Design",
+          "displayName": {
+            "en": "Design"
+          },
           "name": "Design",
           "@id": "dtmi:com:syyclops:Substructure:Design;1",
           "description": {
@@ -465,6 +500,9 @@
         },
         {
           "enumValue": "Construction",
+          "displayName": {
+            "en": "Construction"
+          },
           "name": "Construction",
           "@id": "dtmi:com:syyclops:Substructure:Construction;1",
           "description": {
@@ -473,6 +511,9 @@
         },
         {
           "enumValue": "Operational",
+          "displayName": {
+            "en": "Operational"
+          },
           "name": "Operational",
           "@id": "dtmi:com:syyclops:Substructure:Operational;1",
           "description": {

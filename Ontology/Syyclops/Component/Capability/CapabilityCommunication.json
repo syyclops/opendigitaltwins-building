@@ -108,7 +108,9 @@
       "enumValues": [
         {
           "name": "API",
-          "displayName": "API",
+          "displayName": {
+            "en": "API"
+          },
           "enumValue": "API",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SE1;1",
           "description": {
@@ -117,7 +119,9 @@
         },
         {
           "name": "BACnet",
-          "displayName": "BACnet",
+          "displayName": {
+            "en": "BACnet"
+          },
           "enumValue": "BACnet",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SE2;1",
           "description": {
@@ -126,7 +130,9 @@
         },
         {
           "name": "Modbus",
-          "displayName": "Modbus",
+          "displayName": {
+            "en": "Modbus"
+          },
           "enumValue": "Modbus",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SE3;1",
           "description": {
@@ -135,7 +141,9 @@
         },
         {
           "name": "OPCDA",
-          "displayName": "OPC DA",
+          "displayName": {
+            "en": "OPC DA"
+          },
           "enumValue": "OPC DA",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SE4;1",
           "description": {
@@ -144,7 +152,9 @@
         },
         {
           "name": "OPCUA",
-          "displayName": "OPC UA",
+          "displayName": {
+            "en": "OPC UA"
+          },
           "enumValue": "OPC UA",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SE5;1",
           "description": {
@@ -153,7 +163,9 @@
         },
         {
           "name": "KNX",
-          "displayName": "KNX",
+          "displayName": {
+            "en": "KNX"
+          },
           "enumValue": "KNX",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:KNX;1",
           "description": {
@@ -162,7 +174,9 @@
         },
         {
           "name": "LonWorks",
-          "displayName": "LonWorks",
+          "displayName": {
+            "en": "LonWorks"
+          },
           "enumValue": "LonWorks",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:LonWorks;1",
           "description": {
@@ -171,7 +185,9 @@
         },
         {
           "name": "DALI",
-          "displayName": "DALI",
+          "displayName": {
+            "en": "DALI"
+          },
           "enumValue": "DALI",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:DALI;1",
           "description": {
@@ -180,7 +196,9 @@
         },
         {
           "name": "MBus",
-          "displayName": "M-Bus",
+          "displayName": {
+            "en": "M-Bus"
+          },
           "enumValue": "M-Bus",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:MBus;1",
           "description": {
@@ -189,7 +207,9 @@
         },
         {
           "name": "SNMP",
-          "displayName": "SNMP",
+          "displayName": {
+            "en": "SNMP"
+          },
           "enumValue": "SNMP",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SNMP;1",
           "description": {
@@ -198,7 +218,9 @@
         },
         {
           "name": "MQTT",
-          "displayName": "MQTT",
+          "displayName": {
+            "en": "MQTT"
+          },
           "enumValue": "MQTT",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:MQTT;1",
           "description": {
@@ -207,7 +229,9 @@
         },
         {
           "name": "IoTHub",
-          "displayName": "IoT Hub",
+          "displayName": {
+            "en": "IoT Hub"
+          },
           "enumValue": "IoT Hub",
           "@id": "dtmi:com:syyclops:CapabilityCommunication:SE6;1",
           "description": {
@@ -258,79 +282,105 @@
             "enumValues": [
               {
                 "name": "Accumulator",
-                "displayName": "Accumulator",
+                "displayName": {
+                  "en": "Accumulator"
+                },
                 "enumValue": "ACC",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Accumulator;1"
               },
               {
                 "name": "Analog_Input",
-                "displayName": "Analog Input",
+                "displayName": {
+                  "en": "Analog Input"
+                },
                 "enumValue": "AI",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Analog_Input;1"
               },
               {
                 "name": "Analog_Output",
-                "displayName": "Analog Output",
+                "displayName": {
+                  "en": "Analog Output"
+                },
                 "enumValue": "AO",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Analog_Output;1"
               },
               {
                 "name": "Analog_Value",
-                "displayName": "Analog Value",
+                "displayName": {
+                  "en": "Analog Value"
+                },
                 "enumValue": "AV",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Analog_Value;1"
               },
               {
                 "name": "Binary_Input",
-                "displayName": "Binary Input",
+                "displayName": {
+                  "en": "Binary Input"
+                },
                 "enumValue": "BI",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Binary_Input;1"
               },
               {
                 "name": "Binary_Output",
-                "displayName": "Binary Output",
+                "displayName": {
+                  "en": "Binary Output"
+                },
                 "enumValue": "BO",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Binary_Output;1"
               },
               {
                 "name": "Binary_Value",
-                "displayName": "Binary Value",
+                "displayName": {
+                  "en": "Binary Value"
+                },
                 "enumValue": "BV",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Binary_Value;1"
               },
               {
                 "name": "Calendar",
-                "displayName": "Calendar",
+                "displayName": {
+                  "en": "Calendar"
+                },
                 "enumValue": "CAL",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Calendar;1"
               },
               {
                 "name": "Device",
-                "displayName": "Device",
+                "displayName": {
+                  "en": "Device"
+                },
                 "enumValue": "DEV",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Device;1"
               },
               {
                 "name": "MultiState_Input",
-                "displayName": "Multi-State Input",
+                "displayName": {
+                  "en": "Multi-State Input"
+                },
                 "enumValue": "MSI",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:MultiState_Input;1"
               },
               {
                 "name": "MultiState_Output",
-                "displayName": "Multi-State Output",
+                "displayName": {
+                  "en": "Multi-State Output"
+                },
                 "enumValue": "MSO",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:MultiState_Output;1"
               },
               {
                 "name": "MultiState_Value",
-                "displayName": "Multi-State Value",
+                "displayName": {
+                  "en": "Multi-State Value"
+                },
                 "enumValue": "MSV",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:MultiState_Value;1"
               },
               {
                 "name": "Schedule",
-                "displayName": "Schedule",
+                "displayName": {
+                  "en": "Schedule"
+                },
                 "enumValue": "SCHED",
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:Schedule;1"
               }
@@ -368,67 +418,89 @@
             "enumValues": [
               {
                 "name": "bit_1",
-                "displayName": "1-bit Binary",
+                "displayName": {
+                  "en": "1-bit Binary"
+                },
                 "enumValue": 0,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:bit_1;1"
               },
               {
                 "name": "uint_8",
-                "displayName": "8-bit Unsigned Integer",
+                "displayName": {
+                  "en": "8-bit Unsigned Integer"
+                },
                 "enumValue": 1,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:uint_8;1"
               },
               {
                 "name": "int_8",
-                "displayName": "8-bit Signed Integer",
+                "displayName": {
+                  "en": "8-bit Signed Integer"
+                },
                 "enumValue": 2,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:int_8;1"
               },
               {
                 "name": "uint_16",
-                "displayName": "16-bit Unsigned Integer",
+                "displayName": {
+                  "en": "16-bit Unsigned Integer"
+                },
                 "enumValue": 3,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:uint_16;1"
               },
               {
                 "name": "int_16",
-                "displayName": "16-bit Signed Integer",
+                "displayName": {
+                  "en": "16-bit Signed Integer"
+                },
                 "enumValue": 4,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:int_16;1"
               },
               {
                 "name": "uint_32",
-                "displayName": "32-bit Unsigned Integer",
+                "displayName": {
+                  "en": "32-bit Unsigned Integer"
+                },
                 "enumValue": 5,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:uint_32;1"
               },
               {
                 "name": "int_32",
-                "displayName": "32-bit Signed Integer",
+                "displayName": {
+                  "en": "32-bit Signed Integer"
+                },
                 "enumValue": 6,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:int_32;1"
               },
               {
                 "name": "float_32",
-                "displayName": "32-bit Floating Capability",
+                "displayName": {
+                  "en": "32-bit Floating Capability"
+                },
                 "enumValue": 7,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:float_32;1"
               },
               {
                 "name": "uint_64",
-                "displayName": "64-bit Unsigned Integer",
+                "displayName": {
+                  "en": "64-bit Unsigned Integer"
+                },
                 "enumValue": 8,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:uint_64;1"
               },
               {
                 "name": "int_64",
-                "displayName": "64-bit Signed Integer",
+                "displayName": {
+                  "en": "64-bit Signed Integer"
+                },
                 "enumValue": 9,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:int_64;1"
               },
               {
                 "name": "double_64",
-                "displayName": "64-bit Double Precision Floating Capability",
+                "displayName": {
+                  "en": "64-bit Double Precision Floating Capability"
+                },
                 "enumValue": 10,
                 "@id": "dtmi:com:syyclops:CapabilityCommunication:double_64;1"
               }

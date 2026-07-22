@@ -22,21 +22,33 @@
         "enumValues": [
           {
             "enumValue": "VAVZone",
+            "displayName": {
+              "en": "VAV Zone"
+            },
             "name": "VAVZone",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:VAVZone;1"
           },
           {
             "enumValue": "MultiZone",
+            "displayName": {
+              "en": "Multi-Zone"
+            },
             "name": "MultiZone",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:MultiZone;1"
           },
           {
             "enumValue": "DirectZone",
+            "displayName": {
+              "en": "Direct Zone"
+            },
             "name": "DirectZone",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:DirectZone;1"
           },
           {
             "enumValue": "ChilledBeamZone",
+            "displayName": {
+              "en": "Chilled Beam Zone"
+            },
             "name": "ChilledBeamZone",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:ChilledBeamZone;1"
           }
@@ -61,21 +73,33 @@
         "enumValues": [
           {
             "enumValue": "None",
+            "displayName": {
+              "en": "None"
+            },
             "name": "None",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:None;1"
           },
           {
             "enumValue": "Economizing",
+            "displayName": {
+              "en": "Economizing"
+            },
             "name": "Economizing",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:Economizing;1"
           },
           {
             "enumValue": "DemandEconomizing",
+            "displayName": {
+              "en": "Demand Economizing"
+            },
             "name": "DemandEconomizing",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:DemandEconomizing;1"
           },
           {
             "enumValue": "Demand",
+            "displayName": {
+              "en": "Demand"
+            },
             "name": "Demand",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:Demand;1"
           }
@@ -100,16 +124,25 @@
         "enumValues": [
           {
             "enumValue": "OA",
+            "displayName": {
+              "en": "Outside Air"
+            },
             "name": "OA",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:OA;1"
           },
           {
             "enumValue": "None",
+            "displayName": {
+              "en": "None"
+            },
             "name": "None",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EE4;1"
           },
           {
             "enumValue": "MixedAir",
+            "displayName": {
+              "en": "Mixed Air"
+            },
             "name": "MixedAir",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:MixedAir;1"
           }
@@ -374,21 +407,33 @@
         "enumValues": [
           {
             "enumValue": "Ultrasonic",
+            "displayName": {
+              "en": "Ultrasonic"
+            },
             "name": "Ultrasonic",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:Ultrasonic;1"
           },
           {
             "enumValue": "Steam",
+            "displayName": {
+              "en": "Steam"
+            },
             "name": "Steam",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:Steam;1"
           },
           {
             "enumValue": "None",
+            "displayName": {
+              "en": "None"
+            },
             "name": "None",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EE6;1"
           },
           {
             "enumValue": "Adiabatic",
+            "displayName": {
+              "en": "Adiabatic"
+            },
             "name": "Adiabatic",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:Adiabatic;1"
           }
@@ -426,16 +471,25 @@
         "enumValues": [
           {
             "enumValue": "TripleDuct",
+            "displayName": {
+              "en": "Triple Duct"
+            },
             "name": "TripleDuct",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:TripleDuct;1"
           },
           {
             "enumValue": "SingleDuct",
+            "displayName": {
+              "en": "Single Duct"
+            },
             "name": "SingleDuct",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:SingleDuct;1"
           },
           {
             "enumValue": "DualDuct",
+            "displayName": {
+              "en": "Dual Duct"
+            },
             "name": "DualDuct",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:DualDuct;1"
           }
@@ -460,36 +514,57 @@
         "enumValues": [
           {
             "enumValue": "WrapAroundCoil",
+            "displayName": {
+              "en": "Wrap-Around Coil"
+            },
             "name": "WrapAroundCoil",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:WrapAroundCoil;1"
           },
           {
             "enumValue": "TieredCooling",
+            "displayName": {
+              "en": "Tiered Cooling"
+            },
             "name": "TieredCooling",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:TieredCooling;1"
           },
           {
             "enumValue": "None",
+            "displayName": {
+              "en": "None"
+            },
             "name": "None",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EE9;1"
           },
           {
             "enumValue": "EnthalpyWheel",
+            "displayName": {
+              "en": "Enthalpy Wheel"
+            },
             "name": "EnthalpyWheel",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EnthalpyWheel;1"
           },
           {
             "enumValue": "DualWheel",
+            "displayName": {
+              "en": "Dual Wheel"
+            },
             "name": "DualWheel",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:DualWheel;1"
           },
           {
             "enumValue": "Desiccant",
+            "displayName": {
+              "en": "Desiccant"
+            },
             "name": "Desiccant",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:Desiccant;1"
           },
           {
             "enumValue": "CoolReheat",
+            "displayName": {
+              "en": "Cool Reheat"
+            },
             "name": "CoolReheat",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:CoolReheat;1"
           }
@@ -514,26 +589,41 @@
         "enumValues": [
           {
             "enumValue": "None",
+            "displayName": {
+              "en": "None"
+            },
             "name": "None",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EE11;1"
           },
           {
             "enumValue": "SensibleEnergyWheel",
+            "displayName": {
+              "en": "Sensible Energy Wheel"
+            },
             "name": "SensibleEnergyWheel",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:SensibleEnergyWheel;1"
           },
           {
             "enumValue": "EnthalpyWheel",
+            "displayName": {
+              "en": "Enthalpy Wheel"
+            },
             "name": "EnthalpyWheel",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EE12;1"
           },
           {
             "enumValue": "DualWheel",
+            "displayName": {
+              "en": "Dual Wheel"
+            },
             "name": "DualWheel",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:EE13;1"
           },
           {
             "enumValue": "DualCoils",
+            "displayName": {
+              "en": "Dual Coils"
+            },
             "name": "DualCoils",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:DualCoils;1"
           }
@@ -558,11 +648,17 @@
         "enumValues": [
           {
             "enumValue": "VariableVolume",
+            "displayName": {
+              "en": "Variable Volume"
+            },
             "name": "VariableVolume",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:VariableVolume;1"
           },
           {
             "enumValue": "ConstantVolume",
+            "displayName": {
+              "en": "Constant Volume"
+            },
             "name": "ConstantVolume",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:ConstantVolume;1"
           }
@@ -627,11 +723,17 @@
         "enumValues": [
           {
             "enumValue": "TwoPipe",
+            "displayName": {
+              "en": "Two-Pipe"
+            },
             "name": "TwoPipe",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:TwoPipe;1"
           },
           {
             "enumValue": "FourPipe",
+            "displayName": {
+              "en": "Four-Pipe"
+            },
             "name": "FourPipe",
             "@id": "dtmi:com:syyclops:AirHandlingUnit:FourPipe;1"
           }

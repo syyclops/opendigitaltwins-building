@@ -19,21 +19,33 @@
         "enumValues": [
           {
             "enumValue": "WiFi7",
+            "displayName": {
+              "en": "Wi-Fi 7"
+            },
             "name": "WiFi7",
             "@id": "dtmi:com:syyclops:WirelessAccessPoint:WiFi7;1"
           },
           {
             "enumValue": "WiFi6",
+            "displayName": {
+              "en": "Wi-Fi 6"
+            },
             "name": "WiFi6",
             "@id": "dtmi:com:syyclops:WirelessAccessPoint:WiFi6;1"
           },
           {
             "enumValue": "WiFi5",
+            "displayName": {
+              "en": "Wi-Fi 5"
+            },
             "name": "WiFi5",
             "@id": "dtmi:com:syyclops:WirelessAccessPoint:WiFi5;1"
           },
           {
             "enumValue": "WiFi4",
+            "displayName": {
+              "en": "Wi-Fi 4"
+            },
             "name": "WiFi4",
             "@id": "dtmi:com:syyclops:WirelessAccessPoint:WiFi4;1"
           }
@@ -58,11 +70,17 @@
         "enumValues": [
           {
             "enumValue": "Outdoor",
+            "displayName": {
+              "en": "Outdoor"
+            },
             "name": "Outdoor",
             "@id": "dtmi:com:syyclops:WirelessAccessPoint:Outdoor;1"
           },
           {
             "enumValue": "Indoor",
+            "displayName": {
+              "en": "Indoor"
+            },
             "name": "Indoor",
             "@id": "dtmi:com:syyclops:WirelessAccessPoint:Indoor;1"
           }

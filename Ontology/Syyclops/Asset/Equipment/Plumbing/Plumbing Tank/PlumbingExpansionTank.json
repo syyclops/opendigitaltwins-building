@@ -19,16 +19,25 @@
         "enumValues": [
           {
             "enumValue": "Diaphragm",
+            "displayName": {
+              "en": "Diaphragm"
+            },
             "name": "Diaphragm",
             "@id": "dtmi:com:syyclops:PlumbingExpansionTank:Diaphragm;1"
           },
           {
             "enumValue": "Compression",
+            "displayName": {
+              "en": "Compression"
+            },
             "name": "Compression",
             "@id": "dtmi:com:syyclops:PlumbingExpansionTank:Compression;1"
           },
           {
             "enumValue": "Bladder",
+            "displayName": {
+              "en": "Bladder"
+            },
             "name": "Bladder",
             "@id": "dtmi:com:syyclops:PlumbingExpansionTank:Bladder;1"
           }

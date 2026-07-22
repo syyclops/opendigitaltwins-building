@@ -74,6 +74,9 @@
       "enumValues": [
         {
           "enumValue": "Water",
+          "displayName": {
+            "en": "Water"
+          },
           "name": "Water",
           "@id": "dtmi:com:syyclops:Equipment:Water;1",
           "description": {
@@ -82,6 +85,9 @@
         },
         {
           "enumValue": "WasteVentDrainage",
+          "displayName": {
+            "en": "Waste Vent Drainage"
+          },
           "name": "WasteVentDrainage",
           "@id": "dtmi:com:syyclops:Equipment:WasteVentDrainage;1",
           "description": {
@@ -90,6 +96,9 @@
         },
         {
           "enumValue": "TransferAir",
+          "displayName": {
+            "en": "Transfer Air"
+          },
           "name": "TransferAir",
           "@id": "dtmi:com:syyclops:Equipment:TransferAir;1",
           "description": {
@@ -98,6 +107,9 @@
         },
         {
           "enumValue": "SupplyAir",
+          "displayName": {
+            "en": "Supply Air"
+          },
           "name": "SupplyAir",
           "@id": "dtmi:com:syyclops:Equipment:SupplyAir;1",
           "description": {
@@ -106,6 +118,9 @@
         },
         {
           "enumValue": "StormDrainage",
+          "displayName": {
+            "en": "Storm Drainage"
+          },
           "name": "StormDrainage",
           "@id": "dtmi:com:syyclops:Equipment:StormDrainage;1",
           "description": {
@@ -114,6 +129,9 @@
         },
         {
           "enumValue": "Steam",
+          "displayName": {
+            "en": "Steam"
+          },
           "name": "Steam",
           "@id": "dtmi:com:syyclops:Equipment:Steam;1",
           "description": {
@@ -122,6 +140,9 @@
         },
         {
           "enumValue": "SprinklerWater",
+          "displayName": {
+            "en": "Sprinkler Water"
+          },
           "name": "SprinklerWater",
           "@id": "dtmi:com:syyclops:Equipment:SprinklerWater;1",
           "description": {
@@ -130,6 +151,9 @@
         },
         {
           "enumValue": "ReturnAir",
+          "displayName": {
+            "en": "Return Air"
+          },
           "name": "ReturnAir",
           "@id": "dtmi:com:syyclops:Equipment:ReturnAir;1",
           "description": {
@@ -138,6 +162,9 @@
         },
         {
           "enumValue": "Refrig",
+          "displayName": {
+            "en": "Refrigerant"
+          },
           "name": "Refrig",
           "@id": "dtmi:com:syyclops:Equipment:Refrig;1",
           "description": {
@@ -146,6 +173,9 @@
         },
         {
           "enumValue": "RecircHotDomesticWater",
+          "displayName": {
+            "en": "Recirculating Hot Domestic Water"
+          },
           "name": "RecircHotDomesticWater",
           "@id": "dtmi:com:syyclops:Equipment:RecircHotDomesticWater;1",
           "description": {
@@ -154,6 +184,9 @@
         },
         {
           "enumValue": "Propane",
+          "displayName": {
+            "en": "Propane"
+          },
           "name": "Propane",
           "@id": "dtmi:com:syyclops:Equipment:Propane;1",
           "description": {
@@ -162,6 +195,9 @@
         },
         {
           "enumValue": "OutsideAir",
+          "displayName": {
+            "en": "Outside Air"
+          },
           "name": "OutsideAir",
           "@id": "dtmi:com:syyclops:Equipment:OutsideAir;1",
           "description": {
@@ -170,6 +206,9 @@
         },
         {
           "enumValue": "NonPotableDomesticWater",
+          "displayName": {
+            "en": "Non-Potable Domestic Water"
+          },
           "name": "NonPotableDomesticWater",
           "@id": "dtmi:com:syyclops:Equipment:NonPotableDomesticWater;1",
           "description": {
@@ -178,6 +217,9 @@
         },
         {
           "enumValue": "NaturalGas",
+          "displayName": {
+            "en": "Natural Gas"
+          },
           "name": "NaturalGas",
           "@id": "dtmi:com:syyclops:Equipment:NaturalGas;1",
           "description": {
@@ -186,6 +228,9 @@
         },
         {
           "enumValue": "MakeupWater",
+          "displayName": {
+            "en": "Makeup Water"
+          },
           "name": "MakeupWater",
           "@id": "dtmi:com:syyclops:Equipment:MakeupWater;1",
           "description": {
@@ -194,6 +239,9 @@
         },
         {
           "enumValue": "Light",
+          "displayName": {
+            "en": "Light"
+          },
           "name": "Light",
           "@id": "dtmi:com:syyclops:Equipment:Light;1",
           "description": {
@@ -202,6 +250,9 @@
         },
         {
           "enumValue": "IrrigationWater",
+          "displayName": {
+            "en": "Irrigation Water"
+          },
           "name": "IrrigationWater",
           "@id": "dtmi:com:syyclops:Equipment:IrrigationWater;1",
           "description": {
@@ -210,6 +261,9 @@
         },
         {
           "enumValue": "HotWater",
+          "displayName": {
+            "en": "Hot Water"
+          },
           "name": "HotWater",
           "@id": "dtmi:com:syyclops:Equipment:HotWater;1",
           "description": {
@@ -218,6 +272,9 @@
         },
         {
           "enumValue": "HotWaterGlycolMix",
+          "displayName": {
+            "en": "Hot Water Glycol Mix"
+          },
           "name": "HotWaterGlycolMix",
           "@id": "dtmi:com:syyclops:Equipment:HotWaterGlycolMix;1",
           "description": {
@@ -226,6 +283,9 @@
         },
         {
           "enumValue": "HotDomesticWater",
+          "displayName": {
+            "en": "Hot Domestic Water"
+          },
           "name": "HotDomesticWater",
           "@id": "dtmi:com:syyclops:Equipment:HotDomesticWater;1",
           "description": {
@@ -234,6 +294,9 @@
         },
         {
           "enumValue": "GreaseExhaustAir",
+          "displayName": {
+            "en": "Grease Exhaust Air"
+          },
           "name": "GreaseExhaustAir",
           "@id": "dtmi:com:syyclops:Equipment:GreaseExhaustAir;1",
           "description": {
@@ -242,6 +305,9 @@
         },
         {
           "enumValue": "Gasoline",
+          "displayName": {
+            "en": "Gasoline"
+          },
           "name": "Gasoline",
           "@id": "dtmi:com:syyclops:Equipment:Gasoline;1",
           "description": {
@@ -250,6 +316,9 @@
         },
         {
           "enumValue": "FuelOil",
+          "displayName": {
+            "en": "Fuel Oil"
+          },
           "name": "FuelOil",
           "@id": "dtmi:com:syyclops:Equipment:FuelOil;1",
           "description": {
@@ -258,6 +327,9 @@
         },
         {
           "enumValue": "Freight",
+          "displayName": {
+            "en": "Freight"
+          },
           "name": "Freight",
           "@id": "dtmi:com:syyclops:Equipment:Freight;1",
           "description": {
@@ -266,6 +338,9 @@
         },
         {
           "enumValue": "ExhaustAir",
+          "displayName": {
+            "en": "Exhaust Air"
+          },
           "name": "ExhaustAir",
           "@id": "dtmi:com:syyclops:Equipment:ExhaustAir;1",
           "description": {
@@ -274,6 +349,9 @@
         },
         {
           "enumValue": "Ethernet",
+          "displayName": {
+            "en": "Ethernet"
+          },
           "name": "Ethernet",
           "@id": "dtmi:com:syyclops:Equipment:Ethernet;1",
           "description": {
@@ -282,6 +360,9 @@
         },
         {
           "enumValue": "DriveElec",
+          "displayName": {
+            "en": "Drive Electricity"
+          },
           "name": "DriveElec",
           "@id": "dtmi:com:syyclops:Equipment:DriveElec;1",
           "description": {
@@ -290,6 +371,9 @@
         },
         {
           "enumValue": "Diesel",
+          "displayName": {
+            "en": "Diesel"
+          },
           "name": "Diesel",
           "@id": "dtmi:com:syyclops:Equipment:Diesel;1",
           "description": {
@@ -298,6 +382,9 @@
         },
         {
           "enumValue": "DCElec",
+          "displayName": {
+            "en": "DC Electricity"
+          },
           "name": "DCElec",
           "@id": "dtmi:com:syyclops:Equipment:DCElec;1",
           "description": {
@@ -306,6 +393,9 @@
         },
         {
           "enumValue": "CondenserWater",
+          "displayName": {
+            "en": "Condenser Water"
+          },
           "name": "CondenserWater",
           "@id": "dtmi:com:syyclops:Equipment:CondenserWater;1",
           "description": {
@@ -314,6 +404,9 @@
         },
         {
           "enumValue": "CondenserWaterGlycolMix",
+          "displayName": {
+            "en": "Condenser Water Glycol Mix"
+          },
           "name": "CondenserWaterGlycolMix",
           "@id": "dtmi:com:syyclops:Equipment:CondenserWaterGlycolMix;1",
           "description": {
@@ -322,6 +415,9 @@
         },
         {
           "enumValue": "Condensate",
+          "displayName": {
+            "en": "Condensate"
+          },
           "name": "Condensate",
           "@id": "dtmi:com:syyclops:Equipment:Condensate;1",
           "description": {
@@ -330,6 +426,9 @@
         },
         {
           "enumValue": "ColdDomesticWater",
+          "displayName": {
+            "en": "Cold Domestic Water"
+          },
           "name": "ColdDomesticWater",
           "@id": "dtmi:com:syyclops:Equipment:ColdDomesticWater;1",
           "description": {
@@ -338,6 +437,9 @@
         },
         {
           "enumValue": "ChilledWater",
+          "displayName": {
+            "en": "Chilled Water"
+          },
           "name": "ChilledWater",
           "@id": "dtmi:com:syyclops:Equipment:ChilledWater;1",
           "description": {
@@ -346,6 +448,9 @@
         },
         {
           "enumValue": "BlowdownWater",
+          "displayName": {
+            "en": "Blowdown Water"
+          },
           "name": "BlowdownWater",
           "@id": "dtmi:com:syyclops:Equipment:BlowdownWater;1",
           "description": {
@@ -354,6 +459,9 @@
         },
         {
           "enumValue": "Air",
+          "displayName": {
+            "en": "Air"
+          },
           "name": "Air",
           "@id": "dtmi:com:syyclops:Equipment:Air;1",
           "description": {
@@ -362,6 +470,9 @@
         },
         {
           "enumValue": "ACElec",
+          "displayName": {
+            "en": "AC Electricity"
+          },
           "name": "ACElec",
           "@id": "dtmi:com:syyclops:Equipment:ACElec;1",
           "description": {

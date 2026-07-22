@@ -22,11 +22,17 @@
         "enumValues": [
           {
             "enumValue": "WaterCooled",
+            "displayName": {
+              "en": "Water-cooled"
+            },
             "name": "WaterCooled",
             "@id": "dtmi:com:syyclops:CondensingUnit:WaterCooled;1"
           },
           {
             "enumValue": "AirCooled",
+            "displayName": {
+              "en": "Air-cooled"
+            },
             "name": "AirCooled",
             "@id": "dtmi:com:syyclops:CondensingUnit:AirCooled;1"
           }

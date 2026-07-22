@@ -19,16 +19,25 @@
         "enumValues": [
           {
             "enumValue": "Supply",
+            "displayName": {
+              "en": "Supply"
+            },
             "name": "Supply",
             "@id": "dtmi:com:syyclops:HVACDamper:Supply;1"
           },
           {
             "enumValue": "Return",
+            "displayName": {
+              "en": "Return"
+            },
             "name": "Return",
             "@id": "dtmi:com:syyclops:HVACDamper:Return;1"
           },
           {
             "enumValue": "Exhaust",
+            "displayName": {
+              "en": "Exhaust"
+            },
             "name": "Exhaust",
             "@id": "dtmi:com:syyclops:HVACDamper:Exhaust;1"
           }
@@ -53,16 +62,25 @@
         "enumValues": [
           {
             "enumValue": "III",
+            "displayName": {
+              "en": "Class III"
+            },
             "name": "III",
             "@id": "dtmi:com:syyclops:HVACDamper:III;1"
           },
           {
             "enumValue": "II",
+            "displayName": {
+              "en": "Class II"
+            },
             "name": "II",
             "@id": "dtmi:com:syyclops:HVACDamper:II;1"
           },
           {
             "enumValue": "I",
+            "displayName": {
+              "en": "Class I"
+            },
             "name": "I",
             "@id": "dtmi:com:syyclops:HVACDamper:I;1"
           }
@@ -87,16 +105,25 @@
         "enumValues": [
           {
             "enumValue": "Vee",
+            "displayName": {
+              "en": "Vee"
+            },
             "name": "Vee",
             "@id": "dtmi:com:syyclops:HVACDamper:Vee;1"
           },
           {
             "enumValue": "Round",
+            "displayName": {
+              "en": "Round"
+            },
             "name": "Round",
             "@id": "dtmi:com:syyclops:HVACDamper:Round;1"
           },
           {
             "enumValue": "Airfoil",
+            "displayName": {
+              "en": "Airfoil"
+            },
             "name": "Airfoil",
             "@id": "dtmi:com:syyclops:HVACDamper:Airfoil;1"
           }

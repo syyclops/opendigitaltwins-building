@@ -19,16 +19,25 @@
         "enumValues": [
           {
             "enumValue": "VoltageSourceInverter",
+            "displayName": {
+              "en": "Voltage Source Inverter"
+            },
             "name": "VoltageSourceInverter",
             "@id": "dtmi:com:syyclops:VariableFrequencyDrive:VoltageSourceInverter;1"
           },
           {
             "enumValue": "PulseWidthModulation",
+            "displayName": {
+              "en": "Pulse Width Modulation"
+            },
             "name": "PulseWidthModulation",
             "@id": "dtmi:com:syyclops:VariableFrequencyDrive:PulseWidthModulation;1"
           },
           {
             "enumValue": "CurrentSourceInverter",
+            "displayName": {
+              "en": "Current Source Inverter"
+            },
             "name": "CurrentSourceInverter",
             "@id": "dtmi:com:syyclops:VariableFrequencyDrive:CurrentSourceInverter;1"
           }
