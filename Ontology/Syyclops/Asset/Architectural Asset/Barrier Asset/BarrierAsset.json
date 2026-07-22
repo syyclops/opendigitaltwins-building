@@ -115,11 +115,17 @@
         "enumValues": [
           {
             "enumValue": "Interior",
+            "displayName": {
+              "en": "Interior"
+            },
             "name": "Interior",
             "@id": "dtmi:com:syyclops:BarrierAsset:Interior;1"
           },
           {
             "enumValue": "Exterior",
+            "displayName": {
+              "en": "Exterior"
+            },
             "name": "Exterior",
             "@id": "dtmi:com:syyclops:BarrierAsset:Exterior;1"
           }

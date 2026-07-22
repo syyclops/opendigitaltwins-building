@@ -36,26 +36,41 @@
         "enumValues": [
           {
             "enumValue": "WallMount",
+            "displayName": {
+              "en": "Wall Mount"
+            },
             "name": "WallMount",
             "@id": "dtmi:com:syyclops:Luminaire:WallMount;1"
           },
           {
             "enumValue": "Recessed",
+            "displayName": {
+              "en": "Recessed"
+            },
             "name": "Recessed",
             "@id": "dtmi:com:syyclops:Luminaire:Recessed;1"
           },
           {
             "enumValue": "Pendant",
+            "displayName": {
+              "en": "Pendant"
+            },
             "name": "Pendant",
             "@id": "dtmi:com:syyclops:Luminaire:Pendant;1"
           },
           {
             "enumValue": "Track",
+            "displayName": {
+              "en": "Track"
+            },
             "name": "Track",
             "@id": "dtmi:com:syyclops:Luminaire:Track;1"
           },
           {
             "enumValue": "Ground",
+            "displayName": {
+              "en": "Ground"
+            },
             "name": "Ground",
             "@id": "dtmi:com:syyclops:Luminaire:Ground;1"
           }

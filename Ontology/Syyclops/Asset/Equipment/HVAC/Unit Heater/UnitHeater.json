@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "vertical",
+            "displayName": {
+              "en": "Vertical"
+            },
             "name": "vertical",
             "@id": "dtmi:com:syyclops:UnitHeater:vertical;1"
           },
           {
             "enumValue": "horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            },
             "name": "horizontal",
             "@id": "dtmi:com:syyclops:UnitHeater:horizontal;1"
           }

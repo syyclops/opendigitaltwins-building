@@ -55,19 +55,25 @@
         "enumValues": [
           {
             "name": "One",
-            "displayName": "1",
+            "displayName": {
+              "en": "1"
+            },
             "enumValue": "1",
             "@id": "dtmi:com:syyclops:ElectricalReceptacle:One;1"
           },
           {
             "name": "Two",
-            "displayName": "2",
+            "displayName": {
+              "en": "2"
+            },
             "enumValue": "2",
             "@id": "dtmi:com:syyclops:ElectricalReceptacle:Two;1"
           },
           {
             "name": "Three",
-            "displayName": "3",
+            "displayName": {
+              "en": "3"
+            },
             "enumValue": "3",
             "@id": "dtmi:com:syyclops:ElectricalReceptacle:Three;1"
           }

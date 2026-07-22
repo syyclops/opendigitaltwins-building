@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "DC",
+            "displayName": {
+              "en": "DC"
+            },
             "name": "DC",
             "@id": "dtmi:com:syyclops:ElectricalMeter:DC;1"
           },
           {
             "enumValue": "AC",
+            "displayName": {
+              "en": "AC"
+            },
             "name": "AC",
             "@id": "dtmi:com:syyclops:ElectricalMeter:AC;1"
           }

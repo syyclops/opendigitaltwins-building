@@ -19,16 +19,25 @@
         "enumValues": [
           {
             "enumValue": "Gate",
+            "displayName": {
+              "en": "Gate"
+            },
             "name": "Gate",
             "@id": "dtmi:com:syyclops:PlumbingShutOffValve:Gate;1"
           },
           {
             "enumValue": "Butterfly",
+            "displayName": {
+              "en": "Butterfly"
+            },
             "name": "Butterfly",
             "@id": "dtmi:com:syyclops:PlumbingShutOffValve:Butterfly;1"
           },
           {
             "enumValue": "Ball",
+            "displayName": {
+              "en": "Ball"
+            },
             "name": "Ball",
             "@id": "dtmi:com:syyclops:PlumbingShutOffValve:Ball;1"
           }

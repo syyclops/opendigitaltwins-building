@@ -21,19 +21,25 @@
         "enumValues": [
           {
             "name": "A",
-            "displayName": "A",
+            "displayName": {
+              "en": "A"
+            },
             "enumValue": "A",
             "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:A;1"
           },
           {
             "name": "B",
-            "displayName": "B",
+            "displayName": {
+              "en": "B"
+            },
             "enumValue": "B",
             "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:B;1"
           },
           {
             "name": "C",
-            "displayName": "C",
+            "displayName": {
+              "en": "C"
+            },
             "enumValue": "C",
             "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:C;1"
           }
@@ -58,19 +64,25 @@
         "enumValues": [
           {
             "name": "A",
-            "displayName": "A",
+            "displayName": {
+              "en": "A"
+            },
             "enumValue": "A",
             "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:EE3;1"
           },
           {
             "name": "B",
-            "displayName": "B",
+            "displayName": {
+              "en": "B"
+            },
             "enumValue": "B",
             "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:EE4;1"
           },
           {
             "name": "C",
-            "displayName": "C",
+            "displayName": {
+              "en": "C"
+            },
             "enumValue": "C",
             "@id": "dtmi:com:syyclops:ElectricalCircuit2Pole:EE5;1"
           }

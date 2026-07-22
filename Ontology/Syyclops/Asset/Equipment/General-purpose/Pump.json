@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "vertical",
+            "displayName": {
+              "en": "Vertical"
+            },
             "name": "vertical",
             "@id": "dtmi:com:syyclops:Pump:vertical;1"
           },
           {
             "enumValue": "inline",
+            "displayName": {
+              "en": "Inline"
+            },
             "name": "inline",
             "@id": "dtmi:com:syyclops:Pump:inline;1"
           }

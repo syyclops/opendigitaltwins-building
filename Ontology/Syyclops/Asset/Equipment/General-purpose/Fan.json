@@ -450,11 +450,17 @@
         "enumValues": [
           {
             "enumValue": "Direct",
+            "displayName": {
+              "en": "Direct"
+            },
             "name": "Direct",
             "@id": "dtmi:com:syyclops:Fan:Direct;1"
           },
           {
             "enumValue": "Belt",
+            "displayName": {
+              "en": "Belt"
+            },
             "name": "Belt",
             "@id": "dtmi:com:syyclops:Fan:Belt;1"
           }

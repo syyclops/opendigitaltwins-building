@@ -19,16 +19,25 @@
         "enumValues": [
           {
             "enumValue": "TwoPost",
+            "displayName": {
+              "en": "Two-Post"
+            },
             "name": "TwoPost",
             "@id": "dtmi:com:syyclops:ITRack:TwoPost;1"
           },
           {
             "enumValue": "FourPost",
+            "displayName": {
+              "en": "Four-Post"
+            },
             "name": "FourPost",
             "@id": "dtmi:com:syyclops:ITRack:FourPost;1"
           },
           {
             "enumValue": "Cabinet",
+            "displayName": {
+              "en": "Cabinet"
+            },
             "name": "Cabinet",
             "@id": "dtmi:com:syyclops:ITRack:Cabinet;1"
           }
@@ -53,11 +62,17 @@
         "enumValues": [
           {
             "enumValue": "Wall",
+            "displayName": {
+              "en": "Wall"
+            },
             "name": "Wall",
             "@id": "dtmi:com:syyclops:ITRack:Wall;1"
           },
           {
             "enumValue": "Floor",
+            "displayName": {
+              "en": "Floor"
+            },
             "name": "Floor",
             "@id": "dtmi:com:syyclops:ITRack:Floor;1"
           }

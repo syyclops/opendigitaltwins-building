@@ -87,11 +87,17 @@
         "enumValues": [
           {
             "enumValue": "Three",
+            "displayName": {
+              "en": "Three"
+            },
             "name": "Three",
             "@id": "dtmi:com:syyclops:UPS:Three;1"
           },
           {
             "enumValue": "One",
+            "displayName": {
+              "en": "One"
+            },
             "name": "One",
             "@id": "dtmi:com:syyclops:UPS:One;1"
           }
@@ -133,11 +139,17 @@
         "enumValues": [
           {
             "enumValue": "Three",
+            "displayName": {
+              "en": "Three"
+            },
             "name": "Three",
             "@id": "dtmi:com:syyclops:UPS:EE3;1"
           },
           {
             "enumValue": "One",
+            "displayName": {
+              "en": "One"
+            },
             "name": "One",
             "@id": "dtmi:com:syyclops:UPS:EE4;1"
           }

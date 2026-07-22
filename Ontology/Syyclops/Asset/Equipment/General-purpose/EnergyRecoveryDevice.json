@@ -36,31 +36,49 @@
         "enumValues": [
           {
             "enumValue": "Sensible Energy Wheel",
+            "displayName": {
+              "en": "Sensible Energy Wheel"
+            },
             "name": "SensibleEnergyWheel",
             "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:SensibleEnergyWheel;1"
           },
           {
             "enumValue": "Enthalpy Wheel",
+            "displayName": {
+              "en": "Enthalpy Wheel"
+            },
             "name": "EnthalpyWheel",
             "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:EnthalpyWheel;1"
           },
           {
             "enumValue": "DualWheel",
+            "displayName": {
+              "en": "Dual Wheel"
+            },
             "name": "DualWheel",
             "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:DualWheel;1"
           },
           {
             "enumValue": "Sensible Energy Core",
+            "displayName": {
+              "en": "Sensible Energy Core"
+            },
             "name": "SensibleEnergyCore",
             "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:SensibleEnergyCore;1"
           },
           {
             "enumValue": "Enthalpy Core",
+            "displayName": {
+              "en": "Enthalpy Core"
+            },
             "name": "EnthalpyCore",
             "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:EnthalpyCore;1"
           },
           {
             "enumValue": "DualCoils",
+            "displayName": {
+              "en": "Dual Coils"
+            },
             "name": "DualCoils",
             "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:DualCoils;1"
           }

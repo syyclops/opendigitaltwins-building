@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "WaterTube",
+            "displayName": {
+              "en": "Water Tube"
+            },
             "name": "WaterTube",
             "@id": "dtmi:com:syyclops:Boiler:WaterTube;1"
           },
           {
             "enumValue": "FireTube",
+            "displayName": {
+              "en": "Fire Tube"
+            },
             "name": "FireTube",
             "@id": "dtmi:com:syyclops:Boiler:FireTube;1"
           }
@@ -156,11 +162,17 @@
         "enumValues": [
           {
             "enumValue": "Steam",
+            "displayName": {
+              "en": "Steam"
+            },
             "name": "Steam",
             "@id": "dtmi:com:syyclops:Boiler:Steam;1"
           },
           {
             "enumValue": "HotWater",
+            "displayName": {
+              "en": "Hot Water"
+            },
             "name": "HotWater",
             "@id": "dtmi:com:syyclops:Boiler:HotWater;1"
           }

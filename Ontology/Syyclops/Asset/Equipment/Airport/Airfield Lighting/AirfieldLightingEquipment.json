@@ -22,19 +22,25 @@
         "enumValues": [
           {
             "name": "low",
-            "displayName": "Low",
+            "displayName": {
+              "en": "Low"
+            },
             "enumValue": "Low",
             "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:low;1"
           },
           {
             "name": "medium",
-            "displayName": "Medium",
+            "displayName": {
+              "en": "Medium"
+            },
             "enumValue": "Medium",
             "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:medium;1"
           },
           {
             "name": "high",
-            "displayName": "High",
+            "displayName": {
+              "en": "High"
+            },
             "enumValue": "High",
             "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:high;1"
           }
@@ -67,13 +73,17 @@
               "enumValues": [
                 {
                   "name": "elevated",
-                  "displayName": "Elevated",
+                  "displayName": {
+                    "en": "Elevated"
+                  },
                   "enumValue": "Elevated",
                   "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:elevated;1"
                 },
                 {
                   "name": "inset",
-                  "displayName": "Inset",
+                  "displayName": {
+                    "en": "Inset"
+                  },
                   "enumValue": "Inset",
                   "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:inset;1"
                 }
@@ -93,19 +103,25 @@
               "enumValues": [
                 {
                   "name": "base",
-                  "displayName": "Base",
+                  "displayName": {
+                    "en": "Base"
+                  },
                   "enumValue": "Base",
                   "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:base;1"
                 },
                 {
                   "name": "stake",
-                  "displayName": "Stake",
+                  "displayName": {
+                    "en": "Stake"
+                  },
                   "enumValue": "Stake",
                   "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:stake;1"
                 },
                 {
                   "name": "direct",
-                  "displayName": "Direct",
+                  "displayName": {
+                    "en": "Direct"
+                  },
                   "enumValue": "Direct",
                   "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:direct;1"
                 }
@@ -135,19 +151,25 @@
         "enumValues": [
           {
             "name": "unidirectional",
-            "displayName": "Unidirectional",
+            "displayName": {
+              "en": "Unidirectional"
+            },
             "enumValue": "Unidirectional",
             "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:unidirectional;1"
           },
           {
             "name": "bidirectional",
-            "displayName": "Bidirectional",
+            "displayName": {
+              "en": "Bidirectional"
+            },
             "enumValue": "Bidirectional",
             "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:bidirectional;1"
           },
           {
             "name": "omnidirectional",
-            "displayName": "Omnidirectional",
+            "displayName": {
+              "en": "Omnidirectional"
+            },
             "enumValue": "Omnidirectional",
             "@id": "dtmi:com:syyclops:airport:AirfieldLightingEquipment:omnidirectional;1"
           }

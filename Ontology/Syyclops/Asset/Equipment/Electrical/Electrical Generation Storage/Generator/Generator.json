@@ -36,11 +36,17 @@
         "enumValues": [
           {
             "enumValue": "Three",
+            "displayName": {
+              "en": "Three"
+            },
             "name": "Three",
             "@id": "dtmi:com:syyclops:Generator:Three;1"
           },
           {
             "enumValue": "One",
+            "displayName": {
+              "en": "One"
+            },
             "name": "One",
             "@id": "dtmi:com:syyclops:Generator:One;1"
           }

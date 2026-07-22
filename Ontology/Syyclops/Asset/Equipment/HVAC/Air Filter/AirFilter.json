@@ -31,16 +31,25 @@
         "enumValues": [
           {
             "enumValue": "MERV",
+            "displayName": {
+              "en": "MERV"
+            },
             "name": "MERV",
             "@id": "dtmi:com:syyclops:AirFilter:MERV;1"
           },
           {
             "enumValue": "HEPA",
+            "displayName": {
+              "en": "HEPA"
+            },
             "name": "HEPA",
             "@id": "dtmi:com:syyclops:AirFilter:HEPA;1"
           },
           {
             "enumValue": "ULPA",
+            "displayName": {
+              "en": "ULPA"
+            },
             "name": "ULPA",
             "@id": "dtmi:com:syyclops:AirFilter:ULPA;1"
           }
