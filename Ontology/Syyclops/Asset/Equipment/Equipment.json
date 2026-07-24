@@ -64,6 +64,151 @@
       "writable": true,
       "schema": "boolean",
       "@id": "dtmi:com:syyclops:Equipment:standbyEquipment;1"
+    },
+    {
+      "@type": ["Property", "Voltage"],
+      "name": "ratedVoltage",
+      "displayName": {
+        "en": "Rated Voltage"
+      },
+      "description": {
+        "en": "Nameplate rated voltage of the equipment in units defined by 'ratedVoltageUnit'. Generic electrical rating applicable to any powered equipment; connection-specific values remain on type-specific properties such as inputVoltage and outputVoltage."
+      },
+      "schema": "double",
+      "unit": "volt",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:ratedVoltage;1"
+    },
+    {
+      "@type": ["Property", "ValueAnnotation", "Override"],
+      "name": "ratedVoltageUnit",
+      "displayName": {
+        "en": "Rated Voltage Unit"
+      },
+      "description": {
+        "en": "Indicates the unit of measurement for the ratedVoltage property of the equipment."
+      },
+      "annotates": "ratedVoltage",
+      "overrides": "unit",
+      "schema": "VoltageUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:ratedVoltageUnit;1"
+    },
+    {
+      "@type": ["Property", "Current"],
+      "name": "ratedCurrent",
+      "displayName": {
+        "en": "Rated Current"
+      },
+      "description": {
+        "en": "Nameplate rated current draw of the equipment in units defined by 'ratedCurrentUnit'. Generic electrical rating applicable to any powered equipment; type-specific ratings such as currentRating or fullLoadCurrent remain on the types that own them."
+      },
+      "schema": "double",
+      "unit": "ampere",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:ratedCurrent;1"
+    },
+    {
+      "@type": ["Property", "ValueAnnotation", "Override"],
+      "name": "ratedCurrentUnit",
+      "displayName": {
+        "en": "Rated Current Unit"
+      },
+      "description": {
+        "en": "Indicates the unit of measurement for the ratedCurrent property of the equipment."
+      },
+      "annotates": "ratedCurrent",
+      "overrides": "unit",
+      "schema": "CurrentUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:ratedCurrentUnit;1"
+    },
+    {
+      "@type": ["Property", "Length"],
+      "name": "nominalHeight",
+      "displayName": {
+        "en": "Nominal Height"
+      },
+      "description": {
+        "en": "Nominal overall height of the equipment as stated on the nameplate or datasheet, in units defined by 'nominalHeightUnit'. Corresponds to COBie Type.NominalHeight. Type-specific dimensions remain on the types that own them."
+      },
+      "schema": "double",
+      "unit": "millimetre",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:nominalHeight;1"
+    },
+    {
+      "@type": ["Property", "ValueAnnotation", "Override"],
+      "name": "nominalHeightUnit",
+      "displayName": {
+        "en": "Nominal Height Unit"
+      },
+      "description": {
+        "en": "Indicates the unit of measurement for the nominalHeight property of the equipment."
+      },
+      "annotates": "nominalHeight",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:nominalHeightUnit;1"
+    },
+    {
+      "@type": ["Property", "Length"],
+      "name": "nominalWidth",
+      "displayName": {
+        "en": "Nominal Width"
+      },
+      "description": {
+        "en": "Nominal overall width of the equipment as stated on the nameplate or datasheet, in units defined by 'nominalWidthUnit'. Corresponds to COBie Type.NominalWidth. Type-specific dimensions remain on the types that own them."
+      },
+      "schema": "double",
+      "unit": "millimetre",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:nominalWidth;1"
+    },
+    {
+      "@type": ["Property", "ValueAnnotation", "Override"],
+      "name": "nominalWidthUnit",
+      "displayName": {
+        "en": "Nominal Width Unit"
+      },
+      "description": {
+        "en": "Indicates the unit of measurement for the nominalWidth property of the equipment."
+      },
+      "annotates": "nominalWidth",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:nominalWidthUnit;1"
+    },
+    {
+      "@type": ["Property", "Length"],
+      "name": "nominalDepth",
+      "displayName": {
+        "en": "Nominal Depth"
+      },
+      "description": {
+        "en": "Nominal overall depth (front-to-back) of the equipment as stated on the nameplate or datasheet, in units defined by 'nominalDepthUnit'. Corresponds to COBie Type.NominalLength, which COBie defines as the front-to-back dimension; named depth here because 'length' denotes the long axis elsewhere in this ontology."
+      },
+      "schema": "double",
+      "unit": "millimetre",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:nominalDepth;1"
+    },
+    {
+      "@type": ["Property", "ValueAnnotation", "Override"],
+      "name": "nominalDepthUnit",
+      "displayName": {
+        "en": "Nominal Depth Unit"
+      },
+      "description": {
+        "en": "Indicates the unit of measurement for the nominalDepth property of the equipment."
+      },
+      "annotates": "nominalDepth",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:nominalDepthUnit;1"
     }
   ],
   "schemas": [
