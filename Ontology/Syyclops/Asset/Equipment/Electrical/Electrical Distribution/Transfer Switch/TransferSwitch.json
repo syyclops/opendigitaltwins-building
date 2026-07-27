@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "Three",
+            "displayName": {
+              "en": "Three"
+            },
             "name": "Three",
             "@id": "dtmi:com:syyclops:TransferSwitch:Three;1"
           },
           {
             "enumValue": "Four",
+            "displayName": {
+              "en": "Four"
+            },
             "name": "Four",
             "@id": "dtmi:com:syyclops:TransferSwitch:Four;1"
           }

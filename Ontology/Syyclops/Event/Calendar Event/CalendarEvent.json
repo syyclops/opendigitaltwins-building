@@ -97,16 +97,25 @@
         "enumValues": [
           {
             "enumValue": "low",
+            "displayName": {
+              "en": "Low"
+            },
             "name": "low",
             "@id": "dtmi:com:syyclops:CalendarEvent:low;1"
           },
           {
             "enumValue": "normal",
+            "displayName": {
+              "en": "Normal"
+            },
             "name": "normal",
             "@id": "dtmi:com:syyclops:CalendarEvent:normal;1"
           },
           {
             "enumValue": "high",
+            "displayName": {
+              "en": "High"
+            },
             "name": "high",
             "@id": "dtmi:com:syyclops:CalendarEvent:high;1"
           }
@@ -158,36 +167,57 @@
                   "enumValues": [
                     {
                       "enumValue": "daily",
+                      "displayName": {
+                        "en": "Daily"
+                      },
                       "name": "daily",
                       "@id": "dtmi:com:syyclops:CalendarEvent:daily;1"
                     },
                     {
                       "enumValue": "weekly",
+                      "displayName": {
+                        "en": "Weekly"
+                      },
                       "name": "weekly",
                       "@id": "dtmi:com:syyclops:CalendarEvent:weekly;1"
                     },
                     {
                       "enumValue": "absoluteMonthly",
+                      "displayName": {
+                        "en": "Monthly (by Date)"
+                      },
                       "name": "absoluteMonthly",
                       "@id": "dtmi:com:syyclops:CalendarEvent:absoluteMonthly;1"
                     },
                     {
                       "enumValue": "relativeMonthly",
+                      "displayName": {
+                        "en": "Monthly (by Weekday)"
+                      },
                       "name": "relativeMonthly",
                       "@id": "dtmi:com:syyclops:CalendarEvent:relativeMonthly;1"
                     },
                     {
                       "enumValue": "absoluteYearly",
+                      "displayName": {
+                        "en": "Yearly (by Date)"
+                      },
                       "name": "absoluteYearly",
                       "@id": "dtmi:com:syyclops:CalendarEvent:absoluteYearly;1"
                     },
                     {
                       "enumValue": "relativeYearly",
+                      "displayName": {
+                        "en": "Yearly (by Weekday)"
+                      },
                       "name": "relativeYearly",
                       "@id": "dtmi:com:syyclops:CalendarEvent:relativeYearly;1"
                     },
                     {
                       "enumValue": "custom",
+                      "displayName": {
+                        "en": "Custom"
+                      },
                       "name": "custom",
                       "@id": "dtmi:com:syyclops:CalendarEvent:custom;1"
                     }
@@ -267,16 +297,25 @@
                   "enumValues": [
                     {
                       "enumValue": "endDate",
+                      "displayName": {
+                        "en": "End by Date"
+                      },
                       "name": "endDate",
                       "@id": "dtmi:com:syyclops:CalendarEvent:endDate;1"
                     },
                     {
                       "enumValue": "noEnd",
+                      "displayName": {
+                        "en": "No End"
+                      },
                       "name": "noEnd",
                       "@id": "dtmi:com:syyclops:CalendarEvent:noEnd;1"
                     },
                     {
                       "enumValue": "numbered",
+                      "displayName": {
+                        "en": "End After Occurrences"
+                      },
                       "name": "numbered",
                       "@id": "dtmi:com:syyclops:CalendarEvent:numbered;1"
                     }
@@ -343,6 +382,9 @@
       "enumValues": [
         {
           "enumValue": "sunday",
+          "displayName": {
+            "en": "Sunday"
+          },
           "name": "sunday",
           "@id": "dtmi:com:syyclops:CalendarEvent:sunday;1",
           "description": {
@@ -351,6 +393,9 @@
         },
         {
           "enumValue": "monday",
+          "displayName": {
+            "en": "Monday"
+          },
           "name": "monday",
           "@id": "dtmi:com:syyclops:CalendarEvent:monday;1",
           "description": {
@@ -359,6 +404,9 @@
         },
         {
           "enumValue": "tuesday",
+          "displayName": {
+            "en": "Tuesday"
+          },
           "name": "tuesday",
           "@id": "dtmi:com:syyclops:CalendarEvent:tuesday;1",
           "description": {
@@ -367,6 +415,9 @@
         },
         {
           "enumValue": "wednesday",
+          "displayName": {
+            "en": "Wednesday"
+          },
           "name": "wednesday",
           "@id": "dtmi:com:syyclops:CalendarEvent:wednesday;1",
           "description": {
@@ -375,6 +426,9 @@
         },
         {
           "enumValue": "thursday",
+          "displayName": {
+            "en": "Thursday"
+          },
           "name": "thursday",
           "@id": "dtmi:com:syyclops:CalendarEvent:thursday;1",
           "description": {
@@ -383,6 +437,9 @@
         },
         {
           "enumValue": "friday",
+          "displayName": {
+            "en": "Friday"
+          },
           "name": "friday",
           "@id": "dtmi:com:syyclops:CalendarEvent:friday;1",
           "description": {
@@ -391,6 +448,9 @@
         },
         {
           "enumValue": "saturday",
+          "displayName": {
+            "en": "Saturday"
+          },
           "name": "saturday",
           "@id": "dtmi:com:syyclops:CalendarEvent:saturday;1",
           "description": {

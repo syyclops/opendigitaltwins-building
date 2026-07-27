@@ -55,11 +55,17 @@
         "enumValues": [
           {
             "enumValue": "WallMounted",
+            "displayName": {
+              "en": "Wall Mounted"
+            },
             "name": "WallMounted",
             "@id": "dtmi:com:syyclops:Toilet:WallMounted;1"
           },
           {
             "enumValue": "FloorMounted",
+            "displayName": {
+              "en": "Floor Mounted"
+            },
             "name": "FloorMounted",
             "@id": "dtmi:com:syyclops:Toilet:FloorMounted;1"
           }

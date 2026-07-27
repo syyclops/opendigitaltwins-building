@@ -19,21 +19,33 @@
         "enumValues": [
           {
             "enumValue": "Upright",
+            "displayName": {
+              "en": "Upright"
+            },
             "name": "Upright",
             "@id": "dtmi:com:syyclops:FireSprinklerHead:Upright;1"
           },
           {
             "enumValue": "SideWall",
+            "displayName": {
+              "en": "Sidewall"
+            },
             "name": "SideWall",
             "@id": "dtmi:com:syyclops:FireSprinklerHead:SideWall;1"
           },
           {
             "enumValue": "Pendant",
+            "displayName": {
+              "en": "Pendant"
+            },
             "name": "Pendant",
             "@id": "dtmi:com:syyclops:FireSprinklerHead:Pendant;1"
           },
           {
             "enumValue": "ConcealedPendant",
+            "displayName": {
+              "en": "Concealed Pendant"
+            },
             "name": "ConcealedPendant",
             "@id": "dtmi:com:syyclops:FireSprinklerHead:ConcealedPendant;1"
           }

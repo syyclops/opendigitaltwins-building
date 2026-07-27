@@ -329,6 +329,9 @@
       "enumValues": [
         {
           "enumValue": "Education",
+          "displayName": {
+            "en": "Education"
+          },
           "name": "Education",
           "@id": "dtmi:com:syyclops:Building:Education;1",
           "description": {
@@ -337,6 +340,9 @@
         },
         {
           "enumValue": "Food Sales",
+          "displayName": {
+            "en": "Food Sales"
+          },
           "name": "FoodSales",
           "@id": "dtmi:com:syyclops:Building:FoodSales;1",
           "description": {
@@ -345,6 +351,9 @@
         },
         {
           "enumValue": "Food Service",
+          "displayName": {
+            "en": "Food Service"
+          },
           "name": "FoodService",
           "@id": "dtmi:com:syyclops:Building:FoodService;1",
           "description": {
@@ -353,6 +362,9 @@
         },
         {
           "enumValue": "Healthcare - Inpatient",
+          "displayName": {
+            "en": "Healthcare Inpatient"
+          },
           "name": "HealthcareInpatient",
           "@id": "dtmi:com:syyclops:Building:HealthcareInpatient;1",
           "description": {
@@ -361,6 +373,9 @@
         },
         {
           "enumValue": "Healthcare - Outpatient",
+          "displayName": {
+            "en": "Healthcare Outpatient"
+          },
           "name": "HealthcareOutpatient",
           "@id": "dtmi:com:syyclops:Building:HealthcareOutpatient;1",
           "description": {
@@ -369,6 +384,9 @@
         },
         {
           "enumValue": "Lodging",
+          "displayName": {
+            "en": "Lodging"
+          },
           "name": "Lodging",
           "@id": "dtmi:com:syyclops:Building:Lodging;1",
           "description": {
@@ -377,6 +395,9 @@
         },
         {
           "enumValue": "Mercantile - Retail other than mall",
+          "displayName": {
+            "en": "Mercantile Retail (Other Than Mall)"
+          },
           "name": "MercantileRetailOtherThanMall",
           "@id": "dtmi:com:syyclops:Building:MercantileRetailOtherThanMall;1",
           "description": {
@@ -385,6 +406,9 @@
         },
         {
           "enumValue": "Mercantile - Enclosed and strip malls",
+          "displayName": {
+            "en": "Mercantile (Enclosed Mall)"
+          },
           "name": "MercantileEnclosed",
           "@id": "dtmi:com:syyclops:Building:MercantileEnclosed;1",
           "description": {
@@ -393,6 +417,9 @@
         },
         {
           "enumValue": "Office",
+          "displayName": {
+            "en": "Office"
+          },
           "name": "Office",
           "@id": "dtmi:com:syyclops:Building:Office;1",
           "description": {
@@ -401,6 +428,9 @@
         },
         {
           "enumValue": "Public Assembly",
+          "displayName": {
+            "en": "Public Assembly"
+          },
           "name": "PublicAssembly",
           "@id": "dtmi:com:syyclops:Building:PublicAssembly;1",
           "description": {
@@ -409,6 +439,9 @@
         },
         {
           "enumValue": "Public Order and Safety",
+          "displayName": {
+            "en": "Public Order and Safety"
+          },
           "name": "PublicOrderAndSafety",
           "@id": "dtmi:com:syyclops:Building:PublicOrderAndSafety;1",
           "description": {
@@ -417,6 +450,9 @@
         },
         {
           "enumValue": "Religious Worship",
+          "displayName": {
+            "en": "Religious Worship"
+          },
           "name": "ReligiousWorship",
           "@id": "dtmi:com:syyclops:Building:ReligiousWorship;1",
           "description": {
@@ -425,6 +461,9 @@
         },
         {
           "enumValue": "Service",
+          "displayName": {
+            "en": "Service"
+          },
           "name": "Service",
           "@id": "dtmi:com:syyclops:Building:Service;1",
           "description": {
@@ -433,6 +472,9 @@
         },
         {
           "enumValue": "Warehouse and Storage",
+          "displayName": {
+            "en": "Warehouse and Storage"
+          },
           "name": "WarehouseAndStorage",
           "@id": "dtmi:com:syyclops:Building:WarehouseAndStorage;1",
           "description": {
@@ -441,6 +483,9 @@
         },
         {
           "enumValue": "Other",
+          "displayName": {
+            "en": "Other"
+          },
           "name": "Other",
           "@id": "dtmi:com:syyclops:Building:Other;1",
           "description": {
@@ -449,6 +494,9 @@
         },
         {
           "enumValue": "Vacant",
+          "displayName": {
+            "en": "Vacant"
+          },
           "name": "Vacant",
           "@id": "dtmi:com:syyclops:Building:Vacant;1",
           "description": {
@@ -467,6 +515,9 @@
       "enumValues": [
         {
           "enumValue": "Bank Branch",
+          "displayName": {
+            "en": "Bank Branch"
+          },
           "name": "BankBranch",
           "@id": "dtmi:com:syyclops:Building:BankBranch;1",
           "description": {
@@ -475,6 +526,9 @@
         },
         {
           "enumValue": "Barracks",
+          "displayName": {
+            "en": "Barracks"
+          },
           "name": "Barracks",
           "@id": "dtmi:com:syyclops:Building:Barracks;1",
           "description": {
@@ -483,6 +537,9 @@
         },
         {
           "enumValue": "Convenience Store",
+          "displayName": {
+            "en": "Convenience Store"
+          },
           "name": "ConvenienceStore",
           "@id": "dtmi:com:syyclops:Building:ConvenienceStore;1",
           "description": {
@@ -491,6 +548,9 @@
         },
         {
           "enumValue": "Courthouse",
+          "displayName": {
+            "en": "Courthouse"
+          },
           "name": "Courthouse",
           "@id": "dtmi:com:syyclops:Building:Courthouse;1",
           "description": {
@@ -499,6 +559,9 @@
         },
         {
           "enumValue": "Data Center",
+          "displayName": {
+            "en": "Data Center"
+          },
           "name": "DataCenter",
           "@id": "dtmi:com:syyclops:Building:DataCenter;1",
           "description": {
@@ -507,6 +570,9 @@
         },
         {
           "enumValue": "Distribution Center",
+          "displayName": {
+            "en": "Distribution Center"
+          },
           "name": "DistributionCenter",
           "@id": "dtmi:com:syyclops:Building:DistributionCenter;1",
           "description": {
@@ -515,6 +581,9 @@
         },
         {
           "enumValue": "Financial Office",
+          "displayName": {
+            "en": "Financial Office"
+          },
           "name": "FinancialOffice",
           "@id": "dtmi:com:syyclops:Building:FinancialOffice;1",
           "description": {
@@ -523,6 +592,9 @@
         },
         {
           "enumValue": "Hospital (General Medical & Surgical)",
+          "displayName": {
+            "en": "Hospital"
+          },
           "name": "Hospital",
           "@id": "dtmi:com:syyclops:Building:Hospital;1",
           "description": {
@@ -531,6 +603,9 @@
         },
         {
           "enumValue": "Hotel",
+          "displayName": {
+            "en": "Hotel"
+          },
           "name": "Hotel",
           "@id": "dtmi:com:syyclops:Building:Hotel;1",
           "description": {
@@ -539,6 +614,9 @@
         },
         {
           "enumValue": "K-12 School",
+          "displayName": {
+            "en": "K-12 School"
+          },
           "name": "K12Schoold",
           "@id": "dtmi:com:syyclops:Building:K12Schoold;1",
           "description": {
@@ -547,6 +625,9 @@
         },
         {
           "enumValue": "Medical Office",
+          "displayName": {
+            "en": "Medical Office"
+          },
           "name": "MedicalOffice",
           "@id": "dtmi:com:syyclops:Building:MedicalOffice;1",
           "description": {
@@ -555,6 +636,9 @@
         },
         {
           "enumValue": "Multifamily Housing",
+          "displayName": {
+            "en": "Multifamily Housing"
+          },
           "name": "MultifamilyHousing",
           "@id": "dtmi:com:syyclops:Building:MultifamilyHousing;1",
           "description": {
@@ -563,6 +647,9 @@
         },
         {
           "enumValue": "Non-refrigerated Warehouse",
+          "displayName": {
+            "en": "Non-Refrigerated Warehouse"
+          },
           "name": "NonRefrigeratedWarehouse",
           "@id": "dtmi:com:syyclops:Building:NonRefrigeratedWarehouse;1",
           "description": {
@@ -571,6 +658,9 @@
         },
         {
           "enumValue": "Office",
+          "displayName": {
+            "en": "Office"
+          },
           "name": "Office",
           "@id": "dtmi:com:syyclops:Building:SE1;1",
           "description": {
@@ -579,6 +669,9 @@
         },
         {
           "enumValue": "Refrigerated Warehouse",
+          "displayName": {
+            "en": "Refrigerated Warehouse"
+          },
           "name": "RefrigeratedWarehouse",
           "@id": "dtmi:com:syyclops:Building:RefrigeratedWarehouse;1",
           "description": {
@@ -587,6 +680,9 @@
         },
         {
           "enumValue": "Residence Hall/Dormitory",
+          "displayName": {
+            "en": "Residence Hall/Dormitory"
+          },
           "name": "ResidenceHallDormitory",
           "@id": "dtmi:com:syyclops:Building:ResidenceHallDormitory;1",
           "description": {
@@ -595,6 +691,9 @@
         },
         {
           "enumValue": "Retail Store",
+          "displayName": {
+            "en": "Retail Store"
+          },
           "name": "RetailStore",
           "@id": "dtmi:com:syyclops:Building:RetailStore;1",
           "description": {
@@ -603,6 +702,9 @@
         },
         {
           "enumValue": "Single Family Home",
+          "displayName": {
+            "en": "Single Family Home"
+          },
           "name": "SingleFamilyHome",
           "@id": "dtmi:com:syyclops:Building:SingleFamilyHome;1",
           "description": {
@@ -611,6 +713,9 @@
         },
         {
           "enumValue": "Senior Living Community",
+          "displayName": {
+            "en": "Senior Living Community"
+          },
           "name": "SeniorLivingCommunity",
           "@id": "dtmi:com:syyclops:Building:SeniorLivingCommunity;1",
           "description": {
@@ -619,6 +724,9 @@
         },
         {
           "enumValue": "Supermarket/Grocery Store",
+          "displayName": {
+            "en": "Supermarket/Grocery Store"
+          },
           "name": "SupermarketGroceryStore",
           "@id": "dtmi:com:syyclops:Building:SupermarketGroceryStore;1",
           "description": {
@@ -627,6 +735,9 @@
         },
         {
           "enumValue": "Vehicle Dealership",
+          "displayName": {
+            "en": "Vehicle Dealership"
+          },
           "name": "VehicleDealership",
           "@id": "dtmi:com:syyclops:Building:VehicleDealership;1",
           "description": {
@@ -635,6 +746,9 @@
         },
         {
           "enumValue": "Wastewater Treatment Plant",
+          "displayName": {
+            "en": "Wastewater Treatment Plant"
+          },
           "name": "WastewaterTreatmentPlant",
           "@id": "dtmi:com:syyclops:Building:WastewaterTreatmentPlant;1",
           "description": {
@@ -643,6 +757,9 @@
         },
         {
           "enumValue": "Wholesale Club/Supercenter",
+          "displayName": {
+            "en": "Wholesale Club/Supercenter"
+          },
           "name": "WholesaleClubSupercenter",
           "@id": "dtmi:com:syyclops:Building:WholesaleClubSupercenter;1",
           "description": {
@@ -651,6 +768,9 @@
         },
         {
           "enumValue": "Worship Facility",
+          "displayName": {
+            "en": "Worship Facility"
+          },
           "name": "WorshipFacility",
           "@id": "dtmi:com:syyclops:Building:WorshipFacility;1",
           "description": {
@@ -669,7 +789,9 @@
       "enumValues": [
         {
           "name": "oneA",
-          "displayName": "1A - Very Hot Humid",
+          "displayName": {
+            "en": "1A - Very Hot Humid"
+          },
           "enumValue": "1A",
           "@id": "dtmi:com:syyclops:Building:oneA;1",
           "description": {
@@ -678,7 +800,9 @@
         },
         {
           "name": "twoA",
-          "displayName": "2A Hot Humid",
+          "displayName": {
+            "en": "2A Hot Humid"
+          },
           "enumValue": "2A",
           "@id": "dtmi:com:syyclops:Building:twoA;1",
           "description": {
@@ -687,7 +811,9 @@
         },
         {
           "name": "twoB",
-          "displayName": "2B Hot Dry",
+          "displayName": {
+            "en": "2B Hot Dry"
+          },
           "enumValue": "2B",
           "@id": "dtmi:com:syyclops:Building:twoB;1",
           "description": {
@@ -696,7 +822,9 @@
         },
         {
           "name": "threeA",
-          "displayName": "3A Warm Humid",
+          "displayName": {
+            "en": "3A Warm Humid"
+          },
           "enumValue": "3A",
           "@id": "dtmi:com:syyclops:Building:threeA;1",
           "description": {
@@ -705,7 +833,9 @@
         },
         {
           "name": "threeB",
-          "displayName": "3B Warm Dry",
+          "displayName": {
+            "en": "3B Warm Dry"
+          },
           "enumValue": "3B",
           "@id": "dtmi:com:syyclops:Building:threeB;1",
           "description": {
@@ -714,7 +844,9 @@
         },
         {
           "name": "threeC",
-          "displayName": "3C Warm Marine",
+          "displayName": {
+            "en": "3C Warm Marine"
+          },
           "enumValue": "3C",
           "@id": "dtmi:com:syyclops:Building:threeC;1",
           "description": {
@@ -723,7 +855,9 @@
         },
         {
           "name": "fourA",
-          "displayName": "4A Mixed Humid",
+          "displayName": {
+            "en": "4A Mixed Humid"
+          },
           "enumValue": "4A",
           "@id": "dtmi:com:syyclops:Building:fourA;1",
           "description": {
@@ -732,7 +866,9 @@
         },
         {
           "name": "fourB",
-          "displayName": "4B Mixed Dry",
+          "displayName": {
+            "en": "4B Mixed Dry"
+          },
           "enumValue": "4B",
           "@id": "dtmi:com:syyclops:Building:fourB;1",
           "description": {
@@ -741,7 +877,9 @@
         },
         {
           "name": "fourC",
-          "displayName": "4C Mixed Marine",
+          "displayName": {
+            "en": "4C Mixed Marine"
+          },
           "enumValue": "4C",
           "@id": "dtmi:com:syyclops:Building:fourC;1",
           "description": {
@@ -750,7 +888,9 @@
         },
         {
           "name": "fiveA",
-          "displayName": "5A Cool Humid",
+          "displayName": {
+            "en": "5A Cool Humid"
+          },
           "enumValue": "5A",
           "@id": "dtmi:com:syyclops:Building:fiveA;1",
           "description": {
@@ -759,7 +899,9 @@
         },
         {
           "name": "fiveB",
-          "displayName": "5B Cool Dry",
+          "displayName": {
+            "en": "5B Cool Dry"
+          },
           "enumValue": "5B",
           "@id": "dtmi:com:syyclops:Building:fiveB;1",
           "description": {
@@ -768,7 +910,9 @@
         },
         {
           "name": "fiveC",
-          "displayName": "5C Cool Marine",
+          "displayName": {
+            "en": "5C Cool Marine"
+          },
           "enumValue": "5C",
           "@id": "dtmi:com:syyclops:Building:fiveC;1",
           "description": {
@@ -777,7 +921,9 @@
         },
         {
           "name": "sixA",
-          "displayName": "6A Cold Humid",
+          "displayName": {
+            "en": "6A Cold Humid"
+          },
           "enumValue": "6A",
           "@id": "dtmi:com:syyclops:Building:sixA;1",
           "description": {
@@ -786,7 +932,9 @@
         },
         {
           "name": "sixB",
-          "displayName": "6B Cold Dry",
+          "displayName": {
+            "en": "6B Cold Dry"
+          },
           "enumValue": "6B",
           "@id": "dtmi:com:syyclops:Building:sixB;1",
           "description": {
@@ -795,7 +943,9 @@
         },
         {
           "name": "seven",
-          "displayName": "7 Very Cold",
+          "displayName": {
+            "en": "7 Very Cold"
+          },
           "enumValue": "7",
           "@id": "dtmi:com:syyclops:Building:seven;1",
           "description": {
@@ -804,7 +954,9 @@
         },
         {
           "name": "eight",
-          "displayName": "8 Subarctic/Arctic",
+          "displayName": {
+            "en": "8 Subarctic/Arctic"
+          },
           "enumValue": "8",
           "@id": "dtmi:com:syyclops:Building:eight;1",
           "description": {
@@ -823,6 +975,9 @@
       "enumValues": [
         {
           "enumValue": "Design",
+          "displayName": {
+            "en": "Design"
+          },
           "name": "Design",
           "@id": "dtmi:com:syyclops:Building:Design;1",
           "description": {
@@ -831,6 +986,9 @@
         },
         {
           "enumValue": "Construction",
+          "displayName": {
+            "en": "Construction"
+          },
           "name": "Construction",
           "@id": "dtmi:com:syyclops:Building:Construction;1",
           "description": {
@@ -839,6 +997,9 @@
         },
         {
           "enumValue": "Operational",
+          "displayName": {
+            "en": "Operational"
+          },
           "name": "Operational",
           "@id": "dtmi:com:syyclops:Building:Operational;1",
           "description": {

@@ -32,26 +32,41 @@
         "enumValues": [
           {
             "enumValue": "Utility",
+            "displayName": {
+              "en": "Utility"
+            },
             "name": "Utility",
             "@id": "dtmi:com:syyclops:System:Utility;1"
           },
           {
             "enumValue": "Tenant",
+            "displayName": {
+              "en": "Tenant"
+            },
             "name": "Tenant",
             "@id": "dtmi:com:syyclops:System:Tenant;1"
           },
           {
             "enumValue": "Site",
+            "displayName": {
+              "en": "Site"
+            },
             "name": "Site",
             "@id": "dtmi:com:syyclops:System:Site;1"
           },
           {
             "enumValue": "District",
+            "displayName": {
+              "en": "District"
+            },
             "name": "District",
             "@id": "dtmi:com:syyclops:System:District;1"
           },
           {
             "enumValue": "Building",
+            "displayName": {
+              "en": "Building"
+            },
             "name": "Building",
             "@id": "dtmi:com:syyclops:System:Building;1"
           }

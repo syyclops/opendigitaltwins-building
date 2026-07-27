@@ -106,11 +106,17 @@
         "enumValues": [
           {
             "enumValue": "TwoPipe",
+            "displayName": {
+              "en": "Two-Pipe"
+            },
             "name": "TwoPipe",
             "@id": "dtmi:com:syyclops:ChilledBeam:TwoPipe;1"
           },
           {
             "enumValue": "FourPipe",
+            "displayName": {
+              "en": "Four-Pipe"
+            },
             "name": "FourPipe",
             "@id": "dtmi:com:syyclops:ChilledBeam:FourPipe;1"
           }

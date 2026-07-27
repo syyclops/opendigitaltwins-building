@@ -19,21 +19,33 @@
         "enumValues": [
           {
             "enumValue": "Steam",
+            "displayName": {
+              "en": "Steam"
+            },
             "name": "Steam",
             "@id": "dtmi:com:syyclops:HVACHeatingMethod:Steam;1"
           },
           {
             "enumValue": "HotWater",
+            "displayName": {
+              "en": "Hot Water"
+            },
             "name": "HotWater",
             "@id": "dtmi:com:syyclops:HVACHeatingMethod:HotWater;1"
           },
           {
             "enumValue": "Gas",
+            "displayName": {
+              "en": "Gas"
+            },
             "name": "Gas",
             "@id": "dtmi:com:syyclops:HVACHeatingMethod:Gas;1"
           },
           {
             "enumValue": "Electric",
+            "displayName": {
+              "en": "Electric"
+            },
             "name": "Electric",
             "@id": "dtmi:com:syyclops:HVACHeatingMethod:Electric;1"
           }

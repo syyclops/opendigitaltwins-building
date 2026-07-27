@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "DX",
+            "displayName": {
+              "en": "DX (Direct Expansion)"
+            },
             "name": "DX",
             "@id": "dtmi:com:syyclops:HVACCoolingMethod:DX;1"
           },
           {
             "enumValue": "ChilledWater",
+            "displayName": {
+              "en": "Chilled Water"
+            },
             "name": "ChilledWater",
             "@id": "dtmi:com:syyclops:HVACCoolingMethod:ChilledWater;1"
           }

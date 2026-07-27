@@ -22,11 +22,17 @@
         "enumValues": [
           {
             "enumValue": "series",
+            "displayName": {
+              "en": "Series"
+            },
             "name": "series",
             "@id": "dtmi:com:syyclops:FanPoweredBox:series;1"
           },
           {
             "enumValue": "parallel",
+            "displayName": {
+              "en": "Parallel"
+            },
             "name": "parallel",
             "@id": "dtmi:com:syyclops:FanPoweredBox:parallel;1"
           }

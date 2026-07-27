@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "SelfRegulating",
+            "displayName": {
+              "en": "Self-Regulating"
+            },
             "name": "SelfRegulating",
             "@id": "dtmi:com:syyclops:HeatTracing:SelfRegulating;1"
           },
           {
             "enumValue": "ConstantWattage",
+            "displayName": {
+              "en": "Constant Wattage"
+            },
             "name": "ConstantWattage",
             "@id": "dtmi:com:syyclops:HeatTracing:ConstantWattage;1"
           }

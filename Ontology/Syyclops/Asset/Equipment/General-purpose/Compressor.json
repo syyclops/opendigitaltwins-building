@@ -36,26 +36,41 @@
         "enumValues": [
           {
             "enumValue": "Scroll",
+            "displayName": {
+              "en": "Scroll"
+            },
             "name": "Scroll",
             "@id": "dtmi:com:syyclops:Compressor:Scroll;1"
           },
           {
             "enumValue": "Screw",
+            "displayName": {
+              "en": "Screw"
+            },
             "name": "Screw",
             "@id": "dtmi:com:syyclops:Compressor:Screw;1"
           },
           {
             "enumValue": "Reciprocol",
+            "displayName": {
+              "en": "Reciprocating"
+            },
             "name": "Reciprocol",
             "@id": "dtmi:com:syyclops:Compressor:Reciprocol;1"
           },
           {
             "enumValue": "Centrifugal",
+            "displayName": {
+              "en": "Centrifugal"
+            },
             "name": "Centrifugal",
             "@id": "dtmi:com:syyclops:Compressor:Centrifugal;1"
           },
           {
             "enumValue": "Absorption",
+            "displayName": {
+              "en": "Absorption"
+            },
             "name": "Absorption",
             "@id": "dtmi:com:syyclops:Compressor:Absorption;1"
           }

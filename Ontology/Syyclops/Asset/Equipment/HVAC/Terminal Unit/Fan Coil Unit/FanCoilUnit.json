@@ -19,11 +19,17 @@
         "enumValues": [
           {
             "enumValue": "vertical",
+            "displayName": {
+              "en": "Vertical"
+            },
             "name": "vertical",
             "@id": "dtmi:com:syyclops:FanCoilUnit:vertical;1"
           },
           {
             "enumValue": "horizontal",
+            "displayName": {
+              "en": "Horizontal"
+            },
             "name": "horizontal",
             "@id": "dtmi:com:syyclops:FanCoilUnit:horizontal;1"
           }
@@ -133,16 +139,25 @@
         "enumValues": [
           {
             "enumValue": "wall",
+            "displayName": {
+              "en": "Wall"
+            },
             "name": "wall",
             "@id": "dtmi:com:syyclops:FanCoilUnit:wall;1"
           },
           {
             "enumValue": "floor",
+            "displayName": {
+              "en": "Floor"
+            },
             "name": "floor",
             "@id": "dtmi:com:syyclops:FanCoilUnit:floor;1"
           },
           {
             "enumValue": "ceiling",
+            "displayName": {
+              "en": "Ceiling"
+            },
             "name": "ceiling",
             "@id": "dtmi:com:syyclops:FanCoilUnit:ceiling;1"
           }
@@ -207,11 +222,17 @@
         "enumValues": [
           {
             "enumValue": "TwoPipe",
+            "displayName": {
+              "en": "Two-Pipe"
+            },
             "name": "TwoPipe",
             "@id": "dtmi:com:syyclops:FanCoilUnit:TwoPipe;1"
           },
           {
             "enumValue": "FourPipe",
+            "displayName": {
+              "en": "Four-Pipe"
+            },
             "name": "FourPipe",
             "@id": "dtmi:com:syyclops:FanCoilUnit:FourPipe;1"
           }

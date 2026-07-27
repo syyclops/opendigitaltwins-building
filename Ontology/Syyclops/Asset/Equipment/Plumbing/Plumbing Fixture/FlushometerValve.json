@@ -55,11 +55,17 @@
         "enumValues": [
           {
             "enumValue": "Touchless",
+            "displayName": {
+              "en": "Touchless"
+            },
             "name": "Touchless",
             "@id": "dtmi:com:syyclops:FlushometerValve:Touchless;1"
           },
           {
             "enumValue": "ManualOnly",
+            "displayName": {
+              "en": "Manual Only"
+            },
             "name": "ManualOnly",
             "@id": "dtmi:com:syyclops:FlushometerValve:ManualOnly;1"
           }
@@ -84,11 +90,17 @@
         "enumValues": [
           {
             "enumValue": "Piston",
+            "displayName": {
+              "en": "Piston"
+            },
             "name": "Piston",
             "@id": "dtmi:com:syyclops:FlushometerValve:Piston;1"
           },
           {
             "enumValue": "Diaphragm",
+            "displayName": {
+              "en": "Diaphragm"
+            },
             "name": "Diaphragm",
             "@id": "dtmi:com:syyclops:FlushometerValve:Diaphragm;1"
           }

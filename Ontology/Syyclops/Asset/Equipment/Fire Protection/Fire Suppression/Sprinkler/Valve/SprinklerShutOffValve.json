@@ -19,16 +19,25 @@
         "enumValues": [
           {
             "enumValue": "Gate",
+            "displayName": {
+              "en": "Gate"
+            },
             "name": "Gate",
             "@id": "dtmi:com:syyclops:SprinklerShutOffValve:Gate;1"
           },
           {
             "enumValue": "Butterfly",
+            "displayName": {
+              "en": "Butterfly"
+            },
             "name": "Butterfly",
             "@id": "dtmi:com:syyclops:SprinklerShutOffValve:Butterfly;1"
           },
           {
             "enumValue": "Ball",
+            "displayName": {
+              "en": "Ball"
+            },
             "name": "Ball",
             "@id": "dtmi:com:syyclops:SprinklerShutOffValve:Ball;1"
           }

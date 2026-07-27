@@ -146,6 +146,9 @@
       "enumValues": [
         {
           "enumValue": "Design",
+          "displayName": {
+            "en": "Design"
+          },
           "name": "Design",
           "@id": "dtmi:com:syyclops:OutdoorArea:Design;1",
           "description": {
@@ -154,6 +157,9 @@
         },
         {
           "enumValue": "Construction",
+          "displayName": {
+            "en": "Construction"
+          },
           "name": "Construction",
           "@id": "dtmi:com:syyclops:OutdoorArea:Construction;1",
           "description": {
@@ -162,6 +168,9 @@
         },
         {
           "enumValue": "Operational",
+          "displayName": {
+            "en": "Operational"
+          },
           "name": "Operational",
           "@id": "dtmi:com:syyclops:OutdoorArea:Operational;1",
           "description": {

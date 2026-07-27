@@ -20,6 +20,9 @@
         "enumValues": [
           {
             "enumValue": "Off Cycle",
+            "displayName": {
+              "en": "Off-Cycle"
+            },
             "name": "OffCycle",
             "description": {
               "en": "Defrost takes place by turning off the compressor and evaporator fan, and waiting a period of time."
@@ -28,6 +31,9 @@
           },
           {
             "enumValue": "Electric",
+            "displayName": {
+              "en": "Electric"
+            },
             "name": "Electric",
             "description": {
               "en": "Defrost takes place by turning off the compressor and evaporator fan, and enabling an electric heating element for a period of time."
@@ -36,6 +42,9 @@
           },
           {
             "enumValue": "Hot Gas",
+            "displayName": {
+              "en": "Hot Gas"
+            },
             "name": "HotGas",
             "description": {
               "en": "Defrost takes place by turning off the evaporator fan, operating a reversing valve in the refrigeration circuit, and deliverying hot refrigrant gas to the evaporator coil for a period of time."
@@ -44,6 +53,9 @@
           },
           {
             "enumValue": "Reverse Air",
+            "displayName": {
+              "en": "Reverse Air"
+            },
             "name": "ReverseAir",
             "description": {
               "en": "Defrost takes place by turning off the compressor, and running the evaporator fan in reverse for a period of time."
@@ -173,16 +185,25 @@
         "enumValues": [
           {
             "enumValue": "Interval Timer",
+            "displayName": {
+              "en": "Interval Timer"
+            },
             "name": "IntervalTimer",
             "@id": "dtmi:com:syyclops:DefrostEquipment:IntervalTimer;1"
           },
           {
             "enumValue": "Schedule",
+            "displayName": {
+              "en": "Schedule"
+            },
             "name": "Schedule",
             "@id": "dtmi:com:syyclops:DefrostEquipment:Schedule;1"
           },
           {
             "enumValue": "Adaptive",
+            "displayName": {
+              "en": "Adaptive"
+            },
             "name": "Adaptive",
             "@id": "dtmi:com:syyclops:DefrostEquipment:Adaptive;1"
           }
@@ -207,16 +228,25 @@
         "enumValues": [
           {
             "enumValue": "Time",
+            "displayName": {
+              "en": "Time"
+            },
             "name": "Time",
             "@id": "dtmi:com:syyclops:DefrostEquipment:Time;1"
           },
           {
             "enumValue": "Termination Temperature",
+            "displayName": {
+              "en": "Termination Temperature"
+            },
             "name": "TerminationTemperature",
             "@id": "dtmi:com:syyclops:DefrostEquipment:TerminationTemperature;1"
           },
           {
             "enumValue": "Adaptive",
+            "displayName": {
+              "en": "Adaptive"
+            },
             "name": "Adaptive",
             "@id": "dtmi:com:syyclops:DefrostEquipment:EE4;1"
           }

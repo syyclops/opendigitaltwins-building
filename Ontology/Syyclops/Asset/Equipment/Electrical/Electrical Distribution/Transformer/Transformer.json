@@ -83,11 +83,17 @@
         "enumValues": [
           {
             "enumValue": "Three",
+            "displayName": {
+              "en": "Three"
+            },
             "name": "Three",
             "@id": "dtmi:com:syyclops:Transformer:Three;1"
           },
           {
             "enumValue": "One",
+            "displayName": {
+              "en": "One"
+            },
             "name": "One",
             "@id": "dtmi:com:syyclops:Transformer:One;1"
           }

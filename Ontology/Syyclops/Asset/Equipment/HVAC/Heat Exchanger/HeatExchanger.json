@@ -22,26 +22,41 @@
         "enumValues": [
           {
             "enumValue": "Steam",
+            "displayName": {
+              "en": "Steam"
+            },
             "name": "Steam",
             "@id": "dtmi:com:syyclops:HeatExchanger:Steam;1"
           },
           {
             "enumValue": "SteamCondensate",
+            "displayName": {
+              "en": "Steam Condensate"
+            },
             "name": "SteamCondensate",
             "@id": "dtmi:com:syyclops:HeatExchanger:SteamCondensate;1"
           },
           {
             "enumValue": "HotWater",
+            "displayName": {
+              "en": "Hot Water"
+            },
             "name": "HotWater",
             "@id": "dtmi:com:syyclops:HeatExchanger:HotWater;1"
           },
           {
             "enumValue": "CondenserWater",
+            "displayName": {
+              "en": "Condenser Water"
+            },
             "name": "CondenserWater",
             "@id": "dtmi:com:syyclops:HeatExchanger:CondenserWater;1"
           },
           {
             "enumValue": "ChilledWater",
+            "displayName": {
+              "en": "Chilled Water"
+            },
             "name": "ChilledWater",
             "@id": "dtmi:com:syyclops:HeatExchanger:ChilledWater;1"
           }
@@ -66,21 +81,33 @@
         "enumValues": [
           {
             "enumValue": "HotWater",
+            "displayName": {
+              "en": "Hot Water"
+            },
             "name": "HotWater",
             "@id": "dtmi:com:syyclops:HeatExchanger:EE3;1"
           },
           {
             "enumValue": "SteamCondensate",
+            "displayName": {
+              "en": "Steam Condensate"
+            },
             "name": "SteamCondensate",
             "@id": "dtmi:com:syyclops:HeatExchanger:EE4;1"
           },
           {
             "enumValue": "CondenserWater",
+            "displayName": {
+              "en": "Condenser Water"
+            },
             "name": "CondenserWater",
             "@id": "dtmi:com:syyclops:HeatExchanger:EE5;1"
           },
           {
             "enumValue": "ChilledWater",
+            "displayName": {
+              "en": "Chilled Water"
+            },
             "name": "ChilledWater",
             "@id": "dtmi:com:syyclops:HeatExchanger:EE6;1"
           }
