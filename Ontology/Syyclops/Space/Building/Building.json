@@ -102,7 +102,7 @@
         "en": "Type"
       },
       "writable": true,
-      "schema": "string",
+      "schema": "dtmi:com:syyclops:BuildingType;1",
       "@id": "dtmi:com:syyclops:Building:type;1",
       "description": {
         "en": "The type property categorizes the building based on its primary function or usage."
@@ -322,6 +322,203 @@
     }
   ],
   "schemas": [
+    {
+      "@id": "dtmi:com:syyclops:BuildingType;1",
+      "@type": "Enum",
+      "valueSchema": "string",
+      "displayName": {
+        "en": "Building Type"
+      },
+      "enumValues": [
+        {
+          "enumValue": "Residential",
+          "displayName": {
+            "en": "Residential"
+          },
+          "name": "residential",
+          "@id": "dtmi:com:syyclops:BuildingType:residential;1",
+          "description": {
+            "en": "Single-family, multi-family, dormitory/residence hall, or senior living."
+          }
+        },
+        {
+          "enumValue": "K-12 School",
+          "displayName": {
+            "en": "K-12 School"
+          },
+          "name": "k12School",
+          "@id": "dtmi:com:syyclops:BuildingType:k12School;1",
+          "description": {
+            "en": "Primary and secondary education facilities serving kindergarten through 12th grade."
+          }
+        },
+        {
+          "enumValue": "Higher Education",
+          "displayName": {
+            "en": "Higher Education"
+          },
+          "name": "higherEducation",
+          "@id": "dtmi:com:syyclops:BuildingType:higherEducation;1",
+          "description": {
+            "en": "Colleges, universities, and other post-secondary education facilities."
+          }
+        },
+        {
+          "enumValue": "Research / Lab",
+          "displayName": {
+            "en": "Research / Lab"
+          },
+          "name": "researchLab",
+          "@id": "dtmi:com:syyclops:BuildingType:researchLab;1",
+          "description": {
+            "en": "Laboratory and research facilities."
+          }
+        },
+        {
+          "enumValue": "Office / Administrative",
+          "displayName": {
+            "en": "Office / Administrative"
+          },
+          "name": "officeAdministrative",
+          "@id": "dtmi:com:syyclops:BuildingType:officeAdministrative;1",
+          "description": {
+            "en": "Office and administrative workplaces."
+          }
+        },
+        {
+          "enumValue": "Healthcare",
+          "displayName": {
+            "en": "Healthcare"
+          },
+          "name": "healthcare",
+          "@id": "dtmi:com:syyclops:BuildingType:healthcare;1",
+          "description": {
+            "en": "Hospital, outpatient/clinic, or long-term care."
+          }
+        },
+        {
+          "enumValue": "Assembly",
+          "displayName": {
+            "en": "Assembly"
+          },
+          "name": "assembly",
+          "@id": "dtmi:com:syyclops:BuildingType:assembly;1",
+          "description": {
+            "en": "Auditorium, theater, convention center, place of worship, or museum."
+          }
+        },
+        {
+          "enumValue": "Recreational / Athletic",
+          "displayName": {
+            "en": "Recreational / Athletic"
+          },
+          "name": "recreationalAthletic",
+          "@id": "dtmi:com:syyclops:BuildingType:recreationalAthletic;1",
+          "description": {
+            "en": "Gymnasium, arena, natatorium, or recreation center."
+          }
+        },
+        {
+          "enumValue": "Mercantile / Retail",
+          "displayName": {
+            "en": "Mercantile / Retail"
+          },
+          "name": "mercantileRetail",
+          "@id": "dtmi:com:syyclops:BuildingType:mercantileRetail;1",
+          "description": {
+            "en": "Retail and mercantile facilities."
+          }
+        },
+        {
+          "enumValue": "Hospitality",
+          "displayName": {
+            "en": "Hospitality"
+          },
+          "name": "hospitality",
+          "@id": "dtmi:com:syyclops:BuildingType:hospitality;1",
+          "description": {
+            "en": "Hotel, restaurant, or food service."
+          }
+        },
+        {
+          "enumValue": "Industrial / Manufacturing",
+          "displayName": {
+            "en": "Industrial / Manufacturing"
+          },
+          "name": "industrialManufacturing",
+          "@id": "dtmi:com:syyclops:BuildingType:industrialManufacturing;1",
+          "description": {
+            "en": "Industrial and manufacturing facilities."
+          }
+        },
+        {
+          "enumValue": "Storage / Warehouse",
+          "displayName": {
+            "en": "Storage / Warehouse"
+          },
+          "name": "storageWarehouse",
+          "@id": "dtmi:com:syyclops:BuildingType:storageWarehouse;1",
+          "description": {
+            "en": "Storage and warehouse facilities."
+          }
+        },
+        {
+          "enumValue": "Transportation",
+          "displayName": {
+            "en": "Transportation"
+          },
+          "name": "transportation",
+          "@id": "dtmi:com:syyclops:BuildingType:transportation;1",
+          "description": {
+            "en": "Transit station, airport terminal, or parking structure."
+          }
+        },
+        {
+          "enumValue": "Utility / Infrastructure",
+          "displayName": {
+            "en": "Utility / Infrastructure"
+          },
+          "name": "utilityInfrastructure",
+          "@id": "dtmi:com:syyclops:BuildingType:utilityInfrastructure;1",
+          "description": {
+            "en": "Central plant, water/wastewater treatment, or power generation."
+          }
+        },
+        {
+          "enumValue": "Public Safety / Institutional",
+          "displayName": {
+            "en": "Public Safety / Institutional"
+          },
+          "name": "publicSafetyInstitutional",
+          "@id": "dtmi:com:syyclops:BuildingType:publicSafetyInstitutional;1",
+          "description": {
+            "en": "Fire station, police, courthouse, correctional/detention, or library."
+          }
+        },
+        {
+          "enumValue": "Data Center / Telecommunications",
+          "displayName": {
+            "en": "Data Center / Telecommunications"
+          },
+          "name": "dataCenter",
+          "@id": "dtmi:com:syyclops:BuildingType:dataCenter;1",
+          "description": {
+            "en": "Data center and telecommunications facilities."
+          }
+        },
+        {
+          "enumValue": "Mixed-Use",
+          "displayName": {
+            "en": "Mixed-Use"
+          },
+          "name": "mixedUse",
+          "@id": "dtmi:com:syyclops:BuildingType:mixedUse;1",
+          "description": {
+            "en": "A building combining two or more primary uses."
+          }
+        }
+      ]
+    },
     {
       "@id": "dtmi:com:syyclops:BuildingCBECSBuildingType;1",
       "@type": "Enum",
