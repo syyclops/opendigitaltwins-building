@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:syyclops:GeneratedDocument;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Chat Generated"
+  },
+  "extends": [
+    "dtmi:com:syyclops:Document;1"
+  ],
+  "contents": [],
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ],
+  "description": {
+    "en": "The GeneratedDocument interface represents a document produced by the Syyclops AI assistant during a conversation, such as a report, dataset, or analysis delivered as a downloadable artifact rather than uploaded by a person."
+  }
+}
