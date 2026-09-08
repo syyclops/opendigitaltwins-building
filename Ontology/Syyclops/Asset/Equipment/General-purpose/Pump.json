@@ -331,6 +331,108 @@
       "description": {
         "en": "Specifies the pipe inlet component of the Pump interface within general-purpose equipment."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Nominal Efficiency"
+      },
+      "name": "nominalEfficiency",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Pump:nominalEfficiency;1",
+      "description": {
+        "en": "Nominal Efficiency of the Pump, carried by the \"PUMP EFFICIENCY (%)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Required NPSH"
+      },
+      "name": "requiredNPSH",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Pump:requiredNPSH;1",
+      "description": {
+        "en": "Required NPSH of the Pump, carried by the \"REQUIRED NPSH\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Required NPSH Unit"
+      },
+      "name": "requiredNPSHUnit",
+      "annotates": "requiredNPSH",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Pump:requiredNPSHUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Required NPSH on the Pump."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "displayName": {
+        "en": "Design Rotation Speed"
+      },
+      "name": "designRotationSpeed",
+      "schema": "double",
+      "unit": "revolutionPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Pump:designRotationSpeed;1",
+      "description": {
+        "en": "Design Rotation Speed of the Pump, carried by the \"RPM\" column of the mechanical equipment schedules. Expressed in revolutionPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Impeller Diameter"
+      },
+      "name": "impellerDiameter",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Pump:impellerDiameter;1",
+      "description": {
+        "en": "Impeller Diameter of the Pump, carried by the \"DIAMETER / IMPELLER\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Impeller Diameter Unit"
+      },
+      "name": "impellerDiameterUnit",
+      "annotates": "impellerDiameter",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Pump:impellerDiameterUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Impeller Diameter on the Pump."
+      }
     }
   ],
   "@context": [

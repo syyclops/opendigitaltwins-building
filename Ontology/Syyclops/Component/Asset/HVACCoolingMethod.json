@@ -429,6 +429,81 @@
       "description": {
         "en": "Specifies the unit of measurement for the design leaving air wet bulb temperature."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Design Entering Air Enthalpy"
+      },
+      "name": "designEnteringAirEnthalpy",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designEnteringAirEnthalpy;1",
+      "description": {
+        "en": "Design Entering Air Enthalpy of the Cooling Method, carried by the \"H-EAT\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Design Leaving Air Enthalpy"
+      },
+      "name": "designLeavingAirEnthalpy",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirEnthalpy;1",
+      "description": {
+        "en": "Design Leaving Air Enthalpy of the Cooling Method, carried by the \"H-LAT\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Design Leaving Air Relative Humidity"
+      },
+      "name": "designLeavingAirRelativeHumidity",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designLeavingAirRelativeHumidity;1",
+      "description": {
+        "en": "Design Leaving Air Relative Humidity of the Cooling Method, carried by the \"Coil %RH\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Velocity"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity"
+      },
+      "name": "designFaceVelocity",
+      "schema": "double",
+      "unit": "footPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designFaceVelocity;1",
+      "description": {
+        "en": "Design Face Velocity of the Cooling Method, carried by the \"Air Face Velocity (FPM)\" column of the mechanical equipment schedules. Expressed in footPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity Unit"
+      },
+      "name": "designFaceVelocityUnit",
+      "annotates": "designFaceVelocity",
+      "overrides": "unit",
+      "schema": "VelocityUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACCoolingMethod:designFaceVelocityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Face Velocity on the Cooling Method."
+      }
     }
   ],
   "@context": [

@@ -209,6 +209,189 @@
       "schema": "LengthUnit",
       "writable": true,
       "@id": "dtmi:com:syyclops:Equipment:nominalDepthUnit;1"
+    },
+    {
+      "@type": [
+        "Property",
+        "Current"
+      ],
+      "displayName": {
+        "en": "Minimum Circuit Ampacity"
+      },
+      "name": "minimumCircuitAmpacity",
+      "schema": "double",
+      "unit": "ampere",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:minimumCircuitAmpacity;1",
+      "description": {
+        "en": "Minimum Circuit Ampacity of the Equipment, carried by the \"MCA\" column of the mechanical equipment schedules. Expressed in ampere."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Minimum Circuit Ampacity Unit"
+      },
+      "name": "minimumCircuitAmpacityUnit",
+      "annotates": "minimumCircuitAmpacity",
+      "overrides": "unit",
+      "schema": "CurrentUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:minimumCircuitAmpacityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Minimum Circuit Ampacity on the Equipment."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Current"
+      ],
+      "displayName": {
+        "en": "Max Overcurrent Protection"
+      },
+      "name": "maxOvercurrentProtection",
+      "schema": "double",
+      "unit": "ampere",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:maxOvercurrentProtection;1",
+      "description": {
+        "en": "Max Overcurrent Protection of the Equipment, carried by the \"MOCP/MOP\" column of the mechanical equipment schedules. Expressed in ampere."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Max Overcurrent Protection Unit"
+      },
+      "name": "maxOvercurrentProtectionUnit",
+      "annotates": "maxOvercurrentProtection",
+      "overrides": "unit",
+      "schema": "CurrentUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:maxOvercurrentProtectionUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Max Overcurrent Protection on the Equipment."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Phases"
+      },
+      "name": "numberOfPhases",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:numberOfPhases;1",
+      "description": {
+        "en": "Number Of Phases of the Equipment, carried by the \"VOLTS/PH/HZ\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Frequency"
+      ],
+      "displayName": {
+        "en": "Rated Frequency"
+      },
+      "name": "ratedFrequency",
+      "schema": "double",
+      "unit": "hertz",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:ratedFrequency;1",
+      "description": {
+        "en": "Rated Frequency of the Equipment, carried by the \"VOLTS/PH/HZ\" column of the mechanical equipment schedules. Expressed in hertz."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Rated Frequency Unit"
+      },
+      "name": "ratedFrequencyUnit",
+      "annotates": "ratedFrequency",
+      "overrides": "unit",
+      "schema": "FrequencyUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:ratedFrequencyUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Rated Frequency on the Equipment."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Emergency Power"
+      },
+      "name": "emergencyPower",
+      "schema": "boolean",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:emergencyPower;1",
+      "description": {
+        "en": "Emergency Power of the Equipment, carried by the \"EMERGENCY POWER (Y/N)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Control Method"
+      },
+      "name": "controlMethod",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:controlMethod;1",
+      "description": {
+        "en": "Control Method of the Equipment, carried by the \"CONTROL / CONTROL TYPE\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Max Operating Temperature"
+      },
+      "name": "maxOperatingTemperature",
+      "schema": "double",
+      "unit": "degreeFahrenheit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:maxOperatingTemperature;1",
+      "description": {
+        "en": "Max Operating Temperature of the Equipment, carried by the \"air separator, expansion tank\" column of the mechanical equipment schedules. Expressed in degreeFahrenheit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Max Operating Temperature Unit"
+      },
+      "name": "maxOperatingTemperatureUnit",
+      "annotates": "maxOperatingTemperature",
+      "overrides": "unit",
+      "schema": "TemperatureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Equipment:maxOperatingTemperatureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Max Operating Temperature on the Equipment."
+      }
     }
   ],
   "schemas": [

@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:syyclops:DuctlessSplitIndoorUnit;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Ductless Split Indoor Unit"
+  },
+  "extends": [
+    "dtmi:com:syyclops:FanCoilUnit;1"
+  ],
+  "contents": [],
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ],
+  "description": {
+    "en": "The indoor section of a ductless split system: a fan and a direct-expansion coil served by a dedicated outdoor condensing unit, with no ductwork between them."
+  }
+}

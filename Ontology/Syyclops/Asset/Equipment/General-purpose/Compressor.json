@@ -263,6 +263,284 @@
       "description": {
         "en": "A property specifying the units associated with the locked rotor current of the compressor."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Compressors"
+      },
+      "name": "numberOfCompressors",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:numberOfCompressors;1",
+      "description": {
+        "en": "Number Of Compressors of the Compressor, carried by the \"# of Comp / COMPRESSOR QTY\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Circuits"
+      },
+      "name": "numberOfCircuits",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:numberOfCircuits;1",
+      "description": {
+        "en": "Number Of Circuits of the Compressor, carried by the \"No. Circuits\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power Input"
+      },
+      "name": "powerInput",
+      "schema": "double",
+      "unit": "kilowatt",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:powerInput;1",
+      "description": {
+        "en": "Power Input of the Compressor, carried by the \"Compressor Imput KW\" column of the mechanical equipment schedules. Expressed in kilowatt."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Power Input Unit"
+      },
+      "name": "powerInputUnit",
+      "annotates": "powerInput",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:powerInputUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Power Input on the Compressor."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Mass"
+      ],
+      "displayName": {
+        "en": "Refrigerant Charge"
+      },
+      "name": "refrigerantCharge",
+      "schema": "double",
+      "unit": "massPound",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:refrigerantCharge;1",
+      "description": {
+        "en": "Refrigerant Charge of the Compressor, carried by the \"Ref. Charge LB\" column of the mechanical equipment schedules. Expressed in massPound."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Refrigerant Charge Unit"
+      },
+      "name": "refrigerantChargeUnit",
+      "annotates": "refrigerantCharge",
+      "overrides": "unit",
+      "schema": "MassUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:refrigerantChargeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Refrigerant Charge on the Compressor."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Total Heat Of Rejection"
+      },
+      "name": "totalHeatOfRejection",
+      "schema": "double",
+      "unit": "kiloBritishThermalUnitPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:totalHeatOfRejection;1",
+      "description": {
+        "en": "Total Heat Of Rejection of the Compressor, carried by the \"Total Heat of Rejection MBH\" column of the mechanical equipment schedules. Expressed in kiloBritishThermalUnitPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Total Heat Of Rejection Unit"
+      },
+      "name": "totalHeatOfRejectionUnit",
+      "annotates": "totalHeatOfRejection",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:totalHeatOfRejectionUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Total Heat Of Rejection on the Compressor."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Current"
+      ],
+      "displayName": {
+        "en": "Rated Load Current Remaining"
+      },
+      "name": "ratedLoadCurrentRemaining",
+      "schema": "double",
+      "unit": "ampere",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:ratedLoadCurrentRemaining;1",
+      "description": {
+        "en": "Rated Load Current Remaining of the Compressor, carried by the \"RLA Remaining\" column of the mechanical equipment schedules. Expressed in ampere."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Rated Load Current Remaining Unit"
+      },
+      "name": "ratedLoadCurrentRemainingUnit",
+      "annotates": "ratedLoadCurrentRemaining",
+      "overrides": "unit",
+      "schema": "CurrentUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:ratedLoadCurrentRemainingUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Rated Load Current Remaining on the Compressor."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity At Balance Point"
+      },
+      "name": "nominalCoolingCapacityAtBalancePoint",
+      "schema": "double",
+      "unit": "tonOfRefrigeration",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:nominalCoolingCapacityAtBalancePoint;1",
+      "description": {
+        "en": "Nominal Cooling Capacity At Balance Point of the Compressor, carried by the \"Tonnage @ Balance\" column of the mechanical equipment schedules. Expressed in tonOfRefrigeration."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity At Balance Point Unit"
+      },
+      "name": "nominalCoolingCapacityAtBalancePointUnit",
+      "annotates": "nominalCoolingCapacityAtBalancePoint",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:nominalCoolingCapacityAtBalancePointUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Nominal Cooling Capacity At Balance Point on the Compressor."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Design Cooling Entering Water Temperature"
+      },
+      "name": "designCoolingEnteringWaterTemperature",
+      "schema": "double",
+      "unit": "degreeFahrenheit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:designCoolingEnteringWaterTemperature;1",
+      "description": {
+        "en": "Design Cooling Entering Water Temperature of the Compressor, carried by the \"Summer EWT/LWT\" column of the mechanical equipment schedules. Expressed in degreeFahrenheit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Cooling Entering Water Temperature Unit"
+      },
+      "name": "designCoolingEnteringWaterTemperatureUnit",
+      "annotates": "designCoolingEnteringWaterTemperature",
+      "overrides": "unit",
+      "schema": "TemperatureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:designCoolingEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Cooling Entering Water Temperature on the Compressor."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Design Heating Entering Water Temperature"
+      },
+      "name": "designHeatingEnteringWaterTemperature",
+      "schema": "double",
+      "unit": "degreeFahrenheit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:designHeatingEnteringWaterTemperature;1",
+      "description": {
+        "en": "Design Heating Entering Water Temperature of the Compressor, carried by the \"Winter EWT/LWT\" column of the mechanical equipment schedules. Expressed in degreeFahrenheit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Heating Entering Water Temperature Unit"
+      },
+      "name": "designHeatingEnteringWaterTemperatureUnit",
+      "annotates": "designHeatingEnteringWaterTemperature",
+      "overrides": "unit",
+      "schema": "TemperatureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Compressor:designHeatingEnteringWaterTemperatureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Heating Entering Water Temperature on the Compressor."
+      }
     }
   ],
   "@context": [

@@ -107,41 +107,6 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Service"
-      },
-      "name": "service",
-      "schema": {
-        "@type": "Enum",
-        "enumValues": [
-          {
-            "enumValue": "Interior",
-            "displayName": {
-              "en": "Interior"
-            },
-            "name": "Interior",
-            "@id": "dtmi:com:syyclops:BarrierAsset:Interior;1"
-          },
-          {
-            "enumValue": "Exterior",
-            "displayName": {
-              "en": "Exterior"
-            },
-            "name": "Exterior",
-            "@id": "dtmi:com:syyclops:BarrierAsset:Exterior;1"
-          }
-        ],
-        "valueSchema": "string",
-        "@id": "dtmi:com:syyclops:BarrierAsset:ES1;1"
-      },
-      "writable": true,
-      "@id": "dtmi:com:syyclops:BarrierAsset:service;1",
-      "description": {
-        "en": "Describes the service associated with the Barrier Asset."
-      }
-    },
-    {
-      "@type": "Property",
-      "displayName": {
         "en": "Material"
       },
       "name": "material",

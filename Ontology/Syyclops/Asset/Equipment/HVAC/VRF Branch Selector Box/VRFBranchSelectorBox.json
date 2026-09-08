@@ -1,0 +1,159 @@
+{
+  "@id": "dtmi:com:syyclops:VRFBranchSelectorBox;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "VRF Branch Selector Box"
+  },
+  "extends": [
+    "dtmi:com:syyclops:HVACEquipment;1"
+  ],
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:type;1",
+      "description": {
+        "en": "Type of the VRF Branch Selector Box, carried by the \"TYPE (BC Controller)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Ports"
+      },
+      "name": "numberOfPorts",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:numberOfPorts;1",
+      "description": {
+        "en": "Number Of Ports of the VRF Branch Selector Box, carried by the \"NUMBER OF PORTS\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Max Connections"
+      },
+      "name": "maxConnections",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:maxConnections;1",
+      "description": {
+        "en": "Max Connections of the VRF Branch Selector Box, carried by the \"MAXIMUM CONNECTIONS\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity"
+      },
+      "name": "nominalCoolingCapacity",
+      "schema": "double",
+      "unit": "kiloBritishThermalUnitPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:nominalCoolingCapacity;1",
+      "description": {
+        "en": "Nominal Cooling Capacity of the VRF Branch Selector Box, carried by the \"COOLING (DX) TOTAL MBH\" column of the mechanical equipment schedules. Expressed in kiloBritishThermalUnitPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity Unit"
+      },
+      "name": "nominalCoolingCapacityUnit",
+      "annotates": "nominalCoolingCapacity",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:nominalCoolingCapacityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Nominal Cooling Capacity on the VRF Branch Selector Box."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity Per Port"
+      },
+      "name": "nominalCoolingCapacityPerPort",
+      "schema": "double",
+      "unit": "kiloBritishThermalUnitPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:nominalCoolingCapacityPerPort;1",
+      "description": {
+        "en": "Nominal Cooling Capacity Per Port of the VRF Branch Selector Box, carried by the \"COOLING (DX) PER PORT MBH\" column of the mechanical equipment schedules. Expressed in kiloBritishThermalUnitPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity Per Port Unit"
+      },
+      "name": "nominalCoolingCapacityPerPortUnit",
+      "annotates": "nominalCoolingCapacityPerPort",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:nominalCoolingCapacityPerPortUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Nominal Cooling Capacity Per Port on the VRF Branch Selector Box."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Sound Pressure Level"
+      },
+      "name": "soundPressureLevel",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:soundPressureLevel;1",
+      "description": {
+        "en": "Sound Pressure Level of the VRF Branch Selector Box, carried by the \"SOUND PRESSURE LEVEL (dBA)\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Refrigerant Type"
+      },
+      "name": "refrigerantType",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VRFBranchSelectorBox:refrigerantType;1",
+      "description": {
+        "en": "Refrigerant Type of the VRF Branch Selector Box, carried by the \"REFRIGERANT\" column of the mechanical equipment schedules."
+      }
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ],
+  "description": {
+    "en": "A branch selector box (also called a BC controller) of a VRF heat recovery system, distributing refrigerant between the outdoor unit and a group of indoor units so some can cool while others heat."
+  }
+}

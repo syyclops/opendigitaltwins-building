@@ -185,6 +185,117 @@
       "description": {
         "en": "Specifies the unit of measurement for the design pressure drop in the evaporator."
       }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Min Flow"
+      },
+      "name": "designMinFlow",
+      "schema": "double",
+      "unit": "gallonPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:designMinFlow;1",
+      "description": {
+        "en": "Design Min Flow of the Evaporator, carried by the \"MIN. FLOW (GPM)\" column of the mechanical equipment schedules. Expressed in gallonPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Min Flow Unit"
+      },
+      "name": "designMinFlowUnit",
+      "annotates": "designMinFlow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:designMinFlowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Min Flow on the Evaporator."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Volume"
+      ],
+      "displayName": {
+        "en": "Fluid Volume"
+      },
+      "name": "fluidVolume",
+      "schema": "double",
+      "unit": "gallon",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:fluidVolume;1",
+      "description": {
+        "en": "Fluid Volume of the Evaporator, carried by the \"FLUID VOLUME (GALLONS)\" column of the mechanical equipment schedules. Expressed in gallon."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Fluid Volume Unit"
+      },
+      "name": "fluidVolumeUnit",
+      "annotates": "fluidVolume",
+      "overrides": "unit",
+      "schema": "VolumeUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:fluidVolumeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Fluid Volume on the Evaporator."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Glycol Concentration"
+      },
+      "name": "glycolConcentration",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:glycolConcentration;1",
+      "description": {
+        "en": "Glycol Concentration of the Evaporator, carried by the \"PROPYLENE GLYCOL (%)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Fouling Factor"
+      },
+      "name": "foulingFactor",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:foulingFactor;1",
+      "description": {
+        "en": "Fouling Factor of the Evaporator, carried by the \"FOULING FACTOR\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Passes"
+      },
+      "name": "numberOfPasses",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Evaporator:numberOfPasses;1",
+      "description": {
+        "en": "Number Of Passes of the Evaporator, carried by the \"NUMBER OF PASS\" column of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

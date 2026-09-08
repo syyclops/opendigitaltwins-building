@@ -79,6 +79,212 @@
       "description": {
         "en": "Defines the unit of measurement for the pipe diameter related to the hydronic air separator."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:type;1",
+      "description": {
+        "en": "Type of the Hydronic Air Separator, carried by the \"TYPE (Tangential)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Vent Connection Size"
+      },
+      "name": "ventConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:ventConnectionSize;1",
+      "description": {
+        "en": "Vent Connection Size of the Hydronic Air Separator, carried by the \"CONNECTION SIZE / VENT\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Vent Connection Size Unit"
+      },
+      "name": "ventConnectionSizeUnit",
+      "annotates": "ventConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:ventConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Vent Connection Size on the Hydronic Air Separator."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Drain Connection Size"
+      },
+      "name": "drainConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:drainConnectionSize;1",
+      "description": {
+        "en": "Drain Connection Size of the Hydronic Air Separator, carried by the \"CONNECTION SIZE / DRAIN\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Drain Connection Size Unit"
+      },
+      "name": "drainConnectionSizeUnit",
+      "annotates": "drainConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:drainConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Drain Connection Size on the Hydronic Air Separator."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Flow Capacity"
+      },
+      "name": "flowCapacity",
+      "schema": "double",
+      "unit": "gallonPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:flowCapacity;1",
+      "description": {
+        "en": "Flow Capacity of the Hydronic Air Separator, carried by the \"FLOW (GPM)\" column of the mechanical equipment schedules. Expressed in gallonPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Flow Capacity Unit"
+      },
+      "name": "flowCapacityUnit",
+      "annotates": "flowCapacity",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:flowCapacityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Flow Capacity on the Hydronic Air Separator."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop"
+      },
+      "name": "designPressureDrop",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:designPressureDrop;1",
+      "description": {
+        "en": "Design Pressure Drop of the Hydronic Air Separator, carried by the \"PRESSURE DROP\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop Unit"
+      },
+      "name": "designPressureDropUnit",
+      "annotates": "designPressureDrop",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:designPressureDropUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Pressure Drop on the Hydronic Air Separator."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Volume"
+      ],
+      "displayName": {
+        "en": "Fluid Volume"
+      },
+      "name": "fluidVolume",
+      "schema": "double",
+      "unit": "gallon",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:fluidVolume;1",
+      "description": {
+        "en": "Fluid Volume of the Hydronic Air Separator, carried by the \"FLUID VOLUME (GALLONS)\" column of the mechanical equipment schedules. Expressed in gallon."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Fluid Volume Unit"
+      },
+      "name": "fluidVolumeUnit",
+      "annotates": "fluidVolume",
+      "overrides": "unit",
+      "schema": "VolumeUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:fluidVolumeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Fluid Volume on the Hydronic Air Separator."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Has Strainer"
+      },
+      "name": "hasStrainer",
+      "schema": "boolean",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HydronicAirSeparator:hasStrainer;1",
+      "description": {
+        "en": "Has Strainer of the Hydronic Air Separator, carried by the \"STRAINER\" column of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

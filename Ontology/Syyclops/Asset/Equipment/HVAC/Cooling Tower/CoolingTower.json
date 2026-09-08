@@ -315,6 +315,261 @@
       "description": {
         "en": "Specifies the unit of measurement for design maximum flow, typically in gallons per minute (GPM) or cubic meters per hour."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:type;1",
+      "description": {
+        "en": "Type of the Cooling Tower, carried by the \"TYPE (Induced Draft Counterflow)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop"
+      },
+      "name": "designPressureDrop",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:designPressureDrop;1",
+      "description": {
+        "en": "Design Pressure Drop of the Cooling Tower, carried by the \"PRESSURE DROP\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop Unit"
+      },
+      "name": "designPressureDropUnit",
+      "annotates": "designPressureDrop",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:designPressureDropUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Pressure Drop on the Cooling Tower."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Basin Heaters"
+      },
+      "name": "numberOfBasinHeaters",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:numberOfBasinHeaters;1",
+      "description": {
+        "en": "Number Of Basin Heaters of the Cooling Tower, carried by the \"BASIN HEATER QTY / No of Heaters\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Basin Heater Capacity"
+      },
+      "name": "basinHeaterCapacity",
+      "schema": "double",
+      "unit": "kilowatt",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:basinHeaterCapacity;1",
+      "description": {
+        "en": "Basin Heater Capacity of the Cooling Tower, carried by the \"BASIN HEATER CAPACITY (KW EACH)\" column of the mechanical equipment schedules. Expressed in kilowatt."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Basin Heater Capacity Unit"
+      },
+      "name": "basinHeaterCapacityUnit",
+      "annotates": "basinHeaterCapacity",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:basinHeaterCapacityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Basin Heater Capacity on the Cooling Tower."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Working Pressure"
+      },
+      "name": "workingPressure",
+      "schema": "double",
+      "unit": "poundPerSquareInch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:workingPressure;1",
+      "description": {
+        "en": "Working Pressure of the Cooling Tower, carried by the \"Max Pressure\" column of the mechanical equipment schedules. Expressed in poundPerSquareInch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Working Pressure Unit"
+      },
+      "name": "workingPressureUnit",
+      "annotates": "workingPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:workingPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Working Pressure on the Cooling Tower."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Has Filtration"
+      },
+      "name": "hasFiltration",
+      "schema": "boolean",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:hasFiltration;1",
+      "description": {
+        "en": "Has Filtration of the Cooling Tower, carried by the \"Filter Micro Remover\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Inlet Connection Size"
+      },
+      "name": "inletConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:inletConnectionSize;1",
+      "description": {
+        "en": "Inlet Connection Size of the Cooling Tower, carried by the \"Inlet Size (in)\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Inlet Connection Size Unit"
+      },
+      "name": "inletConnectionSizeUnit",
+      "annotates": "inletConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:inletConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Inlet Connection Size on the Cooling Tower."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Outlet Connection Size"
+      },
+      "name": "outletConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:outletConnectionSize;1",
+      "description": {
+        "en": "Outlet Connection Size of the Cooling Tower, carried by the \"Outlet Size (in)\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Outlet Connection Size Unit"
+      },
+      "name": "outletConnectionSizeUnit",
+      "annotates": "outletConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:outletConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Outlet Connection Size on the Cooling Tower."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Pump Connection Size"
+      },
+      "name": "pumpConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:pumpConnectionSize;1",
+      "description": {
+        "en": "Pump Connection Size of the Cooling Tower, carried by the \"PumpSize (in)\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Pump Connection Size Unit"
+      },
+      "name": "pumpConnectionSizeUnit",
+      "annotates": "pumpConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CoolingTower:pumpConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Pump Connection Size on the Cooling Tower."
+      }
     }
   ],
   "@context": [

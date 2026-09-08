@@ -1179,6 +1179,55 @@
       "description": {
         "en": "Indicates the wet bulb temperature of leaving air in the exhaust heating design of the energy recovery device."
       }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Motor Power"
+      },
+      "name": "motorPower",
+      "schema": "double",
+      "unit": "horsepower",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:motorPower;1",
+      "description": {
+        "en": "Motor Power of the Energy Recovery Device, carried by the \"ERD HP\" column of the mechanical equipment schedules. Expressed in horsepower."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Motor Power Unit"
+      },
+      "name": "motorPowerUnit",
+      "annotates": "motorPower",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:motorPowerUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Motor Power on the Energy Recovery Device."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Frost Protection Method"
+      },
+      "name": "frostProtectionMethod",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:EnergyRecoveryDevice:frostProtectionMethod;1",
+      "description": {
+        "en": "Frost Protection Method of the Energy Recovery Device, carried by the \"Frost Protection Method\" column of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

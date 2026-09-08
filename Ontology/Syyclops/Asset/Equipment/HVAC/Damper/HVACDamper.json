@@ -11,49 +11,6 @@
     {
       "@type": "Property",
       "displayName": {
-        "en": "Service"
-      },
-      "name": "service",
-      "schema": {
-        "@type": "Enum",
-        "enumValues": [
-          {
-            "enumValue": "Supply",
-            "displayName": {
-              "en": "Supply"
-            },
-            "name": "Supply",
-            "@id": "dtmi:com:syyclops:HVACDamper:Supply;1"
-          },
-          {
-            "enumValue": "Return",
-            "displayName": {
-              "en": "Return"
-            },
-            "name": "Return",
-            "@id": "dtmi:com:syyclops:HVACDamper:Return;1"
-          },
-          {
-            "enumValue": "Exhaust",
-            "displayName": {
-              "en": "Exhaust"
-            },
-            "name": "Exhaust",
-            "@id": "dtmi:com:syyclops:HVACDamper:Exhaust;1"
-          }
-        ],
-        "valueSchema": "string",
-        "@id": "dtmi:com:syyclops:HVACDamper:ES1;1"
-      },
-      "writable": true,
-      "@id": "dtmi:com:syyclops:HVACDamper:service;1",
-      "description": {
-        "en": "The service property indicates the type of service an HVAC Damper provides, ensuring compliance with system operational standards."
-      }
-    },
-    {
-      "@type": "Property",
-      "displayName": {
         "en": "Leakage Class"
       },
       "name": "leakageClass",
@@ -147,6 +104,91 @@
       "@id": "dtmi:com:syyclops:HVACDamper:ductInlet;1",
       "description": {
         "en": "The ductInlet component specifies the inlet design of an HVAC Damper, which is crucial for proper installation and functionality."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Served System"
+      },
+      "name": "servedSystem",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACDamper:servedSystem;1",
+      "description": {
+        "en": "Served System of the HVAC Damper, carried by the \"SYSTEM (Supply Air)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Airflow"
+      },
+      "name": "designAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACDamper:designAirflow;1",
+      "description": {
+        "en": "Design Airflow of the HVAC Damper, carried by the \"CFM\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Airflow Unit"
+      },
+      "name": "designAirflowUnit",
+      "annotates": "designAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACDamper:designAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Airflow on the HVAC Damper."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Velocity"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity"
+      },
+      "name": "designFaceVelocity",
+      "schema": "double",
+      "unit": "footPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACDamper:designFaceVelocity;1",
+      "description": {
+        "en": "Design Face Velocity of the HVAC Damper, carried by the \"VELOCITY (FPM)\" column of the mechanical equipment schedules. Expressed in footPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity Unit"
+      },
+      "name": "designFaceVelocityUnit",
+      "annotates": "designFaceVelocity",
+      "overrides": "unit",
+      "schema": "VelocityUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACDamper:designFaceVelocityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Face Velocity on the HVAC Damper."
       }
     }
   ],

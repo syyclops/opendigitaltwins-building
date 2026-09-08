@@ -254,6 +254,30 @@
       "description": {
         "en": "The fan component represents the airflow mechanism within the Fan Coil Unit, facilitating the circulation of air."
       }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Heating Method"
+      },
+      "name": "heatingMethod",
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
+      "@id": "dtmi:com:syyclops:FanCoilUnit:heatingMethod;1",
+      "description": {
+        "en": "Heating Method of the Fan Coil Unit, carrying the \"FCU Heating block\" figures of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Auxiliary Heating Method"
+      },
+      "name": "auxiliaryHeatingMethod",
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
+      "@id": "dtmi:com:syyclops:FanCoilUnit:auxiliaryHeatingMethod;1",
+      "description": {
+        "en": "Auxiliary Heating Method of the Fan Coil Unit, carrying the \"Supplemental Electric Heat of the split schedule\" figures of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

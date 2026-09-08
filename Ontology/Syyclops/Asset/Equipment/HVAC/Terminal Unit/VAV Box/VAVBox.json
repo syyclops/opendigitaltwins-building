@@ -11,6 +11,19 @@
     "dtmi:com:syyclops:TerminalUnit;1"
   ],
   "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:VAVBox:type;1",
+      "description": {
+        "en": "Type of the VAV Box, carried by the \"TYPE\" column of the mechanical equipment schedules."
+      }
+    }
   ],
   "@context": [
     "dtmi:dtdl:context;3"

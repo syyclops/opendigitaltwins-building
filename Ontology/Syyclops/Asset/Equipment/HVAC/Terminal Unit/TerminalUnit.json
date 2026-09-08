@@ -357,6 +357,361 @@
       "schema": "boolean",
       "writable": true,
       "@id": "dtmi:com:syyclops:TerminalUnit:excludedFromComfortAnalytics;1"
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow"
+      },
+      "name": "designOutsideAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:designOutsideAirflow;1",
+      "description": {
+        "en": "Design Outside Airflow of the Terminal Unit, carried by the \"split indoor O.A CFM\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow Unit"
+      },
+      "name": "designOutsideAirflowUnit",
+      "annotates": "designOutsideAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:designOutsideAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Outside Airflow on the Terminal Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Inlet Static Pressure"
+      },
+      "name": "designInletStaticPressure",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:designInletStaticPressure;1",
+      "description": {
+        "en": "Design Inlet Static Pressure of the Terminal Unit, carried by the \"INLET PRESSURE (IN WC)\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Inlet Static Pressure Unit"
+      },
+      "name": "designInletStaticPressureUnit",
+      "annotates": "designInletStaticPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:designInletStaticPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Inlet Static Pressure on the Terminal Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop"
+      },
+      "name": "designPressureDrop",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:designPressureDrop;1",
+      "description": {
+        "en": "Design Pressure Drop of the Terminal Unit, carried by the \"PRESSURE DROP (IN WC)\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop Unit"
+      },
+      "name": "designPressureDropUnit",
+      "annotates": "designPressureDrop",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:designPressureDropUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Pressure Drop on the Terminal Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Sound Pressure Level"
+      },
+      "name": "soundPressureLevel",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:soundPressureLevel;1",
+      "description": {
+        "en": "Sound Pressure Level of the Terminal Unit, carried by the \"Sound Pressure level (dBA)\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Radiated Sound Power 63 Hz"
+      },
+      "name": "radiatedSoundPower63Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedSoundPower63Hz;1",
+      "description": {
+        "en": "Radiated Sound Power 63 Hz of the Terminal Unit, carried by the \"RADIATED 63 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Radiated Sound Power 125 Hz"
+      },
+      "name": "radiatedSoundPower125Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedSoundPower125Hz;1",
+      "description": {
+        "en": "Radiated Sound Power 125 Hz of the Terminal Unit, carried by the \"RADIATED 125 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Radiated Sound Power 250 Hz"
+      },
+      "name": "radiatedSoundPower250Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedSoundPower250Hz;1",
+      "description": {
+        "en": "Radiated Sound Power 250 Hz of the Terminal Unit, carried by the \"RADIATED 250 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Radiated Sound Power 500 Hz"
+      },
+      "name": "radiatedSoundPower500Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedSoundPower500Hz;1",
+      "description": {
+        "en": "Radiated Sound Power 500 Hz of the Terminal Unit, carried by the \"RADIATED 500 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Radiated Sound Power 1000 Hz"
+      },
+      "name": "radiatedSoundPower1000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedSoundPower1000Hz;1",
+      "description": {
+        "en": "Radiated Sound Power 1000 Hz of the Terminal Unit, carried by the \"RADIATED 1000 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Radiated Sound Power 2000 Hz"
+      },
+      "name": "radiatedSoundPower2000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedSoundPower2000Hz;1",
+      "description": {
+        "en": "Radiated Sound Power 2000 Hz of the Terminal Unit, carried by the \"RADIATED 2000 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Radiated Noise Criteria"
+      },
+      "name": "radiatedNoiseCriteria",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:radiatedNoiseCriteria;1",
+      "description": {
+        "en": "Radiated Noise Criteria of the Terminal Unit, carried by the \"RADIATED NC\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Discharge Sound Power 63 Hz"
+      },
+      "name": "dischargeSoundPower63Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeSoundPower63Hz;1",
+      "description": {
+        "en": "Discharge Sound Power 63 Hz of the Terminal Unit, carried by the \"DISCHARGE 63 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Discharge Sound Power 125 Hz"
+      },
+      "name": "dischargeSoundPower125Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeSoundPower125Hz;1",
+      "description": {
+        "en": "Discharge Sound Power 125 Hz of the Terminal Unit, carried by the \"DISCHARGE 125 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Discharge Sound Power 250 Hz"
+      },
+      "name": "dischargeSoundPower250Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeSoundPower250Hz;1",
+      "description": {
+        "en": "Discharge Sound Power 250 Hz of the Terminal Unit, carried by the \"DISCHARGE 250 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Discharge Sound Power 500 Hz"
+      },
+      "name": "dischargeSoundPower500Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeSoundPower500Hz;1",
+      "description": {
+        "en": "Discharge Sound Power 500 Hz of the Terminal Unit, carried by the \"DISCHARGE 500 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Discharge Sound Power 1000 Hz"
+      },
+      "name": "dischargeSoundPower1000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeSoundPower1000Hz;1",
+      "description": {
+        "en": "Discharge Sound Power 1000 Hz of the Terminal Unit, carried by the \"DISCHARGE 1000 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Discharge Sound Power 2000 Hz"
+      },
+      "name": "dischargeSoundPower2000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeSoundPower2000Hz;1",
+      "description": {
+        "en": "Discharge Sound Power 2000 Hz of the Terminal Unit, carried by the \"DISCHARGE 2000 HZ\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Discharge Noise Criteria"
+      },
+      "name": "dischargeNoiseCriteria",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:TerminalUnit:dischargeNoiseCriteria;1",
+      "description": {
+        "en": "Discharge Noise Criteria of the Terminal Unit, carried by the \"DISCHARGE NC\" column of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

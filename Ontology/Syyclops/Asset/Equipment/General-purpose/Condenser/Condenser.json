@@ -12,7 +12,45 @@
     "dtmi:com:syyclops:GeneralPurposeEquipment;1"
   ],
   "contents": [
-
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Glycol Concentration"
+      },
+      "name": "glycolConcentration",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Condenser:glycolConcentration;1",
+      "description": {
+        "en": "Glycol Concentration of the Condenser, carried by the \"PROPYLENE GLYCOL (%)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Fouling Factor"
+      },
+      "name": "foulingFactor",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Condenser:foulingFactor;1",
+      "description": {
+        "en": "Fouling Factor of the Condenser, carried by the \"FOULING FACTOR\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Passes"
+      },
+      "name": "numberOfPasses",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Condenser:numberOfPasses;1",
+      "description": {
+        "en": "Number Of Passes of the Condenser, carried by the \"NUMBER OF PASS\" column of the mechanical equipment schedules."
+      }
+    }
   ],
   "@context": [
     "dtmi:dtdl:context;3",
