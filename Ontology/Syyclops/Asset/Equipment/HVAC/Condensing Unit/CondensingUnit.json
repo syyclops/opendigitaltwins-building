@@ -215,6 +215,260 @@
       "description": {
         "en": "Defines the Energy Efficiency Ratio (EER) of the Condensing Unit, measuring its cooling output relative to energy consumption."
       }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Nominal Heating Capacity At Low Ambient"
+      },
+      "name": "nominalHeatingCapacityAtLowAmbient",
+      "schema": "double",
+      "unit": "kiloBritishThermalUnitPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalHeatingCapacityAtLowAmbient;1",
+      "description": {
+        "en": "Nominal Heating Capacity At Low Ambient of the Condensing Unit, carried by the \"Heating Cap @ 17F / Rev. Cyc. MBH\" column of the mechanical equipment schedules. Expressed in kiloBritishThermalUnitPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Nominal Heating Capacity At Low Ambient Unit"
+      },
+      "name": "nominalHeatingCapacityAtLowAmbientUnit",
+      "annotates": "nominalHeatingCapacityAtLowAmbient",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalHeatingCapacityAtLowAmbientUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Nominal Heating Capacity At Low Ambient on the Condensing Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Fan Motor Power"
+      },
+      "name": "fanMotorPower",
+      "schema": "double",
+      "unit": "horsepower",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:fanMotorPower;1",
+      "description": {
+        "en": "Fan Motor Power of the Condensing Unit, carried by the \"split outdoor MTR. HP (condenser fan)\" column of the mechanical equipment schedules. Expressed in horsepower."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Fan Motor Power Unit"
+      },
+      "name": "fanMotorPowerUnit",
+      "annotates": "fanMotorPower",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:fanMotorPowerUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Fan Motor Power on the Condensing Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow"
+      },
+      "name": "designOutsideAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:designOutsideAirflow;1",
+      "description": {
+        "en": "Design Outside Airflow of the Condensing Unit, carried by the \"O.A Max CFM\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow Unit"
+      },
+      "name": "designOutsideAirflowUnit",
+      "annotates": "designOutsideAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:designOutsideAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Outside Airflow on the Condensing Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Design Outdoor Dry Bulb Temperature"
+      },
+      "name": "designOutdoorDryBulbTemperature",
+      "schema": "double",
+      "unit": "degreeFahrenheit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:designOutdoorDryBulbTemperature;1",
+      "description": {
+        "en": "Design Outdoor Dry Bulb Temperature of the Condensing Unit, carried by the \"OUTDOOR TEMPERATURE DB\" column of the mechanical equipment schedules. Expressed in degreeFahrenheit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Outdoor Dry Bulb Temperature Unit"
+      },
+      "name": "designOutdoorDryBulbTemperatureUnit",
+      "annotates": "designOutdoorDryBulbTemperature",
+      "overrides": "unit",
+      "schema": "TemperatureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:designOutdoorDryBulbTemperatureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Outdoor Dry Bulb Temperature on the Condensing Unit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Design Outdoor Wet Bulb Temperature"
+      },
+      "name": "designOutdoorWetBulbTemperature",
+      "schema": "double",
+      "unit": "degreeFahrenheit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:designOutdoorWetBulbTemperature;1",
+      "description": {
+        "en": "Design Outdoor Wet Bulb Temperature of the Condensing Unit, carried by the \"OUTDOOR TEMPERATURE WB\" column of the mechanical equipment schedules. Expressed in degreeFahrenheit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Outdoor Wet Bulb Temperature Unit"
+      },
+      "name": "designOutdoorWetBulbTemperatureUnit",
+      "annotates": "designOutdoorWetBulbTemperature",
+      "overrides": "unit",
+      "schema": "TemperatureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:designOutdoorWetBulbTemperatureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Outdoor Wet Bulb Temperature on the Condensing Unit."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "IEER"
+      },
+      "name": "ieer",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:ieer;1",
+      "description": {
+        "en": "IEER of the Condensing Unit, carried by the \"IEER @ 95F\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Nominal Coefficient Of Performance"
+      },
+      "name": "nominalCoefficientOfPerformance",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:CondensingUnit:nominalCoefficientOfPerformance;1",
+      "description": {
+        "en": "Nominal Coefficient Of Performance of the Condensing Unit, carried by the \"COP @ 47F\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Supply Fan"
+      },
+      "name": "supplyFan",
+      "schema": "dtmi:com:syyclops:Fan;1",
+      "@id": "dtmi:com:syyclops:CondensingUnit:supplyFan;1",
+      "description": {
+        "en": "Supply Fan of the Condensing Unit, carrying the \"HEAT PUMP (WATER SOURCE) supply air / fan motor\" figures of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Primary Cooling Method"
+      },
+      "name": "primaryCoolingMethod",
+      "schema": "dtmi:com:syyclops:HVACCoolingMethod;1",
+      "@id": "dtmi:com:syyclops:CondensingUnit:primaryCoolingMethod;1",
+      "description": {
+        "en": "Primary Cooling Method of the Condensing Unit, carrying the \"COOLING DATA block\" figures of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Heating Method"
+      },
+      "name": "heatingMethod",
+      "schema": "dtmi:com:syyclops:HVACHeatingMethod;1",
+      "@id": "dtmi:com:syyclops:CondensingUnit:heatingMethod;1",
+      "description": {
+        "en": "Heating Method of the Condensing Unit, carrying the \"HEATING DATA block\" figures of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Compressor"
+      },
+      "name": "compressor",
+      "schema": "dtmi:com:syyclops:Compressor;1",
+      "@id": "dtmi:com:syyclops:CondensingUnit:compressor;1",
+      "description": {
+        "en": "Compressor of the Condensing Unit, carrying the \"COMPRESSOR DATA block\" figures of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

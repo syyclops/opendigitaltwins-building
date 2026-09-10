@@ -230,6 +230,166 @@
       "description": {
         "en": "The nominalEnergyEfficiencyRatio property quantifies the chiller's cooling output in relation to its energy consumption."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:type;1",
+      "description": {
+        "en": "Type of the Chiller, carried by the \"chiller TYPE\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Modules"
+      },
+      "name": "numberOfModules",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:numberOfModules;1",
+      "description": {
+        "en": "Number Of Modules of the Chiller, carried by the \"TOTAL NUMBER OF MODULE\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity Per Module"
+      },
+      "name": "nominalCoolingCapacityPerModule",
+      "schema": "double",
+      "unit": "tonOfRefrigeration",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:nominalCoolingCapacityPerModule;1",
+      "description": {
+        "en": "Nominal Cooling Capacity Per Module of the Chiller, carried by the \"NOMINAL CAPACITY PER MODULE\" column of the mechanical equipment schedules. Expressed in tonOfRefrigeration."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Nominal Cooling Capacity Per Module Unit"
+      },
+      "name": "nominalCoolingCapacityPerModuleUnit",
+      "annotates": "nominalCoolingCapacityPerModule",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:nominalCoolingCapacityPerModuleUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Nominal Cooling Capacity Per Module on the Chiller."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Mass"
+      ],
+      "displayName": {
+        "en": "Refrigerant Charge"
+      },
+      "name": "refrigerantCharge",
+      "schema": "double",
+      "unit": "massPound",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:refrigerantCharge;1",
+      "description": {
+        "en": "Refrigerant Charge of the Chiller, carried by the \"REFRIGERANT CHARGE (LBS)\" column of the mechanical equipment schedules. Expressed in massPound."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Refrigerant Charge Unit"
+      },
+      "name": "refrigerantChargeUnit",
+      "annotates": "refrigerantCharge",
+      "overrides": "unit",
+      "schema": "MassUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:refrigerantChargeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Refrigerant Charge on the Chiller."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "NPLV Energy Efficiency Ratio"
+      },
+      "name": "nplvEnergyEfficiencyRatio",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:nplvEnergyEfficiencyRatio;1",
+      "description": {
+        "en": "NPLV Energy Efficiency Ratio of the Chiller, carried by the \"NPLV EER\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "NPLV KW Per Ton"
+      },
+      "name": "nplvKWPerTon",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:nplvKWPerTon;1",
+      "description": {
+        "en": "NPLV KW Per Ton of the Chiller, carried by the \"NPLV (KW/TON)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Temperature"
+      ],
+      "displayName": {
+        "en": "Design Ambient Temperature"
+      },
+      "name": "designAmbientTemperature",
+      "schema": "double",
+      "unit": "degreeFahrenheit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:designAmbientTemperature;1",
+      "description": {
+        "en": "Design Ambient Temperature of the Chiller, carried by the \"AMBIENT TEMP\" column of the mechanical equipment schedules. Expressed in degreeFahrenheit."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Ambient Temperature Unit"
+      },
+      "name": "designAmbientTemperatureUnit",
+      "annotates": "designAmbientTemperature",
+      "overrides": "unit",
+      "schema": "TemperatureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Chiller:designAmbientTemperatureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Ambient Temperature on the Chiller."
+      }
     }
   ],
   "@context": [

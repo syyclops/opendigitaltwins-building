@@ -486,6 +486,160 @@
       "schema": "integer",
       "writable": true,
       "@id": "dtmi:com:syyclops:Fan:numberOfFans;1"
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Wheel Type"
+      },
+      "name": "wheelType",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:wheelType;1",
+      "description": {
+        "en": "Wheel Type of the Fan, carried by the \"AHU fan Type (SWSIDD), cooling tower Fan Type (Propeller)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Total Static Pressure"
+      },
+      "name": "designTotalStaticPressure",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:designTotalStaticPressure;1",
+      "description": {
+        "en": "Design Total Static Pressure of the Fan, carried by the \"TSP\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Total Static Pressure Unit"
+      },
+      "name": "designTotalStaticPressureUnit",
+      "annotates": "designTotalStaticPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:designTotalStaticPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Total Static Pressure on the Fan."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "AngularVelocity"
+      ],
+      "displayName": {
+        "en": "Motor Rotation Speed"
+      },
+      "name": "motorRotationSpeed",
+      "schema": "double",
+      "unit": "revolutionPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:motorRotationSpeed;1",
+      "description": {
+        "en": "Motor Rotation Speed of the Fan, carried by the \"Motor RPM (ticket: \"RPM motor\")\" column of the mechanical equipment schedules. Expressed in revolutionPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Wheel Diameter"
+      },
+      "name": "wheelDiameter",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:wheelDiameter;1",
+      "description": {
+        "en": "Wheel Diameter of the Fan, carried by the \"Fan Dia (In)\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Wheel Diameter Unit"
+      },
+      "name": "wheelDiameterUnit",
+      "annotates": "wheelDiameter",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:wheelDiameterUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Wheel Diameter on the Fan."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Sound Rating"
+      },
+      "name": "soundRating",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:soundRating;1",
+      "description": {
+        "en": "Sound Rating of the Fan, carried by the \"Sones\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Speed Settings"
+      },
+      "name": "speedSettings",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:speedSettings;1",
+      "description": {
+        "en": "Speed Settings of the Fan, carried by the \"Fan Speed (High/Med/Low)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Accessories"
+      },
+      "name": "accessories",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:accessories;1",
+      "description": {
+        "en": "Accessories of the Fan, carried by the \"Accessories\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Interlocked With"
+      },
+      "name": "interlockedWith",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Fan:interlockedWith;1",
+      "description": {
+        "en": "Interlocked With of the Fan, carried by the \"Interlock With\" column of the mechanical equipment schedules."
+      }
     }
   ],
   "@context": [

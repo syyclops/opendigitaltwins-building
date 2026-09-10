@@ -827,6 +827,92 @@
       "description": {
         "en": "The energyRecoveryDevice reclaims energy from exhaust air to enhance the overall efficiency of the Air Handling Unit."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Mounting Orientation"
+      },
+      "name": "mountingOrientation",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:mountingOrientation;1",
+      "description": {
+        "en": "Mounting Orientation of the Air Handling Unit, carried by the \"Orientation (Horizontal-Monobloc)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow"
+      },
+      "name": "designOutsideAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:designOutsideAirflow;1",
+      "description": {
+        "en": "Design Outside Airflow of the Air Handling Unit, carried by the \"Outside Air CFM\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow Unit"
+      },
+      "name": "designOutsideAirflowUnit",
+      "annotates": "designOutsideAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:designOutsideAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Outside Airflow on the Air Handling Unit."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Nominal Coefficient Of Performance"
+      },
+      "name": "nominalCoefficientOfPerformance",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:nominalCoefficientOfPerformance;1",
+      "description": {
+        "en": "Nominal Coefficient Of Performance of the Air Handling Unit, carried by the \"CRAC COP\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Compressor"
+      },
+      "name": "compressor",
+      "schema": "dtmi:com:syyclops:Compressor;1",
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:compressor;1",
+      "description": {
+        "en": "Compressor of the Air Handling Unit, carrying the \"AHU/CRAC Water Source Heat Pump + Compressor Data\" figures of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Component",
+      "displayName": {
+        "en": "Humidifier"
+      },
+      "name": "humidifier",
+      "schema": "dtmi:com:syyclops:Humidifier;1",
+      "@id": "dtmi:com:syyclops:AirHandlingUnit:humidifier;1",
+      "description": {
+        "en": "Humidifier of the Air Handling Unit, carrying the \"CRAC Humidifier Data\" figures of the mechanical equipment schedules."
+      }
     }
   ],
   "schemas": [],

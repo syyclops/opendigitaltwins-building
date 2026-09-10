@@ -1,0 +1,162 @@
+{
+  "@id": "dtmi:com:syyclops:Louver;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Louver"
+  },
+  "extends": [
+    "dtmi:com:syyclops:AirInletsOutlets;1"
+  ],
+  "contents": [
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Airflow"
+      },
+      "name": "designAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:designAirflow;1",
+      "description": {
+        "en": "Design Airflow of the Louver, carried by the \"AIRFLOW\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Airflow Unit"
+      },
+      "name": "designAirflowUnit",
+      "annotates": "designAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:designAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Airflow on the Louver."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Velocity"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity"
+      },
+      "name": "designFaceVelocity",
+      "schema": "double",
+      "unit": "footPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:designFaceVelocity;1",
+      "description": {
+        "en": "Design Face Velocity of the Louver, carried by the \"FPM\" column of the mechanical equipment schedules. Expressed in footPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity Unit"
+      },
+      "name": "designFaceVelocityUnit",
+      "annotates": "designFaceVelocity",
+      "overrides": "unit",
+      "schema": "VelocityUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:designFaceVelocityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Face Velocity on the Louver."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Area"
+      ],
+      "displayName": {
+        "en": "Required Free Area"
+      },
+      "name": "requiredFreeArea",
+      "schema": "double",
+      "unit": "squareFoot",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:requiredFreeArea;1",
+      "description": {
+        "en": "Required Free Area of the Louver, carried by the \"FREE AREA REQUIRED (SQ.FT)\" column of the mechanical equipment schedules. Expressed in squareFoot."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Required Free Area Unit"
+      },
+      "name": "requiredFreeAreaUnit",
+      "annotates": "requiredFreeArea",
+      "overrides": "unit",
+      "schema": "AreaUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:requiredFreeAreaUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Required Free Area on the Louver."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop"
+      },
+      "name": "designPressureDrop",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:designPressureDrop;1",
+      "description": {
+        "en": "Design Pressure Drop of the Louver, carried by the \"APD (IN WC)\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop Unit"
+      },
+      "name": "designPressureDropUnit",
+      "annotates": "designPressureDrop",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Louver:designPressureDropUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Pressure Drop on the Louver."
+      }
+    }
+  ],
+  "@context": [
+    "dtmi:dtdl:context;3"
+  ],
+  "description": {
+    "en": "A fixed or operable louver on a building envelope opening, sized for an intake or exhaust airflow at a given free area and pressure drop."
+  }
+}

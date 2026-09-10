@@ -7,7 +7,250 @@
   "extends": [
     "dtmi:com:syyclops:HVACAirTreatment;1"
   ],
-  "contents": [],
+  "contents": [
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Type"
+      },
+      "name": "type",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:type;1",
+      "description": {
+        "en": "Type of the Humidifier, carried by the \"TYPE (Electrode Steam)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Airflow"
+      },
+      "name": "designAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designAirflow;1",
+      "description": {
+        "en": "Design Airflow of the Humidifier, carried by the \"AIR FLOW (CFM TOTAL)\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Airflow Unit"
+      },
+      "name": "designAirflowUnit",
+      "annotates": "designAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Airflow on the Humidifier."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow"
+      },
+      "name": "designOutsideAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designOutsideAirflow;1",
+      "description": {
+        "en": "Design Outside Airflow of the Humidifier, carried by the \"AIR FLOW (CFM OA)\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Outside Airflow Unit"
+      },
+      "name": "designOutsideAirflowUnit",
+      "annotates": "designOutsideAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designOutsideAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Outside Airflow on the Humidifier."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "MassFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Steam Output"
+      },
+      "name": "designSteamOutput",
+      "schema": "double",
+      "unit": "massPoundPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designSteamOutput;1",
+      "description": {
+        "en": "Design Steam Output of the Humidifier, carried by the \"MIN. CAPACITY (LBS/HR)\" column of the mechanical equipment schedules. Expressed in massPoundPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Steam Output Unit"
+      },
+      "name": "designSteamOutputUnit",
+      "annotates": "designSteamOutput",
+      "overrides": "unit",
+      "schema": "MassFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designSteamOutputUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Steam Output on the Humidifier."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Steam Supply Pressure"
+      },
+      "name": "steamSupplyPressure",
+      "schema": "double",
+      "unit": "poundPerSquareInch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:steamSupplyPressure;1",
+      "description": {
+        "en": "Steam Supply Pressure of the Humidifier, carried by the \"STEAM PRESSURE AT CONTROL VALVE\" column of the mechanical equipment schedules. Expressed in poundPerSquareInch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Steam Supply Pressure Unit"
+      },
+      "name": "steamSupplyPressureUnit",
+      "annotates": "steamSupplyPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:steamSupplyPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Steam Supply Pressure on the Humidifier."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Non Wetting Distance"
+      },
+      "name": "nonWettingDistance",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:nonWettingDistance;1",
+      "description": {
+        "en": "Non Wetting Distance of the Humidifier, carried by the \"NON WETTING DISTANCE / THROW\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Non Wetting Distance Unit"
+      },
+      "name": "nonWettingDistanceUnit",
+      "annotates": "nonWettingDistance",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:nonWettingDistanceUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Non Wetting Distance on the Humidifier."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Design Leaving Air Humidity Ratio"
+      },
+      "name": "designLeavingAirHumidityRatio",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:designLeavingAirHumidityRatio;1",
+      "description": {
+        "en": "Design Leaving Air Humidity Ratio of the Humidifier, carried by the \"LEAVING CONDITIONS (GR./LB)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power Input"
+      },
+      "name": "powerInput",
+      "schema": "double",
+      "unit": "kilowatt",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:powerInput;1",
+      "description": {
+        "en": "Power Input of the Humidifier, carried by the \"ELECTRICAL DATA / KW\" column of the mechanical equipment schedules. Expressed in kilowatt."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Power Input Unit"
+      },
+      "name": "powerInputUnit",
+      "annotates": "powerInput",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Humidifier:powerInputUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Power Input on the Humidifier."
+      }
+    }
+  ],
   "@context": [
     "dtmi:dtdl:context;3"
   ],

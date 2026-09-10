@@ -50,6 +50,212 @@
       "description": {
         "en": "This property defines the type of expansion tank used in plumbing applications."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Tank Type"
+      },
+      "name": "tankType",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:tankType;1",
+      "description": {
+        "en": "Tank Type of the Expansion Tank, carried by the \"VOLUME / TANK TYPE (Expansion)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Volume"
+      ],
+      "displayName": {
+        "en": "Acceptance Volume"
+      },
+      "name": "acceptanceVolume",
+      "schema": "double",
+      "unit": "gallon",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:acceptanceVolume;1",
+      "description": {
+        "en": "Acceptance Volume of the Expansion Tank, carried by the \"VOLUME / ACCEPTANCE\" column of the mechanical equipment schedules. Expressed in gallon."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Acceptance Volume Unit"
+      },
+      "name": "acceptanceVolumeUnit",
+      "annotates": "acceptanceVolume",
+      "overrides": "unit",
+      "schema": "VolumeUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:acceptanceVolumeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Acceptance Volume on the Expansion Tank."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "System Connection Type"
+      },
+      "name": "systemConnectionType",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:systemConnectionType;1",
+      "description": {
+        "en": "System Connection Type of the Expansion Tank, carried by the \"CONNECTION SIZE / SYSTEM TYPE\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Drain Connection Size"
+      },
+      "name": "drainConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:drainConnectionSize;1",
+      "description": {
+        "en": "Drain Connection Size of the Expansion Tank, carried by the \"CONNECTION SIZE / DRAIN\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Drain Connection Size Unit"
+      },
+      "name": "drainConnectionSizeUnit",
+      "annotates": "drainConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:drainConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Drain Connection Size on the Expansion Tank."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Precharge Pressure"
+      },
+      "name": "prechargePressure",
+      "schema": "double",
+      "unit": "poundPerSquareInch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:prechargePressure;1",
+      "description": {
+        "en": "Precharge Pressure of the Expansion Tank, carried by the \"PRESSURE / PRE-CHARGE\" column of the mechanical equipment schedules. Expressed in poundPerSquareInch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Precharge Pressure Unit"
+      },
+      "name": "prechargePressureUnit",
+      "annotates": "prechargePressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:prechargePressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Precharge Pressure on the Expansion Tank."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Working Pressure"
+      },
+      "name": "workingPressure",
+      "schema": "double",
+      "unit": "poundPerSquareInch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:workingPressure;1",
+      "description": {
+        "en": "Working Pressure of the Expansion Tank, carried by the \"MAXIMUM WORKING PRESSURE\" column of the mechanical equipment schedules. Expressed in poundPerSquareInch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Working Pressure Unit"
+      },
+      "name": "workingPressureUnit",
+      "annotates": "workingPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:workingPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Working Pressure on the Expansion Tank."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Diameter"
+      },
+      "name": "diameter",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:diameter;1",
+      "description": {
+        "en": "Diameter of the Expansion Tank, carried by the \"TANK DIMENSION / DIAMETER\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Diameter Unit"
+      },
+      "name": "diameterUnit",
+      "annotates": "diameter",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:PlumbingExpansionTank:diameterUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Diameter on the Expansion Tank."
+      }
     }
   ],
   "@context": [

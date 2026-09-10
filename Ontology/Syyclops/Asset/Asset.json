@@ -923,6 +923,19 @@
       "description": {
         "en": "The customProperties property allows for the inclusion of user-defined attributes of the asset."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Service"
+      },
+      "name": "service",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Asset:service;1",
+      "description": {
+        "en": "Service of the Asset, carried by the \"SERVICE / SERVING\" column of the mechanical equipment schedules."
+      }
     }
   ],
   "schemas": [

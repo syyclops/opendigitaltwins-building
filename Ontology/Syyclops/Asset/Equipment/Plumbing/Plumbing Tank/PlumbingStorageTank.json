@@ -77,44 +77,6 @@
       "description": {
         "en": "This property indicates the arrangement style of the plumbing storage tank."
       }
-    },
-    {
-      "@type": "Property",
-      "name": "service",
-      "displayName": {
-        "en": "Service"
-      },
-      "writable": true,
-      "schema": {
-        "@id": "dtmi:com:syyclops:PlumbingStorageTankService;1",
-        "@type": "Enum",
-        "valueSchema": "string",
-        "enumValues": [
-          {
-            "name": "HotWater",
-            "displayName": {
-              "en": "Hot Water"
-            },
-            "enumValue": "HotWater",
-            "@id": "dtmi:com:syyclops:PlumbingStorageTank:EE3;1"
-          },
-          {
-            "name": "ChilledWater",
-            "displayName": {
-              "en": "Chilled Water"
-            },
-            "enumValue": "ChilledWater",
-            "@id": "dtmi:com:syyclops:PlumbingStorageTank:EE4;1"
-          }
-        ],
-        "displayName": {
-          "en": "Plumbing Storage Tank Service"
-        }
-      },
-      "@id": "dtmi:com:syyclops:PlumbingStorageTank:service;1",
-      "description": {
-        "en": "This property outlines the service capabilities of the plumbing storage tank."
-      }
     }
   ],
   "@context": [

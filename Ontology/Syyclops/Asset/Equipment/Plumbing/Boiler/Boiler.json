@@ -304,6 +304,284 @@
       "description": {
         "en": "Specifies the unit of measurement for the delta water temperature."
       }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Thermal Efficiency"
+      },
+      "name": "thermalEfficiency",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:thermalEfficiency;1",
+      "description": {
+        "en": "Thermal Efficiency of the Boiler, carried by the \"Efficiency (%)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Fuel Type"
+      },
+      "name": "fuelType",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:fuelType;1",
+      "description": {
+        "en": "Fuel Type of the Boiler, carried by the \"Fuel Type\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Gas Supply Pressure"
+      },
+      "name": "gasSupplyPressure",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:gasSupplyPressure;1",
+      "description": {
+        "en": "Gas Supply Pressure of the Boiler, carried by the \"Gas Pressure (In WC)\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Gas Supply Pressure Unit"
+      },
+      "name": "gasSupplyPressureUnit",
+      "annotates": "gasSupplyPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:gasSupplyPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Gas Supply Pressure on the Boiler."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Length"
+      ],
+      "displayName": {
+        "en": "Flue Connection Size"
+      },
+      "name": "flueConnectionSize",
+      "schema": "double",
+      "unit": "inch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:flueConnectionSize;1",
+      "description": {
+        "en": "Flue Connection Size of the Boiler, carried by the \"Flue Connect In\" column of the mechanical equipment schedules. Expressed in inch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Flue Connection Size Unit"
+      },
+      "name": "flueConnectionSizeUnit",
+      "annotates": "flueConnectionSize",
+      "overrides": "unit",
+      "schema": "LengthUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:flueConnectionSizeUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Flue Connection Size on the Boiler."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Max Fuel Inlet Pressure"
+      },
+      "name": "maxFuelInletPressure",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:maxFuelInletPressure;1",
+      "description": {
+        "en": "Max Fuel Inlet Pressure of the Boiler, carried by the \"Max Gas In. WC\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Max Fuel Inlet Pressure Unit"
+      },
+      "name": "maxFuelInletPressureUnit",
+      "annotates": "maxFuelInletPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:maxFuelInletPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Max Fuel Inlet Pressure on the Boiler."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Min Fuel Inlet Pressure"
+      },
+      "name": "minFuelInletPressure",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:minFuelInletPressure;1",
+      "description": {
+        "en": "Min Fuel Inlet Pressure of the Boiler, carried by the \"Min Gas In WC\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Min Fuel Inlet Pressure Unit"
+      },
+      "name": "minFuelInletPressureUnit",
+      "annotates": "minFuelInletPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:minFuelInletPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Min Fuel Inlet Pressure on the Boiler."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Operating Pressure"
+      },
+      "name": "operatingPressure",
+      "schema": "double",
+      "unit": "poundPerSquareInch",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:operatingPressure;1",
+      "description": {
+        "en": "Operating Pressure of the Boiler, carried by the \"Boiler Operating Pressure (PSIG)\" column of the mechanical equipment schedules. Expressed in poundPerSquareInch."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Operating Pressure Unit"
+      },
+      "name": "operatingPressureUnit",
+      "annotates": "operatingPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:operatingPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Operating Pressure on the Boiler."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Flow Capacity"
+      },
+      "name": "flowCapacity",
+      "schema": "double",
+      "unit": "gallonPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:flowCapacity;1",
+      "description": {
+        "en": "Flow Capacity of the Boiler, carried by the \"Flow (GPM) / FLOW RATE\" column of the mechanical equipment schedules. Expressed in gallonPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Flow Capacity Unit"
+      },
+      "name": "flowCapacityUnit",
+      "annotates": "flowCapacity",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:flowCapacityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Flow Capacity on the Boiler."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop"
+      },
+      "name": "designPressureDrop",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:designPressureDrop;1",
+      "description": {
+        "en": "Design Pressure Drop of the Boiler, carried by the \"Pressure Drop (FT of Water) / MAX. PD\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop Unit"
+      },
+      "name": "designPressureDropUnit",
+      "annotates": "designPressureDrop",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:Boiler:designPressureDropUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Pressure Drop on the Boiler."
+      }
     }
   ],
   "@context": [

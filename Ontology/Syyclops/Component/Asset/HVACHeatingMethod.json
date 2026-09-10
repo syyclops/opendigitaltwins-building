@@ -400,6 +400,189 @@
       "description": {
         "en": "Specifies the unit of measurement for the design pressure drop in HVAC heating methods."
       }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Nominal Heating Capacity"
+      },
+      "name": "nominalHeatingCapacity",
+      "schema": "double",
+      "unit": "kiloBritishThermalUnitPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:nominalHeatingCapacity;1",
+      "description": {
+        "en": "Nominal Heating Capacity of the Heating Method, carried by the \"coil Sensible/Total CAP (MBH)\" column of the mechanical equipment schedules. Expressed in kiloBritishThermalUnitPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Nominal Heating Capacity Unit"
+      },
+      "name": "nominalHeatingCapacityUnit",
+      "annotates": "nominalHeatingCapacity",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:nominalHeatingCapacityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Nominal Heating Capacity on the Heating Method."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power Input"
+      },
+      "name": "powerInput",
+      "schema": "double",
+      "unit": "kilowatt",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:powerInput;1",
+      "description": {
+        "en": "Power Input of the Heating Method, carried by the \"Reheat KW, gas INPUT (MBH)\" column of the mechanical equipment schedules. Expressed in kilowatt."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Power Input Unit"
+      },
+      "name": "powerInputUnit",
+      "annotates": "powerInput",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:powerInputUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Power Input on the Heating Method."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Power"
+      ],
+      "displayName": {
+        "en": "Power Output"
+      },
+      "name": "powerOutput",
+      "schema": "double",
+      "unit": "kiloBritishThermalUnitPerHour",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:powerOutput;1",
+      "description": {
+        "en": "Power Output of the Heating Method, carried by the \"gas OUTPUT (MBH)\" column of the mechanical equipment schedules. Expressed in kiloBritishThermalUnitPerHour."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Power Output Unit"
+      },
+      "name": "powerOutputUnit",
+      "annotates": "powerOutput",
+      "overrides": "unit",
+      "schema": "PowerUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:powerOutputUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Power Output on the Heating Method."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Number Of Stages"
+      },
+      "name": "numberOfStages",
+      "schema": "integer",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:numberOfStages;1",
+      "description": {
+        "en": "Number Of Stages of the Heating Method, carried by the \"Reheat STEPS\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Fuel Type"
+      },
+      "name": "fuelType",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:fuelType;1",
+      "description": {
+        "en": "Fuel Type of the Heating Method, carried by the \"HEATING FUEL TYPE\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Thermal Efficiency"
+      },
+      "name": "thermalEfficiency",
+      "schema": "double",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:thermalEfficiency;1",
+      "description": {
+        "en": "Thermal Efficiency of the Heating Method, carried by the \"HEATING EFFICIENCY (%)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Gas Supply Pressure"
+      },
+      "name": "gasSupplyPressure",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:gasSupplyPressure;1",
+      "description": {
+        "en": "Gas Supply Pressure of the Heating Method, carried by the \"GAS PRESSURE (IN WC)\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Gas Supply Pressure Unit"
+      },
+      "name": "gasSupplyPressureUnit",
+      "annotates": "gasSupplyPressure",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:HVACHeatingMethod:gasSupplyPressureUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Gas Supply Pressure on the Heating Method."
+      }
     }
   ],
   "@context": [

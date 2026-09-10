@@ -19,6 +19,263 @@
       "description": {
         "en": "Defines the duct inlet component of a duct silencer interface, facilitating sound attenuation."
       }
+    },
+    {
+      "@type": [
+        "Property",
+        "VolumeFlowRate"
+      ],
+      "displayName": {
+        "en": "Design Airflow"
+      },
+      "name": "designAirflow",
+      "schema": "double",
+      "unit": "cubicFootPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:designAirflow;1",
+      "description": {
+        "en": "Design Airflow of the Duct Silencer, carried by the \"AIRFLOW (CFM)\" column of the mechanical equipment schedules. Expressed in cubicFootPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Airflow Unit"
+      },
+      "name": "designAirflowUnit",
+      "annotates": "designAirflow",
+      "overrides": "unit",
+      "schema": "VolumeFlowRateUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:designAirflowUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Airflow on the Duct Silencer."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Velocity"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity"
+      },
+      "name": "designFaceVelocity",
+      "schema": "double",
+      "unit": "footPerMinute",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:designFaceVelocity;1",
+      "description": {
+        "en": "Design Face Velocity of the Duct Silencer, carried by the \"FACE VELOCITY (FPM)\" column of the mechanical equipment schedules. Expressed in footPerMinute."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Face Velocity Unit"
+      },
+      "name": "designFaceVelocityUnit",
+      "annotates": "designFaceVelocity",
+      "overrides": "unit",
+      "schema": "VelocityUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:designFaceVelocityUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Face Velocity on the Duct Silencer."
+      }
+    },
+    {
+      "@type": "Property",
+      "displayName": {
+        "en": "Airflow Direction"
+      },
+      "name": "airflowDirection",
+      "schema": "string",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:airflowDirection;1",
+      "description": {
+        "en": "Airflow Direction of the Duct Silencer, carried by the \"AIRFLOW DIRECTION (+/-)\" column of the mechanical equipment schedules."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "Pressure"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop"
+      },
+      "name": "designPressureDrop",
+      "schema": "double",
+      "unit": "inchesOfWater",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:designPressureDrop;1",
+      "description": {
+        "en": "Design Pressure Drop of the Duct Silencer, carried by the \"MAX PD (IN. WC.)\" column of the mechanical equipment schedules. Expressed in inchesOfWater."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "ValueAnnotation",
+        "Override"
+      ],
+      "displayName": {
+        "en": "Design Pressure Drop Unit"
+      },
+      "name": "designPressureDropUnit",
+      "annotates": "designPressureDrop",
+      "overrides": "unit",
+      "schema": "PressureUnit",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:designPressureDropUnit;1",
+      "description": {
+        "en": "Unit of measure recorded for Design Pressure Drop on the Duct Silencer."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 63 Hz"
+      },
+      "name": "insertionLoss63Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss63Hz;1",
+      "description": {
+        "en": "Insertion Loss 63 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 63 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 125 Hz"
+      },
+      "name": "insertionLoss125Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss125Hz;1",
+      "description": {
+        "en": "Insertion Loss 125 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 125 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 250 Hz"
+      },
+      "name": "insertionLoss250Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss250Hz;1",
+      "description": {
+        "en": "Insertion Loss 250 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 250 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 500 Hz"
+      },
+      "name": "insertionLoss500Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss500Hz;1",
+      "description": {
+        "en": "Insertion Loss 500 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 500 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 1000 Hz"
+      },
+      "name": "insertionLoss1000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss1000Hz;1",
+      "description": {
+        "en": "Insertion Loss 1000 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 1000 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 2000 Hz"
+      },
+      "name": "insertionLoss2000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss2000Hz;1",
+      "description": {
+        "en": "Insertion Loss 2000 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 2000 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 4000 Hz"
+      },
+      "name": "insertionLoss4000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss4000Hz;1",
+      "description": {
+        "en": "Insertion Loss 4000 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 4000 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
+    },
+    {
+      "@type": [
+        "Property",
+        "SoundPressure"
+      ],
+      "displayName": {
+        "en": "Insertion Loss 8000 Hz"
+      },
+      "name": "insertionLoss8000Hz",
+      "schema": "double",
+      "unit": "decibel",
+      "writable": true,
+      "@id": "dtmi:com:syyclops:DuctSilencer:insertionLoss8000Hz;1",
+      "description": {
+        "en": "Insertion Loss 8000 Hz of the Duct Silencer, carried by the \"INSERTION LOSS 8000 Hz\" column of the mechanical equipment schedules. Expressed in decibel."
+      }
     }
   ],
   "@context": [
